@@ -1,0 +1,240 @@
+Symmetry Island Laser Activated
+Desert Laser Activated
+Quarry Laser Activated
+Shadows Laser Activated
+Keep Laser Activated
+Monastery Laser Activated
+Town Laser Activated
+Jungle Laser Activated
+Bunker Laser Activated
+Swamp Laser Activated
+Treehouse Laser Activated
+Tutorial First Hallway EP
+Tutorial Front Left
+Tutorial Back Left
+Tutorial Back Right
+Tutorial Gate Open
+Tutorial Cloud EP
+Outside Tutorial Shed Row 5
+Outside Tutorial Shed Row 5 Solved: Bunker Laser Activation
+Outside Tutorial Tree Row 9
+Outside Tutorial Tree Row 9 Solved: Shadows Laser Activation
+Outside Tutorial Garden EP
+Outside Tutorial Town Sewer EP
+Outside Tutorial Path EP
+Outside Tutorial Tractor EP
+Outside Tutorial Outpost Entry Panel
+Outside Tutorial Outpost Exit Panel
+Outside Tutorial Discard
+Outside Tutorial Discard Solved: Town Tower 4th Door Opens
+Glass Factory Entry Panel
+Glass Factory Discard
+Glass Factory Discard Solved: Town Tower 4th Door Opens
+Glass Factory Vase EP
+Glass Factory Back Wall 5
+Glass Factory Front 3
+Glass Factory Melting 3
+Symmetry Island Lower Panel
+Symmetry Island Right 5
+Symmetry Island Back 6
+Symmetry Island Left 7
+Symmetry Island Upper Panel
+Symmetry Island Glass Factory Black Line Reflection EP
+Symmetry Island Laser Yellow 3
+Symmetry Island Laser Yellow 3 Solved: Monastery Laser Activation
+Symmetry Island Laser Blue 3
+Symmetry Island Laser Panel
+Symmetry Island Glass Factory Black Line EP
+Desert Discard
+Desert Discard Solved: Monastery Laser Activation
+Desert Surface 8
+Desert Laser Panel
+Desert Laser Activated + Redirected Solved: +1 Laser (Redirected)
+Desert Sand Snake EP
+Desert Facade Right EP
+Desert Facade Left EP
+Desert Stairs Left EP
+Desert Stairs Right EP
+Desert Broken Wall Straight EP
+Desert Broken Wall Bend EP
+Desert Shore EP
+Desert Island EP
+Desert Light Room 3
+Desert Pond Room 5
+Desert Pond Room Near Reflection EP
+Desert Pond Room Far Reflection EP
+Desert Flood Room 6
+Desert Flood Room EP: Excluded
+Desert Elevator Room Hexagonal
+Desert Elevator Room Bent 3
+Desert Elevator EP
+Quarry Entry 1 Panel
+Quarry Discard
+Quarry Laser Panel
+Quarry Shore EP
+Quarry Entrance Pipe EP
+Quarry Sand Pile EP
+Quarry Rock Line EP
+Quarry Rock Line Reflection EP
+Quarry Railroad EP: Excluded
+Quarry Entry 2 Panel
+Quarry Stoneworks Entry Left Panel
+Quarry Stoneworks Entry Right Panel
+Quarry Stoneworks Lower Row 6
+Quarry Stoneworks Upper Row 8
+Quarry Stoneworks Stairs Panel
+Quarry Stoneworks Control Room Left
+Quarry Stoneworks Control Room Right
+Quarry Stoneworks Ramp EP
+Quarry Stoneworks Lift EP: Excluded
+Quarry Boathouse Intro Left
+Quarry Boathouse Intro Right
+Quarry Boathouse Front Row 5
+Quarry Boathouse Moving Ramp EP: Excluded
+Quarry Boathouse Back First Row 9
+Quarry Boathouse Back Second Row 3
+Quarry Boathouse Hook EP
+Shadows Quarry Stoneworks Rooftop Vent EP
+Keep Red Flowers EP
+Keep Purple Flowers EP
+Keep Pressure Plates 1
+Keep Pressure Plates 2
+Keep Pressure Plates 3
+Keep Pressure Plates 4
+Keep Discard
+Keep Discard Solved: Jungle Popup Wall Lifts
+Keep Laser Panel Pressure Plates
+Keep Pressure Plates 1 EP
+Keep Pressure Plates 2 EP
+Keep Pressure Plates 3 EP
+Keep Pressure Plates 4 Left Exit EP
+Keep Pressure Plates 4 Right Exit EP
+Keep Path EP
+Keep Hedges EP
+Shipwreck Discard
+Shipwreck Discard Solved: Shadows Laser Activation
+Shipwreck Circle Far EP
+Shipwreck Circle Left EP
+Shipwreck Circle Near EP
+Shipwreck Stern EP
+Shipwreck Rope Inner EP
+Shipwreck Rope Outer EP
+Monastery Facade Left Near EP
+Monastery Facade Left Far Short EP
+Monastery Facade Left Far Long EP
+Monastery Facade Right Near EP
+Monastery Facade Left Stairs EP
+Monastery Facade Right Stairs EP
+Monastery Grass Stairs EP
+Monastery Garden Right EP
+Monastery Wall EP
+Town Cargo Box Entry Panel
+Town Desert Laser Redirect Control Solved: Desert Laser Redirection
+Town Wooden Roof Lower Row 5
+Town RGB House Entry Panel
+Town Church Entry Panel
+Town Maze Panel
+Town Tower Underside Third EP
+Town Tower Underside Fourth EP
+Town Tower Underside First EP
+Town Tower Underside Second EP
+Town RGB House Green EP
+Town Maze Bridge Underside EP
+Town Black Line Redirect EP
+Town Pet the Dog: Puzzle Skip
+Town Cargo Box Discard
+Town Cargo Box Discard Solved: Bunker Laser Activation
+Town RGB House Red EP
+Town Rooftop Discard
+Town Rooftop Discard Solved: Shadows Laser Activation
+Town Red Rooftop 5
+Town Wooden Rooftop
+Town Church Lattice
+Town Black Line Church EP
+Town RGB House Sound Room Right
+Town RGB House Upstairs Left
+Town RGB House Upstairs Right
+Town Laser Panel
+Town Brown Bridge EP
+Town Black Line Tower EP
+Windmill First Blade EP: Excluded
+Windmill Entry Panel
+Windmill Theater Entry Panel
+Theater Exit Left Panel
+Theater Exit Right Panel
+Theater Discard
+Theater Discard Solved: Town Tower 4th Door Opens
+Jungle Discard
+Jungle Discard Solved: Jungle Popup Wall Lifts
+Jungle Popup Wall Control Solved: Jungle Popup Wall Lifts
+Jungle Popup Wall 6
+Jungle Laser Panel
+Jungle Long Arch Moss EP
+Jungle Straight Left Moss EP
+Jungle Pop-up Wall Moss EP
+Jungle Short Arch Moss EP
+Jungle Entrance EP
+Jungle Tree Halo EP
+Jungle Bamboo CCW EP
+Jungle Bamboo CW EP
+Jungle Green Leaf Moss EP
+Swamp Entry Panel
+Swamp Purple Sand Middle EP: Excluded
+Swamp Purple Sand Top EP: Excluded
+Swamp Purple Sand Bottom EP: Excluded
+Swamp Intro Front 6
+Swamp Intro Back 8
+Swamp Sliding Bridge Left EP: Excluded
+Swamp Sliding Bridge Right EP: Excluded
+Swamp Platform Row 4
+Swamp Platform Shortcut Right Panel
+Swamp Cyan Underwater 5
+Swamp Cyan Underwater Sliding Bridge EP: Excluded
+Swamp Between Bridges Near Row 4
+Swamp Between Bridges Far Row 4
+Swamp Red Underwater 4
+Swamp Beyond Rotating Bridge 4
+Swamp Boat EP
+Swamp Long Bridge Side EP: Excluded
+Swamp Purple Underwater
+Swamp Purple Underwater Right EP
+Swamp Purple Underwater Left EP
+Swamp Blue Underwater 5
+Swamp Laser Panel
+Swamp Laser Shortcut Right Panel
+Treehouse Beach Rock Shadow EP
+Treehouse Beach Sand Shadow EP
+Treehouse First Door Panel
+Treehouse Buoy EP: Excluded
+Treehouse Second Door Panel
+Treehouse Yellow Bridge 9
+Treehouse Third Door Panel
+Treehouse First Purple Bridge 5
+Treehouse Right Orange Bridge 12
+Treehouse Drawbridge Panel
+Treehouse Second Purple Bridge 7
+Treehouse Left Orange Bridge 15
+Treehouse Green Bridge 7
+Treehouse Green Bridge Discard
+Treehouse Green Bridge Discard Solved: Monastery Laser Activation
+Treehouse Right Orange Bridge EP
+Treehouse Laser Discard
+Treehouse Laser Discard Solved: Jungle Popup Wall Lifts
+Treehouse Burned House Beach EP
+Treehouse Laser Panel
+Mountainside Thundercloud EP
+Mountainside Discard
+Mountainside Discard Solved: Bunker Laser Activation
+Mountainside Bush EP
+Mountainside Apparent River EP
+Mountaintop River Shape
+Mountaintop Box Short Solved: Victory
+Mountaintop River Shape EP
+Mountaintop Arch Black EP
+Mountaintop Arch White Right EP
+Mountaintop Arch White Left EP
+Boat Desert EP: Excluded
+Boat Bunker Yellow Line EP: Excluded
+Boat Town Long Sewer EP: Excluded
+Boat Tutorial Moss EP: Excluded
+Boat Cargo Box EP: Excluded

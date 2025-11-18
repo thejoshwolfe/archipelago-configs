@@ -1,0 +1,30 @@
++1 Laser (x10)
++1 Laser (Unredirected)
++1 Laser (Redirected)
+Desert Laser Redirection
+Bunker Laser Activation (x3)
+Monastery Laser Activation (x3)
+Shadows Laser Activation (x3)
+Jungle Popup Wall Lifts (x4)
+Town Tower 4th Door Opens (x3)
+Victory
+
+Boat
+
+Progressive Stars (x2)
+Progressive Symmetry (x2)
+Progressive Dots (x2)
+Sound Dots
+Black/White Squares
+Colored Squares
+Shapers
+Rotated Shapers
+Negative Shapers
+Eraser
+Triangles
+
+Puzzle Skip (filler)
+Speed Boost (filler)
+Slowness (filler)
+Bonk (filler)
+Functioning Brain (filler)
