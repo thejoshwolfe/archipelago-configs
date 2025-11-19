@@ -6,7 +6,7 @@ The Witness:
   accessibility: full
   puzzle_randomization: sigma_normal
   victory_condition: mountain_box_short
-  mountain_lasers: '4'
+  mountain_lasers: '5'
   challenge_lasers: '11'
   panel_hunt_required_percentage: '63'
   panel_hunt_total: '40'
