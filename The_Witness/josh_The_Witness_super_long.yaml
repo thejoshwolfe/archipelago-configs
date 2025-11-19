@@ -26,7 +26,7 @@ The Witness:
   shuffle_boat: 'true'
   obelisk_keys: 'false'
   unlockable_warps: 'true'
-  puzzle_skip_amount: '69'
+  puzzle_skip_amount: '30'
   trap_percentage: '10'
   hint_amount: '12'
   vague_hints: 'off'
