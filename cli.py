@@ -63,10 +63,9 @@ def main():
         "The save file called Archipelago.zip goes there, and this script throws stuff in there as well.")
 
     sub_parser = subparsers.add_parser("factorio-client", help=
-        "")
+        "Installs the given mod into your client's mods folder ~/.factorio/mods/ and deletes all other AP-* mods.")
     sub_parser.add_argument("--mod", metavar="/path/to/AP-*.zip", required=True, help=
-        "The mod .zip produced by the 'generate' command. It's got your slot name in the file name. "
-        "This command installs the mod into ~/.factorio/mods/ and never deletes it.")
+        "The mod .zip produced by the 'generate' command. It's got your slot name in the file name.")
 
     args = parser.parse_args()
 
@@ -208,6 +207,10 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
     for mod in mod_list["mods"]:
         if mod["name"] == "space-age":
             mod["enabled"] = False
+        elif mod["name"] in ("elevated-rails", "quality"):
+            # These mods do work, sorta, but they're excluded from the randomization experience.
+            # Not necessary. Turn them off.
+            mod["enabled"] = False
     # Enable the new mod.
     mod_list["mods"].append({"name": ap_mod_name, "enabled": True})
     with open(os.path.join(mods_dir, "mod-list.json"), "w") as f:
@@ -238,6 +241,12 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
 
 def do_factorio_client(mod_source_path):
     mods_dir = os.path.expanduser("~/.factorio/mods")
+    for name in os.listdir(mods_dir):
+        if name.startswith("AP-") and name.endswith(".zip"):
+            path = os.path.join(mods_dir, name)
+            print("INFO: deleting old AP mod: " + path)
+            os.remove(path)
+
     shutil.copy(mod_source_path, mods_dir + "/")
 
 def ap_cmd(script, *args, suppress_auto_install=True, input=b'', cwd=None, os_exec=False, repo):

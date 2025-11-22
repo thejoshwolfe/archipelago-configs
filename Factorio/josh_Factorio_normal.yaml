@@ -28,13 +28,21 @@ Factorio:
     burner-mining-drill: 4
     #raw-fish: 50
     stone-furnace: 4
+    # Let's start ~~fast~~
+    power-armor: 1
+    fission-reactor-equipment: 1
+    battery-equipment: 2
+    personal-roboport-equipment: 1
+    exoskeleton-equipment: 3
+    construction-robot: 10
 
+  # Use https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
+  # These settings are inspired by the "Rail World" preset.
+  # No enemies.
   world_gen:
-    # World Generation settings. Overview of options at https://wiki.factorio.com/Map_generator,
-    # with in-depth documentation at https://lua-api.factorio.com/latest/concepts/MapGenSettings.html
     autoplace_controls:
       coal:
-        frequency: 1
+        frequency: 0.25
         richness: 6
         size: 3
       copper-ore:
@@ -42,7 +50,7 @@ Factorio:
         richness: 6
         size: 3
       crude-oil:
-        frequency: 1
+        frequency: 0.5
         richness: 6
         size: 3
       enemy-base:
@@ -62,21 +70,21 @@ Factorio:
         richness: 1
         size: 1
       stone:
-        frequency: 1
+        frequency: 0.25
         richness: 6
         size: 3
       trees:
         frequency: 1
         richness: 1
-        size: 1
+        size: 0.25
       uranium-ore:
-        frequency: 1
+        frequency: 0.25
         richness: 6
-        size: 3
-      water:
-        frequency: 1
-        richness: 1
         size: 1
+      water:
+        frequency: 0.5
+        richness: 1
+        size: 1.5
     cliff_settings:
       cliff_elevation_0: 10
       cliff_elevation_interval: 40
@@ -95,12 +103,12 @@ Factorio:
       settler_group_max_size: 20
       settler_group_min_size: 5
     peaceful_mode: false
-    # Changed this one:
+    # No enemies
     no_enemies_mode: true
     pollution:
       ageing: 1
       diffusion_ratio: 0.02
-      # Changed this one:
+      # No pollution
       enabled: false
       enemy_attack_pollution_consumption_modifier: 1
       min_pollution_to_damage_trees: 60
