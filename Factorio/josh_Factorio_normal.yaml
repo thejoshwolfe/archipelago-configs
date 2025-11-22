@@ -95,10 +95,13 @@ Factorio:
       settler_group_max_size: 20
       settler_group_min_size: 5
     peaceful_mode: false
+    # Changed this one:
+    no_enemies_mode: true
     pollution:
       ageing: 1
       diffusion_ratio: 0.02
-      enabled: true
+      # Changed this one:
+      enabled: false
       enemy_attack_pollution_consumption_modifier: 1
       min_pollution_to_damage_trees: 60
       pollution_restored_per_tree_damage: 10

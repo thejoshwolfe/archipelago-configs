@@ -37,7 +37,17 @@ def main():
         "Path(s) to player .yaml files. "
         "These get copied into a tmp dir and given to Generate.py '--player_files_path'. ")
 
-    sub_parser = subparsers.add_parser("factorio", help=
+    sub_parser = subparsers.add_parser("server", help=
+        "Calls MultiServer.py. Creates *.apsave next to the given *.archipelago. "
+        "Quit with /exit (not Ctrl+C) for clean shutdown.")
+    sub_parser.add_argument("--server-dir", help=
+        "The cwd for MultiServer.py. To configure server settings, edit the host.yaml in the server's cwd. "
+        "Run 'server' once and /exit to populate the the file with defaults, or manually create one or copy from --repo. "
+        "Defaults to --repo.")
+    sub_parser.add_argument("multidata", help=
+        "The AP_*.archipelago from the 'generate' command.")
+
+    sub_parser = subparsers.add_parser("factorio-server", help=
         "How I, a NixOS user, invoke the AP client for Factorio, which runs the Factorio headless server in a docker container. "
         "Requires docker and a downloaded standalone factorio installation. "
         "First, run 'generate' and start the archipelago server, then run this command. "
@@ -47,10 +57,16 @@ def main():
         "Download it from https://factorio.com/download . "
         "The dir should contain bin/, data/, etc.")
     sub_parser.add_argument("--mod", metavar="/path/to/AP-*.zip", required=True, help=
-        "The mod .zip produced by the 'generate' command. It's got your name in the file name.")
+        "The mod .zip produced by the 'generate' command. It's got your slot name in the file name.")
     sub_parser.add_argument("--server-dir", required=True, help=
         "The cwd for the factorio server. "
         "The save file called Archipelago.zip goes there, and this script throws stuff in there as well.")
+
+    sub_parser = subparsers.add_parser("factorio-client", help=
+        "")
+    sub_parser.add_argument("--mod", metavar="/path/to/AP-*.zip", required=True, help=
+        "The mod .zip produced by the 'generate' command. It's got your slot name in the file name. "
+        "This command installs the mod into ~/.factorio/mods/ and never deletes it.")
 
     args = parser.parse_args()
 
@@ -60,8 +76,12 @@ def main():
         do_init(args.repo)
     elif args.cmd == "generate":
         do_generate(args.repo, args.output_zip, args.output_dir, args.seed, args.player_yaml)
-    elif args.cmd == "factorio":
-        do_factorio(args.repo, args.mod, args.factorio, args.server_dir)
+    elif args.cmd == "server":
+        do_server(args.repo, args.server_dir, args.multidata)
+    elif args.cmd == "factorio-server":
+        do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir)
+    elif args.cmd == "factorio-client":
+        do_factorio_client(args.mod)
     else: assert False
 
 def do_update(repo):
@@ -144,8 +164,23 @@ def do_generate(repo, output_zip_path, output_dir, seed, player_yamls):
             shutil.copy(tmp_output_zip_path, output_zip_path)
         else: assert False
 
+def do_server(repo, server_dir, multidata_path):
+    # Do this check now before trusting the AP code with it:
+    if not os.path.isfile(multidata_path): raise FileNotFoundError(multidata_path)
+    try: os.mkdir(server_dir)
+    except FileExistsError: pass
 
-def do_factorio(repo, mod_source_path, factorio_root, server_dir):
+    host_yaml_path = os.path.join(server_dir, "host.yaml")
+    if not os.path.isfile(host_yaml_path):
+        # The file must exist for settings.py to recognize it.
+        # Create an empty yaml document (with the correct top level type).
+        with open(host_yaml_path, "w") as f:
+            f.write("{}\n")
+
+    ap_cmd("MultiServer.py", os.path.abspath(multidata_path), cwd=server_dir, input=None, repo=repo, os_exec=True)
+
+
+def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
     if not os.access(os.path.join(factorio_root, "bin/x64/factorio"), os.X_OK):
         sys.exit("ERROR: does not appear to be a factorio root: " + repr(factorio_root))
     # example name: AP-77091154303292394091-P1-josh_0.6.5.zip
@@ -199,12 +234,18 @@ def do_factorio(repo, mod_source_path, factorio_root, server_dir):
     with open(os.path.join(server_dir, "host.yaml"), "w") as f:
         json.dump(host_j, f)
 
-    ap_cmd("Launcher.py", "Factorio Client", "--", "--nogui", cwd=server_dir, input=None, repo=repo)
+    ap_cmd("Launcher.py", "Factorio Client", "--", "--nogui", cwd=server_dir, input=None, repo=repo, os_exec=True)
 
-def ap_cmd(script, *args, suppress_auto_install=True, input=b'', cwd=None, repo):
+def do_factorio_client(mod_source_path):
+    mods_dir = os.path.expanduser("~/.factorio/mods")
+    shutil.copy(mod_source_path, mods_dir + "/")
+
+def ap_cmd(script, *args, suppress_auto_install=True, input=b'', cwd=None, os_exec=False, repo):
     """ cwd defaults to repo """
     if cwd == None:
         cwd = repo
+
+    assert not (os_exec and input != None), "can't exec with piped stdin"
 
     env = os.environ.copy()
     if suppress_auto_install:
@@ -215,7 +256,13 @@ def ap_cmd(script, *args, suppress_auto_install=True, input=b'', cwd=None, repo)
     python_exe = os.path.join(repo, ".venv", "bin", "python")
     cmd = [python_exe, os.path.join(repo, script)]
     cmd.extend(args)
-    subprocess.run(cmd, check=True, env=env, input=input, cwd=cwd)
+
+    if os_exec:
+        os.chdir(cwd)
+        os.execvpe(cmd[0], cmd, env)
+        assert False, "unreachable"
+    else:
+        subprocess.run(cmd, check=True, env=env, input=input, cwd=cwd)
 
 def chmod_x(path):
     # This is like chmod +x, except that umask is preserved by copying the r bit to the x bit.
