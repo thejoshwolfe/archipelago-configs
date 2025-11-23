@@ -40,7 +40,7 @@ def main():
     sub_parser = subparsers.add_parser("server", help=
         "Calls MultiServer.py. Creates *.apsave next to the given *.archipelago. "
         "Quit with /exit (not Ctrl+C) for clean shutdown.")
-    sub_parser.add_argument("--server-dir", help=
+    sub_parser.add_argument("--server-dir", required=True, help=
         "The cwd for MultiServer.py. To configure server settings, edit the host.yaml in the server's cwd. "
         "Run 'server' once and /exit to populate the the file with defaults, or manually create one or copy from --repo. "
         "Defaults to --repo.")
@@ -232,10 +232,29 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
     chmod_x(factorio_in_docker_path)
 
     # I believe host.yaml is the only way to configure this executable automatedly.
-    # (The yaml file gets formatted and filled out with default values when Launcher.py shuts down.)
-    host_j = {"factorio_options": {"executable": os.path.abspath(factorio_in_docker_path)}}
-    with open(os.path.join(server_dir, "host.yaml"), "w") as f:
-        json.dump(host_j, f)
+    host_yaml_path = os.path.join(server_dir, "host.yaml")
+    factorio_in_docker_abs_path = os.path.abspath(factorio_in_docker_path)
+    try:
+        with open(host_yaml_path) as f:
+            existing_contents = f.read()
+        if "\n  executable: {}\n".format(json.dumps(factorio_in_docker_abs_path)) in existing_contents:
+            # Despite the quotes being optional in yaml (sometimes), settings.py formats strings with quotes unconditionally.
+            pass
+        else:
+            # Don't clobber the other settings.
+            sys.exit(
+                "ERROR: host.yaml already exists but isn't configured correctly. Please add this configuration to factorio_options:\n"
+                "  executable: " + json.dumps(factorio_in_docker_abs_path)
+            )
+    except FileNotFoundError:
+        # The yaml file gets formatted and filled out with default values when Launcher.py shuts down.
+        host_j = {"factorio_options": {
+            "executable": factorio_in_docker_abs_path,
+            # Don't show checks that don't involve us.
+            "filter_item_sends": True,
+        }}
+        with open(host_yaml_path, "w") as f:
+            json.dump(host_j, f)
 
     ap_cmd("Launcher.py", "Factorio Client", "--", "--nogui", cwd=server_dir, input=None, repo=repo, os_exec=True)
 

@@ -23,11 +23,15 @@ Factorio:
   death_link: 'true'
   energy_link: 'false'
 
+  # Find item names here: https://factoriopedia.lukasbach.com (Raw Data | "item" | "name")
   starting_items:
-    # Mapping of Factorio internal item-name to amount granted on start.
-    burner-mining-drill: 4
-    #raw-fish: 50
-    stone-furnace: 4
+    # The burner city phase is an iconic start to every factorio run,
+    # which means not randomized, which means not welcome in AP. Let's get it over with.
+    burner-mining-drill: 5
+    stone-furnace: 50
+    iron-plate: 1000
+    copper-plate: 200
+    automation-science-pack: 20
     # Let's start ~~fast~~
     power-armor: 1
     fission-reactor-equipment: 1
@@ -127,7 +131,7 @@ Factorio:
   tech_tree_layout: single
   progressive: 'on'
   min_tech_cost: '5'
-  max_tech_cost: '500'
+  max_tech_cost: '100'
   tech_cost_distribution: even
   tech_cost_mix: '70'
   ramping_tech_costs: 'false'
