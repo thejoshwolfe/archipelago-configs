@@ -8,7 +8,8 @@ Factorio:
   progression_balancing: '50'
   accessibility: full
 
-  max_science_pack: space_science_pack
+  # 6 science packs to win.
+  max_science_pack: utility_science_pack
   goal: rocket
   silo: vanilla
   satellite: vanilla
@@ -41,28 +42,27 @@ Factorio:
     construction-robot: 10
 
   # Use https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
-  # These settings are inspired by the "Rail World" preset.
-  # No enemies.
+  # These settings have buffed resources, no enemies, and less water.
   world_gen:
     autoplace_controls:
       coal:
-        frequency: 0.25
+        frequency: 3
         richness: 6
         size: 3
       copper-ore:
-        frequency: 1
+        frequency: 3
         richness: 6
         size: 3
       crude-oil:
-        frequency: 0.5
+        frequency: 3
         richness: 6
         size: 3
       enemy-base:
-        frequency: 1
+        frequency: 0.25
         richness: 1
         size: 1
       iron-ore:
-        frequency: 1
+        frequency: 3
         richness: 6
         size: 3
       nauvis_cliff:
@@ -74,7 +74,7 @@ Factorio:
         richness: 1
         size: 1
       stone:
-        frequency: 0.25
+        frequency: 1
         richness: 6
         size: 3
       trees:
@@ -82,7 +82,7 @@ Factorio:
         richness: 1
         size: 0.25
       uranium-ore:
-        frequency: 0.25
+        frequency: 1
         richness: 6
         size: 1
       water:
@@ -133,7 +133,7 @@ Factorio:
   min_tech_cost: '5'
   max_tech_cost: '100'
   tech_cost_distribution: even
-  tech_cost_mix: '70'
+  tech_cost_mix: '100'
   ramping_tech_costs: 'false'
   tech_tree_information: full
 
@@ -156,7 +156,8 @@ Factorio:
   ###########################
   local_items: []
   non_local_items: []
-  start_inventory: {}
+  start_inventory:
+    progressive-worker-robots-speed: 5
   start_inventory_from_pool: {}
   start_hints: []
   start_location_hints: []
