@@ -44,6 +44,7 @@ def main():
         "The cwd for MultiServer.py. To configure server settings, edit the host.yaml in the server's cwd. "
         "Run 'server' once and /exit to populate the the file with defaults, or manually create one or copy from --repo. "
         "Defaults to --repo.")
+    sub_parser.add_argument("--oracle-spoiler")
     sub_parser.add_argument("multidata", help=
         "The AP_*.archipelago from the 'generate' command.")
 
@@ -76,7 +77,7 @@ def main():
     elif args.cmd == "generate":
         do_generate(args.repo, args.output_zip, args.output_dir, args.seed, args.player_yaml)
     elif args.cmd == "server":
-        do_server(args.repo, args.server_dir, args.multidata)
+        do_server(args.repo, args.server_dir, args.multidata, args.oracle_spoiler)
     elif args.cmd == "factorio-server":
         do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir)
     elif args.cmd == "factorio-client":
@@ -163,7 +164,7 @@ def do_generate(repo, output_zip_path, output_dir, seed, player_yamls):
             shutil.copy(tmp_output_zip_path, output_zip_path)
         else: assert False
 
-def do_server(repo, server_dir, multidata_path):
+def do_server(repo, server_dir, multidata_path, oracle_spoiler):
     # Do this check now before trusting the AP code with it:
     if not os.path.isfile(multidata_path): raise FileNotFoundError(multidata_path)
     try: os.mkdir(server_dir)
@@ -176,7 +177,11 @@ def do_server(repo, server_dir, multidata_path):
         with open(host_yaml_path, "w") as f:
             f.write("{}\n")
 
-    ap_cmd("MultiServer.py", os.path.abspath(multidata_path), cwd=server_dir, input=None, repo=repo, os_exec=True)
+    args = []
+    if oracle_spoiler:
+        args.extend(["--oracle-spoiler", os.path.abspath(oracle_spoiler)])
+    args.append(os.path.abspath(multidata_path))
+    ap_cmd("MultiServer.py", *args, cwd=server_dir, input=None, repo=repo, os_exec=True)
 
 
 def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
