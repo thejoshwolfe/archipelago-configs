@@ -21,7 +21,7 @@ Slay the Spire:
   # `ascension_down` is only valid when `use_advanced_characters` is false (see `advanced_characters`),
   # and when `include_floor_checks` is true.
   ascension_down: '20'
-  final_act: 'false'
+  final_act: 'true'
 
   death_link: '40' # percent of max hp
 
