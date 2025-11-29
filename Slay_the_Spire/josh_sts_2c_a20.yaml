@@ -1,0 +1,86 @@
+﻿name: sts_josh
+description: Slay the Spire
+game: Slay the Spire
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Slay the Spire: 2.2.1 # Version of the world required for this yaml to work as expected.
+
+Slay the Spire:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: '50'
+  accessibility: full
+  characters: ['Ironclad', 'Silent', 'Defect', 'Watcher']
+  num_chars_goal: '1'
+  pick_num_characters: '2'
+  lock_characters: locked_random
+
+  ascension: '20'
+  # `ascension_down` is only valid when `use_advanced_characters` is false (see `advanced_characters`),
+  # and when `include_floor_checks` is true.
+  ascension_down: '20'
+  final_act: 'false'
+
+  death_link: '40' # percent of max hp
+
+  downfall: 'false'
+  unlocked_character: ''
+  seeded: 'false'
+  use_advanced_characters: 'false'
+  advanced_characters:
+    ironclad:
+      ascension: 1
+      ascension_down: 0
+      downfall: 0
+      final_act: 1
+
+
+
+  ############
+  # Sanities #
+  ############
+  include_floor_checks: 'true'
+  campfire_sanity: 'true'
+  gold_sanity: 'true'
+  potion_sanity: 'true'
+  shop_sanity: 'true'
+  shop_card_slots: '5'
+  shop_neutral_card_slots: '2'
+  shop_relic_slots: '3'
+  shop_potion_slots: '3'
+  shop_remove_slots: 'true'
+  shop_sanity_costs: discount_tiered
+
+  #########
+  # Traps #
+  #########
+  # Requires `include_floor_checks` for any traps to be added.
+  trap_chance: '5'
+  trap_weights:
+    Status Card Trap: 1
+    Gremlin Trap: 1
+    Buff Trap: 1
+    Strong Buff Trap: 1
+    Debuff Trap: 1
+    Strong Debuff Trap: 1
+    Killer Debuff Trap: 1
+
+  ########
+  # Misc #
+  ########
+  chatty_mc: 'true'
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
