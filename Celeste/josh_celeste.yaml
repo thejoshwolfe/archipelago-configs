@@ -1,7 +1,22 @@
 name: celeste_josh
-description: Celeste (Open World)
-
 game: Celeste (Open World)
+description: Celeste (Open World). Requires 14 advancement items to complete The Summit A.
+# Excludes chapters: Prologue, Reflection, Core, Farewell. Excludes all B and C sides.
+# Required items for The Summit A:
+# - traffic_blocks
+# - springs
+# - coins
+# - dash_refills
+# - dash_switches
+# - dream_blocks
+# - swap_blocks
+# - red_boosters
+# - blue_boosters
+# - blue_clouds
+# - pink_clouds
+# - move_blocks
+# - feathers
+# - badeline_boosters
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
   game:
@@ -12,19 +27,17 @@ Celeste (Open World):
   accessibility: full
 
   death_link: 'false'
-  death_link_amnesty: '10'
-
-  trap_link: 'false'
+  death_link_amnesty: '30'
+  trap_link: 'true'
 
   ################
   # Goal Options #
   ################
   goal_area: the_summit_a
 
-  # Goal area is unlocked by Strawberries (strawberries_required_percentage/100 * total_strawberries)
-  lock_goal_area: 'true'
-  total_strawberries: '50'
-  strawberries_required_percentage: '80'
+  lock_goal_area: 'false'
+  total_strawberries: '0'
+  strawberries_required_percentage: '0'
   junk_fill_percentage: '0'
 
   ####################
@@ -48,10 +61,10 @@ Celeste (Open World):
   # Junk and Traps #
   ##################
   # Disable traps.
-  trap_fill_percentage: '0'
+  trap_fill_percentage: '10'
 
-  trap_expiration_action: deaths
-  trap_expiration_amount: '5'
+  trap_expiration_action: new_screens
+  trap_expiration_amount: '1'
 
   bald_trap_weight:        medium
   literature_trap_weight:  medium
@@ -82,10 +95,21 @@ Celeste (Open World):
   ###########################
   local_items: []
   non_local_items: []
-  start_inventory: {}
+  start_inventory:
+    # It's fun that torches can be missing, but not fun for me.
+    Torches: 1
   start_hints: []
   start_location_hints: []
-  exclude_locations: []
+  exclude_locations:
+    - Prologue - Level Clear
+    # Let's make the run shorter by cutting out Reflection entirely.
+    - Reflection A - Crystal Heart
+    - Reflection A - Cassette
+    - Reflection A - Level Clear
+    # Cool puzzle, but looking up the answer (or solving it) mid-run isn't really what we're here for.
+    - Forsaken City A - Crystal Heart
+    # This takes too long:
+    - The Summit A - Crystal Heart
   priority_locations: []
   item_links: []
   plando_items: []
