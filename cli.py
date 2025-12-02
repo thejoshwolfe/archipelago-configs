@@ -277,6 +277,7 @@ def ap_cmd(script, *args, suppress_auto_install=True, input=b'', cwd=None, os_ex
     """ cwd defaults to repo """
     if cwd == None:
         cwd = repo
+    repo = os.path.abspath(repo)
 
     assert not (os_exec and input != None), "can't exec with piped stdin"
 
