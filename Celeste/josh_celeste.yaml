@@ -1,6 +1,6 @@
 name: celeste_josh
 game: Celeste (Open World)
-description: Celeste (Open World). Requires 14 advancement items to complete The Summit A.
+description: Summit A (requires 14 advancement items).
 # Excludes chapters: Prologue, Reflection, Core, Farewell. Excludes all B and C sides.
 # Required items for The Summit A:
 # - traffic_blocks
@@ -26,7 +26,7 @@ Celeste (Open World):
   progression_balancing: '50'
   accessibility: full
 
-  death_link: 'false'
+  death_link: 'true'
   death_link_amnesty: '30'
   trap_link: 'true'
 

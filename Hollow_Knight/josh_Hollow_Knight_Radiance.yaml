@@ -1,6 +1,6 @@
 name: hk_josh
 game: Hollow Knight
-description: Grub hunt 30 or THK.
+description: Defeat Radiance
 Hollow Knight:
   progression_balancing: '50'
   accessibility: full
@@ -50,8 +50,8 @@ Hollow Knight:
   DifficultSkips: 'false'
   RemoveSpellUpgrades: 'false'
   StartLocation: king's_pass
-  Goal: any
-  GrubHuntGoal: '30'
+  Goal: radiance
+  GrubHuntGoal: '-1'
   WhitePalace: exclude
   ExtraPlatforms: 'true'
   AddUnshuffledLocations: 'false'

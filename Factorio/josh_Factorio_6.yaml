@@ -1,5 +1,5 @@
 ﻿name: factorio_josh
-description: Modified from the Factorio Template
+description: All 6 science packs to launch a rocket.
 game: Factorio
 requires:
   version: 0.6.4
@@ -22,7 +22,7 @@ Factorio:
   recipe_ingredients_offset: '0'
   imported_blueprints: 'true'
   death_link: 'true'
-  energy_link: 'false'
+  energy_link: 'true'
 
   # Find item names here: https://factoriopedia.lukasbach.com (Raw Data | "item" | "name")
   starting_items:

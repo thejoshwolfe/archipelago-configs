@@ -1,5 +1,11 @@
 ﻿name: factorio_josh
-description: Modified from the Factorio Template
+description: 3 science packs to launch a rocket.
+# Requires:
+# - 2/5 progressive-science-pack (military science pack)
+# - 2/4 progressive-military (grenades, piercing rounds magazine)
+# - 1/2 progressive-wall (stone wall)
+# - 1/8 progressive-processing (steel)
+# - whatever is needed for rocket parts
 game: Factorio
 requires:
   version: 0.6.4
@@ -22,7 +28,7 @@ Factorio:
   recipe_ingredients_offset: '0'
   imported_blueprints: 'true'
   death_link: 'true'
-  energy_link: 'false'
+  energy_link: 'true'
 
   # Find item names here: https://factoriopedia.lukasbach.com (Raw Data | "item" | "name")
   starting_items:
