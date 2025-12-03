@@ -1,0 +1,29 @@
+name: smz3_josh
+game: SMZ3
+description: 1/4 bosses + Mother Brain, and 2/7 crystals + Ganon. GT open.
+SMZ3:
+  progression_balancing: '50'
+  accessibility: full
+  sm_logic: normal
+  sword_location: early
+  morph_location: early
+  goal: defeatboth
+  key_shuffle: none
+  open_tower: '0'
+  ganon_vulnerable: '2'
+  open_tourian: '1'
+  spin_jumps_animation: 'false'
+  heart_beep_speed: quarter
+  heart_color: red
+  quick_swap: 'true'
+  energy_beep: 'true'
+  local_items: []
+  non_local_items: []
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  start_inventory:
+    # Start fast.
+    Boots: 1
+  start_inventory_from_pool: {}

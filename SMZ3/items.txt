@@ -1,0 +1,132 @@
+Bow
+SilverArrows
+BlueBoomerang
+RedBoomerang
+Hookshot
+Mushroom
+Powder
+Firerod
+Icerod
+Bombos
+Quake
+Ether
+Lamp
+Hammer
+Shovel
+Flute
+Bugnet
+Book
+Bottle (x4)
+Somaria
+Byrna
+Cape
+Mirror
+Boots
+ProgressiveGlove (x2)
+Flippers
+MoonPearl
+ProgressiveSword (x4)
+ProgressiveShield (x3)
+ProgressiveTunic (x2)
+HalfMagic
+
+Charge
+Ice
+Wave
+Spazer
+Plasma
+Varia
+Gravity
+Morph
+Bombs
+SpringBall
+ScrewAttack
+HiJump
+SpaceJump
+SpeedBooster
+ETank (x15)
+ReserveTank (x4)
+Missile (x40)
+Super (x16)
+PowerBomb (x10)
+Grapple
+XRay
+
+HeartPiece (x23)
+HeartContainer (x10)
+HeartContainerRefill
+Arrow
+TenArrows (x8)
+ArrowUpgrade5 (x4)
+ThreeBombs (x12)
+BombUpgrade5 (x4)
+OneRupee (x2)
+FiveRupees (x4)
+TwentyRupees (x28)
+FiftyRupees (x7)
+OneHundredRupees
+ThreeHundredRupees (x5)
+
+CompassDP
+CompassEP
+CompassGT
+CompassIP
+CompassMM
+CompassPD
+CompassSP
+CompassSW
+CompassTH
+CompassTR
+CompassTT
+BigKeyDP
+BigKeyEP
+BigKeyGT
+BigKeyIP
+BigKeyMM
+BigKeyPD
+BigKeySP
+BigKeySW
+BigKeyTH
+BigKeyTR
+BigKeyTT
+KeyCT
+KeyCT
+KeyDP
+KeyGT
+KeyGT
+KeyGT
+KeyGT
+KeyHC
+KeyIP
+KeyIP
+KeyMM
+KeyMM
+KeyMM
+KeyPD
+KeyPD
+KeyPD
+KeyPD
+KeyPD
+KeyPD
+KeySP
+KeySW
+KeySW
+KeySW
+KeyTH
+KeyTR
+KeyTR
+KeyTR
+KeyTR
+KeyTT
+MapDP
+MapEP
+MapGT
+MapHC
+MapIP
+MapMM
+MapPD
+MapSP
+MapSW
+MapTH
+MapTR
+MapTT
