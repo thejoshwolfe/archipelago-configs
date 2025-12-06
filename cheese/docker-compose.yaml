@@ -1,0 +1,19 @@
+services:
+  tracker:
+    image: docker.io/cdhowie/cheese-trackers:latest
+    restart: always
+    volumes:
+      - './config.yaml:/app/config.yaml:ro'
+    network_mode: host
+
+  database:
+    image: postgres:17.4
+    restart: always
+    environment:
+      POSTGRES_USER: cheesetrackers
+      POSTGRES_PASSWORD: cheesetrackers
+      POSTGRES_DB: cheesetrackers
+    volumes:
+      - './pgdata:/var/lib/postgresql/data'
+    ports:
+      - '127.0.0.1:5433:5432'
