@@ -3,7 +3,7 @@ game: SMZ3
 description: All 4 bosses + Mother Brain, and all 7 crystals + Ganon. GT accessible after 4 crystals
 SMZ3:
   progression_balancing: '50'
-  accessibility: items
+  accessibility: full
   sm_logic: normal
   sword_location: early
   morph_location: early
