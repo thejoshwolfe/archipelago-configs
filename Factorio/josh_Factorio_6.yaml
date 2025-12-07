@@ -39,7 +39,7 @@ Factorio:
     battery-equipment: 2
     personal-roboport-equipment: 1
     exoskeleton-equipment: 3
-    construction-robot: 10
+    construction-robot: 50
 
   # Use https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
   # These settings have buffed resources, no enemies, and less water.
