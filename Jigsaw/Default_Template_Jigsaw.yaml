@@ -1,0 +1,466 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Jigsaw Template
+
+game: Jigsaw
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Jigsaw: 0.9.1 # Version of the world required for this yaml to work as expected.
+
+Jigsaw:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  ###############################
+  # Important options: gameplay #
+  ###############################
+  number_of_pieces:
+    # Approximate number of pieces in the puzzle.
+    # Note that this game is more difficult than regular jigsaw puzzles, because you don't start with all pieces :)
+    # Also make sure the pieces are not too small on your screen if you choose many.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 4
+    # Maximum value is 2000
+    50: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-4-2000: 0 # random value between 4 and 2000
+
+  grid_type_and_rotations:
+    # The type of grid used for the jigsaw puzzle, along with the rotation options.
+    # The "meme" options create really long or wide pieces in just one row or one column.
+    square_no_rotation: 50
+    square_180_rotation: 0
+    square_90_rotation: 0
+    hex_no_rotation: 0
+    hex_180_rotation: 0
+    hex_120_rotation: 0
+    hex_60_rotation: 0
+    meme_one_row_no_rotation: 0
+    meme_one_row_180_rotation: 0
+    meme_one_column_no_rotation: 0
+    meme_one_column_180_rotation: 0
+
+  uniform_piece_size:
+    # If enabled, all puzzle pieces will have equal width and height.
+    # Especially fun with rotations, you won't be able to see which rotations are clearly wrong.
+    # Note: your image will be cropped if necessary!
+    # Note: this setting is turned off when using meme one row or column.
+    'false': 50
+    'true': 0
+
+  border_type:
+    # The type of border used for the jigsaw puzzle. You can change this in-game.
+    # 
+    # Classic: the typical jigsaw pieces with the innies and outies.
+    # Triangle: the typical jigsaw pieces where innies and outies are triangles.
+    # Curved: each of the borders are round curves.
+    # Diagonal: the borders are straight edges but at an angle.
+    # Straight: the borders are straight edges. So the pieces are actual rectangles or hexagons.
+    # Chaos: every border can be each of the other border types.
+    classic: 50
+    triangle: 0
+    curved: 0
+    diagonal: 0
+    straight: 0
+    chaos: 0
+
+  ############################
+  # Important options: image #
+  ############################
+  orientation_of_image:
+    # If you're using a custom image, select the orientation here.
+    # This affects the shape of the puzzle pieces.
+    # It doesn't have to be exactly right.
+    # 
+    # Here's the aspect ratio's that are calculated with (width x height)
+    # square: 1 x 1
+    # landscape: 1.5 x 1
+    # portrait: 0.8 x 1
+    # more_landscape: 2 x 1
+    # more_portrait: 0.5 x 1
+    square: 0
+    landscape: 50
+    portrait: 0
+    more_landscape: 0
+    more_portrait: 0
+
+  which_image:
+    # Only if you selected the landscape orientation option.
+    # This option decides which landscape picture will be set for you. Don't worry, you can change it in the game.
+    # Every number corresponds to a set image. See the images here: https://jigsaw-ap.netlify.app/images.html
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 54
+    random: 50
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-54: 0 # random value between 1 and 54
+
+  ####################################################
+  # Optional options: extra pieces, items and checks #
+  ####################################################
+  percentage_of_extra_pieces:
+    # This option allows for there being more pieces in the pool than necessary.
+    # When you have all your items already, the additional pieces don't do anything anymore.
+    # 0 means there are exactly enough pieces in the pool.
+    # 100 means there are twice as many pieces in the pool than necessary.
+    # That means you would only need half of your items to finish the game.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  number_of_piece_bundles:
+    # The (maximum) number of piece bundles; items that give you 1 or more pieces.
+    # Having too many of these may hurt the multiworld and put too much emphasis on the jigsaw puzzle.
+    # For solo games I would recommend to put this to the maximum.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 25
+    # Maximum value is 2000
+    250: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-25-2000: 0 # random value between 25 and 2000
+
+  minimum_number_of_pieces_per_bundle:
+    # This is another way to choose the number of piece bundles.
+    # With this option you can choose the minimum number of pieces per bundle.
+    # For example if you make this 2, you will get at least 2 pieces at a time. Probably more fun for others!
+    # For solo games I would recommend to put this to 1.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  add_fillers:
+    # Enabling this option makes every merge a check and adds filler items.
+    # The next option allows you to choose how many are local and how many are shuffled across the multiworld.
+    'false': 0
+    'true': 50
+
+  percentage_fillers_itempool:
+    # If fillers are added, this option determines how many of the fillers are shuffled across the multiworld.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  checks_out_of_logic:
+    # This option will make it so that there are always additional checks not considered by logic.
+    # This makes it easier to get "all your checks in logic".
+    # Of course this won't make a difference at the very end when few merges are left.
+    # The number of checks out of logic will never be more than 10% of the number of pieces.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 200
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-200: 0 # random value between 0 and 200
+
+  #################################
+  # Optional options: piece order #
+  #################################
+  piece_order_type:
+    # This option affects the order in which you receive puzzle piece types.
+    # This is prioritized over the Piece Order option.
+    # 
+    # random_order: no order is followed
+    # 
+    # corners_edges_normal: you will first get all corner pieces, then edge pieces, then normal pieces
+    # (...)
+    # 
+    # four_parts and four_parts_non_rotated:
+    # The board will be divided into four (rotated) quadrants.
+    # You will first get all pieces of one of the first quadrant, then for the second, etc.
+    # This makes it so that you're basically starting and finishing a section four times in your playthrough.
+    # This may be nice for big puzzles, it decreases the pressure at the start, while making the ending more interesting.
+    # four_parts_non_rotated always gives axis-aligned quadrants (rectangular grid-like splits, like a +).
+    # four_parts can involve rotated splits, so the quadrants may be split like + or x etc.
+    random_order: 50
+    corners_edges_normal: 0
+    normal_edges_corners: 0
+    edges_normal_corners: 0
+    corners_normal_edges: 0
+    normal_corners_edges: 0
+    edges_corners_normal: 0
+    four_parts: 0
+    four_parts_non_rotated: 0
+
+  strictness_piece_order_type:
+    # This option determines how strictly the above piece type order is followed.
+    # 1 means it is barely followed, 100 means it is followed in the strictest way possible.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  piece_order:
+    # This option affects the order in which you receive puzzle pieces.
+    # random_order: pieces are added in random order with no extra constraints
+    # every_piece_fits: every piece you receive, will be able to merge with another piece
+    # least_merges_possible: you will receive pieces in an order that gives the least number of possible merges
+    random_order: 50
+    every_piece_fits: 0
+    least_merges_possible: 0
+
+  strictness_piece_order:
+    # This option determines how strictly the above piece order is followed.
+    # 1 means it is barely followed, 100 means it is followed in the strictest way possible.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  #######################################
+  # Optional options: traps & deathlink #
+  #######################################
+  starting_fake_pieces:
+    # Number of fake pieces that appear at the start of the game.
+    # These pieces cannot merge with any other pieces.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 500
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-500: 0 # random value between 0 and 500
+
+  number_of_fake_piece_bundles:
+    # Number of fake piece bundles in the itempool.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 50
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-50: 0 # random value between 0 and 50
+
+  impact_of_fake_piece_bundles:
+    # How many fake pieces each fake piece bundle gives.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 10
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-10: 0 # random value between 1 and 10
+
+  number_of_rotate_traps:
+    # Number of rotate traps in the itempool, that randomly rotate small clusters (<10 pieces).
+    # This trap is only added when the rotations option is enabled.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 500
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-500: 0 # random value between 0 and 500
+
+  impact_of_rotate_traps:
+    # How many clusters each rotate trap affects.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 10
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-10: 0 # random value between 1 and 10
+
+  number_of_swap_traps:
+    # Number of swap traps in the itempool, that randomly swap two small clusters (<10 pieces).
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 500
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-500: 0 # random value between 0 and 500
+
+  impact_of_swap_traps:
+    # How many clusters each swap trap affects.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 10
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-10: 0 # random value between 1 and 10
+
+  death_link:
+    # When someone else dies, you'll get rotate traps and swap traps.
+    # The number you set here determines how many traps you get.
+    # If you set this to 0, deathlink is disabled.
+    # (Jigsaw will never trigger death link.)
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  ###########################
+  # Optional options: other #
+  ###########################
+  enable_clues:
+    # Enable clues for the jigsaw puzzle.
+    # If enabled, there is a button that shows the outline of pieces that can merge (unlimited uses).
+    # If disabled, the button is simply not there.
+    'false': 0
+    'true': 50
+
+  total_size_of_image:
+    # How large the pieces will be. 100 means the puzzle is maximum size. 50 means width and height are halved.
+    # If you want a lot of free space around the puzzle, you can set this to a lower value.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 30
+    # Maximum value is 100
+    85: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-30-100: 0 # random value between 30 and 100
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
