@@ -1,4 +1,4 @@
-http_listen: '0.0.0.0:1235'
+http_listen: '0.0.0.0:1233'
 hoster: Josh's Couch Computer
 
 # TODO: try setting this to 0
@@ -10,6 +10,8 @@ client_ip_source: XRealIp
 upstream_trackers:
   # http://127.0.0.1:1234/tracker/AAAAAAAAAAAAAAAAAAAAAA
   - http://127.0.0.1:1234/tracker
+  - http://127.0.0.1:1235/tracker
+  - http://127.0.0.1:1236/tracker
 
 cors_permissive: false
 banners: []
