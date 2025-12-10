@@ -1,6 +1,6 @@
 ﻿name: sts_josh
 description: Slay the Spire - all 4 characters are playable from the start; ascension starts at 20 and goes down; goal is heart.
-# All sanity (shops, gold, relics, etc.). Goal is 1 win. Deathlink does 40% of max HP in damage. All traps enabled at 5%.
+# All sanity (shops, gold, relics, etc.). Goal is 1 win. All traps enabled at 5%.
 game: Slay the Spire
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -24,7 +24,7 @@ Slay the Spire:
   ascension_down: '20'
   final_act: 'true'
 
-  death_link: '40' # percent of max hp
+  death_link: '0' # disabled
 
   downfall: 'false'
   unlocked_character: ''
