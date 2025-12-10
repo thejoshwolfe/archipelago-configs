@@ -1,0 +1,63 @@
+name: sv_josh
+game: Stardew Valley
+description: Communicty Center with 110 total deliveries. Cropsanity, fishsanity (medium), monstersanity. Elevator checks require delving.
+Stardew Valley:
+  goal: community_center
+  bundle_randomization: thematic
+  bundle_price: normal
+  entrance_randomization: disabled
+  exclude_ginger_island: 'true'
+  season_randomization: randomized_not_winter
+  cropsanity: enabled
+  backpack_progression: early_progressive
+  tool_progression: progressive_very_cheap
+  elevator_progression: progressive_from_previous_floor
+  skill_progression: progressive
+  building_progression: progressive_very_cheap
+  festival_locations: disabled
+  arcade_machine_locations: disabled
+  special_order_locations: vanilla_very_short
+  quest_locations: '-1'
+  fishsanity: exclude_hard_fish
+  museumsanity: none
+  friendsanity: none
+  friendsanity_heart_size: '4'
+  monstersanity: one_per_monster
+  shipsanity: none
+  cooksanity: none
+  chefsanity: '0'
+  craftsanity: none
+  booksanity: none
+  walnutsanity: []
+  starting_money: '20000'
+  profit_margin: '400'
+  experience_multiplier: '500'
+  friendship_multiplier: '500'
+  debris_multiplier: quarter
+  movement_buff_number: '8'
+  enabled_filler_buffs:
+  - Bite Rate
+  - Damage
+  - Defense
+  - Energy
+  - Fish Trap
+  - Fishing Bar Size
+  - Health
+  - Immunity
+  - Luck
+  trap_difficulty: easy
+  multiple_day_sleep_enabled: 'true'
+  multiple_day_sleep_cost: '0'
+  quick_start: 'true'
+  gifting: 'true'
+  death_link: 'true'
+  progression_balancing: '50'
+  accessibility: full
+  local_items: []
+  non_local_items: []
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  start_inventory: {}
+  farm_type: random
