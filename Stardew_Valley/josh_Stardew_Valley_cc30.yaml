@@ -64,4 +64,6 @@ Stardew Valley:
     Movement Speed Bonus: 3
     # Low inventory capacity is a fun challenge, but not that fun.
     Progressive Backpack: 1
+    # The most valuable thing in Stardew Valley is your IRL time.
+    Return Scepter: 1
   farm_type: random
