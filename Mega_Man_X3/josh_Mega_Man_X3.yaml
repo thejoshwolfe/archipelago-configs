@@ -8,7 +8,7 @@ Mega Man X3:
   pickupsanity: 'true'
   doppler_all_labs: 'false'
   boss_weakness_rando: shuffled
-  boss_weakness_strictness: weakness_and_upgraded_buster
+  boss_weakness_strictness: not_strict
   logic_boss_weakness: 'true'
   doppler_lab_2_boss: volt_kurageil
   bit_medal_count: '2'

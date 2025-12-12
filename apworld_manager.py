@@ -253,8 +253,11 @@ class Cache:
         self.files = {}
         self.repos = {}
         self.dir = dir
-        with open(os.path.join(self.dir, ".cache_state.json")) as f:
-            j = json.load(f)
+        try:
+            with open(os.path.join(self.dir, ".cache_state.json")) as f:
+                j = json.load(f)
+        except FileNotFoundError:
+            return
         for name, info in j.get("files", {}).items():
             self.files[name] = CachedFile(**info)
         for name, repo_info in j.get("repos", {}).items():

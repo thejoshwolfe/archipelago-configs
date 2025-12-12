@@ -1,4 +1,4 @@
-﻿name: sts_josh
+﻿name: josh_sts
 description: Slay the Spire - 2 characters chosen at random; one of them starts unlocked; ascension starts at 20 and goes down; no heart.
 # All sanity (shops, gold, relics, etc.). Goal is 1 win. All traps enabled at 5%.
 game: Slay the Spire

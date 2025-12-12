@@ -9,7 +9,7 @@ Mega Man X2:
   x_hunters_medal_count: '2'
   base_all_levels: 'false'
   boss_weakness_rando: shuffled
-  boss_weakness_strictness: weakness_and_upgraded_buster
+  boss_weakness_strictness: not_strict
   logic_boss_weakness: 'true'
 
   # Goal

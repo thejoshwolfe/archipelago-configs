@@ -1,4 +1,4 @@
-﻿name: sts_josh
+﻿name: josh_sts
 description: Slay the Spire - all 4 characters are playable from the start; ascension starts at 20 and goes down; goal is heart.
 # All sanity (shops, gold, relics, etc.). Goal is 1 win. All traps enabled at 5%.
 game: Slay the Spire
