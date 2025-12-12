@@ -1,0 +1,80 @@
+﻿name: josh_mmx
+description: TBD
+game: Mega Man X
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+Mega Man X:
+  # Logic
+  pickupsanity: 'true'
+  early_legs: 'true'
+  logic_charged_shotgun_ice: 'false'
+  logic_leg_sigma: 'true'
+  sigma_all_levels: 'false'
+  boss_weakness_rando: shuffled
+  boss_weakness_strictness: weakness_and_upgraded_buster
+  logic_boss_weakness: 'true'
+
+  # Goal
+  sigma_open:
+    - Medals
+  sigma_medal_count: '8'
+  sigma_weapon_count: '6'
+  sigma_upgrade_count: '4'
+  sigma_heart_tank_count: '6'
+  sigma_sub_tank_count: '2'
+
+  # Fun items
+  jammed_buster: 'false'
+  air_dash: 'false'
+  hadouken_in_pool: 'true'
+  quick_charge_in_pool: 'true'
+  speedster_in_pool: 'true'
+  super_recover_in_pool: 'true'
+
+  # Balance
+  starting_life_count: '2'
+  starting_hp: '16'
+  heart_tank_effectiveness: '2'
+  boss_randomize_hp: chaotic
+
+  # Fun controls
+  better_walljump: 'false'
+  long_jumps: 'false'
+
+  # Aesthetics
+  player_palettes: {}
+  palette_default: blue
+  palette_homing_torpedo: homing_torpedo
+  palette_chameleon_sting: chameleon_sting
+  palette_rolling_shield: rolling_shield
+  palette_fire_wave: fire_wave
+  palette_storm_tornado: storm_tornado
+  palette_electric_spark: electric_spark
+  palette_boomerang_cutter: boomerang_cutter
+  palette_shotgun_ice: shotgun_ice
+
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  boss_weakness_plando: {}
+
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'false'
+  energy_link: 'true'
+
+  button_configuration:
+    # Default buttons for every action.
+    DASH: A
+    JUMP: B
+    MENU: START
+    SELECT_L: L
+    SELECT_R: R
+    SHOT: Y

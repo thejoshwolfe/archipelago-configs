@@ -1,0 +1,46 @@
+﻿name: josh_z2
+description: TBD
+game: 'Zelda II: The Adventure of Link'
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+'Zelda II: The Adventure of Link':
+
+  # Goal
+  required_crystals: '6'
+
+  # Logic
+  key_shuffle: shuffled_in_dungeon
+  spell_locations: anywhere
+  remove_magical_key: 'false'
+  early_candle: 'true'
+  candle_required: 'true'
+  cross_required: 'true'
+  remove_early_boulder: 'true'
+  better_boots: 'true'
+
+  # Balance
+  starting_attack: '2'
+  starting_magic: '2'
+  starting_life: '2'
+  palace_respawn: 'true'
+  fast_great_palace: 'false'
+  starting_lives: '3'
+  keep_exp: 'true'
+  encounter_rate: half
+
+  # Aesthetics
+  random_tunic_color: 'false'
+  random_palace_graphics: 'true'
+
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+
+  progression_balancing: '50'
+  accessibility: full

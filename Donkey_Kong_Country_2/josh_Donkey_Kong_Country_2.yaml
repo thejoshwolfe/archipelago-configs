@@ -1,0 +1,137 @@
+﻿name: josh_dkc2
+description: TBD
+game: Donkey Kong Country 2
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Donkey Kong Country 2: 3.0.4 # Version of the world required for this yaml to work as expected.
+Donkey Kong Country 2:
+
+  # Balance
+  starting_life_count: '99'
+
+  # Goal
+  goal: flying_krock
+  krock_boss_tokens: '5'
+
+  # Levels per world
+  required_galleon_levels: '4'
+  required_cauldron_levels: '4'
+  required_quay_levels: '4'
+  required_kremland_levels: '4'
+  required_gulch_levels: '4'
+  required_keep_levels: '4'
+  required_krock_levels: '1'
+  lost_world_rock_placement: lost_world_level_clear
+  lost_world_rocks: '5'
+  extra_lost_world_rocks: '3'
+
+  # Logic
+  logic: strict
+  kong_checks: 'true'
+  dk_coin_checks: 'true'
+  balloonsanity: 'false'
+  coinsanity: 'false'
+  bananasanity: 'false'
+  starting_kong: diddy
+  shuffle_levels: 'false'
+  shuffle_abilities:
+  #- Carry
+  #- Helicopter Spin
+  - Cling
+  #- Swim
+  #- Cartwheel
+  #- Climb
+  - Team Attack
+  shuffle_animals:
+  - Enguarde
+  - Squawks
+  - Squitter
+  - Skull Kart
+  - Glimmer
+  - Clapper
+  - Rattly
+  - Rambi
+  shuffle_barrels:
+  - Exclamation Barrels
+  - Controllable Barrels
+  - Barrel Kannons
+  - Warp Barrels
+  #- Kong Barrels
+  swanky_checks: 'false'
+  swanky_questions_per_quiz: '1'
+  swanky_forced_topics: []
+  swanky_excluded_topics: []
+
+  # Traps
+  trap_fill_percentage: '10'
+  freeze_trap_weight: medium
+  reverse_trap_weight: medium
+  honey_trap_weight: medium
+  ice_trap_weight: medium
+  tnt_barrel_trap_weight: medium
+
+  # Popup messages
+  display_messages: 'off'
+  received_message_filter: []
+  sent_message_filter: []
+
+  # Aesthetics
+  palettes: {}
+  palette_filters:
+    Diddy: 0
+    Diddy Frozen: 0
+    Diddy Inactive: 0
+    Diddy Invincible: 0
+    Diddy Reversed: 0
+    Diddy Slow: 0
+    Dixie: 0
+    Dixie Frozen: 0
+    Dixie Inactive: 0
+    Dixie Invincible: 0
+    Dixie Reversed: 0
+    Dixie Slow: 0
+    Enguarde: 0
+    Quawks: 0
+    Rambi: 0
+    Rattly: 0
+    Squawks: 0
+    Squitter: 0
+  palette_diddy_active: original
+  palette_diddy_inactive: original_inactive
+  palette_diddy_invincible: original_invincible
+  palette_diddy_frozen: original_frozen
+  palette_diddy_reversed: original_reversed
+  palette_diddy_slow: original_slow
+  palette_dixie_active: original
+  palette_dixie_inactive: original_inactive
+  palette_dixie_invincible: original_invincible
+  palette_dixie_frozen: original_frozen
+  palette_dixie_reversed: original_reversed
+  palette_dixie_slow: original_slow
+  palette_rambi: original
+  palette_enguarde: original
+  palette_squitter: original
+  palette_rattly: original
+  palette_squawks: original
+  palette_quawks: original
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'false'
+  energy_link: 'true'
+  trap_link: 'false'

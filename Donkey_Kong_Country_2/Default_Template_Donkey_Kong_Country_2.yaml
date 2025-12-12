@@ -1,0 +1,990 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Donkey Kong Country 2 Template
+
+game: Donkey Kong Country 2
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Donkey Kong Country 2: 3.0.4 # Version of the world required for this yaml to work as expected.
+
+Donkey Kong Country 2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  energy_link:
+    # EnergyLink allows players to deposit energy extracted from collected bananas into a shared pool across games in the session.
+    # 
+    # You can exchange energy for Instant DK Barrels. Great for players that find the base game hard.
+    # There's an additional item in the item pool that allows for better energy extraction from bananas.
+    'false': 50
+    'true': 0
+
+  trap_link:
+    # Whether your received traps are linked to other players
+    'false': 50
+    'true': 0
+
+  display_messages:
+    # The game may summon a pop up message on items sent and received
+    # Messages are considerably delayed from the actual effect, you actually receive and send items quite fast
+    # 
+    # This feature is highly experimental, use it if you don't mind some visual bugs under certain scenarios,
+    # mainly during lag frames and pausing in certain moments
+    'off': 0
+    on_only_sent: 0
+    on_only_received: 0
+    on_everything: 50
+
+  received_message_filter:
+    # Applies an item classification filter on RECEIVED items
+    # 
+    # Only the items with the classifications listed below will be included
+    ['Progression', 'Useful', 'Filler', 'Trap']
+
+  sent_message_filter:
+    # Applies an item classification filter on SENT items
+    # 
+    # Only the items with the classifications listed below will be included
+    ['Progression', 'Useful', 'Filler', 'Trap']
+
+  starting_life_count:
+    # How many lives to start the game with.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    15: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+
+  ########
+  # Goal #
+  ########
+  goal:
+    # Which goal will be used to mark the game as completed
+    # - **Flying Krock:** Duel with K. Rool at the Flying Krock
+    # - **Lost World:** Duel with K. Rool at Lost World
+    # - **Kompletionist:** Duel with K. Rool at both Flying Krock and Lost World
+    flying_krock: 50
+    lost_world: 0
+    kompletionist: 0
+
+  krock_boss_tokens:
+    # How many Boss Tokens are required to access the Flying Krock.
+    # 
+    # If this value is set to 0, then the access will be a multiworld item.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  required_galleon_levels:
+    # How many levels in Gangplank Galleon need to be cleared to fight the area boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  required_cauldron_levels:
+    # How many levels in Crocodile Cauldron need to be cleared to fight the area boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  required_quay_levels:
+    # How many levels in Krem Quay need to be cleared to fight the area boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  required_kremland_levels:
+    # How many levels in Krazy Kremland need to be cleared to fight the area boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  required_gulch_levels:
+    # How many levels in Gloomy Gulch need to be cleared to fight the area boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  required_keep_levels:
+    # How many levels in K. Rool's Keep need to be cleared to fight the area boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  required_krock_levels:
+    # How many levels in The Flying Krock need to be cleared to fight the area boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1: 0 # random value between 0 and 1
+
+  lost_world_rocks:
+    # How many rocks are required to be found to be able to duel K. Rool at Lost World's Kore
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 10
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-10: 0 # random value between 1 and 10
+
+  extra_lost_world_rocks:
+    # How many additional Lost World Rocks can be found in the multiworld
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    3: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  lost_world_rock_placement:
+    # Determines how Lost World Rocks will be placed in the multiworld
+    # - **anywhere**: Placed anywhere in the multiworld
+    # - **lost_world_level_clear**: Forced in Level Clears found in Lost World
+    #   This option always creates 5 rocks. Extra lost world rocks aren't created.
+    # - **lost_world_anywhere**: Forced in anywhere in Lost World
+    # 
+    # These options listens to Excluded Locations, it won't force you to deal with levels you don't want to deal with.
+    # However, if it can place an item due to excluded locations AP will place them anywhere in the multiworld.
+    anywhere: 0
+    lost_world_level_clear: 50
+    lost_world_anywhere: 0
+
+  #############
+  # Locations #
+  #############
+  logic:
+    # Logic difficulty. May become irrelevant if not a lot of items are added to the item pool.
+    # - **Strict**: Ensures everything is reachable as the original devs intended. For beginners or people who want to go out of logic with some tricks.
+    # - **Loose**: Reaching locations may require some level of mastery about the game's mechanics.
+    # - **Expert**: Locations expects players to be extremely good at the game with minimal amount of abilities. Hard to go out of logic.
+    strict: 50
+    loose: 0
+    expert: 0
+
+  kong_checks:
+    # Whether collecting all KONG letters in each level will grant a check
+    'false': 0
+    'true': 50
+
+  dk_coin_checks:
+    # Whether collecting a DK Coin in each level will grant a check
+    'false': 0
+    'true': 50
+
+  balloonsanity:
+    # Whether collecting a colored balloon in levels will grant a check
+    # 
+    # Doesn't include balloons from the goal or Black Klobbers
+    'false': 50
+    'true': 0
+
+  coinsanity:
+    # Whether collecting a banana coin in levels will grant a check
+    # 
+    # Doesn't include banana coins from the goal
+    'false': 50
+    'true': 0
+
+  bananasanity:
+    # Whether collecting a banana bunch in levels will grant a check
+    # 
+    # Doesn't include banana bunches from the goal, Yellow Klobbers or Rickety Race
+    'false': 50
+    'true': 0
+
+  swanky_checks:
+    # Whether completing a quiz will grant a check
+    'false': 0
+    'true': 50
+
+  ###########
+  # Shuffle #
+  ###########
+  starting_kong:
+    # Which Kongs will be available at the start
+    diddy: 0
+    dixie: 0
+    both: 50
+
+  shuffle_levels:
+    # Shuffles levels and bosses around
+    'false': 50
+    'true': 0
+
+  shuffle_abilities:
+    # Which abilities will be added as items in the item pool
+    # If an ability is not present in the list they will be treated as unlocked from the start
+    ['Carry', 'Helicopter Spin', 'Cling', 'Swim', 'Cartwheel', 'Climb', 'Team Attack']
+
+  shuffle_animals:
+    # Which animal buddies will be added as items in the item pool
+    # If an animal buddy is not present in the list they will be treated as unlocked from the start
+    ['Enguarde', 'Squawks', 'Squitter', 'Skull Kart', 'Glimmer', 'Clapper', 'Rattly', 'Rambi']
+
+  shuffle_barrels:
+    # Which kind of barrels will be added as items in the item pool
+    # If a barrel is not present in the list they will be treated as unlocked from the start
+    ['Exclamation Barrels', 'Controllable Barrels', 'Barrel Kannons', 'Warp Barrels', 'Kong Barrels']
+
+  ##########
+  # Trivia #
+  ##########
+  swanky_questions_per_quiz:
+    # Whether completing a quiz will grant a check
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 6
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-6: 0 # random value between 1 and 6
+
+  swanky_forced_topics:
+    # Which additional topics will be added to Swanky's Bonus Bonanza pool of questions.
+    # 
+    # Swanky already enforces questions from games in the multiworld if they're on the database.
+    # 
+    # This option has priority over the Excluded Topics option.
+    ['A Link to the Past', 'Actraiser', 'Adventure', 'Astalon', 'Banjo-Tooie', 'Castlevania - Circle of the Moon', 'Cave Story', 'Diddy Kong Racing', 'Donkey Kong 64', 'Donkey Kong Country', 'Donkey Kong Country 2', 'Donkey Kong Country 3', 'EarthBound', 'Final Fantasy Mystic Quest', 'Genshin Impact', 'Hollow Knight', 'Kingdom Hearts', 'Kingdom Hearts 2', 'Kirby 64 - The Crystal Shards', 'Kirby Super Star', "Kirby's Dream Land 3", "Luigi's Mansion", "Majora's Mask Recompiled", 'Mario & Luigi Superstar Saga', 'Mario Kart Double Dash', 'Math', 'Mega Man 2', 'Mega Man 3', 'Mega Man X', 'Mega Man X2', 'Mega Man X3', 'Ocarina of Time', 'Overcooked! 2', 'Paper Mario', 'Paper Mario The Thousand Year Door', 'Plok', 'Pokemon Crystal', 'Pokemon Emerald', 'Pokemon Red and Blue', 'Rabi-Ribi', 'Risk of Rain 2', 'Skyward Sword', 'Sonic Adventure 2 Battle', 'Subnautica', 'Super Mario 64', 'Super Mario World', 'Super Metroid', 'Symphony of the Night', 'Terraria', 'The Legend of Zelda', 'VVVVVV', 'Xenoblade X', "Yoshi's Island", 'Zelda II: The Adventure of Link', 'Zillion']
+
+  swanky_excluded_topics:
+    # Which topics will be excluded from Swanky's Bonus Bonanza pool of questions.
+    # 
+    # Swanky enforces questions from the multiworld. This will help you to remove topics from games you don't know/care about in the session.
+    # Donkey Kong Country 2 can't be excluded (can be put here, but it'll be forced anyway)
+    # 
+    # Do note that if you remove way too many topics and set a very high question per quiz count an error may arise from the lack of questions available
+    ['A Link to the Past', 'Actraiser', 'Adventure', 'Astalon', 'Banjo-Tooie', 'Castlevania - Circle of the Moon', 'Cave Story', 'Diddy Kong Racing', 'Donkey Kong 64', 'Donkey Kong Country', 'Donkey Kong Country 2', 'Donkey Kong Country 3', 'EarthBound', 'Final Fantasy Mystic Quest', 'Genshin Impact', 'Hollow Knight', 'Kingdom Hearts', 'Kingdom Hearts 2', 'Kirby 64 - The Crystal Shards', 'Kirby Super Star', "Kirby's Dream Land 3", "Luigi's Mansion", "Majora's Mask Recompiled", 'Mario & Luigi Superstar Saga', 'Mario Kart Double Dash', 'Math', 'Mega Man 2', 'Mega Man 3', 'Mega Man X', 'Mega Man X2', 'Mega Man X3', 'Ocarina of Time', 'Overcooked! 2', 'Paper Mario', 'Paper Mario The Thousand Year Door', 'Plok', 'Pokemon Crystal', 'Pokemon Emerald', 'Pokemon Red and Blue', 'Rabi-Ribi', 'Risk of Rain 2', 'Skyward Sword', 'Sonic Adventure 2 Battle', 'Subnautica', 'Super Mario 64', 'Super Mario World', 'Super Metroid', 'Symphony of the Night', 'Terraria', 'The Legend of Zelda', 'VVVVVV', 'Xenoblade X', "Yoshi's Island", 'Zelda II: The Adventure of Link', 'Zillion']
+
+  #########
+  # Traps #
+  #########
+  trap_fill_percentage:
+    # Replace a percentage of junk items in the item pool with random traps
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  freeze_trap_weight:
+    # Likelihood of a receiving a trap which freezes the controllable kong
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  reverse_trap_weight:
+    # Likelihood of a receiving a trap which reverses the player's controls
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  honey_trap_weight:
+    # Likelihood of a receiving a trap which makes the floor (temporarily) sticky
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  ice_trap_weight:
+    # Likelihood of a receiving a trap which makes the level slightly slippery
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  tnt_barrel_trap_weight:
+    # Likelihood of a receiving a trap which spawns an active TNT barrel above the player
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  ##############
+  # Aesthetics #
+  ##############
+  palettes:
+    # Allows you to create colors for each Kong status and Animal Buddies.
+    # This will override the option preset
+    # 
+    # Each one expects 15 values which are mapped to the Kongs colors
+    # The values can be in SNES RGB (bgr555) with the $ prefix or PC RGB (rgb888) with the # prefix
+    {}
+
+  palette_filters:
+    # Applies a filter that can brighten or darken your selected palette
+    # Doesn't produce results similar to the original ones, but it's good enough
+    # 
+    # Positive numbers create a brighter color palette (the higher the number, the brighter the palette)
+    # Negative numbers create a darker color palette (the higher (or lower lol) the negative number, the darker the palette)
+    # 
+    # Treat the values as percentages
+    Diddy: 0
+    Diddy Frozen: 0
+    Diddy Inactive: 0
+    Diddy Invincible: 0
+    Diddy Reversed: 0
+    Diddy Slow: 0
+    Dixie: 0
+    Dixie Frozen: 0
+    Dixie Inactive: 0
+    Dixie Invincible: 0
+    Dixie Reversed: 0
+    Dixie Slow: 0
+    Enguarde: 0
+    Quawks: 0
+    Rambi: 0
+    Rattly: 0
+    Squawks: 0
+    Squitter: 0
+
+  palette_diddy_active:
+    # Which color to use for Diddy's active color
+    original: 50
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc_alt: 0
+    dkc3_kiddy: 0
+    dkc3_kiddy_alt: 0
+    gb_green: 0
+    gb_gray: 0
+    gbc_retro_blast: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    smb_mario: 0
+    smb_luigi: 0
+    toothpaste: 0
+    whatsapp: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+    rottytops: 0
+
+  palette_diddy_inactive:
+    # Which color to use for Diddy's inactive color
+    original: 0
+    original_inactive: 50
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc_alt: 0
+    dkc3_kiddy: 0
+    dkc3_kiddy_alt: 0
+    gb_green: 0
+    gb_gray: 0
+    gbc_retro_blast: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    smb_mario: 0
+    smb_luigi: 0
+    toothpaste: 0
+    whatsapp: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+    rottytops: 0
+
+  palette_diddy_invincible:
+    # Which color to use for Diddy's invincible color
+    original: 0
+    original_inactive: 0
+    original_invincible: 50
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc_alt: 0
+    dkc3_kiddy: 0
+    dkc3_kiddy_alt: 0
+    gb_green: 0
+    gb_gray: 0
+    gbc_retro_blast: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    smb_mario: 0
+    smb_luigi: 0
+    toothpaste: 0
+    whatsapp: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+    rottytops: 0
+
+  palette_diddy_frozen:
+    # Which color to use for Diddy's frozen color
+    original: 0
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 50
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc_alt: 0
+    dkc3_kiddy: 0
+    dkc3_kiddy_alt: 0
+    gb_green: 0
+    gb_gray: 0
+    gbc_retro_blast: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    smb_mario: 0
+    smb_luigi: 0
+    toothpaste: 0
+    whatsapp: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+    rottytops: 0
+
+  palette_diddy_reversed:
+    # Which color to use for Diddy's reversed color
+    original: 0
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 50
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc_alt: 0
+    dkc3_kiddy: 0
+    dkc3_kiddy_alt: 0
+    gb_green: 0
+    gb_gray: 0
+    gbc_retro_blast: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    smb_mario: 0
+    smb_luigi: 0
+    toothpaste: 0
+    whatsapp: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+    rottytops: 0
+
+  palette_diddy_slow:
+    # Which color to use for Diddy's slow color
+    original: 0
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 50
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc_alt: 0
+    dkc3_kiddy: 0
+    dkc3_kiddy_alt: 0
+    gb_green: 0
+    gb_gray: 0
+    gbc_retro_blast: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    smb_mario: 0
+    smb_luigi: 0
+    toothpaste: 0
+    whatsapp: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+    rottytops: 0
+
+  palette_dixie_active:
+    # Which color to use for Dixie's active color
+    original: 50
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc2_inverted: 0
+    dkc2_team_2_inverted: 0
+    dkc3_alt: 0
+    dkc3_alt_inverted: 0
+    gb_green: 0
+    gb_grey: 0
+    gbc_retro_blast: 0
+    gba_blue: 0
+    gba_green: 0
+    smb_mario: 0
+    smb_luigi: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    rottytops: 0
+    miku: 0
+    teto: 0
+    sakura: 0
+    nagisa: 0
+    gothic: 0
+    toothpaste: 0
+    whatsapp: 0
+    boca: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+
+  palette_dixie_inactive:
+    # Which color to use for Dixie's inactive color
+    original: 0
+    original_inactive: 50
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc2_inverted: 0
+    dkc2_team_2_inverted: 0
+    dkc3_alt: 0
+    dkc3_alt_inverted: 0
+    gb_green: 0
+    gb_grey: 0
+    gbc_retro_blast: 0
+    gba_blue: 0
+    gba_green: 0
+    smb_mario: 0
+    smb_luigi: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    rottytops: 0
+    miku: 0
+    teto: 0
+    sakura: 0
+    nagisa: 0
+    gothic: 0
+    toothpaste: 0
+    whatsapp: 0
+    boca: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+
+  palette_dixie_invincible:
+    # Which color to use for Dixie's invincible color
+    original: 0
+    original_inactive: 0
+    original_invincible: 50
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc2_inverted: 0
+    dkc2_team_2_inverted: 0
+    dkc3_alt: 0
+    dkc3_alt_inverted: 0
+    gb_green: 0
+    gb_grey: 0
+    gbc_retro_blast: 0
+    gba_blue: 0
+    gba_green: 0
+    smb_mario: 0
+    smb_luigi: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    rottytops: 0
+    miku: 0
+    teto: 0
+    sakura: 0
+    nagisa: 0
+    gothic: 0
+    toothpaste: 0
+    whatsapp: 0
+    boca: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+
+  palette_dixie_frozen:
+    # Which color to use for Dixie's frozen color
+    original: 0
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 50
+    original_reversed: 0
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc2_inverted: 0
+    dkc2_team_2_inverted: 0
+    dkc3_alt: 0
+    dkc3_alt_inverted: 0
+    gb_green: 0
+    gb_grey: 0
+    gbc_retro_blast: 0
+    gba_blue: 0
+    gba_green: 0
+    smb_mario: 0
+    smb_luigi: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    rottytops: 0
+    miku: 0
+    teto: 0
+    sakura: 0
+    nagisa: 0
+    gothic: 0
+    toothpaste: 0
+    whatsapp: 0
+    boca: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+
+  palette_dixie_reversed:
+    # Which color to use for Dixie's reversed color
+    original: 0
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 50
+    original_slow: 0
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc2_inverted: 0
+    dkc2_team_2_inverted: 0
+    dkc3_alt: 0
+    dkc3_alt_inverted: 0
+    gb_green: 0
+    gb_grey: 0
+    gbc_retro_blast: 0
+    gba_blue: 0
+    gba_green: 0
+    smb_mario: 0
+    smb_luigi: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    rottytops: 0
+    miku: 0
+    teto: 0
+    sakura: 0
+    nagisa: 0
+    gothic: 0
+    toothpaste: 0
+    whatsapp: 0
+    boca: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+
+  palette_dixie_slow:
+    # Which color to use for Dixie's slow color
+    original: 0
+    original_inactive: 0
+    original_invincible: 0
+    original_frozen: 0
+    original_reversed: 0
+    original_slow: 50
+    original_team_2: 0
+    original_team_2_inactive: 0
+    dkc2_inverted: 0
+    dkc2_team_2_inverted: 0
+    dkc3_alt: 0
+    dkc3_alt_inverted: 0
+    gb_green: 0
+    gb_grey: 0
+    gbc_retro_blast: 0
+    gba_blue: 0
+    gba_green: 0
+    smb_mario: 0
+    smb_luigi: 0
+    golden: 0
+    monochrome: 0
+    sepia: 0
+    rottytops: 0
+    miku: 0
+    teto: 0
+    sakura: 0
+    nagisa: 0
+    gothic: 0
+    toothpaste: 0
+    whatsapp: 0
+    boca: 0
+    bubblegum: 0
+    retro_frozen: 0
+    retro_reversed: 0
+    retro_slow: 0
+
+  palette_rambi:
+    # Which color to use for Rambi
+    original: 50
+    gray: 0
+    blue: 0
+    green: 0
+    red: 0
+    dkc2_frozen: 0
+    dkc2_reversed: 0
+    dkc2_slow: 0
+    golden: 0
+    pink: 0
+    whatsapp: 0
+
+  palette_enguarde:
+    # Which color to use for Enguarde
+    original: 50
+    red: 0
+    purple: 0
+    silver: 0
+    blue_white_belly: 0
+    golden: 0
+    dkc2_frozen: 0
+    dkc2_reversed: 0
+    whatsapp: 0
+    black: 0
+
+  palette_squitter:
+    # Which color to use for Squitter
+    original: 50
+    blue: 0
+    green: 0
+    pink: 0
+    aqua: 0
+    purple: 0
+    gray: 0
+    golden: 0
+    dkc2_frozen: 0
+    dkc2_reversed: 0
+    whatsapp: 0
+
+  palette_rattly:
+    # Which color to use for Rattly
+    original: 50
+    black: 0
+    blue: 0
+    white: 0
+    golden: 0
+    dkc2_frozen: 0
+    dkc2_reversed: 0
+    whatsapp: 0
+
+  palette_squawks:
+    # Which color to use for Squawks
+    original: 50
+    quawks: 0
+    red: 0
+    blue: 0
+    black: 0
+    white: 0
+    purple: 0
+    dkc2_reversed: 0
+    dkc2_frozen: 0
+    whatsapp: 0
+    golden: 0
+
+  palette_quawks:
+    # Which color to use for Quawks
+    original: 50
+    squawks: 0
+    red: 0
+    blue: 0
+    black: 0
+    white: 0
+    purple: 0
+    dkc2_reversed: 0
+    dkc2_frozen: 0
+    whatsapp: 0
+    golden: 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

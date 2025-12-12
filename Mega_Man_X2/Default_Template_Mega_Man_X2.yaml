@@ -1,0 +1,662 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Mega Man X2 Template
+
+game: Mega Man X2
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+
+Mega Man X2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  energy_link:
+    # Enable EnergyLink support.
+    # 
+    # EnergyLink in MMX2 works as a big HP and Weapon Energy pool that the players can use to request HP
+    # or Weapon Energy whenever they need to.
+    # 
+    # You make use of this feature by typing /heal <amount> or /refill <amount> in the client.
+    'false': 0
+    'true': 50
+
+  button_configuration:
+    # Default buttons for every action.
+    DASH: A
+    JUMP: B
+    MENU: START
+    SELECT_L: L
+    SELECT_R: R
+    SHOT: Y
+
+  pickupsanity:
+    # Whether collecting freestanding 1ups, HP and Weapon Energy capsules will grant a check.
+    'false': 50
+    'true': 0
+
+  ####################
+  # Gameplay Options #
+  ####################
+  starting_life_count:
+    # How many lives to start the game with.
+    # 
+    # Note: This number becomes the new default life count, meaning that it will persist after a game over.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+
+  starting_hp:
+    # How much HP X will have at the start of the game.
+    # 
+    # Notes: Going over 32 HP may cause visual bugs in either gameplay or the pause menu. The max HP is capped at 56.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 32
+    16: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-32: 0 # random value between 1 and 32
+
+  heart_tank_effectiveness:
+    # How many units of HP each Heart tank will provide to the user.
+    # 
+    # Note: Going over 32 HP may cause visual bugs in either gameplay or the pause menu. The max HP is capped at 56.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 8
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-8: 0 # random value between 1 and 8
+
+  jammed_buster:
+    # Jams X's buster making it only able to shoot lemons.
+    # Note: This adds another Arms Upgrade into the item pool.
+    'false': 50
+    'true': 0
+
+  long_jumps:
+    # Allows X to perform longer jumps when holding down the Dash button.
+    'false': 50
+    'true': 0
+
+  shoryuken_in_pool:
+    # Adds Shoryuken to the item pool.
+    'false': 0
+    'true': 50
+
+  shoryuken_use_hadouken_input:
+    # Makes Shoryuken use the Hadouken input.
+    'false': 50
+    'true': 0
+
+  quick_charge_in_pool:
+    # Adds Quick Charge Chip from Mega Man X5 into the item pool.
+    # 
+    # Halves charge time for X-Buster and Special Weapon shots.
+    'false': 0
+    'true': 50
+
+  speedster_in_pool:
+    # Adds Speedster Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases walking speed by 50%
+    'false': 0
+    'true': 50
+
+  super_recover_in_pool:
+    # Adds Super Recover Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases recovery from items by 25%. Also affects EnergyLink deposit rate. Doesn't affect Sub Tanks.
+    'false': 0
+    'true': 50
+
+  x_hunters_medal_count:
+    # How many Maverick Medals are required to allow X-Hunters to spawn on the main map.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  #########################
+  # Boss Weakness Options #
+  #########################
+  boss_weakness_rando:
+    # Every main boss will have its weakness randomized.
+    # 
+    # vanilla: Bosses retain their original weaknesses
+    # shuffled: Bosses have their weaknesses shuffled
+    # chaotic_double: Bosses will have two random weaknesses under the chaotic set
+    # chaotic_single: Bosses will have one random weakness under the chaotic set
+    # 
+    # The chaotic set makes every weapon charge level a separate weakness instead of keeping
+    # them together, meaning that a boss can be weak to Charged Silk Shot but not its
+    # uncharged version.
+    vanilla: 50
+    shuffled: 0
+    chaotic_double: 0
+    chaotic_single: 0
+
+  boss_weakness_plando:
+    # Forces bosses to have a specific weakness. Uses the names that appear on the chaotic weakness set.
+    # 
+    # Format: 
+    #   Boss Name: Weakness Name
+    {}
+
+  boss_weakness_strictness:
+    # How strict boss weaknesses will be.
+    # 
+    # not_strict: Allow every weapon to deal damage to the bosses
+    # weakness_and_buster: Only allow the weakness and buster to deal damage to the bosses
+    # weakness_and_upgraded_buster: Only allow the weakness and buster charge levels 3 to deal damage to the bosses
+    # only_weakness: Only the weakness will deal damage to the bosses
+    not_strict: 50
+    weakness_and_buster: 0
+    weakness_and_upgraded_buster: 0
+    only_weakness: 0
+
+  boss_randomize_hp:
+    # Wheter to randomize the boss' hp or not.
+    # 
+    # off: Bosses' HP will not be randomized
+    # weak: Bosses will have [1,32] HP
+    # regular: Bosses will have [16,48] HP
+    # strong: Bosses will have [32,64] HP
+    # chaotic: Bosses will have [1,64] HP
+    'off': 50
+    weak: 0
+    regular: 0
+    strong: 0
+    chaotic: 0
+
+  logic_boss_weakness:
+    # Most bosses will logically expect you to have its weakness.
+    # 
+    # This option will be forced if the Boss Weakness Strictness setting is set to require only the weakness or
+    # the upgraded buster option.
+    'false': 0
+    'true': 50
+
+  ###########################
+  # X-Hunter's Base Options #
+  ###########################
+  base_open:
+    # Under which conditions will X-Hunter's Base open.
+    # If no options are selected a multiworld item granting access to the lab will be created.
+    # 
+    # Medals: Consider Maverick medals to get access to the lab.
+    # Weapons: Consider weapons to get access to the lab.
+    # Armor Upgrades: Consider upgrades to get access to the lab.
+    # Heart Tanks: Consider heart tanks to get access to the lab.
+    # Sub Tanks: Consider sub tanks to get access to the lab.
+    ['Medals']
+
+  base_medal_count:
+    # How many Maverick Medals are required to access X-Hunter's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 8
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-8: 0 # random value between 0 and 8
+
+  base_weapon_count:
+    # How many weapons are required to access X-Hunter's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    6: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  base_upgrade_count:
+    # How many armor upgrades are required to access X-Hunter's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 4
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-4: 0 # random value between 0 and 4
+
+  base_heart_tank_count:
+    # How many Heart Tanks are required to access X-Hunter's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    6: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  base_sub_tank_count:
+    # How many Sub Tanks are required to access X-Hunter's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 2
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-2: 0 # random value between 0 and 2
+
+  base_boss_rematch_count:
+    # How many boss rematches are needed in the fourth X-Hunter's Base stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 8
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-8: 0 # random value between 0 and 8
+
+  base_all_levels:
+    # Whether to unlock X-Hunter's Base 1-4 levels as a group or not.
+    # 
+    # Unlocking level 5 requires getting all X-Hunter's Base levels cleared.
+    'false': 50
+    'true': 0
+
+  #############
+  # Aesthetic #
+  #############
+  player_palettes:
+    # Allows you to create colors for each weapon X has. Includes charge levels and Gold Armor customization.
+    # This will override the option preset
+    # 
+    # Each one expects 16 values which are mapped to X's colors.
+    # The values can be in SNES RGB (bgr555) with the $ prefix or PC RGB (rgb888) with the # prefix.
+    {}
+
+  palette_default:
+    # Which color to use for X's default color
+    blue: 50
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_crystal_hunter:
+    # Which color to use for X's Crystal Hunter
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 50
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_bubble_splash:
+    # Which color to use for X's Bubble Splash
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 50
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_silk_shot:
+    # Which color to use for X's Silk Shot
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 50
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_spin_wheel:
+    # Which color to use for X's Spin Wheel
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 50
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_sonic_slicer:
+    # Which color to use for X's Sonic Slicer
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 50
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_strike_chain:
+    # Which color to use for X's Strike Chain
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 50
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_magnet_mine:
+    # Which color to use for X's Magnet Mine
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 50
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  palette_speed_burner:
+    # Which color to use for X's Speed Burner
+    blue: 0
+    gold_armor: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 50
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

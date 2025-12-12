@@ -1,0 +1,1257 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Mega Man X3 Template
+
+game: Mega Man X3
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+
+Mega Man X3:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  energy_link:
+    # Enable EnergyLink support.
+    # 
+    # EnergyLink in MMX2 works as a big HP and Weapon Energy pool that the players can use to request HP
+    # or Weapon Energy whenever they need to.
+    # 
+    # You make use of this feature by typing /heal <amount> or /refill <amount> in the client.
+    'false': 0
+    'true': 50
+
+  button_configuration:
+    # Default buttons for every action.
+    DASH: A
+    JUMP: B
+    MENU: START
+    SELECT_L: L
+    SELECT_R: R
+    SHOT: Y
+
+  pickupsanity:
+    # Whether collecting freestanding 1ups, HP and Weapon Energy capsules will grant a check.
+    'false': 50
+    'true': 0
+
+  ####################
+  # Gameplay Options #
+  ####################
+  starting_life_count:
+    # How many lives to start the game with.
+    # 
+    # Note: This number becomes the new default life count, meaning that it will persist after a game over.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+
+  starting_hp:
+    # How much HP X will have at the start of the game.
+    # 
+    # Notes: Going over 32 HP may cause visual bugs in either gameplay or the pause menu. The max HP is capped at 56.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 32
+    16: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-32: 0 # random value between 1 and 32
+
+  heart_tank_effectiveness:
+    # How many units of HP each Heart tank will provide to the user.
+    # 
+    # Note: Going over 32 HP may cause visual bugs in either gameplay or the pause menu. The max HP is capped at 56.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 8
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-8: 0 # random value between 1 and 8
+
+  jammed_buster:
+    # Jams X's buster making it only able to shoot lemons.
+    # Note: This adds another Arms Upgrade into the item pool.
+    'false': 50
+    'true': 0
+
+  disable_charge_freeze:
+    # Allows X and Zero to move while shooting a level 3 charged shot.
+    'false': 0
+    'true': 50
+
+  long_jumps:
+    # Allows X to perform longer jumps when holding down the Dash button. Only works after getting a Legs Upgrade.
+    'false': 50
+    'true': 0
+
+  zsaber_in_pool:
+    # Adds Z-Saber to the item pool.
+    # 
+    # Z-Saber melee attack will deal 100% HP as DMG, ranged attack will deal 50% HP and its DoT will deal 4x2 DMG.
+    # On strict weakness settings Z-Saber will deal half the DMG (doesn't affect DoT from ranged attack)
+    'false': 0
+    'true': 50
+
+  quick_charge_in_pool:
+    # Adds Quick Charge Chip from Mega Man X5 into the item pool.
+    # 
+    # Halves charge time for X-Buster and Special Weapon shots.
+    'false': 0
+    'true': 50
+
+  speedster_in_pool:
+    # Adds Speedster Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases walking speed by 50%
+    'false': 0
+    'true': 50
+
+  super_recover_in_pool:
+    # Adds Super Recover Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases recovery from items by 25%. Also affects EnergyLink deposit rate. Doesn't affect Sub Tanks.
+    'false': 0
+    'true': 50
+
+  rapid_five_in_pool:
+    # Adds Rapid Five Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases the amount of buster shots on screen to 5.
+    'false': 0
+    'true': 50
+
+  speed_shot_in_pool:
+    # Adds Speed Shot Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases X's buster shots (lemons) horizontal speed by 50%.
+    'false': 0
+    'true': 50
+
+  buster_plus_in_pool:
+    # Adds Buster Plus Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases Buster (lemon) damage by 1.
+    'false': 0
+    'true': 50
+
+  weapon_plus_in_pool:
+    # Adds Weapon Plus Chip from Mega Man X6 into the item pool.
+    # 
+    # Increases Weapon damage by 1.
+    'false': 0
+    'true': 50
+
+  item_plus_in_pool:
+    # Adds Item Plus Chip from Mega Man X7 into the item pool.
+    # 
+    # Increases item drop rates by roughly 33%.
+    'false': 0
+    'true': 50
+
+  #########################
+  # Boss Weakness Options #
+  #########################
+  boss_weakness_rando:
+    # Every main boss will have its weakness randomized.
+    # 
+    # vanilla: Bosses retain their original weaknesses
+    # shuffled: Bosses have their weaknesses shuffled
+    # chaotic_double: Bosses will have two random weaknesses under the chaotic set
+    # chaotic_single: Bosses will have one random weakness under the chaotic set
+    # 
+    # The chaotic set makes every weapon charge level a separate weakness instead of keeping
+    # them together, meaning that a boss can be weak to Charged Frost Shield but not its
+    # uncharged version.
+    vanilla: 50
+    shuffled: 0
+    chaotic_double: 0
+    chaotic_single: 0
+
+  boss_weakness_plando:
+    # Forces bosses to have a specific weakness. Uses the names that appear on the chaotic weakness set.
+    # 
+    # Format: 
+    #   Boss Name: Weakness Name
+    {}
+
+  boss_weakness_strictness:
+    # How strict boss weaknesses will be.
+    # 
+    # not_strict: Allow every weapon to deal damage to the bosses
+    # weakness_and_buster: Only allow the weakness and buster to deal damage to the bosses
+    # weakness_and_upgraded_buster: Only allow the weakness and buster charge levels 3 & 4 to deal damage to the bosses
+    # only_weakness: Only the weakness will deal damage to the bosses
+    not_strict: 50
+    weakness_and_buster: 0
+    weakness_and_upgraded_buster: 0
+    only_weakness: 0
+
+  boss_randomize_hp:
+    # Wheter to randomize the boss' hp or not.
+    # 
+    # off: Bosses' HP will not be randomized
+    # weak: Bosses will have [1,32] HP
+    # regular: Bosses will have [16,48] HP
+    # strong: Bosses will have [32,64] HP
+    # chaotic: Bosses will have [1,64] HP
+    'off': 50
+    weak: 0
+    regular: 0
+    strong: 0
+    chaotic: 0
+
+  logic_boss_weakness:
+    # Most bosses will logically expect you to have its weakness.
+    # 
+    # This option will be forced if the Boss Weakness Strictness setting is set to require only the weakness or
+    # the upgraded buster option.
+    'false': 0
+    'true': 50
+
+  #############################
+  # Dr. Doppler's Lab Options #
+  #############################
+  doppler_open:
+    # Under which conditions will Dr. Doppler's lab open.
+    # If no options are selected a multiworld item granting access to the lab will be created.
+    # 
+    # Medals: Consider Maverick medals to get access to the lab.
+    # Weapons: Consider weapons to get access to the lab.
+    # Armor Upgrades: Consider upgrades to get access to the lab.
+    # Heart Tanks: Consider heart tanks to get access to the lab.
+    # Sub Tanks: Consider sub tanks to get access to the lab.
+    ['Medals']
+
+  doppler_medal_count:
+    # How many Maverick Medals are required to access Dr. Doppler's Lab.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 8
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-8: 0 # random value between 0 and 8
+
+  doppler_weapon_count:
+    # How many weapons are required to access Dr. Doppler's Lab.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    6: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  doppler_upgrade_count:
+    # How many armor upgrades are required to access Dr. Doppler's Lab.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  doppler_heart_tank_count:
+    # How many Heart Tanks are required to access Dr. Doppler's Lab.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    6: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  doppler_sub_tank_count:
+    # How many Sub Tanks are required to access Dr. Doppler's Lab.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 2
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-2: 0 # random value between 0 and 2
+
+  doppler_lab_2_boss:
+    # Which boss will appear in the second Dr Doppler's Lab stage.
+    # 
+    # Note: Also affects the stage variation.
+    volt_kurageil: 50
+    vile: 0
+
+  doppler_lab_3_boss_rematch_count:
+    # How many boss rematches are needed in the third Dr. Doppler's Lab stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 8
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-8: 0 # random value between 0 and 8
+
+  doppler_all_labs:
+    # Whether to unlock Dr. Doppler's Lab 1-3 levels as a group or not.
+    # 
+    # Unlocking level 4 requires getting all Lab levels cleared.
+    'false': 50
+    'true': 0
+
+  logic_vile_required:
+    # Adds a logic check for Dr. Doppler's Lab access so that it expects Vile to be defeated before accessing it.
+    # 
+    # Note: It does not affect the actual Dr. Doppler's Lab access options.
+    'false': 0
+    'true': 50
+
+  ########################
+  # Vile's Stage Options #
+  ########################
+  vile_open:
+    # Under which conditions will Vile's Stage open.
+    # If no options are selected a multiworld item granting access to the stage will be created.
+    # 
+    # Medals: Consider Maverick medals to get access to the lab.
+    # Weapons: Consider weapons to get access to the lab.
+    # Armor Upgrades: Consider upgrades to get access to the lab.
+    # Heart Tanks: Consider heart tanks to get access to the lab.
+    # Sub Tanks: Consider sub tanks to get access to the lab.
+    ['Medals']
+
+  vile_medal_count:
+    # How many Maverick Medals are required to access Vile's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 8
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-8: 0 # random value between 0 and 8
+
+  vile_weapon_count:
+    # How many weapons are required to access Vile's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  vile_upgrade_count:
+    # How many armor upgrades are required to access Vile's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  vile_heart_tank_count:
+    # How many Heart Tanks are required to access Vile's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  vile_sub_tank_count:
+    # How many Sub Tanks are required to access Vile's Stage.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 2
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-2: 0 # random value between 0 and 2
+
+  ######################
+  # Bit & Byte Options #
+  ######################
+  bit_medal_count:
+    # How many Maverick Medals are required to access Bit's fight.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5: 0 # random value between 0 and 5
+
+  byte_medal_count:
+    # How many Maverick Medals are required to access Byte's fight.
+    # 
+    # Note: If Byte's medal count is less than or equal to Bit's, the value will be adjusted to Bit's + 1.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 6
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-6: 0 # random value between 1 and 6
+
+  #############
+  # Aesthetic #
+  #############
+  player_palettes:
+    # Allows you to create colors for each weapon X has. Includes charge levels and Gold Armor customization.
+    # This will override the option preset
+    # 
+    # Each one expects 16 values which are mapped to X's colors.
+    # The values can be in SNES RGB (bgr555) with the $ prefix or PC RGB (rgb888) with the # prefix.
+    Acid Burst: []
+    Charge Blue: []
+    Charge Green: []
+    Charge Pink: []
+    Charge Red: []
+    Default: []
+    Frost Shield: []
+    Gold Armor: []
+    Gravity Well: []
+    Parasitic Bomb: []
+    Ray Splasher: []
+    Spinning Blade: []
+    Tornado Fang: []
+    Triad Thunder: []
+
+  palette_default:
+    # Which color to use for X's default color
+    blue: 50
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_gold_armor:
+    # Which color to use for X's Gold Armor
+    blue: 0
+    gold_armor: 50
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_charge_blue:
+    # Which color to use for X's Level 1 & 2 Charge
+    blue: 0
+    gold_armor: 0
+    charge_blue: 50
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_charge_pink:
+    # Which color to use for X's Level 3 Charge
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 50
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_charge_red:
+    # Which color to use for X's Level 4 Charge
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 50
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_charge_green:
+    # Which color to use for X's Z-Saber Charge
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 50
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_acid_burst:
+    # Which color to use for X's Acid Burst
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 50
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_parasitic_bomb:
+    # Which color to use for X's Parasitic Bomb
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 50
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_triad_thunder:
+    # Which color to use for X's Triad Thunder
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 50
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_spinning_blade:
+    # Which color to use for X's Spinning Blade
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 50
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_ray_splasher:
+    # Which color to use for X's Ray Splasher
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 50
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_gravity_well:
+    # Which color to use for X's Gravity Well
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 50
+    frost_shield: 0
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_frost_shield:
+    # Which color to use for X's Frost Shield
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 50
+    tornado_fang: 0
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  palette_tornado_fang:
+    # Which color to use for X's Tornado Fang
+    blue: 0
+    gold_armor: 0
+    charge_blue: 0
+    charge_pink: 0
+    charge_red: 0
+    charge_green: 0
+    acid_burst: 0
+    parasitic_bomb: 0
+    triad_thunder: 0
+    spinning_blade: 0
+    ray_splasher: 0
+    gravity_well: 0
+    frost_shield: 0
+    tornado_fang: 50
+    crystal_hunter: 0
+    bubble_splash: 0
+    silk_shot: 0
+    spin_wheel: 0
+    sonic_slicer: 0
+    strike_chain: 0
+    magnet_mine: 0
+    speed_burner: 0
+    homing_torpedo: 0
+    chameleon_sting: 0
+    rolling_shield: 0
+    fire_wave: 0
+    storm_tornado: 0
+    electric_spark: 0
+    boomerang_cutter: 0
+    shotgun_ice: 0
+    x4_default_armor: 0
+    x4_ultimate_armor: 0
+    x5_ultimate_armor: 0
+    x6_shadow_armor: 0
+    x6_blade_armor: 0
+    classic_blue: 0
+    smw_mario: 0
+    smw_luigi: 0
+    salvager_rex: 0
+    master_driver_rex_2: 0
+    master_driver_rex_3: 0
+    grand_marshall_shulk: 0
+    lifesage_nia: 0
+    royal_summoner_melia: 0
+    youmu: 0
+    yohane: 0
+    okayu: 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

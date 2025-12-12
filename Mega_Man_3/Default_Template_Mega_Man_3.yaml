@@ -1,0 +1,204 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Mega Man 3 Template
+
+game: Mega Man 3
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Mega Man 3: 0.1.6 # Version of the world required for this yaml to work as expected.
+
+Mega Man 3:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  energy_link:
+    # Enables EnergyLink support.
+    # When enabled, pickups dropped from enemies are sent to the EnergyLink pool, and healing/weapon energy/1-Ups can
+    # be requested from the EnergyLink pool.
+    # Some of the energy sent to the pool will be lost on transfer.
+    'false': 50
+    'true': 0
+
+  starting_robot_master:
+    # The initial stage unlocked at the start.
+    needle_man: 0
+    magnet_man: 0
+    gemini_man: 0
+    hard_man: 0
+    top_man: 0
+    snake_man: 0
+    spark_man: 0
+    shadow_man: 0
+    random: 50
+
+  consumables:
+    # When enabled, e-tanks/1-ups/health/weapon energy will be added to the pool of items and included as checks.
+    none: 0
+    1up_etank: 50
+    weapon_health: 0
+    all: 0
+
+  enemy_weakness:
+    # Randomizes the damage dealt to enemies by weapons. Certain enemies will always take damage from the buster.
+    'false': 50
+    'true': 0
+
+  strict_weakness:
+    # Only your starting Robot Master will take damage from the Mega Buster, the rest must be defeated with weapons.
+    # Weapons that only do 1-3 damage to bosses no longer deal damage (aside from Wily/Gamma).
+    'false': 50
+    'true': 0
+
+  random_weakness:
+    # None: Bosses will have their regular weaknesses.
+    # Shuffled: Weapon damage will be shuffled amongst the weapons, so Shadow Blade may do Top Spin damage.
+    # Randomized: Weapon damage will be fully randomized.
+    none: 50
+    shuffled: 0
+    randomized: 0
+
+  wily_4_requirement:
+    # Change the amount of Robot Masters that are required to be defeated for
+    # the door to the Wily Machine to open.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 8
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-8: 0 # random value between 1 and 8
+
+  plando_weakness:
+    # Specify specific damage numbers for boss damage. Can be used even without strict/random weaknesses.
+    # plando_weakness:
+    #     Robot Master:
+    #         Weapon: Damage
+    {}
+
+  palette_shuffle:
+    # Change the color of Mega Man and the Robot Masters.
+    # None: The palettes are unchanged.
+    # Shuffled: Palette colors are shuffled amongst the robot masters.
+    # Randomized: Random (usually good) palettes are generated for each robot master.
+    # Singularity: one palette is generated and used for all robot masters.
+    # Supports custom palettes using HTML named colors in the
+    # following format: Mega Buster-Lavender|Violet;randomized
+    # The first value is the character whose palette you'd like to define, then separated by - is a set of 2 colors for
+    # that character. separate every color with a pipe, and separate every character as well as the remaining shuffle with
+    # a semicolon.
+    none: 50
+    shuffled: 0
+    randomized: 0
+    singularity: 0
+
+  reduce_flashing:
+    # Reduce flashing seen in gameplay, such as in stages and when defeating certain bosses.
+    'false': 50
+    'true': 0
+
+  music_shuffle:
+    # Shuffle the music that plays in every stage
+    none: 50
+    shuffled: 0
+    randomized: 0
+    no_music: 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
