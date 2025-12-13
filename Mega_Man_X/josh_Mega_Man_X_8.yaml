@@ -1,5 +1,5 @@
 ﻿name: josh_mmx
-description: TBD
+description: 8/8 bosses. fun upgrades.
 game: Mega Man X
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -24,22 +24,22 @@ Mega Man X:
   sigma_sub_tank_count: '2'
 
   # Fun items
-  jammed_buster: 'false'
-  air_dash: 'false'
+  jammed_buster: 'true'
+  air_dash: 'true'
   hadouken_in_pool: 'true'
   quick_charge_in_pool: 'true'
   speedster_in_pool: 'true'
   super_recover_in_pool: 'true'
 
   # Balance
-  starting_life_count: '2'
-  starting_hp: '16'
-  heart_tank_effectiveness: '2'
+  starting_life_count: '3'
+  starting_hp: '8'
+  heart_tank_effectiveness: '4'
   boss_randomize_hp: chaotic
 
   # Fun controls
-  better_walljump: 'false'
-  long_jumps: 'false'
+  better_walljump: 'true'
+  long_jumps: 'true'
 
   # Aesthetics
   player_palettes: {}

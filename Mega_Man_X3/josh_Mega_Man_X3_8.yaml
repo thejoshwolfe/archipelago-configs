@@ -1,5 +1,5 @@
 ﻿name: josh_mmx3
-description: TBD
+description: 8/8 bosses. fun items.
 game: Mega Man X3
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -31,7 +31,7 @@ Mega Man X3:
   doppler_lab_3_boss_rematch_count: '8'
 
   # Fun items
-  jammed_buster: 'false'
+  jammed_buster: 'true'
   zsaber_in_pool: 'true'
   quick_charge_in_pool: 'true'
   speedster_in_pool: 'true'
@@ -43,13 +43,13 @@ Mega Man X3:
   item_plus_in_pool: 'true'
 
   # Balance
-  starting_life_count: '2'
-  starting_hp: '16'
-  heart_tank_effectiveness: '2'
+  starting_life_count: '3'
+  starting_hp: '8'
+  heart_tank_effectiveness: '4'
   boss_randomize_hp: chaotic
 
   # Fun controls
-  long_jumps: 'false'
+  long_jumps: 'true'
   disable_charge_freeze: 'true'
 
   # Aesthetics

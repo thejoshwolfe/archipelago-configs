@@ -1,5 +1,5 @@
 ﻿name: josh_mmx2
-description: TBD
+description: 8/8 bosses. fun items.
 game: Mega Man X2
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -23,20 +23,20 @@ Mega Man X2:
   base_boss_rematch_count: '8'
 
   # Fun items
-  jammed_buster: 'false'
+  jammed_buster: 'true'
   shoryuken_in_pool: 'true'
   quick_charge_in_pool: 'true'
   speedster_in_pool: 'true'
   super_recover_in_pool: 'true'
 
   # Balance
-  starting_life_count: '2'
-  starting_hp: '16'
-  heart_tank_effectiveness: '2'
+  starting_life_count: '3'
+  starting_hp: '8'
+  heart_tank_effectiveness: '4'
   boss_randomize_hp: chaotic
 
   # Fun controls
-  long_jumps: 'false'
+  long_jumps: 'true'
   shoryuken_use_hadouken_input: 'false'
 
   # Aesthetics
@@ -57,7 +57,13 @@ Mega Man X2:
   start_inventory_from_pool: {}
   start_hints: []
   start_location_hints: []
-  exclude_locations: []
+  exclude_locations:
+  # I can't figure out how to make the stupid bike jump reliably.
+  - Overdrive Ostrich - 1-Up Pickup (Top-right ledge in outdoors bike section)
+  - Overdrive Ostrich - HP Pickup 2 (On spikes before Legs Capsule)
+  - Overdrive Ostrich - Weapon Energy Pickup 1 (On spikes before Legs Capsule)
+  - Overdrive Ostrich - HP Pickup 3 (On spikes before Legs Capsule)
+  - Overdrive Ostrich - Weapon Energy Pickup 2 (On spikes before Legs Capsule)
   priority_locations: []
   item_links: []
   plando_items: []
