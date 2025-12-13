@@ -1,5 +1,5 @@
 ﻿name: josh_dkc2
-description: TBD
+description: 4/5 bosses. 4 levels per world.
 game: Donkey Kong Country 2
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -12,7 +12,7 @@ Donkey Kong Country 2:
 
   # Goal
   goal: flying_krock
-  krock_boss_tokens: '5'
+  krock_boss_tokens: '4'
 
   # Levels per world
   required_galleon_levels: '4'
@@ -21,7 +21,7 @@ Donkey Kong Country 2:
   required_kremland_levels: '4'
   required_gulch_levels: '4'
   required_keep_levels: '4'
-  required_krock_levels: '1'
+  required_krock_levels: '0'
   lost_world_rock_placement: lost_world_level_clear
   lost_world_rocks: '5'
   extra_lost_world_rocks: '3'

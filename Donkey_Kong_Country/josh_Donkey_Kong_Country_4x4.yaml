@@ -1,5 +1,5 @@
 ﻿name: josh_dkc
-description: TBD
+description: 4/6 bosses. 4 levels per world.
 game: Donkey Kong Country
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -13,7 +13,7 @@ Donkey Kong Country:
   # Logic
   logic: strict
   glitched_world_access: 'false'
-  kong_checks: 'false'
+  kong_checks: 'true'
   balloon_checks: 'false'
   banana_checks: 'false'
   token_checks: 'false'
@@ -21,7 +21,7 @@ Donkey Kong Country:
   starting_kong: donkey
 
   # Goal
-  gangplank_tokens: '6'
+  gangplank_tokens: '4'
 
   # Levels per world
   required_jungle_levels: '4'
@@ -42,11 +42,11 @@ Donkey Kong Country:
   - Squawks
   - Expresso
   - Winky
-  - Rambi
+  #- Rambi
   shuffle_objects:
-  - Platforms
+  #- Platforms
   - Tires
-  - Barrel Kannons
+  #- Barrel Kannons
   - Switch Barrels
   - Minecart
 

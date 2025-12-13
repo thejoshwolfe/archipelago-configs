@@ -1,5 +1,5 @@
 ﻿name: josh_dkc3
-description: TBD
+description: 25/50 bonus coins. Levels shuffled.
 game: Donkey Kong Country 3
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -14,8 +14,8 @@ Donkey Kong Country 3:
 
   # Logic
   dk_coins_for_gyrocopter: '30'
-  kongsanity: 'false'
-  level_shuffle: 'false'
+  kongsanity: 'true'
+  level_shuffle: 'true'
 
   # Goal
   goal: knautilus
