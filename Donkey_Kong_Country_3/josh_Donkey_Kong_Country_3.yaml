@@ -10,7 +10,7 @@ Donkey Kong Country 3:
   # Balance
   autosave: 'true'
   starting_life_count: '99'
-  difficulty: normal
+  difficulty: norml
 
   # Logic
   dk_coins_for_gyrocopter: '30'
