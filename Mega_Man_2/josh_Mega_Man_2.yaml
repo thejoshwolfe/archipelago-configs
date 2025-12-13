@@ -1,5 +1,5 @@
 name: josh_mm2
-description: TBD
+description: 8/8 bosses
 game: Mega Man 2
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
