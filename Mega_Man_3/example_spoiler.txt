@@ -1,8 +1,8 @@
-﻿Archipelago Version 0.6.5  -  Seed: 18201506002901910366
+﻿Archipelago Version 0.6.5  -  Seed: 75400457807503841388
 
 Filling Algorithm:               balanced
 Players:                         1
-Plando Options:                  connections, texts, bosses
+Plando Options:                  items, connections, texts, bosses
 Game:                            Mega Man 3
 Location Count:                  64
 Progression Balancing:           50
@@ -18,12 +18,12 @@ Item Links:
 Plando Items:                    
 Death Link:                      No
 EnergyLink:                      Yes
-Starting Robot Master:           Snake Man
+Starting Robot Master:           Top Man
 Consumables:                     1-Ups/E-Tanks
 Random Enemy Weaknesses:         No
 Strict Boss Weaknesses:          No
 Random Boss Weaknesses:          Shuffled
-Wily 4 Requirement:              8
+Wily 4 Requirement:              6
 Plando Weaknesses:               
 Palette Shuffle:                 None
 Reduce Flashing:                 Yes
@@ -32,137 +32,144 @@ Music Shuffle:                   None
 
 Starting Items:
 
-Snake Man Access Codes
+Top Man Access Codes
 
 Locations:
 
 Needle Man - Defeated: Weapon Energy (L)
-Needle Cannon - Received: Weapon Energy (L)
-Rush Jet - Received: Hard Man Access Codes
-Needle Man Stage - E-Tank: E-Tank
-Magnet Man - Defeated: Weapon Energy (L)
-Magnet Missile - Received: Health Energy (L)
-Gemini Man - Defeated: Health Energy (L)
-Gemini Laser - Received: 1-Up
-Gemini Man Stage - 1-Up 1: Shadow Man Access Codes
-Gemini Man Stage - Mystery Tank: Weapon Energy (L)
-Gemini Man Stage - 1-Up 2: Weapon Energy (L)
-Gemini Man Stage - E-Tank 1: Doc Robot (Spark) Access Codes
-Gemini Man Stage - E-Tank 2: 1-Up
-Hard Man - Defeated: Weapon Energy (L)
-Hard Knuckle - Received: E-Tank
+Needle Cannon - Received: Magnet Man Access Codes
+Rush Jet - Received: Shadow Man Access Codes
+Needle Man Stage - E-Tank: Weapon Energy (L)
+Magnet Man - Defeated: Health Energy (L)
+Magnet Missile - Received: Doc Robot (Spark) Access Codes
+Gemini Man - Defeated: E-Tank
+Gemini Laser - Received: Weapon Energy (L)
+Gemini Man Stage - 1-Up 1: Magnet Missile
+Gemini Man Stage - Mystery Tank: Doc Robot (Needle) Access Codes
+Gemini Man Stage - 1-Up 2: 1-Up
+Gemini Man Stage - E-Tank 1: E-Tank
+Gemini Man Stage - E-Tank 2: E-Tank
+Hard Man - Defeated: Rush Coil
+Hard Knuckle - Received: Gemini Laser
 Hard Man Stage - E-Tank: Weapon Energy (L)
-Top Man - Defeated: Weapon Energy (L)
+Top Man - Defeated: Snake Man Access Codes
 Top Spin - Received: 1-Up
-Top Man Stage - 1-Up: Shadow Blade
-Snake Man - Defeated: Doc Robot (Needle) Access Codes
-Search Snake - Received: Needle Cannon
-Snake Man Stage - Mystery Tank 1: Rush Jet
-Snake Man Stage - Mystery Tank 2: Spark Man Access Codes
-Spark Man - Defeated: Needle Man Access Codes
-Spark Shock - Received: Doc Robot (Gemini) Access Codes
+Top Man Stage - 1-Up: Health Energy (L)
+Snake Man - Defeated: Rush Jet
+Search Snake - Received: Health Energy (L)
+Snake Man Stage - Mystery Tank 1: Doc Robot (Gemini) Access Codes
+Snake Man Stage - Mystery Tank 2: Doc Robot (Shadow) Access Codes
+Spark Man - Defeated: Weapon Energy (L)
+Spark Shock - Received: Needle Cannon
 Shadow Man - Defeated: Weapon Energy (L)
-Shadow Blade - Received: Weapon Energy (L)
-Rush Marine - Received: E-Tank
-Doc Robot (Air) - Defeated: E-Tank
-Doc Robot (Needle) - 1-Up 1: Weapon Energy (L)
-Doc Robot (Needle) - E-Tank 1: E-Tank
-Doc Robot (Crash) - Defeated: 1-Up
+Shadow Blade - Received: Gemini Man Access Codes
+Rush Marine - Received: Weapon Energy (L)
+Doc Robot (Air) - Defeated: Shadow Blade
+Doc Robot (Needle) - 1-Up 1: Spark Man Access Codes
+Doc Robot (Needle) - E-Tank 1: Weapon Energy (L)
+Doc Robot (Crash) - Defeated: E-Tank
 Doc Robot (Needle) - Completed: Doc Robot (Needle) - Completed
-Doc Robot (Flash) - Defeated: Gemini Laser
-Doc Robot (Gemini) - Mystery Tank 1: Search Snake
-Doc Robot (Gemini) - Mystery Tank 2: Gemini Man Access Codes
-Doc Robot (Bubble) - Defeated: Magnet Man Access Codes
+Doc Robot (Flash) - Defeated: Weapon Energy (L)
+Doc Robot (Gemini) - Mystery Tank 1: Needle Man Access Codes
+Doc Robot (Gemini) - Mystery Tank 2: 1-Up
+Doc Robot (Bubble) - Defeated: Weapon Energy (L)
 Doc Robot (Gemini) - Completed: Doc Robot (Gemini) - Completed
-Doc Robot (Wood) - Defeated: Weapon Energy (L)
-Doc Robot (Heat) - Defeated: Weapon Energy (L)
+Doc Robot (Wood) - Defeated: E-Tank
+Doc Robot (Heat) - Defeated: E-Tank
 Doc Robot (Shadow) - Completed: Doc Robot (Shadow) - Completed
-Doc Robot (Metal) - Defeated: Doc Robot (Shadow) Access Codes
-Doc Robot (Quick) - Defeated: Weapon Energy (L)
+Doc Robot (Metal) - Defeated: Weapon Energy (L)
+Doc Robot (Quick) - Defeated: 1-Up
 Doc Robot (Spark) - Completed: Doc Robot (Spark) - Completed
-Break Man - Defeated: Weapon Energy (L)
+Break Man - Defeated: Rush Marine
 Break Man: Break Man
-Kamegoro Maker - Defeated: Magnet Missile
+Kamegoro Maker - Defeated: Weapon Energy (L)
 Wily Stage 1 - Completed: Wily Stage 1 - Completed
-Wily Stage 1 - 1-Up 1: Hard Knuckle
-Wily Stage 1 - E-Tank 1: Rush Coil
-Wily Stage 1 - 1-Up 2: E-Tank
+Wily Stage 1 - 1-Up 1: Search Snake
+Wily Stage 1 - E-Tank 1: E-Tank
+Wily Stage 1 - 1-Up 2: Health Energy (L)
 Wily Stage 1 - E-Tank 2: E-Tank
-Yellow Devil MK-II - Defeated: Health Energy (L)
+Yellow Devil MK-II - Defeated: E-Tank
 Wily Stage 2 - Completed: Wily Stage 2 - Completed
 Wily Stage 2 - 1-Up 1: E-Tank
 Wily Stage 2 - E-Tank 1: Weapon Energy (L)
-Wily Stage 2 - E-Tank 2: Weapon Energy (L)
-Holograph Mega Man - Defeated: Health Energy (L)
+Wily Stage 2 - E-Tank 2: E-Tank
+Holograph Mega Man - Defeated: Weapon Energy (L)
 Wily Stage 3 - Completed: Wily Stage 3 - Completed
-Wily Stage 3 - E-Tank 1: Weapon Energy (L)
-Wily Stage 3 - 1-Up 1: Top Spin
-Wily Stage 3 - Mystery Tank 1: Top Man Access Codes
-Wily Stage 3 - Mystery Tank 2: Rush Marine
+Wily Stage 3 - E-Tank 1: Hard Knuckle
+Wily Stage 3 - 1-Up 1: Hard Man Access Codes
+Wily Stage 3 - Mystery Tank 1: Weapon Energy (L)
+Wily Stage 3 - Mystery Tank 2: Top Spin
 Wily Stage 4 - Completed: Wily Stage 4 - Completed
-Wily Stage 4 - Mystery Tank: 1-Up
-Wily Stage 4 - 1-Up: Spark Shock
-Wily Machine 3 - Defeated: Weapon Energy (L)
+Wily Stage 4 - Mystery Tank: E-Tank
+Wily Stage 4 - 1-Up: Weapon Energy (L)
+Wily Machine 3 - Defeated: Spark Shock
 Wily Stage 5 - Completed: Wily Stage 5 - Completed
-Wily Stage 5 - Mystery Tank 1: Weapon Energy (L)
-Wily Stage 5 - Mystery Tank 2: Weapon Energy (L)
+Wily Stage 5 - Mystery Tank 1: Health Energy (L)
+Wily Stage 5 - Mystery Tank 2: E-Tank
 Gamma - Defeated: Victory
-Wily Stage 6 - Mystery Tank 1: Weapon Energy (L)
-Wily Stage 6 - Mystery Tank 2: E-Tank
-Wily Stage 6 - 1-Up: Weapon Energy (L)
+Wily Stage 6 - Mystery Tank 1: E-Tank
+Wily Stage 6 - Mystery Tank 2: Weapon Energy (L)
+Wily Stage 6 - 1-Up: E-Tank
 Wily Stage 6 - E-Tank: Weapon Energy (L)
 
 Playthrough:
 
 0: {
-  Snake Man Access Codes
+  Top Man Access Codes
 }
 1: {
-  Snake Man - Defeated: Doc Robot (Needle) Access Codes
-  Snake Man Stage - Mystery Tank 1: Rush Jet
-  Snake Man Stage - Mystery Tank 2: Spark Man Access Codes
+  Top Man - Defeated: Snake Man Access Codes
 }
 2: {
-  Doc Robot (Needle) - Completed: Doc Robot (Needle) - Completed
-  Spark Shock - Received: Doc Robot (Gemini) Access Codes
+  Snake Man - Defeated: Rush Jet
+  Snake Man Stage - Mystery Tank 1: Doc Robot (Gemini) Access Codes
+  Snake Man Stage - Mystery Tank 2: Doc Robot (Shadow) Access Codes
 }
 3: {
-  Doc Robot (Flash) - Defeated: Gemini Laser
   Doc Robot (Gemini) - Completed: Doc Robot (Gemini) - Completed
-  Doc Robot (Gemini) - Mystery Tank 1: Search Snake
-  Doc Robot (Gemini) - Mystery Tank 2: Gemini Man Access Codes
-}
-4: {
-  Gemini Man Stage - E-Tank 1: Doc Robot (Spark) Access Codes
-}
-5: {
-  Doc Robot (Metal) - Defeated: Doc Robot (Shadow) Access Codes
-  Doc Robot (Spark) - Completed: Doc Robot (Spark) - Completed
-}
-6: {
+  Doc Robot (Gemini) - Mystery Tank 1: Needle Man Access Codes
   Doc Robot (Shadow) - Completed: Doc Robot (Shadow) - Completed
 }
+4: {
+  Needle Cannon - Received: Magnet Man Access Codes
+  Rush Jet - Received: Shadow Man Access Codes
+}
+5: {
+  Magnet Missile - Received: Doc Robot (Spark) Access Codes
+  Shadow Blade - Received: Gemini Man Access Codes
+}
+6: {
+  Gemini Man Stage - 1-Up 1: Magnet Missile
+  Gemini Man Stage - Mystery Tank: Doc Robot (Needle) Access Codes
+}
 7: {
-  Break Man: Break Man
+  Doc Robot (Air) - Defeated: Shadow Blade
+  Doc Robot (Needle) - Completed: Doc Robot (Needle) - Completed
 }
 8: {
-  Kamegoro Maker - Defeated: Magnet Missile
-  Wily Stage 1 - Completed: Wily Stage 1 - Completed
+  Doc Robot (Spark) - Completed: Doc Robot (Spark) - Completed
 }
 9: {
-  Wily Stage 2 - Completed: Wily Stage 2 - Completed
+  Break Man: Break Man
 }
 10: {
-  Wily Stage 3 - Completed: Wily Stage 3 - Completed
-  Wily Stage 3 - Mystery Tank 1: Top Man Access Codes
+  Wily Stage 1 - 1-Up 1: Search Snake
+  Wily Stage 1 - Completed: Wily Stage 1 - Completed
 }
 11: {
-  Top Man Stage - 1-Up: Shadow Blade
-  Wily Stage 4 - Completed: Wily Stage 4 - Completed
+  Wily Stage 2 - Completed: Wily Stage 2 - Completed
 }
 12: {
-  Wily Stage 5 - Completed: Wily Stage 5 - Completed
+  Wily Stage 3 - 1-Up 1: Hard Man Access Codes
+  Wily Stage 3 - Completed: Wily Stage 3 - Completed
 }
 13: {
+  Hard Knuckle - Received: Gemini Laser
+  Wily Stage 4 - Completed: Wily Stage 4 - Completed
+}
+14: {
+  Wily Stage 5 - Completed: Wily Stage 5 - Completed
+}
+15: {
   Gamma - Defeated: Victory
 }

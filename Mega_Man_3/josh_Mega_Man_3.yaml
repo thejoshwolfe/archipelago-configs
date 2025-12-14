@@ -1,5 +1,5 @@
 name: josh_mm3
-description: 8/8 bosses
+description: 6/8 bosses
 game: Mega Man 3
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -11,7 +11,7 @@ Mega Man 3:
   enemy_weakness: 'false'
   random_weakness: shuffled
   strict_weakness: 'false'
-  wily_4_requirement: '8'
+  wily_4_requirement: '6'
 
   plando_weakness: {}
   palette_shuffle: none

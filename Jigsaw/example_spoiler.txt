@@ -1,0 +1,194 @@
+﻿Archipelago Version 0.6.5  -  Seed: 87570480141030742756
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Jigsaw
+Location Count:                  94
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Death link:                      0
+Number of pieces:                100
+Grid type and rotations:         Square No Rotation
+Uniform piece size:              No
+Percentage of extra pieces:      10
+Number of piece bundles:         25
+Minimum number of pieces per bundle:1
+Add fillers:                     Yes
+Percentage fillers itempool:     0
+Checks out of logic:             1
+Orientation of image:            Landscape
+Which image:                     26
+Piece type order:                Random Order
+Strictness piece type order:     100
+Piece order:                     Random Order
+Strictness piece order:          100
+Enable clues:                    Yes
+Size of image:                   85
+Starting fake pieces:            0
+Number of fake piece bundles:    0
+Impact of fake piece bundles:    1
+Number of rotate traps:          0
+Impact of rotate traps:          1
+Number of swap traps:            0
+Impact of swap traps:            1
+Border type:                     Classic
+
+Spoiler and info for [Jigsaw] player 1
+Puzzle dimension: 12×8
+Precollected pieces: 20
+
+Starting Items:
+
+20 Puzzle Pieces
+
+Locations:
+
+Merge 1 times: 4 Puzzle Pieces
+Merge 5 times: 4 Puzzle Pieces
+Merge 9 times: 4 Puzzle Pieces
+Merge 13 times: 4 Puzzle Pieces
+Merge 17 times: 4 Puzzle Pieces
+Merge 21 times: 4 Puzzle Pieces
+Merge 25 times: 4 Puzzle Pieces
+Merge 29 times: 4 Puzzle Pieces
+Merge 33 times: 4 Puzzle Pieces
+Merge 37 times: 4 Puzzle Pieces
+Merge 41 times: 4 Puzzle Pieces
+Merge 45 times: 4 Puzzle Pieces
+Merge 49 times: 4 Puzzle Pieces
+Merge 53 times: 4 Puzzle Pieces
+Merge 57 times: 4 Puzzle Pieces
+Merge 61 times: 4 Puzzle Pieces
+Merge 66 times: 4 Puzzle Pieces
+Merge 71 times: 4 Puzzle Pieces
+Merge 76 times: 4 Puzzle Pieces
+Merge 81 times: 4 Puzzle Pieces
+Merge 86 times: 4 Puzzle Pieces
+Merge 95 times: Victory
+Merge 2 times: Clean win!
+Merge 3 times: Yum!
+Merge 4 times: Crisp!
+Merge 6 times: Chef's kiss!
+Merge 7 times: Solid!
+Merge 8 times: Crème de la crème!
+Merge 10 times: Good job!
+Merge 11 times: Love it!
+Merge 12 times: Fire!
+Merge 14 times: Boom!
+Merge 15 times: Beaming!
+Merge 16 times: Snappy!
+Merge 18 times: Yum!
+Merge 19 times: Masterful!
+Merge 20 times: Smooth!
+Merge 22 times: King stuff!
+Merge 23 times: Crisp!
+Merge 24 times: Yayyy!
+Merge 26 times: 10/10!
+Merge 27 times: Lush!
+Merge 28 times: Love it!
+Merge 30 times: Showstopper!
+Merge 31 times: Bravo!
+Merge 32 times: Killer move!
+Merge 34 times: You shine!
+Merge 35 times: Amazeballs!
+Merge 36 times: Slick!
+Merge 38 times: Gorgeous!
+Merge 39 times: Woot!
+Merge 40 times: Keep slaying!
+Merge 42 times: Smooth!
+Merge 43 times: Bang on!
+Merge 44 times: Keep slaying!
+Merge 46 times: Impressive!
+Merge 47 times: Whoa, nice!
+Merge 48 times: Bold move!
+Merge 50 times: Bravo!
+Merge 51 times: Wowza!
+Merge 52 times: Gorgeous!
+Merge 54 times: Zesty!
+Merge 55 times: High five!
+Merge 56 times: Gleaming!
+Merge 58 times: Well done!
+Merge 59 times: Niiice!
+Merge 60 times: So cool!
+Merge 62 times: Zing!
+Merge 63 times: Crushed it!
+Merge 64 times: Yesss!
+Merge 65 times: Niiice!
+Merge 67 times: Top tier!
+Merge 68 times: Too good!
+Merge 69 times: Joyful!
+Merge 70 times: Yayyy!
+Merge 72 times: Go you!
+Merge 73 times: Radiant!
+Merge 74 times: You did it!
+Merge 75 times: Look at you!
+Merge 77 times: Fantastic!
+Merge 78 times: Niiice!
+Merge 79 times: Keep it up!
+Merge 80 times: Showstopper!
+Merge 82 times: So proud!
+Merge 83 times: Yesss!
+Merge 84 times: Joyful!
+Merge 85 times: That’s it!
+Merge 87 times: Nailed it!
+Merge 88 times: Well done!
+Merge 89 times: You shine!
+Merge 90 times: That’s it!
+Merge 91 times: Right on!
+Merge 92 times: Legendary!
+Merge 93 times: High five!
+Merge 94 times: Love it!
+
+Playthrough:
+
+0: {
+  20 Puzzle Pieces
+}
+1: {
+  Merge 1 times: 4 Puzzle Pieces
+}
+2: {
+  Merge 5 times: 4 Puzzle Pieces
+}
+3: {
+  Merge 13 times: 4 Puzzle Pieces
+  Merge 9 times: 4 Puzzle Pieces
+}
+4: {
+  Merge 17 times: 4 Puzzle Pieces
+  Merge 21 times: 4 Puzzle Pieces
+}
+5: {
+  Merge 25 times: 4 Puzzle Pieces
+  Merge 29 times: 4 Puzzle Pieces
+  Merge 33 times: 4 Puzzle Pieces
+}
+6: {
+  Merge 37 times: 4 Puzzle Pieces
+  Merge 41 times: 4 Puzzle Pieces
+  Merge 45 times: 4 Puzzle Pieces
+}
+7: {
+  Merge 49 times: 4 Puzzle Pieces
+  Merge 53 times: 4 Puzzle Pieces
+  Merge 57 times: 4 Puzzle Pieces
+  Merge 61 times: 4 Puzzle Pieces
+}
+8: {
+  Merge 66 times: 4 Puzzle Pieces
+  Merge 71 times: 4 Puzzle Pieces
+  Merge 81 times: 4 Puzzle Pieces
+}
+9: {
+  Merge 95 times: Victory
+}

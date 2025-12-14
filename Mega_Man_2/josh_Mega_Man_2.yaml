@@ -1,12 +1,12 @@
 name: josh_mm2
-description: 8/8 bosses
+description: 6/8 bosses
 game: Mega Man 2
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
   game:
     Mega Man 2: 0.3.3 # Version of the world required for this yaml to work as expected.
 Mega Man 2:
-  wily_5_requirement: '8'
+  wily_5_requirement: '6'
   starting_robot_master: random
   consumables: 1up_etank
 

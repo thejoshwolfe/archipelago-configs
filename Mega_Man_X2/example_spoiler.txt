@@ -1,0 +1,291 @@
+﻿Archipelago Version 0.6.5  -  Seed: 8853254700355452625
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Mega Man X2
+Location Count:                  135
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              Overdrive Ostrich - 1-Up Pickup (Top-right ledge in outdoors bike section), Overdrive Ostrich - HP Pickup 2 (On spikes before Legs Capsule), Overdrive Ostrich - HP Pickup 3 (On spikes before Legs Capsule), Overdrive Ostrich - Weapon Energy Pickup 1 (On spikes before Legs Capsule), Overdrive Ostrich - Weapon Energy Pickup 2 (On spikes before Legs Capsule)
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Start Inventory from Pool:       
+Death Link:                      No
+Energy Link:                     Yes
+Button Configuration:            DASH: A, JUMP: B, MENU: START, SELECT_L: L, SELECT_R: R, SHOT: Y
+Starting Life Count:             3
+Starting HP:                     8
+Heart Tank Effectiveness:        3
+Boss Weakness Randomization:     Shuffled
+Boss Weakness Strictness:        Not Strict
+Button Configuration:            
+Boss Randomize HP:               Chaotic
+Pickupsanity:                    Yes
+Jammed Buster:                   No
+Long Jumps:                      No
+Shoryuken In Pool:               Yes
+Shoryuken Uses Hadouken Input:   No
+Quick Charge In Pool:            Yes
+Speedster In Pool:               Yes
+Super Recover In Pool:           Yes
+Boss Weakness Logic:             Yes
+X-Hunter Base 4 Rematch count:   2
+Base Levels Bundle Unlock:       No
+Base Rules:                      Medals
+Base Medal Count:                6
+Base Weapon Count:               6
+Base Armor Upgrade Count:        4
+Base Heart Tank Count:           6
+Base Sub Tank Count:             2
+X-Hunters Medal Count:           2
+Set Custom Palettes:             
+X Palette:                       Blue
+Crystal Hunter Palette:          Crystal Hunter
+Bubble Splash Palette:           Bubble Splash
+Silk Shot Palette:               Silk Shot
+Spin Wheel Palette:              Spin Wheel
+Sonic Slicer Palette:            Sonic Slicer
+Strike Chain Palette:            Strike Chain
+Magnet Mine Palette:             Magnet Mine
+Speed Burner Palette:            Speed Burner
+
+Mega Man X2 boss weaknesses for josh_mmx2:
+Wheel Gator:                  Uncharged Spin Wheel, Charged Spin Wheel
+Bubble Crab:                  Uncharged Magnet Mine, Charged Magnet Mine
+Flame Stag:                   Uncharged Strike Chain, Charged Strike Chain
+Morph Moth:                   Uncharged Magnet Mine, Charged Magnet Mine
+Magna Centipede:              Lemon, Charged Shot (Level 1), Charged Shot (Level 2), Lemon (Dash), Charged Shot (Level 3)
+Crystal Snail:                Uncharged Magnet Mine, Charged Magnet Mine
+Overdrive Ostrich:            Uncharged Magnet Mine, Charged Magnet Mine
+Wire Sponge:                  Lemon, Charged Shot (Level 1), Charged Shot (Level 2), Lemon (Dash), Charged Shot (Level 3)
+Magna Quartz:                 Lemon, Charged Shot (Level 1), Charged Shot (Level 2), Lemon (Dash), Charged Shot (Level 3)
+Chop Register:                Uncharged Strike Chain, Charged Strike Chain
+Raider Killer:                Uncharged Bubble Splash, Charged Bubble Splash
+Pararoid S-38:                Uncharged Silk Shot (Leaves), Charged Silk Shot (Leaves)
+Agile:                        Uncharged Spin Wheel, Charged Spin Wheel
+Serges:                       Uncharged Silk Shot (Leaves), Charged Silk Shot (Leaves)
+Violen:                       Uncharged Magnet Mine, Charged Magnet Mine
+Neo Violen:                   Lemon, Charged Shot (Level 1), Charged Shot (Level 2), Lemon (Dash), Charged Shot (Level 3)
+Serges Tank:                  Uncharged Silk Shot (Junk), Charged Silk Shot (Junk)
+Agile Flyer:                  Uncharged Spin Wheel, Charged Spin Wheel
+Zero:                         Uncharged Silk Shot (Crystals), Charged Silk Shot (Crystals)
+Sigma:                        Uncharged Speed Burner, Charged Speed Burner
+Sigma Virus:                  Uncharged Magnet Mine, Charged Magnet Mine
+
+
+Locations:
+
+Defeated Gigantic Mechaniloid CF-0: Bubble Crab Access Codes
+Intro Stage - Clear: Morph Moth Access Codes
+Wheel Gator - Heart Tank: Small HP Refill
+Wheel Gator - Arms Capsule: Small HP Refill
+Defeated Wheel Gator: Crystal Hunter
+Wheel Gator - Clear: Maverick Medal
+Bubble Crab - Heart Tank: 1-Up
+Bubble Crab - Sub Tank: Heart Tank
+Defeated Bubble Crab: 1-Up
+Bubble Crab - Clear: Maverick Medal
+Flame Stag - Heart Tank: Speed Burner
+Flame Stag - Sub Tank: 1-Up
+Defeated Flame Stag: 1-Up
+Flame Stag - Clear: Maverick Medal
+Morph Moth - Heart Tank: 1-Up
+Morph Moth - Body Capsule: 1-Up
+Defeated Pararoid S-38 #1: Large HP Refill
+Defeated Pararoid S-38 #2: Small HP Refill
+Defeated Morph Moth: Small HP Refill
+Morph Moth - Clear: Maverick Medal
+Magna Centipede - Heart Tank: Small HP Refill
+Magna Centipede - Sub Tank: 1-Up
+Defeated Chop Register: Heart Tank
+Defeated Raider Killer: 1-Up
+Defeated Magna Centipede: Large HP Refill
+Magna Centipede - Clear: Maverick Medal
+Crystal Snail - Heart Tank: 1-Up
+Crystal Snail - Helmet Capsule: 1-Up
+Defeated Magna Quartz: Magnet Mine
+Defeated Crystal Snail: Helmet Upgrade
+Crystal Snail - Clear: Maverick Medal
+Overdrive Ostrich - Heart Tank: Body Upgrade
+Overdrive Ostrich - Legs Capsule: Heart Tank
+Defeated Overdrive Ostrich: 1-Up
+Overdrive Ostrich - Clear: Maverick Medal
+Wire Sponge - Heart Tank: 1-Up
+Wire Sponge - Sub Tank: Heart Tank
+Defeated Wire Sponge: 1-Up
+Wire Sponge - Clear: Maverick Medal
+Defeated Agile: Strike Chain
+Defeated Serges: 1-Up
+Defeated Violen: Spin Wheel
+Defeated Neo Violen: 1-Up
+X-Hunter Stage 1 - Clear: X-Hunter Stage 1 - Clear
+Defeated Serges Tank: Large HP Refill
+X-Hunter Stage 2 - Clear: X-Hunter Stage 2 - Clear
+X-Hunter Base 3 - Shoryuken Capsule: 1-Up
+Defeated Agile Flyer: Quick Charge Chip
+X-Hunter Stage 3 - Clear: X-Hunter Stage 3 - Clear
+Defeated Wheel Gator (Rematch): Bubble Splash
+Defeated Bubble Crab (Rematch): Sub Tank
+Defeated Flame Stag (Rematch): Wire Sponge Access Codes
+Defeated Morph Moth (Rematch): Heart Tank
+Defeated Magna Centipede (Rematch): Large HP Refill
+Defeated Crystal Snail (Rematch): 1-Up
+Defeated Overdrive Ostrich (Rematch): Large HP Refill
+Defeated Wire Sponge (Rematch): Large HP Refill
+Event Defeated Wheel Gator (Rematch): Event Boss Rematch Clear
+Event Defeated Bubble Crab (Rematch): Event Boss Rematch Clear
+Event Defeated Flame Stag (Rematch): Event Boss Rematch Clear
+Event Defeated Morph Moth (Rematch): Event Boss Rematch Clear
+Event Defeated Magna Centipede (Rematch): Event Boss Rematch Clear
+Event Defeated Crystal Snail (Rematch): Event Boss Rematch Clear
+Event Defeated Overdrive Ostrich (Rematch): Event Boss Rematch Clear
+Event Defeated Wire Sponge (Rematch): Event Boss Rematch Clear
+X-Hunter Base 4 - Clear: Sigma Access Codes
+X-Hunter Stage 4 - Clear: X-Hunter Stage 4 - Clear
+Defeated Zero: Small HP Refill
+Defeated Sigma: Sigma Virus Destroyed
+Intro Stage - HP Pickup 1 (Before spike pit): Small HP Refill
+Intro Stage - HP Pickup 2 (Before boss room): Small HP Refill
+Wheel Gator - HP Pickup 1 (High ledge after spikes section): Speedster Chip
+Wheel Gator - HP Pickup 2 (Ledge before Ride Armor): 1-Up
+Wheel Gator - 1-Up Pickup (Top of elevator): Large HP Refill
+Wheel Gator - Weapon Energy Pickup (Ledge in left elevator exit): 1-Up
+Wheel Gator - HP Pickup 3 (Hidden behind top column after X-Hunter room): 1-Up
+Wheel Gator - HP Pickup 4 (Ledge before boss room): Large HP Refill
+Wheel Gator - HP Pickup 5 (Hidden behind metal slope in exterior section): Legs Upgrade
+Wheel Gator - HP Pickup 6 (Hidden behind metal slope in exterior section): Super Recover Chip
+Wheel Gator - HP Pickup 7 (Hidden behind metal slope in exterior section): Large HP Refill
+Bubble Crab - 1-Up Pickup (Below Spin Wheel blocks before water section): Heart Tank
+Bubble Crab - HP Pickup 1 (Ledge before water section): Large HP Refill
+Bubble Crab - HP Pickup 2 (Top-right opening above metal floor): 1-Up
+Bubble Crab - Weapon Energy Pickup 1 (Top-right ledge in seabed section): Small HP Refill
+Bubble Crab - HP Pickup 3 (First pit in seabed section): Large HP Refill
+Bubble Crab - HP Pickup 4 (Artificial cave in seabed section): Large HP Refill
+Bubble Crab - Weapon Energy Pickup 2 (Artificial cave in seabed section): Large HP Refill
+Bubble Crab - HP Pickup 5 (Fake wall below Sub Tank): Flame Stag Access Codes
+Bubble Crab - HP Pickup 6 (Before boss): Small HP Refill
+Flame Stag - 1-Up Pickup 1 (Top-right of first Beetron section): Sub Tank
+Flame Stag - HP Pickup 1 (Cave before first lava section): 1-Up
+Flame Stag - Weapon Energy Pickup 1 (Cave before first lava section): Sub Tank
+Flame Stag - HP Pickup 2 (Cave before first lava section): 1-Up
+Flame Stag - Weapon Energy Pickup 2 (Cave before first lava section): Large HP Refill
+Flame Stag - HP Pickup 3 (Cave before rising lava section): Crystal Snail Access Codes
+Flame Stag - HP Pickup 4 (First ledge in rising lava section): Wheel Gator Access Codes
+Flame Stag - 1-Up Pickup 2 (Bottom of rising lava section): Small HP Refill
+Flame Stag - HP Pickup 5 (Second ledge in rising lava section): 1-Up
+Flame Stag - Weapon Energy Pickup 3 (Second ledge in rising lava section): 1-Up
+Flame Stag - HP Pickup 6 (After rising lava section): Large HP Refill
+Flame Stag - HP Pickup 7 (Bottom-left of lava cave section): 1-Up
+Flame Stag - Weapon Energy Pickup 4 (Bottom-left of lava cave section): Large HP Refill
+Flame Stag - HP Pickup 8 (Before X-Hunter room): Large HP Refill
+Flame Stag - 1-Up Pickup 3 (Above third pillar in lava cave section): 1-Up
+Flame Stag - HP Pickup 9 (Ledge in gas pipes section): Large HP Refill
+Morph Moth - 1-Up Pickup 1 (Left of Heart Tank): 1-Up
+Morph Moth - 1-Up Pickup 2 (Top-left ledge before Pararoid S-38 #1): Magna Centipede Access Codes
+Morph Moth - HP Pickup 1 (Before vertical ladder section): Large HP Refill
+Morph Moth - HP Pickup 2 (Left ledge in vertical ladder section): Small HP Refill
+Morph Moth - HP Pickup 3 (Right ledge in vertical ladder section): Small HP Refill
+Morph Moth - HP Pickup 4 (Bottom of magnet ceiling section): Silk Shot
+Morph Moth - HP Pickup 5 (Bottom of magnet ceiling section): Sub Tank
+Magna Centipede - HP Pickup 1 (After Chop Register): Small HP Refill
+Magna Centipede - HP Pickup 2 (Before X-Hunter room): Small HP Refill
+Crystal Snail - HP Pickup 1 (Under crystal blocks before X-Hunter room): Small HP Refill
+Crystal Snail - Weapon Energy Pickup 1 (Under crystal blocks before X-Hunter room): Sonic Slicer
+Crystal Snail - HP Pickup 4 (In giant crystal slide section): Large HP Refill
+Crystal Snail - HP Pickup 2 (After X-Hunter room): 1-Up
+Crystal Snail - 1-Up Pickup 1 (Under crystal blocks before Magna Quartz): Small HP Refill
+Crystal Snail - HP Pickup 3 (Under crystal blocks before Magna Quartz): Large HP Refill
+Crystal Snail - 1-Up Pickup 2 (Fake ceiling next to Helmet Capsule): Small HP Refill
+Overdrive Ostrich - HP Pickup 1 (Behind Spin Wheel blocks before X-Hunter room): Small HP Refill
+Overdrive Ostrich - 1-Up Pickup (Top-right ledge in outdoors bike section): Large HP Refill
+Overdrive Ostrich - HP Pickup 2 (On spikes before Legs Capsule): 1-Up
+Overdrive Ostrich - Weapon Energy Pickup 1 (On spikes before Legs Capsule): 1-Up
+Overdrive Ostrich - HP Pickup 3 (On spikes before Legs Capsule): Large HP Refill
+Overdrive Ostrich - Weapon Energy Pickup 2 (On spikes before Legs Capsule): Small HP Refill
+Wire Sponge - 1-Up Pickup (Above flying platforms in rainy section): 1-Up
+Wire Sponge - HP Pickup 1 (Before X-Hunter room): Large HP Refill
+Wire Sponge - HP Pickup 2 (Before boss room): 1-Up
+X-Hunter Base 1 - 1-Up Pickup 1 (Right ledge after start): Large HP Refill
+X-Hunter Base 1 - HP Pickup (Below flying platforms section): Large HP Refill
+X-Hunter Base 1 - 1-Up Pickup 2 (Below flying platforms section): Large HP Refill
+X-Hunter Base 2 - HP Pickup (Behind Spin Wheel blocks before boss): 1-Up
+X-Hunter Base 2 - 1-Up Pickup (Behind Spin Wheel blocks before boss): Small HP Refill
+X-Hunter Base 3 - HP Pickup 1 (In Strike Chain hole after start): Large HP Refill
+X-Hunter Base 3 - 1-Up Pickup 1 (In Strike Chain hole after start): Large HP Refill
+X-Hunter Base 3 - HP Pickup 2 (Before second moving platform section): Small HP Refill
+X-Hunter Base 3 - HP Pickup 3 (Before second moving platform section): Shoryuken
+X-Hunter Base 3 - HP Pickup 4 (Before second moving platform section): Heart Tank
+X-Hunter Base 3 - HP Pickup 5 (Top of second moving platform section): Arms Upgrade
+X-Hunter Base 3 - HP Pickup 6 (Top of second moving platform section): Large HP Refill
+X-Hunter Base 3 - 1-Up Pickup 2 (Left of charged Speed Burner + air dash section): Small HP Refill
+X-Hunter Base 3 - HP Pickup 7 (Ledge left of charged Speed Burner + air dash section): Large HP Refill
+X-Hunter Base 3 - HP Pickup 8 (Ledge left of charged Speed Burner + air dash section): Large HP Refill
+X-Hunter Base 3 - 1-Up Pickup 3 (After charged Speed Burner + air dash section): Heart Tank
+X-Hunter Base 3 - 1-Up Pickup 4 (On spikes after last vertical section): Overdrive Ostrich Access Codes
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Defeated Gigantic Mechaniloid CF-0: Bubble Crab Access Codes
+  Intro Stage - Clear: Morph Moth Access Codes
+}
+2: {
+  Bubble Crab - HP Pickup 5 (Fake wall below Sub Tank): Flame Stag Access Codes
+  Morph Moth - 1-Up Pickup 2 (Top-left ledge before Pararoid S-38 #1): Magna Centipede Access Codes
+}
+3: {
+  Flame Stag - HP Pickup 3 (Cave before rising lava section): Crystal Snail Access Codes
+  Flame Stag - HP Pickup 4 (First ledge in rising lava section): Wheel Gator Access Codes
+  Flame Stag - Heart Tank: Speed Burner
+}
+4: {
+  Defeated Magna Quartz: Magnet Mine
+  Wheel Gator - HP Pickup 5 (Hidden behind metal slope in exterior section): Legs Upgrade
+}
+5: {
+  Bubble Crab - Clear: Maverick Medal
+  Crystal Snail - Clear: Maverick Medal
+  Defeated Crystal Snail: Helmet Upgrade
+}
+6: {
+  Defeated Violen: Spin Wheel
+  Magna Centipede - Clear: Maverick Medal
+  Morph Moth - Clear: Maverick Medal
+  Morph Moth - HP Pickup 4 (Bottom of magnet ceiling section): Silk Shot
+}
+7: {
+  Defeated Agile: Strike Chain
+  Wheel Gator - Clear: Maverick Medal
+}
+8: {
+  Flame Stag - Clear: Maverick Medal
+}
+9: {
+  X-Hunter Stage 1 - Clear: X-Hunter Stage 1 - Clear
+}
+10: {
+  X-Hunter Stage 2 - Clear: X-Hunter Stage 2 - Clear
+}
+11: {
+  X-Hunter Stage 3 - Clear: X-Hunter Stage 3 - Clear
+}
+12: {
+  Event Defeated Crystal Snail (Rematch): Event Boss Rematch Clear
+  Event Defeated Magna Centipede (Rematch): Event Boss Rematch Clear
+}
+13: {
+  X-Hunter Stage 4 - Clear: X-Hunter Stage 4 - Clear
+}
+14: {
+  Defeated Sigma: Sigma Virus Destroyed
+}

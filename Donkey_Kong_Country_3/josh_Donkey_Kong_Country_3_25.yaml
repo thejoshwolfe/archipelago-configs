@@ -1,5 +1,5 @@
 name: josh_dkc3
-description: 25/50 bonus coins. Levels shuffled. Start with Turbo Ski. Required cogs in fixed early-game caves plus Rocket Rush.
+description: 25/35 bonus coins. Levels shuffled. Required cogs in fixed early-game locations plus Rocket Rush. Incremental advancement only comes from 3 Progressive Boat Upgrade items.
 game: Donkey Kong Country 3
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -14,15 +14,17 @@ Donkey Kong Country 3:
   difficulty: norml
 
   # Logic
-  dk_coins_for_gyrocopter: '30'
   kongsanity: 'true'
   level_shuffle: 'true'
 
   # Goal
   goal: knautilus
-  # This many times 5 levels in Krematoa is the total number of bonus coins needed.
+  # krematoa_bonus_coin_cost(5) * levels_in_krematoa(5) = required_bonus_coins(25)
   krematoa_bonus_coin_cost: '5'
-  percentage_of_extra_bonus_coins: '100'
+  # required_bonus_coins(25) * (1 + percentage_of_extra_bonus_coins(40) / 100) = available_bonus_coins(35)
+  percentage_of_extra_bonus_coins: '40'
+  # unused options for banana bird hunt:
+  dk_coins_for_gyrocopter: '30'
   number_of_banana_birds: '15'
   percentage_of_banana_birds: '100'
 
@@ -38,9 +40,7 @@ Donkey Kong Country 3:
   ###########################
   local_items: []
   non_local_items: []
-  start_inventory:
-    # Start with access to most worlds.
-    Progressive Boat Upgrade: 3
+  start_inventory: {}
   start_hints: []
   start_location_hints: []
   exclude_locations:
@@ -53,16 +53,16 @@ Donkey Kong Country 3:
   item_links: []
   plando_items:
   # Place 4/5 cogs right at the start. The last cog is always at Rocket Rush, which is never shuffled.
-  # This makes these settings a hunt for only 25/50 bonus coins + fighting the final boss,
+  # This makes these settings a hunt for only 25/35 bonus coins + fighting the final boss,
   # rather than also requiring 5/5 cog hunt.
   - items:
       Krematoa Cog: 4
     locations:
-    # With level shuffle enabled, choose non-shuffled caves.
-    - Undercover Cove
-    - Kong Cave
+    # With level shuffle enabled, choose non-shuffled locations in sphere 1.
     - Bounty Beach
+    - Kong Cave
     - Smuggler's Cove
+    - Belcha's Barn
 
   progression_balancing: '50'
   accessibility: full

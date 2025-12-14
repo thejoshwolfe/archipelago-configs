@@ -43,14 +43,14 @@ Mega Man X3:
   item_plus_in_pool: 'true'
 
   # Balance
-  starting_life_count: '2'
-  starting_hp: '16'
-  heart_tank_effectiveness: '2'
+  starting_life_count: '3'
+  starting_hp: '8'
+  heart_tank_effectiveness: '3'
   boss_randomize_hp: chaotic
 
   # Fun controls
   long_jumps: 'false'
-  disable_charge_freeze: 'true'
+  disable_charge_freeze: 'false'
 
   # Aesthetics
   player_palettes:

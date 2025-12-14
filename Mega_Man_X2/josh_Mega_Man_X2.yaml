@@ -1,5 +1,5 @@
 name: josh_mmx2
-description: 8/8 bosses. fun items.
+description: 6/8 bosses
 game: Mega Man X2
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -15,15 +15,15 @@ Mega Man X2:
   # Goal
   base_open:
   - Medals
-  base_medal_count: '8'
+  base_medal_count: '6'
   base_weapon_count: '6'
   base_upgrade_count: '4'
   base_heart_tank_count: '6'
   base_sub_tank_count: '2'
-  base_boss_rematch_count: '8'
+  base_boss_rematch_count: '2'
 
   # Fun items
-  jammed_buster: 'true'
+  jammed_buster: 'false'
   shoryuken_in_pool: 'true'
   quick_charge_in_pool: 'true'
   speedster_in_pool: 'true'
@@ -32,11 +32,11 @@ Mega Man X2:
   # Balance
   starting_life_count: '3'
   starting_hp: '8'
-  heart_tank_effectiveness: '4'
+  heart_tank_effectiveness: '3'
   boss_randomize_hp: chaotic
 
   # Fun controls
-  long_jumps: 'true'
+  long_jumps: 'false'
   shoryuken_use_hadouken_input: 'false'
 
   # Aesthetics

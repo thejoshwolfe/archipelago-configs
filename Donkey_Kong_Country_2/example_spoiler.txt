@@ -1,4 +1,4 @@
-﻿Archipelago Version 0.6.5  -  Seed: 57886064334755804511
+﻿Archipelago Version 0.6.5  -  Seed: 3105882170966131824
 
 Filling Algorithm:               balanced
 Players:                         1
@@ -26,17 +26,17 @@ Sent Message Filter:
 Starting Life Count:             99
 Starting Kong:                   Diddy
 Goal:                            Flying Krock
-Flying Krock Tokens:             2
+Flying Krock Tokens:             4
 Lost World Rocks:                5
 Extra Lost World Rocks:          3
 Lost World Rock Behavior:        Lost World Level Clear
 Logic Difficulty:                Strict
-Galleon Levels Required:         2
-Cauldron Levels Required:        2
-Quay Levels Required:            2
-Kremland Levels Required:        2
-Gulch Levels Required:           2
-Keep Levels Required:            2
+Galleon Levels Required:         3
+Cauldron Levels Required:        3
+Quay Levels Required:            3
+Kremland Levels Required:        3
+Gulch Levels Required:           3
+Keep Levels Required:            3
 Krock Levels Required:           0
 Shuffle Levels:                  No
 Ability Shuffle:                 
@@ -86,73 +86,73 @@ Starting Items:
 Warp Barrels
 Diddy
 Gangplank Galleon Access
+Cartwheel
+Cling
 Swim
 Carry
 Helicopter Spin
 Climb
-Cartwheel
-Rattly
-Barrel Kannons
-Cling
-Team Attack
+Clapper
 Skull Kart
-Squawks
+Enguarde
 Rambi
+Squawks
+Barrel Kannons
+Controllable Barrels
+Kong Barrels
+Exclamation Barrels
+Team Attack
 Glimmer
 Squitter
-Enguarde
-Clapper
-Kong Barrels
-Controllable Barrels
-Exclamation Barrels
+Rattly
 
 Locations:
 
-Pirate Panic - Clear: Backup DK Barrel
-Mainbrace Mayhem - Clear: Backup DK Barrel
-Gangplank Galley - Clear: DK Coin
+Pirate Panic - Clear: 1-Up Balloon
+Mainbrace Mayhem - Clear: Kremkoin
+Gangplank Galley - Clear: Crocodile Cauldron Access
 Lockjaw's Locker - Clear: Kremkoin
-Topsail Trouble - Clear: Krem Quay Access
-Krow's Nest - Clear: Kremkoin
-Hot-Head Hop - Clear: Backup DK Barrel
-Kannon's Klaim - Clear: DK Coin
-Lava Lagoon - Clear: DK Coin
+Topsail Trouble - Clear: Kremkoin
+Krow's Nest - Clear: Backup DK Barrel
+Hot-Head Hop - Clear: DK Coin
+Kannon's Klaim - Clear: Backup DK Barrel
+Lava Lagoon - Clear: Backup DK Barrel
 Red-Hot Ride - Clear: Backup DK Barrel
-Squawks's Shaft - Clear: DK Coin
-Kleever's Kiln - Clear: Backup DK Barrel
-Barrel Bayou - Clear: Banana Extractinator
-Glimmer's Galleon - Clear: Kremkoin
-Krockhead Klamber - Clear: Reverse Trap
-Rattle Battle - Clear: 1-Up Balloon
-Slime Climb - Clear: DK Coin
-Bramble Blast - Clear: 1-Up Balloon
-Kudgel's Kontest - Clear: Gloomy Gulch Access
+Squawks's Shaft - Clear: Dixie
+Kleever's Kiln - Clear: 1-Up Balloon
+Barrel Bayou - Clear: Backup DK Barrel
+Glimmer's Galleon - Clear: 1-Up Balloon
+Krockhead Klamber - Clear: Backup DK Barrel
+Rattle Battle - Clear: Kremkoin
+Slime Climb - Clear: Kremkoin
+Bramble Blast - Clear: Ice Trap
+Kudgel's Kontest - Clear: Kremkoin
 Hornet Hole - Clear: DK Coin
-Target Terror - Clear: Backup DK Barrel
+Target Terror - Clear: Kremkoin
 Bramble Scramble - Clear: DK Coin
-Rickety Race - Clear: Backup DK Barrel
+Rickety Race - Clear: Ice Trap
 Mudhole Marsh - Clear: Backup DK Barrel
-Rambi Rumble - Clear: Reverse Trap
-King Zing Sting - Clear: Backup DK Barrel
-Ghostly Grove - Clear: DK Coin
-Haunted Hall - Clear: Banana Coin
-Gusty Glade - Clear: Reverse Trap
-Parrot Chute Panic - Clear: Banana Extractinator
-Web Woods - Clear: Backup DK Barrel
+Rambi Rumble - Clear: Lost World Access (Gulch)
+King Zing Sting - Clear: 1-Up Balloon
+Ghostly Grove - Clear: Lost World Access (Keep)
+Haunted Hall - Clear: DK Coin
+Gusty Glade - Clear: Kremkoin
+Parrot Chute Panic - Clear: Kremkoin
+Web Woods - Clear: DK Coin
 Kreepy Krow - Clear: 1-Up Balloon
 Arctic Abyss - Clear: Backup DK Barrel
-Windy Well - Clear: Lost World Access (Keep)
-Castle Crush - Clear: 1-Up Balloon
-Clapper's Cavern - Clear: 1-Up Balloon
-Chain Link Chamber - Clear: Kremkoin
-Toxic Tower - Clear: DK Coin
-Stronghold Showdown - Clear: Banana Coin
+Windy Well - Clear: Backup DK Barrel
+Castle Crush - Clear: Banana Coin
+Clapper's Cavern - Clear: Banana Coin
+Chain Link Chamber - Clear: Banana Extractinator
+Toxic Tower - Clear: Backup DK Barrel
+Stronghold Showdown - Clear: Backup DK Barrel
 Screech's Sprint - Clear: Backup DK Barrel
-Jungle Jinx - Clear: Backup DK Barrel
-Black Ice Battle - Clear: DK Coin
+Jungle Jinx - Clear: DK Coin
+Black Ice Battle - Clear: Banana Coin
 Klobber Karnage - Clear: Backup DK Barrel
 Fiery Furnace - Clear: DK Coin
-Animal Antics - Clear: Lost World Access (Gulch)
+Animal Antics - Clear: DK Coin
 Mainbrace Mayhem - Clear (Map Event): Cleared Gangplank Galleon Level
 Gangplank Galley - Clear (Map Event): Cleared Gangplank Galleon Level
 Lockjaw's Locker - Clear (Map Event): Cleared Gangplank Galleon Level
@@ -193,152 +193,152 @@ Defeated Kudgel: Boss Token
 Defeated King Zing: Boss Token
 Defeated Kreepy Krow: Boss Token
 K. Rool Duel - Clear: Defeated K. Rool at The Flying Krock
-Pirate Panic - Bonus #1: Dixie
-Pirate Panic - Bonus #2: Backup DK Barrel
-Mainbrace Mayhem - Bonus #1: Backup DK Barrel
-Mainbrace Mayhem - Bonus #2: Banana Coin
+Pirate Panic - Bonus #1: Kremkoin
+Pirate Panic - Bonus #2: DK Coin
+Mainbrace Mayhem - Bonus #1: TNT Barrel Trap
+Mainbrace Mayhem - Bonus #2: 1-Up Balloon
 Mainbrace Mayhem - Bonus #3: 1-Up Balloon
-Gangplank Galley - Bonus #1: Backup DK Barrel
-Gangplank Galley - Bonus #2: 1-Up Balloon
-Lockjaw's Locker - Bonus #1: DK Coin
-Topsail Trouble - Bonus #1: Kremkoin
-Topsail Trouble - Bonus #2: 1-Up Balloon
-Hot-Head Hop - Bonus #1: Banana Coin
-Hot-Head Hop - Bonus #2: 1-Up Balloon
+Gangplank Galley - Bonus #1: Banana Coin
+Gangplank Galley - Bonus #2: DK Coin
+Lockjaw's Locker - Bonus #1: 1-Up Balloon
+Topsail Trouble - Bonus #1: Backup DK Barrel
+Topsail Trouble - Bonus #2: DK Coin
+Hot-Head Hop - Bonus #1: Krazy Kremland Access
+Hot-Head Hop - Bonus #2: Kremkoin
 Hot-Head Hop - Bonus #3: Backup DK Barrel
-Kannon's Klaim - Bonus #1: Kremkoin
+Kannon's Klaim - Bonus #1: Lost World Access (Kremland)
 Kannon's Klaim - Bonus #2: Backup DK Barrel
-Kannon's Klaim - Bonus #3: Backup DK Barrel
-Lava Lagoon - Bonus #1: 1-Up Balloon
-Red-Hot Ride - Bonus #1: DK Coin
+Kannon's Klaim - Bonus #3: DK Coin
+Lava Lagoon - Bonus #1: Backup DK Barrel
+Red-Hot Ride - Bonus #1: 1-Up Balloon
 Red-Hot Ride - Bonus #2: Backup DK Barrel
 Squawks's Shaft - Bonus #1: Backup DK Barrel
-Squawks's Shaft - Bonus #2: Lost World Access (Quay)
-Squawks's Shaft - Bonus #3: 1-Up Balloon
-Barrel Bayou - Bonus #1: Kremkoin
+Squawks's Shaft - Bonus #2: Backup DK Barrel
+Squawks's Shaft - Bonus #3: Backup DK Barrel
+Barrel Bayou - Bonus #1: DK Coin
 Barrel Bayou - Bonus #2: 1-Up Balloon
 Glimmer's Galleon - Bonus #1: Backup DK Barrel
-Glimmer's Galleon - Bonus #2: DK Coin
+Glimmer's Galleon - Bonus #2: Lost World Access (Quay)
 Krockhead Klamber - Bonus #1: Banana Coin
-Rattle Battle - Bonus #1: Kremkoin
-Rattle Battle - Bonus #2: Backup DK Barrel
-Rattle Battle - Bonus #3: Freeze Trap
-Slime Climb - Bonus #1: Kremkoin
-Slime Climb - Bonus #2: 1-Up Balloon
-Bramble Blast - Bonus #1: Backup DK Barrel
-Bramble Blast - Bonus #2: 1-Up Balloon
+Rattle Battle - Bonus #1: 1-Up Balloon
+Rattle Battle - Bonus #2: 1-Up Balloon
+Rattle Battle - Bonus #3: Backup DK Barrel
+Slime Climb - Bonus #1: Backup DK Barrel
+Slime Climb - Bonus #2: Kremkoin
+Bramble Blast - Bonus #1: Kremkoin
+Bramble Blast - Bonus #2: DK Coin
 Hornet Hole - Bonus #1: Backup DK Barrel
-Hornet Hole - Bonus #2: Kremkoin
-Hornet Hole - Bonus #3: Kremkoin
-Target Terror - Bonus #1: Backup DK Barrel
-Target Terror - Bonus #2: Kremkoin
-Bramble Scramble - Bonus #1: Kremkoin
-Rickety Race - Bonus #1: DK Coin
-Mudhole Marsh - Bonus #1: Backup DK Barrel
-Mudhole Marsh - Bonus #2: Backup DK Barrel
+Hornet Hole - Bonus #2: Reverse Trap
+Hornet Hole - Bonus #3: DK Coin
+Target Terror - Bonus #1: Freeze Trap
+Target Terror - Bonus #2: Banana Extractinator
+Bramble Scramble - Bonus #1: Backup DK Barrel
+Rickety Race - Bonus #1: Backup DK Barrel
+Mudhole Marsh - Bonus #1: Banana Coin
+Mudhole Marsh - Bonus #2: DK Coin
 Rambi Rumble - Bonus #1: DK Coin
-Rambi Rumble - Bonus #2: DK Coin
+Rambi Rumble - Bonus #2: Lost World Access (Cauldron)
 Ghostly Grove - Bonus #1: Backup DK Barrel
-Ghostly Grove - Bonus #2: Backup DK Barrel
-Haunted Hall - Bonus #1: Backup DK Barrel
-Haunted Hall - Bonus #2: Backup DK Barrel
-Haunted Hall - Bonus #3: 1-Up Balloon
-Gusty Glade - Bonus #1: Kremkoin
-Gusty Glade - Bonus #2: DK Coin
-Parrot Chute Panic - Bonus #1: K. Rool's Keep Access
-Parrot Chute Panic - Bonus #2: DK Coin
+Ghostly Grove - Bonus #2: Kremkoin
+Haunted Hall - Bonus #1: Reverse Trap
+Haunted Hall - Bonus #2: 1-Up Balloon
+Haunted Hall - Bonus #3: Kremkoin
+Gusty Glade - Bonus #1: Banana Coin
+Gusty Glade - Bonus #2: Reverse Trap
+Parrot Chute Panic - Bonus #1: 1-Up Balloon
+Parrot Chute Panic - Bonus #2: 1-Up Balloon
 Web Woods - Bonus #1: DK Coin
-Web Woods - Bonus #2: Backup DK Barrel
-Arctic Abyss - Bonus #1: DK Coin
-Arctic Abyss - Bonus #2: DK Coin
-Windy Well - Bonus #1: Kremkoin
-Windy Well - Bonus #2: 1-Up Balloon
-Castle Crush - Bonus #1: TNT Barrel Trap
-Castle Crush - Bonus #2: Backup DK Barrel
-Clapper's Cavern - Bonus #1: DK Coin
-Clapper's Cavern - Bonus #2: Backup DK Barrel
-Chain Link Chamber - Bonus #1: Banana Extractinator
-Chain Link Chamber - Bonus #2: Ice Trap
-Toxic Tower - Bonus #1: Kremkoin
+Web Woods - Bonus #2: Banana Coin
+Arctic Abyss - Bonus #1: Banana Coin
+Arctic Abyss - Bonus #2: Backup DK Barrel
+Windy Well - Bonus #1: Backup DK Barrel
+Windy Well - Bonus #2: Backup DK Barrel
+Castle Crush - Bonus #1: DK Coin
+Castle Crush - Bonus #2: DK Coin
+Clapper's Cavern - Bonus #1: Backup DK Barrel
+Clapper's Cavern - Bonus #2: DK Coin
+Chain Link Chamber - Bonus #1: 1-Up Balloon
+Chain Link Chamber - Bonus #2: Kremkoin
+Toxic Tower - Bonus #1: Backup DK Barrel
 Screech's Sprint - Bonus #1: DK Coin
 Pirate Panic - KONG: 1-Up Balloon
 Mainbrace Mayhem - KONG: Backup DK Barrel
-Gangplank Galley - KONG: 1-Up Balloon
+Gangplank Galley - KONG: Banana Coin
 Lockjaw's Locker - KONG: DK Coin
 Topsail Trouble - KONG: 1-Up Balloon
 Hot-Head Hop - KONG: Backup DK Barrel
-Kannon's Klaim - KONG: Backup DK Barrel
+Kannon's Klaim - KONG: 1-Up Balloon
 Lava Lagoon - KONG: Backup DK Barrel
-Red-Hot Ride - KONG: DK Coin
-Squawks's Shaft - KONG: DK Coin
-Barrel Bayou - KONG: TNT Barrel Trap
-Glimmer's Galleon - KONG: Lost World Access (Cauldron)
-Krockhead Klamber - KONG: Kremkoin
-Rattle Battle - KONG: Backup DK Barrel
-Slime Climb - KONG: Kremkoin
-Bramble Blast - KONG: Kremkoin
-Hornet Hole - KONG: Banana Coin
-Target Terror - KONG: Backup DK Barrel
-Bramble Scramble - KONG: Freeze Trap
-Rickety Race - KONG: Backup DK Barrel
-Mudhole Marsh - KONG: Backup DK Barrel
+Red-Hot Ride - KONG: Kremkoin
+Squawks's Shaft - KONG: Kremkoin
+Barrel Bayou - KONG: Kremkoin
+Glimmer's Galleon - KONG: DK Coin
+Krockhead Klamber - KONG: DK Coin
+Rattle Battle - KONG: Kremkoin
+Slime Climb - KONG: Backup DK Barrel
+Bramble Blast - KONG: Backup DK Barrel
+Hornet Hole - KONG: DK Coin
+Target Terror - KONG: Banana Coin
+Bramble Scramble - KONG: DK Coin
+Rickety Race - KONG: DK Coin
+Mudhole Marsh - KONG: Kremkoin
 Rambi Rumble - KONG: DK Coin
-Ghostly Grove - KONG: DK Coin
-Haunted Hall - KONG: Banana Coin
-Gusty Glade - KONG: Kremkoin
+Ghostly Grove - KONG: Backup DK Barrel
+Haunted Hall - KONG: Kremkoin
+Gusty Glade - KONG: DK Coin
 Parrot Chute Panic - KONG: DK Coin
-Web Woods - KONG: Banana Coin
-Arctic Abyss - KONG: Crocodile Cauldron Access
+Web Woods - KONG: Backup DK Barrel
+Arctic Abyss - KONG: Freeze Trap
 Windy Well - KONG: Backup DK Barrel
 Castle Crush - KONG: Backup DK Barrel
-Clapper's Cavern - KONG: Reverse Trap
-Chain Link Chamber - KONG: Kremkoin
-Toxic Tower - KONG: 1-Up Balloon
-Screech's Sprint - KONG: TNT Barrel Trap
-Jungle Jinx - KONG: Banana Coin
-Black Ice Battle - KONG: DK Coin
-Klobber Karnage - KONG: Backup DK Barrel
+Clapper's Cavern - KONG: Kremkoin
+Chain Link Chamber - KONG: 1-Up Balloon
+Toxic Tower - KONG: Banana Extractinator
+Screech's Sprint - KONG: Kremkoin
+Jungle Jinx - KONG: 1-Up Balloon
+Black Ice Battle - KONG: Kremkoin
+Klobber Karnage - KONG: Banana Coin
 Fiery Furnace - KONG: Backup DK Barrel
-Animal Antics - KONG: Krazy Kremland Access
-Pirate Panic - DK Coin: Backup DK Barrel
-Mainbrace Mayhem - DK Coin: DK Coin
-Gangplank Galley - DK Coin: Backup DK Barrel
-Lockjaw's Locker - DK Coin: DK Coin
-Topsail Trouble - DK Coin: Backup DK Barrel
-Hot-Head Hop - DK Coin: Banana Coin
-Kannon's Klaim - DK Coin: DK Coin
-Lava Lagoon - DK Coin: Backup DK Barrel
-Red-Hot Ride - DK Coin: DK Coin
+Animal Antics - KONG: DK Coin
+Pirate Panic - DK Coin: 1-Up Balloon
+Mainbrace Mayhem - DK Coin: Backup DK Barrel
+Gangplank Galley - DK Coin: 1-Up Balloon
+Lockjaw's Locker - DK Coin: Banana Coin
+Topsail Trouble - DK Coin: Banana Coin
+Hot-Head Hop - DK Coin: 1-Up Balloon
+Kannon's Klaim - DK Coin: Backup DK Barrel
+Lava Lagoon - DK Coin: 1-Up Balloon
+Red-Hot Ride - DK Coin: 1-Up Balloon
 Squawks's Shaft - DK Coin: 1-Up Balloon
-Barrel Bayou - DK Coin: 1-Up Balloon
-Glimmer's Galleon - DK Coin: Kremkoin
+Barrel Bayou - DK Coin: DK Coin
+Glimmer's Galleon - DK Coin: Backup DK Barrel
 Krockhead Klamber - DK Coin: 1-Up Balloon
-Rattle Battle - DK Coin: 1-Up Balloon
-Slime Climb - DK Coin: Kremkoin
-Bramble Blast - DK Coin: 1-Up Balloon
-Hornet Hole - DK Coin: Backup DK Barrel
+Rattle Battle - DK Coin: Freeze Trap
+Slime Climb - DK Coin: Backup DK Barrel
+Bramble Blast - DK Coin: DK Coin
+Hornet Hole - DK Coin: DK Coin
 Target Terror - DK Coin: DK Coin
-Bramble Scramble - DK Coin: Lost World Access (Kremland)
-Rickety Race - DK Coin: Kremkoin
-Mudhole Marsh - DK Coin: Banana Coin
-Rambi Rumble - DK Coin: 1-Up Balloon
+Bramble Scramble - DK Coin: Kremkoin
+Rickety Race - DK Coin: Backup DK Barrel
+Mudhole Marsh - DK Coin: Honey Trap
+Rambi Rumble - DK Coin: Freeze Trap
 Ghostly Grove - DK Coin: Backup DK Barrel
-Haunted Hall - DK Coin: Kremkoin
-Gusty Glade - DK Coin: DK Coin
-Parrot Chute Panic - DK Coin: Honey Trap
-Web Woods - DK Coin: Kremkoin
-Arctic Abyss - DK Coin: Kremkoin
-Windy Well - DK Coin: Backup DK Barrel
-Castle Crush - DK Coin: Backup DK Barrel
-Clapper's Cavern - DK Coin: Backup DK Barrel
-Chain Link Chamber - DK Coin: Backup DK Barrel
-Toxic Tower - DK Coin: 1-Up Balloon
-Screech's Sprint - DK Coin: DK Coin
+Haunted Hall - DK Coin: Backup DK Barrel
+Gusty Glade - DK Coin: K. Rool's Keep Access
+Parrot Chute Panic - DK Coin: 1-Up Balloon
+Web Woods - DK Coin: Backup DK Barrel
+Arctic Abyss - DK Coin: DK Coin
+Windy Well - DK Coin: Kremkoin
+Castle Crush - DK Coin: DK Coin
+Clapper's Cavern - DK Coin: Banana Coin
+Chain Link Chamber - DK Coin: Kremkoin
+Toxic Tower - DK Coin: DK Coin
+Screech's Sprint - DK Coin: Gloomy Gulch Access
 Jungle Jinx - DK Coin: DK Coin
-Black Ice Battle - DK Coin: DK Coin
-Klobber Karnage - DK Coin: DK Coin
+Black Ice Battle - DK Coin: 1-Up Balloon
+Klobber Karnage - DK Coin: Krem Quay Access
 Fiery Furnace - DK Coin: 1-Up Balloon
-Animal Antics - DK Coin: Kremkoin
+Animal Antics - DK Coin: DK Coin
 
 Playthrough:
 
@@ -346,27 +346,54 @@ Playthrough:
   Barrel Kannons
   Carry
   Cartwheel
+  Clapper
   Climb
+  Cling
+  Controllable Barrels
   Diddy
+  Enguarde
+  Exclamation Barrels
   Gangplank Galleon Access
   Helicopter Spin
-  Rattly
+  Kong Barrels
+  Rambi
+  Skull Kart
+  Squawks
   Swim
 }
 1: {
-  Pirate Panic - Bonus #1: Dixie
+  Gangplank Galley - Clear: Crocodile Cauldron Access
+  Mainbrace Mayhem - Clear (Map Event): Cleared Gangplank Galleon Level
   Pirate Panic - Clear (Map Event): Cleared Gangplank Galleon Level
-  Topsail Trouble - Clear: Krem Quay Access
   Topsail Trouble - Clear (Map Event): Cleared Gangplank Galleon Level
 }
 2: {
-  Bramble Blast - Clear (Map Event): Cleared Krem Quay Level
-  Defeated Krow: Boss Token
-  Slime Climb - Clear (Map Event): Cleared Krem Quay Level
+  Hot-Head Hop - Bonus #1: Krazy Kremland Access
+  Lava Lagoon - Clear (Map Event): Cleared Crocodile Cauldron Level
+  Red-Hot Ride - Clear (Map Event): Cleared Crocodile Cauldron Level
+  Squawks's Shaft - Clear: Dixie
+  Squawks's Shaft - Clear (Map Event): Cleared Crocodile Cauldron Level
 }
 3: {
-  Defeated Kudgel: Boss Token
+  Defeated Kleever: Boss Token
+  Defeated Krow: Boss Token
+  Kannon's Klaim - Bonus #1: Lost World Access (Kremland)
+  Mudhole Marsh - Clear (Map Event): Cleared Krazy Kremland Level
+  Rambi Rumble - Clear (Map Event): Cleared Krazy Kremland Level
+  Rickety Race - Clear (Map Event): Cleared Krazy Kremland Level
 }
 4: {
+  Defeated King Zing: Boss Token
+  Klobber Karnage - DK Coin: Krem Quay Access
+}
+5: {
+  Barrel Bayou - Clear (Map Event): Cleared Krem Quay Level
+  Bramble Blast - Clear (Map Event): Cleared Krem Quay Level
+  Slime Climb - Clear (Map Event): Cleared Krem Quay Level
+}
+6: {
+  Defeated Kudgel: Boss Token
+}
+7: {
   K. Rool Duel - Clear: Defeated K. Rool at The Flying Krock
 }

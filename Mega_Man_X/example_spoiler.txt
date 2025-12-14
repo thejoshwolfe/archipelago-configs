@@ -1,0 +1,243 @@
+﻿Archipelago Version 0.6.5  -  Seed: 14685260909719029590
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Mega Man X
+Location Count:                  83
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Start Inventory from Pool:       
+Death Link:                      No
+Energy Link:                     Yes
+Button Configuration:            DASH: A, JUMP: B, MENU: START, SELECT_L: L, SELECT_R: R, SHOT: Y
+Starting Life Count:             3
+Starting HP:                     8
+Heart Tank Effectiveness:        3
+Boss Weakness Randomization:     Shuffled
+Boss Weakness Strictness:        Not Strict
+Button Configuration:            
+Boss Randomize HP:               Chaotic
+Jammed Buster:                   No
+Better Wall Jump:                Yes
+Air Dash:                        Yes
+Long Jumps:                      No
+Hadouken In Pool:                Yes
+Quick Charge In Pool:            Yes
+Speedster In Pool:               Yes
+Super Recover In Pool:           Yes
+Pickupsanity:                    Yes
+Early Legs:                      Yes
+Boss Weakness Logic:             Yes
+Sigma's Fortress Legs Upgrade Logic:Yes
+Charged Shotgun Ice Logic:       No
+Fortress Levels Bundle Unlock:   No
+Sigma Fortress Rules:            Medals
+Sigma Medal Count:               6
+Sigma Weapon Count:              6
+Sigma Armor Upgrade Count:       4
+Sigma Heart Tank Count:          6
+Sigma Sub Tank Count:            2
+Set Custom Palettes:             
+X Palette:                       Blue
+Homing Torpedo Palette:          Homing Torpedo
+Chameleon Sting Palette:         Chameleon Sting
+Rolling Shield Palette:          Rolling Shield
+Fire Wave Palette:               Fire Wave
+Storm Tornado Palette:           Storm Tornado
+Electric Spark Palette:          Electric Spark
+Boomerang Cutter Palette:        Boomerang Cutter
+Shotgun Ice Palette:             Shotgun Ice
+
+Mega Man X boss weaknesses for josh_mmx:
+Sting Chameleon:              Uncharged Rolling Shield, Charged Rolling Shield
+Storm Eagle:                  Uncharged Homing Torpedo, Charged Homing Torpedo
+Flame Mammoth:                Uncharged Chameleon Sting
+Chill Penguin:                Uncharged Storm Tornado, Charged Storm Tornado
+Spark Mandrill:               Uncharged Rolling Shield, Charged Rolling Shield
+Armored Armadillo:            Uncharged Fire Wave, Charged Fire Wave
+Launch Octopus:               Uncharged Shotgun Ice, Charged Shotgun Ice
+Boomer Kuwanger:              Uncharged Fire Wave, Charged Fire Wave
+Thunder Slimer:               Uncharged Boomerang Cutter, Charged Boomerang Cutter
+Vile:                         Uncharged Electric Spark, Charged Electric Spark
+Bospider:                     Uncharged Storm Tornado, Charged Storm Tornado
+Rangda Bangda:                Uncharged Rolling Shield, Charged Rolling Shield
+D-Rex:                        Uncharged Homing Torpedo, Charged Homing Torpedo
+Velguarder:                   Uncharged Boomerang Cutter, Charged Boomerang Cutter
+Sigma:                        Uncharged Fire Wave, Charged Fire Wave
+Wolf Sigma:                   Lemon, Lemon (Dash), Charged Shot (Level 1), Charged Shot (Level 2), Charged Shot (Level 3, Bullet Stream), Charged Shot (Level 3, Shockwave)
+
+
+Locations:
+
+Intro Stage - Get Defeated By Vile: Spark Mandrill Access Codes
+Intro Stage - Defeated Bee Blader #1: Heart Tank
+Intro Stage - Defeated Bee Blader #2: Legs Upgrade
+Armored Armadillo - Sub Tank: Shotgun Ice
+Defeated Mole Borer #1: Large HP Refill
+Armored Armadillo - Heart Tank: Speedster Chip
+Defeated Mole Borer #2: Large HP Refill
+Armored Armadillo - Hadouken Capsule: 1-Up
+Defeated Armored Armadillo: Heart Tank
+Armored Armadillo Clear: Maverick Medal
+Event: Armored Armadillo - Clear: Event: Armored Armadillo - Clear
+Chill Penguin - Heart Tank: Large HP Refill
+Chill Penguin - Legs Capsule: Armored Armadillo Access Codes
+Defeated Chill Penguin: Large HP Refill
+Chill Penguin Clear: Maverick Medal
+Event: Chill Penguin - Clear: Event: Chill Penguin - Clear
+Spark Mandrill - Sub Tank: Large HP Refill
+Defeated Thunder Slimer: Sting Chameleon Access Codes
+Spark Mandrill - Heart Tank: Small HP Refill
+Defeated Spark Mandrill: Large HP Refill
+Spark Mandrill Clear: Maverick Medal
+Event: Spark Mandrill - Clear: Event: Spark Mandrill - Clear
+Defeated Anglerge #1: Small HP Refill
+Defeated Anglerge #2: Heart Tank
+Defeated Utuboros #1: Sub Tank
+Defeated Utuboros #2: Small HP Refill
+Launch Octopus - Heart Tank: Large HP Refill
+Defeated Launch Octopus: Large HP Refill
+Launch Octopus Clear: Maverick Medal
+Event: Launch Octopus - Clear: Event: Launch Octopus - Clear
+Boomer Kuwanger - Heart Tank: Small HP Refill
+Defeated Boomer Kuwanger: Heart Tank
+Boomer Kuwanger Clear: Maverick Medal
+Event: Boomer Kuwanger - Clear: Event: Boomer Kuwanger - Clear
+Sting Chameleon - Heart Tank: Boomer Kuwanger Access Codes
+Sting Chameleon - Body Capsule: Storm Tornado
+Defeated Sting Chameleon: Heart Tank
+Sting Chameleon Clear: Maverick Medal
+Event: Sting Chameleon - Clear: Event: Sting Chameleon - Clear
+Storm Eagle - Heart Tank: Flame Mammoth Access Codes
+Storm Eagle - Sub Tank: Small HP Refill
+Storm Eagle - Helmet Capsule: Sub Tank
+Defeated Storm Eagle: 1-Up
+Storm Eagle Clear: Maverick Medal
+Event: Storm Eagle - Clear: Event: Storm Eagle - Clear
+Flame Mammoth - Heart Tank: Sub Tank
+Flame Mammoth - Sub Tank: Launch Octopus Access Codes
+Flame Mammoth - Arms Capsule: Heart Tank
+Defeated Flame Mammoth: Large HP Refill
+Flame Mammoth Clear: Maverick Medal
+Event: Flame Mammoth - Clear: Event: Flame Mammoth - Clear
+Defeated Vile: Arms Upgrade
+Defeated Boomer Kuwanger (Rematch): Body Upgrade
+Defeated Bospider: Small HP Refill
+Event: Sigma Fortress 1 - Clear: Event: Sigma Fortress 1 - Clear
+Defeated Chill Penguin (Rematch): Heart Tank
+Defeated Storm Eagle (Rematch): Small HP Refill
+Defeated Rangda Bangda: Small HP Refill
+Event: Sigma Fortress 2 - Clear: Event: Sigma Fortress 2 - Clear
+Defeated Armored Armadillo (Rematch): Large HP Refill
+Defeated Sting Chameleon (Rematch): 1-Up
+Defeated Spark Mandrill (Rematch): Chameleon Sting
+Defeated Launch Octopus (Rematch): 1-Up
+Defeated Flame Mammoth (Rematch): Heart Tank
+Defeated D-Rex: 1-Up
+Event: Sigma Fortress 3 - Clear: Event: Sigma Fortress 3 - Clear
+Defeated Velguarder: 1-Up
+Defeated Sigma: Sigma Destroyed
+Intro Stage - HP Pickup (after Bee Blader): Helmet Upgrade
+Intro Stage - Small HP Pickup (after Bee Blader): Chill Penguin Access Codes
+Armored Armadillo - HP Pickup 1 (In blocked ceiling): Fire Wave
+Armored Armadillo - HP Pickup 2 (In blocked ceiling): Legs Upgrade
+Armored Armadillo - HP Pickup 3 (Next to Hadouken capsule): Small HP Refill
+Chill Penguin - Weapon Energy Pickup (Inside third dome): Storm Eagle Access Codes
+Launch Octopus - HP Pickup (Crane platform above water): Small HP Refill
+Sting Chameleon - 1up Pickup (Inside second mini-cave in mountain): 1-Up
+Sting Chameleon - HP Pickup (On top of platform in the swamp): Quick Charge Chip
+Storm Eagle - HP Pickup 1 (Behind first set of gas tanks): Hadouken
+Storm Eagle - HP Pickup 2 (Behind second set of gas tanks): Small HP Refill
+Storm Eagle - HP Pickup 3 (Behind third set of gas tanks): Large HP Refill
+Storm Eagle - 1up Pickup 1 (Behind wall in third set of gas tanks): Boomerang Cutter
+Storm Eagle - 1up Pickup 2 (Behind fourth set of gas tanks): Rolling Shield
+Storm Eagle - 1up Pickup 3 (Above helmet capsule): Small HP Refill
+Flame Mammoth - HP Pickup 1 (After first conveyor belts section): Large HP Refill
+Flame Mammoth - HP Pickup 2 (Top platform in Dig Labour section): 1-Up
+Flame Mammoth - 1up Pickup (Top platform in Dig Labour section): Sub Tank
+Sigma's Fortress 3 - HP Pickup 1 (Before Sting Chameleon rematch): Small HP Refill
+Sigma's Fortress 3 - Weapon Energy Pickup 1 (Before Spark Mandrill rematch): Large HP Refill
+Sigma's Fortress 3 - HP Pickup 2 (Before Spark Mandrill rematch): Small HP Refill
+Sigma's Fortress 3 - HP Pickup 3 (Before Launch Octopus rematch): Electric Spark
+Sigma's Fortress 3 - Weapon Energy Pickup 2 (Before Launch Octopus rematch): Small HP Refill
+Sigma's Fortress 3 - HP Pickup 4 (On spikes): Homing Torpedo
+Sigma's Fortress 3 - Weapon Energy Pickup 3 (On Spikes): Large HP Refill
+Sigma's Fortress 3 - 1up Pickup (On spikes): Super Recover Chip
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Intro Stage - Get Defeated By Vile: Spark Mandrill Access Codes
+  Intro Stage - HP Pickup (after Bee Blader): Helmet Upgrade
+  Intro Stage - Small HP Pickup (after Bee Blader): Chill Penguin Access Codes
+}
+2: {
+  Chill Penguin - Legs Capsule: Armored Armadillo Access Codes
+}
+3: {
+  Armored Armadillo - HP Pickup 1 (In blocked ceiling): Fire Wave
+  Armored Armadillo - HP Pickup 2 (In blocked ceiling): Legs Upgrade
+  Armored Armadillo - Sub Tank: Shotgun Ice
+}
+4: {
+  Armored Armadillo Clear: Maverick Medal
+  Chill Penguin - Weapon Energy Pickup (Inside third dome): Storm Eagle Access Codes
+}
+5: {
+  Storm Eagle - 1up Pickup 1 (Behind wall in third set of gas tanks): Boomerang Cutter
+  Storm Eagle - 1up Pickup 2 (Behind fourth set of gas tanks): Rolling Shield
+  Storm Eagle - Heart Tank: Flame Mammoth Access Codes
+}
+6: {
+  Defeated Thunder Slimer: Sting Chameleon Access Codes
+  Flame Mammoth - Sub Tank: Launch Octopus Access Codes
+  Spark Mandrill Clear: Maverick Medal
+}
+7: {
+  Event: Launch Octopus - Clear: Event: Launch Octopus - Clear
+  Launch Octopus Clear: Maverick Medal
+  Sting Chameleon - Body Capsule: Storm Tornado
+  Sting Chameleon Clear: Maverick Medal
+}
+8: {
+  Chill Penguin Clear: Maverick Medal
+  Sting Chameleon - Heart Tank: Boomer Kuwanger Access Codes
+}
+9: {
+  Boomer Kuwanger Clear: Maverick Medal
+}
+10: {
+  Event: Sigma Fortress 1 - Clear: Event: Sigma Fortress 1 - Clear
+}
+11: {
+  Event: Sigma Fortress 2 - Clear: Event: Sigma Fortress 2 - Clear
+}
+12: {
+  Defeated Spark Mandrill (Rematch): Chameleon Sting
+  Sigma's Fortress 3 - HP Pickup 3 (Before Launch Octopus rematch): Electric Spark
+}
+13: {
+  Defeated Vile: Arms Upgrade
+}
+14: {
+  Sigma's Fortress 3 - HP Pickup 4 (On spikes): Homing Torpedo
+}
+15: {
+  Event: Sigma Fortress 3 - Clear: Event: Sigma Fortress 3 - Clear
+}
+16: {
+  Defeated Sigma: Sigma Destroyed
+}

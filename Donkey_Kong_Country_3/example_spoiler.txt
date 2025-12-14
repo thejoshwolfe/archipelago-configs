@@ -1,0 +1,506 @@
+﻿Archipelago Version 0.6.5  -  Seed: 11344293837748632623
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Donkey Kong Country 3
+Location Count:                  219
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              Kong-Fused Cliffs - Bonus 1, Kong-Fused Cliffs - Bonus 2, Kong-Fused Cliffs - DK Coin, Kong-Fused Cliffs - KONG
+Priority Locations:              
+Item Links:                      
+Plando Items:                    ({'Krematoa Cog': 4}: ['Bounty Beach', 'Kong Cave', "Smuggler's Cove", "Belcha's Barn"])
+Goal:                            Knautilus
+Krematoa Bonus Coins Cost:       5
+Percentage of Extra Bonus Coins: 40
+Number of Banana Birds:          15
+Percentage of Banana Birds:      100
+DK Coins for Gyrocopter:         30
+KONGsanity:                      Yes
+Level Shuffle:                   Yes
+Difficulty:                      NORML
+Autosave:                        Yes
+MERRY:                           No
+Music Shuffle:                   No
+Kong Palette Swap:               Default
+Starting Life Count:             99
+
+
+Locations:
+
+Lakeside Limbo - Flag: Bear Coin
+Lakeside Limbo - Bonus 1: Bear Coin
+Lakeside Limbo - Bonus 2: Bear Coin
+Lakeside Limbo - DK Coin: DK Coin
+Lakeside Limbo - KONG: Bonus Coin
+Doorstop Dash - Flag: Bonus Coin
+Doorstop Dash - Bonus 1: 1-Up Balloon
+Doorstop Dash - Bonus 2: 1-Up Balloon
+Doorstop Dash - DK Coin: 1-Up Balloon
+Doorstop Dash - KONG: Bonus Coin
+Tidal Trouble - Flag: DK Coin
+Tidal Trouble - Bonus 1: Bear Coin
+Tidal Trouble - Bonus 2: DK Coin
+Tidal Trouble - DK Coin: DK Coin
+Tidal Trouble - KONG: Bonus Coin
+Skidda's Row - Flag: Bonus Coin
+Skidda's Row - Bonus 1: Bonus Coin
+Skidda's Row - Bonus 2: Bonus Coin
+Skidda's Row - DK Coin: Bonus Coin
+Skidda's Row - KONG: 1-Up Balloon
+Murky Mill - Flag: DK Coin
+Murky Mill - Bonus 1: Bear Coin
+Murky Mill - Bonus 2: Bonus Coin
+Murky Mill - DK Coin: 1-Up Balloon
+Murky Mill - KONG: 1-Up Balloon
+Barrel Shield Bust-Up - Flag: 1-Up Balloon
+Barrel Shield Bust-Up - Bonus 1: 1-Up Balloon
+Barrel Shield Bust-Up - Bonus 2: Bonus Coin
+Barrel Shield Bust-Up - DK Coin: 1-Up Balloon
+Barrel Shield Bust-Up - KONG: Bonus Coin
+Riverside Race - Flag: DK Coin
+Riverside Race - Bonus 1: 1-Up Balloon
+Riverside Race - Bonus 2: Bear Coin
+Riverside Race - DK Coin: DK Coin
+Riverside Race - KONG: DK Coin
+Squeals On Wheels - Flag: DK Coin
+Squeals On Wheels - Bonus 1: Bonus Coin
+Squeals On Wheels - Bonus 2: 1-Up Balloon
+Squeals On Wheels - DK Coin: Bear Coin
+Squeals On Wheels - KONG: 1-Up Balloon
+Springin' Spiders - Flag: Bonus Coin
+Springin' Spiders - Bonus 1: 1-Up Balloon
+Springin' Spiders - Bonus 2: Bonus Coin
+Springin' Spiders - DK Coin: Bonus Coin
+Springin' Spiders - KONG: DK Coin
+Bobbing Barrel Brawl - Flag: Bear Coin
+Bobbing Barrel Brawl - Bonus 1: 1-Up Balloon
+Bobbing Barrel Brawl - Bonus 2: 1-Up Balloon
+Bobbing Barrel Brawl - DK Coin: Bear Coin
+Bobbing Barrel Brawl - KONG: Bonus Coin
+Bazza's Blockade - Flag: Bear Coin
+Bazza's Blockade - Bonus 1: 1-Up Balloon
+Bazza's Blockade - Bonus 2: 1-Up Balloon
+Bazza's Blockade - DK Coin: DK Coin
+Bazza's Blockade - KONG: 1-Up Balloon
+Rocket Barrel Ride - Flag: Bear Coin
+Rocket Barrel Ride - Bonus 1: DK Coin
+Rocket Barrel Ride - Bonus 2: Bonus Coin
+Rocket Barrel Ride - DK Coin: Bear Coin
+Rocket Barrel Ride - KONG: Bear Coin
+Kreeping Klasps - Flag: Bear Coin
+Kreeping Klasps - Bonus 1: DK Coin
+Kreeping Klasps - Bonus 2: 1-Up Balloon
+Kreeping Klasps - DK Coin: 1-Up Balloon
+Kreeping Klasps - KONG: Bear Coin
+Tracker Barrel Trek - Flag: DK Coin
+Tracker Barrel Trek - Bonus 1: Bear Coin
+Tracker Barrel Trek - Bonus 2: Bonus Coin
+Tracker Barrel Trek - DK Coin: Bear Coin
+Tracker Barrel Trek - KONG: 1-Up Balloon
+Fish Food Frenzy - Flag: Bonus Coin
+Fish Food Frenzy - Bonus 1: Bear Coin
+Fish Food Frenzy - Bonus 2: 1-Up Balloon
+Fish Food Frenzy - DK Coin: 1-Up Balloon
+Fish Food Frenzy - KONG: Bear Coin
+Fire-Ball Frenzy - Flag: 1-Up Balloon
+Fire-Ball Frenzy - Bonus 1: Bonus Coin
+Fire-Ball Frenzy - Bonus 2: 1-Up Balloon
+Fire-Ball Frenzy - DK Coin: Bear Coin
+Fire-Ball Frenzy - KONG: DK Coin
+Demolition Drain-Pipe - Flag: Bonus Coin
+Demolition Drain-Pipe - Bonus 1: Bear Coin
+Demolition Drain-Pipe - Bonus 2: 1-Up Balloon
+Demolition Drain-Pipe - DK Coin: Bear Coin
+Demolition Drain-Pipe - KONG: Progressive Boat Upgrade
+Ripsaw Rage - Flag: Progressive Boat Upgrade
+Ripsaw Rage - Bonus 1: 1-Up Balloon
+Ripsaw Rage - Bonus 2: Bear Coin
+Ripsaw Rage - DK Coin: Bonus Coin
+Ripsaw Rage - KONG: DK Coin
+Blazing Bazukas - Flag: Progressive Boat Upgrade
+Blazing Bazukas - Bonus 1: Bear Coin
+Blazing Bazukas - Bonus 2: 1-Up Balloon
+Blazing Bazukas - DK Coin: Bear Coin
+Blazing Bazukas - KONG: 1-Up Balloon
+Low-G Labyrinth - Flag: 1-Up Balloon
+Low-G Labyrinth - Bonus 1: Bonus Coin
+Low-G Labyrinth - Bonus 2: DK Coin
+Low-G Labyrinth - DK Coin: Bonus Coin
+Low-G Labyrinth - KONG: DK Coin
+Krevice Kreepers - Flag: DK Coin
+Krevice Kreepers - Bonus 1: Bonus Coin
+Krevice Kreepers - Bonus 2: Bonus Coin
+Krevice Kreepers - DK Coin: Bear Coin
+Krevice Kreepers - KONG: Bonus Coin
+Tearaway Toboggan - Flag: 1-Up Balloon
+Tearaway Toboggan - Bonus 1: Bonus Coin
+Tearaway Toboggan - Bonus 2: 1-Up Balloon
+Tearaway Toboggan - DK Coin: Bear Coin
+Tearaway Toboggan - KONG: Bonus Coin
+Barrel Drop Bounce - Flag: Bonus Coin
+Barrel Drop Bounce - Bonus 1: Bear Coin
+Barrel Drop Bounce - Bonus 2: 1-Up Balloon
+Barrel Drop Bounce - DK Coin: 1-Up Balloon
+Barrel Drop Bounce - KONG: 1-Up Balloon
+Krack-Shot Kroc - Flag: 1-Up Balloon
+Krack-Shot Kroc - Bonus 1: Bear Coin
+Krack-Shot Kroc - Bonus 2: Bear Coin
+Krack-Shot Kroc - DK Coin: DK Coin
+Krack-Shot Kroc - KONG: 1-Up Balloon
+Lemguin Lunge - Flag: 1-Up Balloon
+Lemguin Lunge - Bonus 1: DK Coin
+Lemguin Lunge - Bonus 2: Bonus Coin
+Lemguin Lunge - DK Coin: Bonus Coin
+Lemguin Lunge - KONG: 1-Up Balloon
+Buzzer Barrage - Flag: Bear Coin
+Buzzer Barrage - Bonus 1: Bonus Coin
+Buzzer Barrage - Bonus 2: 1-Up Balloon
+Buzzer Barrage - DK Coin: Bear Coin
+Buzzer Barrage - KONG: Bonus Coin
+Kong-Fused Cliffs - Flag: 1-Up Balloon
+Kong-Fused Cliffs - Bonus 1: Bear Coin
+Kong-Fused Cliffs - Bonus 2: 1-Up Balloon
+Kong-Fused Cliffs - DK Coin: 1-Up Balloon
+Kong-Fused Cliffs - KONG: 1-Up Balloon
+Floodlit Fish - Flag: 1-Up Balloon
+Floodlit Fish - Bonus 1: 1-Up Balloon
+Floodlit Fish - Bonus 2: 1-Up Balloon
+Floodlit Fish - DK Coin: 1-Up Balloon
+Floodlit Fish - KONG: Bear Coin
+Pothole Panic - Flag: DK Coin
+Pothole Panic - Bonus 1: DK Coin
+Pothole Panic - Bonus 2: DK Coin
+Pothole Panic - DK Coin: 1-Up Balloon
+Pothole Panic - KONG: Bear Coin
+Ropey Rumpus - Flag: Bonus Coin
+Ropey Rumpus - Bonus 1: DK Coin
+Ropey Rumpus - Bonus 2: 1-Up Balloon
+Ropey Rumpus - DK Coin: Bear Coin
+Ropey Rumpus - KONG: 1-Up Balloon
+Konveyor Rope Klash - Flag: DK Coin
+Konveyor Rope Klash - Bonus 1: 1-Up Balloon
+Konveyor Rope Klash - Bonus 2: Bonus Coin
+Konveyor Rope Klash - DK Coin: 1-Up Balloon
+Konveyor Rope Klash - KONG: DK Coin
+Creepy Caverns - Flag: 1-Up Balloon
+Creepy Caverns - Bonus 1: Bear Coin
+Creepy Caverns - Bonus 2: Bear Coin
+Creepy Caverns - DK Coin: Bear Coin
+Creepy Caverns - KONG: Bear Coin
+Lightning Lookout - Flag: Bonus Coin
+Lightning Lookout - Bonus 1: Bear Coin
+Lightning Lookout - Bonus 2: DK Coin
+Lightning Lookout - DK Coin: Bonus Coin
+Lightning Lookout - KONG: Bonus Coin
+Koindozer Klamber - Flag: 1-Up Balloon
+Koindozer Klamber - Bonus 1: Bear Coin
+Koindozer Klamber - Bonus 2: Bonus Coin
+Koindozer Klamber - DK Coin: Bonus Coin
+Koindozer Klamber - KONG: 1-Up Balloon
+Poisonous Pipeline - Flag: Bear Coin
+Poisonous Pipeline - Bonus 1: DK Coin
+Poisonous Pipeline - Bonus 2: 1-Up Balloon
+Poisonous Pipeline - DK Coin: Bonus Coin
+Poisonous Pipeline - KONG: DK Coin
+Stampede Sprint - Flag: DK Coin
+Stampede Sprint - Bonus 1: Bear Coin
+Stampede Sprint - Bonus 2: DK Coin
+Stampede Sprint - Bonus 3: Bear Coin
+Stampede Sprint - DK Coin: 1-Up Balloon
+Stampede Sprint - KONG: DK Coin
+Criss Kross Cliffs - Flag: 1-Up Balloon
+Criss Kross Cliffs - Bonus 1: DK Coin
+Criss Kross Cliffs - Bonus 2: Bear Coin
+Criss Kross Cliffs - DK Coin: DK Coin
+Criss Kross Cliffs - KONG: Bonus Coin
+Tyrant Twin Tussle - Flag: Bear Coin
+Tyrant Twin Tussle - Bonus 1: DK Coin
+Tyrant Twin Tussle - Bonus 2: Bonus Coin
+Tyrant Twin Tussle - Bonus 3: 1-Up Balloon
+Tyrant Twin Tussle - DK Coin: Bear Coin
+Tyrant Twin Tussle - KONG: Bear Coin
+Swoopy Salvo - Flag: DK Coin
+Swoopy Salvo - Bonus 1: Bear Coin
+Swoopy Salvo - Bonus 2: Bear Coin
+Swoopy Salvo - Bonus 3: DK Coin
+Swoopy Salvo - DK Coin: DK Coin
+Swoopy Salvo - KONG: Bonus Coin
+Rocket Rush - Flag: Krematoa Cog
+Rocket Rush - DK Coin: Bonus Coin
+Belcha's Barn: Krematoa Cog
+Arich's Ambush: 1-Up Balloon
+Squirt's Showdown: DK Coin
+KAOS Karnage: Bonus Coin
+Bleak's House: 1-Up Balloon
+Barbos's Barrier: 1-Up Balloon
+Kastle KAOS: Donkey Kong
+Knautilus: Bonus Coin
+Belcha's Burrow: 1-Up Balloon
+Kong Cave: Krematoa Cog
+Undercover Cove: Bonus Coin
+K's Cache: Bear Coin
+Hill-Top Hoard: 1-Up Balloon
+Bounty Beach: Krematoa Cog
+Smuggler's Cove: Krematoa Cog
+Arich's Hoard: DK Coin
+Bounty Bay: Bear Coin
+Glacial Grotto: Bear Coin
+Sewer Stockpile: 1-Up Balloon
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Belcha's Barn: Krematoa Cog
+  Blazing Bazukas - Flag: Progressive Boat Upgrade
+  Bounty Beach: Krematoa Cog
+  Demolition Drain-Pipe - Flag: Bonus Coin
+  Demolition Drain-Pipe - KONG: Progressive Boat Upgrade
+  Doorstop Dash - Flag: Bonus Coin
+  Doorstop Dash - KONG: Bonus Coin
+  Fish Food Frenzy - Flag: Bonus Coin
+  Ripsaw Rage - DK Coin: Bonus Coin
+  Ripsaw Rage - Flag: Progressive Boat Upgrade
+  Ropey Rumpus - Flag: Bonus Coin
+  Smuggler's Cove: Krematoa Cog
+  Squeals On Wheels - Bonus 1: Bonus Coin
+  Swoopy Salvo - KONG: Bonus Coin
+}
+2: {
+  Criss Kross Cliffs - KONG: Bonus Coin
+  Koindozer Klamber - Bonus 2: Bonus Coin
+  Koindozer Klamber - DK Coin: Bonus Coin
+  Kong Cave: Krematoa Cog
+  Lemguin Lunge - Bonus 2: Bonus Coin
+  Lemguin Lunge - DK Coin: Bonus Coin
+  Low-G Labyrinth - Bonus 1: Bonus Coin
+  Low-G Labyrinth - DK Coin: Bonus Coin
+  Skidda's Row - Bonus 1: Bonus Coin
+  Skidda's Row - Bonus 2: Bonus Coin
+  Skidda's Row - DK Coin: Bonus Coin
+  Skidda's Row - Flag: Bonus Coin
+  Springin' Spiders - Bonus 2: Bonus Coin
+  Springin' Spiders - DK Coin: Bonus Coin
+  Springin' Spiders - Flag: Bonus Coin
+  Tidal Trouble - KONG: Bonus Coin
+  Tracker Barrel Trek - Bonus 2: Bonus Coin
+  Tyrant Twin Tussle - Bonus 2: Bonus Coin
+}
+3: {
+  Rocket Rush - Flag: Krematoa Cog
+}
+4: {
+  Kastle KAOS: Donkey Kong
+}
+
+Paths:
+
+Belcha's Barn
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Belcha's Barn Region
+   =>   Belcha's Barn Region
+Blazing Bazukas - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Kremwood Forest
+   =>   Kremwood Forest -> Blazing Bazukas
+   =>   Blazing Bazukas
+Bounty Beach
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Bounty Beach Region
+   =>   Bounty Beach Region
+Criss Kross Cliffs - KONG
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> Razor Ridge
+   =>   Razor Ridge -> Criss Kross Cliffs
+   =>   Criss Kross Cliffs
+Demolition Drain-Pipe - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Kremwood Forest
+   =>   Kremwood Forest -> Demolition Drain-Pipe
+   =>   Demolition Drain-Pipe
+Demolition Drain-Pipe - KONG
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Kremwood Forest
+   =>   Kremwood Forest -> Demolition Drain-Pipe
+   =>   Demolition Drain-Pipe
+Doorstop Dash - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Doorstop Dash
+   =>   Doorstop Dash
+Doorstop Dash - KONG
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Doorstop Dash
+   =>   Doorstop Dash
+Fish Food Frenzy - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Kremwood Forest
+   =>   Kremwood Forest -> Fish Food Frenzy
+   =>   Fish Food Frenzy
+Kastle KAOS
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> Krematoa
+   =>   Krematoa -> Kastle KAOS Region
+   =>   Kastle KAOS Region
+Koindozer Klamber - Bonus 2
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Mekanos
+   =>   Mekanos -> Koindozer Klamber
+   =>   Koindozer Klamber
+Koindozer Klamber - DK Coin
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Mekanos
+   =>   Mekanos -> Koindozer Klamber
+   =>   Koindozer Klamber
+Kong Cave
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Kong Cave Region
+   =>   Kong Cave Region
+Lemguin Lunge - Bonus 2
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> Razor Ridge
+   =>   Razor Ridge -> Lemguin Lunge
+   =>   Lemguin Lunge
+Lemguin Lunge - DK Coin
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> Razor Ridge
+   =>   Razor Ridge -> Lemguin Lunge
+   =>   Lemguin Lunge
+Low-G Labyrinth - Bonus 1
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> KAOS Kore
+   =>   KAOS Kore -> Low-G Labyrinth
+   =>   Low-G Labyrinth
+Low-G Labyrinth - DK Coin
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> KAOS Kore
+   =>   KAOS Kore -> Low-G Labyrinth
+   =>   Low-G Labyrinth
+Ripsaw Rage - DK Coin
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Ripsaw Rage
+   =>   Ripsaw Rage
+Ripsaw Rage - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Ripsaw Rage
+   =>   Ripsaw Rage
+Rocket Rush - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> Krematoa
+   =>   Krematoa -> Rocket Rush
+   =>   Rocket Rush
+Ropey Rumpus - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Ropey Rumpus
+   =>   Ropey Rumpus
+Skidda's Row - Bonus 1
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> KAOS Kore
+   =>   KAOS Kore -> Skidda's Row
+   =>   Skidda's Row
+Skidda's Row - Bonus 2
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> KAOS Kore
+   =>   KAOS Kore -> Skidda's Row
+   =>   Skidda's Row
+Skidda's Row - DK Coin
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> KAOS Kore
+   =>   KAOS Kore -> Skidda's Row
+   =>   Skidda's Row
+Skidda's Row - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> KAOS Kore
+   =>   KAOS Kore -> Skidda's Row
+   =>   Skidda's Row
+Smuggler's Cove
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Smuggler's Cove Region
+   =>   Smuggler's Cove Region
+Springin' Spiders - Bonus 2
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Mekanos
+   =>   Mekanos -> Springin' Spiders
+   =>   Springin' Spiders
+Springin' Spiders - DK Coin
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Mekanos
+   =>   Mekanos -> Springin' Spiders
+   =>   Springin' Spiders
+Springin' Spiders - Flag
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Mekanos
+   =>   Mekanos -> Springin' Spiders
+   =>   Springin' Spiders
+Squeals On Wheels - Bonus 1
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Kremwood Forest
+   =>   Kremwood Forest -> Squeals On Wheels
+   =>   Squeals On Wheels
+Swoopy Salvo - KONG
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Lake Orangatanga
+   =>   Lake Orangatanga -> Swoopy Salvo
+   =>   Swoopy Salvo
+Tidal Trouble - KONG
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Cotton-Top Cove
+   =>   Cotton-Top Cove -> Tidal Trouble
+   =>   Tidal Trouble
+Tracker Barrel Trek - Bonus 2
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Overworld 3
+   =>   Overworld 3 -> K3
+   =>   K3 -> Tracker Barrel Trek
+   =>   Tracker Barrel Trek
+Tyrant Twin Tussle - Bonus 2
+        Menu -> Overworld 1
+   =>   Overworld 1 -> Overworld 2
+   =>   Overworld 2 -> Cotton-Top Cove
+   =>   Cotton-Top Cove -> Tyrant Twin Tussle
+   =>   Tyrant Twin Tussle

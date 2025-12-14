@@ -15,9 +15,16 @@ Jigsaw:
   uniform_piece_size: 'false'
 
   orientation_of_image: landscape
-  # See the images here: https://jigsaw-ap.netlify.app/images.html
-  which_image: '26' # Undertale
   total_size_of_image: '85'
+
+  # See the images here: https://jigsaw-ap.netlify.app/images.html
+  which_image:
+    '5':  1 # Minecraft
+    '22': 1 # Factorio
+    '26': 1 # Undertale
+    '31': 1 # 9 Eevees
+    '32': 1 # Slay the Spire
+    '34': 1 # Eevee wheel
 
   enable_clues: 'true'
   minimum_number_of_pieces_per_bundle: '1'

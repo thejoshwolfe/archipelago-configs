@@ -1,0 +1,307 @@
+﻿Archipelago Version 0.6.5  -  Seed: 73421157295596847232
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Mega Man X3
+Location Count:                  121
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Start Inventory from Pool:       
+Death Link:                      No
+Energy Link:                     Yes
+Button Configuration:            DASH: A, JUMP: B, MENU: START, SELECT_L: L, SELECT_R: R, SHOT: Y
+Starting Life Count:             3
+Starting HP:                     8
+Heart Tank Effectiveness:        3
+Boss Weakness Randomization:     Shuffled
+Boss Weakness Strictness:        Not Strict
+Button Configuration:            
+Boss Randomize HP:               Chaotic
+Pickupsanity:                    Yes
+Jammed Buster:                   No
+Z-Saber In Pool:                 Yes
+Quick Charge In Pool:            Yes
+Speedster In Pool:               Yes
+Super Recover In Pool:           Yes
+Rapid Five In Pool:              Yes
+Speed Shot In Pool:              Yes
+Buster Plus In Pool:             Yes
+Weapon Plus In Pool:             Yes
+Item Plus In Pool:               Yes
+Disable Level 3 Charge freeze after shooting:No
+Long Jumps:                      No
+Doppler Lab rules:               Medals
+Doppler Medal Count:             6
+Doppler Weapon Count:            0
+Doppler Armor Upgrade Count:     0
+Doppler Heart Tank Count:        0
+Doppler Sub Tank Count:          0
+Doppler Lab 2 Boss:              Volt Kurageil
+Doppler Lab 3 Rematch count:     2
+Doppler Lab Levels Bundle Unlock:No
+Vile Stage rules:                Medals
+Vile Medal Count:                2
+Vile Weapon Count:               0
+Vile Armor Upgrade Count:        0
+Vile Heart Tank Count:           0
+Vile Sub Tank Count:             0
+Bit Medal Count:                 2
+Byte Medal Count:                5
+Boss Weakness Logic:             Yes
+Vile in logic for Lab Access:    Yes
+Set Custom Palettes:             Acid Burst: [], Charge Blue: [], Charge Green: [], Charge Pink: [], Charge Red: [], Default: [], Frost Shield: [], Gold Armor: [], Gravity Well: [], Parasitic Bomb: [], Ray Splasher: [], Spinning Blade: [], Tornado Fang: [], Triad Thunder: []
+X Palette:                       Blue
+Gold Armor Palette:              Gold Armor
+Level 1 & 2 Charge Palette:      Charge Blue
+Level 3 Charge Palette:          Charge Pink
+Level 4 Charge Palette:          Charge Red
+Z-Saber Charge Palette:          Charge Green
+Acid Burst Palette:              Acid Burst
+Parasitic Bomb Palette:          Parasitic Bomb
+Triad Thunder Palette:           Triad Thunder
+Spinning Blade Palette:          Spinning Blade
+Ray Splasher Palette:            Ray Splasher
+Gravity Well Palette:            Gravity Well
+Frost Shield Palette:            Frost Shield
+Tornado Fang Palette:            Tornado Fang
+
+Mega Man X3 boss weaknesses for josh_mmx3:
+Blizzard Buffalo:             Uncharged Triad Thunder (Contact), Charged Triad Thunder, Uncharged Triad Thunder (Thunder)
+Toxic Seahorse:               Uncharged Tornado Fang, Charged Tornado Fang
+Tunnel Rhino:                 Uncharged Parasitic Bomb, Charged Parasitic Bomb
+Volt Catfish:                 Uncharged Tornado Fang, Charged Tornado Fang
+Crush Crawfish:               Uncharged Frost Shield, Charged Frost Shield (On hand), Charged Frost Shield (Lotus)
+Neon Tiger:                   Lemon, Charged Shot (Level 1), Charged Shot (Level 2), Lemon (Dash), Charged Shot (Level 3), Charged Shot (Level 4, Main projectile), Charged Shot (Level 4, Secondary projectile)
+Gravity Beetle:               Ray Splasher
+Blast Hornet:                 Gravity Well, Ray Splasher
+Hotareeca:                    Ray Splasher
+Worm Seeker-R:                Uncharged Frost Shield, Charged Frost Shield (On hand), Charged Frost Shield (Lotus)
+Hell Crusher:                 Uncharged Spinning Blade, Charged Spinning Blade
+Shurikein:                    Uncharged Spinning Blade, Charged Spinning Blade
+Bit:                          Uncharged Frost Shield, Charged Frost Shield (On hand), Charged Frost Shield (Lotus)
+Byte:                         Uncharged Acid Burst, Charged Acid Burst, Acid Burst (Small uncharged bubbles)
+Vile:                         Uncharged Parasitic Bomb, Charged Parasitic Bomb
+Press Disposer:               Uncharged Spinning Blade, Charged Spinning Blade
+Godkarmachine:                Ray Splasher
+Volt Kurageil:                Uncharged Frost Shield, Charged Frost Shield (On hand), Charged Frost Shield (Lotus)
+Vile Goliath:                 Ray Splasher
+Doppler:                      Ray Splasher
+Sigma:                        Uncharged Acid Burst, Charged Acid Burst, Acid Burst (Small uncharged bubbles)
+Kaiser Sigma:                 Uncharged Frost Shield, Charged Frost Shield (On hand), Charged Frost Shield (Lotus)
+Dr. Doppler's Lab 2 Boss:     Uncharged Frost Shield, Charged Frost Shield (On hand), Charged Frost Shield (Lotus)
+Dr. Doppler's Lab 1 Boss:     Ray Splasher, Uncharged Spinning Blade, Charged Spinning Blade
+
+
+Locations:
+
+Defeated Maoh the Giant: Kangaroo Ride Armor
+Defeated Mac: Small HP Refill
+Hunter Base Stage - Clear: Volt Catfish Access Codes
+Blizzard Buffalo Stage - Heart Tank: Rapid Five Chip
+Blizzard Buffalo Stage - Sub Tank: Tornado Fang
+Blizzard Buffalo Stage - Legs Capsule: Helmet Upgrade
+Defeated Blizzard Buffalo: Large HP Refill
+Blizzard Buffalo Stage Clear: Maverick Medal
+Toxic Seahorse Stage - Heart Tank: Arms Upgrade
+Toxic Seahorse Stage - Leg Chip Capsule: Gravity Well
+Toxic Seahorse Stage - Kangaroo Ride Armor: Large HP Refill
+Defeated Hotareeca: 1-Up
+Defeated Toxic Seahorse: Small HP Refill
+Toxic Seahorse Stage Clear: Maverick Medal
+Tunnel Rhino Stage - Heart Tank: Small HP Refill
+Tunnel Rhino Stage - Sub Tank: Blizzard Buffalo Access Codes
+Tunnel Rhino Stage - Helmet Capsule: Gravity Beetle Access Codes
+Defeated Hell Crusher: 1-Up
+Defeated Tunnel Rhino: Large HP Refill
+Tunnel Rhino Stage Clear: Maverick Medal
+Volt Catfish Stage - Heart Tank: Large HP Refill
+Volt Catfish Stage - Body Capsule: Heart Tank
+Volt Catfish Stage - Sub Tank: Sub Tank
+Defeated Volt Catfish: Small HP Refill
+Volt Catfish Stage Clear: Maverick Medal
+Crush Crawfish Stage - Hawk Ride Armor: Large HP Refill
+Crush Crawfish Stage - Heart Tank: Heart Tank
+Crush Crawfish Stage - Body Chip Capsule: Large HP Refill
+Defeated Crush Crawfish: Chimera Ride Armor
+Crush Crawfish Stage Clear: Maverick Medal
+Neon Tiger Stage - Sub Tank: Small HP Refill
+Neon Tiger Stage - Arms Capsule: 1-Up
+Defeated Worm Seeker-R: Large HP Refill
+Neon Tiger Stage - Heart Tank: Triad Thunder
+Defeated Neon Tiger: Buster Plus Chip
+Neon Tiger Stage Clear: Maverick Medal
+Gravity Beetle Stage - Heart Tank: Legs Upgrade
+Gravity Beetle Stage - Frog Ride Armor: Frost Shield
+Gravity Beetle Stage - Arms Chip Capsule: 1-Up
+Defeated Gravity Beetle: Super Recover Chip
+Gravity Beetle Stage Clear: Maverick Medal
+Blast Hornet Stage - Helmet Chip Capsule: Small HP Refill
+Defeated Shurikein: Small HP Refill
+Blast Hornet Stage - Chimera Ride Armor: Acid Burst
+Blast Hornet Stage - Heart Tank: Frog Ride Armor
+Defeated Blast Hornet: Large HP Refill
+Blast Hornet Stage Clear: Maverick Medal
+Event Blast Hornet Defeated: Event Blast Hornet Defeated
+Defeated Dr. Doppler's Lab 1 Boss: Large HP Refill
+Defeated REX-2000: Spinning Blade
+Event Dr. Doppler's Lab 1 Cleared: Event Dr. Doppler's Lab 1 Cleared
+Defeated Dr. Doppler's Lab 2 Boss: Sub Tank
+Event Dr. Doppler's Lab 2 Cleared: Event Dr. Doppler's Lab 2 Cleared
+Defeated Blizzard Buffalo (Rematch): Hawk Ride Armor
+Defeated Toxic Seahorse (Rematch): Large HP Refill
+Defeated Tunnel Rhino (Rematch): 1-Up
+Defeated Volt Catfish (Rematch): 1-Up
+Defeated Crush Crawfish (Rematch): Small HP Refill
+Defeated Neon Tiger (Rematch): Large HP Refill
+Defeated Gravity Beetle (Rematch): Large HP Refill
+Defeated Blast Hornet (Rematch): Toxic Seahorse Access Codes
+Event Blizzard Buffalo Rematch: Event Boss Rematch Clear
+Event Toxic Seahorse Rematch: Event Boss Rematch Clear
+Event Tunnel Rhino Rematch: Event Boss Rematch Clear
+Event Volt Catfish Rematch: Event Boss Rematch Clear
+Event Crush Crawfish Rematch: Event Boss Rematch Clear
+Event Neon Tiger Rematch: Event Boss Rematch Clear
+Event Gravity Beetle Rematch: Event Boss Rematch Clear
+Event Blast Hornet Rematch: Event Boss Rematch Clear
+Defeated Dr. Doppler: Small HP Refill
+Event Dr. Doppler's Lab 3 Cleared: Event Dr. Doppler's Lab 3 Cleared
+Defeated Sigma: Sigma Virus Destroyed
+Defeated Vile: Small HP Refill
+Event Vile Defeated: Event Vile Defeated
+Defeated Bit: Item Plus Chip
+Defeated Byte: Body Upgrade
+Event Bit Defeated: Event Bit Defeated
+Event Byte Defeated: Event Byte Defeated
+Hunter Base Stage - HP Pickup 1 (Right of first ladder): Large HP Refill
+Hunter Base Stage - HP Pickup 2 (Bottom of falling spike balls section): Blast Hornet Access Codes
+Blizzard Buffalo Stage - HP Pickup 1 (Roof after first ladder): Arms Upgrade
+Blizzard Buffalo Stage - HP Pickup 2 (Before Bit & Byte room): Sub Tank
+Blizzard Buffalo Stage - HP Pickup 3 (Top of slope in dark room): 1-Up
+Blizzard Buffalo Stage - HP Pickup 4 (After dark room): 1-Up
+Blizzard Buffalo Stage - HP Pickup 5 (Before boss room): Neon Tiger Access Codes
+Toxic Seahorse Stage - HP Pickup 1 (Bottom of falling water section): Small HP Refill
+Toxic Seahorse Stage - HP Pickup 2 (In moving water): Large HP Refill
+Toxic Seahorse Stage - HP Pickup 3 (After Hotareeca room): Large HP Refill
+Tunnel Rhino Stage - Weapon Energy Pickup (Before Bit & Byte room): Small HP Refill
+Tunnel Rhino Stage - HP Pickup (Before falling rocks section): Body Upgrade
+Volt Catfish Stage - HP Pickup 2 (In first elevator): 1-Up
+Volt Catfish Stage - HP Pickup 1 (In first elevator): Large HP Refill
+Volt Catfish Stage - HP Pickup 3 (Right of Sub Tank): 1-Up
+Volt Catfish Stage - HP Pickup 4 (Left of Sub Tank): Tunnel Rhino Access Codes
+Volt Catfish Stage - Weapon Energy Pickup 1 (Left of Sub Tank): Heart Tank
+Volt Catfish Stage - Weapon Energy Pickup 2 (Right of Sub Tank): Speed Shot Chip
+Volt Catfish Stage - HP Pickup 5 (In power plant section): Parasitic Bomb
+Volt Catfish Stage - Weapon Energy Pickup 3 (In power plant section): Small HP Refill
+Crush Crawfish Stage - HP Pickup 1 (Top of third crane): Large HP Refill
+Crush Crawfish Stage - HP Pickup 2 (Below third crane): Small HP Refill
+Crush Crawfish Stage - HP Pickup 3 (After Bit & Byte room): Large HP Refill
+Crush Crawfish Stage - HP Pickup 4 (Before ship): Small HP Refill
+Crush Crawfish Stage - Weapon Energy Pickup (Top left of conveyor belts section): Large HP Refill
+Crush Crawfish Stage - HP Pickup 5 (Bottom left of conveyor belts section): Large HP Refill
+Crush Crawfish Stage - HP Pickup 6 (Bottom left of conveyor belts section): 1-Up
+Crush Crawfish Stage - 1up Pickup 1 (Top right of conveyor belts section): 1-Up
+Crush Crawfish Stage - 1up Pickup 2 (Top right of conveyor belts section): Small HP Refill
+Neon Tiger Stage - HP Pickup 1 (Below first ladder): Large HP Refill
+Neon Tiger Stage - HP Pickup 2 (Below Sub Tank): Heart Tank
+Neon Tiger Stage - HP Pickup 3 (Before Worm Seeker-R room): Z-Saber
+Gravity Beetle Stage - HP Pickup 1 (In cranes and boxes room): Weapon Plus Chip
+Gravity Beetle Stage - HP Pickup 2 (Before elevator): Ray Splasher
+Gravity Beetle Stage - HP Pickup 3 (In elevator): 1-Up
+Gravity Beetle Stage - Weapon Energy Pickup 1 (In elevator): Large HP Refill
+Gravity Beetle Stage - HP Pickup 4 (In elevator): Large HP Refill
+Gravity Beetle Stage - 1up Pickup (In elevator): 1-Up
+Gravity Beetle Stage - Weapon Energy Pickup 2 (In elevator): Speedster Chip
+Gravity Beetle Stage - HP Pickup 5 (In elevator): Quick Charge Chip
+Gravity Beetle Stage - HP Pickup 6 (After falling missiles): Sub Tank
+Blast Hornet Stage - HP Pickup 1 (Bottom left of conveyor belts section): 1-Up
+Blast Hornet Stage - HP Pickup 2 (Hidden in left wall of third hangar): Small HP Refill
+Dr. Doppler's Lab 1 - Weapon Energy Pickup (Before REX-2000 room): Large HP Refill
+Dr. Doppler's Lab 1 - HP Pickup 1 (Before REX-2000 room): 1-Up
+Dr. Doppler's Lab 1 - HP Pickup 2 (Below Ride Armor pad): Small HP Refill
+Dr. Doppler's Lab 3 - HP Pickup (Before Dr. Doppler room): Legs Upgrade
+Vile's Stage - HP Pickup 1 (In first elevator): Large HP Refill
+Vile's Stage - HP Pickup 2 (In first elevator): Large HP Refill
+Vile's Stage - HP Pickup 3 (In first elevator): Heart Tank
+Vile's Stage - HP Pickup 4 (In first elevator): Large HP Refill
+Vile's Stage - Weapon Energy Pickup (Below boss room): Large HP Refill
+Vile's Stage - 1up Pickup (After boss): 1-Up
+Vile's Stage - HP Pickup 5 (After boss room): Heart Tank
+Vile's Stage - HP Pickup 6 (After boss): Heart Tank
+Vile's Stage - HP Pickup 7 (After boss): Crush Crawfish Access Codes
+Vile's Stage - HP Pickup 8 (In second elevator): Heart Tank
+Vile's Stage - HP Pickup 9 (Before falling platforms section): Helmet Upgrade
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Defeated Maoh the Giant: Kangaroo Ride Armor
+  Hunter Base Stage - Clear: Volt Catfish Access Codes
+  Hunter Base Stage - HP Pickup 2 (Bottom of falling spike balls section): Blast Hornet Access Codes
+}
+2: {
+  Volt Catfish Stage - HP Pickup 4 (Left of Sub Tank): Tunnel Rhino Access Codes
+  Volt Catfish Stage - HP Pickup 5 (In power plant section): Parasitic Bomb
+}
+3: {
+  Tunnel Rhino Stage - Sub Tank: Blizzard Buffalo Access Codes
+}
+4: {
+  Blizzard Buffalo Stage - HP Pickup 1 (Roof after first ladder): Arms Upgrade
+  Blizzard Buffalo Stage - HP Pickup 5 (Before boss room): Neon Tiger Access Codes
+  Blizzard Buffalo Stage - Legs Capsule: Helmet Upgrade
+}
+5: {
+  Neon Tiger Stage - Heart Tank: Triad Thunder
+  Neon Tiger Stage Clear: Maverick Medal
+  Tunnel Rhino Stage Clear: Maverick Medal
+}
+6: {
+  Blizzard Buffalo Stage Clear: Maverick Medal
+  Event Vile Defeated: Event Vile Defeated
+  Tunnel Rhino Stage - Helmet Capsule: Gravity Beetle Access Codes
+  Vile's Stage - HP Pickup 7 (After boss): Crush Crawfish Access Codes
+}
+7: {
+  Gravity Beetle Stage - HP Pickup 2 (Before elevator): Ray Splasher
+}
+8: {
+  Blast Hornet Stage Clear: Maverick Medal
+  Event Blast Hornet Defeated: Event Blast Hornet Defeated
+  Gravity Beetle Stage Clear: Maverick Medal
+}
+9: {
+  Gravity Beetle Stage - Heart Tank: Legs Upgrade
+}
+10: {
+  Blizzard Buffalo Stage - Sub Tank: Tornado Fang
+  Gravity Beetle Stage - Frog Ride Armor: Frost Shield
+}
+11: {
+  Blast Hornet Stage - Chimera Ride Armor: Acid Burst
+  Crush Crawfish Stage Clear: Maverick Medal
+}
+12: {
+  Event Dr. Doppler's Lab 1 Cleared: Event Dr. Doppler's Lab 1 Cleared
+}
+13: {
+  Event Dr. Doppler's Lab 2 Cleared: Event Dr. Doppler's Lab 2 Cleared
+}
+14: {
+  Event Dr. Doppler's Lab 3 Cleared: Event Dr. Doppler's Lab 3 Cleared
+}
+15: {
+  Defeated Sigma: Sigma Virus Destroyed
+}
