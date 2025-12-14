@@ -25,14 +25,14 @@ def main():
 
     sub_parser = subparsers.add_parser("generate", help=
         "Calls Generate.py with different CLI ergonomics.")
-    group = sub_parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--output-zip", help=
-        "Moves the output .zip to the given path. Overwritten if exists.")
-    group.add_argument("--output-dir", help=
+    sub_parser.add_argument("--output-dir", required=True, help=
         "Extracts the output .zip file into the given directory. "
         "Created if it doesn't exist; error if exists and not empty.")
     sub_parser.add_argument("--seed", metavar="int", type=int, default=-1, help=
         "Forwarded to Generate.py '--seed'.")
+    sub_parser.add_argument("--server", metavar="host:port", help=
+        "Goes into any generated archipelag.json manifests. "
+        "Enables some clients to connect to the server without prompting.")
     sub_parser.add_argument("player_yaml", nargs="+", help=
         "Path(s) to player .yaml files. "
         "These get copied into a tmp dir and given to Generate.py '--player_files_path'. ")
@@ -75,7 +75,7 @@ def main():
     elif args.cmd == "init":
         do_init(args.repo)
     elif args.cmd == "generate":
-        do_generate(args.repo, args.output_zip, args.output_dir, args.seed, args.player_yaml)
+        do_generate(args.repo, args.output_dir, args.seed, args.server, args.player_yaml)
     elif args.cmd == "server":
         do_server(args.repo, args.server_dir, args.multidata, args.oracle_spoiler)
     elif args.cmd == "factorio-server":
@@ -118,15 +118,11 @@ def do_init(repo):
     # This module does fancy stuff on import once. Let's get it over with.
     ap_cmd("NetUtils.py", repo=repo)
 
-def do_generate(repo, output_zip_path, output_dir, seed, player_yamls):
-    if output_dir:
-        if not os.path.isdir(output_dir):
-            os.mkdir(output_dir)
-        elif len(os.listdir(output_dir)) > 0:
-            sys.exit("ERROR: --output-dir is not empty: " + output_dir)
-    elif output_zip_path:
-        pass # cool ok
-    else: assert False
+def do_generate(repo, output_dir, seed, server, player_yamls):
+    if not os.path.isdir(output_dir):
+        os.mkdir(output_dir)
+    elif len(os.listdir(output_dir)) > 0:
+        sys.exit("ERROR: --output-dir is not empty: " + output_dir)
 
     def fatal_problem(msg):
         print(msg); import pdb; pdb.set_trace()
@@ -151,18 +147,47 @@ def do_generate(repo, output_zip_path, output_dir, seed, player_yamls):
             args.extend(("--seed", int(seed)))
         ap_cmd("Generate.py", *args, repo=repo)
 
+        # Extract primary .zip into output dir.
         output_names = os.listdir(tmp_output_dir)
         if not (len(output_names) == 1 and output_names[0].endswith(".zip")):
             fatal_problem("expected a single .zip in the output dir")
         tmp_output_zip_path = os.path.join(tmp_output_dir, output_names[0])
+        import zipfile
+        with zipfile.ZipFile(tmp_output_zip_path) as z:
+            z.extractall(output_dir)
 
-        if output_dir:
-            import zipfile
-            with zipfile.ZipFile(tmp_output_zip_path) as z:
-                z.extractall(output_dir)
-        elif output_zip_path:
-            shutil.copy(tmp_output_zip_path, output_zip_path)
-        else: assert False
+    # Do we have post-generation modifications to do?
+    if not server:
+        return
+    def modify_data(data):
+        # If this throws an exception, then full crashing seems appropriate.
+        j = json.loads(data)
+        j["server"] = server
+        return json.dumps(j)
+
+    # Perform post-generation modificiations.
+    for file_name in os.listdir(output_dir):
+        file_path = os.path.join(output_dir, file_name)
+        changed_anything = False
+        # Several types of files output by archipelago are in the .zip format and contain a top-level manifest.
+        # The file names and extensions are not predicatable, so just try reading everything as a ZIP.
+        try:
+            with zipfile.ZipFile(file_path) as input_z:
+                with zipfile.ZipFile(file_path + ".tmp", "w") as output_z:
+                    for info in input_z.infolist():
+                        data = input_z.read(info)
+                        if info.filename == "archipelago.json":
+                            data = modify_data(data)
+                            changed_anything = True
+                        # Note: even though 'str' is in this name, it operates on bytes. (Holdover from Python 2 I suppose.)
+                        output_z.writestr(info, data)
+            if changed_anything:
+                os.rename(file_path + ".tmp", file_path)
+            else:
+                # Never mind.
+                os.remove(file_path + ".tmp")
+        except zipfile.BadZipFile:
+            continue
 
 def do_server(repo, server_dir, multidata_path, oracle_spoiler):
     # Do this check now before trusting the AP code with it:
