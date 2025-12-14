@@ -1,5 +1,5 @@
 name: josh_dkc2
-description: 4/5 bosses. 4 levels per world.
+description: 2/5 bosses. 2 levels per world.
 game: Donkey Kong Country 2
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -12,15 +12,15 @@ Donkey Kong Country 2:
 
   # Goal
   goal: flying_krock
-  krock_boss_tokens: '4'
+  krock_boss_tokens: '2'
 
   # Levels per world
-  required_galleon_levels: '4'
-  required_cauldron_levels: '4'
-  required_quay_levels: '4'
-  required_kremland_levels: '4'
-  required_gulch_levels: '4'
-  required_keep_levels: '4'
+  required_galleon_levels: '2'
+  required_cauldron_levels: '2'
+  required_quay_levels: '2'
+  required_kremland_levels: '2'
+  required_gulch_levels: '2'
+  required_keep_levels: '2'
   required_krock_levels: '0'
   lost_world_rock_placement: lost_world_level_clear
   lost_world_rocks: '5'
@@ -35,29 +35,9 @@ Donkey Kong Country 2:
   bananasanity: 'false'
   starting_kong: diddy
   shuffle_levels: 'false'
-  shuffle_abilities:
-  #- Carry
-  #- Helicopter Spin
-  - Cling
-  #- Swim
-  #- Cartwheel
-  #- Climb
-  - Team Attack
-  shuffle_animals:
-  - Enguarde
-  - Squawks
-  - Squitter
-  - Skull Kart
-  - Glimmer
-  - Clapper
-  - Rattly
-  - Rambi
-  shuffle_barrels:
-  - Exclamation Barrels
-  - Controllable Barrels
-  - Barrel Kannons
-  - Warp Barrels
-  #- Kong Barrels
+  shuffle_abilities: []
+  shuffle_animals: []
+  shuffle_barrels: []
   swanky_checks: 'false'
   swanky_questions_per_quiz: '1'
   swanky_forced_topics: []

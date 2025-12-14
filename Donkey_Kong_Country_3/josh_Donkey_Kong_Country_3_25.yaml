@@ -1,10 +1,11 @@
 name: josh_dkc3
-description: 25/50 bonus coins. Levels shuffled.
+description: 25/50 bonus coins. Levels shuffled. Start with Turbo Ski. Required cogs in fixed early-game caves plus Rocket Rush.
 game: Donkey Kong Country 3
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
   game:
     Donkey Kong Country 3: 1.1.0 # Version of the world required for this yaml to work as expected.
+  plando: items
 Donkey Kong Country 3:
 
   # Balance
@@ -19,6 +20,7 @@ Donkey Kong Country 3:
 
   # Goal
   goal: knautilus
+  # This many times 5 levels in Krematoa is the total number of bonus coins needed.
   krematoa_bonus_coin_cost: '5'
   percentage_of_extra_bonus_coins: '100'
   number_of_banana_birds: '15'
@@ -36,13 +38,31 @@ Donkey Kong Country 3:
   ###########################
   local_items: []
   non_local_items: []
-  start_inventory: {}
+  start_inventory:
+    # Start with access to most worlds.
+    Progressive Boat Upgrade: 3
   start_hints: []
   start_location_hints: []
-  exclude_locations: []
+  exclude_locations:
+  # This level feels bad to play. Remove almost all checks from it.
+  - Kong-Fused Cliffs - Bonus 1
+  - Kong-Fused Cliffs - Bonus 2
+  - Kong-Fused Cliffs - DK Coin
+  - Kong-Fused Cliffs - KONG
   priority_locations: []
   item_links: []
-  plando_items: []
+  plando_items:
+  # Place 4/5 cogs right at the start. The last cog is always at Rocket Rush, which is never shuffled.
+  # This makes these settings a hunt for only 25/50 bonus coins + fighting the final boss,
+  # rather than also requiring 5/5 cog hunt.
+  - items:
+      Krematoa Cog: 4
+    locations:
+    # With level shuffle enabled, choose non-shuffled caves.
+    - Undercover Cove
+    - Kong Cave
+    - Bounty Beach
+    - Smuggler's Cove
 
   progression_balancing: '50'
   accessibility: full
