@@ -16,8 +16,12 @@ Mega Man 2:
   enemy_weakness: 'false'
   strict_weakness: 'false'
   random_weakness: shuffled
+  plando_weakness:
+    Boobeam Trap:
+      # It sucks getting to a boss with only 1 weakness to find out that you don't have the right weapon yet.
+      # And the stage is the most tedious in the whole game also.
+      Mega Buster: 4
 
-  plando_weakness: {}
   palette_shuffle: none
   quickswap: 'true'
 
