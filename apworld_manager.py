@@ -62,36 +62,45 @@ def do_list(config, cache, apworld_names_set):
     orphaned_files = set(cache.files.keys())
     for world_name, world_config in config.worlds.items():
         if len(apworld_names_set) > 0 and world_name not in apworld_names_set: continue
-        cached_repo = cache.repos.get(world_config.github_user_and_repo, None)
-        cached_file = cache.files.get(world_config.github_repo_asset, None)
-        orphaned_files.discard(world_config.github_repo_asset)
 
-        if cached_file != None and cached_repo != None:
-            # Find what version this is by looking up a matching sha256_hex or size.
-            newer_versions = []
-            for release in cached_repo.releases:
-                try:
-                    asset = release.assets[world_config.github_repo_asset]
-                except KeyError:
-                    # A release for something else.
-                    continue
-                if asset.sha256_hex == cached_file.sha256_hex or (
-                    # Some repos don't publish digests for their assets. Fallback to size matching i guess.
-                    asset.sha256_hex == None and asset.size == cached_file.size
-                ):
-                    # Found it.
-                    version_blurb = "{} ({})".format(release.tag_name, "up to date" if len(newer_versions) == 0 else "update available")
-                    break
-                # The asset name matches, but not the digest. Assume this is a newer version.
-                newer_versions.append(release)
+        if world_config.github_user_and_repo != None:
+            cached_repo = cache.repos.get(world_config.github_user_and_repo, None)
+            cached_file = cache.files.get(world_config.github_repo_asset, None)
+            orphaned_files.discard(world_config.github_repo_asset)
+
+            if cached_file != None and cached_repo != None:
+                # Find what version this is by looking up a matching sha256_hex or size.
+                newer_versions = []
+                for release in cached_repo.releases:
+                    try:
+                        asset = release.assets[world_config.github_repo_asset]
+                    except KeyError:
+                        # A release for something else.
+                        continue
+                    if asset.sha256_hex == cached_file.sha256_hex or (
+                        # Some repos don't publish digests for their assets. Fallback to size matching i guess.
+                        asset.sha256_hex == None and asset.size == cached_file.size
+                    ):
+                        # Found it.
+                        version_blurb = "{} ({})".format(release.tag_name, "up to date" if len(newer_versions) == 0 else "update available")
+                        break
+                    # The asset name matches, but not the digest. Assume this is a newer version.
+                    newer_versions.append(release)
+                else:
+                    version_blurb = "unknown version"
+            elif cached_file == None and cached_repo != None:
+                version_blurb = "(not downloaded)"
+            elif cached_file != None and cached_repo == None:
+                version_blurb = "(never checked)"
+            elif cached_file == None and cached_repo == None:
+                version_blurb = "(not downloaded, never checked)"
+            else: assert False
+        elif world_config.manual_file_name != None:
+            if cached_file == None:
+                version_blurb = "manual file missing from disk"
             else:
-                version_blurb = "unknown version"
-        elif cached_file == None and cached_repo != None:
-            version_blurb = "(not downloaded)"
-        elif cached_file != None and cached_repo == None:
-            version_blurb = "(never checked)"
-        elif cached_file == None and cached_repo == None:
-            version_blurb = "(not downloaded, never checked)"
+                orphaned_files.discard(world_config.manual_file_name)
+                version_blurb = "(manually managed)"
         else: assert False
         print("{}: {}".format(world_name, version_blurb))
 
@@ -106,6 +115,7 @@ def do_check(config, cache, apworld_names_set):
     previous_line = ""
     for i, world_name in enumerate(apworld_names_set or config.worlds.keys()):
         world_config = config.worlds[world_name]
+        if world_config.github_user_and_repo == None: continue
         line = "{}/{} {:.0%} {}".format(i, total, i/total, world_name)
         print("\b \b" * (len(previous_line) - len(line)) + "\r" + line, end="")
         previous_line = line
@@ -124,6 +134,9 @@ def do_update(config, cache, apworld_names_set, custom_worlds_dir):
     orphaned_files = set(cache.files.keys())
     for world_name, world_config in config.worlds.items():
         if len(apworld_names_set) > 0 and world_name not in apworld_names_set: continue
+        if world_config.manual_file_name != None:
+            orphaned_files.discard(world_config.manual_file_name)
+            continue
         try:
             cached_repo = cache.repos[world_config.github_user_and_repo]
         except KeyError:
@@ -187,8 +200,9 @@ def do_update(config, cache, apworld_names_set, custom_worlds_dir):
 
 @dataclass
 class WorldConfig:
-    github_user_and_repo: str
-    github_repo_asset: str
+    github_user_and_repo: str | None
+    github_repo_asset: str | None
+    manual_file_name: str | None = None
 
 class Config:
     worlds: Dict[str, WorldConfig] = {}
@@ -208,14 +222,22 @@ def load_config(path):
     config = Config()
     for section_name in parser.sections():
         [world_name] = re_match(r'^world "(.*)"$', section_name).groups()
-        (user, repo) = re_match([
-            r'^https://github\.com/([^/]+)/([^/]+)',
-            r'^([^/]+)/([^/]+)$',
-        ], parser.get(section_name, "github_repo")).groups()
-        world_config = WorldConfig(
-            github_user_and_repo=user + "/" + repo,
-            github_repo_asset=re_match(r'^(.*)\.apworld$', parser.get(section_name, "github_repo_asset")).group(),
-        )
+        is_github = parser.has_option(section_name, "github_repo")
+        assert is_github == parser.has_option(section_name, "github_repo_asset"), "must set github_repo and github_repo_asset together"
+        is_manual = parser.has_option(section_name, "manual_file_name")
+        assert is_github != is_manual, "cannot be both manual and managed by github repo"
+        if is_github:
+            (user, repo) = re_match([
+                r'^https://github\.com/([^/]+)/([^/]+)',
+                r'^([^/]+)/([^/]+)$',
+            ], parser.get(section_name, "github_repo")).groups()
+            world_config = WorldConfig(
+                github_user_and_repo=user + "/" + repo,
+                github_repo_asset=re_match(r'^.*\.apworld$', parser.get(section_name, "github_repo_asset")).group(),
+            )
+        elif is_manual:
+            world_config = WorldConfig(None, None, re_match(r'^.*\.apworld$', parser.get(section_name, "manual_file_name")).group())
+        else: assert False
         config.worlds[world_name] = world_config
 
     return config
