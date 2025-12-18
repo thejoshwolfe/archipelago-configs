@@ -30,7 +30,7 @@ The Witness:
   trap_percentage: '10'
   hint_amount: '12'
   vague_hints: 'off'
-  area_hint_percentage: '33'
+  area_hint_percentage: '0'
   laser_hints: 'false'
   early_caves: 'off'
   elevators_come_to_you: Quarry Elevator
