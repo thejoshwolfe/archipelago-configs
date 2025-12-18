@@ -1,0 +1,971 @@
+﻿Archipelago Version 0.6.6  -  Seed: 10898520295689665582
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Ship of Harkinian
+Location Count:                  450
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            Kak 20 Gold Skulltula Reward, Kak 30 Gold Skulltula Reward, Kak 40 Gold Skulltula Reward, Kak 50 Gold Skulltula Reward
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Closed Forest:                   Off
+Kakariko Gate:                   Open
+Door of Time:                    Song Only
+Zora's Domain:                   Closed As Child
+Sleeping Waterfall:              Closed
+Jabu-Jabu:                       Closed
+Lock Overworld Doors:            No
+Fortress Carpenters:             Fast
+Rainbow Bridge:                  Dungeon Rewards
+Rainbow Bridge Stones Required:  3
+Rainbow Bridge Medallions Required:6
+Rainbow Bridge Dungeon Rewards Required:7
+Rainbow Bridge Dungeons Required:8
+Rainbow Bridge Skull Tokens Required:50
+Rainbow Bridge Greg Modifier:    Wildcard
+Skip Ganon's Trials:             Yes
+Triforce Hunt:                   No
+Triforce Hunt Pieces Total:      30
+Triforce Hunt Pieces Required Percentage:60
+Shuffle Tokens:                  All
+Night Skulltulas Expect Sun's Song:Yes
+Shuffle Master Sword:            No
+Shuffle Child's Wallet:          No
+Shuffle Ocarina Buttons:         No
+Shuffle Swim:                    No
+Shuffle Weird Egg:               No
+Shuffle Fishing Pole:            No
+Shuffle Deku Stick Bag:          No
+Shuffle Deku Nut Bag:            No
+Shuffle Freestanding Items:      Off
+Shuffle Shops:                   Yes
+Shuffle Shops Item Amount:       4
+Shuffle Shops Minimum Price:     1
+Shuffle Shops Maximum Price:     250
+Shuffle Fish:                    Off
+Shuffle Scrubs:                  Yes
+Shuffle Scrubs Minimum Price:    10
+Shuffle Scrubs Maximum Price:    50
+Shuffle Beehives:                No
+Shuffle Cows:                    No
+Shuffle Pots:                    Off
+Shuffle Crates:                  Off
+Shuffle Trees:                   No
+Shuffle Merchants:               All
+Shuffle Frog Song Rupees:        No
+Shuffle Adult Trade Items:       Yes
+Shuffle Boss Souls:              Off
+Shuffle Fairies in Fountains:    No
+Shuffle Gossip Stone Fairies:    No
+Shuffle Bean Fairies:            No
+Shuffle Fairy Spots:             No
+Shuffle Grass:                   Off
+Shuffle Dungeon Rewards:         Dungeons
+Maps and Compasses:              Start With
+Ganons Castle Boss Key:          Vanilla
+Ganons Castle Boss Key Stones Required:3
+Ganons Castle Boss Key Medallions Required:6
+Ganons Castle Boss Key Dungeon Rewards Required:9
+Ganons Castle Boss Key Dungeons Required:8
+Ganons Castle Boss Key Skull Tokens Required:50
+Ganons Castle Boss Key Greg Wildcard:Off
+Key Rings:                       Yes
+Big Poe Target Count:            1
+Skip Child Zelda:                Yes
+Skip Epona Race:                 Yes
+Complete Mask Quest:             Yes
+Skip Scarecrow's Song:           Yes
+Full Wallets:                    Yes
+Bombchu Bag:                     Yes
+Bombchu Drops:                   Yes
+Start Inventory from Pool:       Prelude of Light: 1, Minuet of Forest: 1, Bolero of Fire: 1, Serenade of Water: 1, Sun's Song: 1, Stone of Agony: 1
+Blue Fire Arrows:                Yes
+Sunlight Arrows:                 Yes
+Infinite Upgrades:               Progressive
+Skeleton Key:                    Yes
+Slingshot and Bow Can Break Beehives:Yes
+Starting Age:                    Child
+Shuffle 100 GS Reward:           No
+Ice Trap Count:                  6
+Ice Trap Filler Replacement Count:0
+True No Logic:                   No
+
+
+Starting Items:
+
+Minuet of Forest
+Sun's Song
+Stone of Agony
+Progressive Scale
+Progressive Stick Capacity
+Progressive Wallet
+Prelude of Light
+Bolero of Fire
+Serenade of Water
+Progressive Nut Capacity
+
+Locations:
+
+Link's Pocket: Goron's Ruby
+Zeldas Letter From Skip Option: Zelda's Letter
+HC Gossip Stone Song Fairy: Can Access Fairies
+HC Butterfly Fairy: Can Access Fairies
+HC Bug Rock: Can Access Bugs
+HC Day Night Cycle Child: Child Can Pass Time
+HC GS Tree: Gold Skulltula Token
+Song from Impa: Cojiro
+HC Great Fairy Reward: Deku Seeds (30)
+HC Storms Grotto Behind Walls Nut Pot: Can Farm Nuts
+HC Storms Grotto Behind Walls Gossip Stone Song Fairy: Can Access Fairies
+HC Storms Grotto Behind Walls Wandering Bugs: Can Access Bugs
+HC GS Storms Grotto: Gold Skulltula Token
+HC OGC Rainbow Bridge: HC OGC Rainbow Bridge Built
+HC OGC GS: Huge Rupee
+OGC Great Fairy Reward: Gold Skulltula Token
+DMC Gossip Stone Song Fairy: Can Access Fairies
+DMC Wall Freestanding PoH: Gold Skulltula Token
+DMC GS Crate: Gold Skulltula Token
+DMC Deku Scrub: Gold Skulltula Token
+Sheik in Crater: Gold Skulltula Token
+DMC Volcano Freestanding PoH: Heart Container
+DMC Bean Plant Fairy: Can Access Fairies
+DMC Bean Patch: DMC Bean Planted
+DMC GS Bean Patch: Bombs (5)
+DMC Great Fairy Reward: Progressive Bow
+DMC Upper Grotto Gossip Stone Song Fairy: Can Access Fairies
+DMC Upper Grotto Butterfly Fairy: Can Access Fairies
+DMC Upper Grotto Bug Grass: Can Access Bugs
+DMC Upper Grotto Puddle Fish: Can Access Fish
+DMC Upper Grotto Chest: Deku Nuts (10)
+DMC Deku Scrub Grotto Left: Recovery Heart
+DMC Deku Scrub Grotto Right: Bottom of the Well Key Ring
+DMC Deku Scrub Grotto Center: Epona's Song
+DMT Bean Plant Fairy: Can Access Fairies
+DMT Bean Patch: DMT Bean Planted
+DMT Day Night Cycle Child: Child Can Pass Time
+DMT Day Night Cycle Adult: Adult Can Pass Time
+DMT Chest: Red Rupee
+DMT Freestanding PoH: Gold Skulltula Token
+DMT GS Bean Patch: Progressive Ocarina
+DMT GS Near Kak: Huge Rupee
+DMT GS Above Dodongos Cavern: Piece of Heart
+DMT Gossip Stone Song Fairy: Can Access Fairies
+DMT Bug Rock: Can Access Bugs
+DMT Trade Broken Sword: Deku Nuts (10)
+DMT Trade Eyedrops: Deku Seeds (30)
+DMT Trade Claim Check: Deku Seeds (30)
+DMT GS Falling Rocks Path: Gold Skulltula Token
+DMT Storms Grotto Gossip Stone Song Fairy: Can Access Fairies
+DMT Storms Grotto Butterfly Fairy: Can Access Fairies
+DMT Storms Grotto Bug Grass: Can Access Bugs
+DMT Storms Grotto Puddle Fish: Can Access Fish
+DMT Storms Grotto Chest: Deku Nuts (10)
+DMT Great Fairy Reward: Recovery Heart
+Desert Colossus Fairy Pond Colossus: Can Access Fairies
+Desert Colossus Bug Rock: Can Access Bugs
+Desert Colossus Bean Patch: Desert Colossus Bean Planted
+Desert Colossus Day Night Cycle Child: Child Can Pass Time
+Desert Colossus Day Night Cycle Adult: Adult Can Pass Time
+Colossus Freestanding PoH: Progressive Hookshot
+Colossus GS Bean Patch: Progressive Wallet
+Colossus GS Tree: Progressive Bombchu
+Colossus GS Hill: Gold Skulltula Token
+Desert Colossus Fairy Pond Oasis: Can Access Fairies
+Sheik at Colossus: Deku Nuts (5)
+Colossus Great Fairy Reward: Deku Seeds (30)
+Colossus Deku Scrub Grotto Rear: Gold Skulltula Token
+Colossus Deku Scrub Grotto Front: Gold Skulltula Token
+GF Gate: GF Gate Open
+GTG Gate: GTG Gate Open
+GF GS Top Floor: Bombs (10)
+GF Chest: Progressive Slingshot
+GF HBA 1000 Points: Deku Nuts (10)
+GF HBA 1500 Points: Gold Skulltula Token
+GF GS Archery Range: Recovery Heart
+GF Gate Outside: GF Gate Open
+GF Storms Grotto Fairy: Can Access Fairies
+GV Bug Rock: Can Access Bugs
+GV Day Night Cycle Child: Child Can Pass Time
+GV Day Night Cycle Adult: Adult Can Pass Time
+GV GS Small Bridge: Shadow Temple Boss Key
+GV Gossip Stone Song Fairy: Can Access Fairies
+GV Bean Soil: Can Access Fairies
+GV Bean Patch: GV Bean Planted
+GV Waterfall Freestanding PoH: Arrows (10)
+GV GS Bean Patch: Gold Skulltula Token
+GV Crate Freestanding PoH: Red Rupee
+GV Chest: Piece of Heart
+GV Trade Saw: Huge Rupee
+GV GS Behind Tent: Deku Stick (1)
+GV GS Pillar: Progressive Nut Capacity
+GV Deku Scrub Grotto Rear: Mirror Shield
+GV Deku Scrub Grotto Front: Red Rupee
+GC Gossip Stone Song Fairy: Can Access Fairies
+GC Stick Pot: Can Farm Sticks
+GC Bug Rock: Can Access Bugs
+GC Fire Around Pot: GC Child Fire Lit
+GC Woods Warp: GC Woods Warp Open
+GC Darunias Door as Child: GC Darunias Door Opened as Child
+GC Stop Rolling Goron as Adult: GC Stop Rolling Goron As Adult
+GC Maze Left Chest: Gold Skulltula Token
+GC Maze Center Chest: Progressive Bomb Bag
+GC Maze Right Chest: Bombs (5)
+GC Pot Freestanding PoH: Bombs (10)
+GC Rolling Goron as Child: Water Temple Boss Key
+GC Rolling Goron as Adult: Huge Rupee
+GC GS Boulder Maze: Red Rupee
+GC GS Center Platform: Recovery Heart
+GC Medigoron: Progressive Bow
+GC Woods Warp From Woods: GC Woods Warp Open
+GC Darunias Chamber Torch: GC Child Fire Lit
+GC Darunias Joy: Deku Seeds (30)
+GC Shop Item 1: Buy Bombchu (20)
+GC Shop Item 2: Buy Arrows (50)
+GC Shop Item 3: Buy Bombs (5) [35]
+GC Shop Item 4: Buy Bottle Bug
+GC Shop Item 5: Pocket Egg
+GC Shop Item 6: Deku Nuts (10)
+GC Shop Item 7: Gold Skulltula Token
+GC Shop Item 8: Gerudo Fortress Small Key
+GC Deku Scrub Grotto Left: Bombs (10)
+GC Deku Scrub Grotto Right: Gold Skulltula Token
+GC Deku Scrub Grotto Center: Gold Skulltula Token
+Graveyard Butterfly Fairy: Can Access Fairies
+Graveyard Bean Plant Fairy: Can Access Fairies
+Graveyard Bug Rock: Can Access Bugs
+Graveyard Sold Spooky Mask: Sold Spooky Mask
+Graveyard Bean Patch: Graveyard Bean Planted
+Graveyard Freestanding PoH: Progressive Nut Capacity
+Graveyard Dampe Gravedigging Tour: Bottle with Red Potion
+Graveyard GS Wall: Deku Stick (1)
+Graveyard GS Bean Patch: Red Rupee
+Graveyard Shield Grave Chest: Blue Rupee
+Graveyard Heart Piece Grave Chest: Gold Skulltula Token
+Graveyard Royal Family's Tomb Chest: Progressive Ocarina
+Song from Royal Family's Tomb: Deku Nuts (10)
+Graveyard Dampes Grave Nut Pot: Can Farm Nuts
+Graveyard Dampes Windmill Access: Dampe's Windmill Access
+Graveyard Hookshot Chest: Gold Skulltula Token
+Graveyard Dampe Race Freestanding PoH: Arrows (5)
+Graveyard Gossip Stone Song Fairy: Can Access Fairies
+Wasteland Fairy Pot: Can Access Fairies
+Wasteland Nut Pot: Can Farm Nuts
+Wasteland Chest: Requiem of Spirit
+Wasteland Carpet Salesman: Gold Skulltula Token
+Wasteland GS: Progressive Bombchu
+HF Big Poe: Can Defeat Big Poe
+HF Running Man: Sold Bunny Hood
+HF Day Night Cycle Child: Child Can Pass Time
+HF Day Night Cycle Adult: Adult Can Pass Time
+HF Ocarina of Time Item: Progressive Nut Capacity
+Song from Ocarina of Time: Gold Skulltula Token
+HF Southeast Grotto Gossip Stone Song Fairy: Can Access Fairies
+HF Southeast Grotto Butterfly Fairy: Can Access Fairies
+HF Southeast Grotto Bugs: Can Access Bugs
+HF Southeast Grotto Puddle Fish: Can Access Fish
+HF Southeast Grotto Chest: Bombs (5)
+HF Open Grotto Gossip Stone Song Fairy: Can Access Fairies
+HF Open Grotto Butterfly Fairy: Can Access Fairies
+HF Open Grotto Bugs: Can Access Bugs
+HF Open Grotto Puddle Fish: Can Access Fish
+HF Open Grotto Chest: Progressive Bow
+HF Deku Scrub Grotto: Gold Skulltula Token
+HF Cow Grotto Behind Webs Bugs Shrub: Can Access Bugs
+HF Cow Grotto Behind Webs Gossip Stone Song Fairy: Can Access Fairies
+HF GS Cow Grotto: Claim Check
+HF Near Market Grotto Gossip Stone Song Fairy: Can Access Fairies
+HF Near Market Grotto Butterfly Fairy: Can Access Fairies
+HF Near Market Grotto Bugs: Can Access Bugs
+HF Near Market Grotto Puddle Fish: Can Access Fish
+HF Near Market Grotto Chest: Deku Nuts (10)
+HF Fairy Grotto Fairy: Can Access Fairies
+HF GS Stone Bridge Tree Grotto: Purple Rupee
+HF Tektite Grotto Freestanding PoH: Purple Rupee
+Kak Bug Rock: Can Access Bugs
+Kak Gate: Kakariko Gate Open
+Kak Gate Guard: Sold Keaton Mask
+Sheik in Kakariko: Gold Skulltula Token
+Kak Anju as Child: Gold Skulltula Token
+Kak Anju as Adult: Gold Skulltula Token
+Kak Trade Pocket Cucco: Gold Skulltula Token
+Kak GS House Under Construction: Deku Seeds (30)
+Kak GS Skulltula House: Purple Rupee
+Kak GS Guards House: Bombs (5)
+Kak GS Tree: Spirit Temple Boss Key
+Kak GS Watchtower: Deku Stick (1)
+Kak GS Above Impas House: Deku Nuts (5)
+Kak Man on Roof: Gold Skulltula Token
+Kak Adult Talon: Wake Up Talon As Adult
+Kak 10 Gold Skulltula Reward: Arrows (5)
+Kak 20 Gold Skulltula Reward: Ice Arrow
+Kak 30 Gold Skulltula Reward: Heart Container
+Kak 40 Gold Skulltula Reward: Gold Skulltula Token
+Kak 50 Gold Skulltula Reward: Gold Skulltula Token
+Kak Impas House Freestanding PoH: Recovery Heart
+Kak Windmill Phonogram Man: Drain Well
+Kak Windmill Freestanding PoH: Nayru's Love
+Song from Windmill: Progressive Bomb Bag
+Kak Bazaar Item 1: Buy Arrows (30)
+Kak Bazaar Item 2: Buy Deku Stick (1)
+Kak Bazaar Item 3: Buy Hylian Shield
+Kak Bazaar Item 4: Buy Deku Stick (1)
+Kak Bazaar Item 5: Fire Arrow
+Kak Bazaar Item 6: Deku Seeds (30)
+Kak Bazaar Item 7: Heart Container
+Kak Bazaar Item 8: Arrows (10)
+Kak Shooting Gallery Reward: Bombs (5)
+Kak Potion Shop Item 1: Buy Bombs (5) [25]
+Kak Potion Shop Item 2: Buy Deku Nut (10)
+Kak Potion Shop Item 3: Buy Deku Stick (1)
+Kak Potion Shop Item 4: Buy Fish
+Kak Potion Shop Item 5: Huge Rupee
+Kak Potion Shop Item 6: Arrows (10)
+Kak Potion Shop Item 7: Lens of Truth
+Kak Potion Shop Item 8: Skeleton Key
+Kak Trade Odd Mushroom: Piece of Heart
+Kak Granny's Shop: Gold Skulltula Token
+Kak Redead Grotto Chest: Ice Trap
+Kak Open Grotto Gossip Stone Song Fairy: Can Access Fairies
+Kak Open Grotto Butterfly Fairy: Can Access Fairies
+Kak Open Grotto Bug Grass: Can Access Bugs
+Kak Open Grotto Puddle Fish: Can Access Fish
+Kak Open Grotto Chest: Bombs (5)
+Mido: Showed Mido the Sword and Shield
+KF Gossip Stone Song Fairy: Can Access Fairies
+KF Soft Soil: KF Bean Planted
+KF Kokiri Sword Chest: Bombs (10)
+KF GS Know It All House: Bombs (10)
+KF GS Bean Patch: Heart Container
+KF GS House of Twins: Deku Nuts (5)
+KF Deku Tree Deku Baba Nuts: Can Farm Nuts
+KF Deku Tree Deku Baba Sticks: Can Farm Sticks
+Mido From Outside Deku Tree: Showed Mido the Sword and Shield
+KF Deku Tree Gossip Stone Song Fairy: Can Access Fairies
+KF Mido Top Left Chest: Gold Skulltula Token
+KF Mido Top Right Chest: Deku Seeds (30)
+KF Mido Bottom Left Chest: Piece of Heart
+KF Mido Bottom Right Chest: Gold Skulltula Token
+KF Shop Item 1: Buy Bottle Bug
+KF Shop Item 2: Buy Deku Seeds (30)
+KF Shop Item 3: Buy Fairy's Spirit
+KF Shop Item 4: Buy Green Potion
+KF Shop Item 5: Progressive Wallet
+KF Shop Item 6: Bottle with Blue Fire
+KF Shop Item 7: Blue Rupee
+KF Shop Item 8: Gerudo Membership Card
+KF Storms Grotto Gossip Stone Song Fairy: Can Access Fairies
+KF Storms Grotto Butterfly Fairy: Can Access Fairies
+KF Storms Grotto Bugs: Can Access Bugs
+KF Storms Grotto Puddle Fish: Can Access Fish
+KF Storms Grotto Chest: Piece of Heart
+LH Gossip Stone Song Fairy: Can Access Fairies
+LH Bean Fairy: Can Access Fairies
+LH Butterfly Fairy: Can Access Fairies
+LH Bug Shrub: Can Access Bugs
+Child Scarecrow: Child Scarecrow Unlocked
+Adult Scarecrow: Adult Scarecrow Unlocked
+LH Bean Patch: Lake Hylia Bean Planted
+LH Day Night Cycle Child: Child Can Pass Time
+LH Day Night Cycle Adult: Adult Can Pass Time
+LH Underwater Item: Gold Skulltula Token
+LH Sun: Strength Upgrade
+LH Freestanding PoH: Red Rupee
+LH GS Bean Patch: Training Ground Key Ring
+LH GS Lab Wall: Red Rupee
+LH GS Small Island: Deku Nuts (5)
+LH GS Tree: Fire Temple Boss Key
+LH Lab Dive: Gold Skulltula Token
+LH Lab Trade Eyeball Frog: Purple Rupee
+LH GS Lab Crate: Purple Rupee
+LH Child Fishing: Arrows (5)
+LH Adult Fishing: Huge Rupee
+LH Deku Scrub Grotto Left: Gold Skulltula Token
+LH Deku Scrub Grotto Right: Piece of Heart
+LH Deku Scrub Grotto Center: Piece of Heart
+LLR Talon Race: Freed Epona
+LLR Time Trial: Link's Cow Was Gifted
+Song from Malon: Deku Stick (1)
+LLR GS Tree: Huge Rupee
+LLR GS Rain Shed: Gold Skulltula Token
+LLR GS House Window: Bombs (10)
+LLR GS Back Wall: Progressive Slingshot
+LLR Talons Chickens: Huge Rupee
+LLR Freestanding PoH: Piece of Heart
+LLR Deku Scrub Grotto Left: Progressive Hookshot
+LLR Deku Scrub Grotto Right: Red Rupee
+LLR Deku Scrub Grotto Center: Gold Skulltula Token
+LW Gossip Stone Song Fairy: Can Access Fairies
+LW Bean Plant Fairy: Can Access Fairies
+LW Bug Grass: Can Access Bugs
+LW Skull Kid Mask Trade: Sold Skull Mask
+LW Bridge Bean Patch: LW Bridge Bean Planted
+LW Skull Kid: Purple Rupee
+LW Trade Cojiro: Recovery Heart
+LW Trade Odd Potion: Arrows (10)
+LW Ocarina Memory Game: Bottle with Ruto's Letter
+LW Target in Woods: Double Defense
+LW Deku Scrub Near Bridge: Purple Rupee
+LW GS Bean Patch Near Bridge: Gold Skulltula Token
+LW Butterfly Fairy: Can Access Fairies
+LW Theater Bean Patch: LW Theater Bean Planted
+LW Deku Scrub Near Deku Theater Right: Red Rupee
+LW Deku Scrub Near Deku Theater Left: Ice Trap
+LW GS Above Theater: Gold Skulltula Token
+LW GS Bean Patch Near Theater: Bombs (10)
+LW Near Shortcuts Grotto Gossip Stone Song Fairy: Can Access Fairies
+LW Near Shortcuts Grotto Butterfly Fairy: Can Access Fairies
+LW Near Shortcuts Grotto Bug Grass: Can Access Bugs
+LW Near Shortcuts Grotto Puddle Fish: Can Access Fish
+LW Near Shortcuts Grotto Chest: Progressive Slingshot
+LW Deku Theater Skull Mask: Din's Fire
+LW Deku Theater Mask of Truth: Bombs (5)
+LW Deku Scrub Grotto Rear: Gold Skulltula Token
+LW Deku Scrub Grotto Front: Gold Skulltula Token
+LW Gift From Saria: Gold Skulltula Token
+Market Guard House: Can Empty Big Poes
+Market 10 Big Poes: Deku Nuts (5)
+Market Market GS Guard House: Piece of Heart
+Market Bazaar Item 1: Buy Red Potion [30]
+Market Bazaar Item 2: Buy Bombchu (10)
+Market Bazaar Item 3: Buy Fairy's Spirit
+Market Bazaar Item 4: Buy Deku Shield
+Market Bazaar Item 5: Purple Rupee
+Market Bazaar Item 6: Arrows (10)
+Market Bazaar Item 7: Heart Container
+Market Bazaar Item 8: Gold Skulltula Token
+Market Mask Shop Masks: Can Borrow Masks
+Market Mask Shop Skull Mask: Can Borrow Skull Mask
+Market Mask Shop Spooky Mask: Can Borrow Spooky Mask
+Market Mask Shop Bunny Hood: Can Borrow Bunny Hood
+Market Mask Shop Mask of Truth: Can Borrow Mask of Truth
+Market Shooting Gallery: Giant's Knife
+Market Bombchu Bowling Game: Could Play Bombchu Bowling
+Market Bombchu Bowling First Prize: Blue Rupee
+Market Bombchu Bowling Second Prize: Gold Skulltula Token
+Market Potion Shop Item 1: Buy Bombchu (10)
+Market Potion Shop Item 2: Buy Deku Nut (5)
+Market Potion Shop Item 3: Buy Bombchu (10)
+Market Potion Shop Item 4: Buy Deku Nut (5)
+Market Potion Shop Item 5: Huge Rupee
+Market Potion Shop Item 6: Gold Skulltula Token
+Market Potion Shop Item 7: Piece of Heart
+Market Potion Shop Item 8: Gold Skulltula Token
+Market Treasure Chest Game Reward: Deku Stick (1)
+Market Bombchu Shop Item 1: Buy Zora Tunic
+Market Bombchu Shop Item 2: Buy Arrows (10)
+Market Bombchu Shop Item 3: Buy Bombs (10)
+Market Bombchu Shop Item 4: Buy Hylian Shield
+Market Bombchu Shop Item 5: World's Finest Eyedrops
+Market Bombchu Shop Item 6: Purple Rupee
+Market Bombchu Shop Item 7: Progressive Wallet
+Market Bombchu Shop Item 8: Piece of Heart
+Market Lost Dog: Progressive Scale
+SFM Gossip Stone Song Fairy: Can Access Fairies
+Song from Saria: Blue Rupee
+Sheik in Forest: Gold Skulltula Token
+SFM GS: Bombs (5)
+SFM Fairy Fountain Fairy: Can Access Fairies
+SFM Wolfos Grotto Chest: Progressive Bombchu
+SFM Deku Scrub Grotto Front: Ice Trap
+SFM Deku Scrub Grotto Rear: Huge Rupee
+ToT Entrance Gossip Stone Fairy: Can Access Fairies
+Market ToT Light Arrow Cutscene: Piece of Heart
+Chamber of Sages: Time Travel
+Gift from Rauru: Hylian Shield
+Sheik at Temple: Forest Temple Key Ring
+Market ToT Master Sword: Master Sword
+TH 1 Torch Carpenter Cell: TH 1 Torch Cell Carpenter Freed
+GF 1 Torch Carpenter: Progressive Bomb Bag
+TH Double Cell Carpenter Cell: TH Double Cell Carpenter Freed
+TH Dead End Carpenter Cell: TH Dead End Cell Carpenter Freed
+TH Steep Slope Carpenter Cell: TH Steep Slope Cell Carpenter Freed
+TH Rescued All Carpenters: Rescued All Carpenters
+GF Freed All Carpenters: Spirit Temple Key Ring
+ZD Deliver Ruto's Letter: Deliver Letter
+ZD Gossip Stone Song Fairy: Can Access Fairies
+ZD Nut Pot: Can Farm Nuts
+ZD Stick Pot: Can Farm Sticks
+ZD Fish Group: Can Access Fish
+ZD King Zora Thawing: King Zora Thawed
+ZD Diving Minigame: Progressive Stick Capacity
+ZD Chest: Deku Nuts (10)
+ZD King Zora Thawed: Piece of Heart (WINNER)
+ZD Trade Prescription: Blue Rupee
+ZD GS Frozen Waterfall: Deku Nuts (10)
+ZD Behind King Zora Thawing: King Zora Thawed
+ZD Shop Item 1: Buy Blue Fire
+ZD Shop Item 2: Buy Arrows (10)
+ZD Shop Item 3: Buy Goron Tunic
+ZD Shop Item 4: Buy Bombs (20)
+ZD Shop Item 5: Poacher's Saw
+ZD Shop Item 6: Recovery Heart
+ZD Shop Item 7: Deku Nuts (10)
+ZD Shop Item 8: Piece of Heart
+ZD Fairy Grotto Fairy: Can Access Fairies
+ZF Gossip Stone Song Fairy: Can Access Fairies
+ZF Butterfly Fairy: Can Access Fairies
+ZF GS Tree: Gold Skulltula Token
+ZF GS Above The Log: Gold Skulltula Token
+ZF Iceberg Freestanding PoH: Deku Nuts (10)
+ZF Bottom Freestanding PoH: Deku Stick (1)
+ZF GS Hidden Cave: Recovery Heart
+ZF Great Fairy Reward: Piece of Heart
+ZR Day Night Cycle Child: Child Can Pass Time
+ZR Day Night Cycle Adult: Adult Can Pass Time
+ZR GS Tree: Piece of Heart
+ZR Bug Grass: Can Access Bugs
+ZR Bean Patch: ZR Bean Planted
+ZR Magic Bean Salesman: Heart Container
+ZR Frogs Ocarina Game: Blue Rupee
+ZR Frogs in the Rain: Deku Nuts (10)
+ZR Near Open Grotto Freestanding PoH: Progressive Bombchu
+ZR Near Domain Freestanding PoH: Odd Mushroom
+ZR GS Ladder: Gold Skulltula Token
+ZR GS Near Raised Grottos: Gold Skulltula Token
+ZR GS Above Bridge: Deku Seeds (30)
+ZR Upper Grotto Gossip Stone Song Fairy: Can Access Fairies
+ZR Upper Grotto Butterfly Fairy: Can Access Fairies
+ZR Upper Grotto Bug Grass: Can Access Bugs
+ZR Upper Grotto Pond Fish: Can Access Fish
+ZR Open Grotto Chest: Gold Skulltula Token
+ZR Deku Scrub Grotto Front: Blue Rupee
+ZR Deku Scrub Grotto Rear: Gold Skulltula Token
+Bottom of the Well Stick Pot: Can Farm Sticks
+Bottom of the Well Nut Pot: Can Farm Nuts
+Bottom of the Well Lowered Water: Water was lowered in the Bottom of the Well
+Bottom of the Well Front Center Bombable Chest: Bombs (5)
+Bottom of the Well Underwater Front Chest: Deku Stick (1)
+Bottom of the Well Underwater Left Chest: Progressive Slingshot
+Bottom of the Well Front Left Fake Wall Chest: Deku Stick (1)
+Bottom of the Well Right Bottom Fake Wall Chest: Piece of Heart
+Bottom of the Well Compass Chest: Bombs (10)
+Bottom of the Well Center Skulltula Chest: Recovery Heart
+Bottom of the Well Back Left Bombable Chest: Gold Skulltula Token
+Bottom of the Well Fire Keese Chest: Ice Trap
+Bottom of the Well Like Like Chest: Purple Rupee
+Bottom of the Well GS Like Like Cage: Deku Stick (1)
+Bottom of the Well Deku Baba Sticks: Can Farm Sticks
+Bottom of the Well Deku Baba Nuts: Can Farm Nuts
+Bottom of the Well GS West Inner Room: Deku Seeds (30)
+Bottom of the Well GS East Inner Room: Bombs (5)
+Bottom of the Well Freestanding Key: Gold Skulltula Token
+Bottom of the Well Lens of Truth Chest: Gold Skulltula Token
+Bottom of the Well Invisible Chest: Ice Trap
+Bottom of the Well Map Chest: Recovery Heart
+Deku Tree Lobby Baba Sticks: Can Farm Sticks
+Deku Tree Lobby Baba Nuts: Can Farm Nuts
+Deku Tree Map Chest: Blue Rupee
+Deku Tree Slingshot Chest: Recovery Heart
+Deku Tree Slingshot Room Side Chest: Gold Skulltula Token
+Deku Tree Compass Room Baba Sticks: Can Farm Sticks
+Deku Tree Compass Room Baba Nuts: Can Farm Nuts
+Deku Tree Compass Chest: Purple Rupee
+Deku Tree Compass Room Side Chest: Blue Rupee
+Deku Tree GS Compass Room: Gold Skulltula Token
+Deku Tree Basement Lower Baba Sticks: Can Farm Sticks
+Deku Tree Basement Lower Baba Nuts: Can Farm Nuts
+Deku Tree Basement Chest: Recovery Heart
+Deku Tree GS Basement Gate: Gold Skulltula Token
+Deku Tree GS Basement Vines: Piece of Heart
+Deku Tree Basement Torch Room Baba Sticks: Can Farm Sticks
+Deku Tree Torch Room Baba Nuts: Can Farm Nuts
+Deku Tree Basement Back Lobby Baba Sticks: Can Farm Sticks
+Deku Tree Basement Back Lobby Baba Nuts: Can Farm Nuts
+Deku Tree GS Basement Back Room: Piece of Heart
+Deku Tree Basement Upper Baba Sticks: Can Farm Sticks
+Deku Tree Basement Upper Baba Nuts: Can Farm Nuts
+Deku Tree Basement Upper Push Block: Deku Tree Basement Upper Block Pushed
+Deku Tree Queen Gohma: Deku Tree Completed
+Queen Gohma: Shadow Medallion
+Deku Tree Queen Gohma Heart Container: Hover Boots
+Dodongos Cavern Gossip Stone Song Fairy: Can Access Fairies
+Dodongos Cavern Map Chest: Bombs (5)
+Dodongos Cavern Deku Scrub Lobby: Deku Nuts (5)
+Dodongos Cavern Lobby Switch: Dodongos Cavern Stairs Room Door
+Dodongos Cavern GS Scarecrow: Eyeball Frog
+Dodongos Cavern GS Side Room Near Lower Lizalfos: Deku Nuts (10)
+Dodongos Cavern Lower Lizalfos Fight: Dodongos Cavern Lower Lizalfos Defeated
+Dodongos Cavern Deku Scrub Side Room Near Dodongos: Blue Rupee
+Dodongos Cavern GS Alcove Above Stairs: Deku Nuts (5)
+Dodongos Cavern GS Vines Above Stairs: Progressive Magic Meter
+Dodongos Cavern Compass Chest: Huge Rupee
+Dodongos Cavern Bomb Flower Platform Chest: Deku Nuts (10)
+Dodongos Cavern Deku Scrub Near Bomb Bag Left: Bombs (10)
+Dodongos Cavern Deku Scrub Near Bomb Bag Right: Gold Skulltula Token
+Dodongos Cavern Bomb Bag Chest: Progressive Magic Meter
+Dodongos Cavern Eyes: Dodongos Cavern Eyes Lit
+Dodongos Cavern Lift Switch: Dodongos Cavern Lift Platform
+Dodongos Cavern End Of Bridge Chest: Megaton Hammer
+Dodongos Cavern Fairy Pot: Can Access Fairies
+Dodongos Cavern GS Back Room: Gold Skulltula Token
+Dodongos Cavern King Dodongo: Dodongos Cavern Completed
+Dodongos Cavern Boss Room Chest: Piece of Heart
+Dodongos Cavern King Dodongo Heart Container: Red Rupee
+King Dodongo: Forest Medallion
+Fire Temple Near Boss Room Fairy Pot: Can Access Fairies
+Fire Temple Near Boss Chest: Gold Skulltula Token
+Fire Temple GS Boss Key Loop: Heart Container
+Fire Temple Flare Dancer Chest: Strength Upgrade
+Fire Temple Loop Hammer Switch Room Switch: Fire Temple Loop Hammer Switch Hit
+Fire Temple Boss Key Chest: Deku Stick (1)
+Fire Temple Big Lava Room Lower Open Door Chest: Kokiri Sword
+Fire Temple GS Song of Time Room: Bombs (10)
+Fire Temple Big Lava Room Blocked Door Chest: Nocturne of Shadow
+Fire Temple Shorcut Switch: Fire Temple Shorcut Switch Hit
+Fire Temple Boulder Maze Shortcut Chest: Gold Skulltula Token
+Fire Temple Boulder Maze Lower Chest: Bombs (5)
+Fire Temple GS Boulder Maze: Gold Skulltula Token
+Fire Temple Boulder Maze Side Room Chest: Gold Skulltula Token
+Fire Temple Map Chest: Piece of Heart
+Fire Temple Boulder Maze Upper Chest: Piece of Heart
+Fire Temple GS Scarecrow Climb: Recovery Heart
+Fire Temple Scarecrow Chest: Song of Storms
+Fire Temple GS Scarecrow Top: Saria's Song
+Fire Temple Fire Maze Upper Platform: Fire Temple Fire Maze Upper Platform Hit
+Fire Temple Compass Chest: Arrows (5)
+Fire Temple Highest Goron Chest: Deku Nuts (10)
+Fire Temple Megaton Hammer Chest: Arrows (10)
+Fire Temple Volvagia: Fire Temple Completed
+Fire Temple Volvagia Heart Container: Deku Stick (1)
+Volvagia: Kokiri's Emerald
+Forest Temple First Room Chest: Gold Skulltula Token
+Forest Temple GS First Room: Progressive Stick Capacity
+Forest Temple Meg: Defeated Meg
+Forest Temple GS Lobby: Gold Skulltula Token
+Forest Temple Lower Stalfos Fairy Pot: Can Access Fairies
+Forest Temple First Stalfos Chest: Red Rupee
+Forest Temple NW Outdoors Lower Deku Baba Sticks: Can Farm Sticks
+Forest Temple NW Outdoors Lower Deku Baba Nuts: Can Farm Nuts
+Forest Temple NW Outdoors Upper Deku Baba Sticks: Can Farm Sticks
+Forest Temple NW Outdoors Upper Deku Baba Nuts: Can Farm Nuts
+Forest Temple GS Level Island Courtyard: Gold Skulltula Token
+Forest Temple NE Outdoors Lower Deku Baba Sticks: Can Farm Sticks
+Forest Temple NE Outdoors Lower Deku Baba Nuts: Can Farm Nuts
+Forest Temple NE Outdoors Upper Drain Well: Drained the Well
+Forest Temple NE Outdoors Upper Deku Baba Sticks: Can Farm Sticks
+Forest Temple NE Outdoors Upper Deku Baba Nuts: Can Farm Nuts
+Forest Temple Raised Island Courtyard Chest: Recovery Heart
+Forest Temple GS Raised Island Courtyard: Red Rupee
+Forest Temple Map Chest: Deku Nuts (10)
+Forest Temple Well Chest: Magic Bean Pack
+Forest Temple Floormaster Chest: Deku Nuts (5)
+Forest Temple Eye Switch Chest: Purple Rupee
+Forest Temple Boss Key Chest: Gold Skulltula Token
+Forest Temple Joelle: Defeated Joelle
+Forest Temple Red Poe Chest: Progressive Scale
+Forest Temple Bow Chest: Bombs (10)
+Forest Temple Beth: Defeated Beth
+Forest Temple Blue Poe Chest: Progressive Magic Meter
+Forest Temple Falling Ceiling Room Chest: Progressive Bombchu
+Forest Temple Amy: Defeated Amy
+Forest Temple Basement Chest: Deku Nuts (10)
+Forest Temple GS Basement: Recovery Heart
+Forest Temple Phantom Ganon: Forest Temple Completed
+Forest Temple Phantom Ganon Heart Container: Gold Skulltula Token
+Phantom Ganon: Light Medallion
+Ganon's Castle Free Fairies: Can Access Fairies
+Ganon's Castle Deku Scrub Center-Left: Piece of Heart
+Ganon's Castle Deku Scrub Center-Right: Gold Skulltula Token
+Ganon's Castle Deku Scrub Right: Gold Skulltula Token
+Ganon's Castle Deku Scrub Left: Deku Nuts (10)
+Ganon's Castle Forest Trial Area: Ganon's Castle Forest Trial Cleared
+Ganon's Castle Forest Trial Chest: Prescription
+Ganon's Castle Fire Trial Area: Ganon's Castle Fire Trial Cleared
+Ganon's Castle Blue Fire Access: Can Access Blue Fire
+Ganon's Castle Water Trial Fairy Pot: Can Access Fairies
+Ganon's Castle Water Trial Area: Ganon's Castle Water Trial Cleared
+Ganon's Castle Water Trial Left Chest: Piece of Heart
+Ganon's Castle Water Trial Right Chest: Piece of Heart
+Ganon's Castle Shadow Trial Area: Ganon's Castle Shadow Trial Cleared
+Ganon's Castle Shadow Trial Front Chest: Gold Skulltula Token
+Ganon's Castle Shadow Trial Golden Gauntlets Chest: Recovery Heart
+Ganon's Castle Spirit Trial Nut Pot: Can Farm Nuts
+Ganon's Castle Spirit Trial Area: Ganon's Castle Spirit Trial Cleared
+Ganon's Castle Spirit Trial Crystal Switch Chest: Arrows (5)
+Ganon's Castle Spirit Trial Invisible Chest: Boomerang
+Ganon's Castle Light Trial Area: Ganon's Castle Light Trial Cleared
+Ganon's Castle Light Trial First Left Chest: Gold Skulltula Token
+Ganon's Castle Light Trial Second Left Chest: Gold Skulltula Token
+Ganon's Castle Light Trial Third Left Chest: Deku Nuts (10)
+Ganon's Castle Light Trial First Right Chest: Deku Nuts (5)
+Ganon's Castle Light Trial Second Right Chest: Bombs (10)
+Ganon's Castle Light Trial Third Right Chest: Huge Rupee
+Ganon's Castle Light Trial Invisible Enemies Chest: Gold Skulltula Token
+Ganon's Castle Light Trial Lullaby Chest: Deku Nuts (10)
+Ganon's Castle Tower Boss Key Chest: Ganon's Castle Boss Key
+Ganon Defeated: Game Completed
+Gerudo Training Ground Lobby Left Chest: Gold Skulltula Token
+Gerudo Training Ground Lobby Right Chest: Arrows (5)
+Gerudo Training Ground Stalfos Chest: Zelda's Lullaby
+Gerudo Training Ground Beamos Chest: Arrows (5)
+Gerudo Training Ground Hidden Ceiling Chest: Deku Nuts (5)
+Gerudo Training Ground Maze Path First Chest: Blue Rupee
+Gerudo Training Ground Maze Path Second Chest: Forest Temple Boss Key
+Gerudo Training Ground Maze Path Third Chest: Arrows (10)
+Gerudo Training Ground Maze Path Final Chest: Deku Nuts (5)
+Gerudo Training Ground Freestanding Key: Piece of Heart
+Gerudo Training Ground Maze Right Side Chest: Biggoron's Sword
+Gerudo Training Ground Maze Right Central Chest: Purple Rupee
+Gerudo Training Ground Underwater Silver Rupee Chest: Gold Skulltula Token
+Gerudo Training Ground Hammer Room Clear Chest: Progressive Stick Capacity
+Gerudo Training Ground Hammer Room Switch Chest: Gold Skulltula Token
+Gerudo Training Ground Eye Statue Chest: Water Temple Key Ring
+Gerudo Training Ground Near Scarecrow Chest: Greg the Green Rupee
+Gerudo Training Ground Before Heavy Block Chest: Progressive Bow
+Gerudo Training Ground Heavy Block First Chest: Gold Skulltula Token
+Gerudo Training Ground Heavy Block Second Chest: Arrows (5)
+Gerudo Training Ground Heavy Block Third Chest: Deku Stick (1)
+Gerudo Training Ground Heavy Block Fourth Chest: Deku Nuts (5)
+Ice Cavern GS Spinning Scythe Room: Recovery Heart
+Ice Cavern Map Room Blue Fire Access: Can Access Blue Fire
+Ice Cavern Map Chest: Purple Rupee
+Ice Cavern Compass Room Blue Fire Access: Can Access Blue Fire
+Ice Cavern Compass Chest: Piece of Heart
+Ice Cavern Freestanding PoH: Piece of Heart
+Ice Cavern GS Heart Piece Room: Shadow Temple Key Ring
+Ice Cavern Block Room Blue Fire Access: Can Access Blue Fire
+Ice Cavern GS Push Block Room: Bombs (10)
+Ice Cavern Iron Boots Chest: Deku Stick (1)
+Sheik in Ice Cavern: Deku Stick (1)
+Jabu Jabus Belly West Tentacle: Jabu Jabus Belly West Tentacle Defeated
+Jabu Jabus Belly Deku Scrub: Deku Nuts (5)
+Jabu Jabus Belly Boomerang Chest: Song of Time
+Jabu Jabus Belly Map Chest: Huge Rupee
+Jabu Jabus Belly Ruto In 1F: Jabu Jabus Belly Ruto In 1F Rescued
+Jabu Jabus Belly B1 North Fairy Pot: Can Access Fairies
+Jabu Jabus Belly GS Lobby Basement Lower: Bombs (10)
+Jabu Jabus Belly GS Water Switch Room: Strength Upgrade
+Jabu Jabus Belly Water Switch Room Fairy Pot: Can Access Fairies
+Jabu Jabus Belly Compass Chest: Deku Stick (1)
+Jabu Jabus Belly East Tentacle: Jabu Jabus Belly East Tentacle Defeated
+Jabu Jabus Belly North Tentacle: Jabu Jabus Belly North Tentacle Defeated
+Jabu Jabus Belly GS Lobby Basement Upper: Red Rupee
+Jabu Jabus Belly Above Bigocto Fairy Pot: Can Access Fairies
+Jabu Jabus Belly Above Bigocto Nut Pot: Can Farm Nuts
+Jabu Jabus Belly Lowered Path: Jabu Jabu Belly Lowered Path Activated
+Jabu Jabus Belly GS Near Boss: Gold Skulltula Token
+Jabu Jabus Belly Barinade: Jabu Jabus Belly Completed
+Jabu Jabus Belly Barinade Heart Container: Huge Rupee
+Barinade: Fire Medallion
+Shadow Temple Beginning Nut Pot: Can Farm Nuts
+Shadow Temple Map Chest: Progressive Bomb Bag
+Shadow Temple Hover Boots Chest: Piece of Heart
+Shadow Temple Compass Chest: Gold Skulltula Token
+Shadow Temple Early Silver Rupee Chest: Recovery Heart
+Shadow Temple Invisible Blades Visible Chest: Bombs (5)
+Shadow Temple Invisible Blades Invisible Chest: Piece of Heart
+Shadow Temple Falling Spikes Lower Chest: Gold Skulltula Token
+Shadow Temple Falling Spikes Upper Chest: Gold Skulltula Token
+Shadow Temple Falling Spikes Switch Chest: Arrows (5)
+Shadow Temple Invisible Spikes Chest: Progressive Wallet
+Shadow Temple Freestanding Key: Purple Rupee
+Shadow Temple GS Like Like Room: Broken Goron's Sword
+Shadow Temple GS Falling Spikes Room: Deku Nuts (10)
+Shadow Temple GS Single Giant Pot: Gold Skulltula Token
+Shadow Temple Wind Hint Chest: Bombs (5)
+Shadow Temple After Wind Enemy Chest: Blue Rupee
+Shadow Temple After Wind Hidden Chest: Purple Rupee
+Shadow Temple GS Near Ship: Gold Skulltula Token
+Shadow Temple Spike Walls Left Chest: Gold Skulltula Token
+Shadow Temple Boss Key Chest: Deku Seeds (30)
+Shadow Temple Invisible Floormaster Chest: Gold Skulltula Token
+Shadow Temple GS Triple Giant Pot: Huge Rupee
+Shadow Temple Bongo Bongo: Shadow Temple Completed
+Shadow Temple Bongo Bongo Heart Container: Gold Skulltula Token
+Bongo Bongo: Spirit Medallion
+Spirit Temple Nut Crate: Can Farm Nuts
+Spirit Temple Child Bridge Chest: Piece of Heart
+Spirit Temple Child Early Torches Chest: Deku Nuts (5)
+Spirit Temple GS Metal Fence: Gold Skulltula Token
+Spirit Temple Child Climb North Chest: Piece of Heart
+Spirit Temple Child Climb East Chest: Gold Skulltula Token
+Spirit Temple GS Sun on Floor Room: Deku Nuts (10)
+Spirit Temple Compass Chest: Iron Boots
+Spirit Temple Early Adult Right Chest: Blue Rupee
+Spirit Temple First Mirror Left Chest: Fire Temple Key Ring
+Spirit Temple First Mirror Right Chest: Farore's Wind
+Spirit Temple GS Boulder Room: Deku Seeds (30)
+Spirit Temple Map Chest: Ice Trap
+Spirit Temple Sun Block Room Chest: Goron Tunic
+Spirit Temple Statue Room Hand Chest: Deku Shield
+Spirit Temple Statue Room Northeast Chest: Gold Skulltula Token
+Spirit Temple GS Hall After Sun Block Room: Recovery Heart
+Spirit Temple GS Lobby: Light Arrow
+Spirit Temple Silver Gauntlets Chest: Zora Tunic
+Spirit Temple Mirror Shield Chest: Gold Skulltula Token
+Spirit Temple Near Four Armos Chest: Gold Skulltula Token
+Spirit Temple Hallway Left Invisible Chest: Deku Stick (1)
+Spirit Temple Hallway Right Invisible Chest: Piece of Heart
+Spirit Temple Boss Key Chest: Huge Rupee
+Spirit Temple Topmost Chest: Odd Potion
+Spirit Temple Twinrova: Spirit Temple Completed
+Spirit Temple Twinrova Heart Container: Bombs (10)
+Twinrova: Water Medallion
+Water Temple East Lower Water Low From High: Water Level Low
+Water Temple Map Chest: Blue Rupee
+Water Temple Cracked Wall Chest: Piece of Heart
+Water Temple Torches Chest: Bottle with Big Poe
+Water Temple GS Near Boss Key Chest: Ganon's Castle Key Ring
+Water Temple Boss Key Room Fairy Pot: Can Access Fairies
+Water Temple Boss Key Chest: Heart Container
+Water Temple GS Behind Gate: Gold Skulltula Token
+Water Temple Central Pillar Upper Water Middle: Water Level Middle
+Water Temple GS Central Pillar: Gold Skulltula Token
+Water Temple Central Pillar Chest: Gold Skulltula Token
+Water Temple Compass Chest: Gold Skulltula Token
+Water Temple High Water Water High: Water Level High
+Water Temple Central Bow Target Chest: Arrows (5)
+Water Temple GS Falling Platform Room: Arrows (5)
+Water Temple Longshot Chest: Recovery Heart
+Water Temple River Chest: Huge Rupee
+Water Temple GS River: Gold Skulltula Token
+Water Temple Dragon Chest: Piece of Heart
+Water Temple Pre Boss Room Fairy Pot: Can Access Fairies
+Water Temple Morpha: Water Temple Completed
+Water Temple Morpha Heart Container: Piece of Heart
+Morpha: Zora's Sapphire
+
+Playthrough:
+
+0: {
+  Minuet of Forest
+  Progressive Scale
+  Progressive Stick Capacity
+  Progressive Wallet
+  Stone of Agony
+  Sun's Song
+}
+1: {
+  HC Bug Rock: Can Access Bugs
+  HF Open Grotto Chest: Progressive Bow
+  HF Open Grotto Puddle Fish: Can Access Fish
+  KF Shop Item 6: Bottle with Blue Fire
+  KF Shop Item 8: Gerudo Membership Card
+  Link's Pocket: Goron's Ruby
+  ZR Day Night Cycle Child: Child Can Pass Time
+  Zeldas Letter From Skip Option: Zelda's Letter
+}
+2: {
+  Kak Gate: Kakariko Gate Open
+  Market Bazaar Item 4: Buy Deku Shield
+  Market Lost Dog: Progressive Scale
+}
+3: {
+  LLR Deku Scrub Grotto Left: Progressive Hookshot
+  Market Mask Shop Masks: Can Borrow Masks
+  ZD Stick Pot: Can Farm Sticks
+  ZR Near Open Grotto Freestanding PoH: Progressive Bombchu
+}
+4: {
+  GC Woods Warp From Woods: GC Woods Warp Open
+  LW Near Shortcuts Grotto Chest: Progressive Slingshot
+  Market Mask Shop Skull Mask: Can Borrow Skull Mask
+}
+5: {
+  DMT GS Bean Patch: Progressive Ocarina
+  Deku Tree Queen Gohma: Deku Tree Completed
+  GC Rolling Goron as Child: Water Temple Boss Key
+  LW Deku Theater Skull Mask: Din's Fire
+}
+6: {
+  Deku Tree Queen Gohma Heart Container: Hover Boots
+  Kak GS Tree: Spirit Temple Boss Key
+  LW Ocarina Memory Game: Bottle with Ruto's Letter
+  Queen Gohma: Shadow Medallion
+}
+7: {
+  ZD Deliver Ruto's Letter: Deliver Letter
+}
+8: {
+  Jabu Jabus Belly Ruto In 1F: Jabu Jabus Belly Ruto In 1F Rescued
+}
+9: {
+  Jabu Jabus Belly Boomerang Chest: Song of Time
+}
+10: {
+  Chamber of Sages: Time Travel
+}
+11: {
+  DMT Day Night Cycle Adult: Adult Can Pass Time
+  Dodongos Cavern Lobby Switch: Dodongos Cavern Stairs Room Door
+  Forest Temple NE Outdoors Upper Drain Well: Drained the Well
+  Market ToT Master Sword: Master Sword
+}
+12: {
+  Dodongos Cavern Bomb Bag Chest: Progressive Magic Meter
+  Dodongos Cavern End Of Bridge Chest: Megaton Hammer
+  Dodongos Cavern Eyes: Dodongos Cavern Eyes Lit
+  Forest Temple Well Chest: Magic Bean Pack
+  Kak Potion Shop Item 8: Skeleton Key
+}
+13: {
+  DMC Deku Scrub Grotto Center: Epona's Song
+}
+14: {
+  LLR Talon Race: Freed Epona
+}
+15: {
+  GF Gate: GF Gate Open
+  GTG Gate: GTG Gate Open
+}
+16: {
+  Gerudo Training Ground Maze Path Second Chest: Forest Temple Boss Key
+  Gerudo Training Ground Stalfos Chest: Zelda's Lullaby
+  Wasteland Chest: Requiem of Spirit
+}
+17: {
+  Desert Colossus Bean Patch: Desert Colossus Bean Planted
+  Spirit Temple Sun Block Room Chest: Goron Tunic
+}
+18: {
+  Colossus Freestanding PoH: Progressive Hookshot
+  Fire Temple Flare Dancer Chest: Strength Upgrade
+}
+19: {
+  Dodongos Cavern King Dodongo: Dodongos Cavern Completed
+  Fire Temple Scarecrow Chest: Song of Storms
+  Forest Temple Amy: Defeated Amy
+  Forest Temple Beth: Defeated Beth
+  Forest Temple Joelle: Defeated Joelle
+  LH GS Tree: Fire Temple Boss Key
+  LH Sun: Strength Upgrade
+}
+20: {
+  Fire Temple Volvagia: Fire Temple Completed
+  Forest Temple Meg: Defeated Meg
+  Forest Temple Red Poe Chest: Progressive Scale
+  GV Deku Scrub Grotto Rear: Mirror Shield
+  King Dodongo: Forest Medallion
+  Spirit Temple GS Lobby: Light Arrow
+}
+21: {
+  Forest Temple Phantom Ganon: Forest Temple Completed
+  Spirit Temple Twinrova: Spirit Temple Completed
+  Volvagia: Kokiri's Emerald
+  Water Temple High Water Water High: Water Level High
+}
+22: {
+  Phantom Ganon: Light Medallion
+  Twinrova: Water Medallion
+  Water Temple Morpha: Water Temple Completed
+}
+23: {
+  Morpha: Zora's Sapphire
+}
+24: {
+  HC OGC Rainbow Bridge: HC OGC Rainbow Bridge Built
+}
+25: {
+  Ganon's Castle Tower Boss Key Chest: Ganon's Castle Boss Key
+}
+26: {
+  Ganon Defeated: Game Completed
+}

@@ -1,0 +1,133 @@
+# Ship of Harkinian is a port of The Legend of Zelda: Ocarina of Time.
+name: josh_oot
+description: 7/9 dugeon rewards. Randomized skulltulas and shops. Most of the world is open. Start in random age and only Song of Time is needed to open DoT. Start with several warp songs, but no ocarina.
+game: Ship of Harkinian
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Ship of Harkinian: 1.0.0 # Version of the world required for this yaml to work as expected.
+Ship of Harkinian:
+
+  # Goal
+  rainbow_bridge: dungeon_rewards
+  rainbow_bridge_dungeon_rewards_required: '7'
+  shuffle_dungeon_rewards: dungeons
+  skip_ganons_trials: 'true'
+  # Disabled:
+  rainbow_bridge_stones_required: '3'
+  rainbow_bridge_medallions_required: '6'
+  rainbow_bridge_dungeons_required: '8'
+  rainbow_bridge_skull_tokens_required: '50'
+  rainbow_bridge_greg_modifier: wildcard
+  ganons_castle_boss_key: vanilla
+  ganons_castle_boss_key_stones_required: '3'
+  ganons_castle_boss_key_medallions_required: '6'
+  ganons_castle_boss_key_dungeon_rewards_required: '9'
+  ganons_castle_boss_key_dungeons_required: '8'
+  ganons_castle_boss_key_skull_tokens_required: '50'
+  ganons_castle_boss_key_greg_modifier: 'off'
+  triforce_hunt: 'false'
+  triforce_hunt_pieces_total: '30'
+  triforce_hunt_pieces_required_percentage: '60'
+
+  # Area Access
+  closed_forest: 'off'
+  kakariko_gate: open
+  door_of_time: song_only
+  zoras_fountain: closed_as_child
+  sleeping_waterfall: closed
+  jabu_jabu: closed
+  lock_overworld_doors: 'false'
+
+  # Randomized
+  starting_age:
+    child: 1
+    adult: 1
+  shuffle_skull_tokens: all
+  shuffle_shops: 'true'
+  shuffle_shops_item_amount: '4'
+  shuffle_shops_minimum_price: '1'
+  shuffle_shops_maximum_price: '250'
+  shuffle_scrubs: 'true'
+  shuffle_scrubs_minimum_price: '10'
+  shuffle_scrubs_maximum_price: '50'
+  shuffle_merchants: all
+  shuffle_adult_trade_items: 'true'
+  key_rings:
+    'false': 1
+    'true': 1
+  skeleton_key:
+    'false': 1
+    'true': 1
+  fortress_carpenters: fast
+
+  # Not Randomized
+  shuffle_master_sword: 'false'
+  shuffle_childs_wallet: 'false'
+  shuffle_ocarina_buttons: 'false'
+  shuffle_swim: 'false'
+  shuffle_weird_egg: 'false'
+  shuffle_fishing_pole: 'false'
+  shuffle_deku_stick_bag: 'false'
+  shuffle_deku_nut_bag: 'false'
+  shuffle_freestanding_items: 'off'
+  shuffle_fish: 'off'
+  shuffle_beehives: 'false'
+  slingbow_break_beehives: 'true'
+  shuffle_cows: 'false'
+  shuffle_pots: 'off'
+  shuffle_crates: 'off'
+  shuffle_trees: 'false'
+  shuffle_frog_song_rupees: 'false'
+  shuffle_100_gs_reward: 'false'
+  shuffle_boss_souls: 'off'
+  shuffle_fountain_fairies: 'false'
+  shuffle_stone_fairies: 'false'
+  shuffle_bean_fairies: 'false'
+  shuffle_song_fairies: 'false'
+  shuffle_grass: 'off'
+
+  # Fun stuff and skipping boring stuff
+  maps_and_compasses: start_with
+  skulls_sun_song: 'true'
+  big_poe_target_count: '1'
+  skip_epona_race: 'true'
+  skip_child_zelda: 'true'
+  complete_mask_quest: 'true'
+  skip_scarecrows_song: 'true'
+  full_wallets: 'true'
+  bombchu_bag: 'true'
+  bombchu_drops: 'true'
+  blue_fire_arrows: 'true'
+  sunlight_arrows: 'true'
+  infinite_upgrades: progressive
+  ice_trap_count: '6'
+  ice_trap_filler_replacement: '0'
+
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool:
+    # Start with warp songs, but no ocarina.
+    Prelude of Light: 1
+    Minuet of Forest: 1
+    Bolero of Fire: 1
+    Serenade of Water: 1
+    # There's a setting to logically require this before outdoor skulltula checks, but some tests with spoiler walkthroughs suggest that it's broken i think?
+    # Just start with Sun's Song as a convenience.
+    Sun's Song: 1
+    # Logic seems to require Stone of Agony before finding hidden grottos. Get it out of the spoiler playthrough.
+    Stone of Agony: 1
+  start_hints: []
+  start_location_hints:
+  - Kak 20 Gold Skulltula Reward
+  - Kak 30 Gold Skulltula Reward
+  - Kak 40 Gold Skulltula Reward
+  - Kak 50 Gold Skulltula Reward
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+
+  progression_balancing: '50'
+  accessibility: full

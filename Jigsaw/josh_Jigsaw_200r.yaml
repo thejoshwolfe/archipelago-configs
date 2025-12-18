@@ -6,7 +6,7 @@ requires:
   game:
     Jigsaw: 0.9.1 # Version of the world required for this yaml to work as expected.
 Jigsaw:
-  number_of_pieces: '100'
+  number_of_pieces: '200'
   number_of_piece_bundles: '25'
   percentage_of_extra_pieces: '10'
 
