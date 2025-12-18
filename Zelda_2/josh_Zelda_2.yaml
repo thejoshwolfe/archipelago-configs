@@ -1,12 +1,12 @@
 name: josh_z2
-description: TBD
+description: 5/6 crystals. keys shuffled in their dungeons. fast great palace.
 game: 'Zelda II: The Adventure of Link'
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
 'Zelda II: The Adventure of Link':
 
   # Goal
-  required_crystals: '6'
+  required_crystals: '5'
 
   # Logic
   key_shuffle: shuffled_in_dungeon
@@ -23,7 +23,7 @@ requires:
   starting_magic: '2'
   starting_life: '2'
   palace_respawn: 'true'
-  fast_great_palace: 'false'
+  fast_great_palace: 'true'
   starting_lives: '3'
   keep_exp: 'true'
   encounter_rate: half
