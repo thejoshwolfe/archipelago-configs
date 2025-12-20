@@ -7,7 +7,7 @@ requires:
     Jigsaw: 0.9.1 # Version of the world required for this yaml to work as expected.
 Jigsaw:
   number_of_pieces: '200'
-  number_of_piece_bundles: '25'
+  number_of_piece_bundles: '50'
   percentage_of_extra_pieces: '10'
 
   border_type: classic
@@ -30,7 +30,7 @@ Jigsaw:
   minimum_number_of_pieces_per_bundle: '1'
   add_fillers: 'true'
   percentage_fillers_itempool: '0'
-  checks_out_of_logic: '1'
+  checks_out_of_logic: '10'
 
   # Piece order
   piece_order_type: random_order

@@ -1,0 +1,1874 @@
+﻿Archipelago Version 0.6.6  -  Seed: 24066953913571465789
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Hollow Knight
+Location Count:                  258
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 Ancient_Basin_Map: 1, City_of_Tears_Map: 1, Crossroads_Map: 1, Crystal_Peak_Map: 1, Deepnest_Map: 1, Fog_Canyon_Map: 1, Fungal_Wastes_Map: 1, Greenpath_Map: 1, Howling_Cliffs_Map: 1, Kingdom's_Edge_Map: 1, Queen's_Gardens_Map: 1, Resting_Grounds_Map: 1, Royal_Waterways_Map: 1, Quill: 1, Dashmaster: 1, Sprintmaster: 1, Gathering_Swarm: 1
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Randomize Dreamers:              Yes
+Randomize Skills:                Yes
+Randomize Focus:                 Yes
+Randomize Swim:                  Yes
+Randomize Charms:                Yes
+Randomize Keys:                  Yes
+Randomize Mask Shards:           Yes
+Randomize Vessel Fragments:      Yes
+Randomize Charm Notches:         Yes
+Randomize Pale Ore:              Yes
+Randomize Geo Chests:            Yes
+Randomize Junk Pit Chests:       No
+Randomize Rancid Eggs:           No
+Randomize Relics:                No
+Randomize Whispering Roots:      Yes
+Randomize Boss Essence:          Yes
+Randomize Grubs:                 Yes
+Randomize Mimics:                No
+Randomize Maps:                  Yes
+Randomize Stags:                 Yes
+Randomize Lifeblood Cocoons:     No
+Randomize Grimmkin Flames:       No
+Randomize Journal Entries:       No
+Randomize Nail:                  No
+Randomize Geo Rocks:             No
+Randomize Boss Geo:              Yes
+Randomize Soul Totems:           No
+Randomize Lore Tablets:          No
+Randomize Elevator Pass:         Yes
+Precise Movement:                No
+Proficient Combat:               No
+Background Object Pogos:         No
+Enemy Pogos:                     No
+Obscure Skips:                   No
+Shade Skips:                     No
+Infection Skips:                 No
+Fireball Skips:                  No
+Spike Tunnels:                   No
+Acid Skips:                      No
+Damage Boosts:                   No
+Dangerous Skips:                 No
+Dark Rooms:                      No
+Complex Skips:                   No
+Difficult Skips:                 No
+Remove Spell Upgrades:           Yes
+Start Location:                  king's_pass
+Goal:                            Radiance
+Grub Hunt Goal:                  -1
+White Palace:                    Exclude
+Extra Platforms:                 Yes
+Add Unshuffled Locations:        No
+Starting Geo:                    500
+Death Link:                      No
+Deathlink Shade Handling:        Shade
+Deathlink Breaks Fragile Charms: No
+Minimum Geo Price:               1
+Maximum Geo Price:               500
+Minimum Grub Price:              1
+Maximum Grub Price:              25
+Minimum Essence Price:           1
+Maximum Essence Price:           800
+Minimum Charm Requirement:       1
+Maximum Charm Requirement:       20
+Randomize Charm Notch Costs:     70
+Charm Notch Cost Plando:         
+Minimum Egg Price:               1
+Maximum Egg Price:               2
+Egg Shop Item Slots:             0
+Sly Shop Slots:                  10
+Sly Key Shop Slots:              6
+Iselda Shop Slots:               5
+Salubra Shop Slots:              5
+Salubra Charm Shop Slots:        5
+Leg Eater Shop Slots:            3
+Grubfather Reward Slots:         7
+Seer Reward Reward Slots:        8
+Additional Shop Slots:           10
+Split Crystal Heart:             Yes
+Split Mothwing Cloak:            No
+Split Mantis Claw:               Yes
+Costsanity:                      Shopsonly
+Costsanity Hybrid Chance:        10
+Costsanity Egg Weight:           0
+Costsanity Grub Weight:          3
+Costsanity Essence Weight:       5
+Costsanity Charm Weight:         2
+Costsanity Geo Weight:           20
+
+
+Charm Notches:
+josh_hk
+
+Gathering Swarm: 1
+Wayward Compass: 5
+Grubsong: 2
+Stalwart Shell: 3
+Baldur Shell: 0
+Fury of the Fallen: 3
+Quick Focus: 3
+Lifeblood Heart: 0
+Lifeblood Core: 0
+Defender's Crest: 1
+Flukenest: 1
+Thorns of Agony: 1
+Mark of Pride: 1
+Steady Body: 1
+Heavy Blow: 1
+Sharp Shadow: 1
+Spore Shroom: 1
+Longnail: 2
+Shaman Stone: 2
+Soul Catcher: 3
+Soul Eater: 2
+Glowing Womb: 3
+Fragile Heart: 3
+Fragile Greed: 1
+Fragile Strength: 5
+Nailmaster's Glory: 0
+Joni's Blessing: 1
+Shape of Unn: 2
+Hiveblood: 1
+Dream Wielder: 4
+Dashmaster: 3
+Quick Slash: 3
+Spell Twister: 0
+Deep Focus: 0
+Grubberfly's Elegy: 1
+Kingsoul: 2
+Sprintmaster: 0
+Dreamshield: 1
+Weaversong: 3
+Grimmchild: 3
+
+Shop Prices:
+josh_hk
+
+Ancient_Basin_Map: Shade_Cloak costing 112 Geo
+City_Storerooms_Stag: Boss_Geo-Vengefly_King costing 200 Geo
+City_of_Tears_Map: Grub costing 90 Geo
+Crossroads_Map: Shopkeeper's_Key costing 30 Geo
+Crossroads_Stag: Hidden_Station_Stag costing 50 Geo
+Crystal_Peak_Map: Grimmchild2 costing 112 Geo
+Dash_Slash: Grub costing 800 Geo
+Deepnest_Map-Right: Lifeblood_Core costing 38 Geo
+Deepnest_Map-Upper: Grub costing 38 Geo
+Distant_Village_Stag: Geo_Chest-Crystal_Peak costing 250 Geo
+Elevator_Pass: Desolate_Dive costing 150 Geo
+Fog_Canyon_Map: Lumafly_Lantern costing 150 Geo
+Fungal_Wastes_Map: Soul_Catcher costing 75 Geo
+Greenpath_Map: City_of_Tears_Map costing 60 Geo
+Greenpath_Stag: Grub costing 140 Geo
+Grubfather_1: Rancid_Egg costing 16 Grubs
+Grubfather_2: Dream_Gate costing 1 Charm
+Grubfather_3: Spell_Twister costing 10 Essence
+Grubfather_4: Mask_Shard costing 51 Essence
+Grubfather_5: Vengeful_Spirit costing 262 Essence
+Grubfather_6: Dream_Nail costing 718 Essence
+Grubfather_7: Grubberfly's_Elegy costing 20 Grubs and 229 Essence
+Hidden_Station_Stag: Fragile_Strength costing 300 Geo
+Howling_Cliffs_Map: Grub costing 75 Geo
+Iselda_1: Simple_Key costing 118 Geo
+Iselda_2: Grub costing 187 Geo
+Iselda_3: Soul_Refill costing 211 Geo
+Iselda_4: Whispering_Root-Howling_Cliffs costing 411 Essence
+Iselda_5: Grub costing 530 Essence
+King's_Station_Stag: Soul_Refill costing 300 Geo
+Kingdom's_Edge_Map: Kingdom's_Edge_Map costing 112 Geo
+Leg_Eater_1: Boss_Essence-Elder_Hu costing 5 Charms
+Leg_Eater_2: Salubra's_Blessing costing 125 Geo
+Leg_Eater_3: Soul_Refill costing 191 Geo
+Leg_Eater_4: Godtuner costing 201 Geo
+Leg_Eater_5: King's_Brand costing 341 Geo
+Leg_Eater_6: Shape_of_Unn costing 359 Geo
+Leg_Eater_7: Crystal_Peak_Map costing 793 Essence
+Queen's_Gardens_Map: Hiveblood costing 150 Geo
+Queen's_Gardens_Stag: City_Storerooms_Stag costing 200 Geo
+Queen's_Station_Stag: Howling_Wraiths costing 120 Geo
+Resting_Grounds_Map: Mothwing_Cloak costing 56 Geo
+Royal_Waterways_Map: Boss_Geo-Massive_Moss_Charger costing 75 Geo
+Salubra_(Requires_Charms)_1: Dream_Wielder costing 11 Grubs
+Salubra_(Requires_Charms)_2: Lifeblood_Heart costing 13 Charms
+Salubra_(Requires_Charms)_3: Grub costing 88 Geo
+Salubra_(Requires_Charms)_4: Grub costing 215 Essence
+Salubra_(Requires_Charms)_5: Spore_Shroom costing 243 Essence
+Salubra_1: Great_Slash costing 1 Grub
+Salubra_2: Queen's_Gardens_Stag costing 93 Geo
+Salubra_3: Mask_Shard costing 106 Geo
+Salubra_4: Resting_Grounds_Stag costing 142 Geo
+Salubra_5: Queen_Fragment costing 470 Essence
+Seer_1: Dash_Slash costing 4 Grubs
+Seer_10: Pale_Ore costing 641 Essence
+Seer_2: Vessel_Fragment costing 4 Grubs
+Seer_3: Gathering_Swarm costing 12 Charms
+Seer_4: Grub costing 25 Grubs
+Seer_5: Boss_Geo-Gruz_Mother costing 38 Essence
+Seer_6: Vessel_Fragment costing 130 Essence
+Seer_7: Grub costing 131 Essence
+Seer_8: Right_Crystal_Heart costing 406 Essence
+Seer_9: Charm_Notch costing 518 Essence
+Sly_(Key)_1: Simple_Key costing 1 Grub
+Sly_(Key)_2: Greenpath_Map costing 4 Geo
+Sly_(Key)_3: Whispering_Root-Mantis_Village costing 12 Grubs
+Sly_(Key)_4: Grub costing 85 Geo
+Sly_(Key)_5: Distant_Village_Stag costing 114 Essence
+Sly_(Key)_6: Left_Mantis_Claw costing 304 Geo
+Sly_(Key)_7: Pale_Ore costing 327 Geo
+Sly_1: Rancid_Egg costing 60 Geo
+Sly_10: Herrah costing 394 Geo
+Sly_11: Grubsong costing 688 Essence
+Sly_12: One_Geo costing 722 Essence
+Sly_13: Defender's_Crest costing 15 Charms and 470 Geo
+Sly_2: Crossroads_Map costing 13 Charms
+Sly_3: Pale_Ore costing 14 Grubs
+Sly_4: Geo_Chest-Watcher_Knights costing 35 Geo
+Sly_5: Whispering_Root-Kingdoms_Edge costing 153 Geo
+Sly_6: Deep_Focus costing 304 Geo
+Sly_7: Charm_Notch costing 324 Geo
+Sly_8: Boss_Essence-Failed_Champion costing 369 Geo
+Sly_9: Boss_Essence-No_Eyes costing 390 Geo
+Stag_Nest_Stag: Charm_Notch costing 300 Geo
+Unbreakable_Greed: Dreamshield costing 450 Geo
+Unbreakable_Heart: Quill costing 600 Geo
+Unbreakable_Strength: Boss_Essence-White_Defender costing 750 Geo
+Vessel_Fragment-Basin: Pale_Ore costing 3000 Geo
+
+Starting Items:
+
+Ancient_Basin_Map
+City_of_Tears_Map
+Crossroads_Map
+Crystal_Peak_Map
+Deepnest_Map
+Fog_Canyon_Map
+Fungal_Wastes_Map
+Greenpath_Map
+Howling_Cliffs_Map
+Kingdom's_Edge_Map
+Queen's_Gardens_Map
+Resting_Grounds_Map
+Royal_Waterways_Map
+Quill
+Tutorial_01
+Gathering_Swarm
+Upslash
+Dashmaster
+Sprintmaster
+Leftslash
+Rightslash
+Downslash
+
+Locations:
+
+Abyss_01: Abyss_01
+Abyss_03: Abyss_03
+Abyss_03_b: Abyss_03_b
+Abyss_03_c: Abyss_03_c
+Abyss_04: Abyss_04
+Abyss_05: Abyss_05
+Abyss_06_Core: Abyss_06_Core
+Abyss_09: Abyss_09
+Abyss_19: Abyss_19
+Broke_Sanctum_Glass_Floor: Broke_Sanctum_Glass_Floor
+Can_Bench: Can_Bench
+Can_Repair_Fragile_Charms: Can_Repair_Fragile_Charms
+Can_Replenish_Geo: Can_Replenish_Geo
+Can_Replenish_Geo-Crossroads: Can_Replenish_Geo-Crossroads
+Can_Stag: Can_Stag
+Cliffs_01: Cliffs_01
+Cliffs_02: Cliffs_02
+Completed_Path_of_Pain: Completed_Path_of_Pain
+Crossroads_03: Crossroads_03
+Crossroads_07: Crossroads_07
+Crossroads_08: Crossroads_08
+Crossroads_14: Crossroads_14
+Crossroads_18: Crossroads_18
+Crossroads_19: Crossroads_19
+Crossroads_21: Crossroads_21
+Crossroads_27: Crossroads_27
+Crossroads_33: Crossroads_33
+Deepnest_01: Deepnest_01
+Deepnest_01b: Deepnest_01b
+Deepnest_02: Deepnest_02
+Deepnest_03: Deepnest_03
+Deepnest_10: Deepnest_10
+Deepnest_14: Deepnest_14
+Deepnest_17: Deepnest_17
+Deepnest_26: Deepnest_26
+Deepnest_34: Deepnest_34
+Deepnest_35: Deepnest_35
+Deepnest_37: Deepnest_37
+Deepnest_39: Deepnest_39
+Deepnest_41: Deepnest_41
+Deepnest_42: Deepnest_42
+Deepnest_East_02: Deepnest_East_02
+Deepnest_East_03: Deepnest_East_03
+Deepnest_East_04: Deepnest_East_04
+Deepnest_East_07: Deepnest_East_07
+Deepnest_East_11: Deepnest_East_11
+Deepnest_East_18: Deepnest_East_18
+Defeated_Broken_Vessel: Defeated_Broken_Vessel
+Defeated_Brooding_Mawlek: Defeated_Brooding_Mawlek
+Defeated_Collector: Defeated_Collector
+Defeated_Colosseum_1: Defeated_Colosseum_1
+Defeated_Colosseum_2: Defeated_Colosseum_2
+Defeated_Colosseum_Zote: Defeated_Colosseum_Zote
+Defeated_Crystal_Guardian: Defeated_Crystal_Guardian
+Defeated_Dung_Defender: Defeated_Dung_Defender
+Defeated_Elder_Hu: Defeated_Elder_Hu
+Defeated_Elegant_Warrior: Defeated_Elegant_Warrior
+Defeated_Enraged_Guardian: Defeated_Enraged_Guardian
+Defeated_Failed_Champion: Defeated_Failed_Champion
+Defeated_False_Knight: Defeated_False_Knight
+Defeated_Flukemarm: Defeated_Flukemarm
+Defeated_Galien: Defeated_Galien
+Defeated_Gorb: Defeated_Gorb
+Defeated_Grey_Prince_Zote: Defeated_Grey_Prince_Zote
+Defeated_Grimm: Defeated_Grimm
+Defeated_Gruz_Mother: Defeated_Gruz_Mother
+Defeated_Hive_Knight: Defeated_Hive_Knight
+Defeated_Hornet_1: Defeated_Hornet_1
+Defeated_Hornet_2: Defeated_Hornet_2
+Defeated_King's_Station_Arena: Defeated_King's_Station_Arena
+Defeated_Lost_Kin: Defeated_Lost_Kin
+Defeated_Mantis_Lords: Defeated_Mantis_Lords
+Defeated_Markoth: Defeated_Markoth
+Defeated_Marmu: Defeated_Marmu
+Defeated_No_Eyes: Defeated_No_Eyes
+Defeated_Nosk: Defeated_Nosk
+Defeated_Pale_Lurker: Defeated_Pale_Lurker
+Defeated_Path_of_Pain_Arena: Defeated_Path_of_Pain_Arena
+Defeated_Sanctum_Warrior: Defeated_Sanctum_Warrior
+Defeated_Shrumal_Ogre_Arena: Defeated_Shrumal_Ogre_Arena
+Defeated_Soul_Master: Defeated_Soul_Master
+Defeated_Soul_Tyrant: Defeated_Soul_Tyrant
+Defeated_Traitor_Lord: Defeated_Traitor_Lord
+Defeated_Uumuu: Defeated_Uumuu
+Defeated_Watcher_Knights: Defeated_Watcher_Knights
+Defeated_West_Queen's_Gardens_Arena: Defeated_West_Queen's_Gardens_Arena
+Defeated_White_Defender: Defeated_White_Defender
+Defeated_Xero: Defeated_Xero
+First_Grimmchild_Upgrade: First_Grimmchild_Upgrade
+Fungus1_11: Fungus1_11
+Fungus1_21: Fungus1_21
+Fungus1_30: Fungus1_30
+Fungus2_01: Fungus2_01
+Fungus2_03: Fungus2_03
+Fungus2_04: Fungus2_04
+Fungus2_06: Fungus2_06
+Fungus2_11: Fungus2_11
+Fungus2_13: Fungus2_13
+Fungus2_14: Fungus2_14
+Fungus2_17: Fungus2_17
+Fungus2_20: Fungus2_20
+Fungus2_23: Fungus2_23
+Fungus3_01: Fungus3_01
+Fungus3_02: Fungus3_02
+Fungus3_04: Fungus3_04
+Fungus3_11: Fungus3_11
+Fungus3_13: Fungus3_13
+Fungus3_22: Fungus3_22
+Fungus3_26: Fungus3_26
+Fungus3_34: Fungus3_34
+Fungus3_40: Fungus3_40
+Fungus3_44: Fungus3_44
+Fungus3_47: Fungus3_47
+Hive_03_c: Hive_03_c
+Left_Elevator: Left_Elevator
+Lever-Dung_Defender: Lever-Dung_Defender
+Lever-Shade_Soul: Lever-Shade_Soul
+Lit_Abyss_Lighthouse: Lit_Abyss_Lighthouse
+Lower_Tram: Lower_Tram
+Mines_02: Mines_02
+Mines_03: Mines_03
+Mines_04: Mines_04
+Mines_05: Mines_05
+Mines_10: Mines_10
+Mines_11: Mines_11
+Mines_18: Mines_18
+Mines_20: Mines_20
+Mines_23: Mines_23
+Nightmare_Lantern_Lit: Nightmare_Lantern_Lit
+Opened_Archives_Exit_Wall: Opened_Archives_Exit_Wall
+Opened_Black_Egg_Temple: Opened_Black_Egg_Temple
+Opened_Dung_Defender_Wall: Opened_Dung_Defender_Wall
+Opened_Emilitia_Door: Opened_Emilitia_Door
+Opened_Gardens_Stag_Exit: Opened_Gardens_Stag_Exit
+Opened_Glade_Door: Opened_Glade_Door
+Opened_Lower_Kingdom's_Edge_Wall: Opened_Lower_Kingdom's_Edge_Wall
+Opened_Mawlek_Wall: Opened_Mawlek_Wall
+Opened_Pleasure_House_Wall: Opened_Pleasure_House_Wall
+Opened_Resting_Grounds_Catacombs_Wall: Opened_Resting_Grounds_Catacombs_Wall
+Opened_Resting_Grounds_Floor: Opened_Resting_Grounds_Floor
+Opened_Shaman_Pillar: Opened_Shaman_Pillar
+Opened_Tramway_Exit_Gate: Opened_Tramway_Exit_Gate
+Opened_Waterways_Exit: Opened_Waterways_Exit
+Opened_Waterways_Manhole: Opened_Waterways_Manhole
+Palace_Atrium_Gates_Opened: Palace_Atrium_Gates_Opened
+Palace_Entrance_Lantern_Lit: Palace_Entrance_Lantern_Lit
+Palace_Left_Lantern_Lit: Palace_Left_Lantern_Lit
+Palace_Right_Lantern_Lit: Palace_Right_Lantern_Lit
+Rescued_Bretta: Rescued_Bretta
+Rescued_Deepnest_Zote: Rescued_Deepnest_Zote
+Rescued_Sly: Rescued_Sly
+RestingGrounds_02: RestingGrounds_02
+RestingGrounds_05: RestingGrounds_05
+RestingGrounds_10: RestingGrounds_10
+Right_Elevator: Right_Elevator
+Ruins1_03: Ruins1_03
+Ruins1_05: Ruins1_05
+Ruins1_05b: Ruins1_05b
+Ruins1_05c: Ruins1_05c
+Ruins1_23: Ruins1_23
+Ruins1_28: Ruins1_28
+Ruins1_30: Ruins1_30
+Ruins1_31: Ruins1_31
+Ruins2_01: Ruins2_01
+Ruins2_01_b: Ruins2_01_b
+Ruins2_03b: Ruins2_03b
+Ruins2_04: Ruins2_04
+Ruins2_10: Ruins2_10
+Second_Grimmchild_Upgrade: Second_Grimmchild_Upgrade
+Town: Town
+Tutorial_01: Tutorial_01
+Upper_Tram: Upper_Tram
+Warp-Lifeblood_Core_to_Abyss: Warp-Lifeblood_Core_to_Abyss
+Warp-Palace_Grounds_to_White_Palace: Warp-Palace_Grounds_to_White_Palace
+Warp-Path_of_Pain_Complete: Warp-Path_of_Pain_Complete
+Warp-White_Palace_Atrium_to_Palace_Grounds: Warp-White_Palace_Atrium_to_Palace_Grounds
+Warp-White_Palace_Entrance_to_Palace_Grounds: Warp-White_Palace_Entrance_to_Palace_Grounds
+Waterways_01: Waterways_01
+Waterways_02: Waterways_02
+Waterways_04: Waterways_04
+Waterways_04b: Waterways_04b
+Waterways_07: Waterways_07
+White_Palace_01: White_Palace_01
+White_Palace_03_hub: White_Palace_03_hub
+White_Palace_13: White_Palace_13
+Room_temple[left1]: Crossroads_02[door1]
+Tutorial_01[right1]: Town[left1]
+Tutorial_01[top2]: Cliffs_02[bot1]
+Town[left1]: Tutorial_01[right1]
+Town[bot1]: Crossroads_01[top1]
+Town[right1]: Mines_10[left1]
+Town[door_station]: Room_Town_Stag_Station[left1]
+Town[door_sly]: Room_shop[left1]
+Town[door_mapper]: Room_mapper[left1]
+Town[door_jiji]: Room_Ouiji[left1]
+Town[door_bretta]: Room_Bretta[right1]
+Town[room_divine]: Grimm_Divine[left1]
+Town[room_grimm]: Grimm_Main_Tent[left1]
+Room_shop[left1]: Town[door_sly]
+Room_Town_Stag_Station[left1]: Town[door_station]
+Room_mapper[left1]: Town[door_mapper]
+Room_Bretta[right1]: Town[door_bretta]
+Room_Ouiji[left1]: Town[door_jiji]
+Grimm_Divine[left1]: Town[room_divine]
+Grimm_Main_Tent[left1]: Town[room_grimm]
+Crossroads_01[top1]: Town[bot1]
+Crossroads_01[left1]: Crossroads_07[right1]
+Crossroads_01[right1]: Crossroads_02[left1]
+Crossroads_02[left1]: Crossroads_01[right1]
+Crossroads_02[door1]: Room_temple[left1]
+Crossroads_02[right1]: Crossroads_39[left1]
+Crossroads_03[right1]: Crossroads_15[left1]
+Crossroads_03[right2]: Mines_33[left1]
+Crossroads_03[left1]: Crossroads_21[right1]
+Crossroads_03[left2]: Crossroads_47[right1]
+Crossroads_03[bot1]: Crossroads_19[top1]
+Crossroads_03[top1]: Crossroads_16[bot1]
+Crossroads_04[left1]: Crossroads_19[right1]
+Crossroads_04[top1]: Crossroads_27[bot1]
+Crossroads_04[door_Mender_House]: Room_Mender_House[left1]
+Crossroads_04[door1]: Room_ruinhouse[left1]
+Crossroads_04[door_charmshop]: Room_Charm_Shop[left1]
+Crossroads_04[right1]: Crossroads_50[left1]
+Crossroads_05[left1]: Crossroads_07[right2]
+Crossroads_05[right1]: Crossroads_40[left1]
+Crossroads_06[left1]: Crossroads_33[right1]
+Crossroads_06[door1]: Crossroads_ShamanTemple[left1]
+Crossroads_06[right1]: Crossroads_10[left1]
+Crossroads_07[left1]: Crossroads_38[right1]
+Crossroads_07[left2]: Crossroads_11_alt[right1]
+Crossroads_07[left3]: Crossroads_25[right1]
+Crossroads_07[right1]: Crossroads_01[left1]
+Crossroads_07[right2]: Crossroads_05[left1]
+Crossroads_07[bot1]: Crossroads_33[top1]
+Crossroads_08[left1]: Crossroads_33[right2]
+Crossroads_08[left2]: Crossroads_18[right1]
+Crossroads_08[right1]: Crossroads_30[left1]
+Crossroads_08[right2]: Crossroads_13[left1]
+Crossroads_09[left1]: Crossroads_36[right2]
+Crossroads_09[right1]: Crossroads_33[left1]
+Crossroads_10[left1]: Crossroads_06[right1]
+Crossroads_10[right1]: Crossroads_21[left1]
+Crossroads_11_alt[left1]: Fungus1_01[right1]
+Crossroads_11_alt[right1]: Crossroads_07[left2]
+Crossroads_12[left1]: Crossroads_35[right1]
+Crossroads_12[right1]: Crossroads_33[left2]
+Crossroads_13[left1]: Crossroads_08[right2]
+Crossroads_13[right1]: Crossroads_42[left1]
+Crossroads_14[left1]: Crossroads_39[right1]
+Crossroads_14[left2]: Crossroads_16[right1]
+Crossroads_14[right1]: Crossroads_48[left1]
+Crossroads_14[right2]: Crossroads_45[left1]
+Crossroads_15[left1]: Crossroads_03[right1]
+Crossroads_15[right1]: Crossroads_27[left1]
+Crossroads_16[left1]: Crossroads_40[right1]
+Crossroads_16[right1]: Crossroads_14[left2]
+Crossroads_16[bot1]: Crossroads_03[top1]
+Crossroads_18[right1]: Crossroads_08[left2]
+Crossroads_18[right2]: Crossroads_52[left1]
+Crossroads_18[bot1]: Fungus2_06[top1]
+Crossroads_19[right1]: Crossroads_04[left1]
+Crossroads_19[top1]: Crossroads_03[bot1]
+Crossroads_19[left1]: Crossroads_42[right1]
+Crossroads_19[left2]: Crossroads_43[right1]
+Crossroads_21[left1]: Crossroads_10[right1]
+Crossroads_21[right1]: Crossroads_03[left1]
+Crossroads_21[top1]: Crossroads_22[bot1]
+Crossroads_22[bot1]: Crossroads_21[top1]
+Crossroads_25[right1]: Crossroads_07[left3]
+Crossroads_25[left1]: Crossroads_36[right1]
+Crossroads_27[right1]: Crossroads_46[left1]
+Crossroads_27[bot1]: Crossroads_04[top1]
+Crossroads_27[left1]: Crossroads_15[right1]
+Crossroads_27[left2]: Crossroads_31[right1]
+Crossroads_30[left1]: Crossroads_08[right1]
+Crossroads_31[right1]: Crossroads_27[left2]
+Crossroads_33[top1]: Crossroads_07[bot1]
+Crossroads_33[left1]: Crossroads_09[right1]
+Crossroads_33[left2]: Crossroads_12[right1]
+Crossroads_33[right1]: Crossroads_06[left1]
+Crossroads_33[right2]: Crossroads_08[left1]
+Crossroads_35[bot1]: Fungus3_26[top1]
+Crossroads_35[right1]: Crossroads_12[left1]
+Crossroads_36[right1]: Crossroads_25[left1]
+Crossroads_36[right2]: Crossroads_09[left1]
+Crossroads_37[right1]: Crossroads_49[left1]
+Crossroads_38[right1]: Crossroads_07[left1]
+Crossroads_39[right1]: Crossroads_14[left1]
+Crossroads_39[left1]: Crossroads_02[right1]
+Crossroads_40[right1]: Crossroads_16[left1]
+Crossroads_40[left1]: Crossroads_05[right1]
+Crossroads_42[left1]: Crossroads_13[right1]
+Crossroads_42[right1]: Crossroads_19[left1]
+Crossroads_43[left1]: Crossroads_49[right1]
+Crossroads_43[right1]: Crossroads_19[left2]
+Crossroads_45[right1]: Mines_01[left1]
+Crossroads_45[left1]: Crossroads_14[right2]
+Crossroads_46[left1]: Crossroads_27[right1]
+Crossroads_46b[right1]: RestingGrounds_02[left1]
+Crossroads_ShamanTemple[left1]: Crossroads_06[door1]
+Crossroads_47[right1]: Crossroads_03[left2]
+Crossroads_48[left1]: Crossroads_14[right1]
+Crossroads_49[right1]: Crossroads_43[left1]
+Crossroads_49[left1]: Crossroads_37[right1]
+Crossroads_49b[right1]: Ruins1_28[left1]
+Crossroads_50[right1]: RestingGrounds_06[left1]
+Crossroads_50[left1]: Crossroads_04[right1]
+Crossroads_52[left1]: Crossroads_18[right2]
+Room_ruinhouse[left1]: Crossroads_04[door1]
+Room_Charm_Shop[left1]: Crossroads_04[door_charmshop]
+Room_Mender_House[left1]: Crossroads_04[door_Mender_House]
+Fungus1_01[left1]: Fungus1_01b[right1]
+Fungus1_01[right1]: Crossroads_11_alt[left1]
+Fungus1_01b[left1]: Fungus1_02[right1]
+Fungus1_01b[right1]: Fungus1_01[left1]
+Fungus1_02[left1]: Fungus1_17[right1]
+Fungus1_02[right1]: Fungus1_01b[left1]
+Fungus1_02[right2]: Fungus1_06[left1]
+Fungus1_03[left1]: Fungus1_31[right1]
+Fungus1_03[right1]: Fungus1_17[left1]
+Fungus1_03[bot1]: Fungus1_05[top1]
+Fungus1_04[left1]: Fungus1_25[right1]
+Fungus1_04[right1]: Fungus1_21[left1]
+Fungus1_05[right1]: Fungus1_14[left1]
+Fungus1_05[bot1]: Fungus1_10[top1]
+Fungus1_05[top1]: Fungus1_03[bot1]
+Fungus1_06[left1]: Fungus1_02[right2]
+Fungus1_06[bot1]: Fungus1_07[top1]
+Fungus1_07[top1]: Fungus1_06[bot1]
+Fungus1_07[left1]: Fungus1_19[right1]
+Fungus1_07[right1]: Fungus1_08[left1]
+Fungus1_08[left1]: Fungus1_07[right1]
+Fungus1_09[left1]: Fungus1_15[right1]
+Fungus1_09[right1]: Fungus1_30[left1]
+Fungus1_10[left1]: Fungus1_30[right1]
+Fungus1_10[right1]: Fungus1_19[left1]
+Fungus1_10[top1]: Fungus1_05[bot1]
+Fungus1_11[top1]: Fungus1_19[bot1]
+Fungus1_11[right1]: Fungus1_34[left1]
+Fungus1_11[right2]: Fungus1_37[left1]
+Fungus1_11[left1]: Fungus1_29[right1]
+Fungus1_11[bot1]: Fungus3_01[top1]
+Fungus1_12[left1]: Fungus1_13[right1]
+Fungus1_12[right1]: Fungus1_29[left1]
+Fungus1_13[right1]: Fungus1_12[left1]
+Fungus1_13[left1]: Fungus3_22[right1]
+Fungus1_14[left1]: Fungus1_05[right1]
+Fungus1_15[door1]: Room_nailmaster_02[left1]
+Fungus1_15[right1]: Fungus1_09[left1]
+Fungus1_16_alt[right1]: Fungus1_22[left1]
+Fungus1_17[left1]: Fungus1_03[right1]
+Fungus1_17[right1]: Fungus1_02[left1]
+Fungus1_19[left1]: Fungus1_10[right1]
+Fungus1_19[right1]: Fungus1_07[left1]
+Fungus1_19[bot1]: Fungus1_11[top1]
+Fungus1_20_v02[bot1]: Fungus1_21[top1]
+Fungus1_20_v02[bot2]: Fungus1_32[top1]
+Fungus1_20_v02[right1]: Fungus1_28[left2]
+Fungus1_21[bot1]: Fungus1_22[top1]
+Fungus1_21[top1]: Fungus1_20_v02[bot1]
+Fungus1_21[left1]: Fungus1_04[right1]
+Fungus1_21[right1]: Fungus1_32[left1]
+Fungus1_22[bot1]: Fungus1_30[top1]
+Fungus1_22[top1]: Fungus1_21[bot1]
+Fungus1_22[left1]: Fungus1_16_alt[right1]
+Fungus1_23[left1]: Fungus3_48[right2]
+Fungus1_23[right1]: Fungus3_13[left1]
+Fungus1_24[left1]: Fungus3_05[right1]
+Fungus1_25[right1]: Fungus1_04[left1]
+Fungus1_25[left1]: Fungus1_26[right1]
+Fungus1_26[right1]: Fungus1_25[left1]
+Fungus1_26[left1]: Fungus1_Slug[right1]
+Fungus1_26[door_SlugShrine]: Room_Slug_Shrine[left1]
+Fungus1_28[left1]: Cliffs_01[right3]
+Fungus1_28[left2]: Fungus1_20_v02[right1]
+Fungus1_29[left1]: Fungus1_12[right1]
+Fungus1_29[right1]: Fungus1_11[left1]
+Fungus1_30[top1]: Fungus1_22[bot1]
+Fungus1_30[top3]: Fungus1_31[bot1]
+Fungus1_30[left1]: Fungus1_09[right1]
+Fungus1_30[right1]: Fungus1_10[left1]
+Fungus1_31[top1]: Fungus1_32[bot1]
+Fungus1_31[bot1]: Fungus1_30[top3]
+Fungus1_31[right1]: Fungus1_03[left1]
+Fungus1_32[bot1]: Fungus1_31[top1]
+Fungus1_32[top1]: Fungus1_20_v02[bot2]
+Fungus1_32[left1]: Fungus1_21[right1]
+Fungus1_34[door1]: Fungus1_35[left1]
+Fungus1_34[left1]: Fungus1_11[right1]
+Fungus1_35[left1]: Fungus1_34[door1]
+Fungus1_35[right1]: Fungus1_36[left1]
+Fungus1_36[left1]: Fungus1_35[right1]
+Fungus1_37[left1]: Fungus1_11[right2]
+Fungus1_Slug[right1]: Fungus1_26[left1]
+Room_Slug_Shrine[left1]: Fungus1_26[door_SlugShrine]
+Room_nailmaster_02[left1]: Fungus1_15[door1]
+Fungus3_01[top1]: Fungus1_11[bot1]
+Fungus3_01[right1]: Fungus3_25[left1]
+Fungus3_01[left1]: Fungus3_24[right1]
+Fungus3_01[right2]: Fungus3_02[left1]
+Fungus3_02[left1]: Fungus3_01[right2]
+Fungus3_02[left2]: Fungus3_03[right1]
+Fungus3_02[left3]: Fungus3_35[right1]
+Fungus3_02[right1]: Fungus3_47[left1]
+Fungus3_02[right2]: Fungus2_01[left1]
+Fungus3_03[right1]: Fungus3_02[left2]
+Fungus3_03[left1]: Fungus3_34[right1]
+Fungus3_24[right1]: Fungus3_01[left1]
+Fungus3_24[left1]: Fungus3_44[right1]
+Fungus3_24[top1]: Fungus3_30[bot1]
+Fungus3_25[right1]: Fungus3_25b[left1]
+Fungus3_25[left1]: Fungus3_01[right1]
+Fungus3_25b[right1]: Fungus3_26[left2]
+Fungus3_25b[left1]: Fungus3_25[right1]
+Fungus3_26[top1]: Crossroads_35[bot1]
+Fungus3_26[left1]: Fungus3_28[right1]
+Fungus3_26[left2]: Fungus3_25b[right1]
+Fungus3_26[left3]: Fungus3_27[right1]
+Fungus3_26[right1]: Fungus2_33[left1]
+Fungus3_27[left1]: Fungus3_47[right1]
+Fungus3_27[right1]: Fungus3_26[left3]
+Fungus3_28[right1]: Fungus3_26[left1]
+Fungus3_30[bot1]: Fungus3_24[top1]
+Fungus3_35[right1]: Fungus3_02[left3]
+Fungus3_44[bot1]: Fungus3_34[top1]
+Fungus3_44[door1]: Room_Fungus_Shaman[left1]
+Fungus3_44[right1]: Fungus3_24[left1]
+Fungus3_47[left1]: Fungus3_02[right1]
+Fungus3_47[right1]: Fungus3_27[left1]
+Fungus3_47[door1]: Fungus3_archive[left1]
+Room_Fungus_Shaman[left1]: Fungus3_44[door1]
+Fungus3_archive[left1]: Fungus3_47[door1]
+Fungus3_archive[bot1]: Fungus3_archive_02[top1]
+Fungus3_archive_02[top1]: Fungus3_archive[bot1]
+Fungus2_01[left1]: Fungus3_02[right2]
+Fungus2_01[left2]: Fungus2_02[right1]
+Fungus2_01[left3]: Fungus2_34[right1]
+Fungus2_01[right1]: Fungus2_03[left1]
+Fungus2_02[right1]: Fungus2_01[left2]
+Fungus2_34[right1]: Fungus2_01[left3]
+Fungus2_03[left1]: Fungus2_01[right1]
+Fungus2_03[bot1]: Fungus2_18[top1]
+Fungus2_03[right1]: Fungus2_04[left1]
+Fungus2_04[top1]: Fungus2_05[bot1]
+Fungus2_04[right1]: Fungus2_28[left1]
+Fungus2_04[left1]: Fungus2_03[right1]
+Fungus2_04[right2]: Fungus2_28[left2]
+Fungus2_05[bot1]: Fungus2_04[top1]
+Fungus2_05[right1]: Fungus2_06[left1]
+Fungus2_06[top1]: Crossroads_18[bot1]
+Fungus2_06[left1]: Fungus2_05[right1]
+Fungus2_06[left2]: Fungus2_33[right1]
+Fungus2_06[right1]: Fungus2_26[left1]
+Fungus2_06[right2]: Fungus2_07[left1]
+Fungus2_07[left1]: Fungus2_06[right2]
+Fungus2_07[right1]: Fungus2_08[left1]
+Fungus2_08[left1]: Fungus2_07[right1]
+Fungus2_08[left2]: Fungus2_09[right1]
+Fungus2_08[right1]: Fungus2_32[left1]
+Fungus2_09[left1]: Fungus2_10[right1]
+Fungus2_09[right1]: Fungus2_08[left2]
+Fungus2_10[right1]: Fungus2_09[left1]
+Fungus2_10[right2]: Fungus2_21[left1]
+Fungus2_10[bot1]: Fungus2_11[top1]
+Fungus2_11[top1]: Fungus2_10[bot1]
+Fungus2_11[left1]: Fungus2_18[right1]
+Fungus2_11[left2]: Fungus2_17[right1]
+Fungus2_11[right1]: Fungus2_12[left1]
+Fungus2_12[left1]: Fungus2_11[right1]
+Fungus2_12[bot1]: Fungus2_13[top1]
+Fungus2_13[top1]: Fungus2_12[bot1]
+Fungus2_13[left2]: Fungus2_14[right1]
+Fungus2_13[left3]: Fungus2_23[right1]
+Fungus2_14[top1]: Fungus2_17[bot1]
+Fungus2_14[right1]: Fungus2_13[left2]
+Fungus2_14[bot3]: Fungus2_15[top3]
+Fungus2_15[top3]: Fungus2_14[bot3]
+Fungus2_15[right1]: Fungus2_31[left1]
+Fungus2_15[left1]: Fungus2_25[right1]
+Fungus2_17[left1]: Fungus2_29[right1]
+Fungus2_17[right1]: Fungus2_11[left2]
+Fungus2_17[bot1]: Fungus2_14[top1]
+Fungus2_18[right1]: Fungus2_11[left1]
+Fungus2_18[bot1]: Fungus2_19[top1]
+Fungus2_18[top1]: Fungus2_03[bot1]
+Fungus2_19[top1]: Fungus2_18[bot1]
+Fungus2_19[left1]: Fungus2_20[right1]
+Fungus2_20[right1]: Fungus2_19[left1]
+Fungus2_20[left1]: Deepnest_01[right1]
+Fungus2_21[right1]: Ruins1_01[left1]
+Fungus2_21[left1]: Fungus2_10[right2]
+Fungus2_23[right1]: Fungus2_13[left3]
+Fungus2_23[right2]: Waterways_09[left1]
+Fungus2_26[left1]: Fungus2_06[right1]
+Fungus2_28[left1]: Fungus2_04[right1]
+Fungus2_28[left2]: Fungus2_04[right2]
+Fungus2_29[right1]: Fungus2_17[left1]
+Fungus2_29[bot1]: Fungus2_30[top1]
+Fungus2_30[bot1]: Fungus2_25[top2]
+Fungus2_30[top1]: Fungus2_29[bot1]
+Fungus2_31[left1]: Fungus2_15[right1]
+Fungus2_32[left1]: Fungus2_08[right1]
+Fungus2_33[right1]: Fungus2_06[left2]
+Fungus2_33[left1]: Fungus3_26[right1]
+Deepnest_01[right1]: Fungus2_20[left1]
+Deepnest_01[bot1]: Deepnest_01b[top1]
+Deepnest_01[bot2]: Deepnest_01b[top2]
+Deepnest_01[left1]: Fungus3_39[right1]
+Deepnest_01b[top1]: Deepnest_01[bot1]
+Deepnest_01b[right1]: Deepnest_02[left1]
+Deepnest_01b[right2]: Deepnest_02[left2]
+Deepnest_01b[bot1]: Deepnest_17[top1]
+Deepnest_02[left1]: Deepnest_01b[right1]
+Deepnest_02[left2]: Deepnest_01b[right2]
+Deepnest_02[right1]: Deepnest_36[left1]
+Deepnest_03[right1]: Deepnest_30[left1]
+Deepnest_03[left1]: Deepnest_34[right1]
+Deepnest_03[top1]: Deepnest_33[bot1]
+Deepnest_03[left2]: Deepnest_31[right1]
+Deepnest_09[left1]: Deepnest_10[right1]
+Deepnest_10[right1]: Deepnest_09[left1]
+Deepnest_10[right2]: Deepnest_41[left1]
+Deepnest_10[right3]: Deepnest_41[left2]
+Deepnest_10[door1]: Deepnest_Spider_Town[left1]
+Deepnest_10[door2]: Room_spider_small[left1]
+Room_spider_small[left1]: Deepnest_10[door2]
+Deepnest_Spider_Town[left1]: Deepnest_10[door1]
+Deepnest_14[right1]: Deepnest_17[left1]
+Deepnest_14[left1]: Deepnest_26[right1]
+Deepnest_14[bot1]: Deepnest_33[top1]
+Deepnest_14[bot2]: Deepnest_33[top2]
+Deepnest_16[left1]: Deepnest_17[right1]
+Deepnest_16[bot1]: Fungus2_25[top1]
+Deepnest_17[left1]: Deepnest_14[right1]
+Deepnest_17[right1]: Deepnest_16[left1]
+Deepnest_17[top1]: Deepnest_01b[bot1]
+Deepnest_17[bot1]: Deepnest_30[top1]
+Fungus2_25[top1]: Deepnest_16[bot1]
+Fungus2_25[right1]: Fungus2_15[left1]
+Deepnest_26[left1]: Deepnest_26b[right1]
+Deepnest_26[left2]: Deepnest_26b[right2]
+Deepnest_26[right1]: Deepnest_14[left1]
+Deepnest_26[bot1]: Deepnest_35[top1]
+Deepnest_26b[right2]: Deepnest_26[left2]
+Deepnest_26b[right1]: Deepnest_26[left1]
+Deepnest_30[left1]: Deepnest_03[right1]
+Deepnest_30[top1]: Deepnest_17[bot1]
+Deepnest_30[right1]: Deepnest_37[left1]
+Deepnest_31[right1]: Deepnest_03[left2]
+Deepnest_31[right2]: Deepnest_32[left1]
+Deepnest_32[left1]: Deepnest_31[right2]
+Deepnest_33[top1]: Deepnest_14[bot1]
+Deepnest_33[top2]: Deepnest_14[bot2]
+Deepnest_33[bot1]: Deepnest_03[top1]
+Deepnest_34[left1]: Deepnest_39[right1]
+Deepnest_34[right1]: Deepnest_03[left1]
+Deepnest_34[top1]: Deepnest_35[bot1]
+Deepnest_35[left1]: Deepnest_40[right1]
+Deepnest_35[top1]: Deepnest_26[bot1]
+Deepnest_35[bot1]: Deepnest_34[top1]
+Deepnest_36[left1]: Deepnest_02[right1]
+Deepnest_37[left1]: Deepnest_30[right1]
+Deepnest_37[right1]: Abyss_03_b[left1]
+Deepnest_37[top1]: Deepnest_38[bot1]
+Deepnest_37[bot1]: Deepnest_44[top1]
+Deepnest_38[bot1]: Deepnest_37[top1]
+Deepnest_39[left1]: Deepnest_41[right1]
+Deepnest_39[top1]: Deepnest_42[bot1]
+Deepnest_39[door1]: Deepnest_45_v02[left1]
+Deepnest_39[right1]: Deepnest_34[left1]
+Deepnest_40[right1]: Deepnest_35[left1]
+Deepnest_41[right1]: Deepnest_39[left1]
+Deepnest_41[left1]: Deepnest_10[right2]
+Deepnest_41[left2]: Deepnest_10[right3]
+Deepnest_42[bot1]: Deepnest_39[top1]
+Deepnest_42[left1]: Room_Mask_Maker[right1]
+Deepnest_42[top1]: Deepnest_43[bot1]
+Deepnest_43[bot1]: Deepnest_42[top1]
+Deepnest_43[left1]: Fungus3_50[right1]
+Deepnest_43[right1]: Fungus3_08[left1]
+Deepnest_44[top1]: Deepnest_37[bot1]
+Deepnest_45_v02[left1]: Deepnest_39[door1]
+Room_Mask_Maker[right1]: Deepnest_42[left1]
+Deepnest_East_01[bot1]: Abyss_03_c[top1]
+Deepnest_East_01[right1]: Hive_03_c[left1]
+Deepnest_East_01[top1]: Deepnest_East_02[bot1]
+Deepnest_East_02[bot1]: Deepnest_East_01[top1]
+Deepnest_East_02[bot2]: Hive_03[top1]
+Deepnest_East_02[top1]: Waterways_14[bot2]
+Deepnest_East_02[right1]: Deepnest_East_03[left2]
+Deepnest_East_03[left1]: Ruins2_07[right1]
+Deepnest_East_03[left2]: Deepnest_East_02[right1]
+Deepnest_East_03[top1]: Deepnest_East_07[bot1]
+Deepnest_East_03[right1]: Deepnest_East_04[left1]
+Deepnest_East_03[right2]: Deepnest_East_06[left1]
+Deepnest_East_04[left1]: Deepnest_East_03[right1]
+Deepnest_East_04[left2]: Deepnest_East_07[right1]
+Deepnest_East_04[right2]: Deepnest_East_15[left1]
+Deepnest_East_04[right1]: Deepnest_East_11[left1]
+Deepnest_East_06[top1]: Deepnest_East_18[bot1]
+Deepnest_East_06[left1]: Deepnest_East_03[right2]
+Deepnest_East_06[bot1]: Deepnest_East_14b[top1]
+Deepnest_East_06[door1]: Room_nailmaster_03[left1]
+Deepnest_East_06[right1]: Deepnest_East_16[left1]
+Deepnest_East_07[bot1]: Deepnest_East_03[top1]
+Deepnest_East_07[bot2]: Deepnest_East_03[top2]
+Deepnest_East_07[left1]: Deepnest_East_08[right1]
+Deepnest_East_07[left2]: Ruins2_11_b[right1]
+Deepnest_East_07[right1]: Deepnest_East_04[left2]
+Deepnest_East_08[right1]: Deepnest_East_07[left1]
+Deepnest_East_08[top1]: Deepnest_East_09[bot1]
+Deepnest_East_09[right1]: Room_Colosseum_01[left1]
+Deepnest_East_09[left1]: Ruins2_10b[right1]
+Deepnest_East_09[bot1]: Deepnest_East_08[top1]
+Deepnest_East_10[left1]: Deepnest_East_18[right2]
+Deepnest_East_11[right1]: Deepnest_East_12[left1]
+Deepnest_East_11[left1]: Deepnest_East_04[right1]
+Deepnest_East_11[top1]: Deepnest_East_13[bot1]
+Deepnest_East_11[bot1]: Deepnest_East_18[top1]
+Deepnest_East_12[right1]: Deepnest_East_Hornet[left1]
+Deepnest_East_12[left1]: Deepnest_East_11[right1]
+Deepnest_East_13[bot1]: Deepnest_East_11[top1]
+Deepnest_East_14[top2]: Deepnest_East_16[bot1]
+Deepnest_East_14[left1]: Deepnest_East_14b[right1]
+Deepnest_East_14[door1]: Deepnest_East_17[left1]
+Deepnest_East_14b[right1]: Deepnest_East_14[left1]
+Deepnest_East_14b[top1]: Deepnest_East_06[bot1]
+Deepnest_East_15[left1]: Deepnest_East_04[right2]
+Deepnest_East_16[left1]: Deepnest_East_06[right1]
+Deepnest_East_16[bot1]: Deepnest_East_14[top2]
+Deepnest_East_17[left1]: Deepnest_East_14[door1]
+Deepnest_East_18[top1]: Deepnest_East_11[bot1]
+Deepnest_East_18[bot1]: Deepnest_East_06[top1]
+Deepnest_East_18[right2]: Deepnest_East_10[left1]
+Room_nailmaster_03[left1]: Deepnest_East_06[door1]
+Deepnest_East_Hornet[left1]: Deepnest_East_12[right1]
+Deepnest_East_Hornet[left2]: Room_Wyrm[right1]
+Room_Wyrm[right1]: Deepnest_East_Hornet[left2]
+GG_Lurker[left1]: Room_Colosseum_Spectate[right1]
+Hive_01[left1]: Abyss_03_c[right1]
+Hive_01[right1]: Hive_02[left2]
+Hive_01[right2]: Hive_02[left3]
+Hive_02[left1]: Hive_03_c[right3]
+Hive_02[left2]: Hive_01[right1]
+Hive_02[left3]: Hive_01[right2]
+Hive_03_c[left1]: Deepnest_East_01[right1]
+Hive_03_c[right2]: Hive_04[left2]
+Hive_03_c[right3]: Hive_02[left1]
+Hive_03_c[top1]: Hive_03[bot1]
+Hive_03[bot1]: Hive_03_c[top1]
+Hive_03[right1]: Hive_04[left1]
+Hive_03[top1]: Deepnest_East_02[bot2]
+Hive_04[left1]: Hive_03[right1]
+Hive_04[left2]: Hive_03_c[right2]
+Hive_04[right1]: Hive_05[left1]
+Hive_05[left1]: Hive_04[right1]
+Room_Colosseum_01[left1]: Deepnest_East_09[right1]
+Room_Colosseum_01[bot1]: Room_Colosseum_02[top1]
+Room_Colosseum_02[top1]: Room_Colosseum_01[bot1]
+Room_Colosseum_02[top2]: Room_Colosseum_Spectate[bot1]
+Room_Colosseum_Spectate[bot1]: Room_Colosseum_02[top2]
+Room_Colosseum_Spectate[right1]: GG_Lurker[left1]
+Abyss_01[left1]: Waterways_05[right1]
+Abyss_01[left2]: Waterways_06[right1]
+Abyss_01[left3]: Abyss_02[right1]
+Abyss_01[right1]: Ruins2_04[left2]
+Abyss_01[right2]: Waterways_07[left1]
+Abyss_02[right1]: Abyss_01[left3]
+Abyss_02[bot1]: Abyss_03[top1]
+Abyss_03[bot1]: Abyss_17[top1]
+Abyss_03[bot2]: Abyss_04[top1]
+Abyss_03[top1]: Abyss_02[bot1]
+Abyss_03_b[left1]: Deepnest_37[right1]
+Abyss_03_c[right1]: Hive_01[left1]
+Abyss_03_c[top1]: Deepnest_East_01[bot1]
+Abyss_04[top1]: Abyss_03[bot2]
+Abyss_04[left1]: Abyss_18[right1]
+Abyss_04[bot1]: Abyss_06_Core[top1]
+Abyss_04[right1]: Abyss_05[left1]
+Abyss_05[left1]: Abyss_04[right1]
+Abyss_05[right1]: Abyss_22[left1]
+Abyss_06_Core[top1]: Abyss_04[bot1]
+Abyss_06_Core[left1]: Abyss_08[right1]
+Abyss_06_Core[left3]: Abyss_12[right1]
+Abyss_06_Core[right2]: Abyss_16[left1]
+Abyss_06_Core[bot1]: Abyss_15[top1]
+Abyss_08[right1]: Abyss_06_Core[left1]
+Abyss_09[right1]: Abyss_10[left1]
+Abyss_09[right2]: Abyss_Lighthouse_room[left1]
+Abyss_09[right3]: Abyss_10[left2]
+Abyss_09[left1]: Abyss_16[right1]
+Abyss_10[left1]: Abyss_09[right1]
+Abyss_10[left2]: Abyss_09[right3]
+Abyss_12[right1]: Abyss_06_Core[left3]
+Abyss_15[top1]: Abyss_06_Core[bot1]
+Abyss_16[left1]: Abyss_06_Core[right2]
+Abyss_16[right1]: Abyss_09[left1]
+Abyss_17[top1]: Abyss_03[bot1]
+Abyss_18[left1]: Abyss_19[right1]
+Abyss_18[right1]: Abyss_04[left1]
+Abyss_19[left1]: Abyss_21[right1]
+Abyss_19[right1]: Abyss_18[left1]
+Abyss_19[bot1]: Abyss_20[top1]
+Abyss_19[bot2]: Abyss_20[top2]
+Abyss_20[top1]: Abyss_19[bot1]
+Abyss_20[top2]: Abyss_19[bot2]
+Abyss_21[right1]: Abyss_19[left1]
+Abyss_22[left1]: Abyss_05[right1]
+Abyss_Lighthouse_room[left1]: Abyss_09[right2]
+Waterways_01[top1]: Ruins1_05b[bot1]
+Waterways_01[left1]: Waterways_04[right1]
+Waterways_01[right1]: Waterways_03[left1]
+Waterways_01[bot1]: Waterways_02[top1]
+Waterways_02[top1]: Waterways_01[bot1]
+Waterways_02[top2]: Waterways_05[bot1]
+Waterways_02[top3]: Waterways_04[bot1]
+Waterways_02[bot1]: Waterways_08[top1]
+Waterways_02[bot2]: Waterways_06[top1]
+Waterways_03[left1]: Waterways_01[right1]
+Waterways_04[bot1]: Waterways_02[top3]
+Waterways_04[right1]: Waterways_01[left1]
+Waterways_04[left1]: Waterways_04b[right1]
+Waterways_04[left2]: Waterways_04b[right2]
+Waterways_04b[right1]: Waterways_04[left1]
+Waterways_04b[right2]: Waterways_04[left2]
+Waterways_04b[left1]: Waterways_09[right1]
+Waterways_05[right1]: Abyss_01[left1]
+Waterways_05[bot1]: Waterways_02[top2]
+Waterways_05[bot2]: Waterways_15[top1]
+Waterways_06[right1]: Abyss_01[left2]
+Waterways_06[top1]: Waterways_02[bot2]
+Waterways_07[right1]: Waterways_13[left1]
+Waterways_07[right2]: Waterways_13[left2]
+Waterways_07[left1]: Abyss_01[right2]
+Waterways_07[door1]: Ruins_House_03[left2]
+Waterways_07[top1]: Waterways_14[bot1]
+Waterways_08[top1]: Waterways_02[bot1]
+Waterways_08[left1]: Waterways_12[right1]
+Waterways_08[left2]: GG_Pipeway[right1]
+Waterways_09[right1]: Waterways_04b[left1]
+Waterways_09[left1]: Fungus2_23[right2]
+Waterways_12[right1]: Waterways_08[left1]
+Waterways_13[left1]: Waterways_07[right1]
+Waterways_13[left2]: Waterways_07[right2]
+Waterways_14[bot1]: Waterways_07[top1]
+Waterways_14[bot2]: Deepnest_East_02[top1]
+Waterways_15[top1]: Waterways_05[bot2]
+GG_Pipeway[right1]: Waterways_08[left2]
+GG_Pipeway[left1]: GG_Waterways[right1]
+GG_Waterways[right1]: GG_Pipeway[left1]
+GG_Waterways[door1]: Room_GG_Shortcut[left1]
+Room_GG_Shortcut[left1]: GG_Waterways[door1]
+Room_GG_Shortcut[top1]: Ruins1_04[bot1]
+Ruins1_01[left1]: Fungus2_21[right1]
+Ruins1_01[top1]: Ruins1_17[bot1]
+Ruins1_01[bot1]: Ruins1_02[top1]
+Ruins1_02[top1]: Ruins1_01[bot1]
+Ruins1_02[bot1]: Ruins1_03[top1]
+Ruins1_03[top1]: Ruins1_02[bot1]
+Ruins1_03[left1]: Ruins1_04[right1]
+Ruins1_03[right1]: Ruins1_05c[left2]
+Ruins1_03[right2]: Ruins1_05b[left1]
+Ruins1_04[right1]: Ruins1_03[left1]
+Ruins1_04[door1]: Room_nailsmith[left1]
+Ruins1_04[bot1]: Room_GG_Shortcut[top1]
+Ruins1_05b[left1]: Ruins1_03[right2]
+Ruins1_05b[top1]: Ruins1_05c[bot1]
+Ruins1_05b[bot1]: Waterways_01[top1]
+Ruins1_05b[right1]: Ruins1_27[left1]
+Ruins1_05c[left2]: Ruins1_03[right1]
+Ruins1_05c[bot1]: Ruins1_05b[top1]
+Ruins1_05c[top1]: Ruins1_05[bot1]
+Ruins1_05c[top2]: Ruins1_05[bot2]
+Ruins1_05c[top3]: Ruins1_05[bot3]
+Ruins1_05[bot1]: Ruins1_05c[top1]
+Ruins1_05[bot2]: Ruins1_05c[top2]
+Ruins1_05[bot3]: Ruins1_05c[top3]
+Ruins1_05[right1]: Ruins1_09[left1]
+Ruins1_05[right2]: Ruins1_18[left1]
+Ruins1_05[top1]: Ruins1_31[bot1]
+Ruins1_06[left1]: Ruins1_17[right1]
+Ruins1_06[right1]: Ruins1_31[left1]
+Ruins1_09[top1]: Ruins1_23[bot1]
+Ruins1_09[left1]: Ruins1_05[right1]
+Ruins1_17[top1]: Ruins1_28[bot1]
+Ruins1_17[right1]: Ruins1_06[left1]
+Ruins1_17[bot1]: Ruins1_01[top1]
+Ruins1_18[left1]: Ruins1_05[right2]
+Ruins1_18[right1]: Ruins2_03b[left1]
+Ruins1_18[right2]: Ruins2_01[left2]
+Ruins1_23[top1]: Ruins1_30[bot1]
+Ruins1_23[right1]: Ruins1_25[left2]
+Ruins1_23[right2]: Ruins1_25[left3]
+Ruins1_23[bot1]: Ruins1_09[top1]
+Ruins1_23[left1]: Ruins1_31[right1]
+Ruins1_24[left1]: Ruins1_32[right1]
+Ruins1_24[right1]: Ruins1_30[left1]
+Ruins1_24[left2]: Ruins1_32[right2]
+Ruins1_24[right2]: Ruins1_30[left2]
+Ruins1_25[left1]: Ruins1_30[right1]
+Ruins1_25[left2]: Ruins1_23[right1]
+Ruins1_25[left3]: Ruins1_23[right2]
+Ruins1_27[left1]: Ruins1_05b[right1]
+Ruins1_27[right1]: Ruins2_01_b[left1]
+Ruins1_28[left1]: Crossroads_49b[right1]
+Ruins1_28[right1]: Ruins1_29[left1]
+Ruins1_28[bot1]: Ruins1_17[top1]
+Ruins1_29[left1]: Ruins1_28[right1]
+Ruins1_30[left1]: Ruins1_24[right1]
+Ruins1_30[left2]: Ruins1_24[right2]
+Ruins1_30[bot1]: Ruins1_23[top1]
+Ruins1_30[right1]: Ruins1_25[left1]
+Ruins1_31[bot1]: Ruins1_05[top1]
+Ruins1_31[left1]: Ruins1_06[right1]
+Ruins1_31[left2]: Ruins1_31b[right1]
+Ruins1_31[left3]: Ruins1_31b[right2]
+Ruins1_31[right1]: Ruins1_23[left1]
+Ruins1_31b[right1]: Ruins1_31[left2]
+Ruins1_31b[right2]: Ruins1_31[left3]
+Ruins1_32[right1]: Ruins1_24[left1]
+Ruins1_32[right2]: Ruins1_24[left2]
+Room_nailsmith[left1]: Ruins1_04[door1]
+Ruins2_01[top1]: Ruins2_03b[bot1]
+Ruins2_01[bot1]: Ruins2_01_b[top1]
+Ruins2_01[left2]: Ruins1_18[right2]
+Ruins2_01_b[top1]: Ruins2_01[bot1]
+Ruins2_01_b[left1]: Ruins1_27[right1]
+Ruins2_01_b[right1]: Ruins2_04[left1]
+Ruins2_03b[top1]: Ruins2_03[bot1]
+Ruins2_03b[top2]: Ruins2_03[bot2]
+Ruins2_03b[left1]: Ruins1_18[right1]
+Ruins2_03b[bot1]: Ruins2_01[top1]
+Ruins2_03[top1]: Ruins2_Watcher_Room[bot1]
+Ruins2_03[bot1]: Ruins2_03b[top1]
+Ruins2_03[bot2]: Ruins2_03b[top2]
+Ruins2_04[left1]: Ruins2_01_b[right1]
+Ruins2_04[left2]: Abyss_01[right1]
+Ruins2_04[right1]: Ruins2_06[left1]
+Ruins2_04[right2]: Ruins2_06[left2]
+Ruins2_04[door_Ruin_House_01]: Ruins_House_01[left1]
+Ruins2_04[door_Ruin_House_02]: Ruins_House_02[left1]
+Ruins2_04[door_Ruin_House_03]: Ruins_House_03[left1]
+Ruins2_04[door_Ruin_Elevator]: Ruins_Elevator[left1]
+Ruins2_05[left1]: Ruins2_10b[right2]
+Ruins2_05[top1]: Ruins2_09[bot1]
+Ruins2_05[bot1]: Ruins2_06[top1]
+Ruins2_06[left1]: Ruins2_04[right1]
+Ruins2_06[left2]: Ruins2_04[right2]
+Ruins2_06[right1]: Ruins2_08[left1]
+Ruins2_06[right2]: Ruins2_07[left1]
+Ruins2_06[top1]: Ruins2_05[bot1]
+Ruins2_07[right1]: Deepnest_East_03[left1]
+Ruins2_07[left1]: Ruins2_06[right2]
+Ruins2_07[top1]: Ruins2_11_b[bot1]
+Ruins2_08[left1]: Ruins2_06[right1]
+Ruins2_09[bot1]: Ruins2_05[top1]
+Ruins2_10[right1]: RestingGrounds_10[left1]
+Ruins2_10[left1]: RestingGrounds_06[right1]
+Ruins2_10b[right1]: Deepnest_East_09[left1]
+Ruins2_10b[right2]: Ruins2_05[left1]
+Ruins2_10b[left1]: Ruins_Bathhouse[right1]
+Ruins2_11_b[right1]: Deepnest_East_07[left2]
+Ruins2_11_b[left1]: Ruins2_11[right1]
+Ruins2_11_b[bot1]: Ruins2_07[top1]
+Ruins2_11[right1]: Ruins2_11_b[left1]
+Ruins2_Watcher_Room[bot1]: Ruins2_03[top1]
+Ruins_House_01[left1]: Ruins2_04[door_Ruin_House_01]
+Ruins_House_02[left1]: Ruins2_04[door_Ruin_House_02]
+Ruins_House_03[left1]: Ruins2_04[door_Ruin_House_03]
+Ruins_House_03[left2]: Waterways_07[door1]
+Ruins_Elevator[left1]: Ruins2_04[door_Ruin_Elevator]
+Ruins_Elevator[left2]: Ruins_Bathhouse[door1]
+Ruins_Bathhouse[door1]: Ruins_Elevator[left2]
+Ruins_Bathhouse[right1]: Ruins2_10b[left1]
+RestingGrounds_02[right1]: RestingGrounds_04[left1]
+RestingGrounds_02[left1]: Crossroads_46b[right1]
+RestingGrounds_02[bot1]: RestingGrounds_06[top1]
+RestingGrounds_04[left1]: RestingGrounds_02[right1]
+RestingGrounds_04[right1]: RestingGrounds_05[left1]
+RestingGrounds_05[left1]: RestingGrounds_04[right1]
+RestingGrounds_05[left2]: RestingGrounds_07[right1]
+RestingGrounds_05[left3]: RestingGrounds_17[right1]
+RestingGrounds_05[right1]: RestingGrounds_08[left1]
+RestingGrounds_05[right2]: RestingGrounds_09[left1]
+RestingGrounds_05[bot1]: RestingGrounds_10[top1]
+RestingGrounds_06[left1]: Crossroads_50[right1]
+RestingGrounds_06[right1]: Ruins2_10[left1]
+RestingGrounds_06[top1]: RestingGrounds_02[bot1]
+RestingGrounds_07[right1]: RestingGrounds_05[left2]
+RestingGrounds_08[left1]: RestingGrounds_05[right1]
+RestingGrounds_09[left1]: RestingGrounds_05[right2]
+RestingGrounds_10[left1]: Ruins2_10[right1]
+RestingGrounds_10[top1]: RestingGrounds_05[bot1]
+RestingGrounds_10[top2]: RestingGrounds_12[bot1]
+RestingGrounds_12[bot1]: RestingGrounds_10[top2]
+RestingGrounds_12[door_Mansion]: Room_Mansion[left1]
+RestingGrounds_17[right1]: RestingGrounds_05[left3]
+Room_Mansion[left1]: RestingGrounds_12[door_Mansion]
+Mines_01[bot1]: Mines_02[top1]
+Mines_01[left1]: Crossroads_45[right1]
+Mines_02[top1]: Mines_01[bot1]
+Mines_02[top2]: Mines_03[bot1]
+Mines_02[left1]: Mines_33[right1]
+Mines_02[right1]: Mines_29[left1]
+Mines_03[right1]: Mines_17[left1]
+Mines_03[bot1]: Mines_02[top2]
+Mines_03[top1]: Mines_05[bot1]
+Mines_04[right1]: Mines_07[left1]
+Mines_04[top1]: Mines_37[bot1]
+Mines_04[left1]: Mines_17[right1]
+Mines_04[left2]: Mines_29[right1]
+Mines_04[left3]: Mines_29[right2]
+Mines_05[right1]: Mines_19[left1]
+Mines_05[top1]: Mines_11[bot1]
+Mines_05[bot1]: Mines_03[top1]
+Mines_05[left1]: Mines_30[right1]
+Mines_05[left2]: Mines_06[right1]
+Mines_06[right1]: Mines_05[left2]
+Mines_06[left1]: Mines_36[right1]
+Mines_07[right1]: Mines_28[left1]
+Mines_07[left1]: Mines_04[right1]
+Mines_10[right1]: Mines_30[left1]
+Mines_10[left1]: Town[right1]
+Mines_10[bot1]: Mines_16[top1]
+Mines_11[right1]: Mines_18[left1]
+Mines_11[top1]: Mines_13[bot1]
+Mines_11[bot1]: Mines_05[top1]
+Mines_13[right1]: Mines_20[left1]
+Mines_13[bot1]: Mines_11[top1]
+Mines_16[top1]: Mines_10[bot1]
+Mines_17[right1]: Mines_04[left1]
+Mines_17[left1]: Mines_03[right1]
+Mines_18[top1]: Mines_32[bot1]
+Mines_18[left1]: Mines_11[right1]
+Mines_18[right1]: Mines_20[left2]
+Mines_19[left1]: Mines_05[right1]
+Mines_19[right1]: Mines_20[left3]
+Mines_20[left1]: Mines_13[right1]
+Mines_20[left2]: Mines_18[right1]
+Mines_20[left3]: Mines_19[right1]
+Mines_20[bot1]: Mines_37[top1]
+Mines_20[right1]: Mines_23[left1]
+Mines_20[right2]: Mines_31[left1]
+Mines_23[left1]: Mines_20[right1]
+Mines_23[right1]: Mines_25[left1]
+Mines_23[right2]: Mines_24[left1]
+Mines_24[left1]: Mines_23[right2]
+Mines_25[left1]: Mines_23[right1]
+Mines_25[top1]: Mines_34[bot1]
+Mines_28[left1]: Mines_07[right1]
+Mines_28[bot1]: RestingGrounds_02[top1]
+Mines_28[door1]: Mines_35[left1]
+Mines_29[left1]: Mines_02[right1]
+Mines_29[right1]: Mines_04[left2]
+Mines_29[right2]: Mines_04[left3]
+Mines_30[left1]: Mines_10[right1]
+Mines_30[right1]: Mines_05[left1]
+Mines_31[left1]: Mines_20[right2]
+Mines_32[bot1]: Mines_18[top1]
+Mines_33[right1]: Mines_02[left1]
+Mines_33[left1]: Crossroads_03[right2]
+Mines_34[bot1]: Mines_25[top1]
+Mines_34[bot2]: Mines_23[top1]
+Mines_34[left1]: Mines_13[top1]
+Mines_35[left1]: Mines_28[door1]
+Mines_36[right1]: Mines_06[left1]
+Mines_37[bot1]: Mines_04[top1]
+Mines_37[top1]: Mines_20[bot1]
+Fungus3_04[left1]: Fungus3_21[right1]
+Fungus3_04[left2]: Fungus3_13[right1]
+Fungus3_04[right1]: Fungus3_34[left1]
+Fungus3_04[right2]: Fungus3_05[left1]
+Fungus3_05[left1]: Fungus3_04[right2]
+Fungus3_05[right1]: Fungus1_24[left1]
+Fungus3_05[right2]: Fungus3_11[left1]
+Fungus3_08[left1]: Deepnest_43[right1]
+Fungus3_08[right1]: Fungus3_11[left2]
+Fungus3_08[top1]: Fungus3_10[bot1]
+Fungus3_10[top1]: Fungus3_13[bot1]
+Fungus3_10[bot1]: Fungus3_08[top1]
+Fungus3_11[left1]: Fungus3_05[right2]
+Fungus3_11[left2]: Fungus3_08[right1]
+Fungus3_11[right1]: Fungus3_39[left1]
+Fungus3_13[left1]: Fungus1_23[right1]
+Fungus3_13[left2]: Fungus3_40[right1]
+Fungus3_13[left3]: Fungus3_49[right1]
+Fungus3_13[bot1]: Fungus3_10[top1]
+Fungus3_13[right1]: Fungus3_04[left2]
+Fungus3_21[right1]: Fungus3_04[left1]
+Fungus3_21[top1]: Fungus3_22[bot1]
+Fungus3_22[right1]: Fungus1_13[left1]
+Fungus3_22[left1]: Fungus3_23[right1]
+Fungus3_22[bot1]: Fungus3_21[top1]
+Fungus3_23[right1]: Fungus3_22[left1]
+Fungus3_23[left1]: Fungus3_48[right1]
+Fungus3_34[right1]: Fungus3_03[left1]
+Fungus3_34[left1]: Fungus3_04[right1]
+Fungus3_34[top1]: Fungus3_44[bot1]
+Fungus3_39[right1]: Deepnest_01[left1]
+Fungus3_39[left1]: Fungus3_11[right1]
+Fungus3_40[right1]: Fungus3_13[left2]
+Fungus3_40[top1]: Fungus3_48[bot1]
+Fungus3_48[right1]: Fungus3_23[left1]
+Fungus3_48[right2]: Fungus1_23[left1]
+Fungus3_48[door1]: Room_Queen[left1]
+Fungus3_48[bot1]: Fungus3_40[top1]
+Fungus3_49[right1]: Fungus3_13[left3]
+Fungus3_50[right1]: Deepnest_43[left1]
+Room_Queen[left1]: Fungus3_48[door1]
+Cliffs_01[right1]: Cliffs_02[left1]
+Cliffs_01[right2]: Cliffs_04[left1]
+Cliffs_01[right3]: Fungus1_28[left1]
+Cliffs_01[right4]: Cliffs_06[left1]
+Cliffs_02[right1]: Town[top1]
+Cliffs_02[bot1]: Tutorial_01[top2]
+Cliffs_02[bot2]: Tutorial_01[top1]
+Cliffs_02[door1]: Room_nailmaster[left1]
+Cliffs_02[left1]: Cliffs_01[right1]
+Cliffs_02[left2]: Cliffs_03[right1]
+Cliffs_03[right1]: Cliffs_02[left2]
+Cliffs_04[right1]: Cliffs_05[left1]
+Cliffs_04[left1]: Cliffs_01[right2]
+Cliffs_05[left1]: Cliffs_04[right1]
+Cliffs_06[left1]: Cliffs_01[right4]
+Room_nailmaster[left1]: Cliffs_02[door1]
+White_Palace_01[left1]: White_Palace_11[door2]
+White_Palace_01[right1]: White_Palace_02[left1]
+White_Palace_01[top1]: White_Palace_03_hub[bot1]
+White_Palace_02[left1]: White_Palace_01[right1]
+White_Palace_03_hub[left1]: White_Palace_14[right1]
+White_Palace_03_hub[left2]: White_Palace_04[right2]
+White_Palace_03_hub[right1]: White_Palace_15[left1]
+White_Palace_03_hub[top1]: White_Palace_06[bot1]
+White_Palace_03_hub[bot1]: White_Palace_01[top1]
+White_Palace_04[top1]: White_Palace_14[bot1]
+White_Palace_04[right2]: White_Palace_03_hub[left2]
+White_Palace_05[left1]: White_Palace_15[right1]
+White_Palace_05[left2]: White_Palace_15[right2]
+White_Palace_05[right1]: White_Palace_16[left1]
+White_Palace_05[right2]: White_Palace_16[left2]
+White_Palace_06[left1]: White_Palace_18[right1]
+White_Palace_06[top1]: White_Palace_07[bot1]
+White_Palace_06[bot1]: White_Palace_03_hub[top1]
+White_Palace_07[top1]: White_Palace_12[bot1]
+White_Palace_07[bot1]: White_Palace_06[top1]
+White_Palace_08[left1]: White_Palace_13[right1]
+White_Palace_08[right1]: White_Palace_13[left3]
+White_Palace_09[right1]: White_Palace_13[left1]
+White_Palace_11[door2]: White_Palace_01[left1]
+White_Palace_12[right1]: White_Palace_13[left2]
+White_Palace_12[bot1]: White_Palace_07[top1]
+White_Palace_13[right1]: White_Palace_08[left1]
+White_Palace_13[left1]: White_Palace_09[right1]
+White_Palace_13[left2]: White_Palace_12[right1]
+White_Palace_13[left3]: White_Palace_08[right1]
+White_Palace_14[bot1]: White_Palace_04[top1]
+White_Palace_14[right1]: White_Palace_03_hub[left1]
+White_Palace_15[left1]: White_Palace_03_hub[right1]
+White_Palace_15[right1]: White_Palace_05[left1]
+White_Palace_15[right2]: White_Palace_05[left2]
+White_Palace_16[left1]: White_Palace_05[right1]
+White_Palace_16[left2]: White_Palace_05[right2]
+White_Palace_17[right1]: White_Palace_19[left1]
+White_Palace_17[bot1]: White_Palace_18[top1]
+White_Palace_18[top1]: White_Palace_17[bot1]
+White_Palace_18[right1]: White_Palace_06[left1]
+White_Palace_19[top1]: White_Palace_20[bot1]
+White_Palace_19[left1]: White_Palace_17[right1]
+White_Palace_20[bot1]: White_Palace_19[top1]
+Lurien: Void_Heart
+Monomon: Mask_Shard
+Herrah: Mask_Shard
+World_Sense: Shaman_Stone
+Mothwing_Cloak: Grub
+Left_Mantis_Claw: Love_Key
+Right_Mantis_Claw: Resting_Grounds_Map
+Crystal_Heart: Grub
+Split_Crystal_Heart: Quick_Focus
+Monarch_Wings: Sprintmaster
+Shade_Cloak: Grub
+Isma's_Tear: Grub
+Dream_Nail: Boss_Essence-Marmu
+Vengeful_Spirit: Stalwart_Shell
+Shade_Soul: Mask_Shard
+Desolate_Dive: Grub
+Descending_Dark: Charm_Notch
+Howling_Wraiths: Grub
+Abyss_Shriek: Fog_Canyon_Map
+Cyclone_Slash: Grub
+Dash_Slash: Grub
+Great_Slash: Thorns_of_Agony
+Focus: Queen's_Gardens_Map
+Baldur_Shell: Joni's_Blessing
+Fury_of_the_Fallen: Deepnest_Map
+Lifeblood_Core: Boss_Essence-Gorb
+Defender's_Crest: Whispering_Root-Hive
+Flukenest: Mask_Shard
+Thorns_of_Agony: Deepnest_Map
+Mark_of_Pride: Elegant_Key
+Sharp_Shadow: Heavy_Blow
+Spore_Shroom: Grub
+Soul_Catcher: Soul_Refill
+Soul_Eater: Fragile_Heart
+Glowing_Womb: Boss_Essence-Xero
+Nailmaster's_Glory: Monarch_Wings
+Joni's_Blessing: Geo_Chest-Soul_Master
+Shape_of_Unn: Royal_Waterways_Map
+Hiveblood: Vessel_Fragment
+Dashmaster: Grub
+Quick_Slash: Soul_Refill
+Spell_Twister: Whispering_Root-Crystal_Peak
+Deep_Focus: Vessel_Fragment
+Queen_Fragment: Grub
+King_Fragment: One_Geo
+Void_Heart: Whispering_Root-Deepnest
+Dreamshield: Boss_Essence-Soul_Tyrant
+Weaversong: Unbreakable_Strength
+Grimmchild: Grub
+Unbreakable_Heart: Quill
+Unbreakable_Greed: Dreamshield
+Unbreakable_Strength: Boss_Essence-White_Defender
+City_Crest: Geo_Chest-False_Knight
+Tram_Pass: Soul_Refill
+Simple_Key-Basin: Vessel_Fragment
+Simple_Key-City: One_Geo
+Simple_Key-Lurker: Grub
+Shopkeeper's_Key: Charm_Notch
+Love_Key: Grub
+King's_Brand: Simple_Key
+Godtuner: One_Geo
+Collector's_Map: Monomon
+Mask_Shard-Brooding_Mawlek: Vessel_Fragment
+Mask_Shard-Crossroads_Goam: Grub
+Mask_Shard-Stone_Sanctuary: Unbreakable_Greed
+Mask_Shard-Queen's_Station: Isma's_Tear
+Mask_Shard-Deepnest: Grub
+Mask_Shard-Waterways: Grub
+Mask_Shard-Enraged_Guardian: Charm_Notch
+Mask_Shard-Hive: Boss_Geo-Elegant_Soul_Warrior
+Mask_Shard-Grey_Mourner: Grub
+Mask_Shard-Bretta: Pale_Ore
+Vessel_Fragment-Greenpath: Lurien
+Vessel_Fragment-City: Fungal_Wastes_Map
+Vessel_Fragment-Crossroads: Awoken_Dream_Nail
+Vessel_Fragment-Basin: Pale_Ore
+Vessel_Fragment-Deepnest: Grub
+Vessel_Fragment-Stag_Nest: Whispering_Root-Resting_Grounds
+Charm_Notch-Shrumal_Ogres: Swim
+Charm_Notch-Fog_Canyon: Howling_Cliffs_Map
+Charm_Notch-Colosseum: Wayward_Compass
+Charm_Notch-Grimm: Grub
+Pale_Ore-Basin: Ancient_Basin_Map
+Pale_Ore-Crystal_Peak: Longnail
+Pale_Ore-Nosk: Queen's_Station_Stag
+Pale_Ore-Colosseum: Mask_Shard
+Geo_Chest-False_Knight: Mask_Shard
+Geo_Chest-Soul_Master: Whispering_Root-Queens_Gardens
+Geo_Chest-Watcher_Knights: Whispering_Root-Greenpath
+Geo_Chest-Greenpath: Boss_Geo-Sanctum_Soul_Warrior
+Geo_Chest-Mantis_Lords: Nailmaster's_Glory
+Geo_Chest-Resting_Grounds: Quick_Slash
+Geo_Chest-Crystal_Peak: Tram_Pass
+Geo_Chest-Weavers_Den: Whispering_Root-Ancestral_Mound
+Grubfather_1: Rancid_Egg
+Rancid_Egg-Sheo: Rancid_Egg
+Rancid_Egg-Fungal_Core: Rancid_Egg
+Rancid_Egg-Queen's_Gardens: Rancid_Egg
+Rancid_Egg-Blue_Lake: Rancid_Egg
+Rancid_Egg-Crystal_Peak_Dive_Entrance: Rancid_Egg
+Rancid_Egg-Crystal_Peak_Dark_Room: Rancid_Egg
+Rancid_Egg-Crystal_Peak_Tall_Room: Rancid_Egg
+Rancid_Egg-City_of_Tears_Left: Rancid_Egg
+Rancid_Egg-City_of_Tears_Pleasure_House: Rancid_Egg
+Rancid_Egg-Beast's_Den: Rancid_Egg
+Rancid_Egg-Dark_Deepnest: Rancid_Egg
+Rancid_Egg-Weaver's_Den: Rancid_Egg
+Rancid_Egg-Near_Quick_Slash: Rancid_Egg
+Rancid_Egg-Upper_Kingdom's_Edge: Rancid_Egg
+Rancid_Egg-Waterways_East: Rancid_Egg
+Rancid_Egg-Waterways_Main: Rancid_Egg
+Rancid_Egg-Waterways_West_Bluggsac: Rancid_Egg
+Rancid_Egg-Waterways_West_Pickup: Rancid_Egg
+Sly_1: Rancid_Egg
+Whispering_Root-Crossroads: Greenpath_Stag
+Whispering_Root-Greenpath: Geo_Chest-Greenpath
+Whispering_Root-Leg_Eater: Grub
+Whispering_Root-Mantis_Village: Grub
+Whispering_Root-Deepnest: Right_Mantis_Claw
+Whispering_Root-Queens_Gardens: One_Geo
+Whispering_Root-Kingdoms_Edge: Mask_Shard
+Whispering_Root-Waterways: One_Geo
+Whispering_Root-City: Boss_Essence-Lost_Kin
+Whispering_Root-Resting_Grounds: Mask_Shard
+Whispering_Root-Spirits_Glade: King_Fragment
+Whispering_Root-Crystal_Peak: Dirtmouth_Stag
+Whispering_Root-Howling_Cliffs: Grub
+Whispering_Root-Ancestral_Mound: Whispering_Root-City
+Whispering_Root-Hive: One_Geo
+Boss_Essence-Elder_Hu: Sharp_Shadow
+Boss_Essence-Xero: Boss_Geo-Gorgeous_Husk
+Boss_Essence-Gorb: Crossroads_Stag
+Boss_Essence-Marmu: Grub
+Boss_Essence-No_Eyes: Mask_Shard
+Boss_Essence-Galien: Simple_Key
+Boss_Essence-Markoth: Left_Crystal_Heart
+Boss_Essence-Failed_Champion: Vessel_Fragment
+Boss_Essence-Soul_Tyrant: Flukenest
+Boss_Essence-Lost_Kin: Unbreakable_Heart
+Boss_Essence-White_Defender: City_Crest
+Boss_Essence-Grey_Prince_Zote: Collector's_Map
+Grub-Crossroads_Acid: Geo_Chest-Mantis_Lords
+Grub-Crossroads_Center: Geo_Chest-Weavers_Den
+Grub-Crossroads_Stag: Boss_Essence-Grey_Prince_Zote
+Grub-Crossroads_Spike: Glowing_Womb
+Grub-Crossroads_Guarded: Cyclone_Slash
+Grub-Greenpath_Cornifer: Grub
+Grub-Greenpath_Journal: Baldur_Shell
+Grub-Greenpath_MMC: Soul_Refill
+Grub-Greenpath_Stag: One_Geo
+Grub-Fog_Canyon: Mask_Shard
+Grub-Fungal_Bouncy: Boss_Essence-Galien
+Grub-Fungal_Spore_Shroom: Soul_Refill
+Grub-Deepnest_Mimic: Focus
+Grub-Deepnest_Nosk: Boss_Geo-Enraged_Guardian
+Grub-Deepnest_Spike: Boss_Geo-Crystal_Guardian
+Grub-Dark_Deepnest: Grub
+Grub-Beast's_Den: Fury_of_the_Fallen
+Grub-Kingdom's_Edge_Oro: Boss_Essence-Markoth
+Grub-Kingdom's_Edge_Camp: World_Sense
+Grub-Hive_External: Soul_Eater
+Grub-Hive_Internal: Whispering_Root-Crossroads
+Grub-Basin_Requires_Wings: Grub
+Grub-Basin_Requires_Dive: Weaversong
+Grub-Waterways_Main: Geo_Chest-Resting_Grounds
+Grub-Isma's_Grove: King's_Station_Stag
+Grub-Waterways_Requires_Tram: One_Geo
+Grub-City_of_Tears_Left: Grub
+Grub-Soul_Sanctum: Soul_Refill
+Grub-Watcher's_Spire: Charm_Notch
+Grub-City_of_Tears_Guarded: Mark_of_Pride
+Grub-King's_Station: Fragile_Greed
+Grub-Resting_Grounds: Pale_Ore
+Grub-Crystal_Peak_Below_Chest: Steady_Body
+Grub-Crystallized_Mound: Whispering_Root-Leg_Eater
+Grub-Crystal_Peak_Spike: Vessel_Fragment
+Grub-Crystal_Peak_Mimic: Dashmaster
+Grub-Crystal_Peak_Crushers: Whispering_Root-Spirits_Glade
+Grub-Crystal_Heart: Grub
+Grub-Hallownest_Crown: Grub
+Grub-Howling_Cliffs: Grub
+Grub-Queen's_Gardens_Stag: Mask_Shard
+Grub-Queen's_Gardens_Marmu: Grub
+Grub-Queen's_Gardens_Top: Charm_Notch
+Grub-Collector_1: Mask_Shard
+Grub-Collector_2: Soul_Refill
+Grub-Collector_3: Stag_Nest_Stag
+Mimic_Grub-Deepnest_1: Mimic_Grub
+Mimic_Grub-Deepnest_2: Mimic_Grub
+Mimic_Grub-Deepnest_3: Mimic_Grub
+Mimic_Grub-Crystal_Peak: Mimic_Grub
+Crossroads_Map: Shopkeeper's_Key
+Greenpath_Map: City_of_Tears_Map
+Fog_Canyon_Map: Lumafly_Lantern
+Fungal_Wastes_Map: Soul_Catcher
+Deepnest_Map-Upper: Grub
+Deepnest_Map-Right: Lifeblood_Core
+Ancient_Basin_Map: Shade_Cloak
+Kingdom's_Edge_Map: Kingdom's_Edge_Map
+City_of_Tears_Map: Grub
+Royal_Waterways_Map: Boss_Geo-Massive_Moss_Charger
+Howling_Cliffs_Map: Grub
+Crystal_Peak_Map: Grimmchild2
+Queen's_Gardens_Map: Hiveblood
+Resting_Grounds_Map: Mothwing_Cloak
+Dirtmouth_Stag: Elevator_Pass
+Crossroads_Stag: Hidden_Station_Stag
+Greenpath_Stag: Grub
+Queen's_Station_Stag: Howling_Wraiths
+Queen's_Gardens_Stag: City_Storerooms_Stag
+City_Storerooms_Stag: Boss_Geo-Vengefly_King
+King's_Station_Stag: Soul_Refill
+Resting_Grounds_Stag: Mask_Shard
+Distant_Village_Stag: Geo_Chest-Crystal_Peak
+Hidden_Station_Stag: Fragile_Strength
+Stag_Nest_Stag: Charm_Notch
+Lifeblood_Cocoon-King's_Pass: Lifeblood_Cocoon_Small
+Lifeblood_Cocoon-Ancestral_Mound: Lifeblood_Cocoon_Small
+Lifeblood_Cocoon-Greenpath: Lifeblood_Cocoon_Small
+Lifeblood_Cocoon-Fog_Canyon_West: Lifeblood_Cocoon_Large
+Lifeblood_Cocoon-Mantis_Village: Lifeblood_Cocoon_Small
+Lifeblood_Cocoon-Failed_Tramway: Lifeblood_Cocoon_Small
+Lifeblood_Cocoon-Galien: Lifeblood_Cocoon_Large
+Lifeblood_Cocoon-Kingdom's_Edge: Lifeblood_Cocoon_Large
+Grimmkin_Flame-City_Storerooms: Grimmkin_Flame
+Grimmkin_Flame-Greenpath: Grimmkin_Flame
+Grimmkin_Flame-Crystal_Peak: Grimmkin_Flame
+Grimmkin_Flame-King's_Pass: Grimmkin_Flame
+Grimmkin_Flame-Resting_Grounds: Grimmkin_Flame
+Grimmkin_Flame-Kingdom's_Edge: Grimmkin_Flame
+Grimmkin_Flame-Fungal_Core: Grimmkin_Flame
+Grimmkin_Flame-Ancient_Basin: Grimmkin_Flame
+Grimmkin_Flame-Hive: Grimmkin_Flame
+Grimmkin_Flame-Brumm: Grimmkin_Flame
+Boss_Geo-Massive_Moss_Charger: Soul_Refill
+Boss_Geo-Gorgeous_Husk: Grub
+Boss_Geo-Sanctum_Soul_Warrior: Grub
+Boss_Geo-Elegant_Soul_Warrior: Grub
+Boss_Geo-Crystal_Guardian: One_Geo
+Boss_Geo-Enraged_Guardian: Mask_Shard
+Boss_Geo-Gruz_Mother: Vessel_Fragment
+Boss_Geo-Vengefly_King: Whispering_Root-Waterways
+Elevator_Pass: Desolate_Dive
+Sly_2: Crossroads_Map
+Sly_3: Pale_Ore
+Sly_4: Geo_Chest-Watcher_Knights
+Sly_5: Whispering_Root-Kingdoms_Edge
+Sly_6: Deep_Focus
+Sly_7: Charm_Notch
+Sly_8: Boss_Essence-Failed_Champion
+Sly_9: Boss_Essence-No_Eyes
+Sly_10: Herrah
+Sly_(Key)_1: Simple_Key
+Sly_(Key)_2: Greenpath_Map
+Sly_(Key)_3: Whispering_Root-Mantis_Village
+Sly_(Key)_4: Grub
+Sly_(Key)_5: Distant_Village_Stag
+Sly_(Key)_6: Left_Mantis_Claw
+Iselda_1: Simple_Key
+Iselda_2: Grub
+Iselda_3: Soul_Refill
+Iselda_4: Whispering_Root-Howling_Cliffs
+Iselda_5: Grub
+Salubra_1: Great_Slash
+Salubra_2: Queen's_Gardens_Stag
+Salubra_3: Mask_Shard
+Salubra_4: Resting_Grounds_Stag
+Salubra_5: Queen_Fragment
+Salubra_(Requires_Charms)_1: Dream_Wielder
+Salubra_(Requires_Charms)_2: Lifeblood_Heart
+Salubra_(Requires_Charms)_3: Grub
+Salubra_(Requires_Charms)_4: Grub
+Salubra_(Requires_Charms)_5: Spore_Shroom
+Leg_Eater_1: Boss_Essence-Elder_Hu
+Leg_Eater_2: Salubra's_Blessing
+Leg_Eater_3: Soul_Refill
+Grubfather_2: Dream_Gate
+Grubfather_3: Spell_Twister
+Grubfather_4: Mask_Shard
+Grubfather_5: Vengeful_Spirit
+Grubfather_6: Dream_Nail
+Grubfather_7: Grubberfly's_Elegy
+Seer_1: Dash_Slash
+Seer_2: Vessel_Fragment
+Seer_3: Gathering_Swarm
+Seer_4: Grub
+Seer_5: Boss_Geo-Gruz_Mother
+Seer_6: Vessel_Fragment
+Seer_7: Grub
+Seer_8: Right_Crystal_Heart
+Sly_11: Grubsong
+Seer_9: Charm_Notch
+Leg_Eater_4: Godtuner
+Leg_Eater_5: King's_Brand
+Leg_Eater_6: Shape_of_Unn
+Sly_12: One_Geo
+Seer_10: Pale_Ore
+Leg_Eater_7: Crystal_Peak_Map
+Sly_(Key)_7: Pale_Ore
+Sly_13: Defender's_Crest
+
+Playthrough:
+
+0: {
+  Gathering_Swarm
+  Tutorial_01
+  Upslash
+}
+1: {
+  Tutorial_01[right1]: Town[left1]
+}
+2: {
+  Town: Town
+}
+3: {
+  Town[bot1]: Crossroads_01[top1]
+  Town[door_mapper]: Room_mapper[left1]
+}
+4: {
+  Crossroads_01[left1]: Crossroads_07[right1]
+  Crossroads_01[right1]: Crossroads_02[left1]
+  Iselda_2: Grub
+}
+5: {
+  Crossroads_02[door1]: Room_temple[left1]
+  Crossroads_02[right1]: Crossroads_39[left1]
+  Crossroads_07: Crossroads_07
+}
+6: {
+  Crossroads_07[bot1]: Crossroads_33[top1]
+  Crossroads_07[left1]: Crossroads_38[right1]
+  Crossroads_07[left2]: Crossroads_11_alt[right1]
+  Crossroads_39[right1]: Crossroads_14[left1]
+}
+7: {
+  Crossroads_14: Crossroads_14
+  Crossroads_33: Crossroads_33
+  Grubfather_2: Dream_Gate
+}
+8: {
+  Crossroads_14[right1]: Crossroads_48[left1]
+  Crossroads_33[right2]: Crossroads_08[left1]
+  Crossroads_Map: Shopkeeper's_Key
+}
+9: {
+  Crossroads_08: Crossroads_08
+  Grub-Crossroads_Guarded: Cyclone_Slash
+}
+10: {
+  Crossroads_08[left2]: Crossroads_18[right1]
+  Crossroads_08[right2]: Crossroads_13[left1]
+}
+11: {
+  Crossroads_13[right1]: Crossroads_42[left1]
+}
+12: {
+  Crossroads_42[right1]: Crossroads_19[left1]
+}
+13: {
+  Crossroads_19: Crossroads_19
+}
+14: {
+  Crossroads_19[left2]: Crossroads_43[right1]
+  Crossroads_19[right1]: Crossroads_04[left1]
+  Crossroads_19[top1]: Crossroads_03[bot1]
+}
+15: {
+  Crossroads_03: Crossroads_03
+  Crossroads_43[left1]: Crossroads_49[right1]
+  Defeated_Gruz_Mother: Defeated_Gruz_Mother
+}
+16: {
+  Crossroads_03[left2]: Crossroads_47[right1]
+  Crossroads_04[door1]: Room_ruinhouse[left1]
+  Grub-Crossroads_Stag: Boss_Essence-Grey_Prince_Zote
+}
+17: {
+  Can_Stag: Can_Stag
+  Crossroads_Stag: Hidden_Station_Stag
+  Grubfather_5: Vengeful_Spirit
+  Rescued_Sly: Rescued_Sly
+}
+18: {
+  Abyss_22[left1]: Abyss_05[right1]
+  Crossroads_11_alt[left1]: Fungus1_01[right1]
+  Dirtmouth_Stag: Elevator_Pass
+  Town[door_sly]: Room_shop[left1]
+}
+19: {
+  Abyss_05: Abyss_05
+  Fungus1_01[left1]: Fungus1_01b[right1]
+  Left_Elevator: Left_Elevator
+  Sly_(Key)_4: Grub
+  Sly_(Key)_6: Left_Mantis_Claw
+  Sly_10: Herrah
+  Sly_8: Boss_Essence-Failed_Champion
+}
+20: {
+  Abyss_05[left1]: Abyss_04[right1]
+  Crossroads_49b[right1]: Ruins1_28[left1]
+  Fungus1_01b[left1]: Fungus1_02[right1]
+  Iselda_5: Grub
+  Mask_Shard-Crossroads_Goam: Grub
+}
+21: {
+  Abyss_04: Abyss_04
+  Ancient_Basin_Map: Shade_Cloak
+  Fungus1_02[right2]: Fungus1_06[left1]
+  Ruins1_28[left1]: Crossroads_49b[right1]
+}
+22: {
+  Abyss_04[top1]: Abyss_03[bot2]
+  Crossroads_04[door_charmshop]: Room_Charm_Shop[left1]
+  Crossroads_18: Crossroads_18
+  Elevator_Pass: Desolate_Dive
+  Fungus1_06[bot1]: Fungus1_07[top1]
+}
+23: {
+  Abyss_03: Abyss_03
+  Crossroads_18[bot1]: Fungus2_06[top1]
+  Fungus1_07[left1]: Fungus1_19[right1]
+  Salubra_1: Great_Slash
+  Salubra_4: Resting_Grounds_Stag
+  Salubra_5: Queen_Fragment
+}
+24: {
+  Abyss_03[top1]: Abyss_02[bot1]
+  Fungus1_19[bot1]: Fungus1_11[top1]
+  Fungus2_06: Fungus2_06
+  RestingGrounds_09[left1]: RestingGrounds_05[right2]
+  Resting_Grounds_Map: Mothwing_Cloak
+}
+25: {
+  Abyss_02[right1]: Abyss_01[left3]
+  Fungus1_11: Fungus1_11
+  Fungus2_06[left1]: Fungus2_05[right1]
+  Fungus2_06[right2]: Fungus2_07[left1]
+  RestingGrounds_05: RestingGrounds_05
+}
+26: {
+  Defeated_Shrumal_Ogre_Arena: Defeated_Shrumal_Ogre_Arena
+  Fungus1_11[bot1]: Fungus3_01[top1]
+  Fungus1_11[left1]: Fungus1_29[right1]
+  Fungus2_07[right1]: Fungus2_08[left1]
+  RestingGrounds_05[bot1]: RestingGrounds_10[top1]
+  RestingGrounds_05[left2]: RestingGrounds_07[right1]
+}
+27: {
+  Charm_Notch-Shrumal_Ogres: Swim
+  Fungus1_29[left1]: Fungus1_12[right1]
+  Fungus2_08[left2]: Fungus2_09[right1]
+  Fungus3_01: Fungus3_01
+  Opened_Glade_Door: Opened_Glade_Door
+  RestingGrounds_10: RestingGrounds_10
+  Seer_1: Dash_Slash
+}
+28: {
+  Fungus1_12[left1]: Fungus1_13[right1]
+  Fungus2_09[left1]: Fungus2_10[right1]
+  Fungus3_01[right2]: Fungus3_02[left1]
+  Nailmaster's_Glory: Monarch_Wings
+  RestingGrounds_05[right1]: RestingGrounds_08[left1]
+  RestingGrounds_10[left1]: Ruins2_10[right1]
+}
+29: {
+  Abyss_01: Abyss_01
+  Fungus2_10[bot1]: Fungus2_11[top1]
+  Fungus3_02: Fungus3_02
+  Right_Elevator: Right_Elevator
+  Vessel_Fragment-Greenpath: Lurien
+  Whispering_Root-Spirits_Glade: King_Fragment
+}
+30: {
+  Abyss_01[right1]: Ruins2_04[left2]
+  Fungus2_11: Fungus2_11
+  Fungus3_02[right2]: Fungus2_01[left1]
+  Ruins2_10b[right2]: Ruins2_05[left1]
+}
+31: {
+  Fungus2_01: Fungus2_01
+  Fungus2_11[left2]: Fungus2_17[right1]
+  Ruins2_04: Ruins2_04
+  Ruins2_05[bot1]: Ruins2_06[top1]
+}
+32: {
+  Fungus2_17: Fungus2_17
+  Mask_Shard-Queen's_Station: Isma's_Tear
+  Ruins2_04[left1]: Ruins2_01_b[right1]
+  Ruins2_06[right2]: Ruins2_07[left1]
+}
+33: {
+  Fungus2_17[bot1]: Fungus2_14[top1]
+  Ruins2_01_b: Ruins2_01_b
+  Ruins2_07[right1]: Deepnest_East_03[left1]
+}
+34: {
+  Deepnest_East_03: Deepnest_East_03
+  Fungus2_14: Fungus2_14
+  Ruins2_01_b[top1]: Ruins2_01[bot1]
+}
+35: {
+  Deepnest_East_03[right1]: Deepnest_East_04[left1]
+  Left_Mantis_Claw: Love_Key
+  Ruins2_01: Ruins2_01
+}
+36: {
+  Deepnest_East_04: Deepnest_East_04
+  Ruins2_01[top1]: Ruins2_03b[bot1]
+}
+37: {
+  Deepnest_East_04[left2]: Deepnest_East_07[right1]
+  Ruins2_03b: Ruins2_03b
+}
+38: {
+  Deepnest_East_07: Deepnest_East_07
+  Ruins2_03b[top1]: Ruins2_03[bot1]
+}
+39: {
+  Deepnest_East_07[left2]: Ruins2_11_b[right1]
+  Defeated_Watcher_Knights: Defeated_Watcher_Knights
+}
+40: {
+  Ruins2_03[top1]: Ruins2_Watcher_Room[bot1]
+  Ruins2_11_b[left1]: Ruins2_11[right1]
+}
+41: {
+  Defeated_Collector: Defeated_Collector
+  Lurien: Void_Heart
+}
+42: {
+  Collector's_Map: Monomon
+}
+43: {
+  Opened_Black_Egg_Temple: Opened_Black_Egg_Temple
+}

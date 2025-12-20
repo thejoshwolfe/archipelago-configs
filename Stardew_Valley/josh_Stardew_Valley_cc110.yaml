@@ -57,7 +57,9 @@ Stardew Valley:
   non_local_items: []
   start_hints: []
   start_location_hints: []
-  exclude_locations: []
+  exclude_locations:
+  # Floor 26 of skull caverns is too far.
+  - Monster Eradication: Iridium Crab
   priority_locations: []
   start_inventory:
     # Watching your character walk is less fun than doing chores.

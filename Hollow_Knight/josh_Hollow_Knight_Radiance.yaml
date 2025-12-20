@@ -1,6 +1,6 @@
 name: josh_hk
 game: Hollow Knight
-description: Defeat Radiance
+description: Defeat Radiance. Relics and eggs are not randomized.
 Hollow Knight:
   progression_balancing: '50'
   accessibility: full
@@ -16,8 +16,8 @@ Hollow Knight:
   RandomizePaleOre: 'true'
   RandomizeGeoChests: 'true'
   RandomizeJunkPitChests: 'false'
-  RandomizeRancidEggs: 'true'
-  RandomizeRelics: 'true'
+  RandomizeRancidEggs: 'false'
+  RandomizeRelics: 'false'
   RandomizeWhisperingRoots: 'true'
   RandomizeBossEssence: 'true'
   RandomizeGrubs: 'true'
@@ -55,10 +55,12 @@ Hollow Knight:
   WhitePalace: exclude
   ExtraPlatforms: 'true'
   AddUnshuffledLocations: 'false'
-  StartingGeo: '500'
+
   DeathLink: 'false'
   DeathLinkShade: shade
   DeathLinkBreaksFragileCharms: 'false'
+
+  StartingGeo: '500'
   MinimumGeoPrice: '1'
   MaximumGeoPrice: '500'
   MinimumGrubPrice: '1'
@@ -70,7 +72,7 @@ Hollow Knight:
   RandomCharmCosts: '70'
   MinimumEggPrice: '1'
   MaximumEggPrice: '2'
-  EggShopSlots: '3'
+  EggShopSlots: '0'
   SlyShopSlots: '10'
   SlyKeyShopSlots: '6'
   IseldaShopSlots: '5'
@@ -85,7 +87,7 @@ Hollow Knight:
   SplitMantisClaw: 'true'
   CostSanity: shopsonly
   CostSanityHybridChance: '10'
-  CostSanityEggWeight: '3'
+  CostSanityEggWeight: '0'
   CostSanityGrubWeight: '3'
   CostSanityEssenceWeight: '5'
   CostSanityCharmWeight: '2'
