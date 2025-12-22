@@ -25,6 +25,8 @@ Jigsaw:
     '31': 1 # 9 Eevees
     '32': 1 # Slay the Spire
     '34': 1 # Eevee wheel
+    '50': 1 # Hollow Knight cast
+    '53': 1 # Kirby's Dream Land 3
 
   enable_clues: 'true'
   minimum_number_of_pieces_per_bundle: '1'
