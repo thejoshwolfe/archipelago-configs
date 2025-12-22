@@ -1,0 +1,534 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Spelunky 2 Template
+
+game: Spelunky 2
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Spelunky 2: 0.3.8 # Version of the world required for this yaml to work as expected.
+
+Spelunky 2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  goal:
+    # When is your world considered finished.
+    # Easy: Requires completing the "normal" ending by reaching 6-4 and defeating Tiamat
+    # Hard: Requires completing the "hard" ending by reaching 7-4 and defeating Hundun
+    # CO: Requires reaching a specified level in Cosmic Ocean
+    easy: 50
+    hard: 0
+    co: 0
+
+  goal_level:
+    # Which level in Cosmic Ocean are you required to clear to consider your game as beaten.
+    # This option can be ignored if your goal is not set to "CO"
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 10
+    # Maximum value is 99
+    30: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-10-99: 0 # random value between 10 and 99
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  bypass_ankh:
+    # Sets whether deaths sent through Death Link will trigger the Ankh, or ignore it.
+    'false': 50
+    'true': 0
+
+  death_link_amnesty_count:
+    # A "grace" count of how many deaths you are allowed before you send a Deathlink out to the multiworld.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  include_hard_locations:
+    # Include the following more problematic journal entries as locations in the AP world:
+    # Magmar, Lavamander, MechSuit, Scorpion + True Crown
+    'false': 50
+    'true': 0
+
+  journal_entry_required:
+    # Should the Journal Entry of an item be required for its Item/Waddler upgrade to take effect?
+    'false': 0
+    'true': 50
+
+  starting_wallet:
+    # Should treasure (gold/emerald/sapphire/ruby/diamond) you receive from other players
+    # increase the amount of gold you begin with after death.
+    'false': 50
+    'true': 0
+
+  starting_characters:
+    # Characters that are immediately selectable. Adding more or less to this will adjust how many character locations you need to visit.
+    # Normally unlocked characters (Ana/Margaret/Colin/Roffy) will show up in shopkeeper locked cages if a hired hand would be there -OR- in Vlad's Castle
+    # If you do not specify ANY then Ana will be the only unlocked character
+    # Options: 
+    # - Alto Singh | Ana Spelunky | Au | Classic Guy | Coco Von Diamonds | Colin Northward | Demi Von Diamonds | Dirk Yamaoka | Guy Spelunky | Lise Project
+    # - Little Jay | Liz Mutton | Manfred Tunnel | Margaret Tunnel | Nekka the Eagle | Pilot | Princess Airyn | Roffy D. Sloth | Tina Flan | Valerie Crump
+    ['Margaret Tunnel', 'Roffy D. Sloth', 'Colin Northward', 'Ana Spelunky']
+
+  progressive_worlds:
+    # Whether new worlds should be unlocked individually or progressively.
+    'false': 0
+    'true': 50
+
+  starting_health:
+    # How much Health should you initially start with.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 10
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-10: 0 # random value between 1 and 10
+
+  health_upgrades:
+    # Increases how much health you will begin with after death.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 30
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-30: 0 # random value between 0 and 30
+
+  starting_bombs:
+    # How many Bombs should you initially start with.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  bomb_upgrades:
+    # Increases how many bombs you will begin with after death.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 30
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-30: 0 # random value between 0 and 30
+
+  starting_ropes:
+    # How many Ropes should you initially start with.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  rope_upgrades:
+    # Increases how many ropes you will begin with after death.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 20
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-20: 0 # random value between 0 and 20
+
+  restricted_items:
+    # Items that are added to the multi-world as progressive and must be found in the multi-world before they can be obtained in the game
+    # Options: 
+    # - Alien Compass | Ankh | Arrow of Light | Camera | Cape | Climbing Gloves | Clone Gun | Compass | Crown | Eggplant
+    # - Eggplant Crown | Elixir | Excalibur | Four-Leaf Clover | Freeze Ray | Hedjet | Hou Yi's Bow | Hoverpack | Jetpack | Kapala
+    # - Machete | Mattock | Paste | Pitcher's Mitt | Plasma Cannon | Powerpack | Scepter | Shield | Skeleton Key | Spectacles
+    # - Spike Shoes | Spring Shoes | Tablet of Destiny | Telepack | Teleporter | True Crown | Udjat Eye | Ushabti | Vlad's Cape | Webgun
+    ['Arrow of Light', 'Udjat Eye', 'Scepter', 'Ushabti', 'Excalibur', 'Alien Compass', 'Crown', "Hou Yi's Bow", 'Hedjet', 'Tablet of Destiny']
+
+  item_upgrades:
+    # Add the following useful items in the multi-world item pool which are kept on death,
+    # AFTER obtaining it's journal entry if 'Journal Entry Required' is true.
+    # Options: 
+    # - Ankh | Camera | Cape | Climbing Gloves | Clone Gun | Compass | Eggplant | Eggplant Crown | Elixir | Four-Leaf Clover
+    # - Freeze Ray | Hoverpack | Jetpack | Kapala | Machete | Mattock | Paste | Pitcher's Mitt | Plasma Cannon | Powerpack
+    # - Shield | Skeleton Key | Spectacles | Spike Shoes | Spring Shoes | Telepack | Teleporter | True Crown | Vlad's Cape | Webgun
+    ['Skeleton Key', 'Elixir', 'Climbing Gloves', 'Spectacles', 'Ankh', 'Spring Shoes', 'Kapala', 'Four-Leaf Clover', 'Paste', 'Compass', 'Spike Shoes']
+
+  waddler_upgrades:
+    # Add the following useful items in the multi-world item pool which are added to Waddler's storage between runs, 
+    # AFTER obtaining it's journal entry if 'Journal Entry Required' is true.
+    # Options (any selected here override options in item_upgrades):
+    # - Alien Compass | Ankh | Arrow of Light | Camera | Cape | Climbing Gloves | Clone Gun | Compass | Crown | Eggplant
+    # - Eggplant Crown | Elixir | Excalibur | Four-Leaf Clover | Freeze Ray | Hedjet | Hou Yi's Bow | Hoverpack | Jetpack | Kapala
+    # - Machete | Mattock | Paste | Pitcher's Mitt | Plasma Cannon | Powerpack | Scepter | Shield | Skeleton Key | Spectacles
+    # - Spike Shoes | Spring Shoes | Tablet of Destiny | Telepack | Teleporter | True Crown | Udjat Eye | Ushabti | Vlad's Cape | Webgun
+    ['Hoverpack', 'Freeze Ray', 'Mattock', 'Telepack', 'Webgun', 'Jetpack', 'Powerpack', 'Shield', "Vlad's Cape", 'Eggplant', 'Camera', 'Clone Gun', 'Teleporter', 'Cape', 'Plasma Cannon', 'Machete']
+
+  can_ankh_skip:
+    # Sets if progression logic should assume you can perform Ankh skipping in Tidepool
+    'false': 50
+    'true': 0
+
+  can_udjat_skip:
+    # Sets if progression logic should assume you can perform Udjat skipping to get into Black Market/Vlad's Castle
+    'false': 50
+    'true': 0
+
+  can_qilin_skip:
+    # Sets if progression logic should assume you can perform Qilin skip
+    'false': 50
+    'true': 0
+
+  can_kingu_skip:
+    # Sets if progression should assume you can kill Kingu without needing Excalibur to break the shell
+    'false': 50
+    'true': 0
+
+  can_mothership_skip:
+    # Sets if progression should assume you know how to find the Mothership without Alien Compass
+    'false': 50
+    'true': 0
+
+  rope_pile_weight:
+    # Sets the likelihood of a filler item being a Rope Pile relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    13: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  bomb_bag_weight:
+    # Sets the likelihood of a filler item being a Bomb Bag relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    13: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  bomb_box_weight:
+    # Sets the likelihood of a filler item being a Bomb Box relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  cooked_turkey_weight:
+    # Sets the likelihood of a filler item being a Cooked Turkey relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    18: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  royal_jelly_weight:
+    # Sets the likelihood of a filler item being a Royal Jelly relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  gold_bar_weight:
+    # Sets the likelihood of a filler item being a Gold Bar relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  emerald_gem_weight:
+    # Sets the likelihood of a filler item being an Emerald relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  sapphire_gem_weight:
+    # Sets the likelihood of a filler item being a Sapphire relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  ruby_gem_weight:
+    # Sets the likelihood of a filler item being a Ruby relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    6: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  diamond_gem_weight:
+    # Sets the likelihood of a filler item being a Diamond relative to others.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  enable_traps:
+    # Whether traps should be included in the item pool.
+    'false': 50
+    'true': 0
+
+  trap_weight:
+    # Determines the percentage of filler items that will be replaced by traps.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 5
+    # Maximum value is 30
+    15: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-5-30: 0 # random value between 5 and 30
+
+  poison_weight:
+    # Sets the likelihood of a trap being a Poison Trap relative to other traps.
+    # Poison Traps will instantly poison the player.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    15: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  curse_weight:
+    # Sets the likelihood of a trap being a Curse Trap relative to other traps.
+    # Curse Traps will instantly curse the player.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  ghost_weight:
+    # Sets the likelihood of a trap being a Ghost Trap relative to other traps.
+    # Ghost Traps will immediately spawn the ghost (or Jelly if in Cosmic Ocean).
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  stun_weight:
+    # Sets the likelihood of a trap being a Stun Trap relative to other traps.
+    # Stun Traps wll stun the player for 1 second.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    25: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  bomb_weight:
+    # Sets the likelihood of a trap being a Loose Bombs Trap relative to other traps.
+    # Loose Bombs Traps will spawn 1 lit bomb at the player's feet every second for 5 seconds.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    15: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  blind_weight:
+    # Sets the likelihood of a trap being a Blindness Trap relative to other traps.
+    # Blindness traps will trigger a darkness effect similar to the "I can't see a thing!" level
+    # feeling for the current level.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  punish_weight:
+    # Sets the likelihood of a trap being a Punish Ball Trap relative to other traps.
+    # Punish Ball Traps will attach a ball and chain to the player for 3 levels.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
