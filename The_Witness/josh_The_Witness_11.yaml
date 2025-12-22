@@ -1,12 +1,12 @@
 name: josh_witness
 game: The Witness
-description: All 11 Lasers plus challenge. Caves shortcut is available.
+description: All 11 Lasers plus challenge. Mountaintop opens at 3 lasers. Caves shortcut might be in the pool. Obelisk sides might be enabled.
 The Witness:
   progression_balancing: '50'
   accessibility: full
   puzzle_randomization: sigma_normal
   victory_condition: challenge
-  mountain_lasers: '7'
+  mountain_lasers: '3'
   challenge_lasers: '11'
   panel_hunt_required_percentage: '63'
   panel_hunt_total: '40'
@@ -14,8 +14,10 @@ The Witness:
   panel_hunt_discourage_same_area_factor: '40'
   panel_hunt_plando: []
   shuffle_discarded_panels: 'true'
-  shuffle_vault_boxes: 'false'
-  shuffle_EPs: individual
+  shuffle_vault_boxes: 'true'
+  shuffle_EPs:
+    'off': 1
+    obelisk_sides: 1
   EP_difficulty: normal
   shuffle_postgame: 'false'
   disable_non_randomized_puzzles: 'true'
@@ -32,7 +34,9 @@ The Witness:
   vague_hints: 'off'
   area_hint_percentage: '0'
   laser_hints: 'false'
-  early_caves: add_to_pool
+  early_caves:
+    'off': 1
+    add_to_pool: 1
   elevators_come_to_you: Quarry Elevator
   death_link: 'false'
   death_link_amnesty: '1'
