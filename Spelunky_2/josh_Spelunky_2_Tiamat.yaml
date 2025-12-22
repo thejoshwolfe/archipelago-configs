@@ -183,7 +183,13 @@ Spelunky 2:
   non_local_items: []
   start_inventory: {}
   start_hints: []
-  start_location_hints: []
+  start_location_hints:
+  # I want to know if I should be trying for Duat
+  - Duat Journal Entry
+  - Ammit Journal Entry
+  - Apep Journal Entry
+  - Anubis II Journal Entry
+  - Osiris Journal Entry
   exclude_locations:
   # Resetting jungle to find bees is not fun.
   - Bee Journal Entry
@@ -197,9 +203,8 @@ Spelunky 2:
   # Make the big milestones special.
   - Quillback Journal Entry
   - Vlad Journal Entry
-  - Kingu Journal Entry
-  - Osiris Journal Entry
-  - Alien Queen Lamahu Journal Entry
+  - Abzu Journal Entry
+  - City of Gold Journal Entry
   item_links: []
   plando_items: []
   progression_balancing: '50'
