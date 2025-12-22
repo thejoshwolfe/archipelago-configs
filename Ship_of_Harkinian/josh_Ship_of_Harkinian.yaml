@@ -47,15 +47,13 @@ Ship of Harkinian:
   shuffle_shops: 'true'
   shuffle_shops_item_amount: '4'
   shuffle_shops_minimum_price: '1'
-  shuffle_shops_maximum_price: '250'
+  shuffle_shops_maximum_price: '210'
   shuffle_scrubs: 'true'
-  shuffle_scrubs_minimum_price: '10'
-  shuffle_scrubs_maximum_price: '50'
+  shuffle_scrubs_minimum_price: '1'
+  shuffle_scrubs_maximum_price: '10'
   shuffle_merchants: all
   shuffle_adult_trade_items: 'true'
-  key_rings:
-    'false': 1
-    'true': 1
+  key_rings: 'true'
   skeleton_key:
     'false': 1
     'true': 1
