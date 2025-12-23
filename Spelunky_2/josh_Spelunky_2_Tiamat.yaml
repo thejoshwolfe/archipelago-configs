@@ -1,5 +1,5 @@
 name: josh_s2
-description: Defeat Tiamat
+description: Defeat Tiamat. Many helpful items are permanent once you find them.
 game: Spelunky 2
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -8,12 +8,7 @@ requires:
 Spelunky 2:
   # Goal is Tiamat
   goal: easy
-  goal_level: '30'
-
-  # Deathlink disabled.
-  death_link: 'false'
-  bypass_ankh: 'false'
-  death_link_amnesty_count: '2'
+  goal_level: '10'
 
   # Locations that give checks.
   # Add 3 additional character unlocks to shops or vlad's castle.
@@ -28,154 +23,75 @@ Spelunky 2:
   - Caveman Shopkeeper Journal Entry
   - Eggplant Journal Entry
   - Eggplant Child Journal Entry
-  start_location_hints:
-  # I want to know if I should be trying for Duat
-  - Duat Journal Entry
-  - Ammit Journal Entry
-  - Apep Journal Entry
-  - Anubis II Journal Entry
-  - Osiris Journal Entry
-  priority_locations:
-  # Make the big milestones special.
-  - Quillback Journal Entry
-  - Vlad Journal Entry
-  - Abzu Journal Entry
-  - City of Gold Journal Entry
+  - Hoverpack Journal Entry
+  - Powerpack Journal Entry
+  start_location_hints: []
 
-  # Vanilla things that must be unlocked.
+  # Vanilla things that must be unlocked by items in the multiworld.
   progressive_worlds: 'true'
   restricted_items:
-    - Alien Compass
-    #- Ankh
-    - Arrow of Light
-    #- Camera
-    #- Cape
-    #- Climbing Gloves
-    #- Clone Gun
-    #- Compass
-    - Crown
-    #- Eggplant
-    #- Eggplant Crown
-    #- Elixir
-    - Excalibur
-    #- Four-Leaf Clover
-    #- Freeze Ray
-    - Hedjet
-    - Hou Yi's Bow
-    #- Hoverpack
-    #- Jetpack
-    #- Kapala
-    #- Machete
-    #- Mattock
-    #- Paste
-    #- Pitcher's Mitt
-    #- Plasma Cannon
-    #- Powerpack
-    - Scepter
-    #- Shield
-    #- Skeleton Key
-    #- Spectacles
-    #- Spike Shoes
-    #- Spring Shoes
-    - Tablet of Destiny
-    #- Telepack
-    #- Teleporter
-    #- True Crown
+    # The best mobility needs to be unlocked.
+    - Jetpack
+    # Some QoL needs to be unlocked.
+    - Compass
+    - Four-Leaf Clover
+    - Paste
     - Udjat Eye
-    - Ushabti
-    #- Vlad's Cape
-    #- Webgun
+  start_hints:
+    # Tell me the critical path.
+    - Progressive World Unlock
 
   # Permanent upgrades.
   starting_health: '4'
-  health_upgrades: '10'
+  health_upgrades: '16'
   starting_bombs: '4'
-  bomb_upgrades: '10'
+  bomb_upgrades: '16'
   starting_ropes: '4'
-  rope_upgrades: '10'
+  rope_upgrades: '16'
   starting_wallet: 'true' # Treasure items received are permanent.
-
-  journal_entry_required: 'true' # item_upgrades and waddler_upgrades require both the journal entry and receiving the item.
   item_upgrades:
+    # Once obtained, you start every run with these items.
     - Ankh
-    #- Camera
-    #- Cape
-    #- Climbing Gloves
-    #- Clone Gun
     - Compass
-    #- Eggplant
-    #- Eggplant Crown
     - Elixir
     - Four-Leaf Clover
-    #- Freeze Ray
-    #- Hoverpack
-    #- Jetpack
+    - Jetpack
     - Kapala
-    #- Machete
-    #- Mattock
     - Paste
-    #- Pitcher's Mitt
-    #- Plasma Cannon
-    #- Powerpack
-    #- Shield
+    - Pitcher's Mitt
     - Skeleton Key
     - Spectacles
     - Spike Shoes
     - Spring Shoes
-    #- Telepack
-    #- Teleporter
-    #- True Crown
-    #- Vlad's Cape
-    #- Webgun
-  waddler_upgrades:
-    # overrides item_upgrades.
-    #- Alien Compass
-    #- Ankh
-    #- Arrow of Light
-    - Camera
-    - Cape
-    #- Climbing Gloves
-    - Clone Gun
-    #- Compass
-    #- Crown
-    - Eggplant
-    #- Eggplant Crown
-    #- Elixir
-    #- Excalibur
-    #- Four-Leaf Clover
-    - Freeze Ray
-    #- Hedjet
-    #- Hou Yi's Bow
-    - Hoverpack
-    - Jetpack
-    #- Kapala
-    - Machete
-    - Mattock
-    #- Paste
-    #- Pitcher's Mitt
-    - Plasma Cannon
-    - Powerpack
-    #- Scepter
-    - Shield
-    #- Skeleton Key
-    #- Spectacles
-    #- Spike Shoes
-    #- Spring Shoes
-    #- Tablet of Destiny
-    - Telepack
-    - Teleporter
-    #- True Crown
-    #- Udjat Eye
-    #- Ushabti
     - Vlad's Cape
-    - Webgun
-
-  # Logic
-  can_ankh_skip: 'false'
-  can_udjat_skip: 'false'
-  can_qilin_skip: 'false'
-  can_kingu_skip: 'false'
-  can_mothership_skip: 'false'
+  waddler_upgrades:
+    # Once obtained, Waddler will always stock these items.
+    - Plasma Cannon
+    # You might want this, but not always.
+    - Climbing Gloves
+    # These are not allowed in item_upgrades for some reason.
+    - Alien Compass
+    - Hedjet
+  journal_entry_required: 'true'
+  start_inventory:
+    # Start with the "upgrade", meaning only the journal entry (and possibly the unlock) is required to obtain the item permanently.
+    Ankh Upgrade: 1
+    Compass Upgrade: 1
+    Elixir Upgrade: 1
+    Four-Leaf Clover Upgrade: 1
+    Jetpack Upgrade: 1
+    Kapala Upgrade: 1
+    Paste Upgrade: 1
+    Pitcher's Mitt Upgrade: 1
+    Skeleton Key Upgrade: 1
+    Spectacles Upgrade: 1
+    Spike Shoes Upgrade: 1
+    Spring Shoes Upgrade: 1
+    Vlad's Cape Upgrade: 1
+    Plasma Cannon Upgrade: 1
+    Climbing Gloves Upgrade: 1
+    Alien Compass Upgrade: 1
+    Hedjet Upgrade: 1
 
   # Filler items
   rope_pile_weight: '13'
@@ -191,7 +107,7 @@ Spelunky 2:
 
   # Traps
   enable_traps: 'true'
-  trap_weight: '10' # I think this is a percentage, not a weight.
+  trap_weight: '5' # I think this is a percentage, not a weight.
   ghost_weight: '25'
   bomb_weight: '15'
   poison_weight: '15'
@@ -200,11 +116,22 @@ Spelunky 2:
   blind_weight: '0'
   punish_weight: '0'
 
+  # No skips in logic.
+  can_ankh_skip: 'false'
+  can_udjat_skip: 'false'
+  can_qilin_skip: 'false'
+  can_kingu_skip: 'false'
+  can_mothership_skip: 'false'
+
+  # Deathlink disabled.
+  death_link: 'false'
+  bypass_ankh: 'false'
+  death_link_amnesty_count: '2'
+
   local_items: []
   non_local_items: []
-  start_inventory: {}
-  start_hints: []
   item_links: []
+  priority_locations: []
   plando_items: []
   progression_balancing: '50'
   accessibility: full

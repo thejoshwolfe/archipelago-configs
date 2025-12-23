@@ -1,4 +1,4 @@
-﻿Archipelago Version 0.6.6  -  Seed: 88426547804591745385
+﻿Archipelago Version 0.6.6  -  Seed: 45541377065864482301
 
 Filling Algorithm:               balanced
 Players:                         1
@@ -9,10 +9,10 @@ Progression Balancing:           50
 Accessibility:                   Full
 Local Items:                     
 Non-local Items:                 
-Start Inventory:                 Ankh Upgrade: 1, Compass Upgrade: 1, Elixir Upgrade: 1, Four-Leaf Clover Upgrade: 1, Jetpack Upgrade: 1, Kapala Upgrade: 1, Paste Upgrade: 1, Pitcher's Mitt Upgrade: 1, Skeleton Key Upgrade: 1, Spectacles Upgrade: 1, Spike Shoes Upgrade: 1, Spring Shoes Upgrade: 1, Vlad's Cape Upgrade: 1, Alien Compass Upgrade: 1, Eggplant Upgrade: 1, Plasma Cannon Upgrade: 1
+Start Inventory:                 Ankh Upgrade: 1, Compass Upgrade: 1, Elixir Upgrade: 1, Four-Leaf Clover Upgrade: 1, Jetpack Upgrade: 1, Kapala Upgrade: 1, Paste Upgrade: 1, Pitcher's Mitt Upgrade: 1, Skeleton Key Upgrade: 1, Spectacles Upgrade: 1, Spike Shoes Upgrade: 1, Spring Shoes Upgrade: 1, Vlad's Cape Upgrade: 1, Hou Yi's Bow Upgrade: 1, Arrow of Light Upgrade: 1, Eggplant Upgrade: 1, Plasma Cannon Upgrade: 1, Climbing Gloves Upgrade: 1, Alien Compass Upgrade: 1, Hedjet Upgrade: 1
 Start Hints:                     Arrow of Light, Hou Yi's Bow, Progressive World Unlock
 Start Location Hints:            
-Excluded Locations:              Bee Journal Entry, Caveman Shopkeeper Journal Entry, Eggplant Child Journal Entry, Eggplant Journal Entry, Queen Bee Journal Entry, Royal Jelly Journal Entry, Tadpole Journal Entry
+Excluded Locations:              Bee Journal Entry, Caveman Shopkeeper Journal Entry, Eggplant Child Journal Entry, Eggplant Journal Entry, Hoverpack Journal Entry, Powerpack Journal Entry, Queen Bee Journal Entry, Royal Jelly Journal Entry, Tadpole Journal Entry
 Priority Locations:              
 Item Links:                      
 Plando Items:                    
@@ -27,14 +27,14 @@ Increase Starting Wallet:        Yes
 Starting Characters:             Margaret Tunnel
 Progressive Worlds:              Yes
 Starting Health:                 4
-Progressive Health:              8
+Progressive Health:              16
 Starting Bombs:                  4
 Starting Bombs Upgrades:         16
 Starting Ropes:                  4
-Starting Rope Upgrades:          6
+Starting Rope Upgrades:          16
 Restricted Items:                Arrow of Light, Compass, Four-Leaf Clover, Hou Yi's Bow, Jetpack, Paste, Udjat Eye
 Item Upgrades:                   Ankh, Compass, Elixir, Four-Leaf Clover, Jetpack, Kapala, Paste, Pitcher's Mitt, Skeleton Key, Spectacles, Spike Shoes, Spring Shoes, Vlad's Cape
-Waddler Items:                   Alien Compass, Eggplant, Plasma Cannon
+Waddler Items:                   Alien Compass, Arrow of Light, Climbing Gloves, Eggplant, Hedjet, Hou Yi's Bow, Plasma Cannon
 can_ankh_skip:                   No
 can_udjat_skip:                  No
 can_qilin_skip:                  No
@@ -51,7 +51,7 @@ Sapphire Gem Weight:             8
 Ruby Gem Weight:                 6
 Diamond Gem Weight:              2
 Enable Traps:                    Yes
-Trap Percentage:                 10
+Trap Percentage:                 5
 Poison Trap Weight:              15
 Curse Trap Weight:               5
 Ghost Trap Weight:               25
@@ -76,217 +76,221 @@ Spectacles Upgrade
 Spike Shoes Upgrade
 Spring Shoes Upgrade
 Vlad's Cape Upgrade
-Alien Compass Upgrade
+Hou Yi's Bow Upgrade
+Arrow of Light Upgrade
 Eggplant Upgrade
 Plasma Cannon Upgrade
+Climbing Gloves Upgrade
+Alien Compass Upgrade
+Hedjet Upgrade
 
 Locations:
 
-Tablet of Destiny Journal Entry: Elixir Upgrade
-Dwelling Journal Entry: Health Upgrade
-Alto Singh Journal Entry: Ghost Trap
-Hired Hand Journal Entry: Little Jay
-Shopkeeper Journal Entry: Spike Shoes Upgrade
-Yang Journal Entry: Sapphire Gem
-Ghist Shopkeeper Journal Entry: Bomb Box
-Snake Journal Entry: Colin Northward
+Tablet of Destiny Journal Entry: Cooked Turkey
+Dwelling Journal Entry: Ruby Gem
+Alto Singh Journal Entry: Health Upgrade
+Hired Hand Journal Entry: Ruby Gem
+Shopkeeper Journal Entry: Paste Upgrade
+Yang Journal Entry: Bomb Upgrade
+Ghist Shopkeeper Journal Entry: Cooked Turkey
+Snake Journal Entry: Cooked Turkey
 Spider Journal Entry: Rope Upgrade
-Bat Journal Entry: Progressive World Unlock
-Caveman Journal Entry: Rope Pile
-Skeleton Journal Entry: Cooked Turkey
-Horned Lizard Journal Entry: Gold Bar
-Cave Mole Journal Entry: Ghost Trap
-Quillback Journal Entry: Cosmic Ocean Checkpoint
-Scarab Journal Entry: Cooked Turkey
-Monty Journal Entry: Cooked Turkey
-Percy Journal Entry: Cooked Turkey
-Poochi Journal Entry: Rope Upgrade
-Ghost Journal Entry: Bomb Upgrade
-Cave Turkey Journal Entry: Ruby Gem
-Rope Pile Journal Entry: Bomb Bag
-Bomb Bag Journal Entry: Ghost Trap
-Bomb Box Journal Entry: Spectacles Upgrade
-Udjat Eye Journal Entry: Royal Jelly
-Shotgun Journal Entry: Bomb Upgrade
-Crossbow Journal Entry: Cooked Turkey
-Idol Journal Entry: Princess Airyn
-Curse Pot Journal Entry: Rope Pile
-Cooked Turkey Journal Entry: Coco Von Diamonds
-Spikes Journal Entry: Gold Bar
-Arrow Trap Journal Entry: Rope Pile
-Totem Trap Journal Entry: Loose Bombs Trap
-Log Trap Journal Entry: Cooked Turkey
-Jungle Journal Entry: Bomb Box
-Liz Mutton Journal Entry: Ghost Trap
-Parsley Journal Entry: Progressive World Unlock
-Parsnip Journal Entry: Rope Pile
-Parmesan Journal Entry: Liz Mutton
-Mantrap Journal Entry: Cooked Turkey
-Tiki Man Journal Entry: Bomb Upgrade
-Witch Doctor Journal Entry: Jetpack
-Mosquito Journal Entry: Loose Bombs Trap
-Monkey Journal Entry: Bomb Upgrade
-Hang Spider Journal Entry: Tina Flan
-Giant Spider Journal Entry: Paste
-Bee Journal Entry: Royal Jelly
-Queen Bee Journal Entry: Nekka the Eagle
-Paste Journal Entry: Lise Project
-Royal Jelly Journal Entry: Rope Pile
-Boomerang Journal Entry: Emerald Gem
-Wooden Shield Journal Entry: Rope Upgrade
-Spear Trap Journal Entry: Bomb Box
-Thorny Vine Journal Entry: Pitcher's Mitt Upgrade
-Bear Trap Journal Entry: Health Upgrade
-Volcana Journal Entry: Eggplant Upgrade
-Lise Project Journal Entry: Au
+Bat Journal Entry: Gold Bar
+Caveman Journal Entry: Gold Bar
+Skeleton Journal Entry: Bomb Bag
+Horned Lizard Journal Entry: Manfred Tunnel
+Cave Mole Journal Entry: Ankh Upgrade
+Quillback Journal Entry: Jetpack Upgrade
+Scarab Journal Entry: Bomb Upgrade
+Monty Journal Entry: Progressive World Unlock
+Percy Journal Entry: Gold Bar
+Poochi Journal Entry: Cooked Turkey
+Ghost Journal Entry: Rope Pile
+Cave Turkey Journal Entry: Gold Bar
+Rope Pile Journal Entry: Sapphire Gem
+Bomb Bag Journal Entry: Bomb Bag
+Bomb Box Journal Entry: Emerald Gem
+Udjat Eye Journal Entry: Loose Bombs Trap
+Shotgun Journal Entry: Arrow of Light
+Crossbow Journal Entry: Rope Upgrade
+Idol Journal Entry: Sapphire Gem
+Curse Pot Journal Entry: Cooked Turkey
+Cooked Turkey Journal Entry: Plasma Cannon Upgrade
+Spikes Journal Entry: Bomb Box
+Arrow Trap Journal Entry: Bomb Upgrade
+Totem Trap Journal Entry: Royal Jelly
+Log Trap Journal Entry: Sapphire Gem
+Jungle Journal Entry: Ruby Gem
+Liz Mutton Journal Entry: Spectacles Upgrade
+Parsley Journal Entry: Gold Bar
+Parsnip Journal Entry: Health Upgrade
+Parmesan Journal Entry: Pilot
+Mantrap Journal Entry: Bomb Bag
+Tiki Man Journal Entry: Rope Upgrade
+Witch Doctor Journal Entry: Dirk Yamaoka
+Mosquito Journal Entry: Rope Upgrade
+Monkey Journal Entry: Gold Bar
+Hang Spider Journal Entry: Rope Upgrade
+Giant Spider Journal Entry: Elixir Upgrade
+Bee Journal Entry: Emerald Gem
+Queen Bee Journal Entry: Gold Bar
+Paste Journal Entry: Gold Bar
+Royal Jelly Journal Entry: Bomb Bag
+Boomerang Journal Entry: Progressive World Unlock
+Wooden Shield Journal Entry: Compass Upgrade
+Spear Trap Journal Entry: Rope Pile
+Thorny Vine Journal Entry: Diamond Gem
+Bear Trap Journal Entry: Hedjet Upgrade
+Volcana Journal Entry: Spring Shoes Upgrade
+Lise Project Journal Entry: Emerald Gem
 Van Horsing Journal Entry: Bomb Box
-Robot Journal Entry: Gold Bar
+Robot Journal Entry: Poison Trap
 Fire Bug Journal Entry: Rope Pile
-Imp Journal Entry: Cooked Turkey
-Rock Dog Journal Entry: Kapala Upgrade
-Powder Box Journal Entry: Sapphire Gem
-Falling Platform Journal Entry: Rope Pile
-Spikeball Journal Entry: Skeleton Key Upgrade
-Olmec's Lair Journal Entry: Plasma Cannon Upgrade
-Manfred Tunnel Journal Entry: Bomb Upgrade
-Waddler Journal Entry: Emerald Gem
-Olmec Journal Entry: Rope Upgrade
-Parachute Journal Entry: Royal Jelly
+Imp Journal Entry: Gold Bar
+Rock Dog Journal Entry: Rope Upgrade
+Powder Box Journal Entry: Gold Bar
+Falling Platform Journal Entry: Progressive World Unlock
+Spikeball Journal Entry: Bomb Upgrade
+Olmec's Lair Journal Entry: Royal Jelly
+Manfred Tunnel Journal Entry: Bomb Bag
+Waddler Journal Entry: Cooked Turkey
+Olmec Journal Entry: Bomb Box
+Parachute Journal Entry: Compass Upgrade
 Ankh Journal Entry: Bomb Upgrade
-Tide Pool Journal Entry: Rope Pile
-Little Jay Journal Entry: Rope Pile
-Madame Tusk Journal Entry: Poison Trap
-Tusk's Bodyguard Journal Entry: Cooked Turkey
-Caveman Shopkeeper Journal Entry: Cooked Turkey
-Jiangshi Journal Entry: Udjat Eye
-Jiangshi Assassin Journal Entry: Royal Jelly
-Flying Fish Journal Entry: Ruby Gem
-Octopy Journal Entry: Jetpack Upgrade
-Hermit Crab Journal Entry: Ruby Gem
-Pangxie Journal Entry: Bomb Bag
-Great Humphead Journal Entry: Manfred Tunnel
-Ghist Journal Entry: Cooked Turkey
-Axolotl Journal Entry: Rope Pile
-Clone Gun Journal Entry: Rope Pile
-Camera Journal Entry: Royal Jelly
-Excalibur Journal Entry: Cooked Turkey
-Broken Sword Journal Entry: Bomb Bag
-Metal Shield Journal Entry: Bomb Bag
-The Tusk Idol Journal Entry: Rope Pile
-Eggplant Journal Entry: Alto Singh
-Lion Trap Journal Entry: Arrow of Light
-Giant Clam Journal Entry: Bomb Bag
-Sliding Wall Journal Entry: Four-Leaf Clover
-Temple Journal Entry: Rope Pile
-Valerie Crump Journal Entry: Health Upgrade
-Crocman Journal Entry: Bomb Bag
-Cobra Journal Entry: Bomb Upgrade
-Mummy Journal Entry: Bomb Upgrade
-Sorceress Journal Entry: Dirk Yamaoka
-Cat Mummy Journal Entry: Compass Upgrade
-Necromancer Journal Entry: Hou Yi's Bow
-Anubis Journal Entry: Rope Pile
+Tide Pool Journal Entry: Princess Airyn
+Little Jay Journal Entry: Health Upgrade
+Madame Tusk Journal Entry: Cooked Turkey
+Tusk's Bodyguard Journal Entry: Hou Yi's Bow Upgrade
+Caveman Shopkeeper Journal Entry: Bomb Bag
+Jiangshi Journal Entry: Cooked Turkey
+Jiangshi Assassin Journal Entry: Cooked Turkey
+Flying Fish Journal Entry: Cooked Turkey
+Octopy Journal Entry: Four-Leaf Clover
+Hermit Crab Journal Entry: Cooked Turkey
+Pangxie Journal Entry: Emerald Gem
+Great Humphead Journal Entry: Ruby Gem
+Ghist Journal Entry: Bomb Upgrade
+Axolotl Journal Entry: Gold Bar
+Clone Gun Journal Entry: Health Upgrade
+Camera Journal Entry: Rope Upgrade
+Excalibur Journal Entry: Valerie Crump
+Broken Sword Journal Entry: Colin Northward
+Metal Shield Journal Entry: Bomb Box
+The Tusk Idol Journal Entry: Diamond Gem
+Eggplant Journal Entry: Bomb Bag
+Lion Trap Journal Entry: Progressive World Unlock
+Giant Clam Journal Entry: Bomb Upgrade
+Sliding Wall Journal Entry: Bomb Bag
+Temple Journal Entry: Bomb Bag
+Valerie Crump Journal Entry: Udjat Eye
+Crocman Journal Entry: Rope Upgrade
+Cobra Journal Entry: Pitcher's Mitt Upgrade
+Mummy Journal Entry: Kapala Upgrade
+Sorceress Journal Entry: Cooked Turkey
+Cat Mummy Journal Entry: Bomb Upgrade
+Necromancer Journal Entry: Bomb Bag
+Anubis Journal Entry: Cooked Turkey
 Scepter Journal Entry: Health Upgrade
-Elixir Journal Entry: Progressive World Unlock
-Crush Trap Journal Entry: Gold Bar
-Giant Crush Trap Journal Entry: Health Upgrade
-Ice Caves Journal Entry: Spring Shoes Upgrade
-Demi Von Diamonds Journal Entry: Sapphire Gem
-Eggplant Child Journal Entry: Bomb Bag
-UFO Journal Entry: Sapphire Gem
-Alien Journal Entry: Bomb Bag
-Yeti Journal Entry: Rope Pile
-Yeti King Journal Entry: Cooked Turkey
-Yeti Queen Journal Entry: Sapphire Gem
-Spike Shoes Journal Entry: Ruby Gem
-Compass Journal Entry: Bomb Upgrade
-Boulder Journal Entry: Cooked Turkey
-Spring Trap Journal Entry: Ana Spelunky
-Landmine Journal Entry: Compass
+Elixir Journal Entry: Health Upgrade
+Crush Trap Journal Entry: Guy Spelunky
+Giant Crush Trap Journal Entry: Gold Bar
+Ice Caves Journal Entry: Cooked Turkey
+Demi Von Diamonds Journal Entry: Rope Pile
+Eggplant Child Journal Entry: Ruby Gem
+UFO Journal Entry: Gold Bar
+Alien Journal Entry: Sapphire Gem
+Yeti Journal Entry: Health Upgrade
+Yeti King Journal Entry: Bomb Upgrade
+Yeti Queen Journal Entry: Health Upgrade
+Spike Shoes Journal Entry: Progressive World Unlock
+Compass Journal Entry: Health Upgrade
+Boulder Journal Entry: Alto Singh
+Spring Trap Journal Entry: Four-Leaf Clover Upgrade
+Landmine Journal Entry: Bomb Bag
 Neo Babylon Journal Entry: Gold Bar
-Princess Airyn Journal Entry: Cooked Turkey
-Guy Spelunky Journal Entry: Cooked Turkey
-Olmite Journal Entry: Bomb Bag
+Princess Airyn Journal Entry: Rope Pile
+Guy Spelunky Journal Entry: Spike Shoes Upgrade
+Olmite Journal Entry: Cooked Turkey
 Lamassu Journal Entry: Gold Bar
-Tiamat Journal Entry: Vlad's Cape Upgrade
-Qilin Journal Entry: Cooked Turkey
-Kapala Journal Entry: Pilot
-Ushabti Journal Entry: Ruby Gem
+Tiamat Journal Entry: Lise Project
+Qilin Journal Entry: Ruby Gem
+Kapala Journal Entry: Bomb Upgrade
+Ushabti Journal Entry: Gold Bar
 Laser Trap Journal Entry: Poison Trap
-Spark Trap Journal Entry: Royal Jelly
-Tiamat's Throne Journal Entry: Bomb Upgrade
-Sunken City Journal Entry: Poison Trap
-Hundun's Hideaway Journal Entry: Emerald Gem
-Dirk Yamaoka Journal Entry: Loose Bombs Trap
-Classic Guy Journal Entry: Royal Jelly
-Tadpole Journal Entry: Gold Bar
-Frog Journal Entry: Bomb Upgrade
-Fire Frog Journal Entry: Progressive World Unlock
-Goliath Frog Journal Entry: Rope Upgrade
-Grub Journal Entry: Health Upgrade
-Giant Fly Journal Entry: Emerald Gem
-Hundun Journal Entry: Emerald Gem
-Arrow of Light Journal Entry: Gold Bar
-Frog Trap Journal Entry: Cooked Turkey
-Sticky Trap Journal Entry: Ruby Gem
-Bone Drop Journal Entry: Gold Bar
-Egg Sac Journal Entry: Bomb Upgrade
-Cosmic Ocean Journal Entry: Rope Pile
-Celestial Jelly Journal Entry: Cooked Turkey
-Terra Tunnel Journal Entry: Diamond Gem
-Tun Journal Entry: Rope Pile
-Sparrow Journal Entry: Emerald Gem
-Beg Journal Entry: Bomb Upgrade
-Golden Monkey Journal Entry: Demi Von Diamonds
-Leprechaun Journal Entry: Progressive World Unlock
-Skeleton Key Journal Entry: Royal Jelly
-Mattock Journal Entry: Emerald Gem
-Hou Yi's Bow Journal Entry: Cooked Turkey
-Four-Leaf Clover Journal Entry: Gold Bar
-Nekka the Eagle Journal Entry: Bomb Bag
-Spectacles Journal Entry: Four-Leaf Clover Upgrade
-Climbing Gloves Journal Entry: Compass Upgrade
-Pitcher's Mitt Journal Entry: Cooked Turkey
-Spring Shoes Journal Entry: Gold Bar
-Hedjet Journal Entry: Bomb Upgrade
+Spark Trap Journal Entry: Rope Upgrade
+Tiamat's Throne Journal Entry: Tina Flan
+Sunken City Journal Entry: Bomb Box
+Hundun's Hideaway Journal Entry: Paste
+Dirk Yamaoka Journal Entry: Health Upgrade
+Classic Guy Journal Entry: Cooked Turkey
+Tadpole Journal Entry: Cooked Turkey
+Frog Journal Entry: Rope Upgrade
+Fire Frog Journal Entry: Health Upgrade
+Goliath Frog Journal Entry: Health Upgrade
+Grub Journal Entry: Gold Bar
+Giant Fly Journal Entry: Bomb Box
+Hundun Journal Entry: Sapphire Gem
+Arrow of Light Journal Entry: Au
+Frog Trap Journal Entry: Bomb Upgrade
+Sticky Trap Journal Entry: Bomb Box
+Bone Drop Journal Entry: Nekka the Eagle
+Egg Sac Journal Entry: Ruby Gem
+Cosmic Ocean Journal Entry: Ana Spelunky
+Celestial Jelly Journal Entry: Coco Von Diamonds
+Terra Tunnel Journal Entry: Bomb Upgrade
+Tun Journal Entry: Jetpack
+Sparrow Journal Entry: Diamond Gem
+Beg Journal Entry: Ruby Gem
+Golden Monkey Journal Entry: Bomb Bag
+Leprechaun Journal Entry: Bomb Bag
+Skeleton Key Journal Entry: Hou Yi's Bow
+Mattock Journal Entry: Bomb Bag
+Hou Yi's Bow Journal Entry: Classic Guy
+Four-Leaf Clover Journal Entry: Rope Upgrade
+Nekka the Eagle Journal Entry: Bomb Box
+Spectacles Journal Entry: Demi Von Diamonds
+Climbing Gloves Journal Entry: Sapphire Gem
+Pitcher's Mitt Journal Entry: Sapphire Gem
+Spring Shoes Journal Entry: Progressive World Unlock
+Hedjet Journal Entry: Rope Upgrade
 Telepack Journal Entry: Progressive World Unlock
-Hoverpack Journal Entry: Ghost Trap
-Powerpack Journal Entry: Rope Pile
-Webgun Journal Entry: Bomb Bag
-Freeze Ray Journal Entry: Cooked Turkey
-Teleporter Journal Entry: Ankh Upgrade
-Machete Journal Entry: Health Upgrade
-Ana Spelunky Journal Entry: Rope Pile
-Margaret Tunnel Journal Entry: Rope Pile
-Colin Northward Journal Entry: Cooked Turkey
-Roffy D. Sloth Journal Entry: Emerald Gem
-Coco Von Diamonds Journal Entry: Sapphire Gem
+Hoverpack Journal Entry: Rope Pile
+Powerpack Journal Entry: Cooked Turkey
+Webgun Journal Entry: Rope Upgrade
+Freeze Ray Journal Entry: Bomb Bag
+Teleporter Journal Entry: Climbing Gloves Upgrade
+Machete Journal Entry: Bomb Upgrade
+Ana Spelunky Journal Entry: Bomb Upgrade
+Margaret Tunnel Journal Entry: Health Upgrade
+Colin Northward Journal Entry: Emerald Gem
+Roffy D. Sloth Journal Entry: Cooked Turkey
+Coco Von Diamonds Journal Entry: Bomb Upgrade
 Vampire Journal Entry: Rope Upgrade
-Vlad Journal Entry: Bomb Upgrade
-Alien Compass Journal Entry: Gold Bar
-Crown Journal Entry: Bomb Bag
-Cape Journal Entry: Valerie Crump
-Vlad's Cape Journal Entry: Cooked Turkey
-Abzu Journal Entry: Emerald Gem
-Tina Flan Journal Entry: Sapphire Gem
-Kingu Journal Entry: Cooked Turkey
-City of Gold Journal Entry: Sapphire Gem
-Au Journal Entry: Guy Spelunky
-Duat Journal Entry: Ghost Trap
-Ammit Journal Entry: Progressive World Unlock
-Apep Journal Entry: Gold Bar
-Anubis II Journal Entry: Bomb Bag
-Osiris Journal Entry: Emerald Gem
-Jetpack Journal Entry: Bomb Bag
-Pilot Journal Entry: Paste Upgrade
-Alien Queen Lamahu Journal Entry: Roffy D. Sloth
-Proto Shopkeeper Journal Entry: Health Upgrade
-Plasma Cannon Journal Entry: Gold Bar
-Eggplant World Journal Entry: Gold Bar
-Eggplant King Journal Entry: Ruby Gem
-Eggplant Minister Journal Entry: Classic Guy
-Eggplup Journal Entry: Sapphire Gem
-Eggplant Crown Journal Entry: Bomb Upgrade
+Vlad Journal Entry: Diamond Gem
+Alien Compass Journal Entry: Sapphire Gem
+Crown Journal Entry: Arrow of Light Upgrade
+Cape Journal Entry: Gold Bar
+Vlad's Cape Journal Entry: Roffy D. Sloth
+Abzu Journal Entry: Health Upgrade
+Tina Flan Journal Entry: Bomb Upgrade
+Kingu Journal Entry: Gold Bar
+City of Gold Journal Entry: Compass
+Au Journal Entry: Health Upgrade
+Duat Journal Entry: Rope Upgrade
+Ammit Journal Entry: Cosmic Ocean Checkpoint
+Apep Journal Entry: Ghost Trap
+Anubis II Journal Entry: Royal Jelly
+Osiris Journal Entry: Health Upgrade
+Jetpack Journal Entry: Rope Upgrade
+Pilot Journal Entry: Poison Trap
+Alien Queen Lamahu Journal Entry: Gold Bar
+Proto Shopkeeper Journal Entry: Little Jay
+Plasma Cannon Journal Entry: Rope Pile
+Eggplant World Journal Entry: Emerald Gem
+Eggplant King Journal Entry: Vlad's Cape Upgrade
+Eggplant Minister Journal Entry: Liz Mutton
+Eggplup Journal Entry: Skeleton Key Upgrade
+Eggplant Crown Journal Entry: Eggplant Upgrade
 Victory: Victory
 
 Playthrough:
@@ -295,25 +299,23 @@ Playthrough:
 
 }
 1: {
-  Bat Journal Entry: Progressive World Unlock
+  Monty Journal Entry: Progressive World Unlock
+  Shotgun Journal Entry: Arrow of Light
 }
 2: {
-  Leprechaun Journal Entry: Progressive World Unlock
-  Parsley Journal Entry: Progressive World Unlock
+  Boomerang Journal Entry: Progressive World Unlock
+  Falling Platform Journal Entry: Progressive World Unlock
+  Skeleton Key Journal Entry: Hou Yi's Bow
 }
 3: {
-  Elixir Journal Entry: Progressive World Unlock
-  Jiangshi Journal Entry: Udjat Eye
-  Lion Trap Journal Entry: Arrow of Light
-  Necromancer Journal Entry: Hou Yi's Bow
+  Lion Trap Journal Entry: Progressive World Unlock
+  Valerie Crump Journal Entry: Udjat Eye
 }
 4: {
-  Ammit Journal Entry: Progressive World Unlock
+  Spike Shoes Journal Entry: Progressive World Unlock
+  Spring Shoes Journal Entry: Progressive World Unlock
   Telepack Journal Entry: Progressive World Unlock
 }
 5: {
-  Fire Frog Journal Entry: Progressive World Unlock
-}
-6: {
   Victory: Victory
 }
