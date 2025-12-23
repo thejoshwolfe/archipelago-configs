@@ -35,7 +35,29 @@ requires:
   local_items: []
   non_local_items: []
   start_inventory: {}
-  start_hints: []
+  start_hints:
+  # Just tell me how to play. I'm not familiar enough with this game to enjoy thoroughly searching it.
+  - Shield Spell
+  - Jump Spell
+  - Life Spell
+  - Fairy Spell
+  - Fire Spell
+  - Reflect Spell
+  - Spell Spell
+  - Thunder Spell
+  - Candle
+  - Handy Glove
+  - Raft
+  - Boots
+  - Flute
+  - Cross
+  - Hammer
+  - Magical Key
+  - Down Thrust
+  - Up Thrust
+  # Some number of magic containers are required to cast critical late game spells.
+  - Magic Container
+
   start_location_hints: []
   exclude_locations: []
   priority_locations: []

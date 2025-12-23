@@ -71,7 +71,7 @@ Hollow Knight:
   MaximumCharmPrice: '20'
   RandomCharmCosts: '70'
   MinimumEggPrice: '1'
-  MaximumEggPrice: '2'
+  MaximumEggPrice: '1'
   EggShopSlots: '0'
   SlyShopSlots: '10'
   SlyKeyShopSlots: '6'
@@ -87,12 +87,22 @@ Hollow Knight:
   SplitMantisClaw: 'true'
   CostSanity: shopsonly
   CostSanityHybridChance: '10'
-  CostSanityEggWeight: '0'
+  CostSanityEggWeight: '1'
   CostSanityGrubWeight: '3'
   CostSanityEssenceWeight: '5'
   CostSanityCharmWeight: '2'
   CostSanityGeoWeight: '20'
   priority_locations: []
+
+  start_hints:
+    # Tell me the critical path. (Not hinted: 1/3 dream nails.)
+    - Herrah
+    - Lurien
+    - Monomon
+    - Queen_Fragment
+    - King_Fragment
+    - Void_Heart
+
   start_inventory:
     Ancient_Basin_Map: 1
     City_of_Tears_Map: 1

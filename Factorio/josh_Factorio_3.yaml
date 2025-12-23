@@ -141,7 +141,7 @@ Factorio:
   tech_cost_distribution: even
   tech_cost_mix: '100'
   ramping_tech_costs: 'false'
-  tech_tree_information: full
+  tech_tree_information: none
 
   #########
   # Traps #

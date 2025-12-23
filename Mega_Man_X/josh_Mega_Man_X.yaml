@@ -1,5 +1,5 @@
 name: josh_mmx
-description: 6/8 bosses
+description: All 8 bosses
 game: Mega Man X
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -17,7 +17,7 @@ Mega Man X:
   # Goal
   sigma_open:
     - Medals
-  sigma_medal_count: '6'
+  sigma_medal_count: '8'
   sigma_weapon_count: '6'
   sigma_upgrade_count: '4'
   sigma_heart_tank_count: '6'
@@ -56,8 +56,19 @@ Mega Man X:
   local_items: []
   non_local_items: []
   start_inventory: {}
-  start_inventory_from_pool: {}
-  start_hints: []
+  start_inventory_from_pool:
+    # Start fast please.
+    Legs Upgrade: 1
+  start_hints:
+    # Show me the way to progress.
+    - Armored Armadillo Access Codes
+    - Boomer Kuwanger Access Codes
+    - Chill Penguin Access Codes
+    - Flame Mammoth Access Codes
+    - Launch Octopus Access Codes
+    - Spark Mandrill Access Codes
+    - Sting Chameleon Access Codes
+    - Storm Eagle Access Codes
   start_location_hints: []
   exclude_locations: []
   priority_locations: []

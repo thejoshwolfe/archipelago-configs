@@ -1,0 +1,190 @@
+﻿Archipelago Version 0.6.6  -  Seed: 76549732331195515180
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Zelda II: The Adventure of Link
+Location Count:                  106
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     Boots, Candle, Cross, Down Thrust, Fairy Spell, Fire Spell, Flute, Hammer, Handy Glove, Jump Spell, Life Spell, Magic Container, Magical Key, Raft, Reflect Spell, Shield Spell, Spell Spell, Thunder Spell, Up Thrust
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Required Crystals:               5
+Key Shuffle:                     Shuffled In Dungeon
+Spell Locations:                 Anywhere
+Early Candle:                    Yes
+Candle Logic:                    Yes
+Cross Logic:                     Yes
+Remove Magical Key:              No
+Remove Early Boulder:            Yes
+Better Boots:                    Yes
+Respawn at Palaces:              Yes
+Fast Great Palace:               Yes
+Starting Life Level:             2
+Starting Magic Level:            2
+Starting Attack Level:           2
+Starting Lives:                  3
+Encounter Rate:                  Half
+Keep EXP:                        Yes
+Random Tunic Color:              No
+Random Palace Graphics:          Yes
+
+
+Locations:
+
+Northern Desert Cave: Magical Key
+Northwestern Forest Item: Flute
+North Castle Cave: 1-Up Doll
+Sage of Rauru: Shield Spell
+Sage of Ruto: Up Thrust
+Tantari Coast Item: 1-Up Doll
+Parapa Palace: 1F West Hall: Parapa Palace Key
+Parapa Palace: Pedestal Item: Parapa Palace Key
+Parapa Palace: Crumbling Bridge: Heart Container
+Parapa Palace: Stairwell: Bagu's Letter
+Parapa Palace: Guarded Item: 200 Point P-Bag
+Parapa Palace: Horsehead Drop: Parapa Palace Key
+Parapa Palace: Statue: Crystal Returned
+Western Swamp Cave: Blue Magic Jar
+Western Swamp Hidden Item: Candle
+Gift from Bagu: Blue Magic Jar
+Midoro Swamp Pathway Item: 100 Point P-Bag
+Midoro Swamp Hidden Item: Boots
+Clear Cave South of Rauru: 1-Up Doll
+Blocked Cave South of Rauru: 200 Point P-Bag
+Sage of Saria: Spell Spell
+Forest Near Saria: 1-Up Doll
+Midoro Palace: B2F Hall: 50 Point P-Bag
+Midoro Palace: Lava Blocks Item: Blue Magic Jar
+Midoro Palace: Floating Block Hall: Midoro Palace Key
+Midoro Palace: Falling Blocks Item: Midoro Palace Key
+Midoro Palace: Pedestal Item: 1-Up Doll
+Midoro Palace: Guarded Item: Midoro Palace Key
+Midoro Palace: Crumbling Blocks: Red Magic Jar
+Midoro Palace: Helmethead Drop: Midoro Palace Key
+Midoro Palace: Statue: Crystal Returned
+Death Mountain Platforms: Heart Container
+Death Mountain Staircase: 500 Point P-Bag
+Death Mountain Boulder Pit: Water of Life
+Death Mountain Ending Item: 100 Point P-Bag
+Death Mountain East-Facing Dead End: Blue Magic Jar
+Graveyard Item: Raft
+Graveyard Beach Secret: 500 Point P-Bag
+Sage of Mido: Red Magic Jar
+Mido Swordsman: Red Magic Jar
+Island Palace: Buried Item Left: 1-Up Doll
+Island Palace: Buried Item Right: Red Magic Jar
+Island Palace: Outside: Island Palace Key
+Island Palace: Block Mountain: Life Spell
+Island Palace: Precarious Item: 1-Up Doll
+Island Palace: Pedestal Item: Island Palace Key
+Island Palace: Pillar Item: 100 Point P-Bag
+Island Palace: Guarded by Iron Knuckles: Island Palace Key
+Island Palace: Rebonack Drop: Island Palace Key
+Island Palace: Statue: Crystal Returned
+Eastern Forest: 200 Point P-Bag
+Sage of Nabooru: Red Magic Jar
+Eastern Cave: Trophy
+Eastern Peninsula Secret: 1-Up Doll
+Eastern Beach Secret: 100 Point P-Bag
+Ocean Item: 1-Up Doll
+Sage of Darunia: Reflect Spell
+Darunia Swordsman: Blue Magic Jar
+Northeastern Beach: Red Magic Jar
+Maze Island Left Hole: Jump Spell
+Maze Island Path: Blue Magic Jar
+Maze Island Right Hole: Blue Magic Jar
+Maze Palace: Nook Item: Maze Palace Key
+Maze Palace: Sealed Item: Maze Palace Key
+Maze Palace: Block Mountain Left: Maze Palace Key
+Maze Palace: Block Mountain Right: Maze Palace Key
+Maze Palace: West Hall of Fire: 50 Point P-Bag
+Maze Palace: East Hall of Fire: Maze Palace Key
+Maze Palace: Basement Hall of Fire: Maze Palace Key
+Maze Palace: Block Mountain Basement: Hammer
+Maze Palace: Pillar Item: Blue Magic Jar
+Maze Palace: Pedestal Item: Heart Container
+Maze Palace: Carock Drop: Magic Container
+Maze Palace: Statue: Crystal Returned
+Palace on the Sea: Ledge Item: 1-Up Doll
+Palace on the Sea: Crumbling Bridge: 200 Point P-Bag
+Palace on the Sea: Falling Blocks: Sea Palace Key
+Palace on the Sea: Above Elevator: Magic Container
+Palace on the Sea: Block Alcove: Sea Palace Key
+Palace on the Sea: Knuckle Alcove: Red Magic Jar
+Palace on the Sea: Pedestal Item: Sea Palace Key
+Palace on the Sea: Skeleton Key: 500 Point P-Bag
+Palace on the Sea: West Wing: Child
+Palace on the Sea: Block Line: 50 Point P-Bag
+Palace on the Sea: West Knuckle Alcove: Sea Palace Key
+Palace on the Sea: Gooma Drop: Sea Palace Key
+Palace on the Sea: Statue: Crystal Returned
+Southeastern Swamp: Down Thrust
+Southeastern Swamp Cave: Red Magic Jar
+Southeastern Coast Item: Cross
+Southeastern Forest Item: 100 Point P-Bag
+Death Valley Entrance: 500 Point P-Bag
+Death Valley Midway Item: 100 Point P-Bag
+Sage of Kasuto: 1-Up Doll
+Sage of New Kasuto: 100 Point P-Bag
+New Kasuto Shrine: 50 Point P-Bag
+New Kasuto House: Fire Spell
+Three-Eye Rock Palace: 1F Block Mountain: Heart Container
+Three-Eye Rock Palace: 1F Enclosed Item: 200 Point P-Bag
+Three-Eye Rock Palace: Middle Pit: Handy Glove
+Three-Eye Rock Palace: Bottom Pit: Magic Container
+Three-Eye Rock Palace: Block Stairs: Thunder Spell
+Three-Eye Rock Palace: Pit of Sadness: 1-Up Doll
+Three-Eye Rock Palace: Return of Helmethead: Fairy Spell
+Three-Eye Rock Palace: Pedestal Item: 200 Point P-Bag
+Three-Eye Rock Palace: Helmethead III: The Revengening: 100 Point P-Bag
+Three-Eye Rock Palace: Basement Block Mountain: Three-Eye Rock Palace Key
+Three-Eye Rock Palace: Pit Hall: Three-Eye Rock Palace Key
+Three-Eye Rock Palace: Barba Drop: 1-Up Doll
+Three-Eye Rock Palace: Statue: Crystal Returned
+Great Palace - East Wing Item: 100 Point P-Bag
+Great Palace - Thunderbird Drop: Magic Container
+Dark Link: Triforce of Courage
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Midoro Swamp Hidden Item: Boots
+  Northwestern Forest Item: Flute
+  Western Swamp Hidden Item: Candle
+}
+2: {
+  Graveyard Item: Raft
+  Northern Desert Cave: Magical Key
+}
+3: {
+  Parapa Palace: Statue: Crystal Returned
+  Southeastern Coast Item: Cross
+  Three-Eye Rock Palace: Middle Pit: Handy Glove
+}
+4: {
+  Midoro Palace: Statue: Crystal Returned
+  Three-Eye Rock Palace: Block Stairs: Thunder Spell
+  Three-Eye Rock Palace: Return of Helmethead: Fairy Spell
+}
+5: {
+  Palace on the Sea: Statue: Crystal Returned
+  Southeastern Swamp: Down Thrust
+  Three-Eye Rock Palace: Statue: Crystal Returned
+}
+6: {
+  Island Palace: Statue: Crystal Returned
+}
+7: {
+  Dark Link: Triforce of Courage
+}
