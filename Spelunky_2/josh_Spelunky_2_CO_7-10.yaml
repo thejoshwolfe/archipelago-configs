@@ -1,0 +1,137 @@
+name: josh_s2
+description: Reach Cosmic Ocean level 7-10. Many helpful items are permanent once you find them.
+game: Spelunky 2
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Spelunky 2: 0.3.8 # Version of the world required for this yaml to work as expected.
+Spelunky 2:
+  # Goal is 7-10 in Cosmic Ocean.
+  goal: co
+  goal_level: '10'
+
+  # Locations that give checks.
+  # Add 3 additional character unlocks to shops or vlad's castle.
+  starting_characters: ['Margaret Tunnel']
+  include_hard_locations: 'false' # Exclude journal entries for: Magmar, Lavamander, MechSuit, Scorpion, True Crown
+  exclude_locations:
+  # Resetting jungle to find bees is not fun.
+  - Bee Journal Entry
+  - Queen Bee Journal Entry
+  - Royal Jelly Journal Entry
+  # Too rare.
+  - Caveman Shopkeeper Journal Entry
+  - Eggplant Journal Entry
+  - Eggplant Child Journal Entry
+  - Tadpole Journal Entry
+  start_location_hints: []
+
+  # Vanilla things that must be unlocked by items in the multiworld.
+  progressive_worlds: 'true'
+  restricted_items:
+    # The best mobility needs to be unlocked.
+    - Jetpack
+    # Some QoL needs to be unlocked.
+    - Compass
+    - Four-Leaf Clover
+    - Paste
+    - Udjat Eye
+    # Putting together the final CO kit needs to be unlocked.
+    - Hou Yi's Bow
+    - Arrow of Light
+  start_hints:
+    # Tell me the critical path.
+    - Progressive World Unlock
+    - Hou Yi's Bow
+    - Arrow of Light
+
+  # Permanent upgrades.
+  starting_health: '4'
+  health_upgrades: '8'
+  starting_bombs: '4'
+  bomb_upgrades: '16'
+  starting_ropes: '4'
+  rope_upgrades: '6'
+  starting_wallet: 'true' # Treasure items received are permanent.
+  item_upgrades:
+    # Once obtained, you start every run with these items.
+    - Ankh
+    - Compass
+    - Elixir
+    - Four-Leaf Clover
+    - Jetpack
+    - Kapala
+    - Paste
+    - Pitcher's Mitt
+    - Skeleton Key
+    - Spectacles
+    - Spike Shoes
+    - Spring Shoes
+    - Vlad's Cape
+  waddler_upgrades:
+    # Once obtained, Waddler will always stock these items.
+    - Alien Compass # Not allowed in item_upgrades for some reason.
+    - Eggplant
+    - Plasma Cannon
+  journal_entry_required: 'true'
+  start_inventory:
+    # Start with the "upgrade", meaning only the journal entry (and possibly the unlock) is required to obtain the item permanently.
+    Ankh Upgrade: 1
+    Compass Upgrade: 1
+    Elixir Upgrade: 1
+    Four-Leaf Clover Upgrade: 1
+    Jetpack Upgrade: 1
+    Kapala Upgrade: 1
+    Paste Upgrade: 1
+    Pitcher's Mitt Upgrade: 1
+    Skeleton Key Upgrade: 1
+    Spectacles Upgrade: 1
+    Spike Shoes Upgrade: 1
+    Spring Shoes Upgrade: 1
+    Vlad's Cape Upgrade: 1
+    Alien Compass Upgrade: 1
+    Eggplant Upgrade: 1
+    Plasma Cannon Upgrade: 1
+
+  # Filler items
+  rope_pile_weight: '13'
+  bomb_bag_weight: '13'
+  bomb_box_weight: '5'
+  cooked_turkey_weight: '18'
+  royal_jelly_weight: '5'
+  gold_bar_weight: '20'
+  emerald_gem_weight: '10'
+  sapphire_gem_weight: '8'
+  ruby_gem_weight: '6'
+  diamond_gem_weight: '2'
+
+  # Traps
+  enable_traps: 'true'
+  trap_weight: '10' # I think this is a percentage, not a weight.
+  ghost_weight: '25'
+  bomb_weight: '15'
+  poison_weight: '15'
+  curse_weight: '5'
+  stun_weight: '0'
+  blind_weight: '0'
+  punish_weight: '0'
+
+  # No skips in logic.
+  can_ankh_skip: 'false'
+  can_udjat_skip: 'false'
+  can_qilin_skip: 'false'
+  can_kingu_skip: 'false'
+  can_mothership_skip: 'false'
+
+  # Deathlink disabled.
+  death_link: 'false'
+  bypass_ankh: 'false'
+  death_link_amnesty_count: '2'
+
+  local_items: []
+  non_local_items: []
+  item_links: []
+  priority_locations: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full
