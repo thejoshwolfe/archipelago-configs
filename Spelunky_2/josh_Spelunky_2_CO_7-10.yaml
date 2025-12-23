@@ -47,11 +47,11 @@ Spelunky 2:
 
   # Permanent upgrades.
   starting_health: '4'
-  health_upgrades: '8'
+  health_upgrades: '16'
   starting_bombs: '4'
   bomb_upgrades: '16'
   starting_ropes: '4'
-  rope_upgrades: '6'
+  rope_upgrades: '16'
   starting_wallet: 'true' # Treasure items received are permanent.
   item_upgrades:
     # Once obtained, you start every run with these items.
@@ -70,9 +70,16 @@ Spelunky 2:
     - Vlad's Cape
   waddler_upgrades:
     # Once obtained, Waddler will always stock these items.
-    - Alien Compass # Not allowed in item_upgrades for some reason.
+    - Hou Yi's Bow
+    - Arrow of Light
+    # If you manage to get these, make them easier to get again.
     - Eggplant
     - Plasma Cannon
+    # You might want this, but not always.
+    - Climbing Gloves
+    # These are not allowed in item_upgrades for some reason.
+    - Alien Compass
+    - Hedjet
   journal_entry_required: 'true'
   start_inventory:
     # Start with the "upgrade", meaning only the journal entry (and possibly the unlock) is required to obtain the item permanently.
@@ -89,9 +96,13 @@ Spelunky 2:
     Spike Shoes Upgrade: 1
     Spring Shoes Upgrade: 1
     Vlad's Cape Upgrade: 1
-    Alien Compass Upgrade: 1
+    Hou Yi's Bow Upgrade: 1
+    Arrow of Light Upgrade: 1
     Eggplant Upgrade: 1
     Plasma Cannon Upgrade: 1
+    Climbing Gloves Upgrade: 1
+    Alien Compass Upgrade: 1
+    Hedjet Upgrade: 1
 
   # Filler items
   rope_pile_weight: '13'
@@ -107,7 +118,7 @@ Spelunky 2:
 
   # Traps
   enable_traps: 'true'
-  trap_weight: '10' # I think this is a percentage, not a weight.
+  trap_weight: '5' # I think this is a percentage, not a weight.
   ghost_weight: '25'
   bomb_weight: '15'
   poison_weight: '15'
