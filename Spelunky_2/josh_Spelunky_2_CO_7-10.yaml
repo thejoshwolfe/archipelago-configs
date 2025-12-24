@@ -46,6 +46,9 @@ Spelunky 2:
     - Progressive World Unlock
     - Hou Yi's Bow
     - Arrow of Light
+    # These aren't strictly required, but are meaningful enough that I don't want to languish without them.
+    - Paste
+    - Jetpack
 
   # Permanent upgrades.
   starting_health: '4'
@@ -77,8 +80,6 @@ Spelunky 2:
     # If you manage to get these, make them easier to get again.
     - Eggplant
     - Plasma Cannon
-    # You might want this, but not always.
-    - Climbing Gloves
     # These are not allowed in item_upgrades for some reason.
     - Alien Compass
     - Hedjet
@@ -102,7 +103,6 @@ Spelunky 2:
     Arrow of Light Upgrade: 1
     Eggplant Upgrade: 1
     Plasma Cannon Upgrade: 1
-    Climbing Gloves Upgrade: 1
     Alien Compass Upgrade: 1
     Hedjet Upgrade: 1
 

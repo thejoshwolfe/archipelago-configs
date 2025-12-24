@@ -67,8 +67,6 @@ Spelunky 2:
   waddler_upgrades:
     # Once obtained, Waddler will always stock these items.
     - Plasma Cannon
-    # You might want this, but not always.
-    - Climbing Gloves
     # These are not allowed in item_upgrades for some reason.
     - Alien Compass
     - Hedjet
@@ -89,7 +87,6 @@ Spelunky 2:
     Spring Shoes Upgrade: 1
     Vlad's Cape Upgrade: 1
     Plasma Cannon Upgrade: 1
-    Climbing Gloves Upgrade: 1
     Alien Compass Upgrade: 1
     Hedjet Upgrade: 1
 
