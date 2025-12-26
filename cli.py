@@ -48,6 +48,11 @@ def main():
     sub_parser.add_argument("multidata", help=
         "The AP_*.archipelago from the 'generate' command.")
 
+    sub_parser = subparsers.add_parser("text-client", help=
+        "Calls CommonClient.py")
+    sub_parser.add_argument("connect_to", metavar="host:port")
+    sub_parser.add_argument("slot")
+
     sub_parser = subparsers.add_parser("factorio-server", help=
         "How I, a NixOS user, invoke the AP client for Factorio, which runs the Factorio headless server in a docker container. "
         "Requires docker and a downloaded standalone factorio installation. "
@@ -78,6 +83,8 @@ def main():
         do_generate(args.repo, args.output_dir, args.seed, args.server, args.player_yaml)
     elif args.cmd == "server":
         do_server(args.repo, args.server_dir, args.multidata, args.oracle_spoiler)
+    elif args.cmd == "text-client":
+        do_text_client(args.repo, args.connect_to, args.slot)
     elif args.cmd == "factorio-server":
         do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir)
     elif args.cmd == "factorio-client":
@@ -208,6 +215,10 @@ def do_server(repo, server_dir, multidata_path, oracle_spoiler):
     args.append(os.path.abspath(multidata_path))
     ap_cmd("MultiServer.py", *args, cwd=server_dir, input=None, repo=repo, os_exec=True)
 
+
+def do_text_client(repo, connect_to, slot_name):
+    args = ["--nogui", "--connect", connect_to, "--name", slot_name]
+    ap_cmd("CommonClient.py", *args, input=None, repo=repo, os_exec=True)
 
 def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
     if not os.access(os.path.join(factorio_root, "bin/x64/factorio"), os.X_OK):
