@@ -13,7 +13,7 @@ Spelunky 2:
   # Locations that give checks.
   # Add 3 additional character unlocks to shops or vlad's castle.
   starting_characters: ['Margaret Tunnel']
-  include_hard_locations: 'true' # Journal entries for: Magmar, Lavamander, MechSuit, Scorpion, True Crown
+  include_hard_locations: 'true' # Journal entries for: Magmar, Lavamander, Mech Rider, Scorpion, True Crown
   exclude_locations:
     # I think this is just bugged. It never unlocks. (And not clear why this is a location if I start with this character.)
     - Margaret Tunnel Journal Entry
@@ -36,6 +36,7 @@ Spelunky 2:
     - Hoverpack Journal Entry
     - Machete Journal Entry
     - Powerpack Journal Entry
+    - Telepack Journal Entry
     - Teleporter Journal Entry
     - Webgun Journal Entry
   start_location_hints:
@@ -47,7 +48,7 @@ Spelunky 2:
   # Vanilla things that must be unlocked by items in the multiworld.
   progressive_worlds:
     'false': 1 # Worlds can be unlocked out of order, but must still be traversed in order.
-    'true': 0
+    'true': 3
   restricted_items:
     # Putting together the final CO kit needs to be unlocked.
     - Hou Yi's Bow
@@ -62,6 +63,18 @@ Spelunky 2:
     - Spike Shoes
     - Udjat Eye
     - Ushabti
+    # Then a bunch of trash unlocks for fun.
+    - Camera
+    - Climbing Gloves
+    - Compass
+    - Freeze Ray
+    - Hoverpack
+    - Machete
+    - Powerpack
+    - Shield
+    - Telepack
+    - Teleporter
+    - Webgun
   start_hints:
     # Tell me the critical path.
     - Progressive World Unlock
@@ -81,6 +94,7 @@ Spelunky 2:
     - Kapala
     - Paste
     - Spike Shoes
+    - Ushabti
 
   # Permanent upgrades.
   starting_health: '4'
@@ -112,8 +126,7 @@ Spelunky 2:
     - Eggplant
     - Plasma Cannon
     - Ushabti
-    # These are not allowed in item_upgrades for some reason.
-    - Alien Compass
+    # Not allowed in item_upgrades for complicated reasons.
     - Hedjet
   plando_items:
     # Get the "upgrade" at the journal entry.
@@ -133,7 +146,6 @@ Spelunky 2:
     - {force: true, locations: [Arrow of Light Journal Entry], items: {Arrow of Light Upgrade: 1}}
     - {force: true, locations: [Eggplant Journal Entry], items: {Eggplant Upgrade: 1}}
     - {force: true, locations: [Plasma Cannon Journal Entry], items: {Plasma Cannon Upgrade: 1}}
-    - {force: true, locations: [Alien Compass Journal Entry], items: {Alien Compass Upgrade: 1}}
     - {force: true, locations: [Hedjet Journal Entry], items: {Hedjet Upgrade: 1}}
     # Touching just any Ushabti doesn't let you start with it. You gotta open the correct one.
     - {force: true, locations: [Qilin Journal Entry], items: {Ushabti Upgrade: 1}}
@@ -153,7 +165,7 @@ Spelunky 2:
 
   # Traps
   enable_traps: 'true'
-  trap_weight: '5' # I think this is a percentage, not a weight.
+  trap_weight: '5' # This is a percentage, not a weight.
   ghost_weight: '25'
   bomb_weight: '15'
   poison_weight: '15'
