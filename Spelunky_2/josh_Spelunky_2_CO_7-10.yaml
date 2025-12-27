@@ -13,42 +13,74 @@ Spelunky 2:
   # Locations that give checks.
   # Add 3 additional character unlocks to shops or vlad's castle.
   starting_characters: ['Margaret Tunnel']
-  include_hard_locations: 'false' # Exclude journal entries for: Magmar, Lavamander, MechSuit, Scorpion, True Crown
+  include_hard_locations: 'true' # Journal entries for: Magmar, Lavamander, MechSuit, Scorpion, True Crown
   exclude_locations:
-  # Resetting jungle to find bees is not fun.
-  - Bee Journal Entry
-  - Queen Bee Journal Entry
-  - Royal Jelly Journal Entry
-  # Too rare.
-  - Caveman Shopkeeper Journal Entry
-  - Eggplant Journal Entry
-  - Eggplant Child Journal Entry
-  - Hoverpack Journal Entry
-  - Powerpack Journal Entry
-  - Tadpole Journal Entry
-  start_location_hints: []
+    # I think this is just bugged. It never unlocks. (And not clear why this is a location if I start with this character.)
+    - Margaret Tunnel Journal Entry
+    # Some of those 'include_hard_locations' entries really are too hard.
+    - Lavamander Journal Entry
+    #- Magmar Journal Entry
+    - Mech Rider Journal Entry
+    - Scorpion Journal Entry
+    - True Crown Journal Entry
+    # Resetting jungle to find bees is not fun.
+    - Bee Journal Entry
+    - Queen Bee Journal Entry
+    # Too rare.
+    - Caveman Shopkeeper Journal Entry
+    # Not rare per se, but annoying when advancement is blocking behind resetting until you randomly find one of these.
+    # Note that logic considers these items to require the black market;
+    # that's a nice mitigation for the RNG, but RNG is not the game I'm here to play.
+    - Climbing Gloves Journal Entry
+    - Freeze Ray Journal Entry
+    - Hoverpack Journal Entry
+    - Machete Journal Entry
+    - Powerpack Journal Entry
+    - Teleporter Journal Entry
+    - Webgun Journal Entry
+  start_location_hints:
+    # Exiting after the boss fight is sometimes a distraction from what I'm trying to do.
+    # Tell me if I should bother doing that.
+    - Guy Spelunky Journal Entry
+    - Classic Guy Journal Entry
 
   # Vanilla things that must be unlocked by items in the multiworld.
-  progressive_worlds: 'true'
+  progressive_worlds:
+    'false': 1 # Worlds can be unlocked out of order, but must still be traversed in order.
+    'true': 0
   restricted_items:
-    # The best mobility needs to be unlocked.
-    - Jetpack
-    # Some QoL needs to be unlocked.
-    - Compass
-    - Four-Leaf Clover
-    - Paste
-    - Udjat Eye
     # Putting together the final CO kit needs to be unlocked.
     - Hou Yi's Bow
     - Arrow of Light
+    # The best mobility needs to be unlocked.
+    - Jetpack
+    # Some QoL needs to be unlocked.
+    - Four-Leaf Clover
+    - Kapala
+    - Paste
+    - Pitcher's Mitt
+    - Spike Shoes
+    - Udjat Eye
+    - Ushabti
   start_hints:
     # Tell me the critical path.
     - Progressive World Unlock
+    - Volcana
+    - Jungle
+    - Olmec's Lair
+    - Tide Pool
+    - Temple
+    - Ice Caves
+    - Neo Babylon
+    - Sunken City
+    - Cosmic Ocean
     - Hou Yi's Bow
     - Arrow of Light
     # These aren't strictly required, but are meaningful enough that I don't want to languish without them.
-    - Paste
     - Jetpack
+    - Kapala
+    - Paste
+    - Spike Shoes
 
   # Permanent upgrades.
   starting_health: '4'
@@ -61,7 +93,6 @@ Spelunky 2:
   item_upgrades:
     # Once obtained, you start every run with these items.
     - Ankh
-    - Compass
     - Elixir
     - Four-Leaf Clover
     - Jetpack
@@ -80,31 +111,33 @@ Spelunky 2:
     # If you manage to get these, make them easier to get again.
     - Eggplant
     - Plasma Cannon
+    - Ushabti
     # These are not allowed in item_upgrades for some reason.
     - Alien Compass
     - Hedjet
-  journal_entry_required: 'true'
-  start_inventory:
-    # Start with the "upgrade", meaning only the journal entry (and possibly the unlock) is required to obtain the item permanently.
-    Ankh Upgrade: 1
-    Compass Upgrade: 1
-    Elixir Upgrade: 1
-    Four-Leaf Clover Upgrade: 1
-    Jetpack Upgrade: 1
-    Kapala Upgrade: 1
-    Paste Upgrade: 1
-    Pitcher's Mitt Upgrade: 1
-    Skeleton Key Upgrade: 1
-    Spectacles Upgrade: 1
-    Spike Shoes Upgrade: 1
-    Spring Shoes Upgrade: 1
-    Vlad's Cape Upgrade: 1
-    Hou Yi's Bow Upgrade: 1
-    Arrow of Light Upgrade: 1
-    Eggplant Upgrade: 1
-    Plasma Cannon Upgrade: 1
-    Alien Compass Upgrade: 1
-    Hedjet Upgrade: 1
+  plando_items:
+    # Get the "upgrade" at the journal entry.
+    - {force: true, locations: [Ankh Journal Entry], items: {Ankh Upgrade: 1}}
+    - {force: true, locations: [Elixir Journal Entry], items: {Elixir Upgrade: 1}}
+    - {force: true, locations: [Four-Leaf Clover Journal Entry], items: {Four-Leaf Clover Upgrade: 1}}
+    - {force: true, locations: [Jetpack Journal Entry], items: {Jetpack Upgrade: 1}}
+    - {force: true, locations: [Kapala Journal Entry], items: {Kapala Upgrade: 1}}
+    - {force: true, locations: [Paste Journal Entry], items: {Paste Upgrade: 1}}
+    - {force: true, locations: [Pitcher's Mitt Journal Entry], items: {Pitcher's Mitt Upgrade: 1}}
+    - {force: true, locations: [Skeleton Key Journal Entry], items: {Skeleton Key Upgrade: 1}}
+    - {force: true, locations: [Spectacles Journal Entry], items: {Spectacles Upgrade: 1}}
+    - {force: true, locations: [Spike Shoes Journal Entry], items: {Spike Shoes Upgrade: 1}}
+    - {force: true, locations: [Spring Shoes Journal Entry], items: {Spring Shoes Upgrade: 1}}
+    - {force: true, locations: [Vlad's Cape Journal Entry], items: {Vlad's Cape Upgrade: 1}}
+    - {force: true, locations: [Hou Yi's Bow Journal Entry], items: {Hou Yi's Bow Upgrade: 1}}
+    - {force: true, locations: [Arrow of Light Journal Entry], items: {Arrow of Light Upgrade: 1}}
+    - {force: true, locations: [Eggplant Journal Entry], items: {Eggplant Upgrade: 1}}
+    - {force: true, locations: [Plasma Cannon Journal Entry], items: {Plasma Cannon Upgrade: 1}}
+    - {force: true, locations: [Alien Compass Journal Entry], items: {Alien Compass Upgrade: 1}}
+    - {force: true, locations: [Hedjet Journal Entry], items: {Hedjet Upgrade: 1}}
+    # Touching just any Ushabti doesn't let you start with it. You gotta open the correct one.
+    - {force: true, locations: [Qilin Journal Entry], items: {Ushabti Upgrade: 1}}
+  journal_entry_required: 'true' # I think I've made this not matter, but it's still conceptually true.
 
   # Filler items
   rope_pile_weight: '13'
@@ -145,6 +178,5 @@ Spelunky 2:
   non_local_items: []
   item_links: []
   priority_locations: []
-  plando_items: []
   progression_balancing: '50'
   accessibility: full
