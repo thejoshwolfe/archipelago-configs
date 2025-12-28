@@ -20,6 +20,16 @@ Stardew Valley:
   quest_locations: '-1'
   fishsanity: exclude_legendaries
 
+  farm_type:
+    standard: 1
+    riverland: 1
+    forest: 1
+    hill_top: 1
+    wilderness: 1
+    four_corners: 1
+    beach: 1
+    meadowlands: 1
+
   museumsanity: milestones
   exclude_locations:
     # To implement "half museumsanity", exclude the late milestones from being checks.
@@ -86,15 +96,72 @@ Stardew Valley:
   quick_start: 'true'
   gifting: 'true'
   death_link: 'true'
-  progression_balancing: '50'
-  accessibility: full
-  local_items: []
+
+
+  local_items:
+    # Try to contain some of the junk.
+    - Progressive Dagger
+    - Progressive Footwear
+    - Amethyst Ring
+    - Aquamarine Ring
+    #- Burglar's Ring
+    - Crabshell Ring
+    - Emerald Ring
+    - Glow Ring
+    - Glowstone Ring
+    - Hot Java Ring
+    - Jade Ring
+    - Lucky Ring
+    - Magnet Ring
+    - Napalm Ring
+    - Phoenix Ring
+    - Protection Ring
+    - Ring of Yoba
+    - Ruby Ring
+    - Savage Ring
+    #- Slime Charmer Ring
+    - Soul Sapper Ring
+    - Sturdy Ring
+    - Thorns Ring
+    - Topaz Ring
+    - Vampire Ring
+    - Warrior Ring
+    - Wedding Ring
+    # It's kind of impossible to enumerate the "junk" in this game.
+
   non_local_items: []
-  start_hints: []
+  start_hints:
+    # Hint the critical stuff.
+    - Spring
+    - Summer
+    - Fall
+    - Winter
+    - Progressive Fishing Rod
+    - Fishing Level
+    - Farming Level
+    - Shipping Bin
+    - Progressive Axe
+    - Progressive Pickaxe
+    - Fortune Teller
+    - Progressive House
+    - Progressive Barn
+    - Progressive Coop
+
   start_location_hints:
     # Floor 26 of skull caverns is too far to explore on a maybe.
     - 'Monster Eradication: Iridium Crab'
-  priority_locations: []
+    # Should I pursue this very long quest chain?
+    - Raccoon Request 1
+    - Raccoon Request 2
+    - Raccoon Request 3
+    - Raccoon Request 4
+    - Raccoon Request 5
+    - Raccoon Request 6
+    - Raccoon Request 7
+    - Raccoon Request 8
+    # I've never seen this be important, so Progressive Movie Theater is usually junk. Let's see.
+    - The Missing Bundle
+
   start_inventory:
     # Watching your character walk is less fun than doing chores.
     Movement Speed Bonus: 5
@@ -103,12 +170,7 @@ Stardew Valley:
     # The most valuable item in Stardew Valley is your IRL time.
     Return Scepter: 1
     Key To The Town: 1
-  farm_type:
-    standard: 1
-    riverland: 1
-    forest: 1
-    hill_top: 1
-    wilderness: 1
-    four_corners: 1
-    beach: 1
-    meadowlands: 1
+
+  priority_locations: []
+  progression_balancing: '50'
+  accessibility: full
