@@ -154,12 +154,48 @@ Factorio:
   ###########################
   # Item & Location Options #
   ###########################
-  local_items: []
+  local_items:
+    # Contain useless items to Factorio.
+    - progressive-armor
+    - progressive-energy-shield
+    - progressive-flamethrower
+    - progressive-follower
+    - progressive-follower-robot-count
+    - progressive-laser-shooting-speed
+    - progressive-laser-weapons-damage
+    - progressive-physical-projectile-damage
+    - progressive-rocketry
+    - progressive-stronger-explosives
+    - progressive-turret
+    - progressive-weapon-shooting-speed
+    - artillery
+    - cliff-explosives
+    - discharge-defense-equipment
+    - land-mine
+    - personal-laser-defense-equipment
   non_local_items: []
   start_inventory:
     progressive-worker-robots-speed: 5
   start_inventory_from_pool: {}
-  start_hints: []
+  start_hints:
+    # Hint some of the more critical advancement items.
+    - progressive-science-pack
+    - progressive-wall
+    - progressive-military
+    - oil-gathering
+    - progressive-fluid-handling
+    - progressive-processing
+    - plastics
+    - advanced-circuit
+    - progressive-engine
+    - low-density-structure
+    - lubricant
+    - robotics
+    - processing-unit
+    - progressive-advanced-material-processing
+    # Let's see where the significant quality of life is.
+    - progressive-automation
+    - construction-robotics
   start_location_hints: []
   exclude_locations: []
   priority_locations: []

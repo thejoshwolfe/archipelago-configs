@@ -1,0 +1,340 @@
+﻿Archipelago Version 0.6.6  -  Seed: 98897576606561902135
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Factorio
+Location Count:                  184
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 progressive-worker-robots-speed: 5
+Start Hints:                     
+Start Location Hints:            AP-1-005, AP-1-029, AP-6-964
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Maximum Required Science Pack:   Utility Science Pack
+Goal:                            Rocket
+Technology Tree Layout:          Single
+Minimum Science Pack Cost:       5
+Maximum Science Pack Cost:       100
+Tech Cost Distribution:          Even
+Science Pack Cost Mix:           100
+Ramping Tech Costs:              No
+Rocket Silo:                     Vanilla
+Satellite:                       Vanilla
+Free Samples:                    Stack
+Free Samples Quality:            Normal
+Technology Tree Information:     None
+Starting Items:                  burner-mining-drill: 5, stone-furnace: 50, iron-plate: 1000, copper-plate: 200, automation-science-pack: 20, power-armor: 1, fission-reactor-equipment: 1, battery-equipment: 2, personal-roboport-equipment: 1, exoskeleton-equipment: 3, construction-robot: 50
+Free Sample Blacklist:           
+Free Sample Whitelist:           
+Recipe Time:                     Vanilla
+Random Recipe Ingredients Level: Rocket
+Randomized Recipe Ingredients Offset:0
+Blueprints:                      Yes
+World Generation:                basic: {'peaceful_mode': False, 'no_enemies_mode': True, 'seed': 3584967013, 'starting_area': 1.0, 'autoplace_controls': {'coal': {'frequency': 3.0, 'richness': 6.0, 'size': 3.0}, 'copper-ore': {'frequency': 3.0, 'richness': 6.0, 'size': 3.0}, 'crude-oil': {'frequency': 3.0, 'richness': 6.0, 'size': 3.0}, 'enemy-base': {'frequency': 0.25, 'richness': 1.0, 'size': 1.0}, 'iron-ore': {'frequency': 3.0, 'richness': 6.0, 'size': 3.0}, 'nauvis_cliff': {'frequency': 1.0, 'richness': 1.0, 'size': 1.0}, 'starting_area_moisture': {'frequency': 1.0, 'richness': 1.0, 'size': 1.0}, 'stone': {'frequency': 1.0, 'richness': 6.0, 'size': 3.0}, 'trees': {'frequency': 1.0, 'richness': 1.0, 'size': 0.25}, 'uranium-ore': {'frequency': 1.0, 'richness': 6.0, 'size': 1.0}, 'water': {'frequency': 0.5, 'richness': 1.0, 'size': 1.5}}, 'cliff_settings': {'cliff_elevation_0': 10.0, 'cliff_elevation_interval': 40.0, 'name': 'cliff', 'richness': 1.0}, 'property_expression_names': {'control-setting:aux:bias': 0.0, 'control-setting:aux:frequency:multiplier': 1.0, 'control-setting:moisture:bias': 0.0, 'control-setting:moisture:frequency:multiplier': 1.0}}, advanced: {'enemy_evolution': {'destroy_factor': 0.002, 'enabled': True, 'pollution_factor': 9e-07, 'time_factor': 4e-06}, 'enemy_expansion': {'enabled': True, 'max_expansion_cooldown': 216000.0, 'max_expansion_distance': 7.0, 'min_expansion_cooldown': 14400.0, 'settler_group_max_size': 20.0, 'settler_group_min_size': 5.0}, 'pollution': {'ageing': 1.0, 'diffusion_ratio': 0.02, 'enabled': False, 'enemy_attack_pollution_consumption_modifier': 1.0, 'min_pollution_to_damage_trees': 60.0, 'pollution_restored_per_tree_damage': 10.0}}
+Progressive Technologies:        On
+Teleport Traps:                  0
+Grenade Traps:                   0
+Cluster Grenade Traps:           0
+Artillery Traps:                 0
+Atomic Rocket Traps:             0
+Atomic Cliff Remover Traps:      0
+Inventory Spill Traps:           5
+Attack Traps:                    0
+Evolution Traps:                 0
+Evolution Trap % Effect:         10
+Death Link:                      Yes
+Energy Link:                     Yes
+Start Inventory from Pool:       
+
+
+Factorio Recipes:
+
+rocket-part (factorio): {'selector-combinator': 10, 'efficiency-module': 10, 'uranium-cannon-shell': 10} -> {'rocket-part': 1}
+ap-energy-bridge (factorio): {'transport-belt': 423, 'stone-brick': 143, 'stone': 458, 'pipe': 481, 'iron-plate': 432, 'iron-ore': 440} -> {'ap-energy-bridge': 1}
+
+Starting Items:
+
+progressive-worker-robots-speed
+progressive-worker-robots-speed
+progressive-worker-robots-speed
+progressive-worker-robots-speed
+progressive-worker-robots-speed
+
+Locations:
+
+AP-1-207: progressive-train-network
+AP-2-690: progressive-laser-shooting-speed
+AP-2-160: progressive-military
+AP-1-898: progressive-flamethrower
+AP-3-563: belt-immunity-equipment
+AP-1-336: progressive-fluid-handling
+AP-2-987: progressive-inserter
+AP-5-220: lubricant
+AP-5-391: progressive-weapon-shooting-speed
+AP-1-265: logistic-robotics
+AP-1-806: uranium-ammo
+AP-5-656: progressive-stronger-explosives
+AP-6-355: progressive-fluid-handling
+AP-5-312: progressive-laser-weapons-damage
+AP-6-588: personal-laser-defense-equipment
+AP-6-469: progressive-armor
+AP-4-316: progressive-weapon-shooting-speed
+AP-4-750: progressive-personal-roboport-equipment
+AP-2-625: progressive-armor
+AP-5-164: progressive-follower
+AP-1-422: progressive-follower-robot-count
+AP-1-538: progressive-worker-robots-storage
+AP-6-170: progressive-processing
+AP-2-567: progressive-processing
+AP-1-325: progressive-laser-weapons-damage
+AP-1-042: repair-pack
+AP-1-029: progressive-logistics
+AP-2-952: progressive-worker-robots-storage
+AP-4-184: progressive-stronger-explosives
+AP-4-106: steel-axe
+AP-2-586: progressive-inserter
+AP-4-930: progressive-advanced-material-processing
+AP-3-569: progressive-efficiency-module
+AP-3-939: progressive-productivity-module
+AP-2-582: progressive-productivity-module
+AP-6-768: progressive-weapon-shooting-speed
+AP-1-717: progressive-laser-shooting-speed
+AP-1-263: progressive-processing
+AP-4-287: progressive-speed-module
+AP-5-139: progressive-vehicle
+AP-3-111: progressive-laser-shooting-speed
+AP-2-423: progressive-inserter
+AP-2-464: progressive-laser-shooting-speed
+AP-2-653: progressive-physical-projectile-damage
+AP-3-330: progressive-engine
+AP-3-985: progressive-energy-shield
+AP-2-494: effect-transmission
+AP-6-063: progressive-train-network
+AP-5-166: progressive-follower
+AP-1-105: progressive-automation
+AP-2-938: progressive-military
+AP-5-881: progressive-worker-robots-speed
+AP-6-521: progressive-train-network
+AP-6-427: nuclear-power
+AP-5-388: progressive-personal-battery
+AP-2-386: radar
+AP-2-292: oil-gathering
+AP-1-296: progressive-speed-module
+AP-2-588: progressive-research-speed
+AP-6-410: landfill
+AP-1-254: progressive-stronger-explosives
+AP-5-093: progressive-physical-projectile-damage
+AP-3-356: progressive-processing
+AP-6-361: progressive-efficiency-module
+AP-6-799: cliff-explosives
+AP-1-365: progressive-research-speed
+AP-1-989: rocket-fuel
+AP-1-161: progressive-science-pack
+AP-2-839: exoskeleton-equipment
+AP-1-174: night-vision-equipment
+AP-4-298: progressive-vehicle
+AP-2-306: progressive-weapon-shooting-speed
+AP-4-552: progressive-physical-projectile-damage
+AP-5-506: progressive-rocketry
+AP-1-600: progressive-train-network
+AP-4-975: progressive-laser-weapons-damage
+AP-1-005: progressive-automation
+AP-3-090: discharge-defense-equipment
+AP-1-251: progressive-productivity-module
+AP-4-482: progressive-research-speed
+AP-6-289: Inventory Spill Trap
+AP-5-888: progressive-engine
+AP-1-518: Inventory Spill Trap
+AP-2-796: toolbelt
+AP-6-678: explosives
+AP-2-889: progressive-mining-productivity
+AP-5-075: progressive-processing
+AP-2-559: progressive-mining-productivity
+AP-2-948: progressive-laser-shooting-speed
+AP-3-589: progressive-laser-weapons-damage
+AP-3-723: progressive-inserter
+AP-5-810: Inventory Spill Trap
+AP-2-927: progressive-electric-energy-distribution
+AP-5-442: low-density-structure
+AP-3-093: advanced-circuit
+AP-5-112: progressive-laser-shooting-speed
+AP-1-805: robotics
+AP-4-142: progressive-inserter
+AP-1-637: progressive-advanced-material-processing
+AP-1-359: progressive-speed-module
+AP-1-410: progressive-worker-robots-storage
+AP-3-219: processing-unit
+AP-4-464: progressive-turret
+AP-3-983: fission-reactor-equipment
+AP-2-655: progressive-armor
+AP-1-924: progressive-personal-battery
+AP-5-764: progressive-flamethrower
+AP-1-787: progressive-follower-robot-count
+AP-4-874: progressive-laser-weapons-damage
+AP-4-625: battery
+AP-6-890: logistic-system
+AP-6-325: progressive-processing
+AP-6-004: progressive-flamethrower
+AP-1-217: progressive-inserter
+AP-3-590: concrete
+AP-5-924: progressive-science-pack
+AP-5-365: progressive-military
+AP-4-913: solar-energy
+AP-6-323: progressive-efficiency-module
+AP-6-950: progressive-logistics
+AP-5-095: progressive-physical-projectile-damage
+AP-5-040: Inventory Spill Trap
+AP-3-763: progressive-stronger-explosives
+AP-4-466: progressive-physical-projectile-damage
+AP-5-741: progressive-worker-robots-speed
+AP-4-237: progressive-energy-shield
+AP-1-500: progressive-wall
+AP-4-181: progressive-processing
+AP-6-417: artillery
+AP-5-392: progressive-train-network
+AP-6-548: progressive-worker-robots-speed
+AP-2-891: progressive-science-pack
+AP-1-266: progressive-personal-roboport-equipment
+AP-5-437: progressive-laser-weapons-damage
+AP-4-220: progressive-flamethrower
+AP-3-528: progressive-vehicle
+AP-6-609: progressive-mining-productivity
+AP-6-105: progressive-weapon-shooting-speed
+AP-2-150: progressive-armor
+AP-2-626: progressive-physical-projectile-damage
+AP-6-964: rocket-silo
+AP-5-828: progressive-train-network
+AP-4-055: Inventory Spill Trap
+AP-5-211: solar-panel-equipment
+AP-1-670: progressive-worker-robots-speed
+AP-3-584: progressive-flamethrower
+AP-5-954: lamp
+AP-2-331: progressive-train-network
+AP-1-269: progressive-inserter
+AP-2-557: progressive-train-network
+AP-4-990: progressive-research-speed
+AP-2-334: progressive-stronger-explosives
+AP-5-853: progressive-laser-shooting-speed
+AP-3-755: circuit-network
+AP-1-231: progressive-processing
+AP-5-726: progressive-stronger-explosives
+AP-1-459: progressive-research-speed
+AP-4-046: progressive-logistics
+AP-4-506: progressive-military
+AP-3-432: progressive-follower-robot-count
+AP-2-474: progressive-science-pack
+AP-1-447: progressive-rocketry
+AP-2-737: progressive-flamethrower
+AP-4-354: progressive-follower-robot-count
+AP-3-189: progressive-inserter
+AP-3-880: progressive-automation
+AP-3-285: uranium-mining
+AP-6-445: progressive-flamethrower
+AP-3-440: progressive-electric-energy-distribution
+AP-1-290: progressive-rocketry
+AP-4-419: progressive-inserter
+AP-5-345: advanced-combinators
+AP-2-273: plastics
+AP-3-703: progressive-wall
+AP-5-006: progressive-worker-robots-speed
+AP-6-766: progressive-research-speed
+AP-3-687: land-mine
+AP-2-672: progressive-turret
+AP-3-475: progressive-follower
+AP-1-672: progressive-science-pack
+AP-3-243: progressive-weapon-shooting-speed
+AP-6-555: construction-robotics
+AP-1-082: electric-energy-accumulators
+AP-2-518: progressive-train-network
+Rocket Launch: Victory
+Automate automation-science-pack: Automated automation-science-pack
+Automate chemical-science-pack: Automated chemical-science-pack
+Automate logistic-science-pack: Automated logistic-science-pack
+Automate military-science-pack: Automated military-science-pack
+Automate production-science-pack: Automated production-science-pack
+Automate utility-science-pack: Automated utility-science-pack
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Automate automation-science-pack: Automated automation-science-pack
+}
+2: {
+  AP-1-005: progressive-automation
+  AP-1-161: progressive-science-pack
+  AP-1-231: progressive-processing
+  AP-1-251: progressive-productivity-module
+  AP-1-263: progressive-processing
+  AP-1-500: progressive-wall
+  AP-1-600: progressive-train-network
+  AP-1-637: progressive-advanced-material-processing
+  AP-1-672: progressive-science-pack
+  AP-1-805: robotics
+  AP-1-806: uranium-ammo
+}
+3: {
+  Automate logistic-science-pack: Automated logistic-science-pack
+}
+4: {
+  AP-2-160: progressive-military
+  AP-2-273: plastics
+  AP-2-292: oil-gathering
+  AP-2-474: progressive-science-pack
+  AP-2-567: progressive-processing
+  AP-2-891: progressive-science-pack
+  AP-2-927: progressive-electric-energy-distribution
+  AP-2-938: progressive-military
+}
+5: {
+  Automate military-science-pack: Automated military-science-pack
+}
+6: {
+  AP-3-093: advanced-circuit
+  AP-3-219: processing-unit
+  AP-3-285: uranium-mining
+  AP-3-330: progressive-engine
+  AP-3-356: progressive-processing
+  AP-3-528: progressive-vehicle
+  AP-3-569: progressive-efficiency-module
+  AP-3-590: concrete
+  AP-3-755: circuit-network
+}
+7: {
+  Automate chemical-science-pack: Automated chemical-science-pack
+}
+8: {
+  AP-4-181: progressive-processing
+  AP-4-298: progressive-vehicle
+  AP-4-625: battery
+  AP-4-930: progressive-advanced-material-processing
+}
+9: {
+  Automate production-science-pack: Automated production-science-pack
+}
+10: {
+  AP-5-075: progressive-processing
+  AP-5-220: lubricant
+  AP-5-345: advanced-combinators
+  AP-5-442: low-density-structure
+  AP-5-888: progressive-engine
+  AP-5-924: progressive-science-pack
+}
+11: {
+  Automate utility-science-pack: Automated utility-science-pack
+}
+12: {
+  AP-6-678: explosives
+  AP-6-964: rocket-silo
+}
+13: {
+  Rocket Launch: Victory
+}

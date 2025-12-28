@@ -141,7 +141,7 @@ Factorio:
   tech_cost_distribution: even
   tech_cost_mix: '100'
   ramping_tech_costs: 'false'
-  tech_tree_information: none
+  tech_tree_information: full
 
   #########
   # Traps #
@@ -160,12 +160,39 @@ Factorio:
   ###########################
   # Item & Location Options #
   ###########################
-  local_items: []
+  local_items:
+    # Contain useless items to Factorio.
+    - progressive-armor
+    - progressive-energy-shield
+    - progressive-flamethrower
+    - progressive-follower
+    - progressive-follower-robot-count
+    - progressive-laser-shooting-speed
+    - progressive-laser-weapons-damage
+    - progressive-physical-projectile-damage
+    - progressive-rocketry
+    - progressive-stronger-explosives
+    - progressive-turret
+    - progressive-weapon-shooting-speed
+    - artillery
+    - cliff-explosives
+    - discharge-defense-equipment
+    - land-mine
+    - personal-laser-defense-equipment
   non_local_items: []
   start_inventory:
     progressive-worker-robots-speed: 5
   start_inventory_from_pool: {}
-  start_hints: []
+  start_hints:
+    # Hint some of the more critical advancement items.
+    - progressive-science-pack
+    - progressive-wall
+    - progressive-military
+    - oil-gathering
+    - progressive-fluid-handling
+    # Let's see where the significant quality of life is.
+    - progressive-advanced-material-processing
+    - progressive-automation
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
