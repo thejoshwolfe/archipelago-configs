@@ -17,13 +17,21 @@ SMZ3:
   heart_color: red
   quick_swap: 'true'
   energy_beep: 'true'
-  local_items: []
   non_local_items: []
   start_hints: []
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
-  start_inventory:
+  start_inventory: {}
+  start_inventory_from_pool:
     # Start fast.
     Boots: 1
-  start_inventory_from_pool: {}
+  local_items:
+    # Contain some of the junk.
+    - Missile
+    - TenArrows
+    - ThreeBombs
+    - OneRupee
+    - FiveRupees
+    - TwentyRupees
+    - FiftyRupees
