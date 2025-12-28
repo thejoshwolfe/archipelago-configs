@@ -40,8 +40,8 @@ Donkey Kong Country 3:
   ###########################
   local_items:
     # Contain junk items.
-    - 1-Up Balloon
-    - Bear Coin
+    #- 1-Up Balloon
+    #- Bear Coin
     - DK Coin
   non_local_items: []
   start_inventory: {}

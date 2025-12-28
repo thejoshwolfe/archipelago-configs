@@ -1,16 +1,16 @@
-﻿Archipelago Version 0.6.5  -  Seed: 23215879425664895186
+﻿Archipelago Version 0.6.6  -  Seed: 70178576608792970757
 
 Filling Algorithm:               balanced
 Players:                         1
 Plando Options:                  items, connections, texts, bosses
 Game:                            Mega Man 2
-Location Count:                  44
+Location Count:                  71
 Progression Balancing:           50
 Accessibility:                   Full
 Local Items:                     
 Non-local Items:                 
 Start Inventory:                 
-Start Hints:                     
+Start Hints:                     Air Man Access Codes, Air Shooter, Atomic Fire, Bubble Lead, Bubble Man Access Codes, Crash Bomber, Crash Man Access Codes, Flash Man Access Codes, Heat Man Access Codes, Item 1 - Propeller, Item 2 - Rocket, Item 3 - Bouncy, Leaf Shield, Metal Blade, Metal Man Access Codes, Quick Boomerang, Quick Man Access Codes, Time Stopper, Wood Man Access Codes
 Start Location Hints:            
 Excluded Locations:              
 Priority Locations:              
@@ -18,15 +18,15 @@ Item Links:
 Plando Items:                    
 Death Link:                      No
 EnergyLink:                      Yes
-Starting Robot Master:           Metal Man
-Consumables:                     1-Ups/E-Tanks
+Starting Robot Master:           Crash Man
+Consumables:                     All
 Yoku Block Jumps:                No
 Enable Lasers:                   No
 Random Enemy Weaknesses:         No
 Strict Boss Weaknesses:          No
 Random Boss Weaknesses:          Shuffled
 Wily 5 Requirement:              6
-Plando Weaknesses:               
+Plando Weaknesses:               Boobeam Trap: {'Mega Buster': 4}
 Palette Shuffle:                 None
 Quickswap:                       Yes
 Reduce Flashing:                 Minor
@@ -35,97 +35,125 @@ Random Music:                    Vanilla
 
 Starting Items:
 
-Metal Man Access Codes
+Crash Man Access Codes
 
 Locations:
 
-Heat Man - Defeated: Quick Man Access Codes
+Heat Man - Defeated: Air Shooter
 Atomic Fire - Received: Weapon Energy (L)
-Item 1 - Received: Weapon Energy (L)
+Item 1 - Received: Metal Man Access Codes
 Heat Man Stage - 1-Up: Weapon Energy (L)
-Air Man - Defeated: E-Tank
-Air Shooter - Received: Item 3 - Bouncy
-Item 2 - Received: Item 2 - Rocket
-Wood Man - Defeated: E-Tank
-Leaf Shield - Received: Weapon Energy (L)
+Air Man - Defeated: Wood Man Access Codes
+Air Shooter - Received: Heat Man Access Codes
+Item 2 - Received: Leaf Shield
+Wood Man - Defeated: Flash Man Access Codes
+Leaf Shield - Received: Item 2 - Rocket
 Bubble Man - Defeated: E-Tank
 Bubble Lead - Received: Weapon Energy (L)
-Quick Man - Defeated: Crash Bomber
+Quick Man - Defeated: Health Energy (L)
 Quick Boomerang - Received: E-Tank
 Quick Man Stage - 1-Up 1: Weapon Energy (L)
-Quick Man Stage - E-Tank: Leaf Shield
-Quick Man Stage - 1-Up 2: Health Energy (L)
-Quick Man Stage - 1-Up 3: Bubble Lead
-Flash Man - Defeated: E-Tank
-Time Stopper - Received: E-Tank
-Item 3 - Received: E-Tank
-Flash Man Stage - 1-Up: 1-Up
-Flash Man Stage - E-Tank: Crash Man Access Codes
-Metal Man - Defeated: Item 1 - Propeller
+Quick Man Stage - E-Tank: E-Tank
+Quick Man Stage - 1-Up 2: E-Tank
+Quick Man Stage - 1-Up 3: 1-Up
+Quick Man Stage - Weapon Energy 1: Crash Bomber
+Quick Man Stage - Weapon Energy 2: Weapon Energy (L)
+Quick Man Stage - Health Energy: Weapon Energy (L)
+Quick Man Stage - Weapon Energy 3: Weapon Energy (L)
+Flash Man - Defeated: 1-Up
+Time Stopper - Received: Weapon Energy (L)
+Item 3 - Received: 1-Up
+Flash Man Stage - 1-Up: E-Tank
+Flash Man Stage - E-Tank: Item 1 - Propeller
+Flash Man Stage - Health Energy 1: Quick Man Access Codes
+Flash Man Stage - Health Energy 2: Weapon Energy (L)
+Flash Man Stage - Weapon Energy 1: E-Tank
+Flash Man Stage - Health Energy 3: Weapon Energy (L)
+Metal Man - Defeated: Time Stopper
 Metal Blade - Received: Weapon Energy (L)
 Metal Man Stage - E-Tank 1: Weapon Energy (L)
-Metal Man Stage - 1-Up: Weapon Energy (L)
-Metal Man Stage - E-Tank 2: Flash Man Access Codes
-Crash Man - Defeated: Atomic Fire
-Crash Bomber - Received: Heat Man Access Codes
-Crash Man Stage - E-Tank: Weapon Energy (L)
-Crash Man Stage - 1-Up: Air Man Access Codes
-Mecha Dragon - Defeated: Quick Boomerang
+Metal Man Stage - 1-Up: 1-Up
+Metal Man Stage - E-Tank 2: Item 3 - Bouncy
+Crash Man - Defeated: E-Tank
+Crash Bomber - Received: Weapon Energy (L)
+Crash Man Stage - E-Tank: Air Man Access Codes
+Crash Man Stage - 1-Up: E-Tank
+Crash Man Stage - Health Energy: 1-Up
+Mecha Dragon - Defeated: 1-Up
 Wily Stage 1 - Completed: Wily Stage 1 - Completed
 Wily Stage 1 - 1-Up: Health Energy (L)
-Picopico-kun - Defeated: 1-Up
+Wily Stage 1 - Weapon Energy 1: E-Tank
+Picopico-kun - Defeated: Health Energy (L)
 Wily Stage 2 - Completed: Wily Stage 2 - Completed
-Wily Stage 2 - E-Tank 1: Time Stopper
-Wily Stage 2 - 1-Up 1: Air Shooter
-Wily Stage 2 - 1-Up 2: E-Tank
-Wily Stage 2 - E-Tank 2: Metal Blade
-Guts Tank - Defeated: Weapon Energy (L)
+Wily Stage 2 - E-Tank 1: Metal Blade
+Wily Stage 2 - 1-Up 1: 1-Up
+Wily Stage 2 - 1-Up 2: Atomic Fire
+Wily Stage 2 - E-Tank 2: 1-Up
+Wily Stage 2 - Weapon Energy 1: 1-Up
+Wily Stage 2 - Weapon Energy 2: 1-Up
+Wily Stage 2 - Health Energy: Bubble Man Access Codes
+Wily Stage 2 - Weapon Energy 3: E-Tank
+Wily Stage 2 - Weapon Energy 4: E-Tank
+Wily Stage 2 - Weapon Energy 5: Weapon Energy (L)
+Wily Stage 2 - Weapon Energy 6: 1-Up
+Wily Stage 2 - Weapon Energy 7: Weapon Energy (L)
+Wily Stage 2 - Weapon Energy 8: Weapon Energy (L)
+Wily Stage 2 - Weapon Energy 9: Weapon Energy (L)
+Wily Stage 2 - Weapon Energy 10: Health Energy (L)
+Wily Stage 2 - Weapon Energy 11: Health Energy (L)
+Guts Tank - Defeated: 1-Up
 Wily Stage 3 - Completed: Wily Stage 3 - Completed
-Wily Stage 3 - E-Tank: Bubble Man Access Codes
-Boobeam Trap - Defeated: 1-Up
+Wily Stage 3 - E-Tank: Health Energy (L)
+Wily Stage 3 - Weapon Energy 1: Weapon Energy (L)
+Wily Stage 3 - Weapon Energy 2: Bubble Lead
+Wily Stage 3 - Weapon Energy 3: Weapon Energy (L)
+Boobeam Trap - Defeated: E-Tank
 Wily Stage 4 - Completed: Wily Stage 4 - Completed
 Wily Stage 4 - 1-Up 1: E-Tank
-Wily Stage 4 - E-Tank 1: Wood Man Access Codes
-Wily Machine 2 - Defeated: Weapon Energy (L)
+Wily Stage 4 - E-Tank 1: E-Tank
+Wily Stage 4 - Weapon Energy 1: Weapon Energy (L)
+Wily Stage 4 - Weapon Energy 2: Weapon Energy (L)
+Wily Machine 2 - Defeated: Quick Boomerang
 Wily Stage 5 - Completed: Wily Stage 5 - Completed
 Dr. Wily (Alien) - Defeated: Victory
 
 Playthrough:
 
 0: {
-  Metal Man Access Codes
+  Crash Man Access Codes
 }
 1: {
-  Metal Man - Defeated: Item 1 - Propeller
+  Crash Man Stage - E-Tank: Air Man Access Codes
 }
 2: {
-  Metal Man Stage - E-Tank 2: Flash Man Access Codes
+  Air Man - Defeated: Wood Man Access Codes
+  Air Shooter - Received: Heat Man Access Codes
+  Item 2 - Received: Leaf Shield
 }
 3: {
-  Flash Man Stage - E-Tank: Crash Man Access Codes
+  Leaf Shield - Received: Item 2 - Rocket
+  Wood Man - Defeated: Flash Man Access Codes
 }
 4: {
-  Crash Bomber - Received: Heat Man Access Codes
-  Crash Man Stage - 1-Up: Air Man Access Codes
+  Flash Man Stage - E-Tank: Item 1 - Propeller
+  Flash Man Stage - Health Energy 1: Quick Man Access Codes
+  Item 1 - Received: Metal Man Access Codes
 }
 5: {
-  Air Shooter - Received: Item 3 - Bouncy
-  Item 2 - Received: Item 2 - Rocket
+  Metal Man - Defeated: Time Stopper
+  Metal Man Stage - E-Tank 2: Item 3 - Bouncy
 }
 6: {
-  Heat Man - Defeated: Quick Man Access Codes
+  Quick Man Stage - Weapon Energy 1: Crash Bomber
   Wily Stage 1 - Completed: Wily Stage 1 - Completed
 }
 7: {
   Wily Stage 2 - Completed: Wily Stage 2 - Completed
-  Wily Stage 2 - E-Tank 1: Time Stopper
 }
 8: {
-  Quick Man - Defeated: Crash Bomber
   Wily Stage 3 - Completed: Wily Stage 3 - Completed
 }
 9: {
-  Wily Stage 2 - E-Tank 2: Metal Blade
   Wily Stage 4 - Completed: Wily Stage 4 - Completed
 }
 10: {

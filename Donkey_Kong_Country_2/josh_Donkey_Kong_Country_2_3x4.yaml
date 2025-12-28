@@ -101,9 +101,9 @@ Donkey Kong Country 2:
   ###########################
   local_items:
     # Contain junk items.
-    - 1-Up Balloon
+    #- 1-Up Balloon
     #- Backup DK Barrel
-    - Banana Coin
+    #- Banana Coin
     - DK Coin
     - Kremkoin
   non_local_items: []

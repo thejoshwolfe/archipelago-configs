@@ -8,7 +8,7 @@ requires:
 Mega Man 2:
   wily_5_requirement: '6'
   starting_robot_master: random
-  consumables: 1up_etank
+  consumables: all
 
   yoku_jumps: 'false'
   enable_lasers: 'false'
@@ -29,9 +29,39 @@ Mega Man 2:
   random_music: vanilla
 
   local_items: []
+    # Contain junk.
+    #- 1-Up
+    #- E-Tank
+    #- Health Energy (L)
+    #- Weapon Energy (L)
+    # Actually, we get unplaceable item errors.
   non_local_items: []
   start_inventory: {}
-  start_hints: []
+  start_hints:
+    # Hint the critical access codes.
+    - Air Man Access Codes
+    - Bubble Man Access Codes
+    - Crash Man Access Codes
+    - Flash Man Access Codes
+    - Heat Man Access Codes
+    - Metal Man Access Codes
+    - Quick Man Access Codes
+    - Wood Man Access Codes
+    # Hint critical platforming items.
+    - Item 1 - Propeller
+    - Item 2 - Rocket
+    - Item 3 - Bouncy
+    # Hint potentially critical weapons.
+    - Air Shooter
+    - Atomic Fire
+    - Bubble Lead
+    - Crash Bomber
+    - Leaf Shield
+    - Metal Blade
+    - Quick Boomerang
+    - Time Stopper
+    # So we're just hinting everything I guess.
+
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
