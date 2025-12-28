@@ -93,9 +93,10 @@ Celeste (Open World):
   ###########################
   # Item & Location Options #
   ###########################
-  local_items:
+  local_items: []
     # There's like 130 of these.
-    - Raspberry
+    #- Raspberry
+    # Raspberries too powerful. Can't remove them without causing unplaceable item errors.
   non_local_items: []
   start_inventory:
     # It's fun that torches can be missing, but not fun for me.
