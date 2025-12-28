@@ -1,16 +1,3 @@
-+1 Laser (x10)
-+1 Laser (Unredirected)
-+1 Laser (Redirected)
-Desert Laser Redirection
-Bunker Laser Activation (x3)
-Monastery Laser Activation (x3)
-Shadows Laser Activation (x3)
-Jungle Popup Wall Lifts (x4)
-Town Tower 4th Door Opens (x3)
-Victory
-
-Boat
-
 Progressive Stars (x2)
 Progressive Symmetry (x2)
 Progressive Dots (x2)
@@ -23,8 +10,22 @@ Negative Shapers
 Eraser
 Triangles
 
+Boat
+Caves Shortcuts
+
 Puzzle Skip (filler)
 Speed Boost (filler)
 Slowness (filler)
 Bonk (filler)
 Functioning Brain (filler)
+
++1 Laser (x10)
++1 Laser (Unredirected)
++1 Laser (Redirected)
+Desert Laser Redirection
+Bunker Laser Activation (x3)
+Monastery Laser Activation (x3)
+Shadows Laser Activation (x3)
+Jungle Popup Wall Lifts (x4)
+Town Tower 4th Door Opens (x3)
+Victory

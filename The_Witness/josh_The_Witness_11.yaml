@@ -43,7 +43,21 @@ The Witness:
   shuffle_dog: puzzle_skip
   local_items: []
   non_local_items: []
-  start_hints: []
+  start_hints:
+  # Tell me the way
+  - Black/White Squares
+  - Colored Squares
+  - Progressive Dots
+  - Sound Dots
+  - Progressive Symmetry
+  - Eraser
+  - Shapers
+  - Rotated Shapers
+  - Negative Shapers
+  - Progressive Stars
+  - Triangles
+  - Boat
+  - Caves Shortcuts
   start_location_hints: []
   exclude_locations:
   - Desert Flood Room EP
