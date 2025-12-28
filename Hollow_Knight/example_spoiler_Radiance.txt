@@ -1,16 +1,16 @@
-﻿Archipelago Version 0.6.6  -  Seed: 24066953913571465789
+﻿Archipelago Version 0.6.6  -  Seed: 61755482254032451006
 
 Filling Algorithm:               balanced
 Players:                         1
 Plando Options:                  items, connections, texts, bosses
 Game:                            Hollow Knight
-Location Count:                  258
+Location Count:                  257
 Progression Balancing:           50
 Accessibility:                   Full
 Local Items:                     
 Non-local Items:                 
 Start Inventory:                 Ancient_Basin_Map: 1, City_of_Tears_Map: 1, Crossroads_Map: 1, Crystal_Peak_Map: 1, Deepnest_Map: 1, Fog_Canyon_Map: 1, Fungal_Wastes_Map: 1, Greenpath_Map: 1, Howling_Cliffs_Map: 1, Kingdom's_Edge_Map: 1, Queen's_Gardens_Map: 1, Resting_Grounds_Map: 1, Royal_Waterways_Map: 1, Quill: 1, Dashmaster: 1, Sprintmaster: 1, Gathering_Swarm: 1
-Start Hints:                     
+Start Hints:                     Herrah, King_Fragment, Lurien, Monomon, Queen_Fragment, Void_Heart
 Start Location Hints:            
 Excluded Locations:              
 Priority Locations:              
@@ -18,7 +18,7 @@ Item Links:
 Plando Items:                    
 Randomize Dreamers:              Yes
 Randomize Skills:                Yes
-Randomize Focus:                 Yes
+Randomize Focus:                 No
 Randomize Swim:                  Yes
 Randomize Charms:                Yes
 Randomize Keys:                  Yes
@@ -60,7 +60,7 @@ Dangerous Skips:                 No
 Dark Rooms:                      No
 Complex Skips:                   No
 Difficult Skips:                 No
-Remove Spell Upgrades:           Yes
+Remove Spell Upgrades:           No
 Start Location:                  king's_pass
 Goal:                            Radiance
 Grub Hunt Goal:                  -1
@@ -82,7 +82,7 @@ Maximum Charm Requirement:       20
 Randomize Charm Notch Costs:     70
 Charm Notch Cost Plando:         
 Minimum Egg Price:               1
-Maximum Egg Price:               2
+Maximum Egg Price:               1
 Egg Shop Item Slots:             0
 Sly Shop Slots:                  10
 Sly Key Shop Slots:              6
@@ -98,7 +98,7 @@ Split Mothwing Cloak:            No
 Split Mantis Claw:               Yes
 Costsanity:                      Shopsonly
 Costsanity Hybrid Chance:        10
-Costsanity Egg Weight:           0
+Costsanity Egg Weight:           1
 Costsanity Grub Weight:          3
 Costsanity Essence Weight:       5
 Costsanity Charm Weight:         2
@@ -108,138 +108,138 @@ Costsanity Geo Weight:           20
 Charm Notches:
 josh_hk
 
-Gathering Swarm: 1
-Wayward Compass: 5
-Grubsong: 2
+Gathering Swarm: 2
+Wayward Compass: 1
+Grubsong: 1
 Stalwart Shell: 3
-Baldur Shell: 0
-Fury of the Fallen: 3
-Quick Focus: 3
+Baldur Shell: 1
+Fury of the Fallen: 2
+Quick Focus: 1
 Lifeblood Heart: 0
-Lifeblood Core: 0
-Defender's Crest: 1
-Flukenest: 1
-Thorns of Agony: 1
-Mark of Pride: 1
+Lifeblood Core: 1
+Defender's Crest: 3
+Flukenest: 3
+Thorns of Agony: 2
+Mark of Pride: 2
 Steady Body: 1
-Heavy Blow: 1
+Heavy Blow: 2
 Sharp Shadow: 1
 Spore Shroom: 1
 Longnail: 2
-Shaman Stone: 2
-Soul Catcher: 3
+Shaman Stone: 1
+Soul Catcher: 1
 Soul Eater: 2
-Glowing Womb: 3
-Fragile Heart: 3
+Glowing Womb: 5
+Fragile Heart: 2
 Fragile Greed: 1
-Fragile Strength: 5
-Nailmaster's Glory: 0
+Fragile Strength: 4
+Nailmaster's Glory: 4
 Joni's Blessing: 1
-Shape of Unn: 2
-Hiveblood: 1
-Dream Wielder: 4
-Dashmaster: 3
-Quick Slash: 3
-Spell Twister: 0
-Deep Focus: 0
+Shape of Unn: 1
+Hiveblood: 2
+Dream Wielder: 0
+Dashmaster: 2
+Quick Slash: 2
+Spell Twister: 1
+Deep Focus: 2
 Grubberfly's Elegy: 1
 Kingsoul: 2
 Sprintmaster: 0
-Dreamshield: 1
-Weaversong: 3
-Grimmchild: 3
+Dreamshield: 3
+Weaversong: 2
+Grimmchild: 2
 
 Shop Prices:
 josh_hk
 
-Ancient_Basin_Map: Shade_Cloak costing 112 Geo
-City_Storerooms_Stag: Boss_Geo-Vengefly_King costing 200 Geo
+Ancient_Basin_Map: Thorns_of_Agony costing 112 Geo
+City_Storerooms_Stag: Grub costing 200 Geo
 City_of_Tears_Map: Grub costing 90 Geo
-Crossroads_Map: Shopkeeper's_Key costing 30 Geo
-Crossroads_Stag: Hidden_Station_Stag costing 50 Geo
-Crystal_Peak_Map: Grimmchild2 costing 112 Geo
-Dash_Slash: Grub costing 800 Geo
-Deepnest_Map-Right: Lifeblood_Core costing 38 Geo
-Deepnest_Map-Upper: Grub costing 38 Geo
-Distant_Village_Stag: Geo_Chest-Crystal_Peak costing 250 Geo
-Elevator_Pass: Desolate_Dive costing 150 Geo
-Fog_Canyon_Map: Lumafly_Lantern costing 150 Geo
-Fungal_Wastes_Map: Soul_Catcher costing 75 Geo
-Greenpath_Map: City_of_Tears_Map costing 60 Geo
-Greenpath_Stag: Grub costing 140 Geo
+Crossroads_Map: Dream_Nail costing 30 Geo
+Crossroads_Stag: Whispering_Root-Ancestral_Mound costing 50 Geo
+Crystal_Peak_Map: Mask_Shard costing 112 Geo
+Dash_Slash: Awoken_Dream_Nail costing 800 Geo
+Deepnest_Map-Right: Grub costing 38 Geo
+Deepnest_Map-Upper: Boss_Geo-Massive_Moss_Charger costing 38 Geo
+Distant_Village_Stag: Grub costing 250 Geo
+Elevator_Pass: Geo_Chest-Greenpath costing 150 Geo
+Fog_Canyon_Map: Charm_Notch costing 150 Geo
+Fungal_Wastes_Map: Grub costing 75 Geo
+Greenpath_Map: Grub costing 60 Geo
+Greenpath_Stag: Glowing_Womb costing 140 Geo
 Grubfather_1: Rancid_Egg costing 16 Grubs
-Grubfather_2: Dream_Gate costing 1 Charm
-Grubfather_3: Spell_Twister costing 10 Essence
-Grubfather_4: Mask_Shard costing 51 Essence
-Grubfather_5: Vengeful_Spirit costing 262 Essence
-Grubfather_6: Dream_Nail costing 718 Essence
-Grubfather_7: Grubberfly's_Elegy costing 20 Grubs and 229 Essence
-Hidden_Station_Stag: Fragile_Strength costing 300 Geo
-Howling_Cliffs_Map: Grub costing 75 Geo
-Iselda_1: Simple_Key costing 118 Geo
-Iselda_2: Grub costing 187 Geo
-Iselda_3: Soul_Refill costing 211 Geo
-Iselda_4: Whispering_Root-Howling_Cliffs costing 411 Essence
-Iselda_5: Grub costing 530 Essence
-King's_Station_Stag: Soul_Refill costing 300 Geo
-Kingdom's_Edge_Map: Kingdom's_Edge_Map costing 112 Geo
-Leg_Eater_1: Boss_Essence-Elder_Hu costing 5 Charms
-Leg_Eater_2: Salubra's_Blessing costing 125 Geo
-Leg_Eater_3: Soul_Refill costing 191 Geo
-Leg_Eater_4: Godtuner costing 201 Geo
-Leg_Eater_5: King's_Brand costing 341 Geo
-Leg_Eater_6: Shape_of_Unn costing 359 Geo
-Leg_Eater_7: Crystal_Peak_Map costing 793 Essence
-Queen's_Gardens_Map: Hiveblood costing 150 Geo
-Queen's_Gardens_Stag: City_Storerooms_Stag costing 200 Geo
-Queen's_Station_Stag: Howling_Wraiths costing 120 Geo
-Resting_Grounds_Map: Mothwing_Cloak costing 56 Geo
-Royal_Waterways_Map: Boss_Geo-Massive_Moss_Charger costing 75 Geo
-Salubra_(Requires_Charms)_1: Dream_Wielder costing 11 Grubs
-Salubra_(Requires_Charms)_2: Lifeblood_Heart costing 13 Charms
-Salubra_(Requires_Charms)_3: Grub costing 88 Geo
-Salubra_(Requires_Charms)_4: Grub costing 215 Essence
-Salubra_(Requires_Charms)_5: Spore_Shroom costing 243 Essence
-Salubra_1: Great_Slash costing 1 Grub
-Salubra_2: Queen's_Gardens_Stag costing 93 Geo
-Salubra_3: Mask_Shard costing 106 Geo
-Salubra_4: Resting_Grounds_Stag costing 142 Geo
-Salubra_5: Queen_Fragment costing 470 Essence
-Seer_1: Dash_Slash costing 4 Grubs
-Seer_10: Pale_Ore costing 641 Essence
-Seer_2: Vessel_Fragment costing 4 Grubs
-Seer_3: Gathering_Swarm costing 12 Charms
-Seer_4: Grub costing 25 Grubs
-Seer_5: Boss_Geo-Gruz_Mother costing 38 Essence
-Seer_6: Vessel_Fragment costing 130 Essence
-Seer_7: Grub costing 131 Essence
-Seer_8: Right_Crystal_Heart costing 406 Essence
-Seer_9: Charm_Notch costing 518 Essence
-Sly_(Key)_1: Simple_Key costing 1 Grub
-Sly_(Key)_2: Greenpath_Map costing 4 Geo
-Sly_(Key)_3: Whispering_Root-Mantis_Village costing 12 Grubs
-Sly_(Key)_4: Grub costing 85 Geo
-Sly_(Key)_5: Distant_Village_Stag costing 114 Essence
-Sly_(Key)_6: Left_Mantis_Claw costing 304 Geo
-Sly_(Key)_7: Pale_Ore costing 327 Geo
+Grubfather_10: Sprintmaster costing 795 Essence
+Grubfather_11: Mask_Shard costing 1 Grub and 74 Essence
+Grubfather_2: Hidden_Station_Stag costing 2 Grubs
+Grubfather_3: Whispering_Root-Crystal_Peak costing 7 Grubs
+Grubfather_4: Grub costing 15 Charms
+Grubfather_5: Whispering_Root-City costing 19 Grubs
+Grubfather_6: Mask_Shard costing 21 Grubs
+Grubfather_7: Whispering_Root-Kingdoms_Edge costing 428 Essence
+Grubfather_8: Flukenest costing 509 Essence
+Grubfather_9: Mask_Shard costing 570 Essence
+Hidden_Station_Stag: One_Geo costing 300 Geo
+Howling_Cliffs_Map: Vessel_Fragment costing 75 Geo
+Iselda_1: Grub costing 1 Rancid Egg
+Iselda_2: Vessel_Fragment costing 22 Grubs
+Iselda_3: Geo_Chest-Soul_Master costing 24 Geo
+Iselda_4: Queen's_Gardens_Map costing 128 Geo
+Iselda_5: Soul_Refill costing 220 Geo
+Iselda_6: Boss_Essence-Gorb costing 426 Geo
+King's_Station_Stag: Quick_Focus costing 300 Geo
+Kingdom's_Edge_Map: Queen's_Gardens_Stag costing 112 Geo
+Leg_Eater_1: Whispering_Root-Resting_Grounds costing 104 Geo
+Leg_Eater_2: Grub costing 161 Geo
+Leg_Eater_3: Mark_of_Pride costing 265 Geo
+Queen's_Gardens_Map: Soul_Refill costing 150 Geo
+Queen's_Gardens_Stag: Boss_Geo-Vengefly_King costing 200 Geo
+Queen's_Station_Stag: Mask_Shard costing 120 Geo
+Resting_Grounds_Map: Mask_Shard costing 56 Geo
+Royal_Waterways_Map: Isma's_Tear costing 75 Geo
+Salubra_(Requires_Charms)_1: Lifeblood_Heart costing 15 Geo
+Salubra_(Requires_Charms)_2: Boss_Essence-Elder_Hu costing 76 Geo
+Salubra_(Requires_Charms)_3: Boss_Essence-Galien costing 117 Geo
+Salubra_(Requires_Charms)_4: Monomon costing 308 Geo
+Salubra_(Requires_Charms)_5: Dirtmouth_Stag costing 336 Essence
+Salubra_(Requires_Charms)_6: Longnail costing 337 Essence
+Salubra_(Requires_Charms)_7: One_Geo costing 488 Geo
+Salubra_1: Grub costing 253 Geo
+Salubra_2: Simple_Key costing 276 Geo
+Salubra_3: Grub costing 393 Geo
+Salubra_4: Vessel_Fragment costing 6 Grubs and 276 Geo
+Salubra_5: Fog_Canyon_Map costing 279 Essence and 353 Geo
+Seer_1: Love_Key costing 1 Rancid Egg
+Seer_10: Grubberfly's_Elegy costing 20 Charms and 18 Grubs
+Seer_2: One_Geo costing 6 Grubs
+Seer_3: Whispering_Root-Howling_Cliffs costing 6 Charms
+Seer_4: Queen's_Station_Stag costing 7 Grubs
+Seer_5: Dash_Slash costing 22 Grubs
+Seer_6: Grub costing 230 Essence
+Seer_7: King's_Station_Stag costing 609 Essence
+Seer_8: Fungal_Wastes_Map costing 783 Essence
+Seer_9: Swim costing 793 Essence
+Sly_(Key)_1: Charm_Notch costing 4 Geo
+Sly_(Key)_2: Grub costing 64 Geo
+Sly_(Key)_3: Pale_Ore costing 198 Geo
+Sly_(Key)_4: Salubra's_Blessing costing 352 Geo
+Sly_(Key)_5: Void_Heart costing 653 Essence
+Sly_(Key)_6: Kingdom's_Edge_Map costing 18 Grubs and 354 Geo
+Sly_(Key)_7: Queen_Fragment costing 528 Essence and 459 Geo
 Sly_1: Rancid_Egg costing 60 Geo
-Sly_10: Herrah costing 394 Geo
-Sly_11: Grubsong costing 688 Essence
-Sly_12: One_Geo costing 722 Essence
-Sly_13: Defender's_Crest costing 15 Charms and 470 Geo
-Sly_2: Crossroads_Map costing 13 Charms
-Sly_3: Pale_Ore costing 14 Grubs
-Sly_4: Geo_Chest-Watcher_Knights costing 35 Geo
-Sly_5: Whispering_Root-Kingdoms_Edge costing 153 Geo
-Sly_6: Deep_Focus costing 304 Geo
-Sly_7: Charm_Notch costing 324 Geo
-Sly_8: Boss_Essence-Failed_Champion costing 369 Geo
-Sly_9: Boss_Essence-No_Eyes costing 390 Geo
-Stag_Nest_Stag: Charm_Notch costing 300 Geo
-Unbreakable_Greed: Dreamshield costing 450 Geo
-Unbreakable_Heart: Quill costing 600 Geo
-Unbreakable_Strength: Boss_Essence-White_Defender costing 750 Geo
-Vessel_Fragment-Basin: Pale_Ore costing 3000 Geo
+Sly_10: Steady_Body costing 691 Essence
+Sly_2: Baldur_Shell costing 1 Rancid Egg
+Sly_3: Grub costing 1 Grub
+Sly_4: Lumafly_Lantern costing 8 Charms
+Sly_5: Grub costing 107 Geo
+Sly_6: Elegant_Key costing 174 Geo
+Sly_7: Tram_Pass costing 222 Essence
+Sly_8: Geo_Chest-Resting_Grounds costing 387 Essence
+Sly_9: Boss_Essence-No_Eyes costing 485 Geo
+Stag_Nest_Stag: Shopkeeper's_Key costing 300 Geo
+Unbreakable_Greed: Grub costing 450 Geo
+Unbreakable_Heart: King_Fragment costing 600 Geo
+Unbreakable_Strength: City_Storerooms_Stag costing 750 Geo
+Vessel_Fragment-Basin: Boss_Geo-Elegant_Soul_Warrior costing 3000 Geo
 
 Starting Items:
 
@@ -258,10 +258,11 @@ Resting_Grounds_Map
 Royal_Waterways_Map
 Quill
 Tutorial_01
-Gathering_Swarm
-Upslash
 Dashmaster
 Sprintmaster
+Gathering_Swarm
+Upslash
+Focus
 Leftslash
 Rightslash
 Downslash
@@ -1337,100 +1338,99 @@ White_Palace_18[right1]: White_Palace_06[left1]
 White_Palace_19[top1]: White_Palace_20[bot1]
 White_Palace_19[left1]: White_Palace_17[right1]
 White_Palace_20[bot1]: White_Palace_19[top1]
-Lurien: Void_Heart
+Lurien: Charm_Notch
 Monomon: Mask_Shard
-Herrah: Mask_Shard
-World_Sense: Shaman_Stone
-Mothwing_Cloak: Grub
-Left_Mantis_Claw: Love_Key
-Right_Mantis_Claw: Resting_Grounds_Map
-Crystal_Heart: Grub
-Split_Crystal_Heart: Quick_Focus
-Monarch_Wings: Sprintmaster
-Shade_Cloak: Grub
-Isma's_Tear: Grub
-Dream_Nail: Boss_Essence-Marmu
-Vengeful_Spirit: Stalwart_Shell
-Shade_Soul: Mask_Shard
-Desolate_Dive: Grub
+Herrah: Grub
+World_Sense: Left_Crystal_Heart
+Mothwing_Cloak: Charm_Notch
+Left_Mantis_Claw: Whispering_Root-Queens_Gardens
+Right_Mantis_Claw: Grubsong
+Crystal_Heart: Spell_Twister
+Split_Crystal_Heart: Deep_Focus
+Monarch_Wings: Geo_Chest-False_Knight
+Shade_Cloak: Mask_Shard
+Isma's_Tear: Crossroads_Map
+Dream_Nail: Grub
+Vengeful_Spirit: Boss_Essence-Grey_Prince_Zote
+Shade_Soul: Unbreakable_Heart
+Desolate_Dive: Charm_Notch
 Descending_Dark: Charm_Notch
-Howling_Wraiths: Grub
-Abyss_Shriek: Fog_Canyon_Map
-Cyclone_Slash: Grub
-Dash_Slash: Grub
-Great_Slash: Thorns_of_Agony
-Focus: Queen's_Gardens_Map
-Baldur_Shell: Joni's_Blessing
-Fury_of_the_Fallen: Deepnest_Map
-Lifeblood_Core: Boss_Essence-Gorb
-Defender's_Crest: Whispering_Root-Hive
-Flukenest: Mask_Shard
-Thorns_of_Agony: Deepnest_Map
-Mark_of_Pride: Elegant_Key
-Sharp_Shadow: Heavy_Blow
-Spore_Shroom: Grub
-Soul_Catcher: Soul_Refill
-Soul_Eater: Fragile_Heart
-Glowing_Womb: Boss_Essence-Xero
-Nailmaster's_Glory: Monarch_Wings
-Joni's_Blessing: Geo_Chest-Soul_Master
-Shape_of_Unn: Royal_Waterways_Map
-Hiveblood: Vessel_Fragment
-Dashmaster: Grub
-Quick_Slash: Soul_Refill
-Spell_Twister: Whispering_Root-Crystal_Peak
-Deep_Focus: Vessel_Fragment
-Queen_Fragment: Grub
-King_Fragment: One_Geo
-Void_Heart: Whispering_Root-Deepnest
-Dreamshield: Boss_Essence-Soul_Tyrant
-Weaversong: Unbreakable_Strength
-Grimmchild: Grub
-Unbreakable_Heart: Quill
-Unbreakable_Greed: Dreamshield
-Unbreakable_Strength: Boss_Essence-White_Defender
-City_Crest: Geo_Chest-False_Knight
-Tram_Pass: Soul_Refill
-Simple_Key-Basin: Vessel_Fragment
-Simple_Key-City: One_Geo
-Simple_Key-Lurker: Grub
-Shopkeeper's_Key: Charm_Notch
+Howling_Wraiths: Soul_Refill
+Abyss_Shriek: Resting_Grounds_Map
+Cyclone_Slash: Mask_Shard
+Dash_Slash: Awoken_Dream_Nail
+Great_Slash: Vessel_Fragment
+Baldur_Shell: Shade_Cloak
+Fury_of_the_Fallen: Stag_Nest_Stag
+Lifeblood_Core: Grub
+Defender's_Crest: Mask_Shard
+Flukenest: Vessel_Fragment
+Thorns_of_Agony: Boss_Geo-Crystal_Guardian
+Mark_of_Pride: Defender's_Crest
+Sharp_Shadow: Grub
+Spore_Shroom: Geo_Chest-Watcher_Knights
+Soul_Catcher: Pale_Ore
+Soul_Eater: One_Geo
+Glowing_Womb: One_Geo
+Nailmaster's_Glory: Fragile_Greed
+Joni's_Blessing: Fragile_Heart
+Shape_of_Unn: Grub
+Hiveblood: Whispering_Root-Spirits_Glade
+Dashmaster: Boss_Geo-Gruz_Mother
+Quick_Slash: Monarch_Wings
+Spell_Twister: Howling_Wraiths
+Deep_Focus: Lifeblood_Core
+Queen_Fragment: Mask_Shard
+King_Fragment: Boss_Geo-Gorgeous_Husk
+Void_Heart: Joni's_Blessing
+Dreamshield: Mask_Shard
+Weaversong: Howling_Cliffs_Map
+Grimmchild: Soul_Catcher
+Unbreakable_Heart: King_Fragment
+Unbreakable_Greed: Grub
+Unbreakable_Strength: City_Storerooms_Stag
+City_Crest: Pale_Ore
+Tram_Pass: One_Geo
+Simple_Key-Basin: Lurien
+Simple_Key-City: Whispering_Root-Crossroads
+Simple_Key-Lurker: Royal_Waterways_Map
+Shopkeeper's_Key: Nailmaster's_Glory
 Love_Key: Grub
-King's_Brand: Simple_Key
-Godtuner: One_Geo
-Collector's_Map: Monomon
-Mask_Shard-Brooding_Mawlek: Vessel_Fragment
-Mask_Shard-Crossroads_Goam: Grub
-Mask_Shard-Stone_Sanctuary: Unbreakable_Greed
-Mask_Shard-Queen's_Station: Isma's_Tear
-Mask_Shard-Deepnest: Grub
-Mask_Shard-Waterways: Grub
-Mask_Shard-Enraged_Guardian: Charm_Notch
-Mask_Shard-Hive: Boss_Geo-Elegant_Soul_Warrior
-Mask_Shard-Grey_Mourner: Grub
-Mask_Shard-Bretta: Pale_Ore
-Vessel_Fragment-Greenpath: Lurien
-Vessel_Fragment-City: Fungal_Wastes_Map
-Vessel_Fragment-Crossroads: Awoken_Dream_Nail
-Vessel_Fragment-Basin: Pale_Ore
-Vessel_Fragment-Deepnest: Grub
-Vessel_Fragment-Stag_Nest: Whispering_Root-Resting_Grounds
-Charm_Notch-Shrumal_Ogres: Swim
-Charm_Notch-Fog_Canyon: Howling_Cliffs_Map
-Charm_Notch-Colosseum: Wayward_Compass
-Charm_Notch-Grimm: Grub
-Pale_Ore-Basin: Ancient_Basin_Map
-Pale_Ore-Crystal_Peak: Longnail
-Pale_Ore-Nosk: Queen's_Station_Stag
-Pale_Ore-Colosseum: Mask_Shard
-Geo_Chest-False_Knight: Mask_Shard
-Geo_Chest-Soul_Master: Whispering_Root-Queens_Gardens
-Geo_Chest-Watcher_Knights: Whispering_Root-Greenpath
-Geo_Chest-Greenpath: Boss_Geo-Sanctum_Soul_Warrior
-Geo_Chest-Mantis_Lords: Nailmaster's_Glory
-Geo_Chest-Resting_Grounds: Quick_Slash
-Geo_Chest-Crystal_Peak: Tram_Pass
-Geo_Chest-Weavers_Den: Whispering_Root-Ancestral_Mound
+King's_Brand: Boss_Essence-Failed_Champion
+Godtuner: Dreamshield
+Collector's_Map: Heavy_Blow
+Mask_Shard-Brooding_Mawlek: Shade_Soul
+Mask_Shard-Crossroads_Goam: Fragile_Strength
+Mask_Shard-Stone_Sanctuary: Boss_Geo-Sanctum_Soul_Warrior
+Mask_Shard-Queen's_Station: Simple_Key
+Mask_Shard-Deepnest: Resting_Grounds_Stag
+Mask_Shard-Waterways: Soul_Refill
+Mask_Shard-Enraged_Guardian: Mask_Shard
+Mask_Shard-Hive: Boss_Essence-Markoth
+Mask_Shard-Grey_Mourner: Crystal_Peak_Map
+Mask_Shard-Bretta: Herrah
+Vessel_Fragment-Greenpath: Grub
+Vessel_Fragment-City: Desolate_Dive
+Vessel_Fragment-Crossroads: Boss_Essence-Soul_Tyrant
+Vessel_Fragment-Basin: Boss_Geo-Elegant_Soul_Warrior
+Vessel_Fragment-Deepnest: Unbreakable_Greed
+Vessel_Fragment-Stag_Nest: City_of_Tears_Map
+Charm_Notch-Shrumal_Ogres: Shaman_Stone
+Charm_Notch-Fog_Canyon: Geo_Chest-Weavers_Den
+Charm_Notch-Colosseum: Vengeful_Spirit
+Charm_Notch-Grimm: Left_Mantis_Claw
+Pale_Ore-Basin: Great_Slash
+Pale_Ore-Crystal_Peak: Ancient_Basin_Map
+Pale_Ore-Nosk: Cyclone_Slash
+Pale_Ore-Colosseum: Vessel_Fragment
+Geo_Chest-False_Knight: Weaversong
+Geo_Chest-Soul_Master: Grub
+Geo_Chest-Watcher_Knights: Mask_Shard
+Geo_Chest-Greenpath: One_Geo
+Geo_Chest-Mantis_Lords: Greenpath_Stag
+Geo_Chest-Resting_Grounds: Grub
+Geo_Chest-Crystal_Peak: One_Geo
+Geo_Chest-Weavers_Den: Gathering_Swarm
 Grubfather_1: Rancid_Egg
 Rancid_Egg-Sheo: Rancid_Egg
 Rancid_Egg-Fungal_Core: Rancid_Egg
@@ -1451,108 +1451,108 @@ Rancid_Egg-Waterways_Main: Rancid_Egg
 Rancid_Egg-Waterways_West_Bluggsac: Rancid_Egg
 Rancid_Egg-Waterways_West_Pickup: Rancid_Egg
 Sly_1: Rancid_Egg
-Whispering_Root-Crossroads: Greenpath_Stag
-Whispering_Root-Greenpath: Geo_Chest-Greenpath
-Whispering_Root-Leg_Eater: Grub
-Whispering_Root-Mantis_Village: Grub
-Whispering_Root-Deepnest: Right_Mantis_Claw
+Whispering_Root-Crossroads: Simple_Key
+Whispering_Root-Greenpath: Grub
+Whispering_Root-Leg_Eater: Abyss_Shriek
+Whispering_Root-Mantis_Village: Geo_Chest-Crystal_Peak
+Whispering_Root-Deepnest: Descending_Dark
 Whispering_Root-Queens_Gardens: One_Geo
-Whispering_Root-Kingdoms_Edge: Mask_Shard
-Whispering_Root-Waterways: One_Geo
-Whispering_Root-City: Boss_Essence-Lost_Kin
-Whispering_Root-Resting_Grounds: Mask_Shard
-Whispering_Root-Spirits_Glade: King_Fragment
-Whispering_Root-Crystal_Peak: Dirtmouth_Stag
-Whispering_Root-Howling_Cliffs: Grub
-Whispering_Root-Ancestral_Mound: Whispering_Root-City
-Whispering_Root-Hive: One_Geo
-Boss_Essence-Elder_Hu: Sharp_Shadow
-Boss_Essence-Xero: Boss_Geo-Gorgeous_Husk
-Boss_Essence-Gorb: Crossroads_Stag
+Whispering_Root-Kingdoms_Edge: Hiveblood
+Whispering_Root-Waterways: Boss_Essence-Xero
+Whispering_Root-City: Whispering_Root-Waterways
+Whispering_Root-Resting_Grounds: King's_Brand
+Whispering_Root-Spirits_Glade: Pale_Ore
+Whispering_Root-Crystal_Peak: Grub
+Whispering_Root-Howling_Cliffs: Vessel_Fragment
+Whispering_Root-Ancestral_Mound: Distant_Village_Stag
+Whispering_Root-Hive: Soul_Eater
+Boss_Essence-Elder_Hu: Grub
+Boss_Essence-Xero: Boss_Essence-Marmu
+Boss_Essence-Gorb: Vessel_Fragment
 Boss_Essence-Marmu: Grub
-Boss_Essence-No_Eyes: Mask_Shard
-Boss_Essence-Galien: Simple_Key
-Boss_Essence-Markoth: Left_Crystal_Heart
-Boss_Essence-Failed_Champion: Vessel_Fragment
-Boss_Essence-Soul_Tyrant: Flukenest
-Boss_Essence-Lost_Kin: Unbreakable_Heart
-Boss_Essence-White_Defender: City_Crest
-Boss_Essence-Grey_Prince_Zote: Collector's_Map
-Grub-Crossroads_Acid: Geo_Chest-Mantis_Lords
-Grub-Crossroads_Center: Geo_Chest-Weavers_Den
-Grub-Crossroads_Stag: Boss_Essence-Grey_Prince_Zote
-Grub-Crossroads_Spike: Glowing_Womb
-Grub-Crossroads_Guarded: Cyclone_Slash
-Grub-Greenpath_Cornifer: Grub
-Grub-Greenpath_Journal: Baldur_Shell
-Grub-Greenpath_MMC: Soul_Refill
-Grub-Greenpath_Stag: One_Geo
-Grub-Fog_Canyon: Mask_Shard
-Grub-Fungal_Bouncy: Boss_Essence-Galien
-Grub-Fungal_Spore_Shroom: Soul_Refill
-Grub-Deepnest_Mimic: Focus
-Grub-Deepnest_Nosk: Boss_Geo-Enraged_Guardian
-Grub-Deepnest_Spike: Boss_Geo-Crystal_Guardian
-Grub-Dark_Deepnest: Grub
-Grub-Beast's_Den: Fury_of_the_Fallen
-Grub-Kingdom's_Edge_Oro: Boss_Essence-Markoth
-Grub-Kingdom's_Edge_Camp: World_Sense
-Grub-Hive_External: Soul_Eater
-Grub-Hive_Internal: Whispering_Root-Crossroads
-Grub-Basin_Requires_Wings: Grub
-Grub-Basin_Requires_Dive: Weaversong
-Grub-Waterways_Main: Geo_Chest-Resting_Grounds
-Grub-Isma's_Grove: King's_Station_Stag
-Grub-Waterways_Requires_Tram: One_Geo
-Grub-City_of_Tears_Left: Grub
-Grub-Soul_Sanctum: Soul_Refill
-Grub-Watcher's_Spire: Charm_Notch
-Grub-City_of_Tears_Guarded: Mark_of_Pride
-Grub-King's_Station: Fragile_Greed
-Grub-Resting_Grounds: Pale_Ore
-Grub-Crystal_Peak_Below_Chest: Steady_Body
-Grub-Crystallized_Mound: Whispering_Root-Leg_Eater
-Grub-Crystal_Peak_Spike: Vessel_Fragment
-Grub-Crystal_Peak_Mimic: Dashmaster
-Grub-Crystal_Peak_Crushers: Whispering_Root-Spirits_Glade
+Boss_Essence-No_Eyes: Unbreakable_Strength
+Boss_Essence-Galien: Grub
+Boss_Essence-Markoth: Whispering_Root-Mantis_Village
+Boss_Essence-Failed_Champion: Pale_Ore
+Boss_Essence-Soul_Tyrant: Grub
+Boss_Essence-Lost_Kin: One_Geo
+Boss_Essence-White_Defender: Soul_Refill
+Boss_Essence-Grey_Prince_Zote: Quick_Slash
+Grub-Crossroads_Acid: Dashmaster
+Grub-Crossroads_Center: Mothwing_Cloak
+Grub-Crossroads_Stag: Elevator_Pass
+Grub-Crossroads_Spike: World_Sense
+Grub-Crossroads_Guarded: Grimmchild2
+Grub-Greenpath_Cornifer: Quill
+Grub-Greenpath_Journal: Grub
+Grub-Greenpath_MMC: Mask_Shard
+Grub-Greenpath_Stag: Grub
+Grub-Fog_Canyon: Deepnest_Map
+Grub-Fungal_Bouncy: Grub
+Grub-Fungal_Spore_Shroom: Grub
+Grub-Deepnest_Mimic: Pale_Ore
+Grub-Deepnest_Nosk: Grub
+Grub-Deepnest_Spike: Whispering_Root-Greenpath
+Grub-Dark_Deepnest: Vessel_Fragment
+Grub-Beast's_Den: Soul_Refill
+Grub-Kingdom's_Edge_Oro: Soul_Refill
+Grub-Kingdom's_Edge_Camp: Grub
+Grub-Hive_External: Grub
+Grub-Hive_Internal: Grub
+Grub-Basin_Requires_Wings: Right_Crystal_Heart
+Grub-Basin_Requires_Dive: Fury_of_the_Fallen
+Grub-Waterways_Main: Whispering_Root-Leg_Eater
+Grub-Isma's_Grove: City_Crest
+Grub-Waterways_Requires_Tram: Collector's_Map
+Grub-City_of_Tears_Left: Dream_Wielder
+Grub-Soul_Sanctum: Stalwart_Shell
+Grub-Watcher's_Spire: Whispering_Root-Hive
+Grub-City_of_Tears_Guarded: One_Geo
+Grub-King's_Station: Greenpath_Map
+Grub-Resting_Grounds: Shape_of_Unn
+Grub-Crystal_Peak_Below_Chest: Right_Mantis_Claw
+Grub-Crystallized_Mound: Whispering_Root-Deepnest
+Grub-Crystal_Peak_Spike: Grub
+Grub-Crystal_Peak_Mimic: Grub
+Grub-Crystal_Peak_Crushers: Boss_Essence-White_Defender
 Grub-Crystal_Heart: Grub
-Grub-Hallownest_Crown: Grub
-Grub-Howling_Cliffs: Grub
-Grub-Queen's_Gardens_Stag: Mask_Shard
-Grub-Queen's_Gardens_Marmu: Grub
-Grub-Queen's_Gardens_Top: Charm_Notch
-Grub-Collector_1: Mask_Shard
-Grub-Collector_2: Soul_Refill
-Grub-Collector_3: Stag_Nest_Stag
+Grub-Hallownest_Crown: Wayward_Compass
+Grub-Howling_Cliffs: Sharp_Shadow
+Grub-Queen's_Gardens_Stag: Charm_Notch
+Grub-Queen's_Gardens_Marmu: Godtuner
+Grub-Queen's_Gardens_Top: Spore_Shroom
+Grub-Collector_1: Dream_Gate
+Grub-Collector_2: Geo_Chest-Mantis_Lords
+Grub-Collector_3: Mask_Shard
 Mimic_Grub-Deepnest_1: Mimic_Grub
 Mimic_Grub-Deepnest_2: Mimic_Grub
 Mimic_Grub-Deepnest_3: Mimic_Grub
 Mimic_Grub-Crystal_Peak: Mimic_Grub
-Crossroads_Map: Shopkeeper's_Key
-Greenpath_Map: City_of_Tears_Map
-Fog_Canyon_Map: Lumafly_Lantern
-Fungal_Wastes_Map: Soul_Catcher
-Deepnest_Map-Upper: Grub
-Deepnest_Map-Right: Lifeblood_Core
-Ancient_Basin_Map: Shade_Cloak
-Kingdom's_Edge_Map: Kingdom's_Edge_Map
+Crossroads_Map: Dream_Nail
+Greenpath_Map: Grub
+Fog_Canyon_Map: Charm_Notch
+Fungal_Wastes_Map: Grub
+Deepnest_Map-Upper: Boss_Geo-Massive_Moss_Charger
+Deepnest_Map-Right: Grub
+Ancient_Basin_Map: Thorns_of_Agony
+Kingdom's_Edge_Map: Queen's_Gardens_Stag
 City_of_Tears_Map: Grub
-Royal_Waterways_Map: Boss_Geo-Massive_Moss_Charger
-Howling_Cliffs_Map: Grub
-Crystal_Peak_Map: Grimmchild2
-Queen's_Gardens_Map: Hiveblood
-Resting_Grounds_Map: Mothwing_Cloak
-Dirtmouth_Stag: Elevator_Pass
-Crossroads_Stag: Hidden_Station_Stag
-Greenpath_Stag: Grub
-Queen's_Station_Stag: Howling_Wraiths
-Queen's_Gardens_Stag: City_Storerooms_Stag
-City_Storerooms_Stag: Boss_Geo-Vengefly_King
-King's_Station_Stag: Soul_Refill
-Resting_Grounds_Stag: Mask_Shard
-Distant_Village_Stag: Geo_Chest-Crystal_Peak
-Hidden_Station_Stag: Fragile_Strength
-Stag_Nest_Stag: Charm_Notch
+Royal_Waterways_Map: Isma's_Tear
+Howling_Cliffs_Map: Vessel_Fragment
+Crystal_Peak_Map: Mask_Shard
+Queen's_Gardens_Map: Soul_Refill
+Resting_Grounds_Map: Mask_Shard
+Dirtmouth_Stag: Boss_Geo-Enraged_Guardian
+Crossroads_Stag: Whispering_Root-Ancestral_Mound
+Greenpath_Stag: Glowing_Womb
+Queen's_Station_Stag: Mask_Shard
+Queen's_Gardens_Stag: Boss_Geo-Vengefly_King
+City_Storerooms_Stag: Grub
+King's_Station_Stag: Quick_Focus
+Resting_Grounds_Stag: Grub
+Distant_Village_Stag: Grub
+Hidden_Station_Stag: One_Geo
+Stag_Nest_Stag: Shopkeeper's_Key
 Lifeblood_Cocoon-King's_Pass: Lifeblood_Cocoon_Small
 Lifeblood_Cocoon-Ancestral_Mound: Lifeblood_Cocoon_Small
 Lifeblood_Cocoon-Greenpath: Lifeblood_Cocoon_Small
@@ -1571,94 +1571,98 @@ Grimmkin_Flame-Fungal_Core: Grimmkin_Flame
 Grimmkin_Flame-Ancient_Basin: Grimmkin_Flame
 Grimmkin_Flame-Hive: Grimmkin_Flame
 Grimmkin_Flame-Brumm: Grimmkin_Flame
-Boss_Geo-Massive_Moss_Charger: Soul_Refill
+Boss_Geo-Massive_Moss_Charger: Grub
 Boss_Geo-Gorgeous_Husk: Grub
 Boss_Geo-Sanctum_Soul_Warrior: Grub
-Boss_Geo-Elegant_Soul_Warrior: Grub
-Boss_Geo-Crystal_Guardian: One_Geo
-Boss_Geo-Enraged_Guardian: Mask_Shard
-Boss_Geo-Gruz_Mother: Vessel_Fragment
-Boss_Geo-Vengefly_King: Whispering_Root-Waterways
-Elevator_Pass: Desolate_Dive
-Sly_2: Crossroads_Map
-Sly_3: Pale_Ore
-Sly_4: Geo_Chest-Watcher_Knights
-Sly_5: Whispering_Root-Kingdoms_Edge
-Sly_6: Deep_Focus
-Sly_7: Charm_Notch
-Sly_8: Boss_Essence-Failed_Champion
+Boss_Geo-Elegant_Soul_Warrior: Boss_Essence-Lost_Kin
+Boss_Geo-Crystal_Guardian: Charm_Notch
+Boss_Geo-Enraged_Guardian: Deepnest_Map
+Boss_Geo-Gruz_Mother: Crossroads_Stag
+Boss_Geo-Vengefly_King: Simple_Key
+Elevator_Pass: Geo_Chest-Greenpath
+Sly_2: Baldur_Shell
+Sly_3: Grub
+Sly_4: Lumafly_Lantern
+Sly_5: Grub
+Sly_6: Elegant_Key
+Sly_7: Tram_Pass
+Sly_8: Geo_Chest-Resting_Grounds
 Sly_9: Boss_Essence-No_Eyes
-Sly_10: Herrah
-Sly_(Key)_1: Simple_Key
-Sly_(Key)_2: Greenpath_Map
-Sly_(Key)_3: Whispering_Root-Mantis_Village
-Sly_(Key)_4: Grub
-Sly_(Key)_5: Distant_Village_Stag
-Sly_(Key)_6: Left_Mantis_Claw
-Iselda_1: Simple_Key
-Iselda_2: Grub
-Iselda_3: Soul_Refill
-Iselda_4: Whispering_Root-Howling_Cliffs
-Iselda_5: Grub
-Salubra_1: Great_Slash
-Salubra_2: Queen's_Gardens_Stag
-Salubra_3: Mask_Shard
-Salubra_4: Resting_Grounds_Stag
-Salubra_5: Queen_Fragment
-Salubra_(Requires_Charms)_1: Dream_Wielder
-Salubra_(Requires_Charms)_2: Lifeblood_Heart
-Salubra_(Requires_Charms)_3: Grub
-Salubra_(Requires_Charms)_4: Grub
-Salubra_(Requires_Charms)_5: Spore_Shroom
-Leg_Eater_1: Boss_Essence-Elder_Hu
-Leg_Eater_2: Salubra's_Blessing
-Leg_Eater_3: Soul_Refill
-Grubfather_2: Dream_Gate
-Grubfather_3: Spell_Twister
-Grubfather_4: Mask_Shard
-Grubfather_5: Vengeful_Spirit
-Grubfather_6: Dream_Nail
-Grubfather_7: Grubberfly's_Elegy
-Seer_1: Dash_Slash
-Seer_2: Vessel_Fragment
-Seer_3: Gathering_Swarm
-Seer_4: Grub
-Seer_5: Boss_Geo-Gruz_Mother
-Seer_6: Vessel_Fragment
-Seer_7: Grub
-Seer_8: Right_Crystal_Heart
-Sly_11: Grubsong
-Seer_9: Charm_Notch
-Leg_Eater_4: Godtuner
-Leg_Eater_5: King's_Brand
-Leg_Eater_6: Shape_of_Unn
-Sly_12: One_Geo
-Seer_10: Pale_Ore
-Leg_Eater_7: Crystal_Peak_Map
-Sly_(Key)_7: Pale_Ore
-Sly_13: Defender's_Crest
+Sly_10: Steady_Body
+Sly_(Key)_1: Charm_Notch
+Sly_(Key)_2: Grub
+Sly_(Key)_3: Pale_Ore
+Sly_(Key)_4: Salubra's_Blessing
+Sly_(Key)_5: Void_Heart
+Sly_(Key)_6: Kingdom's_Edge_Map
+Iselda_1: Grub
+Iselda_2: Vessel_Fragment
+Iselda_3: Geo_Chest-Soul_Master
+Iselda_4: Queen's_Gardens_Map
+Iselda_5: Soul_Refill
+Salubra_1: Grub
+Salubra_2: Simple_Key
+Salubra_3: Grub
+Salubra_4: Vessel_Fragment
+Salubra_5: Fog_Canyon_Map
+Salubra_(Requires_Charms)_1: Lifeblood_Heart
+Salubra_(Requires_Charms)_2: Boss_Essence-Elder_Hu
+Salubra_(Requires_Charms)_3: Boss_Essence-Galien
+Salubra_(Requires_Charms)_4: Monomon
+Salubra_(Requires_Charms)_5: Dirtmouth_Stag
+Leg_Eater_1: Whispering_Root-Resting_Grounds
+Leg_Eater_2: Grub
+Leg_Eater_3: Mark_of_Pride
+Grubfather_2: Hidden_Station_Stag
+Grubfather_3: Whispering_Root-Crystal_Peak
+Grubfather_4: Grub
+Grubfather_5: Whispering_Root-City
+Grubfather_6: Mask_Shard
+Grubfather_7: Whispering_Root-Kingdoms_Edge
+Seer_1: Love_Key
+Seer_2: One_Geo
+Seer_3: Whispering_Root-Howling_Cliffs
+Seer_4: Queen's_Station_Stag
+Seer_5: Dash_Slash
+Seer_6: Grub
+Seer_7: King's_Station_Stag
+Seer_8: Fungal_Wastes_Map
+Grubfather_8: Flukenest
+Seer_9: Swim
+Sly_(Key)_7: Queen_Fragment
+Grubfather_9: Mask_Shard
+Iselda_6: Boss_Essence-Gorb
+Salubra_(Requires_Charms)_6: Longnail
+Salubra_(Requires_Charms)_7: One_Geo
+Seer_10: Grubberfly's_Elegy
+Grubfather_10: Sprintmaster
+Grubfather_11: Mask_Shard
 
 Playthrough:
 
 0: {
+  Dashmaster
   Gathering_Swarm
+  Sprintmaster
   Tutorial_01
   Upslash
 }
 1: {
+  Can_Replenish_Geo: Can_Replenish_Geo
+  Fury_of_the_Fallen: Stag_Nest_Stag
   Tutorial_01[right1]: Town[left1]
 }
 2: {
   Town: Town
 }
 3: {
+  Can_Bench: Can_Bench
   Town[bot1]: Crossroads_01[top1]
   Town[door_mapper]: Room_mapper[left1]
 }
 4: {
   Crossroads_01[left1]: Crossroads_07[right1]
   Crossroads_01[right1]: Crossroads_02[left1]
-  Iselda_2: Grub
 }
 5: {
   Crossroads_02[door1]: Room_temple[left1]
@@ -1668,32 +1672,41 @@ Playthrough:
 6: {
   Crossroads_07[bot1]: Crossroads_33[top1]
   Crossroads_07[left1]: Crossroads_38[right1]
-  Crossroads_07[left2]: Crossroads_11_alt[right1]
+  Crossroads_07[left3]: Crossroads_25[right1]
+  Crossroads_07[right2]: Crossroads_05[left1]
   Crossroads_39[right1]: Crossroads_14[left1]
 }
 7: {
   Crossroads_14: Crossroads_14
+  Crossroads_25[left1]: Crossroads_36[right1]
   Crossroads_33: Crossroads_33
-  Grubfather_2: Dream_Gate
 }
 8: {
   Crossroads_14[right1]: Crossroads_48[left1]
+  Crossroads_33[left2]: Crossroads_12[right1]
   Crossroads_33[right2]: Crossroads_08[left1]
-  Crossroads_Map: Shopkeeper's_Key
+  Crossroads_36[right2]: Crossroads_09[left1]
+  Crossroads_Map: Dream_Nail
 }
 9: {
   Crossroads_08: Crossroads_08
-  Grub-Crossroads_Guarded: Cyclone_Slash
+  Crossroads_12[left1]: Crossroads_35[right1]
+  Grub-Crossroads_Guarded: Grimmchild2
 }
 10: {
   Crossroads_08[left2]: Crossroads_18[right1]
   Crossroads_08[right2]: Crossroads_13[left1]
+  Grub-Crossroads_Acid: Dashmaster
+  Nightmare_Lantern_Lit: Nightmare_Lantern_Lit
 }
 11: {
   Crossroads_13[right1]: Crossroads_42[left1]
+  Town[room_divine]: Grimm_Divine[left1]
+  Town[room_grimm]: Grimm_Main_Tent[left1]
 }
 12: {
   Crossroads_42[right1]: Crossroads_19[left1]
+  Grimmchild: Soul_Catcher
 }
 13: {
   Crossroads_19: Crossroads_19
@@ -1705,170 +1718,227 @@ Playthrough:
 }
 15: {
   Crossroads_03: Crossroads_03
+  Crossroads_04[top1]: Crossroads_27[bot1]
   Crossroads_43[left1]: Crossroads_49[right1]
   Defeated_Gruz_Mother: Defeated_Gruz_Mother
 }
 16: {
+  Crossroads_03[left1]: Crossroads_21[right1]
   Crossroads_03[left2]: Crossroads_47[right1]
+  Crossroads_03[right2]: Mines_33[left1]
   Crossroads_04[door1]: Room_ruinhouse[left1]
-  Grub-Crossroads_Stag: Boss_Essence-Grey_Prince_Zote
+  Crossroads_27: Crossroads_27
+  Grub-Crossroads_Stag: Elevator_Pass
 }
 17: {
   Can_Stag: Can_Stag
-  Crossroads_Stag: Hidden_Station_Stag
-  Grubfather_5: Vengeful_Spirit
+  Crossroads_21: Crossroads_21
+  Crossroads_27[right1]: Crossroads_46[left1]
+  Left_Elevator: Left_Elevator
   Rescued_Sly: Rescued_Sly
 }
 18: {
-  Abyss_22[left1]: Abyss_05[right1]
-  Crossroads_11_alt[left1]: Fungus1_01[right1]
-  Dirtmouth_Stag: Elevator_Pass
+  Cliffs_03[right1]: Cliffs_02[left2]
+  Crossroads_21[left1]: Crossroads_10[right1]
+  Crossroads_49[left1]: Crossroads_37[right1]
   Town[door_sly]: Room_shop[left1]
 }
 19: {
-  Abyss_05: Abyss_05
-  Fungus1_01[left1]: Fungus1_01b[right1]
-  Left_Elevator: Left_Elevator
-  Sly_(Key)_4: Grub
-  Sly_(Key)_6: Left_Mantis_Claw
-  Sly_10: Herrah
-  Sly_8: Boss_Essence-Failed_Champion
+  Cliffs_02: Cliffs_02
+  Cliffs_02[left2]: Cliffs_03[right1]
+  Defeated_False_Knight: Defeated_False_Knight
+  Sly_1: Rancid_Egg
+  Sly_5: Grub
+  Sly_9: Boss_Essence-No_Eyes
+  Vessel_Fragment-Crossroads: Boss_Essence-Soul_Tyrant
 }
 20: {
-  Abyss_05[left1]: Abyss_04[right1]
-  Crossroads_49b[right1]: Ruins1_28[left1]
-  Fungus1_01b[left1]: Fungus1_02[right1]
-  Iselda_5: Grub
-  Mask_Shard-Crossroads_Goam: Grub
+  Cliffs_02[left1]: Cliffs_01[right1]
+  Crossroads_10[left1]: Crossroads_06[right1]
+  Iselda_1: Grub
+  Sly_7: Tram_Pass
+  Stag_Nest_Stag: Shopkeeper's_Key
 }
 21: {
-  Abyss_04: Abyss_04
-  Ancient_Basin_Map: Shade_Cloak
-  Fungus1_02[right2]: Fungus1_06[left1]
-  Ruins1_28[left1]: Crossroads_49b[right1]
+  Cliffs_01: Cliffs_01
+  Crossroads_06[door1]: Crossroads_ShamanTemple[left1]
+  Grubfather_2: Hidden_Station_Stag
+  Upper_Tram: Upper_Tram
 }
 22: {
-  Abyss_04[top1]: Abyss_03[bot2]
-  Crossroads_04[door_charmshop]: Room_Charm_Shop[left1]
-  Crossroads_18: Crossroads_18
-  Elevator_Pass: Desolate_Dive
-  Fungus1_06[bot1]: Fungus1_07[top1]
+  Abyss_22[left1]: Abyss_05[right1]
+  Cliffs_01[right2]: Cliffs_04[left1]
+  Cliffs_01[right3]: Fungus1_28[left1]
+  Crossroads_46b[right1]: RestingGrounds_02[left1]
+  Vengeful_Spirit: Boss_Essence-Grey_Prince_Zote
 }
 23: {
-  Abyss_03: Abyss_03
-  Crossroads_18[bot1]: Fungus2_06[top1]
-  Fungus1_07[left1]: Fungus1_19[right1]
-  Salubra_1: Great_Slash
-  Salubra_4: Resting_Grounds_Stag
-  Salubra_5: Queen_Fragment
+  Abyss_05: Abyss_05
+  Fungus1_28[left2]: Fungus1_20_v02[right1]
+  RestingGrounds_02: RestingGrounds_02
+  Sly_(Key)_5: Void_Heart
+  Sly_(Key)_7: Queen_Fragment
 }
 24: {
-  Abyss_03[top1]: Abyss_02[bot1]
-  Fungus1_19[bot1]: Fungus1_11[top1]
-  Fungus2_06: Fungus2_06
-  RestingGrounds_09[left1]: RestingGrounds_05[right2]
-  Resting_Grounds_Map: Mothwing_Cloak
+  Abyss_05[left1]: Abyss_04[right1]
+  Fungus1_20_v02[bot1]: Fungus1_21[top1]
+  Fungus1_20_v02[bot2]: Fungus1_32[top1]
+  RestingGrounds_02[right1]: RestingGrounds_04[left1]
 }
 25: {
-  Abyss_02[right1]: Abyss_01[left3]
-  Fungus1_11: Fungus1_11
-  Fungus2_06[left1]: Fungus2_05[right1]
-  Fungus2_06[right2]: Fungus2_07[left1]
-  RestingGrounds_05: RestingGrounds_05
+  Abyss_04: Abyss_04
+  Fungus1_21: Fungus1_21
+  Fungus1_32[bot1]: Fungus1_31[top1]
+  RestingGrounds_04[right1]: RestingGrounds_05[left1]
 }
 26: {
-  Defeated_Shrumal_Ogre_Arena: Defeated_Shrumal_Ogre_Arena
-  Fungus1_11[bot1]: Fungus3_01[top1]
-  Fungus1_11[left1]: Fungus1_29[right1]
-  Fungus2_07[right1]: Fungus2_08[left1]
-  RestingGrounds_05[bot1]: RestingGrounds_10[top1]
-  RestingGrounds_05[left2]: RestingGrounds_07[right1]
+  Abyss_04[left1]: Abyss_18[right1]
+  Fungus1_21[bot1]: Fungus1_22[top1]
+  Fungus1_31[right1]: Fungus1_03[left1]
+  RestingGrounds_05: RestingGrounds_05
 }
 27: {
-  Charm_Notch-Shrumal_Ogres: Swim
-  Fungus1_29[left1]: Fungus1_12[right1]
-  Fungus2_08[left2]: Fungus2_09[right1]
-  Fungus3_01: Fungus3_01
-  Opened_Glade_Door: Opened_Glade_Door
-  RestingGrounds_10: RestingGrounds_10
-  Seer_1: Dash_Slash
+  Fungus1_03[bot1]: Fungus1_05[top1]
+  Fungus1_22[left1]: Fungus1_16_alt[right1]
+  RestingGrounds_05[left2]: RestingGrounds_07[right1]
 }
 28: {
-  Fungus1_12[left1]: Fungus1_13[right1]
-  Fungus2_09[left1]: Fungus2_10[right1]
-  Fungus3_01[right2]: Fungus3_02[left1]
-  Nailmaster's_Glory: Monarch_Wings
-  RestingGrounds_05[right1]: RestingGrounds_08[left1]
-  RestingGrounds_10[left1]: Ruins2_10[right1]
+  Fungus1_05[bot1]: Fungus1_10[top1]
+  Greenpath_Stag: Glowing_Womb
+  Seer_7: King's_Station_Stag
+  Seer_9: Swim
 }
 29: {
-  Abyss_01: Abyss_01
-  Fungus2_10[bot1]: Fungus2_11[top1]
-  Fungus3_02: Fungus3_02
-  Right_Elevator: Right_Elevator
-  Vessel_Fragment-Greenpath: Lurien
-  Whispering_Root-Spirits_Glade: King_Fragment
+  Baldur_Shell: Shade_Cloak
+  Fungus1_10[right1]: Fungus1_19[left1]
+  Ruins2_08[left1]: Ruins2_06[right1]
+  Sly_4: Lumafly_Lantern
 }
 30: {
-  Abyss_01[right1]: Ruins2_04[left2]
-  Fungus2_11: Fungus2_11
-  Fungus3_02[right2]: Fungus2_01[left1]
-  Ruins2_10b[right2]: Ruins2_05[left1]
-}
-31: {
-  Fungus2_01: Fungus2_01
-  Fungus2_11[left2]: Fungus2_17[right1]
-  Ruins2_04: Ruins2_04
-  Ruins2_05[bot1]: Ruins2_06[top1]
-}
-32: {
-  Fungus2_17: Fungus2_17
-  Mask_Shard-Queen's_Station: Isma's_Tear
-  Ruins2_04[left1]: Ruins2_01_b[right1]
+  Cliffs_04[right1]: Cliffs_05[left1]
+  Crossroads_04[door_charmshop]: Room_Charm_Shop[left1]
+  Crossroads_18: Crossroads_18
+  Fungus1_19[bot1]: Fungus1_11[top1]
+  Grub-Crossroads_Center: Mothwing_Cloak
+  Mines_33[right1]: Mines_02[left1]
   Ruins2_06[right2]: Ruins2_07[left1]
 }
-33: {
-  Fungus2_17[bot1]: Fungus2_14[top1]
-  Ruins2_01_b: Ruins2_01_b
+31: {
+  Crossroads_18[bot1]: Fungus2_06[top1]
+  Fungus1_11: Fungus1_11
+  Joni's_Blessing: Fragile_Heart
+  Mines_02: Mines_02
   Ruins2_07[right1]: Deepnest_East_03[left1]
+  Salubra_(Requires_Charms)_4: Monomon
+}
+32: {
+  Deepnest_East_03: Deepnest_East_03
+  Fungus1_11[bot1]: Fungus3_01[top1]
+  Fungus2_06: Fungus2_06
+}
+33: {
+  Deepnest_East_03[right2]: Deepnest_East_06[left1]
+  Fungus2_06[right1]: Fungus2_26[left1]
+  Fungus2_06[right2]: Fungus2_07[left1]
+  Fungus3_01: Fungus3_01
 }
 34: {
-  Deepnest_East_03: Deepnest_East_03
-  Fungus2_14: Fungus2_14
-  Ruins2_01_b[top1]: Ruins2_01[bot1]
+  Can_Repair_Fragile_Charms: Can_Repair_Fragile_Charms
+  Fungus2_07[right1]: Fungus2_08[left1]
+  Fungus3_01[right1]: Fungus3_25[left1]
 }
 35: {
-  Deepnest_East_03[right1]: Deepnest_East_04[left1]
-  Left_Mantis_Claw: Love_Key
-  Ruins2_01: Ruins2_01
+  Fungus2_08[left2]: Fungus2_09[right1]
+  Fungus3_25[right1]: Fungus3_25b[left1]
+  Unbreakable_Heart: King_Fragment
 }
 36: {
-  Deepnest_East_04: Deepnest_East_04
-  Ruins2_01[top1]: Ruins2_03b[bot1]
+  Fungus2_09[left1]: Fungus2_10[right1]
+  Fungus3_25b[right1]: Fungus3_26[left2]
 }
 37: {
-  Deepnest_East_04[left2]: Deepnest_East_07[right1]
-  Ruins2_03b: Ruins2_03b
+  Fungus2_10[bot1]: Fungus2_11[top1]
+  Fungus3_26: Fungus3_26
 }
 38: {
-  Deepnest_East_07: Deepnest_East_07
-  Ruins2_03b[top1]: Ruins2_03[bot1]
+  Fungus2_11: Fungus2_11
+  Fungus3_26[right1]: Fungus2_33[left1]
 }
 39: {
-  Deepnest_East_07[left2]: Ruins2_11_b[right1]
-  Defeated_Watcher_Knights: Defeated_Watcher_Knights
+  Fungus2_11[right1]: Fungus2_12[left1]
+  Whispering_Root-Leg_Eater: Abyss_Shriek
 }
 40: {
-  Ruins2_03[top1]: Ruins2_Watcher_Room[bot1]
-  Ruins2_11_b[left1]: Ruins2_11[right1]
+  Defeated_Brooding_Mawlek: Defeated_Brooding_Mawlek
+  Fungus2_12[bot1]: Fungus2_13[top1]
 }
 41: {
-  Defeated_Collector: Defeated_Collector
-  Lurien: Void_Heart
+  Fungus2_13: Fungus2_13
+  Mask_Shard-Brooding_Mawlek: Shade_Soul
 }
 42: {
-  Collector's_Map: Monomon
+  Defeated_Grimm: Defeated_Grimm
+  Fungus2_13[left3]: Fungus2_23[right1]
 }
 43: {
+  Charm_Notch-Grimm: Left_Mantis_Claw
+  Fungus2_23: Fungus2_23
+}
+44: {
+  Mines_02[top2]: Mines_03[bot1]
+  Ruins2_06[top1]: Ruins2_05[bot1]
+}
+45: {
+  Mines_03: Mines_03
+  Ruins2_05[top1]: Ruins2_09[bot1]
+}
+46: {
+  Defeated_King's_Station_Arena: Defeated_King's_Station_Arena
+  Mines_03[top1]: Mines_05[bot1]
+}
+47: {
+  Mines_05: Mines_05
+  Vessel_Fragment-City: Desolate_Dive
+}
+48: {
+  Mines_05[right1]: Mines_19[left1]
+}
+49: {
+  Mines_19[right1]: Mines_20[left3]
+}
+50: {
+  Mines_20[bot1]: Mines_37[top1]
+}
+51: {
+  Mines_37[bot1]: Mines_04[top1]
+}
+52: {
+  Grub-Crystal_Peak_Below_Chest: Right_Mantis_Claw
+}
+53: {
+  Deepnest_East_06[right1]: Deepnest_East_16[left1]
+  Rescued_Bretta: Rescued_Bretta
+}
+54: {
+  Deepnest_East_16[bot1]: Deepnest_East_14[top2]
+  Town[door_bretta]: Room_Bretta[right1]
+}
+55: {
+  Deepnest_East_14[left1]: Deepnest_East_14b[right1]
+  Mask_Shard-Bretta: Herrah
+}
+56: {
+  Quick_Slash: Monarch_Wings
+}
+57: {
+  Abyss_18[left1]: Abyss_19[right1]
+}
+58: {
+  Abyss_19[bot2]: Abyss_20[top2]
+}
+59: {
+  Simple_Key-Basin: Lurien
+}
+60: {
   Opened_Black_Egg_Temple: Opened_Black_Egg_Temple
 }
