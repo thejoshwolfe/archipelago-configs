@@ -61,7 +61,7 @@ Celeste (Open World):
   # Junk and Traps #
   ##################
   # Disable traps.
-  trap_fill_percentage: '10'
+  trap_fill_percentage: '15'
 
   trap_expiration_action: new_screens
   trap_expiration_amount: '1'
@@ -93,12 +93,28 @@ Celeste (Open World):
   ###########################
   # Item & Location Options #
   ###########################
-  local_items: []
+  local_items:
+    # There's like 130 of these.
+    - Raspberry
   non_local_items: []
   start_inventory:
     # It's fun that torches can be missing, but not fun for me.
     Torches: 1
-  start_hints: []
+  start_hints:
+    - Traffic Blocks
+    - Springs
+    - Coins
+    - Dash Refills
+    - Dash Switches
+    - Dream Blocks
+    - Swap Blocks
+    - Red Boosters
+    - Blue Boosters
+    - Blue Clouds
+    - Pink Clouds
+    - Move Blocks
+    - Feathers
+    - Badeline Boosters
   start_location_hints: []
   exclude_locations:
     - Prologue - Level Clear
