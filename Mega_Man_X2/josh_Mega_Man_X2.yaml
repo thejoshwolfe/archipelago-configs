@@ -51,11 +51,24 @@ Mega Man X2:
   palette_magnet_mine: magnet_mine
   palette_speed_burner: speed_burner
 
-  local_items: []
+  local_items:
+    # Contain some junk.
+    #- 1-Up
+    - Large HP Refill
+    #- Small HP Refill
   non_local_items: []
   start_inventory: {}
   start_inventory_from_pool: {}
-  start_hints: []
+  start_hints:
+    # Show me the way
+    - Bubble Crab Access Codes
+    - Crystal Snail Access Codes
+    - Flame Stag Access Codes
+    - Magna Centipede Access Codes
+    - Morph Moth Access Codes
+    - Overdrive Ostrich Access Codes
+    - Wheel Gator Access Codes
+    - Wire Sponge Access Codes
   start_location_hints: []
   exclude_locations:
   # I can't figure out how to make the stupid bike jump reliably.
@@ -64,6 +77,7 @@ Mega Man X2:
   - Overdrive Ostrich - Weapon Energy Pickup 1 (On spikes before Legs Capsule)
   - Overdrive Ostrich - HP Pickup 3 (On spikes before Legs Capsule)
   - Overdrive Ostrich - Weapon Energy Pickup 2 (On spikes before Legs Capsule)
+  - Overdrive Ostrich - Heart Tank
   priority_locations: []
   item_links: []
   plando_items: []

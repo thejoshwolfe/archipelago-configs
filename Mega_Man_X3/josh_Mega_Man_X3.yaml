@@ -53,21 +53,7 @@ Mega Man X3:
   disable_charge_freeze: 'false'
 
   # Aesthetics
-  player_palettes:
-    Acid Burst: []
-    Charge Blue: []
-    Charge Green: []
-    Charge Pink: []
-    Charge Red: []
-    Default: []
-    Frost Shield: []
-    Gold Armor: []
-    Gravity Well: []
-    Parasitic Bomb: []
-    Ray Splasher: []
-    Spinning Blade: []
-    Tornado Fang: []
-    Triad Thunder: []
+  player_palettes: {}
   palette_default: blue
   palette_gold_armor: gold_armor
   palette_charge_blue: charge_blue
@@ -83,11 +69,24 @@ Mega Man X3:
   palette_frost_shield: frost_shield
   palette_tornado_fang: tornado_fang
 
-  local_items: []
+  local_items:
+    # Contain some junk.
+    #- 1-Up
+    - Large HP Refill
+    #- Small HP Refill
   non_local_items: []
   start_inventory: {}
   start_inventory_from_pool: {}
-  start_hints: []
+  start_hints:
+    # Show me the way.
+    - Blast Hornet Access Codes
+    - Blizzard Buffalo Access Codes
+    - Crush Crawfish Access Codes
+    - Gravity Beetle Access Codes
+    - Neon Tiger Access Codes
+    - Toxic Seahorse Access Codes
+    - Tunnel Rhino Access Codes
+    - Volt Catfish Access Codes
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
