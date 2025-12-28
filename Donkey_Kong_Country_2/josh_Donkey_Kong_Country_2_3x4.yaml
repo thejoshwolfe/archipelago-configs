@@ -99,11 +99,24 @@ Donkey Kong Country 2:
   ###########################
   # Item & Location Options #
   ###########################
-  local_items: []
+  local_items:
+    # Contain junk items.
+    - 1-Up Balloon
+    #- Backup DK Barrel
+    - Banana Coin
+    - DK Coin
+    - Kremkoin
   non_local_items: []
   start_inventory: {}
   start_inventory_from_pool: {}
-  start_hints: []
+  start_hints:
+    # Hint the critical stuff
+    - Dixie
+    - Crocodile Cauldron Access
+    - Gloomy Gulch Access
+    - Krazy Kremland Access
+    - Krem Quay Access
+    - K. Rool's Keep Access
   start_location_hints: []
   exclude_locations: []
   priority_locations: []

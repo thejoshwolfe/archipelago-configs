@@ -38,17 +38,23 @@ Donkey Kong Country 3:
   ###########################
   # Item & Location Options #
   ###########################
-  local_items: []
+  local_items:
+    # Contain junk items.
+    - 1-Up Balloon
+    - Bear Coin
+    - DK Coin
   non_local_items: []
   start_inventory: {}
-  start_hints: []
+  start_hints:
+    # Hint the critical stuff.
+    - Progressive Boat Upgrade
   start_location_hints: []
   exclude_locations:
-  # This level feels bad to play. Remove almost all checks from it.
-  - Kong-Fused Cliffs - Bonus 1
-  - Kong-Fused Cliffs - Bonus 2
-  - Kong-Fused Cliffs - DK Coin
-  - Kong-Fused Cliffs - KONG
+    # This level feels bad to play. Remove almost all checks from it.
+    - Kong-Fused Cliffs - Bonus 1
+    - Kong-Fused Cliffs - Bonus 2
+    - Kong-Fused Cliffs - DK Coin
+    - Kong-Fused Cliffs - KONG
   priority_locations: []
   item_links: []
   plando_items:
@@ -58,7 +64,7 @@ Donkey Kong Country 3:
   - items:
       Krematoa Cog: 4
     locations:
-    # With level shuffle enabled, choose non-shuffled locations in sphere 1.
+    # With level shuffle enabled, choose non-shuffled locations in or near sphere 1.
     - Bounty Beach
     - Kong Cave
     - Smuggler's Cove
