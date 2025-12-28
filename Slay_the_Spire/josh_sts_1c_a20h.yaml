@@ -1,5 +1,5 @@
 name: josh_sts
-description: Slay the Spire - only 1 character chosen at random; ascension starts at 10 and goes down; no heart.
+description: Slay the Spire - only 1 character chosen at random; ascension starts at 20 and goes down; goal is heart.
 # All sanity (shops, gold, relics, etc.). All traps enabled at 5%.
 game: Slay the Spire
 requires:
@@ -18,11 +18,11 @@ Slay the Spire:
   pick_num_characters: '1'
   lock_characters: locked_random
 
-  ascension: '10'
+  ascension: '20'
   # `ascension_down` is only valid when `use_advanced_characters` is false (see `advanced_characters`),
   # and when `include_floor_checks` is true.
-  ascension_down: '10'
-  final_act: 'false'
+  ascension_down: '20'
+  final_act: 'true'
 
   death_link: '0' # disabled
 

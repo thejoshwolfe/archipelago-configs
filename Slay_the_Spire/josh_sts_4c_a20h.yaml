@@ -1,6 +1,6 @@
 name: josh_sts
-description: Slay the Spire - all 4 characters are playable from the start; ascension starts at 20 and goes down; goal is heart.
-# All sanity (shops, gold, relics, etc.). Goal is 1 win. All traps enabled at 5%.
+description: Slay the Spire - goal is heart with all 4 characters; act 2 boss of each character unlocks the next one in random order; ascension starts at 20 and goes down.
+# All sanity (shops, gold, relics, etc.). All traps enabled at 5%.
 game: Slay the Spire
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -14,9 +14,9 @@ Slay the Spire:
   progression_balancing: '50'
   accessibility: full
   characters: ['Ironclad', 'Silent', 'Defect', 'Watcher']
-  num_chars_goal: '1'
-  pick_num_characters: '0'
-  lock_characters: unlocked
+  num_chars_goal: '4'
+  pick_num_characters: '4'
+  lock_characters: locked_random
 
   ascension: '20'
   # `ascension_down` is only valid when `use_advanced_characters` is false (see `advanced_characters`),
@@ -76,7 +76,20 @@ Slay the Spire:
   ###########################
   # Item & Location Options #
   ###########################
-  local_items: []
+  local_items:
+    # About 40% of the items are 1/5/15 gold drops.
+    - Ironclad One Gold
+    - Silent One Gold
+    - Defect One Gold
+    - Watcher One Gold
+    - Ironclad Five Gold
+    - Silent Five Gold
+    - Defect Five Gold
+    - Watcher Five Gold
+    - Ironclad 15 Gold
+    - Silent 15 Gold
+    - Defect 15 Gold
+    - Watcher 15 Gold
   non_local_items: []
   start_inventory: {}
   start_hints: []
@@ -84,4 +97,15 @@ Slay the Spire:
   exclude_locations: []
   priority_locations: []
   item_links: []
-  plando_items: []
+  plando_items:
+  - items:
+      Ironclad Unlock: 1
+      Silent Unlock: 1
+      Defect Unlock: 1
+      Watcher Unlock: 1
+    locations:
+    - Ironclad Boss Relic 2
+    - Silent Boss Relic 2
+    - Defect Boss Relic 2
+    - Watcher Boss Relic 2
+    force: false
