@@ -186,7 +186,18 @@ Spelunky 2:
   bypass_ankh: 'false'
   death_link_amnesty_count: '2'
 
-  local_items: []
+  local_items:
+    # Contain some junk. (The ones that sound cool, but are actually not.)
+    - Gold Bar
+    #- Emerald Gem
+    #- Sapphire Gem
+    #- Ruby Gem
+    - Diamond Gem
+    #- Cooked Turkey
+    - Royal Jelly
+    #- Rope Pile
+    #- Bomb Bag
+    #- Bomb Box
   non_local_items: []
   item_links: []
   priority_locations: []
