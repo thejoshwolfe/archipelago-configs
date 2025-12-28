@@ -1,6 +1,6 @@
 name: josh_sv
 game: Stardew Valley
-description: Communicty Center with 59 total deliveries. Cropsanity, fishsanity (easy), monstersanity. Elevator checks require delving.
+description: Communicty Center with 59 total deliveries. Cropsanity, fishsanity (hard), monstersanity, museumsanity (half). Elevator checks require delving.
 Stardew Valley:
   goal: community_center
   bundle_randomization: thematic
@@ -18,8 +18,43 @@ Stardew Valley:
   arcade_machine_locations: disabled
   special_order_locations: vanilla_very_short
   quest_locations: '-1'
-  fishsanity: only_easy_fish
-  museumsanity: none
+  fishsanity: exclude_legendaries
+
+  museumsanity: milestones
+  exclude_locations:
+    # To implement "half museumsanity", exclude the late milestones from being checks.
+    # Also exclude the milestones that require hyperspecific RNG, like the dwarf scrolls and skeletons.
+    #- 'Museumsanity: 5 Donations'
+    #- 'Museumsanity: 10 Donations'
+    #- 'Museumsanity: 15 Donations'
+    #- 'Museumsanity: 20 Donations'
+    #- 'Museumsanity: 25 Donations'
+    #- 'Museumsanity: 30 Donations'
+    #- 'Museumsanity: 35 Donations'
+    #- 'Museumsanity: 40 Donations'
+    - 'Museumsanity: 50 Donations'
+    - 'Museumsanity: 60 Donations'
+    - 'Museumsanity: 70 Donations'
+    - 'Museumsanity: 80 Donations'
+    - 'Museumsanity: 90 Donations'
+    - 'Museumsanity: 95 Donations'
+    #- 'Museumsanity: 11 Minerals'
+    #- 'Museumsanity: 21 Minerals'
+    - 'Museumsanity: 31 Minerals'
+    - 'Museumsanity: 41 Minerals'
+    - 'Museumsanity: 50 Minerals'
+    #- 'Museumsanity: 3 Artifacts'
+    #- 'Museumsanity: 6 Artifacts'
+    #- 'Museumsanity: 9 Artifacts'
+    - 'Museumsanity: 11 Artifacts'
+    - 'Museumsanity: 15 Artifacts'
+    - 'Museumsanity: 20 Artifacts'
+    - 'Museumsanity: Dwarf Scrolls'
+    - 'Museumsanity: Skeleton Front'
+    - 'Museumsanity: Skeleton Middle'
+    - 'Museumsanity: Skeleton Back'
+    - 'Museumsanity: Ancient Seed'
+
   friendsanity: none
   friendsanity_heart_size: '4'
   monstersanity: one_per_monster
@@ -34,7 +69,7 @@ Stardew Valley:
   experience_multiplier: '500'
   friendship_multiplier: '500'
   debris_multiplier: quarter
-  movement_buff_number: '8'
+  movement_buff_number: '0'
   enabled_filler_buffs:
   - Bite Rate
   - Damage
@@ -56,16 +91,24 @@ Stardew Valley:
   local_items: []
   non_local_items: []
   start_hints: []
-  start_location_hints: []
-  exclude_locations:
-  # Floor 26 of skull caverns is too far.
-  - Monster Eradication: Iridium Crab
+  start_location_hints:
+    # Floor 26 of skull caverns is too far to explore on a maybe.
+    - 'Monster Eradication: Iridium Crab'
   priority_locations: []
   start_inventory:
     # Watching your character walk is less fun than doing chores.
-    Movement Speed Bonus: 3
+    Movement Speed Bonus: 5
     # Low inventory capacity is a fun challenge, but not that fun.
     Progressive Backpack: 1
-    # The most valuable thing in Stardew Valley is your IRL time.
+    # The most valuable item in Stardew Valley is your IRL time.
     Return Scepter: 1
-  farm_type: random
+    Key To The Town: 1
+  farm_type:
+    standard: 1
+    riverland: 1
+    forest: 1
+    hill_top: 1
+    wilderness: 1
+    four_corners: 1
+    beach: 1
+    meadowlands: 1

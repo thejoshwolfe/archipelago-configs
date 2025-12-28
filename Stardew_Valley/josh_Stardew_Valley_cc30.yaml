@@ -34,7 +34,7 @@ Stardew Valley:
   experience_multiplier: '500'
   friendship_multiplier: '500'
   debris_multiplier: quarter
-  movement_buff_number: '8'
+  movement_buff_number: '0'
   enabled_filler_buffs:
   - Bite Rate
   - Damage
@@ -61,9 +61,18 @@ Stardew Valley:
   priority_locations: []
   start_inventory:
     # Watching your character walk is less fun than doing chores.
-    Movement Speed Bonus: 3
+    Movement Speed Bonus: 5
     # Low inventory capacity is a fun challenge, but not that fun.
     Progressive Backpack: 1
-    # The most valuable thing in Stardew Valley is your IRL time.
+    # The most valuable item in Stardew Valley is your IRL time.
     Return Scepter: 1
-  farm_type: random
+    Key To The Town: 1
+  farm_type:
+    standard: 1
+    riverland: 1
+    forest: 1
+    hill_top: 1
+    wilderness: 1
+    four_corners: 1
+    beach: 1
+    meadowlands: 1

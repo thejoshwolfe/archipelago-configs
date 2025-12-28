@@ -12,7 +12,7 @@ SMZ3:
   open_tower: '0'
   ganon_vulnerable: '2'
   open_tourian: '1'
-  spin_jumps_animation: 'false'
+  spin_jumps_animation: 'true'
   heart_beep_speed: quarter
   heart_color: red
   quick_swap: 'true'
