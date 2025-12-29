@@ -1,0 +1,525 @@
+﻿Archipelago Version 0.6.6  -  Seed: 9555423814284753234
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Super Mario 64
+Location Count:                  149
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     Ground Pound, Metal Cap, Progressive Key, Vanish Cap, Wing Cap
+Start Location Hints:            
+Excluded Locations:              RR: 1Up Block On House in the Sky, RR: The Big House in the Sky, The Secret Aquarium
+Priority Locations:              Bowser in the Dark World Key, Bowser in the Fire Sea Key
+Item Links:                      
+Plando Items:                    
+Entrance Randomizer:             Courses And Secrets Separate
+Bob-omb Buddy Checks:            Yes
+Randomize 1Up !-Blocks:          Yes
+Progressive Keys:                Yes
+Enable 100 Coin Stars:           Off
+Enable Move Randomizer:          Yes
+Randomized Moves:                Backflip, Ground Pound
+Strict Cap Requirements:         Yes
+Strict Cannon Requirements:      Yes
+Strict Move Requirements:        Yes
+Total Power Stars:               100
+First Star Door Cost %:          7
+Basement Star Door %:            15
+Second Floor Star Door %:        30
+MIPS 1 Star %:                   10
+MIPS 2 Star %:                   20
+Endless Stairs Star %:           50
+Death Link:                      No
+Completion Goal:                 Last Bowser Stage
+
+
+Entrances:
+
+Hazy Maze Cave Entrance => Tiny-Huge Island (Huge)
+Shifting Sand Land Entrance => Whomp's Fortress
+Tiny-Huge Island (Tiny) Entrance => Jolly Roger Bay
+Tall, Tall Mountain Entrance => Cool, Cool Mountain
+Cool, Cool Mountain Entrance => Big Boo's Haunt
+Snowman's Land Entrance => Hazy Maze Cave
+Rainbow Ride Entrance => Lethal Lava Land
+Lethal Lava Land Entrance => Shifting Sand Land
+Whomp's Fortress Entrance => Dire, Dire Docks
+Jolly Roger Bay Entrance => Snowman's Land
+Dire, Dire Docks Entrance => Wet-Dry World
+Tick Tock Clock Entrance => Tall, Tall Mountain
+Tiny-Huge Island (Huge) Entrance => Tiny-Huge Island (Tiny)
+Bob-omb Battlefield Entrance => Bob-omb Battlefield
+Big Boo's Haunt Entrance => Tick Tock Clock
+Wet-Dry World Entrance => Rainbow Ride
+Bowser in the Dark World Entrance => The Princess's Secret Slide
+Tower of the Wing Cap Entrance => The Secret Aquarium
+Bowser in the Fire Sea Entrance => Bowser in the Dark World
+Cavern of the Metal Cap Entrance => Tower of the Wing Cap
+Vanish Cap under the Moat Entrance => Cavern of the Metal Cap
+The Secret Aquarium Entrance => Vanish Cap under the Moat
+The Princess's Secret Slide Entrance => Bowser in the Fire Sea
+Wing Mario over the Rainbow Entrance => Wing Mario over the Rainbow
+
+josh_sm64 Star Costs for Super Mario 64:
+
+First Floor Big Star Door  = 7
+Basement Big Star Door     = 15
+Second Floor Big Star Door = 30
+MIPS 1                     = 10
+MIPS 2                     = 20
+Endless Stairs             = 50
+
+
+Locations:
+
+Toad (Basement): Power Star
+Toad (Second Floor): Power Star
+Toad (Third Floor): Power Star
+MIPS 1: Power Star
+MIPS 2: 1Up Mushroom
+BoB: Big Bob-Omb on the Summit: Power Star
+BoB: Footrace with Koopa The Quick: Power Star
+BoB: Mario Wings to the Sky: Power Star
+BoB: Behind Chain Chomp's Gate: Power Star
+BoB: Bob-omb Buddy: Cannon Unlock WF
+BoB: Shoot to the Island in the Sky: Power Star
+BoB: Find the 8 Red Coins: Power Star
+WF: Chip Off Whomp's Block: Power Star
+WF: Shoot into the Wild Blue: Power Star
+WF: Red Coins on the Floating Isle: Power Star
+WF: Fall onto the Caged Island: Power Star
+WF: Blast Away the Wall: Power Star
+WF: To the Top of the Fortress: 1Up Mushroom
+WF: Bob-omb Buddy: Power Star
+JRB: Plunder in the Sunken Ship: Power Star
+JRB: Can the Eel Come Out to Play?: Cannon Unlock WDW
+JRB: Treasure of the Ocean Cave: Power Star
+JRB: Blast to the Stone Pillar: Power Star
+JRB: Through the Jet Stream: Power Star
+JRB: Bob-omb Buddy: 1Up Mushroom
+JRB: Red Coins on the Ship Afloat: Power Star
+CCM: Slip Slidin' Away: Power Star
+CCM: Li'l Penguin Lost: 1Up Mushroom
+CCM: Big Penguin Race: Cannon Unlock JRB
+CCM: Frosty Slide for 8 Red Coins: Power Star
+CCM: Snowman's Lost His Head: Backflip
+CCM: Wall Kicks Will Work: Power Star
+CCM: Bob-omb Buddy: Power Star
+CCM: 1Up Block Near Snowman: 1Up Mushroom
+CCM: 1Up Block Ice Pillar: Power Star
+CCM: 1Up Block Secret Slide: Power Star
+BBH: Go on a Ghost Hunt: 1Up Mushroom
+BBH: Ride Big Boo's Merry-Go-Round: Power Star
+BBH: Secret of the Haunted Books: Metal Cap
+BBH: Seek the 8 Red Coins: Cannon Unlock SL
+BBH: Eye to Eye in the Secret Room: Power Star
+BBH: Big Boo's Balcony: Power Star
+BBH: 1Up Block Top of Mansion: Power Star
+The Princess's Secret Slide Block: Power Star
+The Princess's Secret Slide Fast: 1Up Mushroom
+The Secret Aquarium: 1Up Mushroom
+Tower of the Wing Cap Switch: Power Star
+Tower of the Wing Cap Red Coins: Power Star
+Bowser in the Dark World Red Coins: Power Star
+Bowser in the Dark World Key: Power Star
+Bowser in the Dark World 1Up Block on Tower: 1Up Mushroom
+Bowser in the Dark World 1Up Block near Goombas: Power Star
+HMC: Swimming Beast in the Cavern: Power Star
+HMC: Metal-Head Mario Can Move!: Power Star
+HMC: Watch for Rolling Rocks: Power Star
+HMC: Navigating the Toxic Maze: Power Star
+HMC: 1Up Block Past Rolling Rocks: Power Star
+HMC: Elevate for 8 Red Coins: Power Star
+HMC: A-Maze-Ing Emergency Exit: Power Star
+HMC: 1Up Block above Pit: Power Star
+LLL: Boil the Big Bully: 1Up Mushroom
+LLL: Bully the Bullies: Vanish Cap
+LLL: 8-Coin Puzzle with 15 Pieces: Power Star
+LLL: Red-Hot Log Rolling: Power Star
+LLL: Hot-Foot-It into the Volcano: 1Up Mushroom
+LLL: Elevator Tour in the Volcano: Power Star
+SSL: In the Talons of the Big Bird: Wing Cap
+SSL: Shining Atop the Pyramid: Power Star
+SSL: Free Flying for 8 Red Coins: 1Up Mushroom
+SSL: Bob-omb Buddy: Power Star
+SSL: 1Up Block Outside Pyramid: Power Star
+SSL: 1Up Block Pyramid Left Path: Power Star
+SSL: 1Up Block Pyramid Back: Progressive Key
+SSL: Inside the Ancient Pyramid: Power Star
+SSL: Stand Tall on the Four Pillars: Power Star
+SSL: Pyramid Puzzle: 1Up Mushroom
+DDD: Board Bowser's Sub: 1Up Mushroom
+DDD: Chests in the Current: Power Star
+DDD: Through the Jet Stream: 1Up Mushroom
+DDD: The Manta Ray's Reward: 1Up Mushroom
+DDD: Collect the Caps...: Power Star
+DDD: Pole-Jumping for Red Coins: Power Star
+Cavern of the Metal Cap Switch: Power Star
+Cavern of the Metal Cap Red Coins: Power Star
+Cavern of the Metal Cap 1Up Block: Cannon Unlock CCM
+Vanish Cap Under the Moat Switch: Power Star
+Vanish Cap Under the Moat Red Coins: 1Up Mushroom
+Vanish Cap Under the Moat 1Up Block: 1Up Mushroom
+Bowser in the Fire Sea Red Coins: Power Star
+Bowser in the Fire Sea Key: Power Star
+Bowser in the Fire Sea 1Up Block Swaying Stairs: Cannon Unlock THI
+Bowser in the Fire Sea 1Up Block Near Poles: 1Up Mushroom
+SL: Snowman's Big Head: Power Star
+SL: Chill with the Bully: Power Star
+SL: In the Deep Freeze: Power Star
+SL: Whirl from the Freezing Pond: Power Star
+SL: Shell Shreddin' for Red Coins: Power Star
+SL: Into the Igloo: Power Star
+SL: Bob-omb Buddy: Cannon Unlock SSL
+SL: 1Up Block Near Moneybags: Power Star
+SL: 1Up Block inside Igloo: 1Up Mushroom
+WDW: Express Elevator--Hurry Up!: Power Star
+WDW: Shocking Arrow Lifts!: Power Star
+WDW: Top o' the Town: Power Star
+WDW: Secrets in the Shallows & Sky: Power Star
+WDW: Bob-omb Buddy: Power Star
+WDW: Go to Town for Red Coins: Power Star
+WDW: Quick Race Through Downtown!: Cannon Unlock RR
+WDW: 1Up Block in Downtown: Power Star
+TTM: Scary 'Shrooms, Red Coins: 1Up Mushroom
+TTM: Blast to the Lonely Mushroom: Power Star
+TTM: Bob-omb Buddy: 1Up Mushroom
+TTM: 1Up Block on Red Mushroom: Power Star
+TTM: Scale the Mountain: Power Star
+TTM: Mystery of the Monkey Cage: Cannon Unlock BoB
+TTM: Mysterious Mountainside: Power Star
+TTM: Breathtaking View from Bridge: 1Up Mushroom
+THI: 1Up Block THI Small near Start: Power Star
+THI: The Tip Top of the Huge Island: Power Star
+THI: Pluck the Piranha Flower: Power Star
+THI: Rematch with Koopa the Quick: 1Up Mushroom
+THI: Five Itty Bitty Secrets: Power Star
+THI: Wiggler's Red Coins: Power Star
+THI: Bob-omb Buddy: Power Star
+THI: 1Up Block THI Large near Start: Power Star
+THI: 1Up Block Windy Area: 1Up Mushroom
+THI: Make Wiggler Squirm: 1Up Mushroom
+TTC: Stop Time for Red Coins: Ground Pound
+TTC: Roll into the Cage: Power Star
+TTC: Get a Hand: Power Star
+TTC: Timed Jumps on Moving Bars: Power Star
+TTC: The Pit and the Pendulums: Progressive Key
+TTC: 1Up Block Midway Up: Power Star
+TTC: Stomp on the Thwomp: Power Star
+TTC: 1Up Block at the Top: Power Star
+RR: Swingin' in the Breeze: 1Up Mushroom
+RR: Tricky Triangles!: Power Star
+RR: 1Up Block Top of Red Coin Maze: Power Star
+RR: 1Up Block Under Fly Guy: Power Star
+RR: Bob-omb Buddy: Power Star
+RR: Coins Amassed in a Maze: Power Star
+RR: Cruiser Crossing the Rainbow: 1Up Mushroom
+RR: Somewhere Over the Rainbow: Power Star
+RR: The Big House in the Sky: 1Up Mushroom
+RR: 1Up Block On House in the Sky: 1Up Mushroom
+Wing Mario Over the Rainbow Red Coins: Power Star
+Wing Mario Over the Rainbow 1Up Block: 1Up Mushroom
+Bowser in the Sky 1Up Block: Cannon Unlock TTM
+Bowser in the Sky Red Coins: 1Up Mushroom
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  BoB: Big Bob-Omb on the Summit: Power Star
+  BoB: Bob-omb Buddy: Cannon Unlock WF
+  BoB: Footrace with Koopa The Quick: Power Star
+}
+2: {
+  Bowser in the Fire Sea Key: Power Star
+  Bowser in the Fire Sea Red Coins: Power Star
+  DDD: Chests in the Current: Power Star
+  DDD: Pole-Jumping for Red Coins: Power Star
+}
+3: {
+  BBH: 1Up Block Top of Mansion: Power Star
+  BBH: Big Boo's Balcony: Power Star
+  BBH: Ride Big Boo's Merry-Go-Round: Power Star
+  BBH: Secret of the Haunted Books: Metal Cap
+  SL: 1Up Block Near Moneybags: Power Star
+  SL: Chill with the Bully: Power Star
+  SL: In the Deep Freeze: Power Star
+  SL: Shell Shreddin' for Red Coins: Power Star
+  SL: Snowman's Big Head: Power Star
+  SL: Whirl from the Freezing Pond: Power Star
+  Vanish Cap Under the Moat Switch: Power Star
+}
+4: {
+  TTC: 1Up Block Midway Up: Power Star
+  TTC: 1Up Block at the Top: Power Star
+  TTC: Get a Hand: Power Star
+  TTC: Roll into the Cage: Power Star
+  TTC: Stomp on the Thwomp: Power Star
+  TTC: Stop Time for Red Coins: Ground Pound
+  TTC: The Pit and the Pendulums: Progressive Key
+  TTC: Timed Jumps on Moving Bars: Power Star
+  The Princess's Secret Slide Block: Power Star
+}
+5: {
+  BoB: Behind Chain Chomp's Gate: Power Star
+  Bowser in the Dark World 1Up Block near Goombas: Power Star
+  Bowser in the Dark World Key: Power Star
+  Bowser in the Dark World Red Coins: Power Star
+  Cavern of the Metal Cap Red Coins: Power Star
+  Cavern of the Metal Cap Switch: Power Star
+  MIPS 1: Power Star
+  SSL: 1Up Block Outside Pyramid: Power Star
+  SSL: 1Up Block Pyramid Back: Progressive Key
+  SSL: 1Up Block Pyramid Left Path: Power Star
+  SSL: Bob-omb Buddy: Power Star
+  SSL: Shining Atop the Pyramid: Power Star
+  THI: 1Up Block THI Large near Start: Power Star
+  THI: 1Up Block THI Small near Start: Power Star
+  THI: Bob-omb Buddy: Power Star
+  THI: Pluck the Piranha Flower: Power Star
+  THI: The Tip Top of the Huge Island: Power Star
+  Toad (Basement): Power Star
+  WDW: Bob-omb Buddy: Power Star
+  WDW: Express Elevator--Hurry Up!: Power Star
+  WDW: Secrets in the Shallows & Sky: Power Star
+  WDW: Shocking Arrow Lifts!: Power Star
+  WDW: Top o' the Town: Power Star
+  WF: Blast Away the Wall: Power Star
+  WF: Bob-omb Buddy: Power Star
+  WF: Chip Off Whomp's Block: Power Star
+  WF: Fall onto the Caged Island: Power Star
+  WF: Shoot into the Wild Blue: Power Star
+}
+
+Paths:
+
+BBH: 1Up Block Top of Mansion
+        Menu -> Menu -> Big Boo's Haunt
+   =>   Big Boo's Haunt -> BBH: Third Floor
+   =>   BBH: Third Floor -> BBH: Roof
+   =>   BBH: Roof
+BBH: Big Boo's Balcony
+        Menu -> Menu -> Big Boo's Haunt
+   =>   Big Boo's Haunt -> BBH: Third Floor
+   =>   BBH: Third Floor -> BBH: Roof
+   =>   BBH: Roof
+BBH: Ride Big Boo's Merry-Go-Round
+        Menu -> Menu -> Big Boo's Haunt
+   =>   Big Boo's Haunt
+BBH: Secret of the Haunted Books
+        Menu -> Menu -> Big Boo's Haunt
+   =>   Big Boo's Haunt
+BoB: Behind Chain Chomp's Gate
+        Menu -> Menu -> Bob-omb Battlefield
+   =>   Bob-omb Battlefield
+BoB: Big Bob-Omb on the Summit
+        Menu -> Menu -> Bob-omb Battlefield
+   =>   Bob-omb Battlefield
+BoB: Bob-omb Buddy
+        Menu -> Menu -> Bob-omb Battlefield
+   =>   Bob-omb Battlefield
+BoB: Footrace with Koopa The Quick
+        Menu -> Menu -> Bob-omb Battlefield
+   =>   Bob-omb Battlefield
+Bowser in the Dark World 1Up Block near Goombas
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Bowser in the Dark World
+   =>   Bowser in the Dark World
+Bowser in the Dark World Key
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Bowser in the Dark World
+   =>   Bowser in the Dark World
+Bowser in the Dark World Red Coins
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Bowser in the Dark World
+   =>   Bowser in the Dark World
+Bowser in the Fire Sea Key
+        Menu -> Menu -> Bowser in the Fire Sea
+   =>   Bowser in the Fire Sea -> BitFS: Upper
+   =>   BitFS: Upper
+Bowser in the Fire Sea Red Coins
+        Menu -> Menu -> Bowser in the Fire Sea
+   =>   Bowser in the Fire Sea -> BitFS: Upper
+   =>   BitFS: Upper
+Cavern of the Metal Cap Red Coins
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Cavern of the Metal Cap
+   =>   Cavern of the Metal Cap
+Cavern of the Metal Cap Switch
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Cavern of the Metal Cap
+   =>   Cavern of the Metal Cap
+DDD: Chests in the Current
+        Menu -> Menu -> Dire, Dire Docks
+   =>   Dire, Dire Docks
+DDD: Pole-Jumping for Red Coins
+        Menu -> Menu -> Dire, Dire Docks
+   =>   Dire, Dire Docks
+MIPS 1
+        Menu
+SL: 1Up Block Near Moneybags
+        Menu -> Menu -> Snowman's Land
+   =>   Snowman's Land
+SL: Chill with the Bully
+        Menu -> Menu -> Snowman's Land
+   =>   Snowman's Land
+SL: In the Deep Freeze
+        Menu -> Menu -> Snowman's Land
+   =>   Snowman's Land
+SL: Shell Shreddin' for Red Coins
+        Menu -> Menu -> Snowman's Land
+   =>   Snowman's Land
+SL: Snowman's Big Head
+        Menu -> Menu -> Snowman's Land
+   =>   Snowman's Land
+SL: Whirl from the Freezing Pond
+        Menu -> Menu -> Snowman's Land
+   =>   Snowman's Land
+SSL: 1Up Block Outside Pyramid
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Shifting Sand Land
+   =>   Shifting Sand Land
+SSL: 1Up Block Pyramid Back
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Shifting Sand Land
+   =>   Shifting Sand Land
+SSL: 1Up Block Pyramid Left Path
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Shifting Sand Land
+   =>   Shifting Sand Land
+SSL: Bob-omb Buddy
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Shifting Sand Land
+   =>   Shifting Sand Land
+SSL: Shining Atop the Pyramid
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Shifting Sand Land
+   =>   Shifting Sand Land
+THI: 1Up Block THI Large near Start
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Tiny-Huge Island (Huge)
+   =>   Tiny-Huge Island (Huge) -> Tiny-Huge Island (Huge) -> Tiny-Huge Island
+   =>   Tiny-Huge Island -> THI: Pipes
+   =>   THI: Pipes
+THI: 1Up Block THI Small near Start
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Tiny-Huge Island (Huge)
+   =>   Tiny-Huge Island (Huge) -> Tiny-Huge Island (Huge) -> Tiny-Huge Island
+   =>   Tiny-Huge Island
+THI: Bob-omb Buddy
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Tiny-Huge Island (Huge)
+   =>   Tiny-Huge Island (Huge) -> Tiny-Huge Island (Huge) -> Tiny-Huge Island
+   =>   Tiny-Huge Island -> THI: Pipes
+   =>   THI: Pipes
+THI: Pluck the Piranha Flower
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Tiny-Huge Island (Huge)
+   =>   Tiny-Huge Island (Huge) -> Tiny-Huge Island (Huge) -> Tiny-Huge Island
+   =>   Tiny-Huge Island -> THI: Pipes
+   =>   THI: Pipes
+THI: The Tip Top of the Huge Island
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Tiny-Huge Island (Huge)
+   =>   Tiny-Huge Island (Huge) -> Tiny-Huge Island (Huge) -> Tiny-Huge Island
+   =>   Tiny-Huge Island -> THI: Pipes
+   =>   THI: Pipes
+TTC: 1Up Block Midway Up
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock -> TTC: Lower
+   =>   TTC: Lower -> TTC: Upper
+   =>   TTC: Upper -> TTC: Top
+   =>   TTC: Top
+TTC: 1Up Block at the Top
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock -> TTC: Lower
+   =>   TTC: Lower -> TTC: Upper
+   =>   TTC: Upper -> TTC: Top
+   =>   TTC: Top
+TTC: Get a Hand
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock -> TTC: Lower
+   =>   TTC: Lower
+TTC: Roll into the Cage
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock -> TTC: Lower
+   =>   TTC: Lower
+TTC: Stomp on the Thwomp
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock -> TTC: Lower
+   =>   TTC: Lower -> TTC: Upper
+   =>   TTC: Upper -> TTC: Top
+   =>   TTC: Top
+TTC: Stop Time for Red Coins
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock
+TTC: The Pit and the Pendulums
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock -> TTC: Lower
+   =>   TTC: Lower -> TTC: Upper
+   =>   TTC: Upper
+TTC: Timed Jumps on Moving Bars
+        Menu -> Menu -> Tick Tock Clock
+   =>   Tick Tock Clock -> TTC: Lower
+   =>   TTC: Lower -> TTC: Upper
+   =>   TTC: Upper
+The Princess's Secret Slide Block
+        Menu -> Menu -> The Princess's Secret Slide
+   =>   The Princess's Secret Slide
+Toad (Basement)
+        Menu
+Vanish Cap Under the Moat Switch
+        Menu -> Menu -> Snowman's Land
+   =>   Snowman's Land -> Snowman's Land -> Vanish Cap under the Moat
+   =>   Vanish Cap under the Moat
+WDW: Bob-omb Buddy
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Wet-Dry World
+   =>   Wet-Dry World -> WDW: Top
+   =>   WDW: Top
+WDW: Express Elevator--Hurry Up!
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Wet-Dry World
+   =>   Wet-Dry World
+WDW: Secrets in the Shallows & Sky
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Wet-Dry World
+   =>   Wet-Dry World -> WDW: Top
+   =>   WDW: Top
+WDW: Shocking Arrow Lifts!
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Wet-Dry World
+   =>   Wet-Dry World -> WDW: Top
+   =>   WDW: Top
+WDW: Top o' the Town
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Wet-Dry World
+   =>   Wet-Dry World -> WDW: Top
+   =>   WDW: Top
+WF: Blast Away the Wall
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Whomp's Fortress
+   =>   Whomp's Fortress
+WF: Bob-omb Buddy
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Whomp's Fortress
+   =>   Whomp's Fortress -> WF: Tower
+   =>   WF: Tower
+WF: Chip Off Whomp's Block
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Whomp's Fortress
+   =>   Whomp's Fortress
+WF: Fall onto the Caged Island
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Whomp's Fortress
+   =>   Whomp's Fortress
+WF: Shoot into the Wild Blue
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Whomp's Fortress
+   =>   Whomp's Fortress

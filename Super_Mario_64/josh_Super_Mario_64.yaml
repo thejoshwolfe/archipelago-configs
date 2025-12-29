@@ -1,0 +1,60 @@
+﻿name: josh_sm64
+description: 50/100 stars to win. Suffled Cannons, 1-Up Boxes, Entrances, Ground Pound, Backflip. No 100-coin stars.
+game: Super Mario 64
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+Super Mario 64:
+
+  # Goal
+  completion_type: last_bowser_stage
+  progressive_keys: 'true'
+  first_bowser_star_door_cost: '7'
+  basement_star_door_cost: '15'
+  second_floor_star_door_cost: '30'
+  stars_to_finish: '50'
+  amount_of_stars: '100'
+  mips1_cost: '10'
+  mips2_cost: '20'
+
+  # Shuffle
+  area_rando: 'courses_and_secrets_separate'
+  buddy_checks: 'true'
+  exclamation_boxes: 'true' # Only 1-Up boxes, not coin boxes.
+  enable_move_rando: 'true'
+  move_rando_actions: 
+    - Ground Pound
+    - Backflip
+  enable_coin_stars: 'off'
+
+  # No skips in logic.
+  strict_cap_requirements: 'true'
+  strict_cannon_requirements: 'true'
+  strict_move_requirements: 'true'
+
+  ################
+  # Star Options #
+  ################
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_hints:
+    - Progressive Key
+    - Metal Cap
+    - Vanish Cap
+    - Wing Cap
+    - Ground Pound
+  start_location_hints: []
+  exclude_locations:
+    # Easy + slow = boring.
+    - The Secret Aquarium
+    # Hard + slow = still boring.
+    - 'RR: The Big House in the Sky'
+    - 'RR: 1Up Block On House in the Sky'
+  priority_locations:
+    - Bowser in the Dark World Key
+    - Bowser in the Fire Sea Key
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'false'
