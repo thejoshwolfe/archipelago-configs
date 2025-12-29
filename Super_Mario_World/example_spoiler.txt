@@ -1,0 +1,261 @@
+﻿Archipelago Version 0.6.6  -  Seed: 93838654622662456574
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Super Mario World
+Location Count:                  164
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 Carry: 1, Climb: 1, Run: 1
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Death Link:                      No
+Ring Link:                       No
+Trap Link:                       Yes
+Goal:                            Bowser
+Bosses Required:                 7
+Max Number of Yoshi Eggs:        50
+Required Percentage of Yoshi Eggs:100
+Dragon Coin Checks:              Yes
+3up Moon Checks:                 Yes
+Hidden 1-Up Checks:              No
+Bonus Block Checks:              No
+Blocksanity:                     No
+Bowser Castle Doors:             Slow
+Bowser Castle Rooms:             Random Five Room
+Level Shuffle:                   No
+Exclude Special Zone:            No
+Boss Shuffle:                    None
+Swap Donut GH Exits:             No
+Display Received Item Popups:    Progression Minus Yoshi Eggs
+Junk Fill Percentage:            0
+Trap Fill Percentage:            10
+Ice Trap Weight:                 Medium
+Stun Trap Weight:                Medium
+Literature Trap Weight:          Medium
+Timer Trap Weight:               Medium
+Reverse Trap Weight:             Medium
+Thwimp Trap Weight:              Medium
+Autosave:                        Yes
+Early Climb:                     No
+Overworld Speed:                 Fast
+Music Shuffle:                   None
+Sound Effect Shuffle:            None
+Mario Palette:                   Mario
+Level Palette Shuffle:           Off
+Overworld Palette Shuffle:       Off
+Starting Life Count:             5
+
+
+Starting Items:
+
+Carry
+Climb
+Run
+
+Locations:
+
+Yoshi's Island 1 - Normal Exit: 50 coins
+Yoshi's Island 2 - Normal Exit: 1-Up Mushroom
+Yoshi's Island 3 - Normal Exit: 1-Up Mushroom
+Yoshi's Island 4 - Normal Exit: 10 coins
+#1 Iggy's Castle - Normal Exit: Swim
+#1 Iggy's Castle - Boss: Boss Token
+Yellow Switch Palace: 1-Up Mushroom
+Donut Plains 1 - Normal Exit: Thwimp Trap
+Donut Plains 1 - Secret Exit: 1 coin
+Donut Plains 2 - Normal Exit: 50 coins
+Donut Plains 2 - Secret Exit: 5 coins
+Donut Plains 3 - Normal Exit: Literature Trap
+Donut Plains 4 - Normal Exit: 5 coins
+Donut Secret 1 - Normal Exit: 5 coins
+Donut Secret 1 - Secret Exit: 1-Up Mushroom
+Donut Secret 2 - Normal Exit: 1 coin
+Donut Ghost House - Normal Exit: 10 coins
+Donut Ghost House - Secret Exit: 1-Up Mushroom
+Donut Secret House - Normal Exit: Ice Trap
+Donut Secret House - Secret Exit: 5 coins
+#2 Morton's Castle - Normal Exit: 5 coins
+#2 Morton's Castle - Boss: Boss Token
+Green Switch Palace: 10 coins
+Vanilla Dome 1 - Normal Exit: Special Zone Clear
+Vanilla Dome 1 - Secret Exit: 1 coin
+Vanilla Dome 2 - Normal Exit: 10 coins
+Vanilla Dome 2 - Secret Exit: 1 coin
+Vanilla Dome 3 - Normal Exit: Carry
+Vanilla Dome 4 - Normal Exit: Literature Trap
+Vanilla Secret 1 - Normal Exit: P-Switch
+Vanilla Secret 1 - Secret Exit: 1 coin
+Vanilla Secret 2 - Normal Exit: Thwimp Trap
+Vanilla Secret 3 - Normal Exit: 1-Up Mushroom
+Vanilla Ghost House - Normal Exit: 5 coins
+Vanilla Fortress - Normal Exit: 10 coins
+Vanilla Fortress - Boss: Boss Token
+#3 Lemmy's Castle - Normal Exit: 10 coins
+#3 Lemmy's Castle - Boss: Boss Token
+Red Switch Palace: 5 coins
+Butter Bridge 1 - Normal Exit: 1 coin
+Butter Bridge 2 - Normal Exit: 1-Up Mushroom
+Cheese Bridge - Normal Exit: 5 coins
+Cheese Bridge - Secret Exit: Reverse Trap
+Cookie Mountain - Normal Exit: 10 coins
+Soda Lake - Normal Exit: 50 coins
+#4 Ludwig's Castle - Normal Exit: 5 coins
+#4 Ludwig's Castle - Boss: Boss Token
+Forest of Illusion 1 - Normal Exit: 10 coins
+Forest of Illusion 1 - Secret Exit: 1 coin
+Forest of Illusion 2 - Normal Exit: Ice Trap
+Forest of Illusion 2 - Secret Exit: Super Star Activate
+Forest of Illusion 3 - Normal Exit: 10 coins
+Forest of Illusion 3 - Secret Exit: P-Balloon
+Forest of Illusion 4 - Normal Exit: Thwimp Trap
+Forest of Illusion 4 - Secret Exit: 1-Up Mushroom
+Forest Ghost House - Normal Exit: Spin Jump
+Forest Ghost House - Secret Exit: 50 coins
+Forest Secret - Normal Exit: 10 coins
+Forest Fortress - Normal Exit: 10 coins
+Forest Fortress - Boss: Boss Token
+#5 Roy's Castle - Normal Exit: 50 coins
+#5 Roy's Castle - Boss: Boss Token
+Blue Switch Palace: 5 coins
+Chocolate Island 1 - Normal Exit: 1 coin
+Chocolate Island 2 - Normal Exit: 5 coins
+Chocolate Island 2 - Secret Exit: 50 coins
+Chocolate Island 3 - Normal Exit: 50 coins
+Chocolate Island 3 - Secret Exit: 1-Up Mushroom
+Chocolate Island 4 - Normal Exit: 10 coins
+Chocolate Island 5 - Normal Exit: 1 coin
+Choco-Ghost House - Normal Exit: 10 coins
+Chocolate Secret - Normal Exit: 1 coin
+Chocolate Fortress - Normal Exit: 5 coins
+Chocolate Fortress - Boss: Boss Token
+#6 Wendy's Castle - Normal Exit: 1-Up Mushroom
+#6 Wendy's Castle - Boss: Boss Token
+Sunken Ghost Ship - Normal Exit: 50 coins
+Valley of Bowser 1 - Normal Exit: 1-Up Mushroom
+Valley of Bowser 2 - Normal Exit: Red Switch Palace
+Valley of Bowser 2 - Secret Exit: 5 coins
+Valley of Bowser 3 - Normal Exit: 10 coins
+Valley of Bowser 4 - Normal Exit: Yellow Switch Palace
+Valley of Bowser 4 - Secret Exit: 1-Up Mushroom
+Valley Ghost House - Normal Exit: Run
+Valley Ghost House - Secret Exit: Progressive Powerup
+Valley Fortress - Normal Exit: 1 coin
+Valley Fortress - Boss: Boss Token
+#7 Larry's Castle - Normal Exit: 10 coins
+#7 Larry's Castle - Boss: Boss Token
+Bowser: The Princess
+Star Road 1 - Normal Exit: 5 coins
+Star Road 1 - Secret Exit: 10 coins
+Star Road 2 - Normal Exit: 10 coins
+Star Road 2 - Secret Exit: 10 coins
+Star Road 3 - Normal Exit: 50 coins
+Star Road 3 - Secret Exit: 5 coins
+Star Road 4 - Normal Exit: 10 coins
+Star Road 4 - Secret Exit: 1-Up Mushroom
+Star Road 5 - Normal Exit: 50 coins
+Star Road 5 - Secret Exit: 5 coins
+Gnarly - Normal Exit: 10 coins
+Tubular - Normal Exit: Reverse Trap
+Way Cool - Normal Exit: 1-Up Mushroom
+Awesome - Normal Exit: 50 coins
+Groovy - Normal Exit: 5 coins
+Mondo - Normal Exit: 50 coins
+Outrageous - Normal Exit: 50 coins
+Funky - Normal Exit: 1-Up Mushroom
+Yoshi's Island 1 - Dragon Coins: Progressive Powerup
+Yoshi's Island 2 - Dragon Coins: 10 coins
+Yoshi's Island 3 - Dragon Coins: 5 coins
+Yoshi's Island 4 - Dragon Coins: 5 coins
+Donut Plains 1 - Dragon Coins: 1 coin
+Donut Plains 2 - Dragon Coins: Yoshi
+Donut Plains 3 - Dragon Coins: 1 coin
+Donut Plains 4 - Dragon Coins: Progressive Powerup
+Donut Secret 1 - Dragon Coins: Ice Trap
+Donut Secret 2 - Dragon Coins: 5 coins
+Vanilla Dome 1 - Dragon Coins: Timer Trap
+Vanilla Dome 2 - Dragon Coins: 10 coins
+Vanilla Dome 3 - Dragon Coins: 50 coins
+Vanilla Dome 4 - Dragon Coins: 1-Up Mushroom
+Vanilla Secret 1 - Dragon Coins: 1 coin
+Vanilla Secret 2 - Dragon Coins: 10 coins
+Vanilla Secret 3 - Dragon Coins: 50 coins
+Vanilla Ghost House - Dragon Coins: 10 coins
+Butter Bridge 1 - Dragon Coins: 50 coins
+Butter Bridge 2 - Dragon Coins: Blue Switch Palace
+Cheese Bridge - Dragon Coins: Timer Trap
+Cookie Mountain - Dragon Coins: 10 coins
+Soda Lake - Dragon Coins: 10 coins
+Forest of Illusion 2 - Dragon Coins: 1-Up Mushroom
+Forest of Illusion 3 - Dragon Coins: 10 coins
+Forest of Illusion 4 - Dragon Coins: 1 coin
+Forest Ghost House - Dragon Coins: 5 coins
+Forest Secret - Dragon Coins: 5 coins
+#5 Roy's Castle - Dragon Coins: 1-Up Mushroom
+Chocolate Island 1 - Dragon Coins: 1-Up Mushroom
+Chocolate Island 2 - Dragon Coins: 1-Up Mushroom
+Chocolate Island 3 - Dragon Coins: 10 coins
+Chocolate Island 4 - Dragon Coins: 10 coins
+Chocolate Island 5 - Dragon Coins: 1-Up Mushroom
+Sunken Ghost Ship - Dragon Coins: 10 coins
+Valley of Bowser 1 - Dragon Coins: 10 coins
+Valley of Bowser 2 - Dragon Coins: Green Switch Palace
+Valley of Bowser 3 - Dragon Coins: 50 coins
+Valley Ghost House - Dragon Coins: 50 coins
+#7 Larry's Castle - Dragon Coins: 1-Up Mushroom
+Star Road 1 - Dragon Coins: 10 coins
+Gnarly - Dragon Coins: 5 coins
+Tubular - Dragon Coins: Thwimp Trap
+Way Cool - Dragon Coins: 50 coins
+Awesome - Dragon Coins: 10 coins
+Groovy - Dragon Coins: 1 coin
+Mondo - Dragon Coins: 1-Up Mushroom
+Outrageous - Dragon Coins: 5 coins
+Funky - Dragon Coins: 5 coins
+Yoshi's Island 1 - 3-Up Moon: 10 coins
+Donut Plains 4 - 3-Up Moon: 1 coin
+Vanilla Dome 3 - 3-Up Moon: 50 coins
+Cheese Bridge - 3-Up Moon: 50 coins
+Forest Ghost House - 3-Up Moon: Climb
+Chocolate Island 1 - 3-Up Moon: Reverse Trap
+Valley of Bowser 1 - 3-Up Moon: 1-Up Mushroom
+
+Playthrough:
+
+0: {
+  Carry
+  Climb
+  Run
+}
+1: {
+  #1 Iggy's Castle - Boss: Boss Token
+  #1 Iggy's Castle - Normal Exit: Swim
+}
+2: {
+  #2 Morton's Castle - Boss: Boss Token
+  Donut Plains 2 - Dragon Coins: Yoshi
+  Donut Plains 4 - Dragon Coins: Progressive Powerup
+}
+3: {
+  #4 Ludwig's Castle - Boss: Boss Token
+  Vanilla Fortress - Boss: Boss Token
+  Vanilla Secret 1 - Normal Exit: P-Switch
+}
+4: {
+  #3 Lemmy's Castle - Boss: Boss Token
+  Forest Fortress - Boss: Boss Token
+  Forest Ghost House - Normal Exit: Spin Jump
+}
+5: {
+  #7 Larry's Castle - Boss: Boss Token
+}
+6: {
+  Bowser: The Princess
+}

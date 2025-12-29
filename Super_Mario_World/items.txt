@@ -1,0 +1,24 @@
+1 coin (x15)
+5 coins (x22)
+10 coins (x24)
+50 coins (x31)
+1-Up Mushroom (x26)
+Special Zone Clear
+
+Boss Token (x11)
+
+Carry
+Climb
+P-Balloon
+Progressive Powerup (x3)
+P-Switch
+Run
+Spin Jump
+Super Star Activate
+Swim
+Yoshi
+
+Yellow Switch Palace
+Green Switch Palace
+Blue Switch Palace
+Red Switch Palace

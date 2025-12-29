@@ -1,0 +1,91 @@
+﻿name: josh_smw
+description: 7/11 Bosses + Bowser. Dragon coins and moons are shuffled.
+game: Super Mario World
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Super Mario World: 2.1.1 # Version of the world required for this yaml to work as expected.
+Super Mario World:
+
+  # Goal
+  goal: bowser
+  bosses_required: '7'
+  # Egg hunt disabled
+  max_yoshi_egg_cap: '50'
+  percentage_of_yoshi_eggs: '100'
+
+  # Sanities
+  dragon_coin_checks: 'true'
+  moon_checks: 'true'
+  hidden_1up_checks: 'false'
+  bonus_block_checks: 'false'
+  blocksanity: 'false'
+
+  # Moveset
+  start_inventory:
+    Carry: 1
+    Climb: 1
+    #P-Balloon: 1
+    #Progressive Powerup: 3
+    #P-Switch: 1
+    Run: 1
+    #Spin Jump: 1
+    #Super Star Activate: 1
+    #Swim: 1
+    #Yoshi: 1
+  early_climb: 'false'
+  local_items:
+    # missing start_inventory_from_pool support. At least contain this trash.
+    - Carry
+    - Climb
+    - Run
+    # Contain some of the junk
+    #- 1 coin
+    - 5 coins
+    - 10 coins
+    #- 50 coins
+    #- 1-Up Mushroom
+
+  # No Level Shuffling
+  level_shuffle: 'false'
+  exclude_special_zone: 'false'
+  boss_shuffle: none
+  swap_donut_gh_exits: 'false'
+  # Bowser's Back Door doesn't work.
+  bowser_castle_doors: slow
+  # Complete 5 Bowser's Castle rooms chosen by the randomizer.
+  bowser_castle_rooms: random_five_room
+
+  # Traps
+  junk_fill_percentage: '0'
+  trap_fill_percentage: '10'
+  ice_trap_weight: medium
+  stun_trap_weight: medium
+  literature_trap_weight: medium
+  timer_trap_weight: medium
+  reverse_trap_weight: medium
+  thwimp_trap_weight: medium
+
+  # Aesthetics, QoL, Balance
+  display_received_item_popups: progression_minus_yoshi_eggs
+  autosave: 'true'
+  starting_life_count: '5'
+  overworld_speed: fast
+  music_shuffle: none
+  sfx_shuffle: none
+  mario_palette: mario
+  level_palette_shuffle: 'off'
+  overworld_palette_shuffle: 'off'
+
+  non_local_items: []
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'false'
+  ring_link: 'false'
+  trap_link: 'true'
