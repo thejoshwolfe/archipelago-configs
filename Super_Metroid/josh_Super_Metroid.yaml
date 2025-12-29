@@ -1,0 +1,94 @@
+﻿name: josh_sm
+description: 4/4 bosses
+game: Super Metroid
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+Super Metroid:
+
+  # Someday I might want to learn how to configured known tricks.
+  start_location: landing_site
+  preset: newbie
+  max_difficulty: easy
+  varia_custom_preset: {}
+  custom_preset: {controller: {}, knows: {}, settings: {}}
+
+  # Goal
+  objective: ['kill all G4']
+  custom_objective: 'false'
+  custom_objective_count: '4'
+  custom_objective_list: ['random']
+
+  # Seems fun.
+  tourian: fast
+  escape_rando: 'true'
+  remove_escape_enemies: 'true'
+  animals: 'false'
+
+  # No area rando.
+  area_randomization: 'off'
+  area_layout: 'false'
+  doors_colors_rando: 'false'
+  allow_grey_doors: 'false'
+  boss_randomization: 'false'
+  layout_patches: 'true'
+
+  # Item pool is almost all vanilla.
+  morph_placement: early # Actually, it's in start_inventory.
+  energy_qty: vanilla
+  minor_qty: '100'
+  strict_minors: 'false'
+  missile_qty: '30'
+  super_qty: '20'
+  power_bomb_qty: '10'
+  fun_combat: 'false'
+  fun_movement: 'false'
+  fun_suits: 'false'
+
+  # Misc Tweaks
+  varia_tweaks: 'true'
+  gravity_behaviour: balanced
+  nerfed_charge: 'false'
+
+  # Fun movement buffs.
+  spin_jump_restart: 'true'
+  rando_speed: 'true'
+  infinite_space_jump: 'true'
+  relaxed_round_robin_cf: 'true'
+
+  # Fast
+  elevators_speed: 'true'
+  fast_doors: 'true'
+  refill_before_save: 'true'
+
+  # Cosmetic
+  hud: 'true'
+  hide_items: 'false'
+  no_music: 'false'
+  random_music: 'false'
+
+  local_items: []
+  start_inventory_removes_from_pool: 'true'
+  start_inventory:
+    Morph Ball: 1
+  start_hints:
+    # Get me back into logic please.
+    - Bomb
+    - Gravity Suit
+    - Ice Beam
+    - Charge Beam
+  start_location_hints:
+    # Shaktool more like Snoozetool
+    - Spring Ball
+    # Spore Spawn more like Bore Spawn
+    - Super Missile (pink Brinstar)
+    # Actually a softlock if you enter without Plasma Beam
+    - Plasma Beam
+  non_local_items: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full
+  remote_items: 'true'
+  death_link: disable

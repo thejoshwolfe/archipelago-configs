@@ -1,0 +1,128 @@
+Progressive Bow (x2)
+Blue Boomerang
+Red Boomerang
+Hookshot
+Mushroom
+Magic Powder
+Fire Rod
+Ice Rod
+Bombos
+Quake
+Ether
+Lamp
+Hammer
+Shovel
+Flute
+Bug Catching Net
+Book of Mudora
+Bottle (???) (x4) (where ??? is Blue Potion, Green Potion, Good Bee, etc.)
+Cane of Somaria
+Cane of Byrna
+Cape
+Magic Mirror
+
+Pegasus Boots
+Progressive Glove (x2)
+Flippers
+Moon Pearl
+Progressive Sword (x4)
+Progressive Shield (x3)
+Progressive Mail (x2)
+Magic Upgrade (1/2)
+
+Arrow Upgrade (+5) (x7)
+Bomb Upgrade (+5) (x7)
+Piece of Heart (x24)
+Boss Heart Container (x10)
+Sanctuary Heart Container
+
+Single Arrow
+Arrows (10) (x13)
+Bombs (3) (x22)
+Bombs (10)
+Rupee (1) (x3)
+Rupees (5) (x4)
+Rupees (20) (x31)
+Rupees (50) (x13)
+Rupees (100) (x1)
+Rupees (300) (x5)
+
+Big Key (Desert Palace)
+Big Key (Eastern Palace)
+Big Key (Ganons Tower)
+Big Key (Hyrule Castle)
+Big Key (Ice Palace)
+Big Key (Misery Mire)
+Big Key (Palace of Darkness)
+Big Key (Skull Woods)
+Big Key (Swamp Palace)
+Big Key (Thieves Town)
+Big Key (Tower of Hera)
+Big Key (Turtle Rock)
+
+Green Pendant
+Blue Pendant
+Red Pendant
+Crystal 1
+Crystal 2
+Crystal 3
+Crystal 4
+Crystal 5
+Crystal 6
+Crystal 7
+
+Compass (Desert Palace)
+Compass (Eastern Palace)
+Compass (Ganons Tower)
+Compass (Ice Palace)
+Compass (Misery Mire)
+Compass (Palace of Darkness)
+Compass (Skull Woods)
+Compass (Swamp Palace)
+Compass (Thieves Town)
+Compass (Tower of Hera)
+Compass (Turtle Rock)
+Map (Desert Palace)
+Map (Eastern Palace)
+Map (Ganons Tower)
+Map (Hyrule Castle)
+Map (Ice Palace)
+Map (Misery Mire)
+Map (Palace of Darkness)
+Map (Skull Woods)
+Map (Swamp Palace)
+Map (Thieves Town)
+Map (Tower of Hera)
+Map (Turtle Rock)
+Small Key (Agahnims Tower)
+Small Key (Agahnims Tower)
+Small Key (Desert Palace)
+Small Key (Desert Palace)
+Small Key (Desert Palace)
+Small Key (Eastern Palace)
+Small Key (Eastern Palace)
+Small Key (Ganons Tower)
+Small Key (Ganons Tower)
+Small Key (Ganons Tower)
+Small Key (Ganons Tower)
+Small Key (Hyrule Castle)
+Small Key (Hyrule Castle)
+Small Key (Hyrule Castle)
+Small Key (Ice Palace)
+Small Key (Ice Palace)
+Small Key (Ice Palace)
+Small Key (Ice Palace)
+Small Key (Misery Mire)
+Small Key (Misery Mire)
+Small Key (Misery Mire)
+Small Key (Skull Woods)
+Small Key (Skull Woods)
+Small Key (Swamp Palace)
+Small Key (Swamp Palace)
+Small Key (Swamp Palace)
+Small Key (Swamp Palace)
+Small Key (Swamp Palace)
+Small Key (Thieves Town)
+Small Key (Thieves Town)
+Small Key (Turtle Rock)
+Small Key (Turtle Rock)

@@ -1,0 +1,147 @@
+﻿name: josh_z3
+description: Need 7/7 crystals. Dungeon entrances randomized. GT entrance is open.
+game: A Link to the Past
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+A Link to the Past:
+
+  # Goal
+  goal: ganon
+  crystals_needed_for_ganon: '7'
+
+  # Logic
+  mode: open
+  open_pyramid: goal
+  glitches_required: no_glitches
+  dark_room_logic: lamp
+  swordless: 'false'
+
+  # Dungeon entrance rando. Bosses not shuffled.
+  entrance_shuffle: dungeons_simple
+  crystals_needed_for_gt: '0'
+  entrance_shuffle_seed: random
+  boss_shuffle: none
+
+  # Big Keys are random. Small keys aren't a thing.
+  progressive: 'on'
+  big_key_shuffle: any_world
+  small_key_shuffle: start_with
+  key_drop_shuffle: 'false'
+  # Contain these junk items.
+  compass_shuffle: original_dungeon
+  map_shuffle: original_dungeon
+  # Not sure what effect this would have. Keep it at the default.
+  restrict_dungeon_item_on_boss: 'false'
+  # Seems cool.
+  shuffle_capacity_upgrades: 'on'
+  misery_mire_medallion: random
+  turtle_rock_medallion: random
+
+  # Balance
+  item_pool: normal
+  item_functionality: normal
+  enemy_health: default
+  enemy_damage: default
+
+  # Maximum information please.
+  hints: full
+  scams: 'off'
+  dungeon_counters: pickup
+
+  # I've never tried these.
+  bombless_start: 'false'
+  retro_bow: 'false'
+  retro_caves: 'false'
+  enemy_shuffle: 'false'
+  killable_thieves: 'false'
+  pot_shuffle: 'false'
+  bush_shuffle: 'false'
+  # This sounds interesting though.
+  tile_shuffle: 'true'
+  shuffle_prizes: both
+  # Dunno what this does.
+  glitch_boots: 'true'
+
+  # No shop rando.
+  shop_item_slots: '0'
+  randomize_shop_inventories: default
+  shuffle_shop_inventories: 'false'
+  include_witch_hut: 'false'
+  randomize_shop_prices: 'false'
+  randomize_cost_types: 'false'
+  shop_price_modifier: '100'
+
+  # BEES
+  beemizer_total_chance: '5'
+  beemizer_trap_chance: '100'
+
+  # Aesthetics
+  ow_palettes: default
+  uw_palettes: default
+  hud_palettes: default
+  sword_palettes: default
+  shield_palettes: default
+  heartbeep: quarter
+  heartcolor: red
+  music: 'true'
+  reduceflashing: 'true'
+
+  # QoL Speedups
+  quickswap: 'true'
+  menuspeed: quadruple
+
+  # Triforce hunt is disabled.
+  triforce_pieces_mode: available
+  triforce_pieces_percentage: '150'
+  triforce_pieces_required: '20'
+  triforce_pieces_available: '30'
+  triforce_pieces_extra: '10'
+  triforcehud: normal
+
+  # Timer disabled
+  timer: none
+  countdown_start_time: '10'
+  red_clock_time: '-2'
+  blue_clock_time: '2'
+  green_clock_time: '4'
+
+  local_items:
+    # Contain some junk.
+    #- Single Arrow
+    #- Arrows (10)
+    - Bombs (3)
+    - Bombs (10)
+    #- Rupee (1)
+    #- Rupees (5)
+    - Rupees (20)
+    #- Rupees (50)
+    #- Rupees (100)
+    #- Rupees (300)
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool:
+    # Start fast.
+    Pegasus Boots: 1
+  start_hints:
+    # Logic doesn't consider Silver Arrows or any sword better than Master Sword critical, but I do.
+    - Progressive Sword
+    - Progressive Bow
+    # Tell me a few specific critical things
+    - Moon Pearl
+    - Magic Mirror
+    - Hammer
+    - Progressive Glove
+    # Semi-advancement, semi-QoL, (semi-skill-issue)
+    - Lamp
+    - Flute
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  allow_collect: 'true'
+  death_link: 'false'
+  progression_balancing: '50'
+  accessibility: full
+  plando_connections: []
+  plando_texts: []

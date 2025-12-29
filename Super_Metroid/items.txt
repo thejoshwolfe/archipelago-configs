@@ -1,0 +1,27 @@
+Charge Beam
+Ice Beam
+Wave Beam
+Spazer
+Plasma Beam
+
+Varia Suit
+Gravity Suit
+
+Morph Ball
+Bomb
+Spring Ball
+Screw Attack
+
+Hi-Jump Boots
+Space Jump
+Speed Booster
+
+Energy Tank (x14)
+Reserve Tank (x4)
+
+Missile (x26)
+Super Missile (x22)
+Power Bomb (x16)
+
+Grappling Beam
+X-Ray Scope
