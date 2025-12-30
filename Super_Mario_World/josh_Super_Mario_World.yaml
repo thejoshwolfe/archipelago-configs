@@ -1,5 +1,5 @@
 ﻿name: josh_smw
-description: 7/11 Bosses + Bowser. Dragon coins and moons are shuffled.
+description: 7/11 Bosses + Bowser. Dragon coins, moons, and levels are shuffled. Several abilities start locked such as Spin Jump.
 game: Super Mario World
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -33,6 +33,11 @@ Super Mario World:
     #Super Star Activate: 1
     #Swim: 1
     #Yoshi: 1
+  start_hints:
+    # Let's see where a few critical ones are.
+    - Progressive Powerup
+    - Swim
+    # Probably more abilities and/or switch palaces are critical, but which ones is up to the randomizer.
   early_climb: 'false'
   local_items:
     # missing start_inventory_from_pool support. At least contain this trash.
@@ -46,15 +51,16 @@ Super Mario World:
     #- 50 coins
     #- 1-Up Mushroom
 
-  # No Level Shuffling
-  level_shuffle: 'false'
+  # Shuffle levels.
+  level_shuffle: 'true'
   exclude_special_zone: 'false'
   boss_shuffle: none
-  swap_donut_gh_exits: 'false'
-  # Bowser's Back Door doesn't work.
+  # The "Top Secret" area seems more like a secret exit, don't you think?
+  swap_donut_gh_exits: 'true'
+  # Bowser's Back Door is the same as the front door.
   bowser_castle_doors: slow
-  # Complete 5 Bowser's Castle rooms chosen by the randomizer.
-  bowser_castle_rooms: random_five_room
+  # Complete all 8 Bowser's Castle rooms.
+  bowser_castle_rooms: gauntlet
 
   # Traps
   junk_fill_percentage: '0'
@@ -78,7 +84,6 @@ Super Mario World:
   overworld_palette_shuffle: 'off'
 
   non_local_items: []
-  start_hints: []
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
