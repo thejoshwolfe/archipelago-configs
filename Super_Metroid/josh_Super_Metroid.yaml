@@ -52,7 +52,7 @@ Super Metroid:
   # Fun movement buffs.
   spin_jump_restart: 'true'
   rando_speed: 'true'
-  infinite_space_jump: 'true'
+  infinite_space_jump: 'false'
   relaxed_round_robin_cf: 'true'
 
   # Fast

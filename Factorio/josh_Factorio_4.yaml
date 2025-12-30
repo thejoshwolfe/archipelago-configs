@@ -191,7 +191,6 @@ Factorio:
     # Let's see where the significant quality of life is.
     - progressive-advanced-material-processing
     - progressive-automation
-    - construction-robotics
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
