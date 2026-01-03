@@ -212,7 +212,7 @@ class Config:
         return "Config({})".format(repr(self.worlds))
 
 def load_config(path):
-    parser = configparser.ConfigParser(strict=True)
+    parser = configparser.ConfigParser(strict=True, interpolation=None)
     try:
         with open(path) as f:
             parser.read_file(f, source=path)

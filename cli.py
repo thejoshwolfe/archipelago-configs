@@ -53,6 +53,9 @@ def main():
     sub_parser.add_argument("connect_to", metavar="host:port")
     sub_parser.add_argument("slot")
 
+    sub_parser = subparsers.add_parser("generate-template-options", help=
+        "Calls Launcher.py 'Generate Template Options' -- --skip_open_folder.")
+
     sub_parser = subparsers.add_parser("factorio-server", help=
         "How I, a NixOS user, invoke the AP client for Factorio, which runs the Factorio headless server in a docker container. "
         "Requires docker and a downloaded standalone factorio installation. "
@@ -85,6 +88,8 @@ def main():
         do_server(args.repo, args.server_dir, args.multidata, args.oracle_spoiler)
     elif args.cmd == "text-client":
         do_text_client(args.repo, args.connect_to, args.slot)
+    elif args.cmd == "generate-template-options":
+        do_generate_template_options(args.repo)
     elif args.cmd == "factorio-server":
         do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir)
     elif args.cmd == "factorio-client":
@@ -219,6 +224,9 @@ def do_server(repo, server_dir, multidata_path, oracle_spoiler):
 def do_text_client(repo, connect_to, slot_name):
     args = ["--nogui", "--connect", connect_to, "--name", slot_name]
     ap_cmd("CommonClient.py", *args, input=None, repo=repo, os_exec=True)
+
+def do_generate_template_options(repo):
+    ap_cmd("Launcher.py", "Generate Template Options", "--", "--skip_open_folder", repo=repo, input=None)
 
 def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
     if not os.access(os.path.join(factorio_root, "bin/x64/factorio"), os.X_OK):

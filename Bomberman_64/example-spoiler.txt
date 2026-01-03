@@ -1,0 +1,319 @@
+﻿Archipelago Version 0.6.6  -  Seed: 29493913648233670166
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Bomberman 64
+Location Count:                  184
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+open_stages:                     Yes
+Required Gold Cards:             45
+Max Gold Cards:                  50
+game_goal:                       Altair
+Game Difficulty:                 Normal
+random_music:                    No
+random_sound:                    No
+enemy_model:                     Off
+color:                           White
+palace_on:                       Yes
+enemy_ai:                        Off
+Death Link:                      No
+head_part:                       Dragon
+body_part:                       Dragon
+arm_left_part:                   Dragon
+arm_right_part:                  Dragon
+leg_left_part:                   Dragon
+leg_right_part:                  Dragon
+
+
+Starting Items:
+
+Green Key
+Green Key
+Blue Key
+Blue Key
+Red Key
+Red Key
+White Key
+White Key
+
+Locations:
+
+Untouchable Treasure Card 1: Gold Card
+Untouchable Treasure Card 2: Extra Life
+Untouchable Treasure Card 3: 5 Gems
+Untouchable Treasure Card Kills: Heart
+Untouchable Treasure Power Bomb: 5 Gems
+Untouchable Treasure Remote Bomb: Slow Virus
+Untouchable Treasure Custom Red: Slow Virus
+Untouchable Treasure Custom Green: 5 Gems
+Friend or Foe Clear: Gold Card
+Friend or Foe Card 1: Heart
+Friend or Foe Card 2: Slow Virus
+Friend or Foe Card 3: Bombless Virus
+Friend or Foe Card 4: Heart
+Friend or Foe Card 5: Kill Count Reduction
+To Have or Have Not Card 1: Slow Virus
+To Have or Have Not Card 2: Gold Card
+To Have or Have Not Card 3: Bombless Virus
+To Have or Have Not Card Kills: Extra Life
+To Have or Have Not Power Bomb: Gold Card
+To Have or Have Not Remote Bomb Tower: Slow Virus
+To Have or Have Not Remote Bomb Ledge: Heart
+To Have or Have Not Custom Blue: Bombup
+To Have or Have Not Custom Yellow: Black Key
+To Have or Have Not Remote Bomb Entrance: Extra Life
+Winged Guardian Clear: Heart
+Winged Guardian Card 1: Gold Card
+Winged Guardian Card 2: Extra Life
+Winged Guardian Card 3: Gold Card
+Winged Guardian Card 4: Gold Card
+Winged Guardian Card 5: Kill Count Reduction
+Switches and Bridges Card 1: Bombless Virus
+Switches and Bridges Card 2: Heart
+Switches and Bridges Card 3: Gold Card
+Switches and Bridges Card Kills: Gold Card
+Switches and Bridges Power Bomb: Fast Virus
+Switches and Bridges Remote Bomb: Bombless Virus
+Switches and Bridges Custom Red: Gold Card
+Switches and Bridges Custom Green: Gold Card
+Vs Artemis Clear: Slow Virus
+Vs Artemis Card 1: Slow Virus
+Vs Artemis Card 2: Gold Card
+Vs Artemis Card 3: Fast Virus
+Vs Artemis Card 4: Extra Life
+Vs Artemis Card 5: Kill Count Reduction
+Pump It Up Card 1: Bombup
+Pump It Up Card 2: Gold Card
+Pump It Up Card 3: Heart
+Pump It Up Card Kills: Gold Card
+Pump It Up Power Bomb: Bombup
+Pump It Up Custom Blue: 5 Gems
+Pump It Up Custom Yellow: Bombup
+Sewer Savage Clear: Red Key
+Sewer Savage Card 1: Bombless Virus
+Sewer Savage Card 2: 5 Gems
+Sewer Savage Card 3: Bombless Virus
+Sewer Savage Card 4: Fast Virus
+Sewer Savage Card 5: Kill Count Reduction
+Hot On The Trail Card 1: Black Key
+Hot On The Trail Card 2: Green Key
+Hot On The Trail Card 3: Gold Card
+Hot On The Trail Card Kills: Gold Card
+Hot On The Trail Power Bomb: Bombless Virus
+Hot On The Trail Remote Bomb: Bombless Virus
+Hot On The Trail Custom Red: Heart
+Hot On The Trail Custom Green: 5 Gems
+Vs Orion Clear: Heart
+Vs Orion Card 1: Bombless Virus
+Vs Orion Card 2: Gold Card
+Vs Orion Card 3: Bombless Virus
+Vs Orion Card 4: Bombless Virus
+Vs Orion Card 5: Kill Count Reduction
+On the Right Track Card 1: Bombless Virus
+On the Right Track Card 2: Gold Card
+On the Right Track Card 3: Heart
+On the Right Track Card Kills: 5 Gems
+On the Right Track Power Bomb: Heart
+On the Right Track Remote Bomb Entrance: 5 Gems
+On the Right Track Remote Bomb Exit: Bombless Virus
+On the Right Track Custom Blue: Gold Card
+On the Right Track Custom Yellow: Black Key
+Hot Avenger Clear: Gold Card
+Hot Avenger Card 1: Slow Virus
+Hot Avenger Card 2: Heart
+Hot Avenger Card 3: Heart
+Hot Avenger Card 4: Slow Virus
+Hot Avenger Card 5: Kill Count Reduction
+Blizzard Peaks Card 1: Extra Life
+Blizzard Peaks Card 2: Heart
+Blizzard Peaks Card 3: Heart
+Blizzard Peaks Card Kills: Gold Card
+Blizzard Peaks Power Bomb: Fast Virus
+Blizzard Peaks Remote Bomb Avalance: Heart
+Blizzard Peaks Remote Bomb Snowboard: Gold Card
+Blizzard Peaks Custom Red: Extra Life
+Blizzard Peaks Custom Blue: Extra Life
+Vs Regulus Clear: Bombless Virus
+Vs Regulus Card 1: Gold Card
+Vs Regulus Card 2: Gold Card
+Vs Regulus Card 3: 5 Gems
+Vs Regulus Card 4: Gold Card
+Vs Regulus Card 5: Kill Count Reduction
+Shiny Slippery Icy Floor Card 1: Heart
+Shiny Slippery Icy Floor Card 2: Gold Card
+Shiny Slippery Icy Floor Card 3: Gold Card
+Shiny Slippery Icy Floor Card Kills: Heart
+Shiny Slippery Icy Floor Remote Bomb: Power Glove
+Shiny Slippery Icy Floor Custom Green: Gold Card
+Shiny Slippery Icy Floor Custom Yellow: Restless Virus
+Cold Killer Clear: Gold Card
+Cold Killer Card 1: Heart
+Cold Killer Card 2: Gold Card
+Cold Killer Card 3: Blue Key
+Cold Killer Card 4: Slow Virus
+Cold Killer Card 5: Kill Count Reduction
+Go For Broke Card 1: 5 Gems
+Go For Broke Card 2: Extra Life
+Go For Broke Card 3: Gold Card
+Go For Broke Card Kills: Heart
+Go For Broke Power Bomb: Extra Life
+Go For Broke Remote Bomb: Gold Card
+Go For Broke Custom Green: Heart
+High Tech Harvester Clear: Gold Card
+High Tech Harvester Card 1: White Key
+High Tech Harvester Card 2: 5 Gems
+High Tech Harvester Card 3: 5 Gems
+High Tech Harvester Card 4: Gold Card
+High Tech Harvester Card 5: Kill Count Reduction
+Trap Tower Card 1: Gold Card
+Trap Tower Card 2: Slow Virus
+Trap Tower Card 3: 5 Gems
+Trap Tower Card Kills: Bombless Virus
+Trap Tower Power Bomb Secret Platform: Gold Card
+Trap Tower Power Bomb Entrance: Fast Virus
+Trap Tower Remote Bomb: Gold Card
+Trap Tower Custom Red: Bombup
+Trap Tower Custom Blue: Gold Card
+Trap Tower Custom Yellow: Heart
+Vs Altair Clear: Omnicube
+Beyond the Clouds Card 1: Gold Card
+Beyond the Clouds Card 2: 5 Gems
+Beyond the Clouds Card 3: Heart
+Beyond the Clouds Card Kills: Fast Virus
+Beyond the Clouds Remote Bomb Side Room: Gold Card
+Beyond the Clouds Remote Bomb Main Room: 5 Gems
+Beyond the Clouds Custom Blue: Extra Life
+Beyond the Clouds Custom Green: Heart
+Vs Spellmaker Clear: Remote Bombs
+Vs Spellmaker Card 1: Bombless Virus
+Vs Spellmaker Card 2: Gold Card
+Vs Spellmaker Card 3: Extra Life
+Vs Spellmaker Card 4: Bomb Kick
+Vs Spellmaker Card 5: Heart
+Doom Castle Card 1: Gold Card
+Doom Castle Card 2: Fast Virus
+Doom Castle Card 3: Gold Card
+Doom Castle Card Kills: 5 Gems
+Doom Castle Power Bomb: Gold Card
+Doom Castle Remote Bomb: Gold Card
+Doom Castle Custom Red: 5 Gems
+Doom Castle Custom Yellow: 5 Gems
+Untouchable Treasure Clear: Gold Card
+Untouchable Treasure Card Time: Extra Life
+To Have or Have Not Clear: Gold Card
+To Have or Have Not Card Time: Heart
+Switches and Bridges Clear: Gold Card
+Switches and Bridges Card Time: Fireup
+Pump It Up Clear: Extra Life
+Pump It Up Card Time: 5 Gems
+Hot On The Trail Clear: 5 Gems
+Hot On The Trail Card Time: Slow Virus
+On the Right Track Clear: Slow Virus
+On the Right Track Card Time: Gold Card
+Blizzard Peaks Clear: Gold Card
+Blizzard Peaks Card Time: Death Virus
+Shiny Slippery Icy Floor Clear: Heart
+Shiny Slippery Icy Floor Card Time: Bombup
+Go For Broke Clear: Sticky Virus
+Go For Broke Card Time: Fireup
+Trap Tower Clear: 5 Gems
+Trap Tower Card Time: Bombless Virus
+Beyond the Clouds Clear: Heart
+Beyond the Clouds Card Time: Power Bombs
+Doom Castle Clear: 5 Gems
+Doom Castle Card Time: Fast Virus
+
+Playthrough:
+
+0: {
+  Blue Key
+  Blue Key
+  Green Key
+  Green Key
+  Red Key
+  Red Key
+  White Key
+  White Key
+}
+1: {
+  Blizzard Peaks Remote Bomb Snowboard: Gold Card
+  Friend or Foe Clear: Gold Card
+  Hot On The Trail Card 1: Black Key
+  On the Right Track Card Time: Gold Card
+  On the Right Track Custom Blue: Gold Card
+  Pump It Up Card 2: Gold Card
+  Shiny Slippery Icy Floor Card 2: Gold Card
+  Shiny Slippery Icy Floor Card 3: Gold Card
+  Shiny Slippery Icy Floor Card Time: Bombup
+  Shiny Slippery Icy Floor Custom Green: Gold Card
+  Shiny Slippery Icy Floor Remote Bomb: Power Glove
+  Vs Artemis Card 2: Gold Card
+  Vs Orion Card 2: Gold Card
+  Vs Regulus Card 1: Gold Card
+}
+2: {
+  Beyond the Clouds Remote Bomb Side Room: Gold Card
+  Blizzard Peaks Card Kills: Gold Card
+  Blizzard Peaks Clear: Gold Card
+  Go For Broke Card 3: Gold Card
+  Go For Broke Remote Bomb: Gold Card
+  Hot On The Trail Card 2: Green Key
+  Hot On The Trail Card Kills: Gold Card
+  Pump It Up Card 1: Bombup
+  Pump It Up Card Kills: Gold Card
+  Pump It Up Custom Yellow: Bombup
+  Pump It Up Power Bomb: Bombup
+  Switches and Bridges Card 3: Gold Card
+  Switches and Bridges Card Kills: Gold Card
+  Switches and Bridges Clear: Gold Card
+  Switches and Bridges Custom Green: Gold Card
+  To Have or Have Not Card 2: Gold Card
+  To Have or Have Not Custom Yellow: Black Key
+  To Have or Have Not Power Bomb: Gold Card
+  Vs Regulus Card 2: Gold Card
+}
+3: {
+  Vs Spellmaker Card 2: Gold Card
+  Vs Spellmaker Card 4: Bomb Kick
+  Vs Spellmaker Clear: Remote Bombs
+}
+4: {
+  Beyond the Clouds Card 1: Gold Card
+  Beyond the Clouds Card Time: Power Bombs
+  High Tech Harvester Card 1: White Key
+  High Tech Harvester Card 4: Gold Card
+  High Tech Harvester Clear: Gold Card
+  On the Right Track Card 2: Gold Card
+  Switches and Bridges Custom Red: Gold Card
+  To Have or Have Not Clear: Gold Card
+  Untouchable Treasure Card 1: Gold Card
+  Untouchable Treasure Clear: Gold Card
+  Vs Regulus Card 4: Gold Card
+  Winged Guardian Card 1: Gold Card
+  Winged Guardian Card 3: Gold Card
+  Winged Guardian Card 4: Gold Card
+}
+5: {
+  Cold Killer Card 2: Gold Card
+  Cold Killer Clear: Gold Card
+  Doom Castle Card 1: Gold Card
+  Doom Castle Card 3: Gold Card
+  Doom Castle Power Bomb: Gold Card
+  Doom Castle Remote Bomb: Gold Card
+  Hot On The Trail Card 3: Gold Card
+  On the Right Track Custom Yellow: Black Key
+}
+6: {
+  Vs Altair Clear: Omnicube
+}

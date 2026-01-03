@@ -1,0 +1,298 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Bomberman 64 Template
+
+game: Bomberman 64
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Bomberman 64: 0.1.3 # Version of the world required for this yaml to work as expected.
+
+Bomberman 64:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  ################
+  # Goal Options #
+  ################
+  game_goal:
+    # Required Goal to complete the seed
+    # Altair - Clear the game by defeating the final boss
+    # Gold Cards - Clear the game by getting enough gold cards for shorter seeds
+    # Bosses - Clear the game by beating the 4 main world bosses
+    altair: 50
+    goalcards: 0
+    mainbosses: 0
+
+  gold_cards:
+    # Number of Gold Cards required to access Black Fortress
+    # Keep in mind 3 black keys will also be required to reach the goal
+    # if Final Boss is Selected
+    # If Gold Card Goal is Selected then this determines the number of Cards 
+    # Needed to hit your goal
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 8
+    # Maximum value is 100
+    45: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-8-100: 0 # random value between 8 and 100
+
+  max_cards:
+    # Max number of Gold Cards in the pool
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 8
+    # Maximum value is 100
+    50: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-8-100: 0 # random value between 8 and 100
+
+  ####################
+  # Gameplay Options #
+  ####################
+  open_stages:
+    # If Selected The first 3 stages of the main 4 worlds will be open from the start
+    # You will still require a key to access the Boss Stage
+    'false': 50
+    'true': 0
+
+  difficulty:
+    # Determines The Logic Used for Gold Card Checks, 
+    # This should be Set to the in game difficulty you want to use
+    normal: 50
+    hard: 0
+
+  palace_on:
+    # Includes Locations for Rainbow Palace stages, 
+    # When this option is disabled, filler items will be placed in Rainbow Palace's locations but the stages will still unlock
+    # Stages are unlocked for every 25% of required gold cards.
+    'false': 50
+    'true': 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  #########################
+  # Randomization Options #
+  #########################
+  random_music:
+    # Shuffles the game music
+    'false': 50
+    'true': 0
+
+  random_sound:
+    # Shuffles the game sounds
+    'false': 50
+    'true': 0
+
+  ###########################
+  # Bomberman Model Options #
+  ###########################
+  color:
+    # Changes Bomberman's model color
+    white: 50
+    black: 0
+
+  head_part:
+    # Changes Bomberman's head model when collecting the remote bomb item
+    normal: 0
+    knight: 0
+    dragon: 50
+    iron: 0
+    cat: 0
+    girl: 0
+    cool: 0
+    chicken: 0
+    samurai: 0
+    clown: 0
+    gold: 0
+
+  body_part:
+    # Changes Bomberman's body model when collecting the power bomb item
+    normal: 0
+    knight: 0
+    dragon: 50
+    iron: 0
+    cat: 0
+    girl: 0
+    cool: 0
+    chicken: 0
+    samurai: 0
+    clown: 0
+    gold: 0
+
+  arm_left_part:
+    # Changes Bomberman's left arm model when collecting the power glove item
+    normal: 0
+    knight: 0
+    dragon: 50
+    iron: 0
+    cat: 0
+    girl: 0
+    cool: 0
+    chicken: 0
+    samurai: 0
+    clown: 0
+    gold: 0
+
+  arm_right_part:
+    # Changes Bomberman's right arm model when collecting the power glove item
+    normal: 0
+    knight: 0
+    dragon: 50
+    iron: 0
+    cat: 0
+    girl: 0
+    cool: 0
+    chicken: 0
+    samurai: 0
+    clown: 0
+    gold: 0
+
+  leg_left_part:
+    # Changes Bomberman's left leg model when collecting the bomb kick item
+    normal: 0
+    knight: 0
+    dragon: 50
+    iron: 0
+    cat: 0
+    girl: 0
+    cool: 0
+    chicken: 0
+    samurai: 0
+    clown: 0
+    gold: 0
+
+  leg_right_part:
+    # Changes Bomberman's right leg model when collecting the bomb kick item
+    normal: 0
+    knight: 0
+    dragon: 50
+    iron: 0
+    cat: 0
+    girl: 0
+    cool: 0
+    chicken: 0
+    samurai: 0
+    clown: 0
+    gold: 0
+
+  ###########################
+  # Lua Script Only Options #
+  ###########################
+  enemy_ai:
+    # If enabled will randomize enemies
+    # This option will require the use of the companion bomberman_64.lua script to function
+    # Shuffle: Suffles the enemy AI consistently
+    # Chaotic: Randomizes enemy AI every load
+    'off': 50
+    shuffle: 0
+    chaos: 0
+
+  enemy_model:
+    # If enabled will randomize enemies
+    # This option will require the use of the companion bomberman_64.lua script to function
+    # Shuffle: Suffles the enemy models consistently
+    # Chaotic: Randomizes enemy model every load
+    'off': 50
+    shuffle: 0
+    chaos: 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

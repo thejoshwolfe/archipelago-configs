@@ -1,0 +1,26 @@
+Bomb Kick
+Power Glove
+Power Bombs
+Remote Bombs
+
+Blue Key
+Green Key
+Red Key
+White Key
+Black Key (x3)
+
+Bombup (x6)
+Fireup (x2)
+Kill Count Reduction (x9)
+Gold Card (x50)
+
+5 Gems
+Extra Life
+Heart
+
+Bombless Virus
+Death Virus
+Fast Virus
+Slow Virus
+Restless Virus
+Sticky Virus
