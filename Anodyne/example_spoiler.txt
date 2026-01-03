@@ -1,0 +1,412 @@
+﻿Archipelago Version 0.6.6  -  Seed: 75288831922357087789
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Anodyne
+Location Count:                  234
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Starting Broom:                  None
+Victory Condition:               Defeat Briar
+Postgame Mode:                   Disabled
+Mitra Hint Mode:                 Precise Hint
+Death Link:                      No
+Start Inventory from Pool:       
+Small Key Mode:                  Key Rings
+Shuffle Small Keys:              Any World
+Shuffle Big Keys:                Any World
+Base cards in item pool:         37
+extra_cards:                     12
+Split Windmill:                  No
+Include Blue and Happy:          No
+Fields Secret Paths:             No
+Randomize GO Color Puzzle:       Yes
+Shuffle Nexus Gates:             Off
+Red Grotto Access:               Progressive
+Open Nexus Gates:                Random Pre Endgame
+Random Open Nexus Gates Count:   4
+Custom Open Nexus Gates:         
+Dustsanity:                      Yes
+Rocksanity:                      No
+Shuffle Health Cicadas:          Any World
+Include Forest Bunny Chest:      No
+Traps Percentage:                25
+Trap Weights:                    Gas Trap: 1, Person Trap: 4
+overworld_gauntlet_gate:         Cards
+overworld_gauntlet_gate_cards:   4
+overworld_gauntlet_gate_bosses:  1
+overworld_fields_gate:           Green Key
+overworld_fields_gate_cards:     1
+overworld_fields_gate_bosses:    1
+fields_terminal_gate:            Red Key
+fields_terminal_gate_cards:      1
+fields_terminal_gate_bosses:     1
+beach_gauntlet_gate:             Cards
+beach_gauntlet_gate_cards:       8
+beach_gauntlet_gate_bosses:      1
+windmill_entrance_gate:          Green Key
+windmill_entrance_gate_cards:    1
+windmill_entrance_gate_bosses:   1
+windmill_middle_gate:            Red Key
+windmill_middle_gate_cards:      1
+windmill_middle_gate_bosses:     1
+windmill_top_gate:               Blue Key
+windmill_top_gate_cards:         1
+windmill_top_gate_bosses:        1
+suburb_gate:                     Cards
+suburb_gate_cards:               16
+suburb_gate_bosses:              1
+cell_gate:                       Cards
+cell_gate_cards:                 24
+cell_gate_bosses:                1
+terminal_endgame_gate:           Cards
+terminal_endgame_gate_cards:     36
+terminal_endgame_gate_bosses:    1
+blank_postgame_gate:             Cards
+blank_postgame_gate_cards:       47
+blank_postgame_gate_bosses:      1
+nexus_north_final_gate:          Cards
+nexus_north_final_gate_cards:    49
+nexus_north_final_gate_bosses:   1
+
+
+Locations:
+
+Apartment - 1F Ledge Chest: Big Heal
+Apartment - 1F Rat Maze Chest: Big Heal
+Apartment - 1F Exterior Chest: Key Ring (Apartment)
+Apartment - 1F Shortcut Room Dust 1: Person Trap
+Apartment - 1F Shortcut Room Dust 2: Person Trap
+Apartment - 1F Rat Maze Chest Dust 1: Person Trap
+Apartment - 1F Rat Maze Chest Dust 2: Biking Shoes
+Apartment - 1F Rat Maze Chest Dust 3: Person Trap
+Apartment - 1F Entrance Dust: Big Heal
+Apartment - 1F Flooded Room Dust: Big Heal
+Apartment - 1F Flooded Library Dust: Heal
+Apartment - 1F Couches Chest: Big Heal
+Apartment - 1F Couches Dust: Big Heal
+Apartment - 2F Rat Maze Chest: Heal
+Apartment - 2F Switch Pillar Rat Maze Dust: Big Heal
+Apartment - 2F Dash Trap Rat Maze Dust: Big Heal
+Apartment - 2F Flooded Room Dust: Heal
+Apartment - 3F Gauntlet Chest: Heal
+Apartment - Boss Chest: Big Heal
+Apartment - Health Cicada: Big Heal
+Beach - Dock Chest: Heal
+Beach - Health Cicada: Person Trap
+Temple of the Seeing One - Entrance Chest: Heal
+Temple of the Seeing One - Entrance Dust 1: Heal
+Temple of the Seeing One - Entrance Dust 2: Heal
+Temple of the Seeing One - Rock-Surrounded Chest: Big Heal
+Temple of the Seeing One - Dark Room Chest: Person Trap
+Temple of the Seeing One - Laser Room Dust 1: Health Cicada
+Temple of the Seeing One - Laser Room Dust 2: Person Trap
+Temple of the Seeing One - Room With Holes Dust 1: Gas Trap
+Temple of the Seeing One - Room With Holes Dust 2: Card (Frog)
+Temple of the Seeing One - Past Shieldy Puzzle Dust 1: Big Heal
+Temple of the Seeing One - Before Boss Dust 1: Heal
+Temple of the Seeing One - Past Shieldy Puzzle Dust 2: Heal
+Temple of the Seeing One - Laser Room Dust 3: Big Heal
+Temple of the Seeing One - Before Boss Dust 2: Heal
+Temple of the Seeing One - Laser Room Dust 4: Jump Shoes
+Temple of the Seeing One - Shieldy Room Chest: Cardboard Box
+Temple of the Seeing One - Shieldy Room Dust 1: Card (Rock Creature)
+Temple of the Seeing One - Shieldy Room Dust 2: Golden Poop
+Temple of the Seeing One - After Statue Left Chest: Heal
+Temple of the Seeing One - After Statue Right Chest: Heal
+Temple of the Seeing One - Boss Chest: Health Cicada
+Temple of the Seeing One - Health Cicada: Big Heal
+Temple of the Seeing One - Green Key: Big Heal
+Blue - Laser Room Dust: Card (City Man)
+Cell - Top Left Chest: Health Cicada
+Cell - Health Cicada: Big Heal
+Circus - Entrance Dust: Card (Suburbian)
+Circus - Dash Pad over Hole Dust: Health Cicada
+Circus - Spike Roller in Water Dust: Health Cicada
+Circus - Rat Maze Chest: Progressive Red Grotto
+Circus - Clowns Chest: Big Heal
+Circus - Arthur Chest: Card (Wall)
+Circus - Dash Trap Dust: Card (Gas Guy)
+Circus - Clown Dust 1: Card (Lion)
+Circus - Clown Dust 2: Health Cicada
+Circus - Slime and Fire Pillar Dust: Person Trap
+Circus - Lion and Dash Pad Dust: Big Heal
+Circus - Fire Pillar Chest: Heal
+Circus - Javiera Chest: Card (Miao)
+Circus - Javiera Dust 2: Heal
+Circus - Javiera Dust 1: Person Trap
+Circus - Lion Chest: Heart
+Circus - Fire Pillars in Water Dust 3: Big Heal
+Circus - Lion Dust 1: Card (Blue Cube King)
+Circus - Lion Dust 2: Card (Slime)
+Circus - Fire Pillars in Water Dust 2: Person Trap
+Circus - Fire Pillars in Water Dust 1: Key Ring (Red Grotto)
+Circus - Fire Pillars in Water Dust 4: Person Trap
+Circus - Small Contort Room Dust: Card (Triangle NPC)
+Circus - Save Point Dust: Person Trap
+Circus - Health Cicada: Person Trap
+Circus - Dog Room Dust: Card (Killer)
+Circus - Spike Dust: Big Heal
+Circus - Double Clowns Chest: Miao
+Circus - Boss Chest: Heal
+Cliffs - Upper Chest: Heal
+Cliffs - Lower Chest: Card (Person)
+Mountain Cavern - Health Cicada: Heal
+Mountain Cavern - 2F Four Enemies Chest: Broom
+Mountain Cavern - 2F Crowded Ledge Chest: Card (Young)
+Mountain Cavern - 2F Entrance Chest: Card (Shieldy)
+Mountain Cavern - 2F Frogs and Dog Chest: Card (Manager)
+Mountain Cavern - 2F Frogs and Rotators Chest: Card (Dasher)
+Mountain Cavern - 2F Frogs and Annoyers Dust: Card (Torch)
+Mountain Cavern - 2F Rotators and Annoyers Dust 1: Blue Key
+Mountain Cavern - 2F Rotators and Annoyers Dust 2: Extend
+Mountain Cavern - 2F Circular Hole Dust 1: Card (Dust Maid)
+Mountain Cavern - 2F Circular Hole Dust 2: Heal
+Mountain Cavern - 2F Crossing Moving Platforms Dust 1: Big Heal
+Mountain Cavern - 2F Crossing Moving Platforms Dust 2: Health Cicada
+Mountain Cavern - 2F Moving Platform Crossroad Dust 1: Big Heal
+Mountain Cavern - 2F Moving Platform Crossroad Dust 2: Big Heal
+Mountain Cavern - 2F Moving Platform Crossroad Dust 3: Big Heal
+Mountain Cavern - 3F Top Center Moving Platform Dust: Key Ring (Circus)
+Mountain Cavern - 3F Top Right Moving Platform Dust: Big Heal
+Mountain Cavern - 3F Roller Chest: Card (Chaser)
+Mountain Cavern - 3F Roller Dust: Key Ring (Hotel)
+Mountain Cavern - Extend Upgrade Chest: Card (Edward)
+Mountain Cavern - Boss Chest: Heal
+Mountain Cavern - Blue Key: Person Trap
+Fields - Cardboard Box: Person Trap
+Fields - Shopkeeper Trade: Big Heal
+Fields - Mitra Trade: Heal
+Fields - North River Dust: Card (Orange Cube King)
+Fields - North of Lake Rapids Dust: Card (Contorts)
+Fields - North East of Lake Dust: Progressive Red Grotto
+Fields - Before Annoyer Maze Dust: Card (Fisherman)
+Fields - Mitra House Dust: Heal
+Fields - Near Red Gate Dust: Heal
+Fields - North West of Lake Dust: Heal
+Fields - Near Beach Dust: Heal
+Fields - Island Chest: Card (Dog)
+Fields - Gauntlet Chest: Person Trap
+Fields - Lake After Spikes Dust: Heal
+Fields - Lake After Holes Floating Dust: Big Heal
+Fields - South East of Lake Dust: Person Trap
+Fields - Lake Near Windmill Dust: Key Ring (Street)
+Fields - South West Corner Dust: Card (Mitra)
+Fields - South East of Gauntlet Dust: Big Heal
+Fields - Before Gauntlet Dust: Heal
+Fields - Island Chest Dust: Card (Mover)
+Fields - Island Start Dust: Big Heal
+Fields - Post Whirlpool Dust: Heal
+Fields - Olive Dust: Big Heal
+Fields - After Red Gate Dust: Heal
+Fields - Near Terminal Dust: Big Heal
+Fields - Goldman's Cave Chest: Big Heal
+Fields - Goldman's Cave Dust 1: Heal
+Fields - Goldman's Cave Dust 2: Heal
+Fields - Goldman's Cave Dust 3: Heal
+Fields - Goldman's Cave Dust 4: Heal
+Fields - Goldman's Cave Dust 5: Big Heal
+Fields - Goldman's Cave Dust 6: Big Heal
+Fields - Goldman's Cave Dust 7: Heal
+Fields - Goldman's Cave Dust 8: Heal
+Fields - Goldman's Cave Dust 9: Health Cicada
+Deep Forest - Inlet Chest: Card (Sage)
+Deep Forest - Relaxation Pond Dust: Heal
+Deep Forest - Near Cliff Dust: Heal
+Deep Forest - Floating Dust: Big Heal
+Deep Forest - Thorax Dust: Card (Carved Rock)
+Deep Forest - Carved Rock Dust: Big Heal
+Deep Forest - Tiny Island Dust: Big Heal
+Deep Forest - Inlet Dust: Red Key
+Deep Forest - Before Inlet Chest Dust: Card (Mushroom)
+Garden - Swap Upgrade Chest: Heal
+Red - Final Room Dust: Big Heal
+Red - Dustmaid Dust: Card (Annoyer)
+Hotel - 4F Annoyers Chest: Person Trap
+Hotel - 4F Dust Blower Maze Chest: Heal
+Hotel - 4F Moving Platform Crossroad 1: Big Heal
+Hotel - 4F Slime Dust 2: Person Trap
+Hotel - 4F Slime Dust 1: Card (Null)
+Hotel - 4F Moving Platform Crossroad 2: Big Heal
+Hotel - 4F Dustmaid Dust: Heal
+Hotel - 4F Near Elevator Dust: Card (Walker)
+Hotel - 4F Spring Puzzle Dust: Big Heal
+Hotel - 4F Moving Platform Puzzle Dust: Person Trap
+Hotel - 3F Dashers Chest: Health Cicada
+Hotel - 3F Gasguy Chest: Big Heal
+Hotel - 3F Rotators Chest: Heal
+Hotel - 3F Hallway Dustmaid Dust 2: Key Ring (Temple of the Seeing One)
+Hotel - 3F Hallway Dustmaid Dust 1: Gas Trap
+Hotel - 3F Stream Dustmaid Dust: Heal
+Hotel - 3F Bedroom Dust: Person Trap
+Hotel - 2F Backrooms Chest: Person Trap
+Hotel - 2F Crevice Left Chest: Card (Rank)
+Hotel - 2F Steampipe Dust 2: Card (Rogue)
+Hotel - 2F Steampipe Dust 1: Card (Burst Plant)
+Hotel - 2F Dustmaid and Steampipe Dust 3: Big Heal
+Hotel - 2F Dustmaid and Steampipe Dust 1: Card (PewLaser)
+Hotel - 2F Dustmaid and Steampipe Dust 2: Heal
+Hotel - 2F Dustmaid Hallway Dust: Gas Trap
+Hotel - 2F Dog Chest: Person Trap
+Hotel - 2F Crevice Right Chest: Gas Trap
+Hotel - 1F Burst Flowers Chest: Swap
+Hotel - Boss Chest: Card (Follower)
+Hotel - Health Cicada: Big Heal
+Hotel - 1F Floating Dustmaid Dust: Card (Fire Pillar)
+Hotel - 1F Boss Dust: Heal
+Hotel - 1F Gasguy Dust: Heal
+Hotel - 1F Dustmaid and Steampipe Dust 3: Card (Arthur and Javiera)
+Hotel - 1F Dustmaid and Steampipe Dust 2: Card (Watcher)
+Hotel - 1F Dustmaid and Steampipe Dust 1: Big Heal
+Hotel - 1F Dustmaid and Steampipe Dust 4: Progressive Red Grotto
+Hotel - 1F Locked Dust: Big Heal
+Woods - Near Gate Chest: Heal
+Woods - Health Cicada: Card (Broom)
+Woods - After Temple Chest: Heal
+Red Grotto - Top Cave Slasher Chest: Heal
+Red Grotto - Health Cicada: Heal
+Red Grotto - Top Cave Boss Dust 1: Key Ring (Mountain Cavern)
+Red Grotto - Top Cave Boss Dust 2: Big Heal
+Red Grotto - Top Cave Before Boss Dust: Heal
+Red Grotto - Top Cave Slasher Dust: Person Trap
+Red Grotto - Top Cave Before Slasher Dust: Heal
+Red Grotto - Top Cave Boss Dust 3: Heal
+Red Grotto - Top Cave Boss Dust 4: Heal
+Red Grotto - Left Cave Rapids Chest: Health Cicada
+Red Grotto - Left Cave Sticky Chest: Card (Rock)
+Red Grotto - Left Cave Tentacle: Heal
+Red Grotto - Left Cave Rapids Dust 1: Green Key
+Red Grotto - Left Cave Rapids Dust 2: Person Trap
+Red Grotto - Left Cave Whirlpool Dust 1: Big Heal
+Red Grotto - Left Cave Whirlpool Dust 2: Card (Seer)
+Red Grotto - Middle Cave Right Chest: Card (Windmill)
+Red Grotto - Middle Cave Left Chest: Card (Slasher)
+Red Grotto - Middle Cave Middle Chest: Person Trap
+Red Grotto - Middle Cave Right Tentacle: Big Heal
+Red Grotto - Middle Cave Left Tentacle: Person Trap
+Red Grotto - Right Cave Slasher Chest: Card (Intra)
+Red Grotto - Right Cave Four Shooter Chest: Gas Trap
+Red Grotto - Right Cave Tentacle: Big Heal
+Red Grotto - Right Cave Before Slasher Dust: Heal
+Red Grotto - Right Cave Whirlpool Dust 1: Heal
+Red Grotto - Right Cave Whirlpool Dust 2: Heal
+Red Grotto - Widen Upgrade Chest: Heal
+Red Grotto - Boss Chest: Big Heal
+Red Grotto - Red Key: Widen
+Red Grotto - Isaac Dungeon Chest: Person Trap
+Red Sea - Lonely Chest: Big Heal
+Space - Left Chest: Heal
+Space - Right Chest: Big Heal
+Space - Hidden Chest: Gas Trap
+Street - Key Chest: Person Trap
+Street - Broom Chest: Gas Trap
+Street - After Bridge Dust 1: Person Trap
+Street - After Bridge Dust 2: Heal
+Young Town - Stab Reward Chest: Card (Silverfish)
+Young Town - Health Cicada: Big Heal
+Crossing - Broken Bridge Chest: Big Heal
+Windmill - Post Activation Chest: Card (Goldman)
+Defeat Seer: Defeat Seer
+Defeat The Wall: Defeat The Wall
+Windmill activated: Windmill activated
+Defeat Manager: Defeat Manager
+Defeat Servants: Defeat Servants
+Defeat Watcher: Defeat Watcher
+Defeat Sage: Defeat Sage
+Defeat Briar: Defeat Briar
+Blue Completion: Blue Completion
+Happy Completion: Happy Completion
+Defeat Rogue: Defeat Rogue
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Red Grotto - Middle Cave Right Chest: Card (Windmill)
+  Red Grotto - Red Key: Widen
+}
+2: {
+  Deep Forest - Before Inlet Chest Dust: Card (Mushroom)
+  Deep Forest - Inlet Chest: Card (Sage)
+  Deep Forest - Inlet Dust: Red Key
+  Deep Forest - Thorax Dust: Card (Carved Rock)
+  Fields - Before Annoyer Maze Dust: Card (Fisherman)
+  Fields - North East of Lake Dust: Progressive Red Grotto
+  Fields - North River Dust: Card (Orange Cube King)
+  Fields - North of Lake Rapids Dust: Card (Contorts)
+  Red Grotto - Middle Cave Left Chest: Card (Slasher)
+  Red Grotto - Top Cave Boss Dust 1: Key Ring (Mountain Cavern)
+  Temple of the Seeing One - Laser Room Dust 4: Jump Shoes
+  Temple of the Seeing One - Room With Holes Dust 2: Card (Frog)
+}
+3: {
+  Defeat The Wall: Defeat The Wall
+  Fields - Island Chest: Card (Dog)
+  Fields - Island Chest Dust: Card (Mover)
+  Fields - South West Corner Dust: Card (Mitra)
+  Mountain Cavern - 2F Circular Hole Dust 1: Card (Dust Maid)
+  Mountain Cavern - 2F Crowded Ledge Chest: Card (Young)
+  Mountain Cavern - 2F Entrance Chest: Card (Shieldy)
+  Mountain Cavern - 2F Frogs and Annoyers Dust: Card (Torch)
+  Mountain Cavern - 2F Frogs and Dog Chest: Card (Manager)
+  Mountain Cavern - 2F Frogs and Rotators Chest: Card (Dasher)
+  Mountain Cavern - 2F Rotators and Annoyers Dust 1: Blue Key
+  Mountain Cavern - 3F Roller Chest: Card (Chaser)
+  Mountain Cavern - 3F Roller Dust: Key Ring (Hotel)
+  Mountain Cavern - 3F Top Center Moving Platform Dust: Key Ring (Circus)
+  Mountain Cavern - Extend Upgrade Chest: Card (Edward)
+  Red Grotto - Left Cave Rapids Dust 1: Green Key
+  Red Grotto - Left Cave Sticky Chest: Card (Rock)
+  Red Grotto - Left Cave Whirlpool Dust 2: Card (Seer)
+  Woods - Health Cicada: Card (Broom)
+}
+4: {
+  Windmill - Post Activation Chest: Card (Goldman)
+  Windmill activated: Windmill activated
+}
+5: {
+  Circus - Dog Room Dust: Card (Killer)
+  Circus - Entrance Dust: Card (Suburbian)
+  Circus - Javiera Chest: Card (Miao)
+  Cliffs - Lower Chest: Card (Person)
+  Defeat Manager: Defeat Manager
+  Defeat Servants: Defeat Servants
+  Hotel - 1F Burst Flowers Chest: Swap
+  Hotel - 1F Dustmaid and Steampipe Dust 2: Card (Watcher)
+  Hotel - 1F Dustmaid and Steampipe Dust 3: Card (Arthur and Javiera)
+  Hotel - 1F Floating Dustmaid Dust: Card (Fire Pillar)
+  Hotel - 2F Crevice Left Chest: Card (Rank)
+  Hotel - 2F Dustmaid and Steampipe Dust 1: Card (PewLaser)
+  Hotel - 2F Steampipe Dust 1: Card (Burst Plant)
+  Hotel - 2F Steampipe Dust 2: Card (Rogue)
+  Hotel - 3F Hallway Dustmaid Dust 2: Key Ring (Temple of the Seeing One)
+  Hotel - 4F Near Elevator Dust: Card (Walker)
+}
+6: {
+  Apartment - 1F Exterior Chest: Key Ring (Apartment)
+  Defeat Sage: Defeat Sage
+}
+7: {
+  Defeat Watcher: Defeat Watcher
+}
+8: {
+  Blue Completion: Blue Completion
+}
+9: {
+  Happy Completion: Happy Completion
+}
+10: {
+  Defeat Briar: Defeat Briar
+}

@@ -1,0 +1,220 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Kirby Super Star Template
+
+game: Kirby Super Star
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Kirby Super Star: 0.1.6 # Version of the world required for this yaml to work as expected.
+
+Kirby Super Star:
+  ################
+  # Game Options #
+  ################
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  required_subgame_completions:
+    # How many subgames must be completed for the game to be considered complete.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 7
+    6: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-7: 0 # random value between 1 and 7
+
+  required_subgames:
+    # Which subgames are required to be completed for the game to be considered complete.
+    ['Milky Way Wishes']
+
+  starting_subgame:
+    # The subgame that will be unlocked by default.
+    spring_breeze: 50
+    dyna_blade: 0
+    gourmet_race: 0
+    the_great_cave_offensive: 0
+    revenge_of_meta_knight: 0
+    milky_way_wishes: 0
+    the_arena: 0
+
+  included_subgames:
+    # Which subgames should be included as locations.
+    ['Dyna Blade', 'Gourmet Race', 'Milky Way Wishes', 'Revenge of Meta Knight', 'Spring Breeze', 'The Arena', 'The Great Cave Offensive']
+
+  consumables:
+    # Adds the specified consumables to the location pool. Options are Maxim Tomato, 1-Up,
+    # and Invincibility Candy.
+    []
+
+  essences:
+    # Adds Copy Essence pedestals to the location pool.
+    'false': 50
+    'true': 0
+
+  the_great_cave_offensive_required_gold:
+    # Required amount of gold that is needed in order to complete The Great Cave Offensive
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 2500000
+    # Maximum value is 9999990
+    9999990: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-2500000-9999990: 0 # random value between 2500000 and 9999990
+
+  the_great_cave_offensive_excess_gold:
+    # How much of the excess gold should be kept within the multiworld.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  the_great_cave_offensive_gold_thresholds:
+    # What percent of the required gold is required before allowing access to
+    # Crystal/Old Tower/Garden areas in The Great Cave Offensive
+    Crystal: 25
+    Garden: 75
+    Old Tower: 50
+
+  milky_way_wishes_mode:
+    # Determines how Marx is unlocked in Milky Way Wishes.
+    # Local: Marx is unlocked after completing the 7 main planets
+    # (Floria, Aqualiss, Skyhigh, Hotbeat, Cavios, Mecheye, Halfmoon)
+    # Multiworld: Marx is unlocked after receiving 7 Rainbow Stars scattered across the multiworld
+    local: 50
+    multiworld: 0
+
+  kirby_flavor_preset:
+    # The color of Kirby, from a list of presets.
+    default: 50
+    bubblegum: 0
+    cherry: 0
+    blueberry: 0
+    lemon: 0
+    kiwi: 0
+    grape: 0
+    chocolate: 0
+    marshmallow: 0
+    licorice: 0
+    watermelon: 0
+    orange: 0
+    lime: 0
+    lavender: 0
+    miku: 0
+    custom: 0
+
+  kirby_flavor:
+    # A custom color for Kirby. To use a custom color, set the preset to Custom and then define a dict of keys from "1" to
+    # "8", with their values being an HTML hex color.
+    '1': F8F8F8
+    '2': F0E0E8
+    '3': E8D0D0
+    '4': F0A0B8
+    '5': C8A0A8
+    '6': A85048
+    '7': E02018
+    '8': E85048
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

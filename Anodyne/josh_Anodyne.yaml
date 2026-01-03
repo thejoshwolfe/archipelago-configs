@@ -1,0 +1,115 @@
+﻿name: josh_anodyne
+description: 36/49 cards and defeat Briar. Keyrings, dust shuffle, color puzzle is random. Big gates vanilla.
+game: Anodyne
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Anodyne: 0.5.0 # Version of the world required for this yaml to work as expected.
+Anodyne:
+  # Goal is Briar
+  victory_condition: defeat_briar
+  postgame_mode: disabled
+
+  mitra_hints: precise_hint
+  start_broom: none
+  small_key_mode: key_rings
+  small_key_shuffle: any_world
+  big_key_shuffle: any_world
+
+  # Cards
+  card_amount: '37'
+  extra_cards: '12'
+
+  # Logic Changes #
+  split_windmill: 'false'
+  include_blue_happy: 'false'
+  randomize_color_puzzle: 'true'
+  nexus_gate_shuffle: 'off'
+  red_grotto_access: progressive
+  fields_secret_paths: 'false'
+
+  # Starting Nexus Gates #
+  nexus_gates_open: random_pre_endgame
+  random_nexus_gate_open_count: '4'
+  custom_nexus_gates_open: []
+
+  # Extra Locations
+  dustsanity: 'true'
+  rocksanity: 'false'
+  health_cicada_shuffle: any_world
+  forest_bunny_chest: 'false' # Absolutely not.
+
+  ################
+  # Filler Items #
+  ################
+  traps_percentage: '25'
+  trap_weights:
+    Gas Trap: 1
+    Person Trap: 4
+
+  # Big Gates are vanilla.
+  overworld_gauntlet_gate: cards
+  overworld_gauntlet_gate_cards: '4'
+  overworld_gauntlet_gate_bosses: '1'
+  overworld_fields_gate: green_key
+  overworld_fields_gate_cards: '1'
+  overworld_fields_gate_bosses: '1'
+  fields_terminal_gate: red_key
+  fields_terminal_gate_cards: '1'
+  fields_terminal_gate_bosses: '1'
+  beach_gauntlet_gate: cards
+  beach_gauntlet_gate_cards: '8'
+  beach_gauntlet_gate_bosses: '1'
+  windmill_entrance_gate: green_key
+  windmill_entrance_gate_cards: '1'
+  windmill_entrance_gate_bosses: '1'
+  windmill_middle_gate: red_key
+  windmill_middle_gate_cards: '1'
+  windmill_middle_gate_bosses: '1'
+  windmill_top_gate: blue_key
+  windmill_top_gate_cards: '1'
+  windmill_top_gate_bosses: '1'
+  suburb_gate: cards
+  suburb_gate_cards: '16'
+  suburb_gate_bosses: '1'
+  cell_gate: cards
+  cell_gate_cards: '24'
+  cell_gate_bosses: '1'
+  terminal_endgame_gate: cards
+  terminal_endgame_gate_cards: '36'
+  terminal_endgame_gate_bosses: '1'
+  # Postgame disabled
+  blank_postgame_gate: cards
+  blank_postgame_gate_cards: '47'
+  blank_postgame_gate_bosses: '1'
+  nexus_north_final_gate: cards
+  nexus_north_final_gate_cards: '49'
+  nexus_north_final_gate_bosses: '1'
+
+  local_items:
+    # Contain some junk
+    - Heal
+    #- Big Heal
+    #- Person Trap
+    #- Gas Trap
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool: {}
+  start_hints:
+    # Let me play the game
+    - Broom
+    - Jump Shoes
+    # Logic doesn't seem to require this, but I do.
+    - Extend
+    # Hint the major advancement items.
+    - Green Key
+    - Red Key
+    - Blue Key
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'false'

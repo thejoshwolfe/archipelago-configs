@@ -1,0 +1,78 @@
+﻿name: josh_kss
+description: '6/7 subgames. All shuffles: Essence, 1-Up, Maxim Tomato, Invincibility Candy.'
+game: Kirby Super Star
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Kirby Super Star: 0.1.6 # Version of the world required for this yaml to work as expected.
+Kirby Super Star:
+
+  # Goal and scope
+  required_subgame_completions: '6'
+  required_subgames:
+    - 'Milky Way Wishes'
+  starting_subgame:
+    spring_breeze: 1
+    dyna_blade: 1
+    gourmet_race: 0
+    the_great_cave_offensive: 1
+    revenge_of_meta_knight: 0
+    milky_way_wishes: 0
+    the_arena: 0
+  included_subgames:
+    # Which subgames should be included as locations.
+    - Spring Breeze
+    - Dyna Blade
+    - Gourmet Race
+    - The Great Cave Offensive
+    - Revenge of Meta Knight
+    - Milky Way Wishes
+    - The Arena
+  # Half of all CGO gold completes it. Each quarter (of half) advances.
+  the_great_cave_offensive_required_gold: '5000000'
+  the_great_cave_offensive_excess_gold: '100'
+  the_great_cave_offensive_gold_thresholds:
+    Crystal: 25
+    Old Tower: 50
+    Garden: 75
+  milky_way_wishes_mode: local
+
+  # Essences shuffled.
+  essences: 'true'
+  consumables:
+  - Maxim Tomato
+  - 1-Up
+  - Invincibility Candy
+  # Path to full clear Skyhigh teleporter maze (TODO: This assumes every food is a check, which it is not.):
+  # - Middle (in parasol room)
+  # - Middle (in cutter room)
+  # - Left (in gordo room)
+  # - Right (in bomb room)
+  # - Middle (in scarfy room)
+  # - go back (in essence room)
+  # - Right (in scarfy room again)
+  # - Middle (in sleep room)
+  # - Right (in cannon room)
+  # - Middle (in crash room)
+
+  # Aesthetics
+  kirby_flavor_preset: default
+  kirby_flavor: {'1': F8F8F8, '2': F0E0E8, '3': E8D0D0, '4': F0A0B8, '5': C8A0A8, '6': A85048, '7': E02018, '8': E85048}
+
+  local_items:
+    # Contain some of the trash
+    #- 1-Up
+    - Maxim Tomato
+    - Invincible Candy
+  non_local_items: []
+  start_inventory: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+
+  death_link: 'false'
+  progression_balancing: '50'
+  accessibility: full

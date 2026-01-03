@@ -1,0 +1,79 @@
+Broom
+Extend
+Widen
+Swap
+Jump Shoes
+
+Green Key
+Red Key
+Blue Key
+Miao
+Progressive Red Grotto (x3)
+Key Ring (Apartment)
+Key Ring (Circus)
+Key Ring (Hotel)
+Key Ring (Mountain Cavern)
+Key Ring (Red Grotto)
+Key Ring (Street)
+Key Ring (Temple of the Seeing One)
+
+Health Cicada (x10)
+
+Card (Annoyer)
+Card (Arthur and Javiera)
+Card (Blue Cube King)
+Card (Broom)
+Card (Burst Plant)
+Card (Carved Rock)
+Card (Chaser)
+Card (City Man)
+Card (Contorts)
+Card (Dasher)
+Card (Dog)
+Card (Dust Maid)
+Card (Edward)
+Card (Fire Pillar)
+Card (Fisherman)
+Card (Follower)
+Card (Frog)
+Card (Gas Guy)
+Card (Goldman)
+Card (Intra)
+Card (Killer)
+Card (Lion)
+Card (Manager)
+Card (Miao)
+Card (Mitra)
+Card (Mover)
+Card (Mushroom)
+Card (Null)
+Card (Orange Cube King)
+Card (Person)
+Card (PewLaser)
+Card (Rank)
+Card (Rock)
+Card (Rock Creature)
+Card (Rogue)
+Card (Sage)
+Card (Seer)
+Card (Shieldy)
+Card (Silverfish)
+Card (Slasher)
+Card (Slime)
+Card (Suburbian)
+Card (Torch)
+Card (Triangle NPC)
+Card (Walker)
+Card (Wall)
+Card (Watcher)
+Card (Windmill)
+Card (Young)
+
+Biking Shoes
+Cardboard Box
+Golden Poop
+Heart
+Heal (~x60)
+Big Heal (~x50)
+Person Trap (~x30)
+Gas Trap (~x10)

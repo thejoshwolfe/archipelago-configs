@@ -1,0 +1,349 @@
+﻿Archipelago Version 0.6.6  -  Seed: 11721472160246236463
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Kirby Super Star
+Location Count:                  224
+Death Link:                      No
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Required Subgame Completions:    6
+Required Subgames:               Milky Way Wishes
+Starting Subgame:                Spring Breeze
+Included Subgames:               Dyna Blade, Milky Way Wishes, Revenge of Meta Knight, Spring Breeze, The Arena, The Great Cave Offensive
+Consumable Checks:               
+Essence-sanity:                  Yes
+The Great Cave Offensive Required Gold:5000000
+The Great Cave Offensive Excess Gold:100
+The Great Cave Offensive Gold Thresholds:Crystal: 25, Old Tower: 50, Garden: 75
+Milky Way Wishes Mode:           Local
+Kirby Flavor:                    Default
+Custom Kirby Flavors:            default_kirby: {'1': 'f8f8f8', '2': 'f0e0e8', '3': 'e8d0d0', '4': 'f0a0b8', '5': 'c8a0a8', '6': 'a85048', '7': 'e02018', '8': 'e85048'}
+
+
+Starting Items:
+
+Spring Breeze
+Hotbeat
+
+Locations:
+
+The Arena - 1 Straight Win: 1-Up
+The Arena - 2 Straight Wins: Xmas Tree
+The Arena - 3 Straight Wins: 1-Up
+The Arena - 4 Straight Wins: Dud
+The Arena - 5 Straight Wins: 1-Up
+The Arena - 6 Straight Wins: Raccoon Doll
+The Arena - 7 Straight Wins: Gold Crown
+The Arena - 8 Straight Wins: 1-Up
+The Arena - 9 Straight Wins: 1-Up
+The Arena - 10 Straight Wins: 1-Up
+The Arena - 11 Straight Wins: 1-Up
+The Arena - 12 Straight Wins: Invincible Candy
+The Arena - 13 Straight Wins: Star Tiara
+The Arena - 14 Straight Wins: Brass Knuckle
+The Arena - 15 Straight Wins: Invincible Candy
+The Arena - 16 Straight Wins: The Great Cave Offensive
+The Arena - 17 Straight Wins: Beast Fossil
+The Arena - 18 Straight Wins: Invincible Candy
+The Arena - 19 Straight Wins: Saucepan
+The Arena - 20 Straight Wins: The Arena - Complete
+Spring Breeze - Whispy Woods: Milky Way Wishes
+Spring Breeze - Lololo & Lalala: Cavios
+Spring Breeze - Kracko: Wintertime
+Spring Breeze - King Dedede: Rice Bowl
+Spring Breeze - Castle Dedede: Spring Breeze - Defeated King Dedede
+Dyna Blade - Peanut Plains: 1-Up
+Peanut Plains - Sword Essence: 1-Up
+Dyna Blade - Mallow Castle: Autumntime
+Dyna Blade - Switch 1: Floria
+Mallow Castle - Wheel Essence: Dyna Blade - Progressive Stage
+Dyna Blade - Cocoa Cave: 1-Up
+Dyna Blade - Iron Mam: Beam
+Dyna Blade - Candy Mountain: Invincible Candy
+Dyna Blade - Switch 2: 1-Up
+Candy Mountain - Hammer Essence: Fire
+Candy Mountain - Copy Essence: Invincible Candy
+Dyna Blade - Dyna Blade's Nest: Glass Slippers
+Dyna Blade - Dyna Blade: Dyna Blade - Defeated Dyna Blade
+Dyna Blade's Nest - Cutter Essence: Orichalcum
+Dyna Blade's Nest - Beam Essence: 1-Up
+Dyna Blade's Nest - Fire Essence: Invincible Candy
+Dyna Blade's Nest - Sword Essence: Shiny Bamboo
+Dyna Blade Bonus 1 - Beam Essence: Model Ship
+Dyna Blade Bonus 1 - Fire Essence: Invincible Candy
+Dyna Blade Bonus 1 - Mirror Essence: Whip
+Dyna Blade Bonus 1 - Fighter Essence: Maxim Tomato
+Dyna Blade Bonus 1 - Cutter Essence: Lucky Cat
+Dyna Blade Bonus 1 - Plasma Essence: Maxim Tomato
+Dyna Blade Bonus 1 - Ninja Essence: Invincible Candy
+Dyna Blade Bonus 1 - Sword Essence: Crash
+Dyna Blade Bonus 1 - Bomb Essence: Stone
+Dyna Blade Bonus 1 - Hammer Essence: 1-Up
+Dyna Blade Bonus 2 - Wheel Essence: 1-Up
+Dyna Blade Bonus 2 - Yo-Yo Essence: Ramia's Scale
+Dyna Blade Bonus 2 - Wing Essence: 1-Up
+Dyna Blade Bonus 2 - Stone Essence: Maxim Tomato
+Dyna Blade Bonus 2 - Parasol Essence: Dime
+Dyna Blade Bonus 2 - Jet Essence: Suplex
+Dyna Blade Bonus 2 - Ice Essence: 1-Up
+Dyna Blade Bonus 2 - Suplex Essence: Fighter
+Dyna Blade Bonus 2 - Copy Essence: The Arena
+The Great Cave Offensive - Fatty Whale: Revenge of Meta Knight
+Sub-Tree - Gold Medal: Maxim Tomato
+Sub-Tree - Gold Coin: 1-Up
+Sub-Tree - Whip: 1-Up
+Sub-Tree - Crystal Ball: Fish Fossil
+Sub-Tree - Lucky Cat: Unicorn's Horn
+Sub-Tree - Seiryu Sword: Maxim Tomato
+Sub-Tree - Screw Attack: Cook
+Sub-Tree - Echigo Candy: 1-Up
+Sub-Tree - Zebra Mask: 1-Up
+Sub-Tree - Star Stone: Maxim Tomato
+Sub-Tree - Beast's Fang: Invincible Candy
+Sub-Tree - Bandanna: 1-Up
+Sub-Tree - Springtime: Plasma
+Sub-Tree - Jet Essence: 1-Up
+Sub-Tree - Mirror Essence: Invincible Candy
+Sub-Tree - Sword Essence: Maxim Tomato
+The Great Cave Offensive - Computer Virus: Maxim Tomato
+Crystal - Dime: Sun Ring
+Crystal - Glass Slippers: 1-Up
+Crystal - Goblet: Invincible Candy
+Crystal - Saucepan: 1-Up
+Crystal - Brass Knuckle: 1-Up
+Crystal - Amber Rose: Maxim Tomato
+Crystal - Fish Fossil: Goblet
+Crystal - Beast Fossil: 1-Up
+Crystal - Nunchuks: Gold Coin
+Crystal - Bucket: Truth Mirror
+Crystal - Summertime: Invincible Candy
+Crystal - 100-Dollar Coin: 1-Up
+Crystal - Ancient Gem: Parasol
+Crystal - Falcon Helmet: Maxim Tomato
+Crystal - Dud: Mike
+Crystal - Truth Mirror: Echigo Candy
+Crystal - Fighter Essence: 1-Up
+Crystal - Wing Essence: 1-Up
+Crystal - Jet Essence: 1-Up
+The Great Cave Offensive - Chameleo Arm: 1-Up
+Old Tower - Star Tiara: Dyna Blade - Extra 1
+Old Tower - Turtle Shell: Invincible Candy
+Old Tower - Falchion: Maxim Tomato
+Old Tower - Warrior Shield: Screw Attack
+Old Tower - Unicorn's Horn: Kong's Barrel
+Old Tower - Autumntime: Invincible Candy
+Old Tower - Rice Bowl: Invincible Candy
+Old Tower - Tut's Mask: Maxim Tomato
+Old Tower - Mr. Saturn: Dyna Blade - Progressive Stage
+Old Tower - Armor: Turtle Shell
+Old Tower - Treasure Box: Maxim Tomato
+Old Tower - Mannequin: Charm
+Old Tower - Gold Crown: Maxim Tomato
+Old Tower - King's Cape: Amber Rose
+Old Tower - Model Ship: Wheel
+Old Tower - Sun Ring: Maxim Tomato
+Old Tower - Sleep Essence 1 (First Bottom): Sleep
+Old Tower - Sleep Essence 2 (Far Left): Katana
+Old Tower - Sleep Essence 3 (Middle Top): Halfmoon
+Old Tower - Sleep Essence 4 (Second Middle): Mr. Saturn
+Old Tower - Sleep Essence 5 (First Top): Pegasus Wing
+Old Tower - Sleep Essence 6 (Second Bottom): Ancient Gem
+Old Tower - Sleep Essence 7 (Far Top): Maxim Tomato
+Old Tower - Sleep Essence 8 (Far Bottom): 1-Up
+Old Tower - Ninja Essence: 1-Up
+Old Tower - Wing Essence: 1-Up
+Old Tower - Plasma Essence: Falchion
+Old Tower - Mirror Essence: Shell Whistle
+The Great Cave Offensive - Wham Bam Rock: Invincible Candy
+The Great Cave Offensive - Cave Exit: The Great Cave Offensive - Escaped
+Garden - Wintertime: 1-Up
+Garden - Katana: Crystal Ball
+Garden - Charm: Springtime
+Garden - Xmas Tree: 1-Up
+Garden - Kong's Barrel: Wing
+Garden - Ramia's Scale: Invincible Candy
+Garden - Shiny Bamboo: Invincible Candy
+Garden - Tire: 1-Up
+Garden - Spirit Charm: Maxim Tomato
+Garden - Pegasus Wing: Tire
+Garden - Raccoon Doll: Summertime
+Garden - Shell Whistle: Maxim Tomato
+Garden - Orichalcum: Invincible Candy
+Garden - Platinum Ring: Bomb
+Garden - Triforce: Sword
+Garden - Jet Essence: 1-Up
+Garden - Wing Essence (Wind): Gold Medal
+Garden - Ninja Essence: Bucket
+Garden - Wing Essence (Cloud): Mirror
+Garden - Plasma Essence: Yo-Yo
+Garden - Wheel Essence: Invincible Candy
+Garden - Sleep Essence: Maxim Tomato
+Garden - Parasol Essence (Cloud): Maxim Tomato
+Garden - Bomb Essence: Ice
+Garden - Ice Essence: 1-Up
+Garden - Parasol Essence (Boss): Star Stone
+Revenge of Meta Knight - Chapter 1: Armor
+Revenge of Meta Knight - Chapter 2: 1-Up
+RoMK Chapter 2 - Parasol Essence: 1-Up
+RoMK Chapter 2 - Bomb Essence: ???
+RoMK Chapter 2 - Wing Essence: 1-Up
+Revenge of Meta Knight - Chapter 3: Maxim Tomato
+RoMK Chapter 3 - Cutter Essence (Hidden Room): 1-Up
+RoMK Chapter 3 - Sword Essence: Jet
+RoMK Chapter 3 - Fighter Essence: Tut's Mask
+RoMK Chapter 3 - Cutter Essence (Mini-Boss): Invincible Candy
+RoMK Chapter 3 - Ice Essence: Invincible Candy
+RoMK Chapter 3 - Mirror Essence: 1-Up
+RoMK Chapter 3 - Parasol Essence: Maxim Tomato
+RoMK Chapter 3 - Ninja Essence: 1-Up
+RoMK Chapter 3 - Wheel Essence: 1-Up
+Revenge of Meta Knight - Chapter 4: Falcon Helmet
+RoMK Chapter 4 - Sword Essence: Beast's Fang
+RoMK Chapter 4 - Fire Essence: Mecheye
+RoMK Chapter 4 - Yo-Yo Essence: Nunchuks
+RoMK Chapter 4 - Beam Essence: 1-Up
+Revenge of Meta Knight - Chapter 5: Copy
+RoMK Chapter 5 - Sword Essence: Ninja
+RoMK Chapter 5 - Wing Essence: Maxim Tomato
+RoMK Chapter 5 - Ice Essence: Invincible Candy
+RoMK Chapter 5 - Parasol Essence: 1-Up
+RoMK Chapter 5 - Beam Essence: Seiryu Sword
+RoMK Chapter 5 - Hammer Essence: Cutter
+RoMK Chapter 5 - Plasma Essence: 1-Up
+RoMK Chapter 5 - Cutter Essence: Invincible Candy
+RoMK Chapter 5 - Mirror Essence: 1-Up
+Revenge of Meta Knight - Chapter 6: Maxim Tomato
+RoMK Chapter 6 - Parasol Essence: Invincible Candy
+RoMK Chapter 6 - Jet Essence: Triforce
+RoMK Chapter 6 - Wing Essence (Secret): Maxim Tomato
+RoMK Chapter 6 - Wing Essence (Switch Maze): Maxim Tomato
+RoMK Chapter 6 - Suplex Essence: Maxim Tomato
+RoMK Chapter 6 - Yo-Yo Essence: 100 Dollar Coin
+RoMK Chapter 6 - Bomb Essence: Zebra Mask
+Revenge of Meta Knight - Chapter 7: Maxim Tomato
+Revenge of Meta Knight - Halberd's Helm: Revenge of Meta Knight - Destroyed the Halberd
+RoMK Chapter 7 - Cutter Essence (Start): 1-Up
+RoMK Chapter 7 - Parasol Essence: Invincible Candy
+RoMK Chapter 7 - Yo-Yo Essence: 1-Up
+RoMK Chapter 7 - Stone Essence: King's Cape
+RoMK Chapter 7 - Ninja Essence (Start): Invincible Candy
+RoMK Chapter 7 - Ninja Essence (Boss): Bandanna
+RoMK Chapter 7 - Sleep Essence: Maxim Tomato
+RoMK Chapter 7 - Cutter Essence (Boss): Mannequin
+Floria - Twin Woods: Maxim Tomato
+Floria - Cutter Essence: Spirit Charm
+Floria - Fighter Essence: Invincible Candy
+Floria - Ice Essence: Invincible Candy
+Aqualiss - Fatty Whale: Dyna Blade - Progressive Stage
+Aqualiss - Beam Essence: 1-Up
+Aqualiss - Parasol Essence: Treasure Box
+Aqualiss - Sword Essence: Dyna Blade - Progressive Stage
+Skyhigh - Kracko: 1-Up
+Skyhigh - Jet Essence: Invincible Candy
+Skyhigh - Wheel Essence: 1-Up
+Skyhigh - Wing Essence: Aqualiss
+Hotbeat - Chameleo Arm: Dyna Blade - Extra 2
+Hotbeat - Fire Essence: Maxim Tomato
+Hotbeat - Suplex Essence: Hammer
+Cavios - Wham Bam Rock: 1-Up
+Cavios - Bomb Essence: Skyhigh
+Cavios - Hammer Essence: Dyna Blade
+Cavios - Stone Essence: Warrior Shield
+Mecheye - Heavy Lobster: 1-Up
+Mecheye - Plasma Essence: 1-Up
+Mecheye - Yoyo Essence: Maxim Tomato
+Halfmoon - Computer Virus: Platinum Ring
+Halfmoon - Mirror Essence: Maxim Tomato
+Halfmoon - Ninja Essence: Paint
+??? - Copy Essence: Maxim Tomato
+Galactic Nova: Milky Way Wishes - Defeated Marx
+
+Playthrough:
+
+0: {
+  Hotbeat
+  Spring Breeze
+}
+1: {
+  Spring Breeze - Castle Dedede: Spring Breeze - Defeated King Dedede
+  Spring Breeze - Kracko: Wintertime
+  Spring Breeze - Lololo & Lalala: Cavios
+  Spring Breeze - Whispy Woods: Milky Way Wishes
+}
+2: {
+  Cavios - Bomb Essence: Skyhigh
+  Cavios - Hammer Essence: Dyna Blade
+  Cavios - Stone Essence: Warrior Shield
+  Hotbeat - Chameleo Arm: Dyna Blade - Extra 2
+}
+3: {
+  Skyhigh - Wing Essence: Aqualiss
+}
+4: {
+  Aqualiss - Fatty Whale: Dyna Blade - Progressive Stage
+  Aqualiss - Parasol Essence: Treasure Box
+}
+5: {
+  Dyna Blade - Mallow Castle: Autumntime
+  Mallow Castle - Wheel Essence: Dyna Blade - Progressive Stage
+}
+6: {
+  Dyna Blade - Iron Mam: Beam
+}
+7: {
+  Aqualiss - Sword Essence: Dyna Blade - Progressive Stage
+  Dyna Blade - Switch 1: Floria
+}
+8: {
+  Candy Mountain - Hammer Essence: Fire
+  Dyna Blade Bonus 2 - Copy Essence: The Arena
+  Dyna Blade Bonus 2 - Jet Essence: Suplex
+  Dyna Blade Bonus 2 - Suplex Essence: Fighter
+  Dyna Blade Bonus 2 - Yo-Yo Essence: Ramia's Scale
+  Floria - Cutter Essence: Spirit Charm
+}
+9: {
+  Hotbeat - Suplex Essence: Hammer
+  The Arena - 2 Straight Wins: Xmas Tree
+  The Arena - 6 Straight Wins: Raccoon Doll
+  The Arena - 7 Straight Wins: Gold Crown
+}
+10: {
+  The Arena - 13 Straight Wins: Star Tiara
+  The Arena - 16 Straight Wins: The Great Cave Offensive
+  The Arena - 17 Straight Wins: Beast Fossil
+  The Arena - 20 Straight Wins: The Arena - Complete
+}
+11: {
+  Crystal - Bucket: Truth Mirror
+  Crystal - Dime: Sun Ring
+  Sub-Tree - Lucky Cat: Unicorn's Horn
+  The Great Cave Offensive - Fatty Whale: Revenge of Meta Knight
+}
+12: {
+  Old Tower - Mr. Saturn: Dyna Blade - Progressive Stage
+  Old Tower - Sleep Essence 2 (Far Left): Katana
+  Old Tower - Sleep Essence 3 (Middle Top): Halfmoon
+  Old Tower - Sleep Essence 4 (Second Middle): Mr. Saturn
+  Old Tower - Sleep Essence 5 (First Top): Pegasus Wing
+  Revenge of Meta Knight - Chapter 1: Armor
+  Revenge of Meta Knight - Halberd's Helm: Revenge of Meta Knight - Destroyed the Halberd
+  RoMK Chapter 4 - Fire Essence: Mecheye
+  RoMK Chapter 7 - Stone Essence: King's Cape
+}
+13: {
+  Dyna Blade - Dyna Blade: Dyna Blade - Defeated Dyna Blade
+  Galactic Nova: Milky Way Wishes - Defeated Marx
+  The Great Cave Offensive - Cave Exit: The Great Cave Offensive - Escaped
+}

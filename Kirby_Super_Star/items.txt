@@ -1,0 +1,127 @@
+# Source: https://github.com/Silvris/Archipelago/blob/kss/worlds/kss/names/item_names.py
+
+# Sub Games
+Spring Breeze
+Dyna Blade
+Gourmet Race
+The Great Cave Offensive
+Revenge of Meta Knight
+Milky Way Wishes
+The Arena
+
+# Sub Game Completion Events
+#Spring Breeze - Defeated King Dedede
+#Dyna Blade - Defeated Dyna Blade
+#Gourmet Race - Victory
+#The Great Cave Offensive - Escaped
+#Revenge of Meta Knight - Destroyed the Halberd
+#Milky Way Wishes - Defeated Marx
+#The Arena - Complete
+
+# Copy Abilities
+Cutter
+Beam
+Yo-Yo
+Ninja
+Wing
+Fighter
+Jet
+Sword
+Fire
+Stone
+Bomb
+Plasma
+Wheel
+Ice
+Mirror
+Copy
+Suplex
+Hammer
+Parasol
+Mike
+Sleep
+Paint
+Cook
+Crash
+
+# GCO Treasures
+Gold Medal
+Gold Coin
+Whip
+Crystal Ball
+Lucky Cat
+Seiryu Sword
+Screw Attack
+Echigo Candy
+Zebra Mask
+Star Stone
+Beast's Fang
+Bandanna
+Springtime
+Dime
+Glass Slippers
+Goblet
+Saucepan
+Brass Knuckle
+Amber Rose
+Fish Fossil
+Beast Fossil
+Nunchuks
+Bucket
+Summertime
+100 Dollar Coin
+Ancient Gem
+Falcon Helmet
+Dud
+Truth Mirror
+Star Tiara
+Turtle Shell
+Falchion
+Warrior Shield
+Unicorn's Horn
+Autumntime
+Rice Bowl
+Tut's Mask
+Mr. Saturn
+Armor
+Treasure Box
+Mannequin
+Gold Crown
+King's Cape
+Model Ship
+Sun Ring
+Wintertime
+Katana
+Charm
+Xmas Tree
+Kong's Barrel
+Ramia's Scale
+Shiny Bamboo
+Tire
+Spirit Charm
+Pegasus Wing
+Raccoon Doll
+Shell Whistle
+Orichalcum
+Platinum Ring
+Triforce
+
+# Milky Way Wishes Planets
+Floria
+Aqualiss
+Skyhigh
+Hotbeat
+Cavios
+Mecheye
+Halfmoon
+???
+
+# Misc
+Dyna Blade - Progressive Stage
+Dyna Blade - Extra 1
+Dyna Blade - Extra 2
+Rainbow Star
+1-Up
+Maxim Tomato
+Invincible Candy
+#Food
