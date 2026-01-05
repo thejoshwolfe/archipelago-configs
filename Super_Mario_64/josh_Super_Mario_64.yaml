@@ -47,17 +47,22 @@ Super Mario 64:
   start_inventory: {}
   start_hints:
     - Progressive Key
-    - Metal Cap
-    - Vanish Cap
-    - Wing Cap
-    - Ground Pound
   start_location_hints: []
   exclude_locations:
     # Easy + slow = boring.
     - The Secret Aquarium
     # Hard + slow = still boring.
+    - 'RR: Cruiser Crossing the Rainbow'
+    - 'RR: Somewhere Over the Rainbow'
+    - 'RR: 1Up Block Top of Red Coin Maze'
     - 'RR: The Big House in the Sky'
     - 'RR: 1Up Block On House in the Sky'
+    # I think the eel is straight up bugged and never leaves the ship.
+    - 'JRB: Plunder in the Sunken Ship'
+    - 'JRB: Can the Eel Come Out to Play?'
+    - 'JRB: Through the Jet Stream'
+    - 'JRB: Bob-omb Buddy'
+    - 'JRB: Red Coins on the Ship Afloat'
   priority_locations:
     - Bowser in the Dark World Key
     - Bowser in the Fire Sea Key

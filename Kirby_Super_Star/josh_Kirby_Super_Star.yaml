@@ -65,7 +65,15 @@ Kirby Super Star:
     - Invincible Candy
   non_local_items: []
   start_inventory: {}
-  start_hints: []
+  start_hints:
+    - Milky Way Wishes
+    - Floria
+    - Aqualiss
+    - Skyhigh
+    - Hotbeat
+    - Cavios
+    - Mecheye
+    - Halfmoon
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
