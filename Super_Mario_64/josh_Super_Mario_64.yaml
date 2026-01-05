@@ -1,5 +1,5 @@
 ﻿name: josh_sm64
-description: 70/100 stars to win. Suffled Cannons, 1-Up Boxes, Entrances. No 100-coin stars. Locked moves are Triple Jump, Backflip, Wall Kick, Ground Pound, and Climb.
+description: 70/100 stars to win. Suffled Cannons, 1-Up Boxes, Entrances. No 100-coin stars. Locked moves are Triple Jump, Backflip, Wall Kick, Ground Pound, and Climb. MIPS 2 has key 2 at 30 stars.
 game: Super Mario 64
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -13,8 +13,8 @@ Super Mario 64:
   second_floor_star_door_cost: '50'
   stars_to_finish: '70'
   amount_of_stars: '100'
-  mips1_cost: '10'
-  mips2_cost: '20'
+  mips1_cost: '15'
+  mips2_cost: '30'
 
   # Shuffle
   area_rando: 'courses_and_secrets_separate'
@@ -45,8 +45,7 @@ Super Mario 64:
   local_items: []
   non_local_items: []
   start_inventory: {}
-  start_hints:
-    - Progressive Key
+  start_hints: []
   start_location_hints: []
   exclude_locations:
     # Easy + slow = boring.
@@ -67,7 +66,13 @@ Super Mario 64:
     - Bowser in the Dark World Key
     - Bowser in the Fire Sea Key
   item_links: []
-  plando_items: []
+  plando_items:
+  - items: {Progressive Key: 1}
+    locations: [early_locations]
+    force: true
+  - items: {Progressive Key: 1}
+    locations: [MIPS 2]
+    force: true
   progression_balancing: '50'
   accessibility: full
   death_link: 'false'
