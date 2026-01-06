@@ -1,22 +1,22 @@
-﻿Archipelago Version 0.6.6  -  Seed: 8678052888130741416
+﻿Archipelago Version 0.6.6  -  Seed: 87461414166366434944
 
 Filling Algorithm:               balanced
 Players:                         1
 Plando Options:                  items, connections, texts, bosses
 Game:                            Actraiser
-Location Count:                  175
+Location Count:                  174
 Progression Balancing:           50
 Accessibility:                   Full
 Local Items:                     
 Non-local Items:                 
 Start Inventory:                 
 Start Hints:                     Aitos Advancement, Ancient Tablet, Bloodpool Advancement, Bridge, Compass, Earthquake, Fillmore Advancement, Fleece, Herb, Kasandora Advancement, Level Up, Lightning, Loaf of Bread, Magic Skull, Marahna Advancement, Music, Northwall Advancement, Rain, Sun, Wheat, Wind
-Start Location Hints:            
-Excluded Locations:              
+Start Location Hints:            AT - Max Population, BP - Max Population, FM - Max Population, FMC - Bone Pile, FMC - Left Of Column, FMC - Left Of Waterfall, FMC - Lower Right Of Waterfall, FMC - Right Of Column, FMC - S-Shaped Tunnel, KD - Max Population, MH - Max Population, MHT - Left Path Ledge, MHT - Right Path Between Spikes, NW - Max Population
+Excluded Locations:              SK - Level 14, SK - Level 15, SK - Level 16, SK - Level 17
 Priority Locations:              
 Item Links:                      
 Plando Items:                    ({'Flame Sword': 1}: ['non_early_locations'])
-Goal Requires Population Count:  Yes
+Goal Requires Population Count:  No
 Goal Requires Dheim Crystals:    Yes
 Tanzra Required:                 Yes
 Boss Crystals:                   Yes
@@ -30,7 +30,7 @@ Max Level Requirement:           13
 Flame Sword:                     Yes
 arrow_count:                     3
 include_traps:                   Yes
-catraiser:                       No
+catraiser:                       Yes
 Randomize Music:                 No
 Randomize Colors:                No
 Randomize Enemies:               No
@@ -41,181 +41,180 @@ Death Link:                      No
 
 Locations:
 
-SK - Level 2: Apple
-SK - Level 3: Fertility
-SK - Level 4: 1UP
-SK - Level 5: Source of Magic
-SK - Level 6: Loaf of Bread
-SK - Level 7: Apple
-SK - Level 8: Magic
-SK - Level 9: Skull Trap
-SK - Level 10: Redirect Trap
-SK - Level 11: Source of Magic
-SK - Level 12: Progressive Arrow
-SK - Level 13: 1000 Points
-SK - Level 14: Magical Light
-SK - Level 15: Skull Trap
-SK - Level 16: Apple
-SK - Level 17: Apple
+SK - Level 2: Level Up
+SK - Level 3: Level Up
+SK - Level 4: Magic Skull
+SK - Level 5: Skull Trap
+SK - Level 6: Skull Trap
+SK - Level 7: 1000 Points
+SK - Level 8: Flame Sword
+SK - Level 9: Northwall Advancement
+SK - Level 10: Bomb
+SK - Level 11: Redirect Trap
+SK - Level 12: Magical Fire
+SK - Level 13: Bomb
+SK - Level 14: 1UP
+SK - Level 15: 1UP
+SK - Level 16: 1UP
+SK - Level 17: Magic
 Crystal Goal: Savior
-Population Goal: Prosperity
-FMF - Centaur: Magic
-FMF - Tree Near Entrance: Magic
-FMF - Tree From Ropeway: 1000 Points
-FMF - Top and Center: Level Up
-FMF - Spiky Plants: Magic
-FMF - Tree Near Centaur: Bomb
-FM - Advancement 1: 1000 Points
-FM - Advancement 2: Fertility
-FM - Max Population: Bomb
-FM - Population 64: Rain
-FM - Population 128: Wind
-FM - Population 256: Kasandora Advancement
-FM - Population 512: Skull Trap
-FM - Magical Fire: 1UP
-FM - Bridge: 1UP
-FM - Bomb: Bomb
-FM - Strength of Angel: 1UP
-FM - Source of Magic: Northwall Advancement
-FM - Source of Life: Fertility
+FMF - Centaur: Bridge
+FMF - Tree Near Entrance: Level Up
+FMF - Tree From Ropeway: Apple
+FMF - Top and Center: Apple
+FMF - Spiky Plants: Level Up
+FMF - Tree Near Centaur: Magic
+FM - Advancement 1: Skull Trap
+FM - Advancement 2: Ancient Tablet
+FM - Max Population: Magic
+FM - Population 64: Skull Trap
+FM - Population 128: Level Up
+FM - Population 256: 1000 Points
+FM - Population 512: Apple
+FM - Magical Fire: Source of Magic
+FM - Bridge: Bomb
+FM - Bomb: Loaf of Bread
+FM - Strength of Angel: Fertility
+FM - Source of Magic: Level Up
+FM - Source of Life: 1000 Points
 FMC - Minotaurus: Dheim Crystal
-FMC - Lower Right Of Waterfall: Magic
-FMC - Bone Pile: Apple
-FMC - Left Of Column: Apple
-FMC - Right Of Column: Magic Skull
-FMC - Left Of Waterfall: Level Up
-FMC - Tunnel: Magic
-FMC - S-Shaped Tunnel: Source of Life
+FMC - Lower Right Of Waterfall: Level Up
+FMC - Bone Pile: Magic
+FMC - Left Of Column: Magic
+FMC - Right Of Column: Aitos Advancement
+FMC - Left Of Waterfall: Redirect Trap
+FMC - Tunnel: Kasandora Advancement
+FMC - S-Shaped Tunnel: Apple
 FMC - Falling Spikes: Redirect Trap
-BPB - Manticore: Bloodpool Advancement
-BPB - Platform Near Entrance: 1UP
-BPB - Center Bridge: Progressive Arrow
-BPB - Falling Bridge: Source of Magic
-BPB - Platform Near Manitcore: Aitos Advancement
-BP - Advancement 1: Magic
-BP - Advancement 2: Redirect Trap
-BP - Max Population: Earthquake
-BP - Population 64: Skull Trap
-BP - Population 128: Herb
-BP - Population 256: 1UP
-BP - Population 512: Magic
+BPB - Manticore: Apple
+BPB - Platform Near Entrance: Progressive Arrow
+BPB - Center Bridge: Level Up
+BPB - Falling Bridge: Magic
+BPB - Platform Near Manitcore: 1000 Points
+BP - Advancement 1: Level Up
+BP - Advancement 2: 1UP
+BP - Max Population: Redirect Trap
+BP - Population 64: Level Up
+BP - Population 128: Sun
+BP - Population 256: Fertility
+BP - Population 512: Fillmore Advancement
 BP - Magical Stardust: 1UP
-BP - Bread: Music
-BP - Wheat: Level Up
-BP - Magic Skull: Skull Trap
-BP - Compass: Compass
-BP - Bomb: Redirect Trap
-BP - Source of Life: Skull Trap
-BP - Source of Magic: Bloodpool Advancement
+BP - Bread: Apple
+BP - Wheat: Bomb
+BP - Magic Skull: Fleece
+BP - Compass: Apple
+BP - Bomb: Source of Life
+BP - Source of Life: Compass
+BP - Source of Magic: Fertility
 BPC - Zeppelin Wolf: Dheim Crystal
-BPC - Left Elevator: Apple
-BPC - Dark Room: Magic
-BPC - Moat: Magic
-BPC - Right Elevator: Redirect Trap
-BPC - Stone Ledges: 1000 Points
-KDD - Dagoba: Level Up
-KDD - Rock Spires: Magic
-KDD - Top of Left Tower: Marahna Advancement
-KDD - Top of Right Tower: 1000 Points
-KDD - Below Towers: Magic
-KDD - Rocks Near Dagoba: Sun
-KD - Advancement 1: 1000 Points
-KD - Advancement 2: Level Up
+BPC - Left Elevator: Level Up
+BPC - Dark Room: Magical Stardust
+BPC - Moat: Fertility
+BPC - Right Elevator: Source of Life
+BPC - Stone Ledges: Fertility
+KDD - Dagoba: 1000 Points
+KDD - Rock Spires: Level Up
+KDD - Top of Left Tower: Level Up
+KDD - Top of Right Tower: Level Up
+KDD - Below Towers: 1UP
+KDD - Rocks Near Dagoba: Apple
+KD - Advancement 1: Wind
+KD - Advancement 2: Apple
 KD - Cured Plague: 1UP
-KD - Max Population: Fertility
-KD - Population 64: Fertility
-KD - Population 128: Magical Fire
-KD - Population 256: 1000 Points
-KD - Population 512: 1000 Points
-KD - Music: Fertility
-KD - Ancient Tablet: Level Up
-KD - Strength of Angel: Bomb
-KD - Bomb: Skull Trap
-KD - Source of Magic: Source of Magic
-KD - Source of Life: Apple
+KD - Max Population: Magic
+KD - Population 64: 1000 Points
+KD - Population 128: 1000 Points
+KD - Population 256: Magic
+KD - Population 512: Magic
+KD - Music: Source of Life
+KD - Ancient Tablet: 1UP
+KD - Strength of Angel: Skull Trap
+KD - Bomb: Apple
+KD - Source of Magic: 1000 Points
+KD - Source of Life: Fillmore Advancement
 KDP - Pharaoh: Dheim Crystal
-KDP - Statue Room Center Platform: Source of Magic
-KDP - Statue Room High Ledge: Source of Life
-KDP - Ledge With Scorman: Kasandora Advancement
-KDP - Red Bird God: Fillmore Advancement
-ATM - Serpent: 1000 Points
-ATM - Between Lava Pits: Level Up
-ATM - Pass to Crater: Lightning
-ATM - Bottom Of Crater: 1000 Points
-ATM - Waterfall Left: Source of Life
-ATM - Waterfall Center: Redirect Trap
-ATM - Waterfall Right: Bridge
-AT - Advancement 1: 1000 Points
-AT - Advancement 2: Bomb
-AT - Max Population: Source of Life
-AT - Population 64: Skull Trap
-AT - Population 128: Redirect Trap
-AT - Population 256: Bomb
-AT - Population 512: 1000 Points
+KDP - Statue Room Center Platform: Magical Light
+KDP - Statue Room High Ledge: Kasandora Advancement
+KDP - Ledge With Scorman: Magical Aura
+KDP - Red Bird God: 1UP
+ATM - Serpent: Apple
+ATM - Between Lava Pits: Apple
+ATM - Pass to Crater: Northwall Advancement
+ATM - Bottom Of Crater: Apple
+ATM - Waterfall Left: Skull Trap
+ATM - Waterfall Center: 1UP
+ATM - Waterfall Right: Magic
+AT - Advancement 1: Bomb
+AT - Advancement 2: 1000 Points
+AT - Max Population: Fertility
+AT - Population 64: Bomb
+AT - Population 128: Music
+AT - Population 256: 1UP
+AT - Population 512: Progressive Arrow
 AT - Fleece: Source of Magic
-AT - Bomb: Magic
-AT - Strength of Angel: Magic
-AT - Source of Magic: Marahna Advancement
+AT - Bomb: Progressive Arrow
+AT - Strength of Angel: Apple
+AT - Source of Magic: Apple
 ATV - Fire Wheel: Dheim Crystal
-ATV - Dragon Mouths: Magic
-ATV - Near Flame Wheel: Level Up
-MHS - Rafflasher: 1UP
-MHS - Ruins Left: Apple
-MHS - Ruins Right: Apple
-MHS - Hut: Magical Stardust
-MHS - Pillars: 1000 Points
-MH - Advancement 1: 1UP
+ATV - Dragon Mouths: 1UP
+ATV - Near Flame Wheel: Source of Magic
+MHS - Rafflasher: Fertility
+MHS - Ruins Left: 1000 Points
+MHS - Ruins Right: Skull Trap
+MHS - Hut: Skull Trap
+MHS - Pillars: Bomb
+MH - Advancement 1: Apple
 MH - Advancement 2: Magic
-MH - Max Population: Level Up
-MH - Population 64: Bomb
-MH - Population 128: 1UP
-MH - Population 256: Bomb
-MH - Magical Aura: Magic
-MH - Herb: Fillmore Advancement
+MH - Max Population: Rain
+MH - Population 64: Source of Magic
+MH - Population 128: Source of Magic
+MH - Population 256: Source of Magic
+MH - Magical Aura: Source of Magic
+MH - Herb: Bloodpool Advancement
 MH - Strength of Angel: Apple
 MH - Bomb: Apple
-MH - Source of Magic: Bomb
+MH - Source of Magic: Magic
 MHT - Kalia: Dheim Crystal
-MHT - Falling Platforms: Apple
-MHT - Left Path Ledge: Source of Magic
-MHT - Right Path Between Spikes: 1000 Points
-MHT - Hidden Pillar: Level Up
-NWC - Merman Fly: Level Up
-NWC - Outside Between Spikes: Bomb
-NWC - Right Cliff Near Cave Entrance: 1000 Points
-NWC - River Platform: Level Up
+MHT - Falling Platforms: Redirect Trap
+MHT - Left Path Ledge: Fertility
+MHT - Right Path Between Spikes: Bomb
+MHT - Hidden Pillar: Aitos Advancement
+NWC - Merman Fly: Apple
+NWC - Outside Between Spikes: Redirect Trap
+NWC - Right Cliff Near Cave Entrance: Source of Life
+NWC - River Platform: 1000 Points
 NWC - Subterranean River: Magic
-NWC - Hidden Passage Pillars: Apple
-NWC - Hidden Passage Wall: Northwall Advancement
-NWC - Icy Platoforms: Fleece
-NWC - Eyeball Platform: Fertility
-NWC - Snowman Shaft: Magic
-NWC - Left Ledge Near Merman Fly: Apple
-NW - Advancement 1: Redirect Trap
-NW - Advancement 2: 1UP
-NW - Warm Clothes: Level Up
-NW - Max Population: Apple
-NW - Population 64: Ancient Tablet
+NWC - Hidden Passage Pillars: Magic
+NWC - Hidden Passage Wall: 1000 Points
+NWC - Icy Platoforms: Redirect Trap
+NWC - Eyeball Platform: Wheat
+NWC - Snowman Shaft: Redirect Trap
+NWC - Left Ledge Near Merman Fly: 1UP
+NW - Advancement 1: Apple
+NW - Advancement 2: Magic
+NW - Warm Clothes: Magic
+NW - Max Population: Level Up
+NW - Population 64: 1000 Points
 NW - Population 128: Level Up
-NW - Population 256: Apple
-NW - Population 512: Level Up
-NW - Magical Light: Skull Trap
-NW - Strength of Angel: 1000 Points
-NW - Bomb: Magical Aura
-NW - Source of Magic: 1UP
-NW - Source of Life: 1UP
+NW - Population 256: Magic
+NW - Population 512: 1000 Points
+NW - Magical Light: Fertility
+NW - Strength of Angel: Magic
+NW - Bomb: Herb
+NW - Source of Magic: Skull Trap
+NW - Source of Life: Bomb
 NWT - Arctic Wyvern: Dheim Crystal
-NWT - Trunk Neighboring Tree: Level Up
-NWT - Trunk Left Side: Magic
-NWT - Trunk Right Side: Apple
-NWT - Root: Redirect Trap
-NWT - Right Second Branch: Skull Trap
-NWT - Left Second Branch: Redirect Trap
-NWT - Right Atop Third Branch: Flame Sword
-NWT - Right Atop Fourth Branch: Wheat
-NWT - Top Of Tree Shaft: Aitos Advancement
-NWT - Right Treeside Third Branch: Bomb
-NWT - Trunk Center: Progressive Arrow
+NWT - Trunk Neighboring Tree: Lightning
+NWT - Trunk Left Side: Apple
+NWT - Trunk Right Side: Magic
+NWT - Root: Magic
+NWT - Right Second Branch: Fertility
+NWT - Left Second Branch: Bloodpool Advancement
+NWT - Right Atop Third Branch: 1000 Points
+NWT - Right Atop Fourth Branch: Marahna Advancement
+NWT - Top Of Tree Shaft: Earthquake
+NWT - Right Treeside Third Branch: Marahna Advancement
+NWT - Trunk Center: Bomb
 
 Playthrough:
 
@@ -223,61 +222,50 @@ Playthrough:
 
 }
 1: {
-  FM - Population 128: Wind
-  FM - Population 64: Rain
-  FMF - Top and Center: Level Up
+  FM - Bomb: Loaf of Bread
+  FM - Population 128: Level Up
+  FMF - Centaur: Bridge
+  FMF - Spiky Plants: Level Up
+  FMF - Tree Near Entrance: Level Up
+  SK - Level 2: Level Up
 }
 2: {
-  NWC - Hidden Passage Wall: Northwall Advancement
-  NWC - Icy Platoforms: Fleece
-  NWC - Merman Fly: Level Up
-  NWC - River Platform: Level Up
+  KDD - Rock Spires: Level Up
+  KDD - Top of Left Tower: Level Up
+  KDD - Top of Right Tower: Level Up
+  SK - Level 3: Level Up
 }
 3: {
-  ATM - Between Lava Pits: Level Up
-  ATM - Pass to Crater: Lightning
-  ATM - Waterfall Right: Bridge
-  KD - Advancement 2: Level Up
-  KDD - Dagoba: Level Up
-  KDD - Rocks Near Dagoba: Sun
-  KDD - Top of Left Tower: Marahna Advancement
-  KDP - Ledge With Scorman: Kasandora Advancement
-  KDP - Pharaoh: Dheim Crystal
-  KDP - Red Bird God: Fillmore Advancement
+  BP - Population 128: Sun
+  BP - Population 64: Level Up
+  BPB - Center Bridge: Level Up
 }
 4: {
-  AT - Source of Magic: Marahna Advancement
-  ATV - Fire Wheel: Dheim Crystal
-  ATV - Near Flame Wheel: Level Up
-  FM - Population 256: Kasandora Advancement
-  FM - Source of Magic: Northwall Advancement
-  FMC - Left Of Waterfall: Level Up
-  FMC - Minotaurus: Dheim Crystal
-  FMC - Right Of Column: Magic Skull
-  NW - Population 128: Level Up
-  NW - Warm Clothes: Level Up
-  NWT - Arctic Wyvern: Dheim Crystal
-  NWT - Right Atop Fourth Branch: Wheat
-  NWT - Top Of Tree Shaft: Aitos Advancement
-  NWT - Trunk Neighboring Tree: Level Up
-  SK - Level 6: Loaf of Bread
+  BP - Advancement 1: Level Up
+  BP - Magic Skull: Fleece
 }
 5: {
-  BP - Bread: Music
-  BP - Population 128: Herb
-  BP - Source of Magic: Bloodpool Advancement
-  BPB - Manticore: Bloodpool Advancement
-  BPB - Platform Near Manitcore: Aitos Advancement
-  BPC - Zeppelin Wolf: Dheim Crystal
+  NWC - Eyeball Platform: Wheat
+  NWT - Arctic Wyvern: Dheim Crystal
+  NWT - Right Atop Fourth Branch: Marahna Advancement
+  NWT - Right Treeside Third Branch: Marahna Advancement
+  NWT - Top Of Tree Shaft: Earthquake
+  NWT - Trunk Neighboring Tree: Lightning
 }
 6: {
-  BP - Max Population: Earthquake
+  FMC - Minotaurus: Dheim Crystal
+  MH - Max Population: Rain
+  MHT - Kalia: Dheim Crystal
+  SK - Level 4: Magic Skull
 }
 7: {
-  MH - Herb: Fillmore Advancement
-  MHT - Kalia: Dheim Crystal
+  BPC - Zeppelin Wolf: Dheim Crystal
+  KD - Advancement 1: Wind
+  KDP - Pharaoh: Dheim Crystal
 }
 8: {
+  ATV - Fire Wheel: Dheim Crystal
+}
+9: {
   Crystal Goal: Savior
-  Population Goal: Prosperity
 }

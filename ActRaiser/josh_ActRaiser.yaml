@@ -1,5 +1,5 @@
 ﻿name: josh_ar
-description: 13/16 level ups, 6/6 act2 bosses, 4500/4652 population, and defeat Tanzra.
+description: 6/6 act2 bosses, and defeat Tanzra. Lands unlocked at random levels, possibly up to level 13/16.
 game: Actraiser
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -7,9 +7,6 @@ requires:
     Actraiser: 1.3.3 # Version of the world required for this yaml to work as expected.
 Actraiser:
   # Goal
-  population_goal: 'true'
-  pop_goal_count: '4500' # / 4652
-
   level_count: '16'
   max_level: '13' # / level_count
   random_level: 'true'
@@ -17,9 +14,12 @@ Actraiser:
   crystal_goal: 'true'
   crystal_count: '6'
   max_crystal: '6'
-
   boss_crystal: 'true'
   tanzra_require: 'true'
+
+  # Population goal disabled.
+  population_goal: 'false'
+  pop_goal_count: '4500' # / 4652
 
   # Gameplay
   fast_construct: 'true'
@@ -75,8 +75,34 @@ Actraiser:
     - Marahna Advancement
     - Northwall Advancement
 
-  start_location_hints: []
-  exclude_locations: []
+  start_location_hints:
+    # Do I really have to max these towns?
+    - FM - Max Population
+    - BP - Max Population
+    - KD - Max Population
+    - AT - Max Population
+    - MH - Max Population
+    - NW - Max Population
+    # Can i skip replaying an action level?
+    # Down path
+    - FMC - Bone Pile
+    - FMC - Left Of Column
+    - FMC - Right Of Column
+    # Up path
+    - FMC - Lower Right Of Waterfall
+    - FMC - Left Of Waterfall
+    - FMC - S-Shaped Tunnel
+    # Left path
+    - MHT - Left Path Ledge
+    # Right path
+    - MHT - Right Path Between Spikes
+
+  exclude_locations:
+    # Napping on the fastforward button is not gameplay.
+    - SK - Level 14
+    - SK - Level 15
+    - SK - Level 16
+    - SK - Level 17
   priority_locations: []
   item_links: []
   plando_items:
