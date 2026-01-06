@@ -1,0 +1,104 @@
+﻿Archipelago Version 0.6.6  -  Seed: 43716991279857782728
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Pikmin
+Location Count:                  30
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Local First Part:                Yes
+Local Last Part:                 Yes
+
+
+Locations:
+
+Bowsprit Location: Anti-Dioxin Filter
+Gluon Drive Location: Sagittarius
+Anti-Dioxin Filter Location: Eternal Fuel Dynamo
+Eternal Fuel Dynamo Location: Bowsprit
+Main Engine Location: Guard Satellite
+Whimsical Radar Location: Pilot's Seat
+Interstellar Radio Location: Zirconium Rotor
+Guard Satellite Location: Libra
+Chronos Reactor Location: Massage Machine
+Radiation Canopy Location: #2 Ionium Jet
+Geiger Counter Location: Geiger Counter
+Sagittarius Location: Automatic Gear
+Libra Location: Secret Safe
+Omega Stabilizer Location: Shock Absorber
+#1 Ionium Jet Location: #1 Ionium Jet
+#2 Ionium Jet Location: Positron Generator
+Shock Absorber Location: Gravity Jumper
+Gravity Jumper Location: Radiation Canopy
+Pilot's Seat Location: Omega Stabilizer
+Nova Blaster Location: Main Engine
+Automatic Gear Location: Nova Blaster
+Zirconium Rotor Location: Whimsical Radar
+Extraordinary Bolt Location: Interstellar Radio
+Repair-Type Bolt Location: Analog Computer
+Space Float Location: Space Float
+Massage Machine Location: Extraordinary Bolt
+Secret Safe Location: Gluon Drive
+Positron Generator Location: UV Lamp
+Analog Computer Location: Chronos Reactor
+UV Lamp Location: Repair-Type Bolt
+Collect All Ship Parts: Victory
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Main Engine Location: Guard Satellite
+}
+2: {
+  Eternal Fuel Dynamo Location: Bowsprit
+  Extraordinary Bolt Location: Interstellar Radio
+  Nova Blaster Location: Main Engine
+  Shock Absorber Location: Gravity Jumper
+  Whimsical Radar Location: Pilot's Seat
+}
+3: {
+  #1 Ionium Jet Location: #1 Ionium Jet
+  Analog Computer Location: Chronos Reactor
+  Anti-Dioxin Filter Location: Eternal Fuel Dynamo
+  Automatic Gear Location: Nova Blaster
+  Geiger Counter Location: Geiger Counter
+  Gravity Jumper Location: Radiation Canopy
+  Guard Satellite Location: Libra
+  Libra Location: Secret Safe
+  Omega Stabilizer Location: Shock Absorber
+  Positron Generator Location: UV Lamp
+  Radiation Canopy Location: #2 Ionium Jet
+  Sagittarius Location: Automatic Gear
+  Space Float Location: Space Float
+}
+4: {
+  #2 Ionium Jet Location: Positron Generator
+  Bowsprit Location: Anti-Dioxin Filter
+  Chronos Reactor Location: Massage Machine
+  Gluon Drive Location: Sagittarius
+  Interstellar Radio Location: Zirconium Rotor
+  Massage Machine Location: Extraordinary Bolt
+  Pilot's Seat Location: Omega Stabilizer
+  Repair-Type Bolt Location: Analog Computer
+  UV Lamp Location: Repair-Type Bolt
+  Zirconium Rotor Location: Whimsical Radar
+}
+5: {
+  Secret Safe Location: Gluon Drive
+}
+6: {
+  Collect All Ship Parts: Victory
+}
