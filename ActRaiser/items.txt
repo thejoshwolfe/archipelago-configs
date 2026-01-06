@@ -1,0 +1,46 @@
+Lightning
+Rain
+Sun
+Wind
+Earthquake
+
+Wheat
+Bridge
+Magic Skull
+Music
+Loaf of Bread
+Herb
+Fleece
+
+Compass
+Ancient Tablet
+
+Level Up (x16)
+Dheim Crystal (x6)
+
+Fillmore Advancement (x2)
+Bloodpool Advancement (x2)
+Kasandora Advancement (x2)
+Aitos Advancement (x2)
+Marahna Advancement (x2)
+Northwall Advancement (x2)
+
+Magical Aura
+Magical Fire
+Magical Light
+Magical Stardust
+Flame Sword
+
+Progressive Arrow (x3)
+Source of Life (x4)
+Source of Magic (x7)
+
+1000 Points (x11)
+1UP (x11)
+Apple (x27)
+Bomb (x12)
+Fertility (x9)
+Magic (x11)
+
+Redirect Trap (x11)
+Skull Trap (x13)

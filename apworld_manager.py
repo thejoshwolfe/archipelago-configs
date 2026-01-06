@@ -60,6 +60,7 @@ def main():
 
 def do_list(config, cache, apworld_names_set):
     orphaned_files = set(cache.files.keys())
+    table = []
     for world_name, world_config in config.worlds.items():
         if len(apworld_names_set) > 0 and world_name not in apworld_names_set: continue
 
@@ -82,31 +83,42 @@ def do_list(config, cache, apworld_names_set):
                         asset.sha256_hex == None and asset.size == cached_file.size
                     ):
                         # Found it.
-                        version_blurb = "{} ({})".format(release.tag_name, "up to date" if len(newer_versions) == 0 else "update available")
+                        version, status = release.tag_name, "up to date" if len(newer_versions) == 0 else "update available"
                         break
                     # The asset name matches, but not the digest. Assume this is a newer version.
                     newer_versions.append(release)
                 else:
-                    version_blurb = "unknown version"
+                    version, status = "", "unknown version"
             elif cached_file == None and cached_repo != None:
-                version_blurb = "(not downloaded)"
+                version, status = "", "(not downloaded)"
             elif cached_file != None and cached_repo == None:
-                version_blurb = "(never checked)"
+                version, status = "", "(never checked)"
             elif cached_file == None and cached_repo == None:
-                version_blurb = "(not downloaded, never checked)"
+                version, status = "", "(not downloaded, never checked)"
             else: assert False
         elif world_config.manual_file_name != None:
             if cached_file == None:
-                version_blurb = "manual file missing from disk"
+                version, status = "", "manual file missing from disk"
             else:
                 orphaned_files.discard(world_config.manual_file_name)
-                version_blurb = "(manually managed)"
+                version, status = "", "(manually managed)"
         else: assert False
-        print("{}: {}".format(world_name, version_blurb))
+        table.append((world_name, version, status))
 
     if len(apworld_names_set) == 0:
         for file in sorted(orphaned_files):
-            print("{}: not listed in config".format(file))
+            table.append((file, "", "not listed in config"))
+
+    column_widths = [
+        max(len(row[0]) for row in table),
+        max(len(row[1]) for row in table),
+    ]
+    for row in table:
+        print("{}  {}  {}".format(
+            row[0].ljust(column_widths[0]),
+            row[1].ljust(column_widths[1]),
+            row[2],
+        ))
 
 
 def do_check(config, cache, apworld_names_set):
