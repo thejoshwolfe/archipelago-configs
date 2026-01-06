@@ -36,7 +36,7 @@ Actraiser:
   # Aesthetics
   random_music: 'false'
   random_color: 'false'
-  catraiser: 'false'
+  catraiser: 'true'
 
   local_items:
     # Contain that trash that sounds cool.
