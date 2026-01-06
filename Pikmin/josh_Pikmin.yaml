@@ -4,13 +4,45 @@ game: Pikmin
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
 Pikmin:
+  # See also https://github.com/Poke714/Archipelago/wiki#known-issues
   first_part_is_local: 'true'
   last_part_is_local: 'true'
 
   local_items: []
   non_local_items: []
   start_inventory: {}
-  start_hints: []
+  start_hints:
+    # Hint the critical path. Which is everything.
+    - '#1 Ionium Jet'
+    - '#2 Ionium Jet'
+    - Analog Computer
+    - Anti-Dioxin Filter
+    - Automatic Gear
+    - Bowsprit
+    - Chronos Reactor
+    - Eternal Fuel Dynamo
+    - Extraordinary Bolt
+    - Geiger Counter
+    - Gluon Drive
+    - Gravity Jumper
+    - Guard Satellite
+    - Interstellar Radio
+    - Libra
+    - Main Engine
+    - Massage Machine
+    - Nova Blaster
+    - Omega Stabilizer
+    - Pilot's Seat
+    - Positron Generator
+    - Radiation Canopy
+    - Repair-Type Bolt
+    - Sagittarius
+    - Secret Safe
+    - Shock Absorber
+    - Space Float
+    - UV Lamp
+    - Whimsical Radar
+    - Zirconium Rotor
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
