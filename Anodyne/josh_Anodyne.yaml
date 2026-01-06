@@ -1,4 +1,4 @@
-﻿name: josh_anodyne
+name: josh_anodyne
 description: 36/49 cards and defeat Briar. Keyrings, dust shuffle, color puzzle is random. Big gates vanilla.
 game: Anodyne
 requires:
@@ -97,14 +97,22 @@ Anodyne:
   start_inventory_from_pool: {}
   start_hints:
     # Let me play the game
-    - Broom
     - Jump Shoes
-    # Logic doesn't seem to require this, but I do.
-    - Extend
+    #- Broom
+    #- Extend
+    #- Widen
     # Hint the major advancement items.
+    - Swap
     - Green Key
     - Red Key
     - Blue Key
+    #- Key Ring (Street)
+    - Key Ring (Temple of the Seeing One)
+    - Key Ring (Red Grotto)
+    - Key Ring (Mountain Cavern)
+    - Key Ring (Apartment)
+    - Key Ring (Hotel)
+    - Key Ring (Circus)
   start_location_hints: []
   exclude_locations: []
   priority_locations: []

@@ -11,7 +11,7 @@ Ship of Harkinian:
   # Goal
   rainbow_bridge: dungeon_rewards
   rainbow_bridge_dungeon_rewards_required: '7'
-  shuffle_dungeon_rewards: dungeons
+  shuffle_dungeon_rewards: 'off'
   skip_ganons_trials: 'true'
   # Disabled:
   rainbow_bridge_stones_required: '3'

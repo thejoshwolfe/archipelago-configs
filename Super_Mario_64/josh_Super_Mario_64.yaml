@@ -1,4 +1,4 @@
-﻿name: josh_sm64
+name: josh_sm64
 description: 70/100 stars to win. Suffled Cannons, 1-Up Boxes, Entrances. No 100-coin stars. Locked moves are Triple Jump, Backflip, Wall Kick, Ground Pound, and Climb. MIPS 2 has key 2 at 30 stars.
 game: Super Mario 64
 requires:
@@ -21,17 +21,18 @@ Super Mario 64:
   buddy_checks: 'true'
   exclamation_boxes: 'true' # Only 1-Up boxes, not coin boxes.
   enable_move_rando: 'true'
-  move_rando_actions: 
-    - Triple Jump
-    #- Long Jump
+  move_rando_actions:
     - Backflip
-    #- Side Flip
-    - Wall Kick
-    #- Dive
-    - Ground Pound
-    #- Kick
     - Climb
+    - Ground Pound
+    - Triple Jump
+    - Wall Kick
+    # Start with these:
+    #- Dive
+    #- Kick
     #- Ledge Grab
+    #- Long Jump
+    #- Side Flip
   enable_coin_stars: 'off'
 
   # No skips in logic.
