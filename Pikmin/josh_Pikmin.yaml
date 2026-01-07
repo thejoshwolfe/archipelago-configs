@@ -1,5 +1,5 @@
 ﻿name: josh_pikmin
-description: 30/30 ship parts
+description: 30/30 ship parts. Areas unlock at 1/5/12/29 parts. The first and last parts are not randomized (tutorial and final boss).
 game: Pikmin
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
