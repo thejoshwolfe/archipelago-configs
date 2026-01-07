@@ -39,7 +39,7 @@ Actraiser:
   catraiser: 'true'
 
   local_items:
-    # Contain that trash that sounds cool.
+    # Contain the trash that sounds cool.
     #- 1000 Points
     #- 1UP
     - Apple
@@ -62,11 +62,11 @@ Actraiser:
     - Wheat
     - Bridge
     - Magic Skull
-    - Music
-    - Ancient Tablet
-    - Compass
     - Herb
     - Fleece
+    #- Ancient Tablet
+    #- Compass
+    #- Music
 
     - Fillmore Advancement
     - Bloodpool Advancement

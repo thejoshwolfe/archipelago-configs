@@ -7,13 +7,13 @@ Earthquake
 Wheat
 Bridge
 Magic Skull
-Music
 Loaf of Bread
 Herb
 Fleece
 
-Compass
 Ancient Tablet
+Compass
+Music
 
 Level Up (x16)
 Dheim Crystal (x6)

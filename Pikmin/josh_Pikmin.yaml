@@ -5,8 +5,8 @@ requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
 Pikmin:
   # See also https://github.com/Poke714/Archipelago/wiki#known-issues
-  first_part_is_local: 'true'
-  last_part_is_local: 'true'
+  first_part_is_local: 'false' # Implemented in plando_items
+  last_part_is_local:  'false' # Implemented in plando_items
 
   local_items: []
   non_local_items: []
@@ -28,7 +28,6 @@ Pikmin:
     - Guard Satellite
     - Interstellar Radio
     - Libra
-    - Main Engine
     - Massage Machine
     - Nova Blaster
     - Omega Stabilizer
@@ -37,16 +36,58 @@ Pikmin:
     - Radiation Canopy
     - Repair-Type Bolt
     - Sagittarius
-    - Secret Safe
     - Shock Absorber
     - Space Float
     - UV Lamp
     - Whimsical Radar
     - Zirconium Rotor
+    #- Main Engine
+    #- Secret Safe
   start_location_hints: []
   exclude_locations: []
-  priority_locations: []
+  priority_locations:
+    # It's only fair that all my hard work actually do something.
+    - '#1 Ionium Jet Location'
+    - '#2 Ionium Jet Location'
+    - Analog Computer Location
+    - Anti-Dioxin Filter Location
+    - Automatic Gear Location
+    - Bowsprit Location
+    - Chronos Reactor Location
+    - Eternal Fuel Dynamo Location
+    - Extraordinary Bolt Location
+    - Geiger Counter Location
+    - Gluon Drive Location
+    - Gravity Jumper Location
+    - Guard Satellite Location
+    - Interstellar Radio Location
+    - Libra Location
+    - Massage Machine Location
+    - Nova Blaster Location
+    - Omega Stabilizer Location
+    - Pilot's Seat Location
+    - Positron Generator Location
+    - Radiation Canopy Location
+    - Repair-Type Bolt Location
+    - Sagittarius Location
+    - Shock Absorber Location
+    - Space Float Location
+    - UV Lamp Location
+    - Whimsical Radar Location
+    - Zirconium Rotor Location
+    #- Main Engine Location
+    #- Secret Safe Location
+
   item_links: []
-  plando_items: []
+  plando_items:
+    # Even more plando than first_part_is_local
+    - items:     [Main Engine]
+      locations: [Main Engine Location]
+      force: true
+    # Even more plando than last_part_is_local
+    - items:     [Secret Safe]
+      locations: [Secret Safe Location]
+      force: true
+
   progression_balancing: '50'
   accessibility: full
