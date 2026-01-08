@@ -1,5 +1,5 @@
 name: josh_sotn
-description: Shuffled relics, boss drops, and floor equipment. hard difficulty.
+description: Shuffled relics, boss drops, floor equipment, and library shop. hard difficulty.
 # Map and tips and stuff: https://github.com/fdelduque/Archipelago/blob/main/worlds/sotn/docs/setup_en.md
 game: Symphony of the Night
 requires:
@@ -50,7 +50,6 @@ Symphony of the Night:
   random_music: 'false'
   color_randomizer: 'false'
 
-  local_items: []
   non_local_items: []
   start_hints:
     # Significant mobility upgrades
@@ -71,6 +70,10 @@ Symphony of the Night:
     # Just start with information-only items.
     Faerie scroll: 1
     Spirit orb: 1
+  local_items:
+    # No start_inventory_from_pool support
+    - Faerie scroll
+    - Spirit orb
 
   start_location_hints: []
   exclude_locations: []
