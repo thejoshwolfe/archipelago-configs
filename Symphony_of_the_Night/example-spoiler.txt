@@ -1,0 +1,201 @@
+﻿Archipelago Version 0.6.6  -  Seed: 14190990186716823951
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Symphony of the Night
+Location Count:                  115
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory from Pool:       Faerie scroll: 1, Spirit orb: 1
+Start Hints:                     Cube of zoe, Eye of vlad, Gravity boots, Heart of vlad, Holy glasses, Jewel of open, Leap stone, Rib of vlad, Ring of vlad, Tooth of vlad
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    (['Soul of bat']: ['non_early_locations'])
+Opened NO4 Backdoor:             Closed
+Opened ARE Backdoor:             No
+Item pool:                       Equipment
+Infinite wing smash:             Yes
+Randomize extra items:           No
+Powerful items:                  No
+Make boss drops part of the pool:Yes
+Enemysanity:                     No
+Enemysanity require Spirit Orb:  No
+Difficult:                       Hard
+Enemy modifier:                  24
+Drop modifier:                   Abundant
+Randomize starting equipment:    Yes
+Death link:                      No
+No prologue:                     Yes
+Map colors:                      Default
+Alucard palette:                 Default
+Alucard liner:                   Gold Trim
+Magic vessels:                   Yes
+Anti freeze:                     Yes
+That's my purse:                 Yes
+Fast warp:                       Yes
+Unlocked mode:                   No
+Relic surprise!:                 No
+Enemy stats:                     No
+Randomize shop stock:            On Lib
+Shop prices:                     No
+Starting zone:                   Vanilla
+Reverse library card:            Yes
+Randomize music:                 No
+Clock tower puzzle:              Yes
+No logic rules:                  No
+Heal when enter a save room:     Yes
+Color randomizer:                No
+Randomize enemy drops:           Off
+
+
+Starting Items:
+
+Faerie scroll
+Spirit orb
+
+Locations:
+
+Colosseum First Part - Bottom Left Room: Sword card
+Colosseum Second Part - Bottom Left Room: Combat knife
+Colosseum First Part - Next to Royal Chapel Passage: Soul of bat
+Colosseum Second Part - Behind Mist Crate: Life Vessel
+Catacombs Bottom - Above Discus Lord Breakable Wall Room: Garnet
+Catacombs Bottom - After Save Point: Basilard
+Catacombs Bottom - After Granfaloon: Badelaire
+Catacombs Upper - After Save Point: Ghost card
+Catacombs After Dark Spiked Area - Bottom Left Item: Knuckle duster
+Abandoned Mine Demon Side - Item on the Floor: Staurolite
+Abandoned Mine Bottom - Left Item: Cube of zoe
+Abandoned Mine - Middle Descend Left Room: Dragon helm
+Royal Chapel Stairs - Red Vase on Alcove 4: Moon rod
+Royal Chapel Stairs - Upper Alcove: Onyx
+Royal Chapel - Item Behind Maria: Life Vessel
+Royal Chapel Stairs - Red Vase on Alcove 1: Form of mist
+Royal Chapel - Inner Chapel Doorway Roof: Sunglasses
+Royal Chapel Tower 1 - Top Item: Opal
+Royal Chapel Tower 3 - Top Item: Luminus
+Long Library - Deeper Library Behind Bookshelf Item 2: Rib of vlad
+Long Library - Item Bellow Librarian: Bat card
+Long Library - Deeper Library Lower Part Statue 2: Life Vessel
+Long Library - Deeper Library Behind Mist Crate: Cloth cape
+Long Library - Top Right Floor: Twilight cloak
+Long Library - Top Left Room Item 1: Demon card
+Long Library - Librarian Shop Item: Hammer
+Marble Gallery - Right Clock Item 4: Opal
+Marble Gallery - Item Given by Maria: Cutlass
+Marble Gallery - Descend to Entrance Item 3: Morningstar
+Marble Gallery - Middle clock Right Item: Alucard mail
+Outer Wall - Item 1 Behind Mist Grate: Talisman
+Outer Wall - Item After Doppleganger 10: Holy glasses
+Outer Wall - Inside of Elevator: Beryl circlet
+Olrox's Quarters Lower Part - Room Behind Breakable Wall Vase 3: Broadsword
+Olrox's Quarters Upper Part - Ledge Before Drop to Courtyard: Gold plate
+Olrox's Quarters Courtyard - Right Room: Bronze cuirass
+Olrox's Quarters - After Olrox: Jewel of open
+Olrox's Quarters Path to Royal Chapel - Hidden Attic: Ring of vlad
+Entrance - Wolf/Bat Secret Room Left Item: Life Vessel
+Entrance - Pedestal in Cube of Zoe Room: Ring of ares
+Entrance - Attic Near Start Gate Left item: Tooth of vlad
+Underground Caverns Scylla Area - After Fight Item: Echo of bat
+Underground Caverns Succubus Side - Succubus item: Knight shield
+Underground Caverns - Breakable Wall Close to Stairway: Holy rod
+Underground Caverns Ice Area - On Alcove: Dark blade
+Underground Caverns Ice Area - Underwater Item 1: Soul of wolf
+Underground Caverns - Alcove Behind Waterfall: Spirit orb
+Underground Caverns - Air Pocket Item: Ring of arcana
+Underground Caverns Ice Area - After Ferryman: Faerie card
+Underground Caverns - After Ferryman: Life Vessel
+Alchemy Lab. - Globe After Spike Puzzle: Silver plate
+Alchemy Lab. - Globe on Middle Elevator Shaft Room: Gravity boots
+Alchemy Lab. - Item by Cannon: Alucard shield
+Alchemy Lab. - Globe in Attic With Powerup Tanks: Life Vessel
+Alchemy Lab. - Globe in Upper-left Room of Slogra and Gaibon: Osafune katana
+Clock Tower - Rotating Gears Puzzle Room Item 2: Shield rod
+Clock Tower - On Top of Column Item 2: Icebrand
+Clock Tower - Top Right Room in Open Area: Alucart sword
+Castle Keep - Hidden Stair Room Right Statue 2: Estoc
+Castle Keep - Attic by Elevator Surround by Torches: Diamond
+Castle Keep - Open Area Bottom Left Floor Item: Eye of vlad
+Castle Keep - Open Area Top Left Alcove: Life Vessel
+Castle Keep - Open Area Top Right Room Item 5: Bastard sword
+Reverse Colosseum Junction Tunnel - Breakable Floor Room: Necklace of j
+Reverse Colosseum Left Part - Top Right Room: Bloodstone
+Floating Catacombs Upper - After Crypt Breakable Wall Room: Goddess shield
+Floating Catacombs Upper - Before Galamoth Save Point: Garnet
+Floating Catacombs Upper - After Galamoth Deeper Room Left Item: Force of echo
+Cave - Middle Ascend Right Item: Skill of wolf
+Cave - Death Item: Power of mist
+Anti-Chapel Tower 2 - Bottom Item: Life Vessel
+Anti-Chapel - After Spiked Tunnel: Katana
+Medusa Kill Item: Talwar
+Forbidden Library Inner Part - Bottom Left Room Behind Bookshelf: Life Vessel
+Forbidden Library Inner Part - Behind Mist Crate: Life Vessel
+Reverse Outer Wall - Mist Crate Room Right Item: Life Vessel
+Creature Kill Item: Holy symbol
+Death Wing's Lair Main Area - Room Behind Breakable Wall Left Red Vase: Merman statue
+Death Wing's Lair Courtyard - Top Left Room: Falchion
+Death Wing's Lair - Akmodan II Item: Bekatowa
+Reverse Entrance - Wolf/Bat Secret Room Right Item: Blood cloak
+Reverse Entrance - Room by Nova Skeleton on the Ledge: Walk armor
+Reverse Caverns Upper - End of Cavern: Gas cloud
+Reverse Caverns Waterfall - Bottom Right Room: Fire of bat
+Reverse Caverns Stairs - Middle Room: Crystal cloak
+Reverse Caverns Stairs - Bottom Item Behind Breakable Wall: Garnet
+Reverse Caverns Doppleganger - Bottom Area Right Room: Ankh of life
+Reverse Caverns Waterfall - Behind Waterfall Room: Heart of vlad
+Reverse Caverns Ice Area - At End: Gram
+Necromancy Lab. - Middle Room on Elevator Shaft: Power of wolf
+Necromancy Lab. - Breakable Ceil on Tunnel Right of Elevator Shaft: Jewel knuckles
+Necromancy Lab. - Bottom Left Room From Beezelbub: Sunstone
+Reverse Clock Tower Open Area - Middle Column: Secret boots
+Reverse Clock Tower Open Area - Bottom Left Room: Platinum mail
+Reverse Clock Tower Medusa Area - Gears Puzzle Room Right Item: Bandanna
+Reverse Clock Tower - Behind Breakable Wall Next to Bronze Statue: Faerie scroll
+Reverse Clock Tower - Darkwing Bat Item: Alucard sword
+R. Castle Keep - Bellow Stairs Right Statue 2: Leap stone
+R. Castle Keep - Bellow Stairs Left Statue 2: Gladius
+R. Castle Keep - Open Area Top Right Ledge: Mormegil
+R. Castle Keep - Bottom Left Room on Dual Elevator Area: Fury plate
+Reverse Colosseum - Trio item: Goggles
+Alchemy Lab. - Slogra and Gaibon item: Royal cloak
+Outer Wall - Doppleganger 10 item: Jewel sword
+Long Library - Lesser Demon item: Mystic pendant
+Clock Tower - Karasuman item: Life Vessel
+Royal Chapel - Hippogryph item: Life Vessel
+Colosseum - Minotaur & Werewolf item: Lightning mail
+Olrox's Quarters - Olrox item: Diamond
+Underground Caverns - Scylla item: Life Vessel
+Abandoned Mine - Cerberus item: Spike breaker
+Catacombs - Granfaloon item: Silver ring
+Reverse Caverns - Doppleganger 40 item: Gold ring
+Floating Catacombs - Galamoth item: Nunchaku
+Necromancy Lab. - Beezelbub item: Onyx
+Reverse Center Cube - Kill Dracula: Victory
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Alchemy Lab. - Globe on Middle Elevator Shaft Room: Gravity boots
+  Outer Wall - Item After Doppleganger 10: Holy glasses
+}
+2: {
+  Castle Keep - Open Area Bottom Left Floor Item: Eye of vlad
+  Colosseum First Part - Next to Royal Chapel Passage: Soul of bat
+  Long Library - Deeper Library Behind Bookshelf Item 2: Rib of vlad
+}
+3: {
+  Entrance - Attic Near Start Gate Left item: Tooth of vlad
+  Olrox's Quarters Path to Royal Chapel - Hidden Attic: Ring of vlad
+  Reverse Caverns Waterfall - Behind Waterfall Room: Heart of vlad
+}
+4: {
+  Reverse Center Cube - Kill Dracula: Victory
+}

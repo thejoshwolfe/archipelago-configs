@@ -1,0 +1,87 @@
+name: josh_sotn
+description: Shuffled relics, boss drops, and floor equipment. hard difficulty.
+# Map and tips and stuff: https://github.com/fdelduque/Archipelago/blob/main/worlds/sotn/docs/setup_en.md
+game: Symphony of the Night
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+Symphony of the Night:
+  # Locations and items
+  item_pool: equipment
+  randomize_items: 'false'
+  enemysanity: 'false'
+  enemy_scroll: 'false'
+  boss_locations: 'true'
+  drop_mod: abundant
+  randomize_drop: 'off'
+  random_shop: 'on_lib'
+  # Start with (and keep) random gear.
+  rng_start_gear: 'true'
+  my_purse: 'true'
+
+  # Balance
+  powerful_items: 'false'
+  difficult: hard
+  enemy_mod: '24' # Use `difficult` setting instead.
+  enemy_stats: 'false'
+  shop_prices: 'false'
+  magic_vessels: 'true' # increase magic capacity instead of heart capacity.
+
+  # World layout is vanilla, with a bit more unlockable fast travel.
+  no_logic: 'false'
+  starting_zone: vanilla
+  unlocked_mode: 'false'
+  open_no4: closed
+  open_are: 'false'
+  reverse_library: 'true' # After Richter is saved, hold down during library card to go to reverse library.
+
+  # Speed ups
+  infinite_wing_smash: 'true'
+  remove_prologue: 'true'
+  anti_freeze: 'true'
+  fast_warp: 'true'
+  skip_nz1: 'true'
+  auto_heal: 'true'
+
+  # Aesthetics
+  relic_suprise: 'false' # aka relic surprise
+  map_color: default
+  alucard_palette: default
+  alucard_liner: gold_trim
+  random_music: 'false'
+  color_randomizer: 'false'
+
+  local_items: []
+  non_local_items: []
+  start_hints:
+    # Significant mobility upgrades
+    - Jewel of open
+    - Leap stone
+    - Gravity boots
+    #- Soul of bat
+    # Critical progression
+    - Holy glasses
+    - Eye of vlad
+    - Heart of vlad
+    - Rib of vlad
+    - Ring of vlad
+    - Tooth of vlad
+    # Why is this an item.
+    - Cube of zoe
+  start_inventory:
+    # Just start with information-only items.
+    Faerie scroll: 1
+    Spirit orb: 1
+
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items:
+    # Soul of Bat trivializes most logical progression in the first castle. Make sure logic doesn't depend too heavily on it in the early game.
+    - items: [Soul of bat]
+      locations: [non_early_locations]
+      force: true
+
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'false'

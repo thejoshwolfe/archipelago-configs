@@ -1,0 +1,365 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Symphony of the Night Template
+
+game: Symphony of the Night
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+
+Symphony of the Night:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    # 
+    # **Items:** ensure all logically relevant items can be acquired. Some items, such as keys, may be self-locking, and
+    # some locations may be inaccessible.
+    full: 0
+    minimal: 0
+    items: 50
+
+  #############
+  # Item Pool #
+  #############
+  item_pool:
+    # relic_prog: Only relics, silver/gold rings, spike breaker and holy glasses locations are checks
+    # guarded: All of the above, plus most items guarded by bosses
+    # equipment: All of the above, plus most floor equipment
+    # full: Every location on the map is added to the pool
+    relic_prog: 0
+    guarded: 0
+    equipment: 0
+    full: 50
+
+  enemysanity:
+    # Hitting an enemy becomes a check. Extra locations will be added based on difficult
+    # easy: Duplicate relics and progression items adds 50 extra vessels and random equipments
+    # normal: Duplicate progression items adds 35 extra vessels and random equipments
+    # hard: 15 extra vessels and random equipments
+    'false': 50
+    'true': 0
+
+  powerful_items:
+    # Try to add powerful items to the pool: Duplicator, Crissaegrim, Ring of varda, Mablung sword, Masamune, Marsil, Yasutsuna
+    'false': 50
+    'true': 0
+
+  boss_locations:
+    # Boss drops would be part of the seed pool.
+    'false': 50
+    'true': 0
+
+  ###################
+  # Gameplay Tweaks #
+  ###################
+  open_no4:
+    # Determines the behavior for the back door from Entrance to Underground Cavern
+    # closed: The door will be closed as in vanilla
+    # open: The door will be open after reaching Alchemy Laboratory, ensuring the Death cutscene
+    # open_early: The door will be open from the start, allowing you to break the Death cutscene
+    closed: 50
+    open: 0
+    open_early: 0
+
+  open_are:
+    # If true, the back door from Chapel to Colosseum will be open
+    'false': 50
+    'true': 0
+
+  randomize_items:
+    # Will randomize items not chosen from the item_pool setting
+    'false': 50
+    'true': 0
+
+  enemy_scroll:
+    # Enemysanity require Faerie Scroll
+    'false': 50
+    'true': 0
+
+  difficult:
+    # easy: 50% less monster HP, attack and defense and drop chance increased
+    # normal: All vanilla stats
+    # hard: 50% more monster HP, attack and defense
+    # very_hard: 100% more monster HP, attack, and defense
+    easy: 0
+    normal: 50
+    hard: 0
+    very_hard: 0
+
+  enemy_mod:
+    # Modifier for monster HP, attack and defense, override difficult preset
+    # Any number above 100 increase the attribute and bellow decrease. 24 means OFF
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 24
+    # Maximum value is 200
+    24: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-24-200: 0 # random value between 24 and 200
+
+  drop_mod:
+    # Modifier for monster drop. Override difficult preset
+    # normal: Drop chance is not modified
+    # increase: increase the odds of a drop
+    # abundant: increase further odds of a drop
+    # guaranteed: guarantees drops for every enemy that has one. Ring of arcana makes them drop their rare item instead
+    normal: 50
+    increased: 0
+    abundant: 0
+    guaranteed: 0
+
+  randomize_drop:
+    # Randomize enemy drops
+    # simple: Only randomize between each enemy drop
+    # simple_global: Only randomize between each enemy drop including global drops
+    'off': 50
+    simple: 0
+    simple_global: 0
+
+  rng_start_gear:
+    # Randomize starting equipment
+    'false': 50
+    'true': 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  random_shop:
+    # Randomize items sold by Librarian
+    # on: Any item can appear at shop
+    # on_lib: Any item can appear at shop and enforcing a Library card on sale
+    # on_no_prog: Any item can appear at shop and no progression item will appear
+    # on_no_prog_lib: No progression item can appear at shop enforcing a Library card on sale
+    'off': 50
+    'on': 0
+    on_lib: 0
+    on_no_prog: 0
+    on_no_prog_lib: 0
+
+  unlocked_mode:
+    # Opens all five shorcuts in first castle and one in second castle
+    # Might break logic
+    'false': 50
+    'true': 0
+
+  relic_suprise:
+    # All relics are hidden behind the same sprite and palette.
+    # The player cannot tell what the relic is until the collect it
+    'false': 50
+    'true': 0
+
+  enemy_stats:
+    # Enemy stats are randomized ranging from 25% to 200% of their original value and their attack and defense types
+    # are randomized to include random elements. Modification options WILL OVERRIDE THIS OPTION
+    'false': 50
+    'true': 0
+
+  shop_prices:
+    # Randomize shop prices between 50% to 150%. OVERRIDE difficult preset
+    'false': 50
+    'true': 0
+
+  starting_zone:
+    # Start in the entrance as usual but after the first Warg, you are teleported to a random zone to start the
+    # rest of your run. (Could break logic)
+    # vanilla: Normal entrance
+    # normal_castle: Your random room will be on the first castle
+    # reverse_castle: Your random room will be on the reverse castle
+    # any_castle: Your random room could be anywhere
+    vanilla: 50
+    normal_castle: 0
+    reverse_castle: 0
+    any_castle: 0
+
+  reverse_library:
+    # Adds a new function to library cards. Hold down while using them to take Alucard to the second castle library
+    # after Richter is saved
+    'false': 50
+    'true': 0
+
+  no_logic:
+    # There is logic. Seed might be unbeatable. Heavy on glitch knowledge
+    'false': 50
+    'true': 0
+
+  #######
+  # QOL #
+  #######
+  infinite_wing_smash:
+    # Makes wing smash continue until you hit a wall or run out of MP (cancellable by exiting bat form)
+    'false': 50
+    'true': 0
+
+  remove_prologue:
+    # Remove prologue fight
+    'false': 50
+    'true': 0
+
+  magic_vessels:
+    # Replace heart max up with magic max up
+    'false': 50
+    'true': 0
+
+  anti_freeze:
+    # Remove screen freezes on level-up, relic and vessels acquisition
+    'false': 50
+    'true': 0
+
+  my_purse:
+    # Prevent Death from stealing your gear
+    'false': 50
+    'true': 0
+
+  fast_warp:
+    # Quickens warp animation when using teleporters
+    'false': 50
+    'true': 0
+
+  skip_nz1:
+    # Disable rotating gears clock tower puzzle. Hitting any gear once opens the secret door
+    'false': 50
+    'true': 0
+
+  auto_heal:
+    # Entering a save room heal Alucard
+    'false': 50
+    'true': 0
+
+  #############
+  # Cosmetics #
+  #############
+  map_color:
+    # Change map colors
+    default: 50
+    dark_blue: 0
+    crimson: 0
+    brown: 0
+    dark_green: 0
+    gray: 0
+    purple: 0
+    pink: 0
+    black: 0
+    invisible: 0
+
+  alucard_palette:
+    # Change Alucard palette colors
+    default: 50
+    bloody_tears: 0
+    blue_danube: 0
+    swamp_thing: 0
+    white_knight: 0
+    royal_purple: 0
+    pink_passion: 0
+    shadow_prince: 0
+
+  alucard_liner:
+    # Change Alucard liner colors
+    gold_trim: 50
+    bronze_trim: 0
+    silver_trim: 0
+    onyx_trim: 0
+    coral_trim: 0
+
+  random_music:
+    # Randomize the game music
+    'false': 50
+    'true': 0
+
+  color_randomizer:
+    # Randomize various color paletter. Ex: Cape colors, gravity boots trail, hydrostorm
+    'false': 50
+    'true': 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
