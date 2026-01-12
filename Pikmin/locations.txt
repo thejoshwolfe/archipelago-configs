@@ -1,0 +1,42 @@
+# Impact Site
+* Main Engine (20) - tutorial
+## ryb
+* Positron Generator (20) - in clam
+
+# Forest of Hope
+* Eternal Fuel Dynamo (40) - beach
+## ry
+* Whimsical Radar (20) - bomb to the right of yellow onion
+* Extraordinary Bolt (30) - bomb past the radar
+* Nova Blaster (30) - fight past the bolt
+* Shock Absorber (30) - throw up ledge and wade through puddle
+## ryb
+* Sagittarius (20) - island
+* Radiation Canopy (30) - submerged gate, armored cannon beetle
+* Geiger Counter (15) - left of yellow onion, burrowing snagret
+
+# Forest Navel
+* Automatic Gear (15) - stick to tower
+* #1 Ionium Jet (15) - puddle near blue onion
+* Space Float (25) - inside bread bug
+* Libra (15) - geysers, bridge, climb
+* Analog Computer (20) - geysers, puddle
+* Anti-Dioxin Filter (40) - ocean wollyhops
+* Gravity Jumper (25) - ramp on the beach
+* Guard Satellite (20) - 6 bomb gate, beady long legs
+* Omega Stabilizer (30) - puffstool
+
+# Distant Spring
+* Massage Machine (30) - double bridge (past y/b onions)
+* Repair-Type Bolt (20) - high ledge (past y/b)
+* Interstellar Radio (20) - ocean in puffy blowhog (past y)
+* Gluon Drive (50) - double bridge (past r)
+* Zirconium Rotor (30) - 6 bomb gate (past r), ocean gate
+* UV Lamp (10) - 9 bomb gate (past b), throw yellow pikmin
+* Bowsprit (30) - armored cannon beetle, ramp, gate
+* Pilot's Seat (25) - farthest tree
+* Chronos Reactor (20) - farthest ilsand
+* #2 Ionium Jet (15) - to the left of reactor
+
+# Final Trial
+* Secret Safe
