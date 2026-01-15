@@ -1,4 +1,4 @@
-http_listen: '0.0.0.0:1233'
+http_listen: '0.0.0.0:1229'
 hoster: Josh's Couch Computer
 
 # TODO: try setting this to 0
