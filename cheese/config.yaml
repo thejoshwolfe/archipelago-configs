@@ -11,9 +11,15 @@ upstream_trackers:
   # http://127.0.0.1:1234/tracker/AAAAAAAAAAAAAAAAAAAAAA
   # http://127.0.0.1:1235/tracker/$(python3 -c 'import base64, random; print(base64.urlsafe_b64encode(random.randbytes(16))[:-2].decode("utf8"))')
   # echo -n "http://127.0.0.1:1236/tracker/$(python3 -c 'import base64, random; print(base64.urlsafe_b64encode(random.randbytes(16))[:-2].decode("utf8"))')" | gtkclip
+  - http://127.0.0.1:1231/tracker
+  - http://127.0.0.1:1232/tracker
+  - http://127.0.0.1:1233/tracker
   - http://127.0.0.1:1234/tracker
   - http://127.0.0.1:1235/tracker
   - http://127.0.0.1:1236/tracker
+  - http://127.0.0.1:1247/tracker
+  - http://127.0.0.1:1248/tracker
+  - http://127.0.0.1:1249/tracker
 
 cors_permissive: false
 banners: []
