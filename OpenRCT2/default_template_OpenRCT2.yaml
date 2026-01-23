@@ -1,0 +1,751 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default OpenRCT2 Template
+
+game: OpenRCT2
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    OpenRCT2: 0.1.20 # Version of the world required for this yaml to work as expected.
+
+OpenRCT2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  ignore_ride_stat_changes:
+    # Disables changes to base ride stats. If enabled, rides will always behave like they do in the base game.
+    'false': 50
+    'true': 0
+
+  death_link:
+    # If you die, everybody dies, and vise versa!
+    # - This manifests itself in exploding rides. Somebody dying will cause a random ride to crash,
+    # and building rides badly will cause others to die. There's a 20 second timer between deathlink events.
+    # Fix that coaster quickly! This option can be enabled/disabled in game as well by typing !!toggledeathlink
+    # in the chat tab of the unlock shop.
+    disabled: 0
+    enabled: 50
+
+  ####################
+  # Scenario Options #
+  ####################
+  scenario:
+    # Choose which scenario you'd like to play! Random won't choose scenarios that are unreasonably difficult/tedious.
+    # Future updates will allow custom scenarios.
+    random_rct1: 0
+    random_loopy_landscapes: 0
+    random_corkscrew_follies: 0
+    random_rct2: 0
+    random_wacky_worlds: 0
+    random_time_twister: 0
+    random_rct1_expansions: 0
+    random_rct2_expansions: 0
+    archipelago_madness_vanilla: 50
+    archipelago_madness_expansions: 0
+    forest_frontiers: 0
+    dynamite_dunes: 0
+    leafy_lake: 0
+    diamond_heights: 0
+    evergreen_gardens: 0
+    bumbly_beach: 0
+    trinity_islands: 0
+    katies_world: 0
+    dinky_park: 0
+    aqua_park: 0
+    millennium_mines: 0
+    karts_and_coasters: 0
+    mels_world: 0
+    mothball_mountain: 0
+    pacific_pyramids: 0
+    crumbly_woods: 0
+    lightning_peaks: 0
+    ivory_towers: 0
+    rainbow_valley: 0
+    thunder_rock: 0
+    mega_park: 0
+    whispering_cliffs: 0
+    three_monkeys_park: 0
+    canary_mines: 0
+    barony_bridge: 0
+    funtopia: 0
+    haunted_harbor: 0
+    fun_fortress: 0
+    future_world: 0
+    gentle_glen: 0
+    hydro_hills: 0
+    sprightly_park: 0
+    magic_quarters: 0
+    fruit_farm: 0
+    butterfly_dam: 0
+    coaster_canyon: 0
+    thunderstorm_park: 0
+    harmonic_hills: 0
+    roman_village: 0
+    swamp_cove: 0
+    adrenaline_heights: 0
+    utopia_park: 0
+    rotting_heights: 0
+    fiasco_forest: 0
+    pickle_park: 0
+    giggle_downs: 0
+    mineral_park: 0
+    coaster_crazy: 0
+    geoffery_gardens: 0
+    iceberg_islands: 0
+    volcania: 0
+    arid_heights: 0
+    razor_rocks: 0
+    crater_lake: 0
+    vertigo_views: 0
+    dragons_cove: 0
+    good_knight_park: 0
+    wacky_warren: 0
+    grand_glacier: 0
+    crazy_craters: 0
+    dusty_desert: 0
+    woodworm_park: 0
+    icarus_park: 0
+    sunny_swamps: 0
+    frightmare_hills: 0
+    thunder_rocks: 0
+    octagon_park: 0
+    pleasure_island: 0
+    icicle_worlds: 0
+    southern_sands: 0
+    tiny_towers: 0
+    nevermore_park: 0
+    pacifica: 0
+    urban_jungle: 0
+    terror_town: 0
+    venus_ponds: 0
+    electric_fields: 0
+    factory_capers: 0
+    crazy_castle: 0
+    dusty_greens: 0
+    bumbly_bazzar: 0
+    infernal_views: 0
+    lucky_lake: 0
+    botany_breakers: 0
+    alpine_adventures: 0
+    gravity_gardens: 0
+    extreme_heights: 0
+    amity_airfield: 0
+    ghost_town: 0
+    rainbow_summit: 0
+    over_the_edge: 0
+    great_wall_of_china: 0
+    canyon_calamities: 0
+    sugarloaf_shores: 0
+    mines_of_africa: 0
+    park_maharaja: 0
+    ayers_adventure: 0
+    european_extravaganza: 0
+    rollercoaster_heaven: 0
+    lost_city_founder: 0
+    mirage_madness: 0
+    icy_adventures: 0
+    okinawa_coast: 0
+    beach_barbecue_blast: 0
+    from_the_ashes: 0
+    wacky_waikiki: 0
+    rainforest_romp: 0
+    sherwood_forest: 0
+    crater_carnage: 0
+    alcatraz: 0
+    woodstock: 0
+    cliffside_castle: 0
+    extraterrestrial_extravaganza: 0
+    animatronic_antics: 0
+    coastersaurus: 0
+    schneider_shores: 0
+    gemini_city: 0
+    mythological_madness: 0
+    rocky_rambles: 0
+    metropolis: 0
+    rock_n_roll_revival: 0
+    six_flags_belgium: 0
+    six_flags_great_adventure: 0
+    six_flags_holland: 0
+    six_flags_magic_mountain: 0
+    six_flags_over_texas: 0
+    fort_anachronism: 0
+    build_your_own_six_flags_belgium: 0
+    build_your_own_six_flags_great_adventure: 0
+    build_your_own_six_flags_holland: 0
+    build_your_own_six_flags_magic_mountain: 0
+    build_your_own_six_flags_park: 0
+    build_your_own_six_flags_over_texas: 0
+
+  difficulty:
+    # Choose a difficulty for the randomization. This will make rides have more difficult stat results (If that's enabled), as well as affect
+    # things like the loan interest rate.
+    very_easy: 0
+    easy: 0
+    medium: 50
+    hard: 0
+    extreme: 0
+
+  scenario_length:
+    # Choose how long this game will last. This will affect things such as unlock shop prices and if prerequisites are required before purchase. It's recommended to choose based on how long other worlds in the multi-world take to complete.
+    # Synchronous Short: Around 2 hours to complete.
+    # Synchronous Long: Around 4 hours to complete.
+    # Lengthy: Recommended for Asyncs.
+    # Marathon: Recommended for Asyncs.
+    synchronous_short: 50
+    synchronous_long: 0
+    lengthy: 0
+    marathon: 0
+
+  randomization_range:
+    # Influences how spread random values will be (Mostly this affects the excitement, intensity, and nausea ratings). The more extreme this value,
+    # the more extreme the difficulty will swing, with easy becoming much easier and hard becoming much more difficult.
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+    extreme: 0
+
+  randomize_park_values:
+    # Randomizes values such as starting cash, starting bank loan amount, and the max bank loan
+    'false': 0
+    'true': 50
+
+  preferred_intensity:
+    # Choose a preferred intensity for your guests. Less intense will limit guests to a maximum of 4 intensity, and more intense will limit guests
+    # to a minimum of 8 intensity in most circumstances. Normal is highly recommended for most players! Seriously, unless you really know what you 
+    # are doing and want the (likely very tedious) challenge, you shouldn't change this.
+    less_intense: 0
+    normal: 50
+    more_intense: 0
+
+  stat_rerolls:
+    # How often to re-randomize the stats for ride types. Build the Theme Park of Theseus!
+    never: 0
+    infrequent: 50
+    semi_frequent: 0
+    frequent: 0
+    very_frequent: 0
+    extremely_frequent: 0
+
+  ################
+  # Goal Options #
+  ################
+  guest_objective:
+    # Choose how many guests are required to win the scenario
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 7500
+    1000: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-7500: 0 # random value between 1 and 7500
+
+  park_value_objective:
+    # If enabled, choose what park value (In USD) is required to win the scenario.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000000
+    200000: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000000: 0 # random value between 0 and 1000000
+
+  roller_coaster_objective:
+    # If enabled, choose how many coasters, and what prerequisites they need to beat the scenario.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 20
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-20: 0 # random value between 0 and 20
+
+  roller_coaster_excitement:
+    # Select the minimum excitement 😀 for a coaster to count towards your objective. 0 will disable a minimum excitement rating.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 9
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-9: 0 # random value between 0 and 9
+
+  roller_coaster_intensity:
+    # Select the minimum intensity 😬 for a coaster to count towards your objective. 0 will disable a minimum intensity rating.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 9
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-9: 0 # random value between 0 and 9
+
+  roller_coaster_nausea:
+    # Select the minimum nausea 🤢 for a coaster to count towards your objective. 0 will disable a minimum nausea rating.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 6
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-6: 0 # random value between 0 and 6
+
+  required_unique_rides:
+    # Requires specific rides to be built before scenario completion is awarded. These will tend to appear in the later half of the game.
+    # It's highly recommended to have this set to at least 1!
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  park_rating_objective:
+    # If enabled, choose the minimum park rating needed to beat the scenario.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 999
+    800: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-999: 0 # random value between 0 and 999
+
+  pay_off_loan:
+    # Require Loan to be paid off before scenario completion is awarded. Multiple objectives can be enabled!
+    'false': 0
+    'true': 50
+
+  monopoly_mode:
+    # Monopoly Mode is a new objective type. Every unowned tile will be set to purchasable (Or purchasable construction rights for any unowned tile with a grounded path. Elevated paths will not be purchasable). To complete the objective, all tiles on the map must be purchased. Multiple Objectives can be enabled!
+    'false': 50
+    'true': 0
+
+  fireworks:
+    # Have an explosive firework display on victory! Strongly discouraged if you intend to keep playing after victory or if you expect to have a huge park.
+    'false': 0
+    'true': 50
+
+  #########
+  # Rules #
+  #########
+  difficult_guest_generation:
+    # Makes guests harder to generate. Unlockable puts an item in generation that disables the rule when found.
+    'off': 0
+    unlockable: 50
+    'on': 0
+
+  difficult_park_rating:
+    # Makes park rating harder to improve. Unlockable puts an item in generation that disables the rule when found.
+    'off': 0
+    unlockable: 50
+    'on': 0
+
+  forbid_high_construction:
+    # Limits building to tree height. Unlockable puts an item in generation that disables the rule when found.
+    'off': 0
+    unlockable: 50
+    'on': 0
+
+  forbid_landscape_changes:
+    # Forbids the landscape from being altered. Unlockable puts an item in generation that disables the rule when found.
+    'off': 0
+    unlockable: 50
+    'on': 0
+
+  forbid_marketing_campaigns:
+    # Forbids marketing campaigns. Unlockable puts an item in generation that disables the rule when found.
+    'off': 0
+    unlockable: 50
+    'on': 0
+
+  forbid_tree_removal:
+    # Forbids removing trees. Unlockable puts an item in generation that disables the rule when found.
+    'off': 0
+    unlockable: 50
+    'on': 0
+
+  ################
+  # Shop Options #
+  ################
+  shop_minimum_excitement:
+    # If the shop determines you need a ride with a minimum excitement, this value will be the lowest it can ask for.
+    # If this value is higher than the maximum, the generator will assume it is a mistake and set it to 0.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  shop_maximum_excitement:
+    # If the shop determines you need a ride with a minimum excitement, this value will be the highest it can ask for.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  shop_minimum_intensity:
+    # If the shop determines you need a ride with a minimum intensity, this value will be the lowest it can ask for.
+    # If this value is higher than the maximum, the generator will assume it is a mistake and set it to 0.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 7
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-7: 0 # random value between 0 and 7
+
+  shop_maximum_intensity:
+    # If the shop determines you need a ride with a minimum intensity, this value will be the highest it can ask for.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 7
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-7: 0 # random value between 0 and 7
+
+  shop_minimum_nausea:
+    # If the shop determines you need a ride with a minimum nausea, this value will be the lowest it can ask for.
+    # If this value is higher than the maximum, the generator will assume it is a mistake and set it to 0.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 4
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-4: 0 # random value between 0 and 4
+
+  shop_maximum_nausea:
+    # If the shop determines you need a ride with a minimum nausea, this value will be the highest it can ask for.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 4
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-4: 0 # random value between 0 and 4
+
+  shop_minimum_length:
+    # If the shop determines you need a ride with a minimum length (In Meters), this value in meters will 
+    # be the lowest it can ask for. If this value is higher than the maximum, the generator will assume it is a 
+    # mistake and set it to 0.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 2500
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-2500: 0 # random value between 0 and 2500
+
+  shop_maximum_length:
+    # If the shop determines you need a ride with a minimum length (In Meters), 
+    # this value will be the highest it can ask for.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 2500
+    500: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-2500: 0 # random value between 0 and 2500
+
+  shop_minimum_total_customers:
+    # If the shop determines you need a ride with a minimum total number of customers, this value will be the 
+    # lowest it can ask for. If this value is higher than the maximum, the generator will assume it is a mistake and 
+    # set it to 0.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  shop_maximum_total_customers:
+    # If the shop determines you need a ride with a minimum total number of customers, this value will be the 
+    # highest it can ask for.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    400: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  balance_guest_counts:
+    # Attempts to balance the minimum guest requirements to the ride they're attached to. Low throughput rides
+    # like Spiral Slides will tend towards the minimum, while high throughput rides like roller coasters will 
+    # tend towards the maximum.
+    'false': 0
+    'true': 50
+
+  visibility:
+    # Choose how much the unlock shop displays. 
+    # 
+    # "Nothing" tells you nothing about the item you'll purchase. 
+    # 
+    # Progression tells you what class of item (Normal, Progression, Useful Trap) you're sending.
+    # 
+    # Recipient tells you who will receive the item, but not what they'll receive. 
+    # 
+    # Progression Recipient tells you both the class of item and who receives it.
+    # 
+    # Full tells you what you're buying and who receives it.
+    nothing: 0
+    progression: 0
+    recipient: 50
+    progression_recipient: 0
+    full: 0
+
+  awards:
+    # Choose what types (if any) of awards will have checks behind them. 
+    # Negative awards will always reward a trap item, even if they're otherwise disabled!
+    # 
+    # All Awards will have a check behind every award in the game. 
+    # 
+    # Positive will only place a check behind awards with positive attributes.
+    # 
+    # None will not place checks behind awards.
+    all: 50
+    positive: 0
+    none: 0
+
+  exclude_safest_park:
+    # Exclude the Safest Park Award from having a check. This may be useful depending on deathlink settings.
+    'false': 50
+    'true': 0
+
+  #######################
+  # Item & Trap Options #
+  #######################
+  filler:
+    # How many extra filler items to add to the mix as a percentage. This will mostly consist of Cash Bonuses.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 50
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-50: 0 # random value between 1 and 50
+
+  include_atm:
+    # Includes an ATM in the item list, regardless of whether it normally appears in the chosen scenario.
+    'false': 0
+    'true': 50
+
+  include_first_aid:
+    # Includes a First Aid Room in the item list, regardless of whether it normally appears in the chosen scenario.
+    'false': 0
+    'true': 50
+
+  include_gamespeed_items:
+    # If included, the ability to use the speed toggle will be restricted behind an item. 4 items total will be added, each progressively unlocking a faster speed.
+    'false': 0
+    'true': 50
+
+  skips:
+    # By default, every game starts with a single skip to ignore a shop requirement. This will add additional skips to 
+    # be found in the item pool.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    7: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  furry_convention_traps:
+    # When found, instantly hosts a furry convention in your park! Adding traps will increase the total number of items in the world.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 20
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-20: 0 # random value between 0 and 20
+
+  bathroom_traps:
+    # When found, instantly maxes out the bathroom stat of every guest! Adding traps will increase the total number of items in the world.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 20
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-20: 0 # random value between 0 and 20
+
+  spam_traps:
+    # When found, spams ads all over the screen! Adding traps will increase the total number of items in the world.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 20
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-20: 0 # random value between 0 and 20
+
+  loan_shark_traps:
+    # When found, increases your loan! Adding traps will increase the total number of items in the world.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 20
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-20: 0 # random value between 0 and 20
+
+  all_rides_and_scenery_base:
+    # Adds every ride and scenery pack in the base game to the item pool. This will make for a significantly longer scenario.
+    'false': 50
+    'true': 0
+
+  all_rides_and_scenery_expansion:
+    # Adds every ride and scenery pack in the RCT2 Expansion Packs to the item pool. If this is true the base game rides and 
+    # scenery will also be included. This will make for a significantly longer scenario.
+    'false': 50
+    'true': 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

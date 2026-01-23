@@ -1,0 +1,412 @@
+﻿Archipelago Version 0.6.6  -  Seed: 66235533429989115964
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            OpenRCT2
+Location Count:                  269
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Difficulty:                      Medium
+Minimum Shop Excitement Requirement:0
+Maximum Shop Excitement Requirement:5
+Minimum Shop Intensity Requirement:0
+Maximum Shop Intensity Requirement:5
+Minimum Shop Nausea Requirement: 0
+Maximum Shop Nausea Requirement: 4
+Minimum Shop Length Requirement: 0
+Maximum Shop Length Requirement: 500
+Minimum Shop Customers Requirement:0
+Maximum Shop Total Customers Requirement:400
+Balance Guest Counts:            Yes
+Awards:                          All
+Exclude Safest Park Award:       Yes
+Ignore Ride Stat Changes:        Yes
+Scenario Length:                 Synchronous Short
+Scenario:                        Archipelago Madness Vanilla
+Filler:                          10
+Include ATM:                     Yes
+Include First Aid Room:          Yes
+Include All Rides and Scenery (Base Game):No
+Include All Rides and Scenery (Expansion Packs):No
+Skips:                           7
+DeathLink:                       Enabled
+Furry Convention Trap:           5
+Bathroom Trap:                   5
+Spam Trap:                       5
+Loan Shark Trap:                 5
+Randomization Range:             Medium
+Stat Re-Rolls:                   Infrequent
+Randomize Park Values:           Yes
+Visibility:                      Recipient
+Preferred Intensity:             Normal
+Guest Objective:                 1000
+Park Value Objective:            200000
+Roller Coaster Objective:        5
+Excitement Requirement:          5
+Intensity Requirement:           5
+Nausea Requirement:              4
+Unique Ride Requirement:         5
+Park Rating Objective:           800
+Pay Off Loan:                    Yes
+Monopoly Mode:                   No
+Fireworks:                       Yes
+Include Gamespeed Items:         No
+Difficult Guest Generation:      Unlockable
+Difficult Park Rating:           Unlockable
+Forbid High Construction:        Unlockable
+Forbid Landscape Changes:        Unlockable
+Forbid Marketing Campaigns:      Unlockable
+Forbid Tree Removal:             Unlockable
+Starting Ride:       Classic Mini Roller Coaster
+
+
+Starting Items:
+
+Progressive Speed
+Progressive Speed
+Progressive Speed
+Progressive Speed
+Classic Mini Roller Coaster
+
+Locations:
+
+White_0: Hypercoaster
+White_1: Twister Roller Coaster
+White_2: Allow Tree Removal
+White_3: Shop
+White_4: Food Stall
+White_5: First Aid
+White_6: Monorail Cycles
+White_7: Flying Saucers
+Black_0: scenery
+Green_0: Spam Trap
+Blue_0: Drink Stall
+Yellow_0: Steeplechase
+Gold_0: Maze
+Silver_0: Classic Wooden Roller Coaster
+Celadon_0: Allow Landscape Changes
+Pink_0: Toilets
+Black_1: $1,000
+Green_1: 50 Guests
+Blue_1: Chairlift
+Yellow_1: Miniature Railway
+Gold_1: Side Friction Roller Coaster
+Silver_1: Food Stall
+Celadon_1: Cash Machine
+Pink_1: Loan Shark Trap
+Black_2: Twist
+Green_2: $1,000
+Blue_2: $2,500
+Yellow_2: Ghost Train
+Gold_2: Snowstorm
+Silver_2: Wooden Roller Coaster
+Celadon_2: Allow High Construction
+Pink_2: Thunderstorm
+Black_3: Drink Stall
+Green_3: Food Stall
+Blue_3: Monorail
+Yellow_3: scenery
+Gold_3: scenery
+Silver_3: Skip
+Celadon_3: Log Flume
+Pink_3: Easier Guest Generation
+Black_4: Steeplechase
+Green_4: Suspended Swinging Coaster
+Blue_4: Boat Hire
+Yellow_4: scenery
+Gold_4: Toilets
+Silver_4: scenery
+Celadon_4: Food Stall
+Pink_4: Dodgems
+Black_5: Beauty Contest
+Green_5: $5,000
+Blue_5: Food Stall
+Yellow_5: Mini Roller Coaster
+Gold_5: Flying Roller Coaster
+Silver_5: Suspended Swinging Coaster
+Celadon_5: 50 Guests
+Pink_5: Boat Hire
+Black_6: scenery
+Green_6: scenery
+Blue_6: Food Stall
+Yellow_6: scenery
+Gold_6: Inverted Roller Coaster
+Silver_6: scenery
+Celadon_6: Junior Roller Coaster
+Pink_6: Steeplechase
+Black_7: Twister Roller Coaster
+Green_7: Magic Carpet
+Blue_7: Haunted House
+Yellow_7: Food Stall
+Gold_7: Junior Roller Coaster
+Silver_7: Classic Mini Roller Coaster
+Celadon_7: Wooden Roller Coaster
+Pink_7: Classic Mini Roller Coaster
+Black_8: Twister Roller Coaster
+Green_8: Car Ride
+Blue_8: Looping Roller Coaster
+Yellow_8: Food Stall
+Gold_8: $1,000
+Silver_8: Skip
+Celadon_8: Food Stall
+Pink_8: Wooden Wild Mouse
+Black_9: Steel Wild Mouse
+Green_9: Spam Trap
+Blue_9: Spinning Wild Mouse
+Yellow_9: Easier Park Rating
+Gold_9: Lay Down Roller Coaster
+Silver_9: $500
+Celadon_9: Boat Hire
+Pink_9: Food Stall
+Black_10: Corkscrew Roller Coaster
+Green_10: Merry Go Round
+Blue_10: Wooden Roller Coaster
+Yellow_10: Food Stall
+Gold_10: Spiral Slide
+Silver_10: scenery
+Celadon_10: Virginia Reel
+Pink_10: Hypertwister
+Black_11: scenery
+Green_11: Car Ride
+Blue_11: Mini Golf
+Yellow_11: Spam Trap
+Gold_11: Bobsleigh Coaster
+Silver_11: Compact Inverted Coaster
+Celadon_11: Corkscrew Roller Coaster
+Pink_11: scenery
+Black_12: $2,500
+Green_12: Lift
+Blue_12: Snowstorm
+Yellow_12: Snowstorm
+Gold_12: Food Stall
+Silver_12: Suspended Monorail
+Celadon_12: Crooked House
+Pink_12: Classic Stand-up Roller Coaster
+Black_13: Food Stall
+Green_13: Skip
+Blue_13: Skip
+Yellow_13: Snowstorm
+Gold_13: $500
+Silver_13: Hybrid Coaster
+Celadon_13: Snowstorm
+Pink_13: Air Powered Vertical Coaster
+Black_14: Observation Tower
+Green_14: Inverted Impulse Coaster
+Blue_14: Food Stall
+Yellow_14: LIM Launched Roller Coaster
+Gold_14: Skip
+Silver_14: scenery
+Celadon_14: Drink Stall
+Pink_14: Mine Ride
+Black_15: Compact Inverted Coaster
+Green_15: Heartline Twister Coaster
+Blue_15: Skip
+Yellow_15: Thunderstorm
+Gold_15: Miniature Railway
+Silver_15: Car Ride
+Celadon_15: Splash Boats
+Pink_15: Spiral Roller Coaster
+Black_16: Wooden Roller Coaster
+Green_16: Thunderstorm
+Blue_16: Mini Suspended Roller Coaster
+Yellow_16: scenery
+Gold_16: Water Coaster
+Silver_16: River Rafts
+Celadon_16: Shop
+Pink_16: $500
+Black_17: Junior Roller Coaster
+Green_17: Vertical Drop Roller Coaster
+Blue_17: Furry Convention Trap
+Yellow_17: Food Stall
+Gold_17: Food Stall
+Silver_17: scenery
+Celadon_17: Enterprise
+Pink_17: Drink Stall
+Black_18: Shop
+Green_18: $500
+Blue_18: Twist
+Yellow_18: Drink Stall
+Gold_18: Food Stall
+Silver_18: Boat Hire
+Celadon_18: Allow Marketing Campaigns
+Pink_18: Monorail
+Black_19: Mini Suspended Roller Coaster
+Green_19: Looping Roller Coaster
+Blue_19: Bathroom Trap
+Yellow_19: $10,000
+Gold_19: Bathroom Trap
+Silver_19: Launched Freefall
+Celadon_19: Food Stall
+Pink_19: Bobsleigh Coaster
+Black_20: Spam Trap
+Green_20: scenery
+Blue_20: Mini Roller Coaster
+Yellow_20: Monster Trucks
+Gold_20: Food Stall
+Silver_20: Car Ride
+Celadon_20: Drink Stall
+Pink_20: Inverted Hairpin Coaster
+Black_21: Roto Drop
+Green_21: Mini Suspended Roller Coaster
+Blue_21: Food Stall
+Yellow_21: Mine Train Coaster
+Gold_21: $5,000
+Silver_21: scenery
+Celadon_21: $2,500
+Pink_21: Heartline Twister Coaster
+Black_22: Alpine Roller Coaster
+Green_22: Miniature Railway
+Blue_22: Loan Shark Trap
+Yellow_22: Drink Stall
+Gold_22: scenery
+Silver_22: Swinging Inverter Ship
+Celadon_22: Go Karts
+Pink_22: Multidimension Roller Coaster
+Black_23: 50 Guests
+Green_23: Giga Coaster
+Blue_23: LSM Launched Roller Coaster
+Yellow_23: Furry Convention Trap
+Gold_23: Ferris Wheel
+Silver_23: scenery
+Celadon_23: scenery
+Pink_23: Boat Hire
+Black_24: Mini Roller Coaster
+Green_24: Furry Convention Trap
+Blue_24: Mini Helicopters
+Yellow_24: Reverse Freefall Coaster
+Gold_24: Hypertwister
+Silver_24: Observation Tower
+Celadon_24: Stand Up Roller Coaster
+Pink_24: Bathroom Trap
+Black_25: Top Spin
+Green_25: Information Kiosk
+Blue_25: Furry Convention Trap
+Yellow_25: Swinging Ship
+Gold_25: Chairlift
+Silver_25: scenery
+Celadon_25: Suspended Swinging Coaster
+Pink_25: Loan Shark Trap
+Black_26: Ghost Train
+Green_26: 3d Cinema
+Blue_26: Single Rail Roller Coaster
+Yellow_26: Wooden Wild Mouse
+Gold_26: scenery
+Silver_26: Reverser Roller Coaster
+Celadon_26: Blizzard
+Pink_26: scenery
+Black_27: Toilets
+Green_27: Food Stall
+Blue_27: Monorail
+Yellow_27: Go Karts
+Gold_27: Steel Wild Mouse
+Silver_27: Skip
+Celadon_27: Classic Wooden Twister Roller Coaster
+Pink_27: Car Ride
+Black_28: 50 Guests
+Green_28: Bathroom Trap
+Blue_28: Food Stall
+Yellow_28: Thunderstorm
+Gold_28: $500
+Silver_28: Circus
+Celadon_28: Compact Inverted Coaster
+Pink_28: Inverted Roller Coaster
+Black_29: Shop
+Green_29: Miniature Railway
+Blue_29: Space Rings
+Yellow_29: 50 Guests
+Gold_29: scenery
+Silver_29: Dinghy Slide
+Celadon_29: Boat Hire
+Pink_29: Food Stall
+Black_30: Compact Inverted Coaster
+Green_30: Submarine Ride
+Blue_30: Drink Stall
+Yellow_30: River Rapids
+Gold_30: Shop
+Silver_30: Motion Simulator
+Victory: Victory
+Most Untidy Park in the Multiverse: Loan Shark Trap
+Worst Value in the Multiverse: Loan Shark Trap
+Worst Food in the Multiverse: Spam Trap
+Total Disappointment: Furry Convention Trap
+Most Confusing Layout in the Multiverse: Bathroom Trap
+Most Tidy Park in the Multiverse: 150 Guests
+Best Roller Coasters in the Multiverse: scenery
+Most Beautiful Park in the Multiverse: scenery
+Best Staff in the Multiverse: 150 Guests
+Best Food in the Multiverse: 250 Guests
+Best Toilets in the Multiverse: scenery
+Best Water Rides in the Multiverse: 150 Guests
+Best Custom Designed Rides in the Multiverse: scenery
+Most Dazzling Colors in the Multiverse: scenery
+Best Gentle Rides in the Multiverse: scenery
+
+Playthrough:
+
+0: {
+  Classic Mini Roller Coaster
+}
+1: {
+  Blue_0: Drink Stall
+  Blue_1: Chairlift
+  Celadon_0: Allow Landscape Changes
+  Celadon_1: Cash Machine
+  Gold_0: Maze
+  Gold_1: Side Friction Roller Coaster
+  Pink_0: Toilets
+  Silver_0: Classic Wooden Roller Coaster
+  Silver_1: Food Stall
+  White_0: Hypercoaster
+  White_1: Twister Roller Coaster
+  White_2: Allow Tree Removal
+  White_5: First Aid
+  White_6: Monorail Cycles
+  Yellow_1: Miniature Railway
+}
+2: {
+  Black_2: Twist
+  Celadon_2: Allow High Construction
+  Silver_2: Wooden Roller Coaster
+}
+3: {
+  Blue_4: Boat Hire
+  Blue_7: Haunted House
+  Celadon_6: Junior Roller Coaster
+  Gold_5: Flying Roller Coaster
+  Gold_6: Inverted Roller Coaster
+  Green_7: Magic Carpet
+  Silver_5: Suspended Swinging Coaster
+  Yellow_5: Mini Roller Coaster
+}
+4: {
+  Blue_8: Looping Roller Coaster
+  Green_8: Car Ride
+}
+5: {
+  Black_9: Steel Wild Mouse
+  Blue_9: Spinning Wild Mouse
+  Celadon_10: Virginia Reel
+  Celadon_12: Crooked House
+  Green_12: Lift
+  Silver_12: Suspended Monorail
+  Silver_13: Hybrid Coaster
+  Yellow_14: LIM Launched Roller Coaster
+}
+6: {
+  Blue_26: Single Rail Roller Coaster
+  Green_15: Heartline Twister Coaster
+  Green_23: Giga Coaster
+}
+7: {
+  Victory: Victory
+}

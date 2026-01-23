@@ -1,0 +1,122 @@
+Allow High Construction
+Allow Landscape Changes
+Allow Marketing Campaigns
+Allow Tree Removal
+Easier Guest Generation
+Easier Park Rating
+
+3d Cinema
+Air Powered Vertical Coaster
+Alpine Roller Coaster
+Beauty Contest
+Boat Hire (x6)
+Bobsleigh Coaster (x2)
+Car Ride (x5)
+Chairlift (x2)
+Circus
+Classic Mini Roller Coaster (x2)
+Classic Stand-up Roller Coaster
+Classic Wooden Roller Coaster
+Classic Wooden Twister Roller Coaster
+Compact Inverted Coaster (x4)
+Corkscrew Roller Coaster (x2)
+Crooked House
+Dinghy Slide
+Dodgems
+Enterprise
+Ferris Wheel
+Flying Roller Coaster
+Flying Saucers
+Ghost Train (x2)
+Giga Coaster
+Go Karts (x2)
+Haunted House
+Heartline Twister Coaster (x2)
+Hybrid Coaster
+Hypercoaster
+Hypertwister (x2)
+Inverted Hairpin Coaster
+Inverted Impulse Coaster
+Inverted Roller Coaster (x2)
+Junior Roller Coaster (x2)
+Launched Freefall
+Lay Down Roller Coaster
+Lift
+LIM Launched Roller Coaster
+Log Flume
+Looping Roller Coaster (x2)
+LSM Launched Roller Coaster
+Magic Carpet
+Maze
+Merry Go Round
+Mine Ride
+Mine Train Coaster
+Miniature Railway (x4)
+Mini Golf
+Mini Helicopters
+Mini Roller Coaster (x3)
+Mini Suspended Roller Coaster (x3)
+Monorail Cycles
+Monorail (x3)
+Monster Trucks
+Motion Simulator
+Multidimension Roller Coaster
+Observation Tower (x2)
+Reverse Freefall Coaster
+Reverser Roller Coaster
+River Rafts
+River Rapids
+Roto Drop
+Side Friction Roller Coaster
+Single Rail Roller Coaster
+Space Rings
+Spinning Wild Mouse
+Spiral Roller Coaster
+Spiral Slide
+Splash Boats
+Stand Up Roller Coaster
+Steel Wild Mouse (x2)
+Steeplechase (x3)
+Submarine Ride
+Suspended Monorail
+Suspended Swinging Coaster (x3)
+Swinging Inverter Ship
+Swinging Ship
+Top Spin
+Twister Roller Coaster (x3)
+Twist (x2)
+Vertical Drop Roller Coaster
+Virginia Reel
+Water Coaster
+Wooden Roller Coaster (x4)
+Wooden Wild Mouse (x2)
+
+Food Stall (x23)
+Drink Stall (x8)
+Shop (x5)
+Toilets (x3)
+Information Kiosk
+Cash Machine
+First Aid
+
+scenery (x30)
+
+Skip (x7)
+
+$500 (filler)
+$1,000 (filler)
+$2,500 (filler)
+$5,000 (filler)
+$10,000 (filler)
+50 Guests (filler)
+150 Guests (filler)
+250 Guests (filler)
+
+Blizzard
+Snowstorm (x5)
+Thunderstorm (x4)
+
+Bathroom Trap (x5)
+Furry Convention Trap (x5)
+Loan Shark Trap (x5)
+Spam Trap (x5)
