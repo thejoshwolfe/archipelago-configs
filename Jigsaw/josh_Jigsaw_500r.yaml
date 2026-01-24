@@ -1,0 +1,63 @@
+name: jigsaw
+description: classic 500 piece puzzle with rotatable pieces. Play at https://jigsaw-ap.netlify.app/
+game: Jigsaw
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Jigsaw: 0.9.1 # Version of the world required for this yaml to work as expected.
+Jigsaw:
+  number_of_pieces: '500'
+  number_of_piece_bundles: '50'
+  percentage_of_extra_pieces: '10'
+
+  border_type: classic
+  grid_type_and_rotations: square_90_rotation
+  uniform_piece_size: 'false'
+
+  orientation_of_image: landscape
+  total_size_of_image: '85'
+
+  # See the images here: https://jigsaw-ap.netlify.app/images.html
+  which_image:
+    '5':  1 # Minecraft
+    '22': 1 # Factorio
+    '26': 1 # Undertale
+    '31': 1 # 9 Eevees
+    '32': 1 # Slay the Spire
+    '34': 1 # Eevee wheel
+    '50': 1 # Hollow Knight cast
+    '53': 1 # Kirby's Dream Land 3
+
+  enable_clues: 'true'
+  minimum_number_of_pieces_per_bundle: '1'
+  add_fillers: 'true'
+  percentage_fillers_itempool: '0'
+  checks_out_of_logic: '10'
+
+  # Piece order
+  piece_order_type: random_order
+  strictness_piece_order_type: '100'
+  piece_order: random_order
+  strictness_piece_order: '100'
+
+  # Traps disabled
+  starting_fake_pieces: '0'
+  number_of_fake_piece_bundles: '0'
+  impact_of_fake_piece_bundles: '1'
+  number_of_rotate_traps: '0'
+  impact_of_rotate_traps: '1'
+  number_of_swap_traps: '0'
+  impact_of_swap_traps: '1'
+  death_link: '0'
+
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full
