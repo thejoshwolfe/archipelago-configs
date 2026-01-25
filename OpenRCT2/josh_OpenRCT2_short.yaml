@@ -1,5 +1,5 @@
 name: josh_rct
-description: TBD
+description: cheap checks. 5 roller coasters. 1000 guests.
 game: OpenRCT2
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -18,11 +18,11 @@ OpenRCT2:
   # Goal
   guest_objective: '1000'
   park_value_objective: '200000' # in USD
+  required_unique_rides: '5'
   roller_coaster_objective: '5'
   roller_coaster_excitement: '5'
   roller_coaster_intensity: '5'
   roller_coaster_nausea: '4'
-  required_unique_rides: '5'
   park_rating_objective: '800'
   pay_off_loan: 'true'
   monopoly_mode: 'false'
@@ -67,10 +67,10 @@ OpenRCT2:
   skips: '7'
   filler: '10' # %
 
-  furry_convention_traps: '5'
-  bathroom_traps: '5'
-  spam_traps: '5'
-  loan_shark_traps: '5'
+  furry_convention_traps: '0' # Super annoying.
+  bathroom_traps: '5' # Funny.
+  spam_traps: '2' # Medium annoying.
+  loan_shark_traps: '13' # Somewhat interesting.
 
   local_items: []
   non_local_items: []

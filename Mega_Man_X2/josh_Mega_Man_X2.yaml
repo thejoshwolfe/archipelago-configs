@@ -1,5 +1,5 @@
 name: josh_mmx2
-description: 6/8 bosses
+description: All 8 bosses
 game: Mega Man X2
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
@@ -15,7 +15,7 @@ Mega Man X2:
   # Goal
   base_open:
   - Medals
-  base_medal_count: '6'
+  base_medal_count: '8'
   base_weapon_count: '6'
   base_upgrade_count: '4'
   base_heart_tank_count: '6'
