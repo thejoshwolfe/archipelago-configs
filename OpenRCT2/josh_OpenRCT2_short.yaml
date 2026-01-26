@@ -67,10 +67,10 @@ OpenRCT2:
   skips: '7'
   filler: '10' # %
 
-  furry_convention_traps: '0' # Super annoying.
-  bathroom_traps: '5' # Funny.
+  furry_convention_traps: '2' # Medium annoying.
   spam_traps: '2' # Medium annoying.
-  loan_shark_traps: '13' # Somewhat interesting.
+  bathroom_traps: '8' # Somewhat interesting.
+  loan_shark_traps: '8' # Somewhat interesting.
 
   local_items: []
   non_local_items: []
