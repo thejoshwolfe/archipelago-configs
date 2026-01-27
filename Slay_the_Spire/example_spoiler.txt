@@ -1,0 +1,929 @@
+﻿Archipelago Version 0.6.6  -  Seed: 39246298345313488860
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Slay the Spire
+Location Count:                  579
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    ({'Ironclad Unlock': 1, 'Silent Unlock': 1, 'Defect Unlock': 1, 'Watcher Unlock': 1}: ['Ironclad Boss Relic 2', 'Silent Boss Relic 2', 'Defect Boss Relic 2', 'Watcher Boss Relic 2'])
+Character:                       Defect, Ironclad, Silent, Watcher
+Number of Characters to Goal:    4
+Ascension:                       20
+Ascension Down:                  20
+Final Act:                       Yes
+Downfall:                        No
+Death Link %:                    0
+Include Floor Checks:            Yes
+Lock Characters:                 Locked Random
+unlocked_character:              
+Pick Number of Characters:       4
+Campfire Sanity:                 Yes
+Gold Sanity:                     Yes
+Potion Sanity:                   Yes
+Key Sanity:                      Yes
+Seeded Run:                      No
+Chatty MC:                       Yes
+Shop Sanity:                     Yes
+Shop Card Slots:                 5
+Shop Neutral Card Slots:         2
+Shop Relic Slots:                3
+Shop Potion Slots:               3
+Shop Remove Slots:               Yes
+Shop Sanity Costs:               Discount Tiered
+Trap Chance:                     5
+Trap Weights:                    Status Card Trap: 1, Gremlin Trap: 1, Buff Trap: 1, Strong Buff Trap: 1, Debuff Trap: 1, Strong Debuff Trap: 1, Killer Debuff Trap: 1
+Filler Weights:                  CAW CAW: 10, Combat Buff: 10, 1 Gold: 20, 5 Gold: 0
+
+
+Starting Items:
+
+Silent Unlock
+
+Locations:
+
+Defect Press Start: Defect 30 Gold
+Defect Card Reward 1: Defect Relic
+Defect Card Reward 2: Defect Progressive Rest
+Defect Potion Drop 1: Silent Potion
+Defect Ruby Key: Defect Card Reward
+Defect Act 1 Campfire 1: Gremlin Trap
+Defect Act 1 Campfire 2: Defect Potion
+Defect Reached Floor 1: Defect Card Reward
+Defect Reached Floor 2: Watcher 15 Gold
+Defect Reached Floor 3: Combat Buff
+Defect Reached Floor 4: Ironclad Potion
+Defect Reached Floor 5: CAW CAW
+Defect Combat Gold 1: Silent One Gold
+Defect Combat Gold 2: Watcher One Gold
+Defect Combat Gold 3: Defect Progressive Smith
+Defect Shop Slot 1: Ironclad Shop Card Slot
+Defect Shop Slot 2: Defect 30 Gold
+Defect Shop Slot 3: Defect 15 Gold
+Defect Shop Slot 4: Silent Ascension Down
+Defect Shop Slot 5: Silent Shop Potion Slot
+Defect Card Reward 3: Silent Card Reward
+Defect Card Reward 4: Silent Ascension Down
+Defect Relic 1: Defect 30 Gold
+Defect Relic 2: Silent 15 Gold
+Defect Potion Drop 2: Silent Progressive Rest
+Defect Sapphire Key: Watcher One Gold
+Defect Reached Floor 6: Defect 15 Gold
+Defect Reached Floor 7: Ironclad Potion
+Defect Reached Floor 8: Combat Buff
+Defect Reached Floor 9: Combat Buff
+Defect Reached Floor 10: CAW CAW
+Defect Combat Gold 4: CAW CAW
+Defect Combat Gold 5: Ironclad Boss Gold
+Defect Combat Gold 6: Defect Boss Relic
+Defect Combat Gold 7: Watcher Progressive Shop Remove
+Defect Relic 3: Silent Shop Card Slot
+Defect Potion Drop 3: Silent Card Reward
+Defect Reached Floor 11: Defect Ascension Down
+Defect Reached Floor 12: Defect Shop Card Slot
+Defect Reached Floor 13: Defect Progressive Shop Remove
+Defect Reached Floor 14: Silent Progressive Smith
+Defect Reached Floor 15: Silent One Gold
+Defect Combat Gold 8: Defect Shop Relic Slot
+Defect Act 1 Boss: Defect Beat Act 1 Boss
+Defect Rare Card Reward 1: Silent One Gold
+Defect Boss Relic 1: Watcher Ascension Down
+Defect Boss Gold 1: Defect Progressive Shop Remove
+Defect Reached Floor 16: Silent Relic
+Defect Reached Floor 17: Ironclad 15 Gold
+Defect Card Reward 5: Silent Card Reward
+Defect Card Reward 6: Ironclad Potion
+Defect Potion Drop 4: Defect 15 Gold
+Defect Act 2 Campfire 1: Silent Neutral Shop Card Slot
+Defect Act 2 Campfire 2: Watcher Card Reward
+Defect Reached Floor 18: Defect Progressive Smith
+Defect Reached Floor 19: Ironclad Progressive Shop Remove
+Defect Reached Floor 20: Watcher 30 Gold
+Defect Reached Floor 21: Combat Buff
+Defect Reached Floor 22: Ironclad Card Reward
+Defect Combat Gold 9: Defect Relic
+Defect Combat Gold 10: Defect 15 Gold
+Defect Combat Gold 11: Silent Ascension Down
+Defect Shop Slot 6: Combat Buff
+Defect Shop Slot 7: Defect Boss Relic
+Defect Shop Slot 8: Watcher Ascension Down
+Defect Shop Slot 9: Combat Buff
+Defect Shop Slot 10: Ironclad Progressive Shop Remove
+Defect Card Reward 7: Watcher Card Reward
+Defect Relic 4: Watcher One Gold
+Defect Relic 5: Ironclad Shop Relic Slot
+Defect Potion Drop 5: Watcher 30 Gold
+Defect Reached Floor 23: Ironclad Card Reward
+Defect Reached Floor 24: Silent Boss Relic
+Defect Reached Floor 25: CAW CAW
+Defect Reached Floor 26: Silent Card Reward
+Defect Reached Floor 27: CAW CAW
+Defect Combat Gold 12: Ironclad 15 Gold
+Defect Combat Gold 13: Ironclad Potion
+Defect Card Reward 8: CAW CAW
+Defect Relic 6: Silent 15 Gold
+Defect Potion Drop 6: Watcher Rare Card Reward
+Defect Reached Floor 28: Watcher Potion
+Defect Reached Floor 29: Silent Ascension Down
+Defect Reached Floor 30: Defect Card Reward
+Defect Reached Floor 31: Ironclad Shop Card Slot
+Defect Reached Floor 32: Combat Buff
+Defect Combat Gold 14: Watcher 15 Gold
+Defect Combat Gold 15: Silent 30 Gold
+Defect Combat Gold 16: Silent Boss Gold
+Defect Act 2 Boss: Defect Beat Act 2 Boss
+Defect Rare Card Reward 2: Watcher 15 Gold
+Defect Boss Relic 2: Watcher Unlock
+Defect Boss Gold 2: Defect Card Reward
+Defect Reached Floor 33: Silent One Gold
+Defect Reached Floor 34: Silent Emerald Key
+Defect Card Reward 9: Ironclad Progressive Smith
+Defect Card Reward 10: Defect Ascension Down
+Defect Potion Drop 7: Silent Card Reward
+Defect Act 3 Campfire 1: Watcher Ascension Down
+Defect Act 3 Campfire 2: Defect One Gold
+Defect Reached Floor 35: Combat Buff
+Defect Reached Floor 36: Strong Debuff Trap
+Defect Reached Floor 37: Watcher Boss Relic
+Defect Reached Floor 38: Watcher Ascension Down
+Defect Reached Floor 39: Defect One Gold
+Defect Combat Gold 17: Ironclad One Gold
+Defect Combat Gold 18: Watcher Rare Card Reward
+Defect Combat Gold 19: Watcher Progressive Rest
+Defect Shop Slot 11: Combat Buff
+Defect Shop Slot 12: Watcher Progressive Smith
+Defect Shop Slot 13: Ironclad One Gold
+Defect Shop Slot 14: Debuff Trap
+Defect Shop Slot 15: Watcher Relic
+Defect Shop Slot 16: CAW CAW
+Defect Card Reward 11: Ironclad Ascension Down
+Defect Relic 7: Ironclad Shop Relic Slot
+Defect Relic 8: Silent 15 Gold
+Defect Potion Drop 8: Watcher Ascension Down
+Defect Reached Floor 40: Watcher Neutral Shop Card Slot
+Defect Reached Floor 41: Combat Buff
+Defect Reached Floor 42: Watcher Shop Card Slot
+Defect Reached Floor 43: Watcher Relic
+Defect Reached Floor 44: Watcher Boss Gold
+Defect Combat Gold 20: CAW CAW
+Defect Combat Gold 21: CAW CAW
+Defect Card Reward 12: Ironclad Ascension Down
+Defect Card Reward 13: Watcher Sapphire Key
+Defect Relic 9: Defect Shop Card Slot
+Defect Relic 10: Ironclad 15 Gold
+Defect Potion Drop 9: Watcher Shop Relic Slot
+Defect Emerald Key: Defect Relic
+Defect Reached Floor 45: Watcher Potion
+Defect Reached Floor 46: Silent Shop Relic Slot
+Defect Reached Floor 47: Defect Ruby Key
+Defect Reached Floor 48: Silent Potion
+Defect Reached Floor 49: Silent Ascension Down
+Defect Combat Gold 22: Ironclad Progressive Shop Remove
+Defect Combat Gold 23: Watcher Progressive Shop Remove
+Defect Combat Gold 24: Silent Ruby Key
+Defect Combat Gold 25: Combat Buff
+Defect Act 3 Boss: Defect Beat Act 3 Boss
+Defect Reached Floor 50: Defect One Gold
+Defect Reached Floor 51: Watcher Shop Card Slot
+Defect Reached Floor 52: Silent Relic
+Defect Heart Room: Defect Victory
+Defect Reached Floor 53: Watcher One Gold
+Defect Reached Floor 54: Ironclad One Gold
+Defect Reached Floor 55: Silent 30 Gold
+Defect Reached Floor 56: Ironclad Relic
+Ironclad Press Start: CAW CAW
+Ironclad Card Reward 1: Ironclad One Gold
+Ironclad Card Reward 2: Silent 15 Gold
+Ironclad Potion Drop 1: Silent Potion
+Ironclad Ruby Key: Ironclad Ascension Down
+Ironclad Act 1 Campfire 1: Defect Relic
+Ironclad Act 1 Campfire 2: Defect 15 Gold
+Ironclad Reached Floor 1: Defect One Gold
+Ironclad Reached Floor 2: Ironclad Ascension Down
+Ironclad Reached Floor 3: Silent One Gold
+Ironclad Reached Floor 4: CAW CAW
+Ironclad Reached Floor 5: Defect 15 Gold
+Ironclad Combat Gold 1: Silent 30 Gold
+Ironclad Combat Gold 2: Ironclad One Gold
+Ironclad Combat Gold 3: Silent 15 Gold
+Ironclad Shop Slot 1: Watcher Shop Card Slot
+Ironclad Shop Slot 2: CAW CAW
+Ironclad Shop Slot 3: Defect Neutral Shop Card Slot
+Ironclad Shop Slot 4: Silent Relic
+Ironclad Shop Slot 5: Silent Shop Potion Slot
+Ironclad Card Reward 3: Watcher 15 Gold
+Ironclad Card Reward 4: Watcher One Gold
+Ironclad Relic 1: CAW CAW
+Ironclad Relic 2: Ironclad Neutral Shop Card Slot
+Ironclad Potion Drop 2: Ironclad Ascension Down
+Ironclad Sapphire Key: Silent Shop Card Slot
+Ironclad Reached Floor 6: Silent One Gold
+Ironclad Reached Floor 7: Watcher Ascension Down
+Ironclad Reached Floor 8: Combat Buff
+Ironclad Reached Floor 9: Silent One Gold
+Ironclad Reached Floor 10: Watcher 15 Gold
+Ironclad Combat Gold 4: Silent 15 Gold
+Ironclad Combat Gold 5: Defect Ascension Down
+Ironclad Combat Gold 6: Silent Ascension Down
+Ironclad Combat Gold 7: Ironclad Ruby Key
+Ironclad Relic 3: Ironclad Boss Gold
+Ironclad Potion Drop 3: Ironclad Relic
+Ironclad Reached Floor 11: Defect Shop Potion Slot
+Ironclad Reached Floor 12: Silent Progressive Shop Remove
+Ironclad Reached Floor 13: Watcher 15 Gold
+Ironclad Reached Floor 14: Defect Relic
+Ironclad Reached Floor 15: Defect 15 Gold
+Ironclad Combat Gold 8: Defect Potion
+Ironclad Act 1 Boss: Ironclad Beat Act 1 Boss
+Ironclad Rare Card Reward 1: CAW CAW
+Ironclad Boss Relic 1: CAW CAW
+Ironclad Boss Gold 1: Watcher Ascension Down
+Ironclad Reached Floor 16: Silent One Gold
+Ironclad Reached Floor 17: Silent Relic
+Ironclad Card Reward 5: Watcher Card Reward
+Ironclad Card Reward 6: Watcher Potion
+Ironclad Potion Drop 4: Ironclad Relic
+Ironclad Act 2 Campfire 1: Combat Buff
+Ironclad Act 2 Campfire 2: Defect Emerald Key
+Ironclad Reached Floor 18: Defect Ascension Down
+Ironclad Reached Floor 19: Silent 15 Gold
+Ironclad Reached Floor 20: Silent Shop Card Slot
+Ironclad Reached Floor 21: Silent Potion
+Ironclad Reached Floor 22: Defect Relic
+Ironclad Combat Gold 9: Combat Buff
+Ironclad Combat Gold 10: Ironclad 30 Gold
+Ironclad Combat Gold 11: Ironclad One Gold
+Ironclad Shop Slot 6: Ironclad One Gold
+Ironclad Shop Slot 7: Silent 15 Gold
+Ironclad Shop Slot 8: Silent Progressive Rest
+Ironclad Shop Slot 9: Debuff Trap
+Ironclad Shop Slot 10: Ironclad 30 Gold
+Ironclad Card Reward 7: Watcher 30 Gold
+Ironclad Relic 4: Watcher 30 Gold
+Ironclad Relic 5: Silent Card Reward
+Ironclad Potion Drop 5: Defect 30 Gold
+Ironclad Reached Floor 23: Defect Shop Potion Slot
+Ironclad Reached Floor 24: Combat Buff
+Ironclad Reached Floor 25: Defect Potion
+Ironclad Reached Floor 26: Ironclad Emerald Key
+Ironclad Reached Floor 27: Defect 15 Gold
+Ironclad Combat Gold 12: Ironclad Shop Card Slot
+Ironclad Combat Gold 13: Silent Relic
+Ironclad Card Reward 8: Ironclad Card Reward
+Ironclad Relic 6: Defect 15 Gold
+Ironclad Potion Drop 6: Watcher Ascension Down
+Ironclad Reached Floor 28: Combat Buff
+Ironclad Reached Floor 29: Defect Card Reward
+Ironclad Reached Floor 30: Watcher Ascension Down
+Ironclad Reached Floor 31: Watcher Card Reward
+Ironclad Reached Floor 32: Watcher Potion
+Ironclad Combat Gold 14: Watcher Potion
+Ironclad Combat Gold 15: Combat Buff
+Ironclad Combat Gold 16: Watcher Ascension Down
+Ironclad Act 2 Boss: Ironclad Beat Act 2 Boss
+Ironclad Rare Card Reward 2: Ironclad Potion
+Ironclad Boss Relic 2: Silent 15 Gold
+Ironclad Boss Gold 2: Gremlin Trap
+Ironclad Reached Floor 33: Defect Ascension Down
+Ironclad Reached Floor 34: Defect Ascension Down
+Ironclad Card Reward 9: Defect One Gold
+Ironclad Card Reward 10: Defect Boss Gold
+Ironclad Potion Drop 7: Combat Buff
+Ironclad Act 3 Campfire 1: Ironclad Sapphire Key
+Ironclad Act 3 Campfire 2: Silent Card Reward
+Ironclad Reached Floor 35: Debuff Trap
+Ironclad Reached Floor 36: Watcher Potion
+Ironclad Reached Floor 37: Defect Ascension Down
+Ironclad Reached Floor 38: Ironclad Card Reward
+Ironclad Reached Floor 39: Ironclad 15 Gold
+Ironclad Combat Gold 17: Watcher Card Reward
+Ironclad Combat Gold 18: Ironclad Potion
+Ironclad Combat Gold 19: Defect Progressive Smith
+Ironclad Shop Slot 11: Ironclad 15 Gold
+Ironclad Shop Slot 12: Defect Progressive Rest
+Ironclad Shop Slot 13: Silent One Gold
+Ironclad Shop Slot 14: Ironclad Neutral Shop Card Slot
+Ironclad Shop Slot 15: Watcher Ascension Down
+Ironclad Shop Slot 16: Ironclad Potion
+Ironclad Card Reward 11: Ironclad 15 Gold
+Ironclad Relic 7: Ironclad 30 Gold
+Ironclad Relic 8: Silent Ascension Down
+Ironclad Potion Drop 8: Defect Boss Gold
+Ironclad Reached Floor 40: CAW CAW
+Ironclad Reached Floor 41: Watcher Relic
+Ironclad Reached Floor 42: Watcher One Gold
+Ironclad Reached Floor 43: Defect Potion
+Ironclad Reached Floor 44: Defect 30 Gold
+Ironclad Combat Gold 20: Combat Buff
+Ironclad Combat Gold 21: Silent Shop Card Slot
+Ironclad Card Reward 12: Watcher 30 Gold
+Ironclad Card Reward 13: Watcher Relic
+Ironclad Relic 9: Ironclad One Gold
+Ironclad Relic 10: Watcher 15 Gold
+Ironclad Potion Drop 9: CAW CAW
+Ironclad Emerald Key: Ironclad Card Reward
+Ironclad Reached Floor 45: Watcher Card Reward
+Ironclad Reached Floor 46: Watcher Shop Relic Slot
+Ironclad Reached Floor 47: CAW CAW
+Ironclad Reached Floor 48: Watcher 15 Gold
+Ironclad Reached Floor 49: Defect Ascension Down
+Ironclad Combat Gold 22: CAW CAW
+Ironclad Combat Gold 23: Silent Ascension Down
+Ironclad Combat Gold 24: Watcher Potion
+Ironclad Combat Gold 25: Silent Ascension Down
+Ironclad Act 3 Boss: Ironclad Beat Act 3 Boss
+Ironclad Reached Floor 50: Combat Buff
+Ironclad Reached Floor 51: Ironclad 15 Gold
+Ironclad Reached Floor 52: Defect One Gold
+Ironclad Heart Room: Ironclad Victory
+Ironclad Reached Floor 53: Combat Buff
+Ironclad Reached Floor 54: Combat Buff
+Ironclad Reached Floor 55: CAW CAW
+Ironclad Reached Floor 56: Defect Ascension Down
+Silent Card Reward 1: Ironclad Potion
+Silent Card Reward 2: CAW CAW
+Silent Potion Drop 1: Status Card Trap
+Silent Ruby Key: Silent Boss Gold
+Silent Act 1 Campfire 1: Defect Ascension Down
+Silent Act 1 Campfire 2: Defect 30 Gold
+Silent Reached Floor 1: Defect 15 Gold
+Silent Reached Floor 2: Watcher Shop Card Slot
+Silent Reached Floor 3: CAW CAW
+Silent Reached Floor 4: Defect Card Reward
+Silent Reached Floor 5: Defect 15 Gold
+Silent Combat Gold 1: Defect Rare Card Reward
+Silent Combat Gold 2: Ironclad Card Reward
+Silent Combat Gold 3: Ironclad One Gold
+Silent Shop Slot 1: Defect Shop Card Slot
+Silent Shop Slot 2: Ironclad 15 Gold
+Silent Shop Slot 3: Defect Unlock
+Silent Shop Slot 4: Ironclad 15 Gold
+Silent Shop Slot 5: Silent Ascension Down
+Silent Card Reward 3: Ironclad 15 Gold
+Silent Card Reward 4: Combat Buff
+Silent Relic 1: Silent Relic
+Silent Relic 2: Silent Progressive Shop Remove
+Silent Potion Drop 2: Silent One Gold
+Silent Sapphire Key: Defect Card Reward
+Silent Reached Floor 6: Watcher 15 Gold
+Silent Reached Floor 7: Ironclad Progressive Rest
+Silent Reached Floor 8: CAW CAW
+Silent Reached Floor 9: Silent One Gold
+Silent Reached Floor 10: Defect Shop Card Slot
+Silent Combat Gold 4: Watcher Card Reward
+Silent Combat Gold 5: Watcher 30 Gold
+Silent Combat Gold 6: Ironclad One Gold
+Silent Combat Gold 7: Ironclad 30 Gold
+Silent Relic 3: Combat Buff
+Silent Potion Drop 3: Defect Shop Potion Slot
+Silent Reached Floor 11: Watcher One Gold
+Silent Reached Floor 12: Defect Ascension Down
+Silent Reached Floor 13: Watcher 15 Gold
+Silent Reached Floor 14: Silent Potion
+Silent Reached Floor 15: Watcher Shop Potion Slot
+Silent Combat Gold 8: Watcher Card Reward
+Silent Act 1 Boss: Silent Beat Act 1 Boss
+Silent Rare Card Reward 1: Silent Sapphire Key
+Silent Boss Relic 1: Ironclad Relic
+Silent Boss Gold 1: Combat Buff
+Silent Reached Floor 16: Watcher 15 Gold
+Silent Reached Floor 17: Silent Shop Potion Slot
+Silent Card Reward 5: Defect Relic
+Silent Card Reward 6: Defect One Gold
+Silent Potion Drop 4: Defect Progressive Rest
+Silent Act 2 Campfire 1: Silent One Gold
+Silent Act 2 Campfire 2: Defect 30 Gold
+Silent Reached Floor 18: CAW CAW
+Silent Reached Floor 19: CAW CAW
+Silent Reached Floor 20: Silent Card Reward
+Silent Reached Floor 21: Silent 30 Gold
+Silent Reached Floor 22: Ironclad 15 Gold
+Silent Combat Gold 9: Ironclad 30 Gold
+Silent Combat Gold 10: Defect Rare Card Reward
+Silent Combat Gold 11: Ironclad Card Reward
+Silent Shop Slot 6: Defect Shop Relic Slot
+Silent Shop Slot 7: Combat Buff
+Silent Shop Slot 8: Silent 15 Gold
+Silent Shop Slot 9: Defect Potion
+Silent Shop Slot 10: Silent Ascension Down
+Silent Card Reward 7: Ironclad 30 Gold
+Silent Relic 4: Silent Ascension Down
+Silent Relic 5: Silent Ascension Down
+Silent Potion Drop 5: Watcher Progressive Rest
+Silent Reached Floor 23: Defect Relic
+Silent Reached Floor 24: Watcher One Gold
+Silent Reached Floor 25: Silent 30 Gold
+Silent Reached Floor 26: Ironclad Ascension Down
+Silent Reached Floor 27: Silent Relic
+Silent Combat Gold 12: Ironclad One Gold
+Silent Combat Gold 13: Ironclad Card Reward
+Silent Card Reward 8: Defect One Gold
+Silent Relic 6: Ironclad Ascension Down
+Silent Potion Drop 6: Silent 30 Gold
+Silent Reached Floor 28: Silent One Gold
+Silent Reached Floor 29: Combat Buff
+Silent Reached Floor 30: Watcher Neutral Shop Card Slot
+Silent Reached Floor 31: Watcher Ascension Down
+Silent Reached Floor 32: Silent Card Reward
+Silent Combat Gold 14: Silent Relic
+Silent Combat Gold 15: Watcher Ascension Down
+Silent Combat Gold 16: Silent Progressive Smith
+Silent Act 2 Boss: Silent Beat Act 2 Boss
+Silent Rare Card Reward 2: Ironclad Rare Card Reward
+Silent Boss Relic 2: Silent Unlock
+Silent Boss Gold 2: Ironclad Shop Card Slot
+Silent Reached Floor 33: Watcher Ascension Down
+Silent Reached Floor 34: CAW CAW
+Silent Card Reward 9: Ironclad One Gold
+Silent Card Reward 10: Silent Card Reward
+Silent Potion Drop 7: Watcher Card Reward
+Silent Act 3 Campfire 1: Ironclad Ascension Down
+Silent Act 3 Campfire 2: Watcher Progressive Smith
+Silent Reached Floor 35: Silent Shop Card Slot
+Silent Reached Floor 36: Silent Ascension Down
+Silent Reached Floor 37: Watcher Ascension Down
+Silent Reached Floor 38: Ironclad Ascension Down
+Silent Reached Floor 39: Watcher 15 Gold
+Silent Combat Gold 17: Silent Progressive Smith
+Silent Combat Gold 18: Watcher 15 Gold
+Silent Combat Gold 19: Watcher 15 Gold
+Silent Shop Slot 11: Ironclad Ascension Down
+Silent Shop Slot 12: Silent 30 Gold
+Silent Shop Slot 13: Silent Relic
+Silent Shop Slot 14: Watcher One Gold
+Silent Shop Slot 15: Defect Neutral Shop Card Slot
+Silent Shop Slot 16: Silent Rare Card Reward
+Silent Card Reward 11: Silent Relic
+Silent Relic 7: Silent 15 Gold
+Silent Relic 8: Defect Ascension Down
+Silent Potion Drop 8: Silent 15 Gold
+Silent Reached Floor 40: Ironclad Progressive Smith
+Silent Reached Floor 41: Defect Potion
+Silent Reached Floor 42: Ironclad 15 Gold
+Silent Reached Floor 43: Watcher Card Reward
+Silent Reached Floor 44: Silent Ascension Down
+Silent Combat Gold 20: Defect 15 Gold
+Silent Combat Gold 21: Silent One Gold
+Silent Card Reward 12: Silent Card Reward
+Silent Card Reward 13: Combat Buff
+Silent Relic 9: Silent Boss Relic
+Silent Relic 10: Watcher 15 Gold
+Silent Potion Drop 9: Defect One Gold
+Silent Emerald Key: Watcher Ascension Down
+Silent Reached Floor 45: Combat Buff
+Silent Reached Floor 46: Defect Potion
+Silent Reached Floor 47: Ironclad One Gold
+Silent Reached Floor 48: Ironclad Shop Card Slot
+Silent Reached Floor 49: Silent Potion
+Silent Combat Gold 22: Silent Ascension Down
+Silent Combat Gold 23: Watcher Emerald Key
+Silent Combat Gold 24: Ironclad Boss Relic
+Silent Combat Gold 25: Ironclad One Gold
+Silent Act 3 Boss: Silent Beat Act 3 Boss
+Silent Reached Floor 50: Defect One Gold
+Silent Reached Floor 51: Ironclad Card Reward
+Silent Reached Floor 52: Ironclad Ascension Down
+Silent Heart Room: Silent Victory
+Silent Reached Floor 53: Defect Ascension Down
+Silent Reached Floor 54: Watcher 15 Gold
+Silent Reached Floor 55: Silent Potion
+Silent Reached Floor 56: Ironclad Ascension Down
+Watcher Press Start: Defect Shop Relic Slot
+Watcher Card Reward 1: Watcher Potion
+Watcher Card Reward 2: Watcher Shop Card Slot
+Watcher Potion Drop 1: Ironclad Relic
+Watcher Ruby Key: Ironclad Relic
+Watcher Act 1 Campfire 1: Defect Ascension Down
+Watcher Act 1 Campfire 2: CAW CAW
+Watcher Reached Floor 1: Watcher Boss Gold
+Watcher Reached Floor 2: Watcher Ascension Down
+Watcher Reached Floor 3: Ironclad Ascension Down
+Watcher Reached Floor 4: Watcher Progressive Smith
+Watcher Reached Floor 5: Ironclad Shop Potion Slot
+Watcher Combat Gold 1: Combat Buff
+Watcher Combat Gold 2: Ironclad 15 Gold
+Watcher Combat Gold 3: Ironclad Shop Potion Slot
+Watcher Shop Slot 1: Defect 15 Gold
+Watcher Shop Slot 2: Ironclad Ascension Down
+Watcher Shop Slot 3: Defect Ascension Down
+Watcher Shop Slot 4: Combat Buff
+Watcher Shop Slot 5: Watcher Ascension Down
+Watcher Card Reward 3: Defect 15 Gold
+Watcher Card Reward 4: Defect Sapphire Key
+Watcher Relic 1: CAW CAW
+Watcher Relic 2: Ironclad Ascension Down
+Watcher Potion Drop 2: Ironclad Relic
+Watcher Sapphire Key: Ironclad Ascension Down
+Watcher Reached Floor 6: Watcher Progressive Shop Remove
+Watcher Reached Floor 7: Silent 15 Gold
+Watcher Reached Floor 8: Ironclad Card Reward
+Watcher Reached Floor 9: Defect 15 Gold
+Watcher Reached Floor 10: Silent Shop Relic Slot
+Watcher Combat Gold 4: Defect Card Reward
+Watcher Combat Gold 5: Watcher Card Reward
+Watcher Combat Gold 6: Ironclad Potion
+Watcher Combat Gold 7: Watcher Card Reward
+Watcher Relic 3: Silent 15 Gold
+Watcher Potion Drop 3: Watcher Relic
+Watcher Reached Floor 11: CAW CAW
+Watcher Reached Floor 12: Ironclad Shop Potion Slot
+Watcher Reached Floor 13: Ironclad 15 Gold
+Watcher Reached Floor 14: Ironclad 15 Gold
+Watcher Reached Floor 15: Defect One Gold
+Watcher Combat Gold 8: Watcher 15 Gold
+Watcher Act 1 Boss: Watcher Beat Act 1 Boss
+Watcher Rare Card Reward 1: Silent Progressive Rest
+Watcher Boss Relic 1: Ironclad One Gold
+Watcher Boss Gold 1: Combat Buff
+Watcher Reached Floor 16: Ironclad Ascension Down
+Watcher Reached Floor 17: Defect Potion
+Watcher Card Reward 5: Ironclad Ascension Down
+Watcher Card Reward 6: Watcher Relic
+Watcher Potion Drop 4: Silent 15 Gold
+Watcher Act 2 Campfire 1: CAW CAW
+Watcher Act 2 Campfire 2: Watcher Ascension Down
+Watcher Reached Floor 18: Ironclad Relic
+Watcher Reached Floor 19: Silent Neutral Shop Card Slot
+Watcher Reached Floor 20: Ironclad Card Reward
+Watcher Reached Floor 21: Silent One Gold
+Watcher Reached Floor 22: Ironclad 15 Gold
+Watcher Combat Gold 9: Defect Progressive Shop Remove
+Watcher Combat Gold 10: Ironclad One Gold
+Watcher Combat Gold 11: CAW CAW
+Watcher Shop Slot 6: Defect One Gold
+Watcher Shop Slot 7: Ironclad Progressive Smith
+Watcher Shop Slot 8: Defect Card Reward
+Watcher Shop Slot 9: Watcher Relic
+Watcher Shop Slot 10: Ironclad One Gold
+Watcher Card Reward 7: Silent Card Reward
+Watcher Relic 4: Watcher Shop Potion Slot
+Watcher Relic 5: Combat Buff
+Watcher Potion Drop 5: Ironclad Progressive Rest
+Watcher Reached Floor 23: Watcher 15 Gold
+Watcher Reached Floor 24: Ironclad 15 Gold
+Watcher Reached Floor 25: Defect One Gold
+Watcher Reached Floor 26: Combat Buff
+Watcher Reached Floor 27: Silent One Gold
+Watcher Combat Gold 12: Watcher Shop Relic Slot
+Watcher Combat Gold 13: Defect Ascension Down
+Watcher Card Reward 8: Watcher Ascension Down
+Watcher Relic 6: Defect 15 Gold
+Watcher Potion Drop 6: Silent 15 Gold
+Watcher Reached Floor 28: Silent Shop Relic Slot
+Watcher Reached Floor 29: Silent Ascension Down
+Watcher Reached Floor 30: Silent Potion
+Watcher Reached Floor 31: Silent Progressive Shop Remove
+Watcher Reached Floor 32: Silent Ascension Down
+Watcher Combat Gold 14: Watcher One Gold
+Watcher Combat Gold 15: Ironclad Relic
+Watcher Combat Gold 16: Defect Card Reward
+Watcher Act 2 Boss: Watcher Beat Act 2 Boss
+Watcher Rare Card Reward 2: Defect Card Reward
+Watcher Boss Relic 2: Ironclad Unlock
+Watcher Boss Gold 2: Silent 15 Gold
+Watcher Reached Floor 33: Watcher Potion
+Watcher Reached Floor 34: Combat Buff
+Watcher Card Reward 9: Defect Ascension Down
+Watcher Card Reward 10: Defect Shop Card Slot
+Watcher Potion Drop 7: Defect Ascension Down
+Watcher Act 3 Campfire 1: Watcher One Gold
+Watcher Act 3 Campfire 2: Defect Card Reward
+Watcher Reached Floor 35: Silent Potion
+Watcher Reached Floor 36: Defect Potion
+Watcher Reached Floor 37: Ironclad Ascension Down
+Watcher Reached Floor 38: Ironclad Ascension Down
+Watcher Reached Floor 39: Ironclad Relic
+Watcher Combat Gold 17: Defect Relic
+Watcher Combat Gold 18: Defect 15 Gold
+Watcher Combat Gold 19: CAW CAW
+Watcher Shop Slot 11: Watcher Ruby Key
+Watcher Shop Slot 12: Watcher Progressive Rest
+Watcher Shop Slot 13: Ironclad Progressive Rest
+Watcher Shop Slot 14: Defect Card Reward
+Watcher Shop Slot 15: Combat Buff
+Watcher Shop Slot 16: Watcher Shop Potion Slot
+Watcher Card Reward 11: Ironclad Shop Relic Slot
+Watcher Relic 7: Combat Buff
+Watcher Relic 8: Watcher 30 Gold
+Watcher Potion Drop 8: Defect One Gold
+Watcher Reached Floor 40: Silent One Gold
+Watcher Reached Floor 41: Watcher Relic
+Watcher Reached Floor 42: Watcher Relic
+Watcher Reached Floor 43: Silent Ascension Down
+Watcher Reached Floor 44: Defect Ascension Down
+Watcher Combat Gold 20: CAW CAW
+Watcher Combat Gold 21: Combat Buff
+Watcher Card Reward 12: Ironclad Boss Relic
+Watcher Card Reward 13: Defect 15 Gold
+Watcher Relic 9: Ironclad Card Reward
+Watcher Relic 10: Watcher Card Reward
+Watcher Potion Drop 9: Defect Relic
+Watcher Emerald Key: Silent Rare Card Reward
+Watcher Reached Floor 45: Ironclad 15 Gold
+Watcher Reached Floor 46: Silent Ascension Down
+Watcher Reached Floor 47: Silent One Gold
+Watcher Reached Floor 48: Defect Ascension Down
+Watcher Reached Floor 49: Ironclad One Gold
+Watcher Combat Gold 22: Ironclad Rare Card Reward
+Watcher Combat Gold 23: Watcher One Gold
+Watcher Combat Gold 24: Ironclad 30 Gold
+Watcher Combat Gold 25: Watcher Boss Relic
+Watcher Act 3 Boss: Watcher Beat Act 3 Boss
+Watcher Reached Floor 50: Silent Card Reward
+Watcher Reached Floor 51: Combat Buff
+Watcher Reached Floor 52: Silent 15 Gold
+Watcher Heart Room: Watcher Victory
+Watcher Reached Floor 53: CAW CAW
+Watcher Reached Floor 54: Ironclad One Gold
+Watcher Reached Floor 55: Watcher Relic
+Watcher Reached Floor 56: Ironclad Card Reward
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Silent Act 1 Campfire 2: Defect 30 Gold
+  Silent Combat Gold 1: Defect Rare Card Reward
+  Silent Combat Gold 2: Ironclad Card Reward
+  Silent Reached Floor 10: Defect Shop Card Slot
+  Silent Reached Floor 2: Watcher Shop Card Slot
+  Silent Reached Floor 4: Defect Card Reward
+  Silent Reached Floor 7: Ironclad Progressive Rest
+  Silent Ruby Key: Silent Boss Gold
+}
+2: {
+  Silent Shop Slot 1: Defect Shop Card Slot
+  Silent Shop Slot 3: Defect Unlock
+}
+3: {
+  Defect Card Reward 1: Defect Relic
+  Defect Card Reward 2: Defect Progressive Rest
+  Defect Combat Gold 3: Defect Progressive Smith
+  Defect Potion Drop 2: Silent Progressive Rest
+  Defect Press Start: Defect 30 Gold
+  Defect Reached Floor 1: Defect Card Reward
+  Defect Relic 1: Defect 30 Gold
+  Defect Ruby Key: Defect Card Reward
+}
+4: {
+  Defect Card Reward 3: Silent Card Reward
+  Defect Combat Gold 5: Ironclad Boss Gold
+  Defect Combat Gold 6: Defect Boss Relic
+  Defect Combat Gold 7: Watcher Progressive Shop Remove
+  Defect Combat Gold 8: Defect Shop Relic Slot
+  Defect Potion Drop 3: Silent Card Reward
+  Defect Reached Floor 12: Defect Shop Card Slot
+  Defect Reached Floor 13: Defect Progressive Shop Remove
+  Defect Reached Floor 14: Silent Progressive Smith
+  Defect Relic 3: Silent Shop Card Slot
+  Defect Shop Slot 1: Ironclad Shop Card Slot
+  Defect Shop Slot 2: Defect 30 Gold
+  Defect Shop Slot 5: Silent Shop Potion Slot
+}
+5: {
+  Defect Act 1 Boss: Defect Beat Act 1 Boss
+  Defect Reached Floor 16: Silent Relic
+  Silent Combat Gold 8: Watcher Card Reward
+  Silent Potion Drop 3: Defect Shop Potion Slot
+  Silent Reached Floor 15: Watcher Shop Potion Slot
+  Silent Relic 1: Silent Relic
+  Silent Relic 2: Silent Progressive Shop Remove
+  Silent Sapphire Key: Defect Card Reward
+}
+6: {
+  Defect Act 2 Campfire 1: Silent Neutral Shop Card Slot
+  Defect Act 2 Campfire 2: Watcher Card Reward
+  Defect Boss Gold 1: Defect Progressive Shop Remove
+  Defect Card Reward 5: Silent Card Reward
+  Defect Combat Gold 9: Defect Relic
+  Defect Reached Floor 18: Defect Progressive Smith
+  Defect Reached Floor 19: Ironclad Progressive Shop Remove
+  Defect Reached Floor 20: Watcher 30 Gold
+  Defect Reached Floor 22: Ironclad Card Reward
+  Silent Combat Gold 4: Watcher Card Reward
+  Silent Combat Gold 5: Watcher 30 Gold
+  Silent Combat Gold 7: Ironclad 30 Gold
+}
+7: {
+  Silent Act 1 Boss: Silent Beat Act 1 Boss
+  Silent Reached Floor 17: Silent Shop Potion Slot
+}
+8: {
+  Silent Act 2 Campfire 2: Defect 30 Gold
+  Silent Boss Relic 1: Ironclad Relic
+  Silent Card Reward 5: Defect Relic
+  Silent Combat Gold 10: Defect Rare Card Reward
+  Silent Combat Gold 11: Ironclad Card Reward
+  Silent Combat Gold 9: Ironclad 30 Gold
+  Silent Potion Drop 4: Defect Progressive Rest
+  Silent Rare Card Reward 1: Silent Sapphire Key
+  Silent Reached Floor 20: Silent Card Reward
+  Silent Reached Floor 21: Silent 30 Gold
+}
+9: {
+  Defect Card Reward 7: Watcher Card Reward
+  Defect Combat Gold 15: Silent 30 Gold
+  Defect Combat Gold 16: Silent Boss Gold
+  Defect Potion Drop 5: Watcher 30 Gold
+  Defect Potion Drop 6: Watcher Rare Card Reward
+  Defect Reached Floor 23: Ironclad Card Reward
+  Defect Reached Floor 24: Silent Boss Relic
+  Defect Reached Floor 26: Silent Card Reward
+  Defect Reached Floor 30: Defect Card Reward
+  Defect Reached Floor 31: Ironclad Shop Card Slot
+  Defect Shop Slot 10: Ironclad Progressive Shop Remove
+  Defect Shop Slot 7: Defect Boss Relic
+}
+10: {
+  Defect Relic 5: Ironclad Shop Relic Slot
+  Silent Shop Slot 6: Defect Shop Relic Slot
+}
+11: {
+  Defect Act 2 Boss: Defect Beat Act 2 Boss
+  Defect Reached Floor 34: Silent Emerald Key
+}
+12: {
+  Defect Boss Gold 2: Defect Card Reward
+  Defect Boss Relic 2: Watcher Unlock
+  Defect Card Reward 9: Ironclad Progressive Smith
+  Defect Combat Gold 18: Watcher Rare Card Reward
+  Defect Combat Gold 19: Watcher Progressive Rest
+  Defect Potion Drop 7: Silent Card Reward
+  Defect Reached Floor 37: Watcher Boss Relic
+}
+13: {
+  Watcher Card Reward 2: Watcher Shop Card Slot
+  Watcher Card Reward 4: Defect Sapphire Key
+  Watcher Combat Gold 3: Ironclad Shop Potion Slot
+  Watcher Combat Gold 4: Defect Card Reward
+  Watcher Combat Gold 5: Watcher Card Reward
+  Watcher Combat Gold 7: Watcher Card Reward
+  Watcher Potion Drop 1: Ironclad Relic
+  Watcher Potion Drop 2: Ironclad Relic
+  Watcher Potion Drop 3: Watcher Relic
+  Watcher Press Start: Defect Shop Relic Slot
+  Watcher Reached Floor 1: Watcher Boss Gold
+  Watcher Reached Floor 10: Silent Shop Relic Slot
+  Watcher Reached Floor 12: Ironclad Shop Potion Slot
+  Watcher Reached Floor 4: Watcher Progressive Smith
+  Watcher Reached Floor 5: Ironclad Shop Potion Slot
+  Watcher Reached Floor 6: Watcher Progressive Shop Remove
+  Watcher Reached Floor 8: Ironclad Card Reward
+  Watcher Ruby Key: Ironclad Relic
+}
+14: {
+  Watcher Act 1 Boss: Watcher Beat Act 1 Boss
+}
+15: {
+  Watcher Card Reward 6: Watcher Relic
+  Watcher Combat Gold 9: Defect Progressive Shop Remove
+  Watcher Rare Card Reward 1: Silent Progressive Rest
+  Watcher Reached Floor 18: Ironclad Relic
+  Watcher Reached Floor 19: Silent Neutral Shop Card Slot
+  Watcher Reached Floor 20: Ironclad Card Reward
+  Watcher Shop Slot 7: Ironclad Progressive Smith
+  Watcher Shop Slot 8: Defect Card Reward
+  Watcher Shop Slot 9: Watcher Relic
+}
+16: {
+  Silent Card Reward 7: Ironclad 30 Gold
+  Silent Combat Gold 13: Ironclad Card Reward
+  Silent Potion Drop 5: Watcher Progressive Rest
+  Silent Potion Drop 6: Silent 30 Gold
+  Silent Reached Floor 23: Defect Relic
+  Silent Reached Floor 25: Silent 30 Gold
+  Silent Reached Floor 27: Silent Relic
+  Silent Reached Floor 30: Watcher Neutral Shop Card Slot
+  Silent Reached Floor 32: Silent Card Reward
+}
+17: {
+  Silent Combat Gold 14: Silent Relic
+  Silent Combat Gold 16: Silent Progressive Smith
+  Watcher Card Reward 7: Silent Card Reward
+  Watcher Combat Gold 12: Watcher Shop Relic Slot
+  Watcher Potion Drop 5: Ironclad Progressive Rest
+  Watcher Relic 4: Watcher Shop Potion Slot
+}
+18: {
+  Watcher Combat Gold 15: Ironclad Relic
+  Watcher Reached Floor 28: Silent Shop Relic Slot
+  Watcher Reached Floor 31: Silent Progressive Shop Remove
+}
+19: {
+  Silent Act 2 Boss: Silent Beat Act 2 Boss
+}
+20: {
+  Silent Act 3 Campfire 2: Watcher Progressive Smith
+  Silent Boss Gold 2: Ironclad Shop Card Slot
+  Silent Card Reward 10: Silent Card Reward
+  Silent Combat Gold 17: Silent Progressive Smith
+  Silent Potion Drop 7: Watcher Card Reward
+  Silent Rare Card Reward 2: Ironclad Rare Card Reward
+  Silent Reached Floor 35: Silent Shop Card Slot
+  Silent Shop Slot 13: Silent Relic
+  Silent Shop Slot 15: Defect Neutral Shop Card Slot
+  Silent Shop Slot 16: Silent Rare Card Reward
+}
+21: {
+  Watcher Act 2 Boss: Watcher Beat Act 2 Boss
+}
+22: {
+  Watcher Boss Relic 2: Ironclad Unlock
+  Watcher Card Reward 10: Defect Shop Card Slot
+  Watcher Combat Gold 17: Defect Relic
+  Watcher Reached Floor 39: Ironclad Relic
+}
+23: {
+  Ironclad Act 1 Boss: Ironclad Beat Act 1 Boss
+  Ironclad Act 1 Campfire 1: Defect Relic
+  Ironclad Combat Gold 7: Ironclad Ruby Key
+  Ironclad Reached Floor 12: Silent Progressive Shop Remove
+  Ironclad Reached Floor 14: Defect Relic
+  Ironclad Reached Floor 17: Silent Relic
+  Ironclad Relic 2: Ironclad Neutral Shop Card Slot
+  Ironclad Relic 3: Ironclad Boss Gold
+  Ironclad Sapphire Key: Silent Shop Card Slot
+  Ironclad Shop Slot 1: Watcher Shop Card Slot
+  Ironclad Shop Slot 3: Defect Neutral Shop Card Slot
+  Ironclad Shop Slot 4: Silent Relic
+  Ironclad Shop Slot 5: Silent Shop Potion Slot
+}
+24: {
+  Ironclad Act 2 Campfire 2: Defect Emerald Key
+  Ironclad Card Reward 5: Watcher Card Reward
+  Ironclad Card Reward 8: Ironclad Card Reward
+  Ironclad Combat Gold 12: Ironclad Shop Card Slot
+  Ironclad Potion Drop 5: Defect 30 Gold
+  Ironclad Reached Floor 26: Ironclad Emerald Key
+  Ironclad Relic 4: Watcher 30 Gold
+  Ironclad Shop Slot 10: Ironclad 30 Gold
+  Ironclad Shop Slot 8: Silent Progressive Rest
+}
+25: {
+  Silent Combat Gold 23: Watcher Emerald Key
+  Silent Combat Gold 24: Ironclad Boss Relic
+  Silent Reached Floor 40: Ironclad Progressive Smith
+  Silent Reached Floor 48: Ironclad Shop Card Slot
+  Silent Relic 9: Silent Boss Relic
+}
+26: {
+  Ironclad Act 2 Boss: Ironclad Beat Act 2 Boss
+  Silent Act 3 Boss: Silent Beat Act 3 Boss
+  Silent Reached Floor 51: Ironclad Card Reward
+}
+27: {
+  Ironclad Act 3 Campfire 1: Ironclad Sapphire Key
+  Ironclad Card Reward 10: Defect Boss Gold
+  Ironclad Combat Gold 19: Defect Progressive Smith
+  Ironclad Shop Slot 12: Defect Progressive Rest
+}
+28: {
+  Defect Card Reward 13: Watcher Sapphire Key
+  Defect Combat Gold 22: Ironclad Progressive Shop Remove
+  Defect Combat Gold 23: Watcher Progressive Shop Remove
+  Defect Combat Gold 24: Silent Ruby Key
+  Defect Potion Drop 9: Watcher Shop Relic Slot
+  Defect Reached Floor 40: Watcher Neutral Shop Card Slot
+  Defect Reached Floor 42: Watcher Shop Card Slot
+  Defect Reached Floor 43: Watcher Relic
+  Defect Reached Floor 44: Watcher Boss Gold
+  Defect Reached Floor 47: Defect Ruby Key
+}
+29: {
+  Silent Heart Room: Silent Victory
+  Watcher Shop Slot 11: Watcher Ruby Key
+  Watcher Shop Slot 12: Watcher Progressive Rest
+  Watcher Shop Slot 13: Ironclad Progressive Rest
+}
+30: {
+  Ironclad Card Reward 13: Watcher Relic
+  Ironclad Reached Floor 41: Watcher Relic
+  Ironclad Reached Floor 44: Defect 30 Gold
+  Watcher Reached Floor 41: Watcher Relic
+}
+31: {
+  Defect Act 3 Boss: Defect Beat Act 3 Boss
+  Defect Shop Slot 12: Watcher Progressive Smith
+  Watcher Card Reward 12: Ironclad Boss Relic
+  Watcher Combat Gold 25: Watcher Boss Relic
+}
+32: {
+  Defect Heart Room: Defect Victory
+  Ironclad Act 3 Boss: Ironclad Beat Act 3 Boss
+  Watcher Act 3 Boss: Watcher Beat Act 3 Boss
+}
+33: {
+  Ironclad Heart Room: Ironclad Victory
+  Watcher Heart Room: Watcher Victory
+}

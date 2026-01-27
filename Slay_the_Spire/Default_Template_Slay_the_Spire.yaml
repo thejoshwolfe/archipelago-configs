@@ -32,9 +32,9 @@ description: Default Slay the Spire Template
 
 game: Slay the Spire
 requires:
-  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Slay the Spire: 2.2.1 # Version of the world required for this yaml to work as expected.
+    Slay the Spire: 2.3.1 # Version of the world required for this yaml to work as expected.
 
 Slay the Spire:
   ################
@@ -80,6 +80,7 @@ Slay the Spire:
     # 'Automaton'
     # 'Snecko'
     # 'Collector'
+    # 'AwakenedOne'
     ['Ironclad', 'Silent', 'Defect', 'Watcher']
 
   num_chars_goal:
@@ -87,12 +88,12 @@ Slay the Spire:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 18
+    # Maximum value is 19
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-18: 0 # random value between 0 and 18
+    random-range-0-19: 0 # random value between 0 and 19
 
   ascension:
     # What Ascension do you wish to play with.
@@ -175,6 +176,7 @@ Slay the Spire:
     automaton: 0
     snecko: 0
     collector: 0
+    awakenedone: 0
     '': 50
 
   advanced_characters:
@@ -202,6 +204,7 @@ Slay the Spire:
       ascension_down: 0
       downfall: 0
       final_act: 1
+      key_sanity: 0
 
   pick_num_characters:
     # Randomly select from the configured characters this many characters to generate for.
@@ -216,12 +219,12 @@ Slay the Spire:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 17
+    # Maximum value is 18
     2: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-17: 0 # random value between 0 and 17
+    random-range-0-18: 0 # random value between 0 and 18
 
   seeded:
     # Whether each character should have a fixed seed to climb the spire with or not.
@@ -249,6 +252,12 @@ Slay the Spire:
 
   potion_sanity:
     # Whether to enable shuffling potion drops into the multiworld; adds 9 locations per character.
+    'false': 50
+    'true': 0
+
+  key_sanity:
+    # Whether the keys needed to enter the final act should be shuffled into the multiworld;
+    # adds 3 locations per character
     'false': 50
     'true': 0
 
@@ -365,6 +374,17 @@ Slay the Spire:
     # Whether the MC should talk about AP events.
     'false': 0
     'true': 50
+
+  filler_weights:
+    # The list of filler and corresponding weights that will be added to the item pool
+    # 1 Gold - One gold, character bound
+    # 5 Gold - Five gold, character bound
+    # CAW CAW - CAW CAW
+    # Combat Buff - Similar to traps in function, but beneficial instead of detrimental, not character bound
+    1 Gold: 40
+    5 Gold: 60
+    CAW CAW: 0
+    Combat Buff: 0
 
   ###########################
   # Item & Location Options #
