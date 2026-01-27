@@ -5,7 +5,7 @@ game: Ship of Harkinian
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Ship of Harkinian: 1.0.0 # Version of the world required for this yaml to work as expected.
+    Ship of Harkinian: 1.2.0 # Version of the world required for this yaml to work as expected.
 Ship of Harkinian:
 
   # Goal
@@ -39,25 +39,54 @@ Ship of Harkinian:
   jabu_jabu: closed
   lock_overworld_doors: 'false'
 
+  # All tricks are out of logic
+  enable_all_tricks: 'false'
+  tricks_in_logic: []
+
   # Randomized
   starting_age:
     child: 1
     adult: 1
+  shuffle_kokiri_sword: 'true'
   shuffle_skull_tokens: all
+  shuffle_songs: anywhere
+  shuffle_ocarinas: 'true'
   shuffle_shops: 'true'
   shuffle_shops_item_amount: '4'
   shuffle_shops_minimum_price: '1'
   shuffle_shops_maximum_price: '210'
-  shuffle_scrubs: 'true'
+  shuffle_scrubs: all
   shuffle_scrubs_minimum_price: '1'
-  shuffle_scrubs_maximum_price: '10'
+  shuffle_scrubs_maximum_price: '10' # You can get 4 scrubs in one spot. Don't make me backtrack.
   shuffle_merchants: all
+  shuffle_merchants_minimum_price: '1'
+  shuffle_merchants_maximum_price: '200'
   shuffle_adult_trade_items: 'true'
-  key_rings: 'true'
+  shuffle_gerudo_membership_card: 'true'
+  small_key_shuffle: anywhere
+  boss_key_shuffle: anywhere
+
+  # Only save the bottom left carpenter and get the membership card location check.
+  fortress_carpenters: fast
+  gerudo_fortress_key_shuffle: vanilla
+  # All other small keys are key rings.
+  key_rings: selection
+  key_rings_count: '8'
+  gerudo_fortress_key_ring: 'false'
+  forest_temple_key_ring: 'true'
+  fire_temple_key_ring: 'true'
+  water_temple_key_ring: 'true'
+  spirit_temple_key_ring: 'true'
+  shadow_temple_key_ring: 'true'
+  bottom_of_the_well_key_ring: 'true'
+  gerudo_training_ground_key_ring: 'true'
+  ganons_castle_key_ring: 'true'
+  # Maybe there's a skeleton key too.
   skeleton_key:
     'false': 1
     'true': 1
-  fortress_carpenters: fast
+  # Extra major items
+  item_pool: plentiful
 
   # Not Randomized
   shuffle_master_sword: 'false'
@@ -93,12 +122,14 @@ Ship of Harkinian:
   skip_child_zelda: 'true'
   complete_mask_quest: 'true'
   skip_scarecrows_song: 'true'
+  shuffle_tycoon_wallet: 'true'
   full_wallets: 'true'
-  bombchu_bag: 'true'
+  bombchu_bag: progressive_bags
   bombchu_drops: 'true'
   blue_fire_arrows: 'true'
   sunlight_arrows: 'true'
   infinite_upgrades: progressive
+  rocs_feather: 'true'
   ice_trap_count: '6'
   ice_trap_filler_replacement: '0'
 
@@ -136,13 +167,13 @@ Ship of Harkinian:
     Stone of Agony: 1
   start_hints: []
   start_location_hints:
+    # House of Skulltula doesn't reaveal what's there in AP yet.
     - Kak 10 Gold Skulltula Reward
     - Kak 20 Gold Skulltula Reward
     - Kak 30 Gold Skulltula Reward
     - Kak 40 Gold Skulltula Reward
     - Kak 50 Gold Skulltula Reward
-
-    # SoH doesn't seem to populate the AP hints automatically when you view a shop, so start with full knowledge instead.
+    # SoH doesn't populate the AP hints automatically when you view a shop, so start with full knowledge instead.
     - Kak Bazaar Item 1
     - Kak Bazaar Item 2
     - Kak Bazaar Item 3

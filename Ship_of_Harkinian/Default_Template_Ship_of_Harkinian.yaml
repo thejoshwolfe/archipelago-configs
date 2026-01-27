@@ -32,9 +32,9 @@ description: Default Ship of Harkinian Template
 
 game: Ship of Harkinian
 requires:
-  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Ship of Harkinian: 1.0.0 # Version of the world required for this yaml to work as expected.
+    Ship of Harkinian: 1.2.0 # Version of the world required for this yaml to work as expected.
 
 Ship of Harkinian:
   ################
@@ -100,11 +100,10 @@ Ship of Harkinian:
 
   sleeping_waterfall:
     # Closed:
-    # Sleeping Waterfall obstructs the entrance to Zora's Domain. Zelda's Lullaby must be played in order to open
-    # it (but only once; then it stays open in both time periods).
+    # Sleeping Waterfall obstructs the entrance to Zora's Domain. Zelda's Lullaby must be played in order to open it.
     # 
     # Open: 
-    # Sleeping Waterfall is always open. Link may always enter Zora's Domain.
+    # Sleeping Waterfall is always open. Link may always enter Zora's Domain and Zelda's Lullaby is not required to enter Zora's Domain.
     closed: 50
     open: 0
 
@@ -118,6 +117,16 @@ Ship of Harkinian:
     # Add locks to all wooden overworld doors, requiring specific small keys to open them.
     'false': 50
     'true': 0
+
+  enable_all_tricks:
+    # Bypass the individual trick or glitch selections below and enable all of them.
+    'false': 50
+    'true': 0
+
+  tricks_in_logic:
+    # Define what tricks or glitches are considered in logic. For more information on what each trick does, check the Ship of Harkinian Randomizer -> Tricks/Glitches settings.
+    # Trick names: Visible Collision, Grottos Without Agony, Fewer Tunic Requirements, Rusted Switches, Flaming Chests, Damage Boost Simple, Hover Boost Simple, Bombchu Beehives, Blue Fire Mud Walls, Open Underwater Chest, KF Adult GS, LW Bridge, LW Mido Backflip, LW GS Bean, HC Storms GS, HF Big Poe Without Epona, Kak Man On Roof, Kak Tower GS, Kak Adult Windmill PoH, Kak Child Windmill PoH, Kak Rooftop GS, GY PoH, GY Child Dampe Race PoH, GY Shadow Fire Arrows, DMT Soil GS, DMT Bombable, DMT Hookshot Lower GS, DMT Hovers Lower GS, DMT Bean Lower GS, DMT JS Lower GS, DMT Climb Hovers, DMT Upper GS, GC Pot, GC Pot Strength, GC Rolling Strength, GC Leftmost, GC Grotto, GC Link Goron Dins, DMC Hover Bean PoH, DMC Bolero Jump, DMC Boulder JS, DMC Boulder Skip, ZR Lower, ZR Upper, ZR Hover, ZR Cucco, ZD King Zora Skip, ZD GS, ZF Great Fairy Without Explosives, LH Lab Wall GS, LH Lab Diving, LH Water Hookshot, Pass Guards With Nothing, GF Jump, GF Warrior With Difficult Weapon, GF Ledge Clip into GTG, HW Crossing, Lens HW, HW Reverse, Colossus GS, Deku B1 Skip, Deku B1 Bow Webs, Deku B1 Backflip Over Spiked Log, DC Scarecrow GS, DC Vines GS, DC Stairs With Bow, DC Slingshot Skip, DC Scrub Room, DC Jump, DC Dodongo Chu, Jabu Alcove Jump Dive, Jabu Boss Hover, Jabu Near Boss Ranged, Jabu Near Boss Explosives, Lens BotW, BotW Child Deadhand, BotW Basement, Forest First GS, Forest Outdoors East GS, Forest Vines, Forest Outdoors Ledge, Forest Doorframe, Forest Outside Backdoor, Forest Outdoors Hearts Boomerang, Fire Boss Door Jump, Fire SoT, Fire Strength, Fire Scarecrow, Fire Flame Maze, Water Longshot Torch, Water Cracked Wall Hovers, Water Cracked Wall, Water BK Region, Water North Basement Ledge Jump, Water BK Jump Dive, Water FW Central GS, Water Irons Central GS, Water Central Bow, Water Hookshot Falling Platform GS, Water Rang Falling Platform GS, Water River GS, Water Dragon Jump Dive, Water Adult Dragon, Water Child Dragon, Water Morpha Without Hookshot, Lens Shadow, Lens Shadow Platform, Lens Bongo, Shadow Umbrella Hover, Shadow Umbrella Clip, Shadow Umbrella GS, Shadow Freestanding Key, Shadow Statue, Shadow Bongo, Lens Spirit, Spirit Child Chu, Spirit Lobby GS, Spirit Lower Adult Switch, Spirit Lobby Jump, Spirit Platform Hookshot, Spirit Map Chest, Spirit Sun Chest, Spirit Wall, Ice Block GS, Lens GTG, GTG Without Hookshot, GTG Fake Wall, Lens Ganon, Ganon Spirit Trial Hookshot, Damage Boost, Ground Jump, Ground Jump Hard, Hookshot Extension, Bottom of the Well Navi Dive, Lost Wood Navi Dive
+    []
 
   ##################
   # World Settings #
@@ -134,8 +143,8 @@ Ship of Harkinian:
     # Sets the state of the carpenters captured by Gerudo in Gerudo Fortress, and with it the number of guards that spawn.
     # Normal - All 4 carpenters are required to be saved.
     # Fast - Only the bottom left carpenter requires rescuing.
-    # Free - The bridge is repaired from the start, and Nabooru cannot spawn. If the Gerudo Membership Card isn't shuffled, you start with it.
-    # Only Normal is compatible with Gerudo Fortress Key Rings.
+    # Free - The bridge is repaired from the start, and Nabooru cannot spawn.
+    # Only Normal is compatible with the Gerudo Fortress Key Ring.
     normal: 0
     fast: 50
     free: 0
@@ -268,6 +277,22 @@ Ship of Harkinian:
   #################
   # Shuffle Items #
   #################
+  shuffle_songs:
+    # Shuffles songs into the item pool.
+    # Off - Songs will appear at their vanilla locations.
+    # Song Locations - Songs will only appear at locations that normally teach songs.
+    # Dungeon rewards - Songs appear after beating a major dungeon boss.
+    #     The 4 remaining songs are located at:
+    #     - Zelda's lullaby location
+    #     - Ice Cavern's Serenade of Water location
+    #     - Bottom of the Well Lens of Truth location
+    #     - Gerudo Training Ground's Ice Arrows Location
+    # Anywhere - Songs can appear at any location.
+    'off': 0
+    song_locations: 50
+    dungeon_rewards: 0
+    anywhere: 0
+
   shuffle_skull_tokens:
     # Shuffles Golden Skulltula Tokens into the item pool. This means Golden Skulltulas can contain other items as well.
     # Off - GS tokens will not be shuffled.
@@ -284,6 +309,23 @@ Ship of Harkinian:
     'false': 50
     'true': 0
 
+  shuffle_freestanding_items:
+    # Freestanding rupees & hearts are shuffles to random items. Freestanding heart pieces and small keys are already shuffled by default.
+    # Off - freestanding rupees & hearts will not be shuffled.
+    # Dungeons - Only freestanding rupees & hearts that are within dungeons.
+    # Overworld - Only freestanding rupees & hearts that are outside of dungeons.
+    # All - Shuffle all freestanding rupees & hearts.
+    'off': 50
+    dungeon: 0
+    overworld: 0
+    all: 0
+
+  shuffle_kokiri_sword:
+    # Shuffles the Kokiri Sword into the item pool.
+    # This will require the use of sticks until the Kokiri Sword is found.
+    'false': 50
+    'true': 0
+
   shuffle_master_sword:
     # Shuffles the Master Sword into the item pool.
     # If you haven't found the Master Sword before facing Ganon, you won't receive it during the fight.
@@ -293,6 +335,17 @@ Ship of Harkinian:
   shuffle_childs_wallet:
     # Enabling this shuffles the Child's Wallet into the item pool.
     # You will not be able to carry any rupees until you find a wallet.
+    'false': 50
+    'true': 0
+
+  shuffle_tycoon_wallet:
+    # Enabling this adds an extra Progressive Wallet to the pool and adds a new 999 capacity tier after Giants Wallet.
+    'false': 50
+    'true': 0
+
+  shuffle_ocarinas:
+    # Enabling this shuffles the Fairy Ocarina and the Ocarina of Time into the item pool.
+    # This will require finding an Ocarina before being able to play songs.
     'false': 50
     'true': 0
 
@@ -321,6 +374,12 @@ Ship of Harkinian:
     'false': 50
     'true': 0
 
+  shuffle_gerudo_membership_card:
+    # Shuffles the Gerudo Membership Card into the item pool.
+    # The gerudo Card is required to enter the Gerudo Training Ground, opening the gate to Haunted Wasteland and the Horseback Archery minigame.
+    'false': 50
+    'true': 0
+
   shuffle_fishing_pole:
     # Shuffles the fishing pole into the item pool. The fishing pole is required to play the fishing pond minigame.
     'false': 50
@@ -336,16 +395,11 @@ Ship of Harkinian:
     'false': 50
     'true': 0
 
-  shuffle_freestanding_items:
-    # Freestanding rupees & hearts are shuffles to random items. Freestanding heart pieces and small keys are already shuffled by default.
-    # Off - freestanding rupees & hearts will not be shuffled.
-    # Dungeons - Only freestanding rupees & hearts that are within dungeons.
-    # Overworld - Only freestanding rupees & hearts that are outside of dungeons.
-    # All - Shuffle all freestanding rupees & hearts.
-    'off': 50
-    dungeon: 0
-    overworld: 0
-    all: 0
+  rocs_feather:
+    # Adds Roc's Feather to the item pool. Roc's Feather is a custom item granting the player a jump on demand. 
+    # The jump can also be used when already in mid-air. Roc's Feather is not considered by logic.
+    'false': 50
+    'true': 0
 
   ############################
   # Shuffle NPCs & Merchants #
@@ -402,9 +456,13 @@ Ship of Harkinian:
     all: 0
 
   shuffle_scrubs:
-    # Shuffles all Deku Scrub merchants in the game.
-    'false': 50
-    'true': 0
+    # Shuffles Deku Scrub merchants in the game.
+    # Off - Scrubs will not be shuffled. The 3 Scrubs that give one-time items in the vanilla game (POH, Deku Nut capacity, and Deku Stick capacity) will not spawn.
+    # One-Time Only - Only the 3 Scrubs that give one-time items in the vanilla game are shuffled.
+    # All- All Scrubs are shuffled.
+    'off': 50
+    one_time_only: 0
+    all: 0
 
   shuffle_scrubs_minimum_price:
     # If Shuffle Scrubs is on, set their minimum price. Final price will be rounded down to multiples of 5.
@@ -483,6 +541,31 @@ Ship of Harkinian:
     all_but_beans: 0
     all: 0
 
+  shuffle_merchants_minimum_price:
+    # If Shuffle Merchants is on, set their minimum price. Final price will be rounded down to multiples of 5.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 999
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-999: 0 # random value between 0 and 999
+
+  shuffle_merchants_maximum_price:
+    # If Shuffle Merchants is on, set their maximum price. Final price will be rounded down to multiples of 5.
+    # If this is set below the minimum, this option will be set to whatever the minimum is set to.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 999
+    90: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-999: 0 # random value between 0 and 999
+
   shuffle_frog_song_rupees:
     # Shuffle the purple rupee rewards from the frogs in Zora's River. If this is turned off, only the Song of Storms and Frog Minigame rewards are shuffled.
     'false': 50
@@ -554,9 +637,51 @@ Ship of Harkinian:
 
   maps_and_compasses:
     # Start with - You will start with Maps & Compasses from all dungeons.
-    # Shuffle - Maps & Compasses can appear anywhere.
+    # Vanilla - Maps & Compasses will appear in their vanilla locations.
+    # Own dungeon - Maps & Compasses can only appear in their respective dungeon.
+    # Any dungeon - Maps & Compasses can only appear inside of any dungeon.
+    # Overworld - Maps & Compasses can only appear outside of dungeons.
+    # Anywhere - Maps & Compasses can appear anywhere in the world.
     start_with: 50
-    shuffle: 0
+    vanilla: 0
+    own_dungeon: 0
+    any_dungeon: 0
+    overworld: 0
+    anywhere: 0
+
+  small_key_shuffle:
+    # Vanilla - Small Keys will appear in their vanilla locations. You start with 3 keys in Spirit Temple MQ because the vanilla key layout is not beatable in logic.
+    # Own dungeon - Small Keys can only appear in their respective dungeon. If Fire Temple is not a Master Quest dungeon, the door to the Boss Key chest will be unlocked.
+    # Any dungeon - Small Keys can only appear inside of any dungeon.
+    # Overworld - Small Keys can only appear outside of dungeons.
+    # Anywhere - Small Keys can appear anywhere in the world.
+    vanilla: 0
+    own_dungeon: 50
+    any_dungeon: 0
+    overworld: 0
+    anywhere: 0
+
+  gerudo_fortress_key_shuffle:
+    # Vanilla - Thieves' Hideout Keys will appear in their vanilla locations.
+    # Any dungeon - Thieves' Hideout Keys can only appear inside of any dungon.
+    # Overworld - Thieves' Hideout Keys can only appear outside of dungeons.
+    # Anywhere - Thieves' Hideout Keys can appear anywhere in the world.
+    vanilla: 50
+    any_dungeon: 0
+    overworld: 0
+    anywhere: 0
+
+  boss_key_shuffle:
+    # Vanilla - Boss Keys will appear in their vanilla locations.
+    # Own dungeon - Boss Keys can only appear in their respective dungeon.
+    # Any dungeon - Boss Keys can only appear inside of any dungeon.
+    # Overworld - Boss Keys can only appear outside of dungeons.
+    # Anywhere - Boss Keys can appear anywhere in the world.
+    vanilla: 0
+    own_dungeon: 50
+    any_dungeon: 0
+    overworld: 0
+    anywhere: 0
 
   ganons_castle_boss_key:
     # Vanilla - Ganon's Boss Key will appear in the vanilla location.
@@ -653,6 +778,74 @@ Ship of Harkinian:
 
   key_rings:
     # Keyrings will replace all small keys from a particular dungeon with a single keyring that awards all keys for its associated dungeon.
+    # 
+    # Off - No dungeons will have their keys replaced with keyrings.
+    # 
+    # Count - A specified amount of randomly selected dungeons will have their keys replaced with keyrings.
+    # 
+    # Selection - Hand select which dungeons will have their keys replaced with keyrings.
+    # 
+    # Selecting key ring for dungeons will have no effect if Small Keys are set to Vanilla.
+    # 
+    # If Gerudo Fortress Carpenters is set to Normal, and Gerudo Fortress Keys is set to anything other than Vanilla, then the maximum amount of Key Rings that can be selected by Count will be 9. Otherwise, the maximum amount of Key Rings will be 8.
+    'off': 50
+    count: 0
+    selection: 0
+
+  key_rings_count:
+    # If "Count" is selected for the Key Rings option, this is the count that will be used. If 9 is selected and Gerudo Fortress Keys don't meet the specified requirements, this option will be set to 8.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 9
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-9: 0 # random value between 0 and 9
+
+  gerudo_fortress_key_ring:
+    # Only used if Key Rings option is set to "Selection". Will only work if Gerudo Fortress Keys meet the specified requirements.
+    'false': 50
+    'true': 0
+
+  forest_temple_key_ring:
+    # Only used if Key Rings option is set to "Selection"
+    'false': 50
+    'true': 0
+
+  fire_temple_key_ring:
+    # Only used if Key Rings option is set to "Selection"
+    'false': 50
+    'true': 0
+
+  water_temple_key_ring:
+    # Only used if Key Rings option is set to "Selection"
+    'false': 50
+    'true': 0
+
+  spirit_temple_key_ring:
+    # Only used if Key Rings option is set to "Selection"
+    'false': 50
+    'true': 0
+
+  shadow_temple_key_ring:
+    # Only used if Key Rings option is set to "Selection"
+    'false': 50
+    'true': 0
+
+  bottom_of_the_well_key_ring:
+    # Only used if Key Rings option is set to "Selection"
+    'false': 50
+    'true': 0
+
+  gerudo_training_ground_key_ring:
+    # Only used if Key Rings option is set to "Selection"
+    'false': 50
+    'true': 0
+
+  ganons_castle_key_ring:
+    # Only used if Key Rings option is set to "Selection"
     'false': 50
     'true': 0
 
@@ -692,6 +885,44 @@ Ship of Harkinian:
     'false': 0
     'true': 50
 
+  #####################
+  # Item Pool & Hints #
+  #####################
+  item_pool:
+    # Sets how many major items appear in the item pool.
+    # Balanced - Original item pool.
+    # Plentiful - Extra major items are added to the pool.
+    # Scarce - Some excess items are removed, including health upgrades.
+    # Minimal - Most excess items are removed.
+    balanced: 50
+    plentiful: 0
+    scarce: 0
+    minimal: 0
+
+  ice_trap_count:
+    # Specify an exact number of Ice Traps to add to the item pool. If the item pool is out of space, no more will be added.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    6: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  ice_trap_filler_replacement:
+    # Specify a percentage of filler items to replace with Ice Traps.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
   #######################
   # Additional Features #
   #######################
@@ -701,12 +932,16 @@ Ship of Harkinian:
     'true': 50
 
   bombchu_bag:
-    # Bombchus require their own bag to be found before use. Without this setting, any Bombchu requirement is filled by Bomb Bag + a renewable source of Bombchus.
-    # The first Bombchu you find be a Bag containing 20 chus, and subsequent packs will have 10.
-    # Once found, they can be replenished at shops selling refills, Bombchu Bowling and the carpet merchant.
-    # Bombchu Bowling is opened by obtaining the Bombchu Bag.
-    'false': 0
-    'true': 50
+    # None - Bombchus have vanilla behavior, any Bombchu requirement is filled by Bomb Bag + a renewable source of Bombchus.
+    # 
+    # Single Bag - Bombchus require their own bag to be found before use. 5 of them are added to the pool (6 if the Carpet Merchant is shuffled). The first Bombchu Bag you find will be a Bag containing 20 chus, and subsequent bags will be replaced with Bombchu Ammo refills. Once found, they can be replenished at shops selling refills, Bombchu Bowling and the carpet merchant. Bombchu Bowling is opened by obtaining the Bombchu Bag.
+    # 
+    # Progressive Bags - 3 Bombchu Bags are added to the pool, the first one will unlock Bombchus with a capacity of 20. The second one will upgrade this capacity to 30, and the final one will upgrade the capacity to the usual 50.
+    # 
+    # Bombchu Bowling is opened by obtaining the first Bombchu bag.
+    none: 50
+    single_bag: 0
+    progressive_bags: 0
 
   bombchu_drops:
     # Once you obtain a Bombchu Bag, refills will sometimes replace Bomb drops that would spawn.
@@ -741,30 +976,6 @@ Ship of Harkinian:
     # Allows Slingshot and Bow to break beehives when Beehive Shuffle is turned on.
     'false': 0
     'true': 50
-
-  ice_trap_count:
-    # Specify an exact number of Ice Traps to add to the item pool. If the item pool is out of space, no more will be added.
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 0
-    # Maximum value is 100
-    6: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-0-100: 0 # random value between 0 and 100
-
-  ice_trap_filler_replacement:
-    # Specify a percentage of filler items to replace with Ice Traps.
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 0
-    # Maximum value is 100
-    0: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-0-100: 0 # random value between 0 and 100
 
   ###########################
   # Item & Location Options #
