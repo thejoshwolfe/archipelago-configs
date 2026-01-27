@@ -1,0 +1,64 @@
+name: josh_subnautica
+description: Cure yourself and disable the quarantine. Easy logic. Free samples enabled. Peaceful creature scans eanbled.
+game: Subnautica
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+Subnautica:
+  death_link: 'true'
+
+  # Don't ask me to carry tanks or die to reach a location.
+  swim_rule: easy
+  empty_tanks: 'true'
+  # Fast.
+  early_seaglide: 'true'
+  # Collecting resources is only sometimes fun.
+  free_samples: 'true'
+  goal: free # Cure and disable quarantine, requires reaching the PCF at -1444m
+
+  # All peaceful creatures.
+  creature_scans: '29'
+  creature_scan_logic: removed
+
+  filler_items_distribution:
+    Copper Ore: 1
+    Crystalline Sulfur: 1
+    Diamond: 1
+    Gold: 1
+    Kyanite: 1
+    Lead: 1
+    Lithium: 1
+    Magnetite: 1
+    Nickel Ore: 1
+    Reactor Rod: 1
+    Ruby: 1
+    Salt Deposit: 1
+    Silver Ore: 1
+    Titanium: 1
+
+  start_hints:
+    # Critical (probably) stuff
+    - Mobile Vehicle Bay Fragment
+    - Moonpool Fragment
+    - Vehicle Upgrade Console
+    - Modification Station Fragment
+    # how do i Fast.
+    - Prawn Suit Grappling Arm Fragment
+    # Reduce backtracking from deep dives.
+    - Thermal Plant Fragment
+    # Help avoid starvation deathlink.
+    - Multipurpose Room
+    - Farming
+    - Exterior Growbed
+    - Water Filtration Machine
+
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool: {}
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full

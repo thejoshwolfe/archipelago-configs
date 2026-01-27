@@ -1,0 +1,88 @@
+# Swimming Mobility
+Seaglide Fragment (x4/2)
+Laser Cutter Fragment (x4/3)
+Propulsion Cannon Fragment (x2/2)
+Radiation Suit
+Lightweight High Capacity Tank
+Ultra High Capacity Tank
+Ultra Glide Fins
+
+# Vehicles
+Mobile Vehicle Bay Fragment (x6/3)
+Seamoth Fragment (x6/3)
+Prawn Suit Fragment (x7/4)
+Cyclops Bridge Fragment (x5/3)
+Cyclops Engine Fragment (x5/3)
+Cyclops Hull Fragment (x5/3)
+Cyclops Depth Module MK1
+Moonpool Fragment (x2/2)
+Vehicle Upgrade Console
+Modification Station Fragment (x4/3)
+
+# Rocket
+Cyclops Shield Generator
+Ion Battery
+Ion Power Cell
+Neptune Launch Platform
+Neptune Gantry
+Neptune Boosters
+Neptune Fuel Reserve
+Neptune Cockpit
+
+# Scanning hostile creatures
+Stasis Rifle Fragment (x2/2)
+Large Room
+Multipurpose Room
+Alien Containment
+
+# Nice to have maybe
+Exterior Growbed (x2)
+Farming (x2)
+Water Filtration Machine
+Prawn Suit Grappling Arm Fragment (x2/2)
+Reinforced Dive Suit
+Bioreactor Fragment (x2/2)
+Thermal Plant Fragment (x2/2)
+Battery Charger fragment (x2/2)
+Power Cell Charger Fragment (x2/2)
+Scanner Room Fragment (x3/3)
+
+# Pretty useless
+Beacon Fragment (x2/2)
+Bulkhead
+Compass
+Creature Decoy
+Cyclops Decoy Tube Upgrade
+Cyclops Docking Bay Repair Module
+Cyclops Fire Suppression System
+Cyclops Sonar Upgrade
+Cyclops Thermal Reactor Module
+Floodlight
+Furniture (x2)
+Grav Trap Fragment (x2/2)
+Nuclear Reactor Fragment (x3/3)
+Observatory
+Power Transmitter Fragment
+Prawn Suit Drill Arm Fragment (x2/2)
+Prawn Suit Propulsion Cannon Fragment (x2/2)
+Prawn Suit Torpedo Arm Fragment (x2/2)
+Repulsion Cannon
+Spotlight
+Swim Charge Fins
+Water Filtration Suit
+
+# Filler
+Copper Ore
+Crystalline Sulfur
+Diamond
+Gold
+Kyanite
+Lithium
+Magnetite
+Nickel Ore
+Reactor Rod
+Resources Bundle
+Ruby
+Salt Deposit
+Silver Ore
+Titanium

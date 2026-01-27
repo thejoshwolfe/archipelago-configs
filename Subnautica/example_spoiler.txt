@@ -1,0 +1,237 @@
+﻿Archipelago Version 0.6.6  -  Seed: 12606530612975470730
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Subnautica
+Location Count:                  160
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Swim Rule:                       Easy
+Early Seaglide:                  Yes
+Free Samples:                    Yes
+Goal:                            Free
+Creature Scans:                  29
+Aggressive Creature Scan Logic:  Removed
+Death Link:                      Yes
+Start Inventory from Pool:       
+Filler Items Distribution:       Copper Ore: 1, Crystalline Sulfur: 1, Diamond: 1, Gold: 1, Kyanite: 1, Lead: 1, Lithium: 1, Magnetite: 1, Nickel Ore: 1, Reactor Rod: 1, Ruby: 1, Salt Deposit: 1, Silver Ore: 1, Titanium: 1
+empty_tanks:                     Yes
+
+
+Locations:
+
+Blood Kelp Trench Wreck - Outside Databox: Modification Station Fragment
+Blood Kelp Trench Wreck - Inside Databox: Salt Deposit
+Blood Kelp Trench Wreck - PDA: Scanner Room Fragment
+Bulb Zone West Wreck - Outside Databox: Propulsion Cannon Fragment
+Bulb Zone West Wreck - Under Databox: Floodlight
+Bulb Zone West Wreck - Inside Databox: Lithium
+Bulb Zone West Wreck - PDA: Silver Ore
+Bulb Zone East Wreck - Databox: Mobile Vehicle Bay Fragment
+Dunes North Wreck - Outside Databox: Power Cell Charger Fragment
+Dunes North Wreck - Office Databox: Laser Cutter Fragment
+Dunes North Wreck - PDA: Cyclops Docking Bay Repair Module
+Dunes North Wreck - Cargo Databox: Scanner Room Fragment
+Dunes West Wreck - Databox: Crystalline Sulfur
+Dunes East Wreck - Outside Databox: Prawn Suit Fragment
+Dunes East Wreck - Inside Databox: Exterior Growbed
+Grand Reef North Wreck - Outside Databox: Seamoth Fragment
+Grand Reef North Wreck - Elevator Databox: Prawn Suit Drill Arm Fragment
+Grand Reef North Wreck - Bottom Databox: Mobile Vehicle Bay Fragment
+Grand Reef North Wreck - Hangar PDA: Gold
+Grand Reef South Wreck - Trench Databox: Diamond
+Grand Reef South Wreck - Comms Databox: Resources Bundle
+Grand Reef South Wreck - Outside Databox: Bulkhead
+Grand Reef South Wreck - PDA: Neptune Boosters
+Grassy Plateaus South Wreck - Databox: Seaglide Fragment
+Grassy Plateaus South Wreck - PDA: Kyanite
+Grassy Plateaus East Wreck - Breach Databox: Titanium
+Grassy Plateaus East Wreck - Hangar Databox: Gold
+Grassy Plateaus West Wreck - Locker PDA: Seaglide Fragment
+Grassy Plateaus West Wreck - Data Terminal: Diamond
+Grassy Plateaus Southwest Wreck - Databox: Lightweight High Capacity Tank
+Safe Shallows Wreck - PDA: Mobile Vehicle Bay Fragment
+Kelp Forest Wreck - Databox: Ion Power Cell
+Kelp Forest Wreck - PDA: Mobile Vehicle Bay Fragment
+Mountains West Wreck - Outside Databox: Grav Trap Fragment
+Mountains West Wreck - Data Terminal: Bioreactor Fragment
+Mountains West Wreck - Hangar Databox: Silver Ore
+Mountains West Wreck - Office Databox: Cyclops Bridge Fragment
+Mountains East Wreck - Comms Databox: Radiation Suit
+Mountains East Wreck - Outside Databox: Prawn Suit Grappling Arm Fragment
+Northwestern Mushroom Forest Wreck - Cargo Databox: Ruby
+Northwestern Mushroom Forest Wreck - Office Databox: Nuclear Reactor Fragment
+Northwestern Mushroom Forest Wreck - PDA: Water Filtration Suit
+Sea Treader's Path Wreck - Outside Databox: Seamoth Fragment
+Sea Treader's Path Wreck - Hangar Databox: Vehicle Upgrade Console
+Sea Treader's Path Wreck - Lobby Databox: Nickel Ore
+Sea Treader's Path Wreck - PDA: Battery Charger fragment
+Sparse Reef Wreck - Locker Databox: Prawn Suit Fragment
+Sparse Reef Wreck - Outside Databox: Cyclops Bridge Fragment
+Sparse Reef Wreck - Lab Databox: Cyclops Hull Fragment
+Underwater Islands Wreck - Outside Databox: Ultra Glide Fins
+Underwater Islands Wreck - Hangar Databox: Prawn Suit Drill Arm Fragment
+Underwater Islands Wreck - Data Terminal: Thermal Plant Fragment
+Underwater Islands Wreck - Cable Databox: Seaglide Fragment
+Underwater Islands Wreck - Pipes Databox 1: Copper Ore
+Underwater Islands Wreck - Pipes Databox 2: Prawn Suit Propulsion Cannon Fragment
+Degasi Seabase - Deep Grand Reef - Bedroom Databox: Neptune Cockpit
+Degasi Seabase - Deep Grand Reef - Observatory Databox: Prawn Suit Propulsion Cannon Fragment
+Degasi Seabase - Deep Grand Reef - Bedroom PDA: Ion Battery
+Degasi Seabase - Deep Grand Reef - Outside PDA: Kyanite
+Degasi Seabase - Deep Grand Reef - Observatory PDA: Crystalline Sulfur
+Degasi Seabase - Deep Grand Reef - Lab PDA: Gold
+Floating Island - Lake PDA: Alien Containment
+Degasi Seabase - Floating Island - Databox: Cyclops Thermal Reactor Module
+Degasi Seabase - Floating Island - Room PDA: Cyclops Bridge Fragment
+Degasi Seabase - Floating Island - Green Wall PDA: Copper Ore
+Degasi Seabase - Floating Island - Corridor PDA: Reactor Rod
+Degasi Seabase - Floating Island - North Observatory PDA: Diamond
+Degasi Seabase - Floating Island - South Observatory PDA: Silver Ore
+Jellyshroom Cave - PDA: Water Filtration Machine
+Degasi Seabase - Jellyshroom Cave - Bedroom Databox: Lithium
+Degasi Seabase - Jellyshroom Cave - Detached PDA: Gold
+Degasi Seabase - Jellyshroom Cave - Office PDA: Power Cell Charger Fragment
+Degasi Seabase - Jellyshroom Cave - Locker PDA: Seamoth Fragment
+Degasi Seabase - Jellyshroom Cave - Bedroom PDA: Cyclops Bridge Fragment
+Degasi Seabase - Jellyshroom Cave - Observatory PDA: Prawn Suit Torpedo Arm Fragment
+Lifepod 2 - Databox: Mobile Vehicle Bay Fragment
+Lifepod 2 - PDA: Stasis Rifle Fragment
+Lifepod 3 - Databox: Battery Charger fragment
+Lifepod 3 - PDA: Furniture
+Lifepod 4 - Databox: Swim Charge Fins
+Lifepod 4 - PDA: Laser Cutter Fragment
+Lifepod 6 - Databox: Farming
+Lifepod 6 - Inside PDA: Reactor Rod
+Lifepod 6 - Outside PDA: Cyclops Hull Fragment
+Lifepod 7 - PDA: Cyclops Fire Suppression System
+Lifepod 12 - Databox: Magnetite
+Lifepod 12 - PDA: Seamoth Fragment
+Lifepod 13 - Databox: Cyclops Engine Fragment
+Lifepod 13 - PDA: Seaglide Fragment
+Lifepod 17 - PDA: Cyclops Decoy Tube Upgrade
+Lifepod 19 - Databox: Reactor Rod
+Lifepod 19 - Outside PDA: Power Transmitter Fragment
+Lifepod 19 - Inside PDA: Exterior Growbed
+Aurora Seamoth Bay - Upgrade Console: Laser Cutter Fragment
+Aurora Drive Room - Upgrade Console: Farming
+Aurora Prawn Suit Bay - Upgrade Console: Scanner Room Fragment
+Aurora - Office PDA: Modification Station Fragment
+Aurora - Corridor PDA: Grav Trap Fragment
+Aurora - Cargo Bay PDA: Cyclops Engine Fragment
+Aurora - Seamoth Bay PDA: Gold
+Aurora - Medkit Locker PDA: Gold
+Aurora - Locker PDA: Observatory
+Aurora - Canteen PDA: Ruby
+Aurora - Cabin 4 PDA: Gold
+Aurora - Cabin 7 PDA: Resources Bundle
+Aurora - Cabin 1 PDA: Cyclops Bridge Fragment
+Aurora - Captain PDA: Neptune Fuel Reserve
+Aurora - Ring PDA: Creature Decoy
+Aurora - Lab PDA: Silver Ore
+Aurora - Office Data Terminal: Prawn Suit Grappling Arm Fragment
+Aurora - Captain Data Terminal: Neptune Launch Platform
+Aurora - Battery Room Data Terminal: Compass
+Aurora - Lab Data Terminal: Crystalline Sulfur
+Quarantine Enforcement Platform's - Upper Alien Data Terminal: Seamoth Fragment
+Quarantine Enforcement Platform's - Mid Alien Data Terminal: Mobile Vehicle Bay Fragment
+Dunes Sanctuary - Alien Data Terminal: Cyclops Engine Fragment
+Deep Sparse Reef Sanctuary - Alien Data Terminal: Repulsion Cannon
+Northern Blood Kelp Zone Sanctuary - Alien Data Terminal: Cyclops Sonar Upgrade
+Lost River Laboratory Cache - Alien Data Terminal: Cyclops Depth Module MK1
+Disease Research Facility - Upper Alien Data Terminal: Beacon Fragment
+Disease Research Facility - Mid Alien Data Terminal: Salt Deposit
+Disease Research Facility - Lower Alien Data Terminal: Large Room
+Alien Thermal Plant - Entrance Alien Data Terminal: Propulsion Cannon Fragment
+Alien Thermal Plant - Green Alien Data Terminal: Prawn Suit Fragment
+Alien Thermal Plant - Yellow Alien Data Terminal: Nickel Ore
+Primary Containment Facility's Antechamber - Alien Data Terminal: Gold
+Primary Containment Facility's Egg Laboratory - Alien Data Terminal: Moonpool Fragment
+Primary Containment Facility's Pipe Room - Alien Data Terminal: Prawn Suit Fragment
+Grassy Plateaus West Wreck - Beam PDA: Beacon Fragment
+Floating Island - Cave Entrance PDA: Prawn Suit Fragment
+Degasi Seabase - Jellyshroom Cave - Outside PDA: Stasis Rifle Fragment
+Spadefish Scan: Reactor Rod
+Sea Treader Leviathan Scan: Copper Ore
+Sea Emperor Juvenile Scan: Prawn Suit Fragment
+Peeper Scan: Laser Cutter Fragment
+Magmarang Scan: Neptune Gantry
+Reefback Leviathan Scan: Cyclops Hull Fragment
+Reginald Scan: Nuclear Reactor Fragment
+Skyray Scan: Thermal Plant Fragment
+Red Eyeye Scan: Cyclops Hull Fragment
+Shuttlebug Scan: Cyclops Engine Fragment
+Bladderfish Scan: Spotlight
+Boomerang Scan: Furniture
+Hoopfish Scan: Prawn Suit Torpedo Arm Fragment
+Ancient Floater Scan: Nuclear Reactor Fragment
+Crimson Ray Scan: Bioreactor Fragment
+Floater Scan: Ultra High Capacity Tank
+Hoverfish Scan: Prawn Suit Fragment
+Ghostray Scan: Cyclops Shield Generator
+Oculus Scan: Moonpool Fragment
+Garryfish Scan: Seamoth Fragment
+Jellyray Scan: Titanium
+Holefish Scan: Modification Station Fragment
+Amoeboid Scan: Reinforced Dive Suit
+Eyeye Scan: Moonpool Fragment
+Rabbit Ray Scan: Modification Station Fragment
+Lava Larva Scan: Gold
+Rockgrub Scan: Cyclops Hull Fragment
+Spinefish Scan: Multipurpose Room
+Gasopod Scan: Cyclops Engine Fragment
+Neptune Launch: Neptune Launch
+Disable Quarantine: Victory
+Full Infection: Full Infection
+Repair Aurora Drive: Repair Aurora Drive
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Grassy Plateaus South Wreck - Databox: Seaglide Fragment
+  Grassy Plateaus West Wreck - Locker PDA: Seaglide Fragment
+  Kelp Forest Wreck - PDA: Mobile Vehicle Bay Fragment
+  Safe Shallows Wreck - PDA: Mobile Vehicle Bay Fragment
+}
+2: {
+  Degasi Seabase - Floating Island - Room PDA: Cyclops Bridge Fragment
+  Garryfish Scan: Seamoth Fragment
+  Gasopod Scan: Cyclops Engine Fragment
+  Holefish Scan: Modification Station Fragment
+  Lifepod 13 - Databox: Cyclops Engine Fragment
+  Quarantine Enforcement Platform's - Mid Alien Data Terminal: Mobile Vehicle Bay Fragment
+  Quarantine Enforcement Platform's - Upper Alien Data Terminal: Seamoth Fragment
+  Rabbit Ray Scan: Modification Station Fragment
+  Reefback Leviathan Scan: Cyclops Hull Fragment
+  Sea Treader's Path Wreck - Outside Databox: Seamoth Fragment
+  Shuttlebug Scan: Cyclops Engine Fragment
+}
+3: {
+  Blood Kelp Trench Wreck - Outside Databox: Modification Station Fragment
+  Mountains East Wreck - Comms Databox: Radiation Suit
+  Mountains West Wreck - Office Databox: Cyclops Bridge Fragment
+  Rockgrub Scan: Cyclops Hull Fragment
+  Sparse Reef Wreck - Outside Databox: Cyclops Bridge Fragment
+}
+4: {
+  Lifepod 6 - Outside PDA: Cyclops Hull Fragment
+}
+5: {
+  Lost River Laboratory Cache - Alien Data Terminal: Cyclops Depth Module MK1
+}
+6: {
+  Disable Quarantine: Victory
+}

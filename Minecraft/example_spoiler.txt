@@ -1,0 +1,212 @@
+﻿Archipelago Version 0.6.6  -  Seed: 32034811353990497676
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Minecraft
+Location Count:                  114
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Plando Connections:              
+Advancement Goal:                40
+Egg Shards Required:             0
+Egg Shards Available:            0
+Required Bosses:                 None
+Shuffle Structures:              Yes
+Structure Compasses:             Yes
+Combat Difficulty:               Normal
+Include Hard Advancements:       No
+Include Unreasonable Advancements:No
+Include Postgame Advancements:   No
+Bee Trap Percentage:             3
+Send Defeated Mobs:              No
+Death Link:                      Yes
+Starting Items:                  
+
+
+Entrances:
+
+Overworld Structure 1 => End City
+Overworld Structure 2 => Bastion Remnant
+Nether Structure 1 => Nether Fortress
+Nether Structure 2 => Pillager Outpost
+The End Structure => Village
+
+Locations:
+
+Who is Cutting Onions?: Rotten Flesh
+Oh Shiny: Campfire
+Suit Up: 50 XP
+Very Very Frightening: 4 Diamond Ore
+Hot Stuff: Archery
+Best Friends Forever: Progressive Tools
+Not Today, Thank You: 8 Netherite Scrap
+Isn't It Iron Pick: 32 Arrows
+Fishy Business: Looting III Book
+Sniper Duel: 3 Ender Pearls
+Bullseye: Flint and Steel
+Stone Age: 4 Emeralds
+Two Birds, One Arrow: 4 Emeralds
+Getting an Upgrade: 8 Gold Ore
+Tactical Fishing: 4 Emeralds
+Zombie Doctor: Rotten Flesh
+Ice Bucket Challenge: 16 Porkchops
+Take Aim: Saddle
+Total Beelocation: 50 XP
+Arbalistic: Rotten Flesh
+Acquire Hardware: Lead
+Cover Me With Diamonds: 16 Porkchops
+Hired Help: Progressive Armor
+Sweet Dreams: Channeling Book
+Adventure: Bucket
+Monsters Hunted: 16 Porkchops
+Enchanter: Progressive Weapons
+Eye Spy: Progressive Armor
+Monster Hunter: 3 Ender Pearls
+Adventuring Time: Rotten Flesh
+A Seedy Place: 16 Porkchops
+Husbandry: 16 Porkchops
+Bee Our Guest: 32 Arrows
+Diamonds!: Shield
+A Throwaway Joke: 4 Diamond Ore
+Minecraft: 50 XP
+Sticky Situation: Brewing
+Ol' Betsy: 16 Porkchops
+The Parrots and the Bats: Progressive Resource Crafting
+Getting Wood: 8 Gold Ore
+Time to Mine!: Bee Trap
+Hot Topic: Progressive Tools
+Bake Bread: Rotten Flesh
+The Lie: 4 Emeralds
+On a Rail: 4 Emeralds
+Time to Strike!: 50 XP
+Cow Tipper: 4 Diamond Ore
+When Pigs Fly: 50 XP
+Librarian: 8 Gold Ore
+Wax On: 50 XP
+Wax Off: 50 XP
+The Cutest Predator: Structure Compass (Nether Fortress)
+The Healing Power of Friendship: 3 Ender Pearls
+Is It a Bird?: Rotten Flesh
+Surge Protector: 16 Porkchops
+Light as a Rabbit: 16 Iron Ore
+Glow and Behold!: 4 Emeralds
+Whatever Floats Your Goat!: Enchanting
+Caves & Cliffs: Progressive Weapons
+Sound of Music: 8 Gold Ore
+Bukkit Bukkit: 50 XP
+It Spreads: 4 Emeralds
+Sneak 100: Bee Trap
+When the Squad Hops into Town: 16 Iron Ore
+Hot Tourist Destinations: 50 XP
+This Boat Has Legs: 16 Porkchops
+Nether: Structure Compass (Bastion Remnant)
+Two by Two: 50 XP
+We Need to Go Deeper: Bed
+Not Quite "Nine" Lives: Progressive Weapons
+Return to Sender: Progressive Tools
+Serious Dedication: Structure Compass (End City)
+Hidden in the Depths: 50 XP
+Subspace Bubble: 4 Diamond Ore
+Country Lode, Take Me Home: 50 XP
+Uneasy Alliance: 16 Porkchops
+Cover Me in Debris: Rotten Flesh
+Is It a Balloon?: Structure Compass (Village)
+Feels like home: Piercing IV Book
+With Our Powers Combined!: 16 Porkchops
+Free the End: 8 Netherite Scrap
+The Next Generation: 50 XP
+Remote Getaway: 8 Gold Ore
+The End... Again...: 32 Arrows
+You Need a Mint: 50 XP
+The End: 8 Gold Ore
+The End?: Silk Touch Book
+Is It a Plane?: Bee Trap
+Postmortal: 16 Porkchops
+Hero of the Village: 16 Porkchops
+A Balanced Diet: 8 Gold Ore
+What a Deal!: 8 Gold Ore
+A Complete Catalogue: 50 XP
+Star Trader: 4 Emeralds
+A Furious Cocktail: 16 Porkchops
+Bring Home the Beacon: 3 Ender Pearls
+Local Brewery: 4 Diamond Ore
+How Did We Get Here?: 50 XP
+Spooky Scary Skeleton: 50 XP
+Into Fire: Progressive Resource Crafting
+Beaconator: 16 Porkchops
+Withering Heights: Sharpness III Book
+A Terrible Fortress: Structure Compass (Pillager Outpost)
+Overkill: Rotten Flesh
+Who's the Pillager Now?: 50 XP
+Voluntary Exile: 50 XP
+Birthday Song: Infinity Book
+You've Got a Friend in Me: 8 Gold Ore
+War Pigs: 16 Porkchops
+Those Were the Days: Spyglass
+Overpowered: Bottles
+Great View From Up Here: 32 Arrows
+The City at the End of the Game: 16 Porkchops
+Sky's the Limit: Fishing Rod
+Blaze Rods: Blaze Rods
+Ender Dragon: Ender Dragon
+Wither: Wither
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Adventure: Bucket
+  Best Friends Forever: Progressive Tools
+  The Parrots and the Bats: Progressive Resource Crafting
+}
+2: {
+  Hot Stuff: Archery
+  Hot Topic: Progressive Tools
+}
+3: {
+  Bullseye: Flint and Steel
+  Caves & Cliffs: Progressive Weapons
+}
+4: {
+  We Need to Go Deeper: Bed
+}
+
+Paths:
+
+Adventure
+        Menu -> New World
+   =>   Overworld
+Best Friends Forever
+        Menu -> New World
+   =>   Overworld
+Bullseye
+        Menu -> New World
+   =>   Overworld
+Caves & Cliffs
+        Menu -> New World
+   =>   Overworld
+Hot Stuff
+        Menu -> New World
+   =>   Overworld
+Hot Topic
+        Menu -> New World
+   =>   Overworld
+The Parrots and the Bats
+        Menu -> New World
+   =>   Overworld
+We Need to Go Deeper
+        Menu -> New World
+   =>   Overworld -> Nether Portal
+   =>   The Nether
