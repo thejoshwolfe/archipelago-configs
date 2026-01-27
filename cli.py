@@ -5,7 +5,7 @@ Invokes the Archipelago tools with CLI ergonomics more suitable to stateless aut
 """
 
 import os, sys, subprocess
-import shutil, shlex, tempfile
+import shutil, shlex, tempfile, glob
 import re, json
 
 def main():
@@ -116,19 +116,46 @@ def do_init(repo):
     venv_dir = os.path.join(repo, ".venv")
     python_exe = os.path.join(venv_dir, "bin", "python")
     if not os.path.isfile(python_exe):
-        import venv
-        builder = venv.EnvBuilder(clear=True, with_pip=True)
-        builder.create(venv_dir)
+        subprocess.run(["uv", "venv", venv_dir], cwd=repo, check=True)
 
-    # The installer asks frequently (twice for me) to confirm whether to actually do its job.
-    # Simply hitting Enter is the 'yes' option (Ctrl+C is the 'no' option.).
-    yeah_yeah_yeah = b"\n"*100
-    ap_cmd("ModuleUpdate.py", input=yeah_yeah_yeah, suppress_auto_install=False, repo=repo)
+    # Install everything from world/*/requirements.txt
+    # and custom_worlds/{name}.apworld(a zip file)/{name}/requirements.txt
+    all_requirements_files = [os.path.join(repo, "requirements.txt")]
+    all_requirements_files.extend(glob.glob(os.path.join(repo, "worlds", "*", "requirements.txt")))
+    with tempfile.TemporaryDirectory(prefix="ap_cli.", suffix=".tmp") as tmp_dir:
+        for zipfile_path in glob.glob(os.path.join(repo, "custom_worlds", "*.apworld")):
+            import zipfile
+            with zipfile.ZipFile(zipfile_path) as z:
+                for inner_item in z.infolist():
+                    if inner_item.filename.endswith("/requirements.txt"):
+                        assert inner_item.filename == "{}/requirements.txt".format(os.path.splitext(os.path.basename(zipfile_path))[0]), inner_item.filename
+                        file = os.path.join(tmp_dir, inner_item.filename.replace("/", "_"))
+                        with z.open(inner_item) as in_f:
+                            with open(file, "wb") as out_f:
+                                out_f.write(in_f.read())
+                        all_requirements_files.append(file)
+
+        # I don't make the rules. You have to separate the files based on whether they contain --hash directives.
+        hash_enabled_files = []
+        hashless_files = []
+        for file in all_requirements_files:
+            with open(file) as f:
+                if "--hash" in f.read():
+                    hash_enabled_files.append(file)
+                else:
+                    hashless_files.append(file)
+        for file_list in (hash_enabled_files, hashless_files):
+            if len(file_list) == 0: continue
+            cmd = ["uv", "pip", "install"]
+            for file in file_list:
+                cmd.extend(["-r", os.path.abspath(file)])
+            subprocess.run(cmd, cwd=repo, check=True)
 
     # We could try to create the default host.yaml now, but I think it's better for the user to see that happen.
 
     # This module does fancy stuff on import once. Let's get it over with.
     ap_cmd("NetUtils.py", repo=repo)
+    # This also verifies a few of the above dependencies.
 
 def do_generate(repo, output_dir, seed, server, player_yamls):
     if not os.path.isdir(output_dir):

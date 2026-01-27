@@ -70,14 +70,7 @@ Mega Man X2:
     - Wheel Gator Access Codes
     - Wire Sponge Access Codes
   start_location_hints: []
-  exclude_locations:
-  # I can't figure out how to make the stupid bike jump reliably.
-  - Overdrive Ostrich - 1-Up Pickup (Top-right ledge in outdoors bike section)
-  - Overdrive Ostrich - HP Pickup 2 (On spikes before Legs Capsule)
-  - Overdrive Ostrich - Weapon Energy Pickup 1 (On spikes before Legs Capsule)
-  - Overdrive Ostrich - HP Pickup 3 (On spikes before Legs Capsule)
-  - Overdrive Ostrich - Weapon Energy Pickup 2 (On spikes before Legs Capsule)
-  - Overdrive Ostrich - Heart Tank
+  exclude_locations: []
   priority_locations: []
   item_links: []
   plando_items: []
