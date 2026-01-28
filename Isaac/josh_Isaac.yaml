@@ -1,0 +1,140 @@
+name: josh_isaac
+description: Defeat Blue Baby, The Lamb, Mega Satan, Hush, and Boss Rush
+game: The Binding of Isaac Repentance
+requires:
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    The Binding of Isaac Repentance: 0.3.0 # Version of the world required for this yaml to work as expected.
+The Binding of Isaac Repentance:
+  goals:
+    - Blue Baby
+    - The Lamb
+    - Mega Satan
+    - Boss Rush
+    - Hush
+  goal_amount: '0'
+
+  # I don't know the repentance stuff very well.
+  excluded_areas:
+    - Alt Path
+    - Ascend
+    - The Void
+  floor_variations: 'false' # Shorter game please.
+  ultra_secret_room: none # Idk what this is.
+
+  bad_rng_protection: 'true'
+  rng_rooms: no_progression # Library, Bedroom, Vault, Dice Room
+  error_room: no_progression
+  crawl_space: no_progression # Idk how to find these.
+  planetarium: no_progression
+
+  additional_boss_rewards: 'true'
+  item_location_percentage: '100'
+  additional_item_locations_per_stage:
+    Basement: 9
+    Caves: 9
+    Depths: 9
+    Womb: 3
+
+    Boss Rush: 1
+    ???: 4
+
+    Cathedral: 0
+    Sheol: 0
+    Chest: 2
+    Dark Room: 2
+
+    The Void: 0
+
+    Cellar: 0
+    Burning Basement: 0
+    Catacombs: 0
+    Flooded Caves: 0
+    Necropolis: 0
+    Dank Depths: 0
+    Utero: 0
+    Scarred Womb: 0
+    Downpour: 0
+    Dross: 0
+    Mines: 0
+    Ashpit: 0
+    Mausoleum: 0
+    Gehenna: 0
+    Home: 0
+    Corpse: 0
+
+  retain_items_percentage: '30'
+  scatter_previous_items: 'false'
+
+  junk_percentage: '75'
+  trap_percentage: '10'
+  item_weights: # Default
+    Angel Deal Item: 6
+    Boss Item: 12
+    Curse Room Item: 4
+    Devil Deal Item: 6
+    Golden Chest Item: 8
+    Library Item: 1
+    Planetarium Item: 1
+    Red Chest Item: 4
+    Secret Room Item: 8
+    Shop Item: 15
+    Treasure Room Item: 15
+  junk_weights: # Default
+    Random Bomb: 5
+    Random Card: 3
+    Random Chest: 2
+    Random Coin: 6
+    Random Heart: 5
+    Random Key: 5
+    Random Pill: 3
+    Random Trinket: 1
+  retain_junk_percentage: '10'
+  trap_weights:
+    Curse Trap: 1
+    Paralysis Trap: 1
+    Retro Vision Trap: 1
+    Teleport Trap: 1
+    Troll Bomb Trap: 1
+    Wavy Cap Trap: 0 # No.
+
+  one_ups: '3'
+  retain_one_ups_percentage: '100'
+
+  exclude_items_as_rewards:
+    - TMTrainer
+    - Missing No
+
+  progressive_mapping_upgrades: 'true'
+  permanent_stat_upgrades: '5'
+  start_out_nerfed: '0'
+
+  fortune_machine_hint_percentage: '30'
+  crystal_ball_hint_percentage: '100'
+  fortune_cookie_hint_percentage: '50'
+  hint_types_from_fortunes:
+    - Useful Items
+    - Progression Items
+
+  death_link: 'false'
+  death_link_severity: normal
+
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_hints:
+    - Womb Unlock
+    - Cathedral Unlock
+    - Sheol Unlock
+    - The Polaroid Unlock
+    - The Negative Unlock
+    - Key Pieces Unlock
+    - Boss Rush Unlock
+    - ??? Unlock
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  accessibility: full

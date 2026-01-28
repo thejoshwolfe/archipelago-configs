@@ -1,0 +1,345 @@
+﻿Archipelago Version 0.6.6  -  Seed: 3220810684007018920
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            The Binding of Isaac Repentance
+Location Count:                  169
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     ??? Unlock, Boss Rush Unlock, Cathedral Unlock, Key Pieces Unlock, Sheol Unlock, The Negative Unlock, The Polaroid Unlock, Womb Unlock
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Goals:                           Blue Baby, Boss Rush, Hush, Mega Satan, The Lamb
+Goal Amount:                     0
+Excluded areas:                  Alt Path, Ascend, The Void
+Bad RNG Protection:              Yes
+Heavy RNG rooms:                 No Progression
+Ultra Secret room:               None
+Error room:                      No Progression
+Crawl Space:                     No Progression
+Planetarium:                     No Progression
+Floor Variations:                No
+Additional Item Locations per Stage:Basement: 9, Caves: 9, Depths: 9, Womb: 3, Boss Rush: 1, ???: 4, Cathedral: 0, Sheol: 0, Chest: 2, Dark Room: 2, The Void: 0, Cellar: 0, Burning Basement: 0, Catacombs: 0, Flooded Caves: 0, Necropolis: 0, Dank Depths: 0, Utero: 0, Scarred Womb: 0, Downpour: 0, Dross: 0, Mines: 0, Ashpit: 0, Mausoleum: 0, Gehenna: 0, Home: 0, Corpse: 0
+Item Location Percentage:        100
+Additional Boss Rewards:         Yes
+Scatter Previous Items:          No
+Junk Percentage:                 75
+Trap Percentage:                 10
+Item Weights:                    Angel Deal Item: 6, Boss Item: 12, Curse Room Item: 4, Devil Deal Item: 6, Golden Chest Item: 8, Library Item: 1, Planetarium Item: 1, Red Chest Item: 4, Secret Room Item: 8, Shop Item: 15, Treasure Room Item: 15
+Retain Items Percentage:         30
+Junk Weights:                    Random Bomb: 5, Random Card: 3, Random Chest: 2, Random Coin: 6, Random Heart: 5, Random Key: 5, Random Pill: 3, Random Trinket: 1
+Retain Junk Percentage:          10
+Trap Weights:                    Curse Trap: 1, Paralysis Trap: 1, Retro Vision Trap: 1, Teleport Trap: 1, Troll Bomb Trap: 1, Wavy Cap Trap: 0
+1-UPs:                           3
+Retain 1-UPs Percentage:         100
+Exclude items as rewards:        Missing No, TMTrainer
+Progressive Mapping Upgrades:    Yes
+permanent_stat_upgrades:         5
+start_out_nerfed:                0
+Fortune Machine Hint Percentage: 30
+Crystal Ball Hint Percentage:    100
+Fortune Cookie Hint Percentage:  50
+Hint types from Fortunes:        Progression Items, Useful Items
+Death Link:                      No
+Death Link Severity:             Normal
+
+
+Locations:
+
+Chapter 1 - Vault: Random Key
+Chapter 1 - Dice Room: Treasure Room Item
+Chapter 1 - Bedroom: Shop Item
+Chapter 1 - Library: Shop Item
+Chapter 1 - Crawl Space: Random Bomb
+Chapter 1 - I AM ERROR: Random Coin
+Chapter 1 - Planetarium: Paralysis Trap
+Chapter 2 - Vault: Permanent Luck Up
+Chapter 2 - Dice Room: Permanent Tears Up
+Chapter 2 - Bedroom: Random Heart
+Chapter 2 - Library: Red Chest Item
+Chapter 2 - Crawl Space: Permanent Speed Up
+Chapter 2 - I AM ERROR: Random Coin
+Chapter 2 - Planetarium: Retro Vision Trap
+Chapter 3 - Vault: Random Card
+Chapter 3 - Dice Room: Random Key
+Chapter 3 - Bedroom: Shop Item
+Chapter 3 - Library: Random Key
+Chapter 3 - Crawl Space: Boss Item
+Chapter 3 - I AM ERROR: Random Bomb
+Chapter 3 - Planetarium: Random Key
+Chapter 4 - Vault: Random Heart
+Chapter 4 - Dice Room: Random Coin
+Chapter 4 - Bedroom: Random Heart
+Chapter 4 - Library: Permanent Luck Up
+Chapter 4 - Crawl Space: Random Key
+Chapter 4 - I AM ERROR: Random Heart
+Chapter 4 - Planetarium: Curse Room Item
+Chapter 5 - Vault: Random Heart
+Chapter 5 - Dice Room: Random Bomb
+Chapter 5 - Bedroom: Random Coin
+Chapter 5 - Library: Random Coin
+Chapter 5 - Crawl Space: Random Heart
+Chapter 5 - I AM ERROR: Progressive Map Upgrade
+Basement - Treasure Room: Permanent Tears Up
+Basement - Shop: Random Bomb
+Basement - Secret Room: Cathedral Unlock
+Basement - Super Secret Room: Random Bomb
+Basement - Boss Room: Troll Bomb Trap
+Basement - Arcade: Random Card
+Basement - Challenge Room: Boss Item
+Basement - Curse Room: Troll Bomb Trap
+Basement - Sacrifice Room: Random Key
+Basement - Miniboss Room: Angel Deal Item
+Basement - Deal Room: Boss Rush Unlock
+Basement - Item #1: Devil Deal Item
+Basement - Item #2: Paralysis Trap
+Basement - Item #3: Secret Room Item
+Basement - Item #4: Permanent Tears Up
+Basement - Item #5: Random Pill
+Basement - Item #6: Retro Vision Trap
+Basement - Item #7: Random Trinket
+Basement - Item #8: Shop Item
+Basement - Item #9: Random Coin
+Caves - Treasure Room: Random Card
+Caves - Shop: Random Heart
+Caves - Secret Room: Random Card
+Caves - Super Secret Room: Random Chest
+Caves - Boss Room: Random Coin
+Caves - Arcade: Random Coin
+Caves - Challenge Room: Random Bomb
+Caves - Curse Room: Random Pill
+Caves - Sacrifice Room: Random Card
+Caves - Miniboss Room: Teleport Trap
+Caves - Deal Room: Permanent Speed Up
+Caves - Item #1: Random Bomb
+Caves - Item #2: Random Key
+Caves - Item #3: ??? Unlock
+Caves - Item #4: Random Chest
+Caves - Item #5: Random Pill
+Caves - Item #6: Key Pieces Unlock
+Caves - Item #7: Random Key
+Caves - Item #8: Random Heart
+Caves - Item #9: Random Heart
+Depths - Treasure Room: Shop Item
+Depths - Shop: Permanent Tears Up
+Depths - Secret Room: 1-UP
+Depths - Super Secret Room: Permanent Luck Up
+Depths - Boss Room: Curse Trap
+Depths - Arcade: Permanent Range Up
+Depths - Challenge Room: Angel Deal Item
+Depths - Curse Room: Random Bomb
+Depths - Sacrifice Room: Permanent Damage Up
+Depths - Miniboss Room: Teleport Trap
+Depths - Deal Room: 1-UP
+Depths - Item #1: Secret Room Item
+Depths - Item #2: Treasure Room Item
+Depths - Item #3: Random Coin
+Depths - Item #4: Treasure Room Item
+Depths - Item #5: Random Coin
+Depths - Item #6: Random Heart
+Depths - Item #7: Golden Chest Item
+Depths - Item #8: Permanent Damage Up
+Depths - Item #9: Womb Unlock
+Boss Rush - Boss Room: Random Key
+Boss Rush - Item #1: Random Pill
+Womb - Secret Room: Random Chest
+Womb - Super Secret Room: Permanent Damage Up
+Womb - Boss Room: Random Pill
+Womb - Arcade: Curse Trap
+Womb - Challenge Room: Random Chest
+Womb - Curse Room: Random Heart
+Womb - Sacrifice Room: Random Pill
+Womb - Miniboss Room: Permanent Luck Up
+Womb - Deal Room: Sheol Unlock
+Womb - Item #1: Permanent Range Up
+Womb - Item #2: Permanent Range Up
+Womb - Item #3: Permanent Range Up
+??? - Treasure Room: Random Bomb
+??? - Shop: Progressive Map Upgrade
+??? - Boss Room: Boss Item
+??? - Item #1: Random Chest
+??? - Item #2: Permanent Tears Up
+??? - Item #3: Boss Item
+??? - Item #4: Random Coin
+Cathedral - Secret Room: Random Coin
+Cathedral - Super Secret Room: Random Coin
+Cathedral - Boss Room: The Negative Unlock
+Cathedral - Arcade: Random Pill
+Cathedral - Challenge Room: Random Heart
+Cathedral - Curse Room: Random Card
+Cathedral - Sacrifice Room: Random Heart
+Cathedral - Miniboss Room: Random Key
+Sheol - Secret Room: Treasure Room Item
+Sheol - Super Secret Room: Random Pill
+Sheol - Boss Room: Boss Item
+Sheol - Arcade: Random Card
+Sheol - Challenge Room: Random Card
+Sheol - Curse Room: Random Chest
+Sheol - Sacrifice Room: Random Heart
+Sheol - Miniboss Room: Red Chest Item
+Chest - Secret Room: Random Key
+Chest - Super Secret Room: Curse Room Item
+Chest - Boss Room: Random Bomb
+Chest - Item #1: Golden Chest Item
+Chest - Item #2: Golden Chest Item
+Dark Room - Secret Room: 1-UP
+Dark Room - Super Secret Room: Random Key
+Dark Room - Boss Room: Random Key
+Dark Room - Item #1: Random Bomb
+Dark Room - Item #2: The Polaroid Unlock
+Mega Satan - Boss Room: Random Bomb
+Mom Reward #1: Permanent Damage Up
+Mom's Heart Reward #1: Permanent Speed Up
+Mom's Heart Reward #2: Secret Room Item
+Boss Rush Reward #1: Random Coin
+Boss Rush Reward #2: Random Coin
+Defeat Boss Rush: Victory Condition
+Isaac Reward #1: Random Bomb
+Isaac Reward #2: Random Bomb
+Isaac Reward #3: Treasure Room Item
+Satan Reward #1: Devil Deal Item
+Satan Reward #2: Permanent Range Up
+Satan Reward #3: Permanent Damage Up
+Hush Reward #1: Random Pill
+Hush Reward #2: Random Coin
+Hush Reward #3: Progressive Map Upgrade
+Defeat Hush: Victory Condition
+Blue Baby Reward #1: Treasure Room Item
+Blue Baby Reward #2: Random Coin
+Blue Baby Reward #3: Permanent Speed Up
+Blue Baby Reward #4: Random Card
+Defeat Blue Baby: Victory Condition
+The Lamb Reward #1: Random Heart
+The Lamb Reward #2: Random Key
+The Lamb Reward #3: Shop Item
+The Lamb Reward #4: Random Key
+Defeat The Lamb: Victory Condition
+Mega Satan Reward #1: Random Coin
+Mega Satan Reward #2: Random Trinket
+Mega Satan Reward #3: Permanent Luck Up
+Mega Satan Reward #4: Random Bomb
+Mega Satan Reward #5: Permanent Speed Up
+Defeat Mega Satan: Victory Condition
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Basement - Deal Room: Boss Rush Unlock
+  Basement - Secret Room: Cathedral Unlock
+  Caves - Item #3: ??? Unlock
+  Caves - Item #6: Key Pieces Unlock
+  Depths - Item #9: Womb Unlock
+}
+2: {
+  Cathedral - Boss Room: The Negative Unlock
+  Defeat Boss Rush: Victory Condition
+  Defeat Hush: Victory Condition
+  Womb - Deal Room: Sheol Unlock
+}
+3: {
+  Dark Room - Item #2: The Polaroid Unlock
+  Defeat Mega Satan: Victory Condition
+  Defeat The Lamb: Victory Condition
+}
+4: {
+  Defeat Blue Baby: Victory Condition
+}
+
+Paths:
+
+Basement - Deal Room
+        Menu -> Menu -> Basement
+   =>   Basement
+Basement - Secret Room
+        Menu -> Menu -> Basement
+   =>   Basement
+Cathedral - Boss Room
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Womb
+   =>   Womb -> Womb -> Cathedral
+   =>   Cathedral
+Caves - Item #3
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves
+Caves - Item #6
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves
+Dark Room - Item #2
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Womb
+   =>   Womb -> Womb -> ???
+   =>   ??? -> ??? -> Sheol
+   =>   Sheol -> Sheol -> Dark Room
+   =>   Dark Room
+Defeat Blue Baby
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Womb
+   =>   Womb -> Womb -> Cathedral
+   =>   Cathedral -> Cathedral -> Chest
+   =>   Chest -> Chest -> Boss: Blue Baby
+   =>   Boss: Blue Baby
+Defeat Boss Rush
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Boss Rush
+   =>   Boss Rush -> Boss Rush -> Boss: Boss Rush
+   =>   Boss: Boss Rush
+Defeat Hush
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Womb
+   =>   Womb -> Womb -> ???
+   =>   ??? -> ??? -> Boss: Hush
+   =>   Boss: Hush
+Defeat Mega Satan
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Womb
+   =>   Womb -> Womb -> ???
+   =>   ??? -> ??? -> Sheol
+   =>   Sheol -> Sheol -> Dark Room
+   =>   Dark Room -> Dark Room -> Mega Satan
+   =>   Mega Satan -> Mega Satan -> Boss: Mega Satan
+   =>   Boss: Mega Satan
+Defeat The Lamb
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Womb
+   =>   Womb -> Womb -> ???
+   =>   ??? -> ??? -> Sheol
+   =>   Sheol -> Sheol -> Dark Room
+   =>   Dark Room -> Dark Room -> Boss: The Lamb
+   =>   Boss: The Lamb
+Depths - Item #9
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths
+Womb - Deal Room
+        Menu -> Menu -> Basement
+   =>   Basement -> Basement -> Caves
+   =>   Caves -> Caves -> Depths
+   =>   Depths -> Depths -> Womb
+   =>   Womb
