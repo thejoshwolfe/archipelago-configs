@@ -1,5 +1,5 @@
 name: josh_isaac
-description: Defeat Blue Baby, The Lamb, Mega Satan, Hush, and Boss Rush
+description: Defeat Blue Baby, The Lamb, Mega Satan, Hush, and Boss Rush. Most Repentance content is disabled.
 game: The Binding of Isaac Repentance
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -31,13 +31,13 @@ The Binding of Isaac Repentance:
   additional_boss_rewards: 'true'
   item_location_percentage: '100'
   additional_item_locations_per_stage:
-    Basement: 9
-    Caves: 9
-    Depths: 9
+    Basement: 10
+    Caves: 10
+    Depths: 10
     Womb: 3
 
     Boss Rush: 1
-    ???: 4
+    ???: 3
 
     Cathedral: 0
     Sheol: 0
@@ -46,6 +46,7 @@ The Binding of Isaac Repentance:
 
     The Void: 0
 
+    # Disabled:
     Cellar: 0
     Burning Basement: 0
     Catacombs: 0
@@ -63,8 +64,12 @@ The Binding of Isaac Repentance:
     Home: 0
     Corpse: 0
 
-  retain_items_percentage: '30'
-  scatter_previous_items: 'false'
+  # Pedestal items received through AP become extra items you find on the first 6 floors of future runs.
+  retain_items_percentage: '100'
+  scatter_previous_items: 'true'
+  one_ups: '3'
+  retain_one_ups_percentage: '100'
+  retain_junk_percentage: '100'
 
   junk_percentage: '75'
   trap_percentage: '10'
@@ -89,7 +94,6 @@ The Binding of Isaac Repentance:
     Random Key: 5
     Random Pill: 3
     Random Trinket: 1
-  retain_junk_percentage: '10'
   trap_weights:
     Curse Trap: 1
     Paralysis Trap: 1
@@ -97,9 +101,6 @@ The Binding of Isaac Repentance:
     Teleport Trap: 1
     Troll Bomb Trap: 1
     Wavy Cap Trap: 0 # No.
-
-  one_ups: '3'
-  retain_one_ups_percentage: '100'
 
   exclude_items_as_rewards:
     - TMTrainer

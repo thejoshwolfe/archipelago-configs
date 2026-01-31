@@ -29,7 +29,7 @@ Subnautica:
     Lithium: 1
     Magnetite: 1
     Nickel Ore: 1
-    Reactor Rod: 1
+    Reactor Rod: 1 # trash
     Ruby: 1
     Salt Deposit: 1
     Silver Ore: 1
@@ -43,13 +43,16 @@ Subnautica:
     - Modification Station Fragment
     # how do i Fast.
     - Prawn Suit Grappling Arm Fragment
-    # Reduce backtracking from deep dives.
-    - Thermal Plant Fragment
     # Help avoid starvation deathlink.
     - Multipurpose Room
     - Farming
     - Exterior Growbed
-    - Water Filtration Machine
+  plando_items:
+    # Logic doesn't require these, but I do.
+    - items: [Prawn Suit Grappling Arm Fragment]
+      locations: [early_locations]
+      count: 2
+      force: false
 
   local_items: []
   non_local_items: []
@@ -59,6 +62,5 @@ Subnautica:
   exclude_locations: []
   priority_locations: []
   item_links: []
-  plando_items: []
   progression_balancing: '50'
   accessibility: full

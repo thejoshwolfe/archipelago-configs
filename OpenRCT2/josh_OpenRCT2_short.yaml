@@ -46,7 +46,7 @@ OpenRCT2:
   shop_maximum_total_customers: '400'
   balance_guest_counts: 'true'
   visibility: recipient
-  awards: all
+  awards: none
   exclude_safest_park: 'true'
 
   #######################
