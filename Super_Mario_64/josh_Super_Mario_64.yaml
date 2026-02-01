@@ -1,5 +1,5 @@
 name: josh_sm64
-description: 70/100 stars to win. Suffled Cannons, 1-Up Boxes, Entrances. No 100-coin stars. Locked moves are Triple Jump, Backflip, Wall Kick, Ground Pound, and Climb. MIPS 2 has key 2 at 30 stars.
+description: 70/75 stars to win. Suffled Cannons, 1-Up Boxes, Entrances. No 100-coin stars. Locked moves are Triple Jump, Backflip, Wall Kick, Ground Pound, and Climb. MIPS 2 has key 2 at 30 stars.
 game: Super Mario 64
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -12,7 +12,7 @@ Super Mario 64:
   basement_star_door_cost: '30'
   second_floor_star_door_cost: '50'
   stars_to_finish: '70'
-  amount_of_stars: '100'
+  amount_of_stars: '75'
   mips1_cost: '15'
   mips2_cost: '30'
 
