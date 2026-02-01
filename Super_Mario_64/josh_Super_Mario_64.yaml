@@ -18,6 +18,7 @@ Super Mario 64:
 
   # Shuffle
   area_rando: 'courses_and_secrets_separate'
+  enable_locked_paintings: 'false'
   buddy_checks: 'true'
   exclamation_boxes: 'true' # Only 1-Up boxes, not coin boxes.
   enable_move_rando: 'true'

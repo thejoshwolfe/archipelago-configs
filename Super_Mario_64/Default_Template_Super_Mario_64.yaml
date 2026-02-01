@@ -32,7 +32,7 @@ description: Default Super Mario 64 Template
 
 game: Super Mario 64
 requires:
-  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
 
 Super Mario 64:
   ################
@@ -111,6 +111,18 @@ Super Mario 64:
     'off': 50
     'on': 0
     vanilla: 0
+
+  enable_locked_paintings:
+    # Determine how paintings are treated.
+    # 
+    # Off - Paintings are not locked, as long as you can access them you can enter them (Vanilla behavior).
+    # 
+    # On - Paintings (other than BoB) start off locked and 11 stars are replaced in the pool with items to allow access to them.
+    # Attempting to enter a locked painting will simply kick Mario out.
+    # Does not affect secrets and levels that don't have a painting (BBH, HMC, RR).
+    # This only affects the ability for Mario to enter a painting, the destination of the painting may change due to Entrance Randomization, if it is enabled.
+    'false': 50
+    'true': 0
 
   strict_cap_requirements:
     # If disabled, Stars that expect special caps may have to be acquired without the caps
