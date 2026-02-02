@@ -70,6 +70,8 @@ def main():
     sub_parser.add_argument("--server-dir", required=True, help=
         "The cwd for the factorio server. "
         "The save file called Archipelago.zip goes there, and this script throws stuff in there as well.")
+    sub_parser.add_argument("--space-age", action="store_true", help=
+        "Experimental")
 
     sub_parser = subparsers.add_parser("factorio-client", help=
         "Installs the given mod into your client's mods folder ~/.factorio/mods/ and deletes all other AP-* mods.")
@@ -91,7 +93,7 @@ def main():
     elif args.cmd == "generate-template-options":
         do_generate_template_options(args.repo)
     elif args.cmd == "factorio-server":
-        do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir)
+        do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir, args.space_age)
     elif args.cmd == "factorio-client":
         do_factorio_client(args.mod)
     else: assert False
@@ -255,7 +257,7 @@ def do_text_client(repo, connect_to, slot_name):
 def do_generate_template_options(repo):
     ap_cmd("Launcher.py", "Generate Template Options", "--", "--skip_open_folder", repo=repo, input=None)
 
-def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
+def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_age_enabled):
     if not os.access(os.path.join(factorio_root, "bin/x64/factorio"), os.X_OK):
         sys.exit("ERROR: does not appear to be a factorio root: " + repr(factorio_root))
     # example name: AP-77091154303292394091-P1-josh_0.6.5.zip
@@ -282,11 +284,11 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
     # AP is incompatible with space-age
     for mod in mod_list["mods"]:
         if mod["name"] == "space-age":
-            mod["enabled"] = False
+            mod["enabled"] = space_age_enabled
         elif mod["name"] in ("elevated-rails", "quality"):
             # These mods do work, sorta, but they're excluded from the randomization experience.
             # Not necessary. Turn them off.
-            mod["enabled"] = False
+            mod["enabled"] = space_age_enabled
     # Enable the new mod.
     mod_list["mods"].append({"name": ap_mod_name, "enabled": True})
     with open(os.path.join(mods_dir, "mod-list.json"), "w") as f:
@@ -332,7 +334,8 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir):
         with open(host_yaml_path, "w") as f:
             json.dump(host_j, f)
 
-    ap_cmd("Launcher.py", "Factorio Client", "--", "--nogui", cwd=server_dir, input=None, repo=repo, os_exec=True)
+    client_name = "Factorio: Space Age Client" if space_age_enabled else "Factorio Client"
+    ap_cmd("Launcher.py", client_name, "--", "--nogui", cwd=server_dir, input=None, repo=repo, os_exec=True)
 
 def do_factorio_client(mod_source_path):
     mods_dir = os.path.expanduser("~/.factorio/mods")
