@@ -186,7 +186,11 @@ def do_generate(repo, output_dir, seed, server, player_yamls):
         ]
         if seed != -1:
             args.extend(("--seed", int(seed)))
-        ap_cmd("Generate.py", *args, repo=repo)
+        try:
+            ap_cmd("Generate.py", *args, repo=repo)
+        except subprocess.CalledProcessError:
+            # It's very common for this program to error. Don't make a big fuss about it.
+            sys.exit(1)
 
         # Extract primary .zip into output dir.
         output_names = os.listdir(tmp_output_dir)
@@ -247,15 +251,15 @@ def do_server(repo, server_dir, multidata_path, oracle_spoiler):
     if oracle_spoiler:
         args.extend(["--oracle-spoiler", os.path.abspath(oracle_spoiler)])
     args.append(os.path.abspath(multidata_path))
-    ap_cmd("MultiServer.py", *args, cwd=server_dir, input=None, repo=repo, os_exec=True)
+    ap_cmd("MultiServer.py", *args, cwd=server_dir, repo=repo, os_exec=True)
 
 
 def do_text_client(repo, connect_to, slot_name):
     args = ["--nogui", "--connect", connect_to, "--name", slot_name]
-    ap_cmd("CommonClient.py", *args, input=None, repo=repo, os_exec=True)
+    ap_cmd("CommonClient.py", *args, repo=repo, os_exec=True)
 
 def do_generate_template_options(repo):
-    ap_cmd("Launcher.py", "Generate Template Options", "--", "--skip_open_folder", repo=repo, input=None)
+    ap_cmd("Launcher.py", "Generate Template Options", "--", "--skip_open_folder", repo=repo)
 
 def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_age_enabled):
     if not os.access(os.path.join(factorio_root, "bin/x64/factorio"), os.X_OK):
@@ -271,8 +275,17 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
     try:
         os.mkdir(mods_dir)
     except FileExistsError:
-        shutil.rmtree(mods_dir)
-        os.mkdir(mods_dir)
+        pass
+    # Audit which existing mods are allowed.
+    found_optional_mod = False
+    for mod_file_name in os.listdir(mods_dir):
+        if mod_file_name.startswith("respawn-to-any-planet_") and space_age_enabled:
+            # This one is ok.
+            found_optional_mod = True
+            continue
+        # Not this one.
+        os.remove(os.path.join(mods_dir, mod_file_name))
+
     shutil.copy(mod_source_path, mods_dir + "/")
     mod_list = {"mods": [
         # These are the defaults that ship with space age
@@ -291,6 +304,11 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
             mod["enabled"] = space_age_enabled
     # Enable the new mod.
     mod_list["mods"].append({"name": ap_mod_name, "enabled": True})
+
+    # Also enable optional mods.
+    if found_optional_mod:
+        mod_list["mods"].append({"name": "respawn-to-any-planet", "enabled": True})
+
     with open(os.path.join(mods_dir, "mod-list.json"), "w") as f:
         json.dump(mod_list, f, indent=2)
 
@@ -335,7 +353,7 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
             json.dump(host_j, f)
 
     client_name = "Factorio: Space Age Client" if space_age_enabled else "Factorio Client"
-    ap_cmd("Launcher.py", client_name, "--", "--nogui", cwd=server_dir, input=None, repo=repo, os_exec=True)
+    ap_cmd("Launcher.py", client_name, "--", "--nogui", cwd=server_dir, repo=repo, os_exec=True)
 
 def do_factorio_client(mod_source_path):
     mods_dir = os.path.expanduser("~/.factorio/mods")
@@ -347,7 +365,7 @@ def do_factorio_client(mod_source_path):
 
     shutil.copy(mod_source_path, mods_dir + "/")
 
-def ap_cmd(script, *args, suppress_auto_install=True, input=b'', cwd=None, os_exec=False, repo):
+def ap_cmd(script, *args, suppress_auto_install=True, input=None, cwd=None, os_exec=False, repo):
     """ cwd defaults to repo """
     if cwd == None:
         cwd = repo
@@ -358,6 +376,7 @@ def ap_cmd(script, *args, suppress_auto_install=True, input=b'', cwd=None, os_ex
     env = os.environ.copy()
     if suppress_auto_install:
         env["SKIP_REQUIREMENTS_UPDATE"] = "1"
+    env["AP_NO_PROMPT_ON_EXIT"] = "1"
     # We get deprecation warnings for importing pkg_resources. Not our problem, so suppress it.
     env["PYTHONWARNINGS"] = "ignore"
 
