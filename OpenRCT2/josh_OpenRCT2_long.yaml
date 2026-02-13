@@ -1,5 +1,5 @@
 name: josh_rct
-description: expensive checks. 10 roller coasters. 3000 guests.
+description: expensive checks. 10 roller coasters. 1000 guests.
 game: OpenRCT2
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
@@ -16,7 +16,7 @@ OpenRCT2:
   preferred_intensity: normal
 
   # Goal
-  guest_objective: '3000'
+  guest_objective: '1000'
   park_value_objective: '500000' # in USD
   required_unique_rides: '10'
   roller_coaster_objective: '10'
@@ -41,11 +41,11 @@ OpenRCT2:
   shop_minimum_nausea: '0'
   shop_maximum_nausea: '4'
   shop_minimum_length: '0'
-  shop_maximum_length: '500' # in meters
+  shop_maximum_length: '300' # in meters
   shop_minimum_total_customers: '0'
   shop_maximum_total_customers: '400'
   balance_guest_counts: 'true'
-  visibility: recipient
+  visibility: full
   awards: none
   exclude_safest_park: 'true'
 

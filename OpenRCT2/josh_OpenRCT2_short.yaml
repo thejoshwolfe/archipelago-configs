@@ -41,11 +41,11 @@ OpenRCT2:
   shop_minimum_nausea: '0'
   shop_maximum_nausea: '4'
   shop_minimum_length: '0'
-  shop_maximum_length: '500' # in meters
+  shop_maximum_length: '300' # in meters
   shop_minimum_total_customers: '0'
   shop_maximum_total_customers: '400'
   balance_guest_counts: 'true'
-  visibility: recipient
+  visibility: full
   awards: none
   exclude_safest_park: 'true'
 

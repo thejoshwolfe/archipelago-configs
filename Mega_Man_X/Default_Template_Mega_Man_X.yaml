@@ -32,7 +32,7 @@ description: Default Mega Man X Template
 
 game: Mega Man X
 requires:
-  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
 
 Mega Man X:
   ################
@@ -186,6 +186,34 @@ Mega Man X:
     # Adds Super Recover Chip from Mega Man X5 into the item pool.
     # 
     # Increases recovery from items by 25%. Also affects EnergyLink deposit rate. Doesn't affect Sub Tanks.
+    'false': 0
+    'true': 50
+
+  rapid_five_in_pool:
+    # Adds Rapid Five Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases the amount of buster shots on screen to 5.
+    'false': 0
+    'true': 50
+
+  speed_shot_in_pool:
+    # Adds Speed Shot Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases X's buster shots (lemons) horizontal speed by 50%.
+    'false': 0
+    'true': 50
+
+  buster_plus_in_pool:
+    # Adds Buster Plus Chip from Mega Man X5 into the item pool.
+    # 
+    # Increases Buster (lemon) damage by 1.
+    'false': 0
+    'true': 50
+
+  weapon_plus_in_pool:
+    # Adds Weapon Plus Chip from Mega Man X6 into the item pool.
+    # 
+    # Increases Weapon damage by 1.
     'false': 0
     'true': 50
 

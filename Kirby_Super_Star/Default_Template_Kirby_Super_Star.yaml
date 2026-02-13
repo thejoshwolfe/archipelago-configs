@@ -32,9 +32,9 @@ description: Default Kirby Super Star Template
 
 game: Kirby Super Star
 requires:
-  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Kirby Super Star: 0.1.6 # Version of the world required for this yaml to work as expected.
+    Kirby Super Star: 0.1.7 # Version of the world required for this yaml to work as expected.
 
 Kirby Super Star:
   ################
@@ -151,6 +151,14 @@ Kirby Super Star:
 
   kirby_flavor_preset:
     # The color of Kirby, from a list of presets.
+    # Can also accept a valid preset defined in `kirby_flavors`, 1/2 direct hex colors (#RRGGBB|#RRGGBB), a single hex
+    # color and a method to derive a second color (#RRGGBB|complement/analogous/intensify), or a dict taking each Copy
+    # Ability (and Kirby) as a key and one of the former options as the value.
+    # 
+    # kirby_flavor_preset:
+    #     kirby: #99EEDD|analogous
+    #     Copy: bubblegum
+    #     Cutter: #AAEEDD
     default: 50
     bubblegum: 0
     cherry: 0
@@ -166,19 +174,19 @@ Kirby Super Star:
     lime: 0
     lavender: 0
     miku: 0
-    custom: 0
 
-  kirby_flavor:
-    # A custom color for Kirby. To use a custom color, set the preset to Custom and then define a dict of keys from "1" to
+  kirby_flavors:
+    # Define custom colors for Kirby. To use a custom color, set the preset to the name defined and then define a dict of keys from "1" to
     # "8", with their values being an HTML hex color.
-    '1': F8F8F8
-    '2': F0E0E8
-    '3': E8D0D0
-    '4': F0A0B8
-    '5': C8A0A8
-    '6': A85048
-    '7': E02018
-    '8': E85048
+    default_kirby:
+      '1': F8F8F8
+      '2': F0E0E8
+      '3': E8D0D0
+      '4': F0A0B8
+      '5': C8A0A8
+      '6': A85048
+      '7': E02018
+      '8': E85048
 
   ###########################
   # Item & Location Options #

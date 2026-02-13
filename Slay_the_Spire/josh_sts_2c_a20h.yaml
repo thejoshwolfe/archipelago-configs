@@ -91,7 +91,19 @@ Slay the Spire:
     - Watcher 15 Gold
   non_local_items: []
   start_inventory: {}
-  start_hints: []
+  start_hints:
+    - Defect Emerald Key
+    - Defect Ruby Key
+    - Defect Sapphire Key
+    - Ironclad Emerald Key
+    - Ironclad Ruby Key
+    - Ironclad Sapphire Key
+    - Watcher Emerald Key
+    - Watcher Ruby Key
+    - Watcher Sapphire Key
+    - Silent Emerald Key
+    - Silent Ruby Key
+    - Silent Sapphire Key
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
