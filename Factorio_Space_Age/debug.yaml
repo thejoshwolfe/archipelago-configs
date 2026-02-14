@@ -1,26 +1,22 @@
 name: factorio
-description: testing
+description: for testing the space age apworld
 game: 'Factorio: Space Age'
 requires:
   version: 0.6.4
 'Factorio: Space Age':
-  progression_balancing: '50'
-  accessibility: full
-  max_science_pack: military_science_pack
-  goal: rocket
-  silo: vanilla
-  satellite: vanilla
-  free_samples: stack
-  free_samples_quality: normal
-  free_sample_blacklist: []
-  free_sample_whitelist: []
-  recipe_time: vanilla
-  recipe_ingredients: rocket
-  recipe_ingredients_offset: '0'
-  imported_blueprints: 'true'
-  death_link: 'true'
-  energy_link: 'true'
+  goal: solar_system_edge
+  allow_imported_blueprints: 'true'
 
+  ################
+  # Technologies #
+  ################
+  progressive_technologies: bonuses
+  infinite_technologies: removed
+  tech_tree_information: full
+
+  ####################
+  # Speedups/Balance #
+  ####################
   # Find item names here: https://factoriopedia.lukasbach.com (Raw Data | "item" | "name")
   starting_items:
     # The burner city phase is an iconic start to every factorio run,
@@ -37,6 +33,25 @@ requires:
     personal-roboport-equipment: 1
     exoskeleton-equipment: 3
     construction-robot: 50
+  free_samples: stack
+  free_samples_quality: normal
+  free_sample_excludes:
+    - automation-science-pack
+    - logistic-science-pack
+    - military-science-pack
+    - chemical-science-pack
+    - production-science-pack
+    - utility-science-pack
+    - space-science-pack
+    - metallurgic-science-pack
+    - agricultural-science-pack
+    - electromagnetic-science-pack
+    - cryogenic-science-pack
+    - promethium-science-pack
+  tech_cost_divisor: 10
+  rocket_parts_per_rocket: 1
+  ingredients_per_space_platform_foundation: 1
+
 
   # Use https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
   # These settings have buffed resources, no enemies, and less water.
@@ -122,17 +137,18 @@ requires:
     seed: null
     starting_area: 1
 
-  ################
-  # Technologies #
-  ################
-  tech_tree_layout: single
-  progressive: 'on'
-  min_tech_cost: '5'
-  max_tech_cost: '100'
-  tech_cost_distribution: even
-  tech_cost_mix: '100'
-  ramping_tech_costs: 'false'
-  tech_tree_information: full
+  # Logic
+  require_electric_mining_drill: 'true'
+  require_electric_furnace: 'true'
+  require_ice_melting: 'true'
+  require_gun_turret: 'true'
+  require_lightning_rod: 'true'
+  require_dark_power: 'true'
+  require_fast_inserter: 'true'
+  require_assembling_machine_2: 'true'
+  require_fluid_handling: 'true'
+  require_construction_robots: 'true'
+  require_logistic_robots: 'true'
 
   #########
   # Traps #
@@ -154,10 +170,43 @@ requires:
   local_items: []
   non_local_items: []
   start_inventory: {}
-  start_inventory_from_pool: {}
+  start_inventory_from_pool:
+    progressive-worker-robots-speed: 5
+    progressive-worker-robots-storage: 3
+    bulk-inserter: 1
+    stack-inserter: 1
+    progressive-inserter-capacity-bonus: 7
+    progressive-transport-belt-capacity: 2
+    rocket-silo: 1
+    logistic-robotics: 1
+    progressive-weapon-shooting-speed: 6
+    progressive-physical-projectile-damage: 6
+    progressive-stronger-explosives: 6
+    # recipes
+    foundry: 1
+    explosives: 1
+    space-platform: 1
+    space-platform-thruster: 1
+    advanced-asteroid-processing: 1
+    asteroid-reprocessing: 1
+    fluid-handling: 1
+    cryogenic-plant: 1
+    rocket-turret: 1
+    rocketry: 1
+    railgun: 1
+    # discovery
+    planet-discovery-vulcanus: 1
+    planet-discovery-gleba: 1
+    planet-discovery-fulgora: 1
+    planet-discovery-aquilo: 1
+    promethium-science-pack: 1
   start_hints: []
   start_location_hints: []
   exclude_locations: []
   priority_locations: []
   item_links: []
   plando_items: []
+  progression_balancing: '50'
+  accessibility: minimal
+  death_link: 'true'
+  energy_link: 'true'

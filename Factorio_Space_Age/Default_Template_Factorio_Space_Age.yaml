@@ -1,0 +1,523 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: 'Default Factorio: Space Age Template'
+
+game: 'Factorio: Space Age'
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+
+'Factorio: Space Age':
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  goal:
+    # Goal required to complete the game.
+    # space platform: Build a space platform.
+    # any other planet science: Research anything with metallurgic, agricultural, or electromagnetic science (TODO: unimplemented).
+    # aquilo orbit: Reach aquilo orbit with a space platform.
+    # solar system edge: (default) The victory condition in the normal game.
+    space_platform: 0
+    any_other_planet_science: 0
+    aquilo_orbit: 0
+    solar_system_edge: 50
+
+  allow_imported_blueprints:
+    # Allow blueprints imported from outside the current game.
+    'false': 0
+    'true': 50
+
+  world_gen:
+    # World Generation settings. Overview of options at https://wiki.factorio.com/Map_generator,
+    # with in-depth documentation at https://lua-api.factorio.com/latest/concepts/MapGenSettings.html
+    autoplace_controls:
+      coal:
+        frequency: 1
+        richness: 6
+        size: 3
+      copper-ore:
+        frequency: 1
+        richness: 6
+        size: 3
+      crude-oil:
+        frequency: 1
+        richness: 6
+        size: 3
+      enemy-base:
+        frequency: 1
+        richness: 1
+        size: 1
+      iron-ore:
+        frequency: 1
+        richness: 6
+        size: 3
+      nauvis_cliff:
+        frequency: 1
+        richness: 1
+        size: 1
+      starting_area_moisture:
+        frequency: 1
+        richness: 1
+        size: 1
+      stone:
+        frequency: 1
+        richness: 6
+        size: 3
+      trees:
+        frequency: 1
+        richness: 1
+        size: 1
+      uranium-ore:
+        frequency: 1
+        richness: 6
+        size: 3
+      water:
+        frequency: 1
+        richness: 1
+        size: 1
+    cliff_settings:
+      cliff_elevation_0: 10
+      cliff_elevation_interval: 40
+      name: cliff
+      richness: 1
+    enemy_evolution:
+      destroy_factor: 0.002
+      enabled: true
+      pollution_factor: 9.0e-07
+      time_factor: 4.0e-06
+    enemy_expansion:
+      enabled: true
+      max_expansion_cooldown: 216000
+      max_expansion_distance: 7
+      min_expansion_cooldown: 14400
+      settler_group_max_size: 20
+      settler_group_min_size: 5
+    no_enemies_mode: false
+    peaceful_mode: false
+    pollution:
+      ageing: 1
+      diffusion_ratio: 0.02
+      enabled: true
+      enemy_attack_pollution_consumption_modifier: 1
+      min_pollution_to_damage_trees: 60
+      pollution_restored_per_tree_damage: 10
+    property_expression_names:
+      control-setting:aux:bias: 0
+      control-setting:aux:frequency:multiplier: 1
+      control-setting:moisture:bias: 0
+      control-setting:moisture:frequency:multiplier: 1
+    seed: null
+    starting_area: 1
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  energy_link:
+    # Allow sending energy to other worlds. 25% of the energy is lost in the transfer.
+    'false': 50
+    'true': 0
+
+  ################
+  # Technologies #
+  ################
+  technology_prerequisites:
+    # Researching a technology location requires researching the prerequisite locations first,
+    # the connections in the technology graph.
+    # vanilla: Imitate the vanilla tech tree connections.
+    # removed: No prerequisites. All technology locations can be researched simply by meeting the individual requirements.
+    vanilla: 50
+    removed: 0
+
+  progressive_technologies:
+    # Whether to group technologies that end with -1, -2, -3, etc. into a sequence of progressive items so that they are always received in sequential order.
+    # 
+    # off: All technologies will be separate items, which means you might received inserter-capacity-bonus-7 before inserter-capacity-bonus-2.
+    # bonuses: Technologies that grant global bonuses will be grouped together and received in sequence, for example there will be 7 copies of progressive-inserter-capacity-bonus instead of the individual -1, -2, etc. items.
+    # all: In addition, technologies that unlock recipes will also be grouped, for example 3 copies of progressive-automation, 4 copies of progressive-military, 3 copies of progressive-speed-module, etc.
+    'off': 0
+    bonuses: 0
+    all: 50
+
+  infinite_technologies:
+    # How to handle infinitely researchable technologies, e.g. steel-plate-productivity.
+    # vanilla: They are not randomized, e.g. research productivity always requires promethium science packs. TODO: unimplemented
+    # shuffled: The cost and prerequisites of each infinite tech is shuffled, e.g. research productivity mighty require only military, utility, and agricultural science packs (normally the health technology). TODO: unimplemented
+    # removed: Infinite technologies are removed.
+    vanilla: 0
+    shuffled: 0
+    removed: 50
+
+  tech_tree_information:
+    # How much information should be displayed in the tech tree.
+    # None: No indication of what a research unlocks.
+    # Advancement: Indicates if a research unlocks an item that is considered logical advancement, but not who it is for.
+    # Full: Labels with exact names and recipients of unlocked items; all researches are prefilled into the !hint command.
+    none: 0
+    advancement: 0
+    full: 50
+
+  ####################
+  # Speedups/Balance #
+  ####################
+  starting_items:
+    # Mapping of Factorio internal item-name to amount granted on start.
+    burner-mining-drill: 4
+    raw-fish: 50
+    stone-furnace: 4
+
+  free_samples:
+    # Get free items with your recipe unlocks.
+    # These are not considered by logic.
+    none: 0
+    single_craft: 0
+    half_stack: 0
+    stack: 50
+
+  free_samples_quality:
+    # If free samples are on, determine the quality of the granted items.
+    normal: 50
+    uncommon: 0
+    rare: 0
+    epic: 0
+    legendary: 0
+
+  free_sample_excludes:
+    # Recipes that when unlocked should never grant Free Samples of their products.
+    # Fluids, barreling/unbarreling, and biter eggs are always excluded.
+    ['production-science-pack', 'automation-science-pack', 'metallurgic-science-pack', 'logistic-science-pack', 'cryogenic-science-pack', 'promethium-science-pack', 'electromagnetic-science-pack', 'utility-science-pack', 'space-science-pack', 'agricultural-science-pack', 'military-science-pack', 'chemical-science-pack']
+
+  tech_cost_divisor:
+    # Reduce the cost of research technologies by dividing by this number.
+    # 1 = Vanilla. 10 = All technologies require 1/10th as much science.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 10
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-10: 0 # random value between 1 and 10
+
+  rocket_parts_per_rocket:
+    # Normally a rocket requires 50 of each ingredient.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 200
+    50: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-200: 0 # random value between 1 and 200
+
+  ingredients_per_space_platform_foundation:
+    # Normally a space platform foundation requires 20 of each ingredient.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 400
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-400: 0 # random value between 1 and 400
+
+  #########
+  # Logic #
+  #########
+  require_electric_mining_drill:
+    # Logically require electric mining drills for logistic science pack automation (green science).
+    # Otherwise, you may need to use burner mining drills for automation until Vulcanus or uranium is required.
+    'false': 0
+    'true': 50
+
+  require_electric_furnace:
+    # Logically require electric furnaces for space science pack automation and for traveling space.
+    # Otherwise, you may need to supply space platforms with metal plates shipped up via rocket.
+    'false': 0
+    'true': 50
+
+  require_ice_melting:
+    # Logically require ice melting for traveling space.
+    # Otherwise, you may need to supply space platforms with water barrels shipped up via rocket.
+    'false': 0
+    'true': 50
+
+  require_gun_turret:
+    # Logically require gun turrets for destroying medium asteroids.
+    # Otherwise, you may need to use walls and speed regulation to survive space travel.
+    # (Large and huge asteroids always logically require rocket turrets and railgun turrets respectively.)
+    'false': 0
+    'true': 50
+
+  require_gleba_for_spoilage:
+    # Logically require Gleba for access to spoilage.
+    # Otherwise, you may need to wait >2 hours (configurable) for fish to spoil on Nauvis to get nutrient-triggered technology.
+    'false': 0
+    'true': 50
+
+  require_lightning_rod:
+    # Logically require lightning rods for setting up mining drills on Fulgora.
+    # Otherwise, you may need to solve the lightning problem some other way.
+    # NOTE: This option does nothing, because the requirements for landing on Fulgora include all the requirements for crafting lightning rods.
+    'false': 0
+    'true': 50
+
+  require_dark_power:
+    # Logically require nuclear power to reach Aquilo.
+    # Otherwise, you may need to rely on poorly performing solar panels in dark space.
+    'false': 0
+    'true': 50
+
+  require_fast_inserter:
+    # Logically require fast inserters to automate advanced circuits.
+    'false': 50
+    'true': 0
+
+  require_assembling_machine_2:
+    # Logically require assembling machine 2 to automate advanced circuits.
+    'false': 50
+    'true': 0
+
+  require_fluid_handling:
+    # Logically require pumps and storage tanks for advanced oil processing.
+    'false': 50
+    'true': 0
+
+  require_construction_robots:
+    # Logically require construction robots before automating production or utility science (purple/yellow) or traveling to another planet.
+    'false': 50
+    'true': 0
+
+  require_logistic_robots:
+    # Logically require requester chests and logistic robots before traveling to another planet.
+    'false': 50
+    'true': 0
+
+  #########
+  # Traps #
+  #########
+  attack_traps:
+    # Trap items that when received trigger an attack on your base.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  teleport_traps:
+    # Trap items that when received trigger a random teleport.
+    # It is ensured the player can walk back to where they got teleported from.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  grenade_traps:
+    # Trap items that when received trigger a grenade explosion on each player.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  cluster_grenade_traps:
+    # Trap items that when received trigger a cluster grenade explosion on each player.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  artillery_traps:
+    # Trap items that when received trigger an artillery shell on each player.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  atomic_rocket_traps:
+    # Trap items that when received trigger an atomic rocket explosion on each player.
+    # Warning: there is no warning. The launch is instantaneous.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  atomic_cliff_remover_traps:
+    # Trap items that when received trigger an atomic rocket explosion on a random cliff.
+    # Warning: there is no warning. The launch is instantaneous.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  evolution_traps:
+    # Trap items that when received increase the enemy evolution.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
+  evolution_trap_increase:
+    # How much an Evolution Trap increases the enemy evolution.
+    # Increases scale down proportionally to the session's current evolution factor
+    # (40 increase at 0.50 will add 0.20... 40 increase at 0.75 will add 0.10...)
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  inventory_spill_traps:
+    # Trap items that when received trigger dropping your main inventory and trash inventory onto the ground.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 25
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-25: 0 # random value between 0 and 25
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

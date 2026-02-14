@@ -1,0 +1,176 @@
+name: factorio
+description: Reach solar system edge.
+game: 'Factorio: Space Age'
+requires:
+  version: 0.6.4
+'Factorio: Space Age':
+  goal: solar_system_edge
+  accessibility: full
+  allow_imported_blueprints: 'true'
+
+  ################
+  # Technologies #
+  ################
+  progressive_technologies: all
+  infinite_technologies: removed
+  tech_tree_information: none
+
+  ####################
+  # Speedups/Balance #
+  ####################
+  # Find item names here: https://factoriopedia.lukasbach.com (Raw Data | "item" | "name")
+  starting_items:
+    # The burner city phase is an iconic start to every factorio run,
+    # which means not randomized, which means not welcome in AP. Let's get it over with.
+    burner-mining-drill: 5
+    stone-furnace: 50
+    iron-plate: 1000
+    copper-plate: 200
+    automation-science-pack: 20
+    # Let's start ~~fast~~
+    power-armor: 1
+    fission-reactor-equipment: 1
+    battery-equipment: 2
+    personal-roboport-equipment: 1
+    exoskeleton-equipment: 3
+    construction-robot: 50
+  start_inventory_from_pool:
+    # The default robot speed is a joke.
+    progressive-worker-robots-speed: 5
+  # No speedups
+  tech_cost_divisor: 1
+  rocket_parts_per_rocket: 50
+  ingredients_per_space_platform_foundation: 20
+  # No free samples
+  free_samples: none
+  free_samples_quality: normal
+  free_sample_excludes: []
+
+
+  # Use https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
+  # These settings have buffed resources, no enemies, and less water.
+  world_gen:
+    autoplace_controls:
+      coal:
+        frequency: 3
+        richness: 6
+        size: 3
+      copper-ore:
+        frequency: 3
+        richness: 6
+        size: 3
+      crude-oil:
+        frequency: 3
+        richness: 6
+        size: 3
+      enemy-base:
+        frequency: 0.25
+        richness: 1
+        size: 1
+      iron-ore:
+        frequency: 3
+        richness: 6
+        size: 3
+      nauvis_cliff:
+        frequency: 1
+        richness: 1
+        size: 1
+      starting_area_moisture:
+        frequency: 1
+        richness: 1
+        size: 1
+      stone:
+        frequency: 1
+        richness: 6
+        size: 3
+      trees:
+        frequency: 1
+        richness: 1
+        size: 0.25
+      uranium-ore:
+        frequency: 1
+        richness: 6
+        size: 1
+      water:
+        frequency: 0.5
+        richness: 1
+        size: 1.5
+    cliff_settings:
+      cliff_elevation_0: 10
+      cliff_elevation_interval: 40
+      name: cliff
+      richness: 1
+    enemy_evolution:
+      destroy_factor: 0.002
+      enabled: true
+      pollution_factor: 9.0e-07
+      time_factor: 4.0e-06
+    enemy_expansion:
+      enabled: true
+      max_expansion_cooldown: 216000
+      max_expansion_distance: 7
+      min_expansion_cooldown: 14400
+      settler_group_max_size: 20
+      settler_group_min_size: 5
+    peaceful_mode: false
+    # No enemies
+    no_enemies_mode: true
+    pollution:
+      ageing: 1
+      diffusion_ratio: 0.02
+      # No pollution
+      enabled: false
+      enemy_attack_pollution_consumption_modifier: 1
+      min_pollution_to_damage_trees: 60
+      pollution_restored_per_tree_damage: 10
+    property_expression_names:
+      control-setting:aux:bias: 0
+      control-setting:aux:frequency:multiplier: 1
+      control-setting:moisture:bias: 0
+      control-setting:moisture:frequency:multiplier: 1
+    seed: null
+    starting_area: 1
+
+  # Easiest logic.
+  require_electric_mining_drill: 'true'
+  require_electric_furnace: 'true'
+  require_ice_melting: 'true'
+  require_gun_turret: 'true'
+  require_gleba_for_spoilage: 'true'
+  require_lightning_rod: 'true'
+  require_dark_power: 'true'
+  require_fast_inserter: 'true'
+  require_assembling_machine_2: 'true'
+  require_fluid_handling: 'true'
+  require_construction_robots: 'true'
+  require_logistic_robots: 'true'
+
+  #########
+  # Traps #
+  #########
+  attack_traps: '0'
+  evolution_traps: '0'
+  evolution_trap_increase: '10'
+  teleport_traps: '0'
+  grenade_traps: '0'
+  cluster_grenade_traps: '0'
+  artillery_traps: '0'
+  atomic_rocket_traps: '0'
+  atomic_cliff_remover_traps: '0'
+  inventory_spill_traps: '5'
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
+  progression_balancing: '50'
+  death_link: 'true'
+  energy_link: 'true'
