@@ -5,11 +5,15 @@ requires:
   version: 0.6.4
 'Factorio: Space Age':
   goal: solar_system_edge
+  accessibility: full
   allow_imported_blueprints: 'true'
+  world_gen: buffed_resources
+  world_gen_enemies: 'false'
 
   ################
   # Technologies #
   ################
+  technology_prerequisites: removed
   progressive_technologies: bonuses
   infinite_technologies: removed
   tech_tree_information: full
@@ -51,91 +55,6 @@ requires:
   tech_cost_divisor: 10
   rocket_parts_per_rocket: 1
   ingredients_per_space_platform_foundation: 1
-
-
-  # Use https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
-  # These settings have buffed resources, no enemies, and less water.
-  world_gen:
-    autoplace_controls:
-      coal:
-        frequency: 3
-        richness: 6
-        size: 3
-      copper-ore:
-        frequency: 3
-        richness: 6
-        size: 3
-      crude-oil:
-        frequency: 3
-        richness: 6
-        size: 3
-      enemy-base:
-        frequency: 0.25
-        richness: 1
-        size: 1
-      iron-ore:
-        frequency: 3
-        richness: 6
-        size: 3
-      nauvis_cliff:
-        frequency: 1
-        richness: 1
-        size: 1
-      starting_area_moisture:
-        frequency: 1
-        richness: 1
-        size: 1
-      stone:
-        frequency: 1
-        richness: 6
-        size: 3
-      trees:
-        frequency: 1
-        richness: 1
-        size: 0.25
-      uranium-ore:
-        frequency: 1
-        richness: 6
-        size: 1
-      water:
-        frequency: 0.5
-        richness: 1
-        size: 1.5
-    cliff_settings:
-      cliff_elevation_0: 10
-      cliff_elevation_interval: 40
-      name: cliff
-      richness: 1
-    enemy_evolution:
-      destroy_factor: 0.002
-      enabled: true
-      pollution_factor: 9.0e-07
-      time_factor: 4.0e-06
-    enemy_expansion:
-      enabled: true
-      max_expansion_cooldown: 216000
-      max_expansion_distance: 7
-      min_expansion_cooldown: 14400
-      settler_group_max_size: 20
-      settler_group_min_size: 5
-    peaceful_mode: false
-    # No enemies
-    no_enemies_mode: true
-    pollution:
-      ageing: 1
-      diffusion_ratio: 0.02
-      # No pollution
-      enabled: false
-      enemy_attack_pollution_consumption_modifier: 1
-      min_pollution_to_damage_trees: 60
-      pollution_restored_per_tree_damage: 10
-    property_expression_names:
-      control-setting:aux:bias: 0
-      control-setting:aux:frequency:multiplier: 1
-      control-setting:moisture:bias: 0
-      control-setting:moisture:frequency:multiplier: 1
-    seed: null
-    starting_area: 1
 
   # Logic
   require_electric_mining_drill: 'true'
@@ -207,6 +126,5 @@ requires:
   item_links: []
   plando_items: []
   progression_balancing: '50'
-  accessibility: minimal
   death_link: 'true'
   energy_link: 'true'

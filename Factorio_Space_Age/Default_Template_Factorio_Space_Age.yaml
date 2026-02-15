@@ -79,88 +79,6 @@ requires:
     'false': 0
     'true': 50
 
-  world_gen:
-    # World Generation settings. Overview of options at https://wiki.factorio.com/Map_generator,
-    # with in-depth documentation at https://lua-api.factorio.com/latest/concepts/MapGenSettings.html
-    autoplace_controls:
-      coal:
-        frequency: 1
-        richness: 6
-        size: 3
-      copper-ore:
-        frequency: 1
-        richness: 6
-        size: 3
-      crude-oil:
-        frequency: 1
-        richness: 6
-        size: 3
-      enemy-base:
-        frequency: 1
-        richness: 1
-        size: 1
-      iron-ore:
-        frequency: 1
-        richness: 6
-        size: 3
-      nauvis_cliff:
-        frequency: 1
-        richness: 1
-        size: 1
-      starting_area_moisture:
-        frequency: 1
-        richness: 1
-        size: 1
-      stone:
-        frequency: 1
-        richness: 6
-        size: 3
-      trees:
-        frequency: 1
-        richness: 1
-        size: 1
-      uranium-ore:
-        frequency: 1
-        richness: 6
-        size: 3
-      water:
-        frequency: 1
-        richness: 1
-        size: 1
-    cliff_settings:
-      cliff_elevation_0: 10
-      cliff_elevation_interval: 40
-      name: cliff
-      richness: 1
-    enemy_evolution:
-      destroy_factor: 0.002
-      enabled: true
-      pollution_factor: 9.0e-07
-      time_factor: 4.0e-06
-    enemy_expansion:
-      enabled: true
-      max_expansion_cooldown: 216000
-      max_expansion_distance: 7
-      min_expansion_cooldown: 14400
-      settler_group_max_size: 20
-      settler_group_min_size: 5
-    no_enemies_mode: false
-    peaceful_mode: false
-    pollution:
-      ageing: 1
-      diffusion_ratio: 0.02
-      enabled: true
-      enemy_attack_pollution_consumption_modifier: 1
-      min_pollution_to_damage_trees: 60
-      pollution_restored_per_tree_damage: 10
-    property_expression_names:
-      control-setting:aux:bias: 0
-      control-setting:aux:frequency:multiplier: 1
-      control-setting:moisture:bias: 0
-      control-setting:moisture:frequency:multiplier: 1
-    seed: null
-    starting_area: 1
-
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
     'false': 50
@@ -171,16 +89,77 @@ requires:
     'false': 50
     'true': 0
 
+  #############
+  # World Gen #
+  #############
+  world_gen:
+    # vanilla: The vanilla Default settings.
+    # buffed resources: All resource patches cranked to the max, cliffs disabled, oceans reduced, Fulgoran islands max size.
+    # custom: use the world_gen_custom property.
+    vanilla: 0
+    buffed_resources: 50
+    custom: 0
+
+  world_gen_enemies:
+    # Enable enemies. Turning this off checks the 'No enemies' mode during world gen and disables pollution.
+    # Ignored when world_gen is set to 'custom'.
+    'false': 0
+    'true': 50
+
+  world_gen_asteroid_spawn_rate:
+    # Percentage modifier for spawning asteroids.
+    # Ignored when world_gen is set to 'custom'.
+    # TODO: unimplemented.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 10
+    # Maximum value is 400
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-10-400: 0 # random value between 10 and 400
+
+  world_gen_spoil_rate:
+    # Percentage modifier for spoiling rate. Higher rate is faster spoiling.
+    # Ignored when world_gen is set to 'custom'.
+    # TODO: unimplemented.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 10
+    # Maximum value is 1000
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-10-1000: 0 # random value between 10 and 1000
+
+  world_gen_custom:
+    # Only used when world_gen is set to 'custom'.
+    # Overview of options at https://wiki.factorio.com/Map_generator,
+    # with in-depth documentation at https://lua-api.factorio.com/latest/concepts/MapGenSettings.html .
+    # 
+    # Other resources that may help:
+    # * https://lua-api.factorio.com/latest/types/MapGenPreset.html
+    # * https://github.com/wube/factorio-data/blob/master/map-gen-settings.example.json
+    # * https://github.com/wube/factorio-data/blob/master/map-settings.example.json
+    # * https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
+    # 
+    # Specify a combination of the 'basic' and 'advanced' settings in this object; they will be pulled apart appropriately.
+    # TODO: currently only preset settings can be used, not regular settings. If you don't know what that means, neither do I,
+    # but it means you can't fiddle with the asteroid spawn rate for example.
+    {}
+
   ################
   # Technologies #
   ################
   technology_prerequisites:
     # Researching a technology location requires researching the prerequisite locations first,
     # the connections in the technology graph.
-    # vanilla: Imitate the vanilla tech tree connections.
+    # vanilla: Imitate the vanilla tech tree connections (TODO: unimplemented).
     # removed: No prerequisites. All technology locations can be researched simply by meeting the individual requirements.
-    vanilla: 50
-    removed: 0
+    vanilla: 0
+    removed: 50
 
   progressive_technologies:
     # Whether to group technologies that end with -1, -2, -3, etc. into a sequence of progressive items so that they are always received in sequential order.
@@ -194,8 +173,8 @@ requires:
 
   infinite_technologies:
     # How to handle infinitely researchable technologies, e.g. steel-plate-productivity.
-    # vanilla: They are not randomized, e.g. research productivity always requires promethium science packs. TODO: unimplemented
-    # shuffled: The cost and prerequisites of each infinite tech is shuffled, e.g. research productivity mighty require only military, utility, and agricultural science packs (normally the health technology). TODO: unimplemented
+    # vanilla: They are not randomized, e.g. research productivity always requires promethium science packs (TODO: unimplemented).
+    # shuffled: The cost and prerequisites of each infinite tech is shuffled, e.g. research productivity mighty require only military, utility, and agricultural science packs (normally the health technology) (TODO: unimplemented).
     # removed: Infinite technologies are removed.
     vanilla: 0
     shuffled: 0
@@ -238,7 +217,7 @@ requires:
   free_sample_excludes:
     # Recipes that when unlocked should never grant Free Samples of their products.
     # Fluids, barreling/unbarreling, and biter eggs are always excluded.
-    ['production-science-pack', 'automation-science-pack', 'metallurgic-science-pack', 'logistic-science-pack', 'cryogenic-science-pack', 'promethium-science-pack', 'electromagnetic-science-pack', 'utility-science-pack', 'space-science-pack', 'agricultural-science-pack', 'military-science-pack', 'chemical-science-pack']
+    ['production-science-pack', 'metallurgic-science-pack', 'space-science-pack', 'electromagnetic-science-pack', 'military-science-pack', 'agricultural-science-pack', 'utility-science-pack', 'chemical-science-pack', 'automation-science-pack', 'cryogenic-science-pack', 'promethium-science-pack', 'logistic-science-pack']
 
   tech_cost_divisor:
     # Reduce the cost of research technologies by dividing by this number.
