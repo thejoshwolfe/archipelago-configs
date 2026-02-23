@@ -65,9 +65,9 @@ requires:
 
   goal:
     # Goal required to complete the game.
-    # space platform: Build a space platform.
-    # any other planet science: Research anything with metallurgic, agricultural, or electromagnetic science (TODO: unimplemented).
-    # aquilo orbit: Reach aquilo orbit with a space platform.
+    # space platform: Build a space platform. (Note: this makes for a very short game, often only requiring automating two science packs, and for reasons unknown to me also causes random generation failures sometimes.)
+    # any other planet science: Research anything with metallurgic, agricultural, or electromagnetic science.
+    # aquilo orbit: Reach Aquilo orbit with a space platform.
     # solar system edge: (default) The victory condition in the normal game.
     space_platform: 0
     any_other_planet_science: 0
@@ -81,11 +81,6 @@ requires:
 
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
-    'false': 50
-    'true': 0
-
-  energy_link:
-    # Allow sending energy to other worlds. 25% of the energy is lost in the transfer.
     'false': 50
     'true': 0
 
@@ -147,47 +142,71 @@ requires:
     # 
     # Specify a combination of the 'basic' and 'advanced' settings in this object; they will be pulled apart appropriately.
     # TODO: currently only preset settings can be used, not regular settings. If you don't know what that means, neither do I,
-    # but it means you can't fiddle with the asteroid spawn rate for example.
+    # but it means you can't fiddle with the spoil rate for example.
+    # 
+    # If you wish you could just use a map exchange string, please contribute to this forum discussion:
+    # https://forums.factorio.com/viewtopic.php?p=689150
     {}
 
   ################
   # Technologies #
   ################
+  shuffle_final_technology:
+    # Should the "last" technology (see below) be shuffled as a multiworld item?
+    # Otherwise, it will be unlocked at its vanilla research location and require all the usual science packs.
+    # Setting this option to 'true' can reduce the number of science packs needed to complete the goal.
+    # 
+    # The "last" technology depends on the goal:
+    # space platform: rocket-silo, which requires 3 science packs.
+    # any other planet science: this option has no effect.
+    # aquilo orbit: planet-discovery-aquilo, which requires 9 science packs.
+    # solar system edge: promethium-science-pack (unlocks solar-system-edge), which requires 10 science packs.
+    'false': 50
+    'true': 0
+
   technology_prerequisites:
     # Researching a technology location requires researching the prerequisite locations first,
     # the connections in the technology graph.
-    # vanilla: Imitate the vanilla tech tree connections (TODO: unimplemented).
+    # vanilla: Imitate the vanilla tech tree connections.
     # removed: No prerequisites. All technology locations can be researched simply by meeting the individual requirements.
-    vanilla: 0
-    removed: 50
+    # 
+    # Note that with prerequisites removed, the technology GUI lists all the trigger techs for planets you haven't visited yet
+    # before the research techs that you're actually looking for, which can be a little annoying.
+    vanilla: 50
+    removed: 0
 
   progressive_technologies:
-    # Whether to group technologies that end with -1, -2, -3, etc. into a sequence of progressive items so that they are always received in sequential order.
+    # Which technologies that end with -1, -2, -3, etc. to group into a sequence of progressive items so that they are always received in sequential order.
     # 
-    # off: All technologies will be separate items, which means you might received inserter-capacity-bonus-7 before inserter-capacity-bonus-2.
-    # bonuses: Technologies that grant global bonuses will be grouped together and received in sequence, for example there will be 7 copies of progressive-inserter-capacity-bonus instead of the individual -1, -2, etc. items.
-    # all: In addition, technologies that unlock recipes will also be grouped, for example 3 copies of progressive-automation, 4 copies of progressive-military, 3 copies of progressive-speed-module, etc.
-    'off': 0
+    # bonuses: Only technologies that grant global bonuses will be grouped together and received in sequence, for example there will be 7 copies of progressive-inserter-capacity-bonus.
+    # recipes: In addition, technologies that unlock recipes will also be grouped, for example 3 copies of progressive-automation, 4 copies of progressive-military, 3 copies of progressive-speed-module, etc.
+    # 
+    # In addition to technology names that end with numbers, epic-quality and legendary-quality are two bonuses called progressive-quality-upgrade,
+    # and turbo-transport-belt is the fourth recipe unlock in the progressive-logistics chain.
     bonuses: 0
-    all: 50
+    recipes: 50
 
   infinite_technologies:
     # How to handle infinitely researchable technologies, e.g. steel-plate-productivity.
-    # vanilla: They are not randomized, e.g. research productivity always requires promethium science packs (TODO: unimplemented).
-    # shuffled: The cost and prerequisites of each infinite tech is shuffled, e.g. research productivity mighty require only military, utility, and agricultural science packs (normally the health technology) (TODO: unimplemented).
+    # vanilla: They are not randomized, e.g. research productivity always requires promethium science packs.
+    # shuffled: The cost and prerequisites of the infinite techs are shuffled, e.g. research productivity might require only military, utility, and agricultural science packs (the location of the health technology).
     # removed: Infinite technologies are removed.
     vanilla: 0
-    shuffled: 0
-    removed: 50
+    shuffled: 50
+    removed: 0
 
   tech_tree_information:
     # How much information should be displayed in the tech tree.
     # None: No indication of what a research unlocks.
-    # Advancement: Indicates if a research unlocks an item that is considered logical advancement, but not who it is for.
-    # Full: Labels with exact names and recipients of unlocked items; all researches are prefilled into the !hint command.
+    # Advancement: Indicates if it's a logical advancement for the recipient.
+    # Recipient: Reveals who the recipient is.
+    # Recipient Advancement: Says both who it's for and whether it's an advancement.
+    # Full: Reveals exact names and recipients of unlocked items; all researches are prefilled into the !hint command.
     none: 0
     advancement: 0
-    full: 50
+    recipient: 0
+    recipient_advancement: 50
+    full: 0
 
   ####################
   # Speedups/Balance #
@@ -195,8 +214,8 @@ requires:
   starting_items:
     # Mapping of Factorio internal item-name to amount granted on start.
     burner-mining-drill: 4
-    raw-fish: 50
     stone-furnace: 4
+    wood: 4
 
   free_samples:
     # Get free items with your recipe unlocks.
@@ -217,7 +236,7 @@ requires:
   free_sample_excludes:
     # Recipes that when unlocked should never grant Free Samples of their products.
     # Fluids, barreling/unbarreling, and biter eggs are always excluded.
-    ['production-science-pack', 'metallurgic-science-pack', 'space-science-pack', 'electromagnetic-science-pack', 'military-science-pack', 'agricultural-science-pack', 'utility-science-pack', 'chemical-science-pack', 'automation-science-pack', 'cryogenic-science-pack', 'promethium-science-pack', 'logistic-science-pack']
+    ['metallurgic-science-pack', 'logistic-science-pack', 'utility-science-pack', 'electromagnetic-science-pack', 'production-science-pack', 'military-science-pack', 'promethium-science-pack', 'chemical-science-pack', 'cryogenic-science-pack', 'automation-science-pack', 'space-science-pack', 'agricultural-science-pack']
 
   tech_cost_divisor:
     # Reduce the cost of research technologies by dividing by this number.
@@ -262,6 +281,11 @@ requires:
   require_electric_mining_drill:
     # Logically require electric mining drills for logistic science pack automation (green science).
     # Otherwise, you may need to use burner mining drills for automation until Vulcanus or uranium is required.
+    'false': 0
+    'true': 50
+
+  require_logistics:
+    # Logically require underground belts and splitters for logistic science pack automation (green science).
     'false': 0
     'true': 50
 
@@ -328,107 +352,469 @@ requires:
     'false': 50
     'true': 0
 
-  #########
-  # Traps #
-  #########
-  attack_traps:
-    # Trap items that when received trigger an attack on your base.
+  require_asteroid_processing:
+    # Logically require asteroid reprocessing and advanced asteroid processing to reach Aquilo.
+    'false': 50
+    'true': 0
+
+  require_heating_tower:
+    # Logically require heating towers to heat buildings on Aquilo.
+    # Otherwise, you may need to ship in nuclear fuel cells.
+    'false': 50
+    'true': 0
+
+  ###############
+  # Energy Link #
+  ###############
+  energy_link:
+    # Allow sending and receiving energy to/from a shared pool in the multiworld.
+    # The Archipelago EnergyLink Bridge item is craftable in-game and functions like an accumulator for sending and receiving energy.
+    # 25% of the energy is lost during sending.
+    # 
+    # All EnergyLink-enabled games in the multiworld use the same pool.
+    # Unit conversions between Factorio (Joules), Mega Man (HP), Roller Coaster Tycoon (USD),
+    # Donkey Kong Country (Bananas), etc. is left to the apworld developers.
+    # 
+    # EnergyLink can also be used to transport energy between planets in Factorio: Space Age or to/from space platforms.
+    'false': 50
+    'true': 0
+
+  energy_link_recipe:
+    # The recipe to craft an Archipelago EnergyLink Bridge.
+    # early game: Made from iron plates and copper plates.
+    # mid game: Made from accumulator and radar (requires oil, acid, and battery).
+    # fulgora: Made from supercapacitor and radar.
+    early_game: 0
+    mid_game: 50
+    fulgora: 0
+
+  energy_link_technology:
+    # Should the Archipelago EnergyLink Bridge recipe be unlocked by a technology, which is an item in the multiworld?
+    # Note that this interacts with the free samples option.
+    'false': 50
+    'true': 0
+
+  require_energy_link:
+    # Logically require Archipelago EnergyLink Bridges for the following, depending on the setting of energy_link_recipe:
+    # early_game: logistic science pack automation (green science).
+    # mid_game: chemical science pack automation (blue science).
+    # fulgora: electromagnetic science pack automation.
+    'false': 50
+    'true': 0
+
+  energy_link_satisfies_requirements:
+    # Allow Archipelago EnergyLink Bridges to satisfy the logical requirement for generating power in space, including in dark space.
+    # This may make solar panels unnecessary.
+    'false': 50
+    'true': 0
+
+  ################
+  # Traps/Filler #
+  ################
+  filler_count:
+    # How many filler items should there be?
+    # The actual number of filler items may be higher than the number specified for various reasons.
+    # 
+    # The settings below can be used to specify the weighted chance that filler items are helpful, harmful, or nothing.
+    # 
+    # New locations, if needed, are generated by creating copies of random existing (finite, non-trigger) research objectives.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 200
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-200: 0 # random value between 0 and 200
+
+  filler_nothing_weight:
+    # Weighted chance that a filler item does literally nothing.
+    # The name of a nothing item is chosen randomly from: laser, flammables, modules, biter-egg-handling.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
-  teleport_traps:
-    # Trap items that when received trigger a random teleport.
+  filler_artillery_shell_damage_weight:
+    # Weighted chance that a filler item is progressive-artillery-shell-damage
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_artillery_shell_range_weight:
+    # Weighted chance that a filler item is progressive-artillery-shell-range
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_artillery_shell_speed_weight:
+    # Weighted chance that a filler item is progressive-artillery-shell-speed
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_asteroid_productivity_weight:
+    # Weighted chance that a filler item is progressive-asteroid-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_electric_weapons_damage_weight:
+    # Weighted chance that a filler item is progressive-electric-weapons-damage
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_follower_robot_count_weight:
+    # Weighted chance that a filler item is progressive-follower-robot-count
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_health_weight:
+    # Weighted chance that a filler item is progressive-health
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_laser_weapons_damage_weight:
+    # Weighted chance that a filler item is progressive-laser-weapons-damage
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_low_density_structure_productivity_weight:
+    # Weighted chance that a filler item is progressive-low-density-structure-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_mining_productivity_weight:
+    # Weighted chance that a filler item is progressive-mining-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_physical_projectile_damage_weight:
+    # Weighted chance that a filler item is progressive-physical-projectile-damage
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_plastic_bar_productivity_weight:
+    # Weighted chance that a filler item is progressive-plastic-bar-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_processing_unit_productivity_weight:
+    # Weighted chance that a filler item is progressive-processing-unit-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_railgun_damage_weight:
+    # Weighted chance that a filler item is progressive-railgun-damage
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_railgun_shooting_speed_weight:
+    # Weighted chance that a filler item is progressive-railgun-shooting-speed
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_refined_flammables_weight:
+    # Weighted chance that a filler item is progressive-refined-flammables
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_research_productivity_weight:
+    # Weighted chance that a filler item is progressive-research-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_rocket_fuel_productivity_weight:
+    # Weighted chance that a filler item is progressive-rocket-fuel-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_rocket_part_productivity_weight:
+    # Weighted chance that a filler item is progressive-rocket-part-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_scrap_recycling_productivity_weight:
+    # Weighted chance that a filler item is progressive-scrap-recycling-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_steel_plate_productivity_weight:
+    # Weighted chance that a filler item is progressive-steel-plate-productivity
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_stronger_explosives_weight:
+    # Weighted chance that a filler item is progressive-stronger-explosives
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  filler_worker_robots_speed_weight:
+    # Weighted chance that a filler item is progressive-worker-robots-speed
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  attack_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers an attack on your base.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 1000
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-1000: 0 # random value between 0 and 1000
+
+  teleport_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers a random teleport.
     # It is ensured the player can walk back to where they got teleported from.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
-  grenade_traps:
-    # Trap items that when received trigger a grenade explosion on each player.
+  grenade_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers a grenade explosion on each player.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
-  cluster_grenade_traps:
-    # Trap items that when received trigger a cluster grenade explosion on each player.
+  cluster_grenade_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers a cluster grenade explosion on each player.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
-  artillery_traps:
-    # Trap items that when received trigger an artillery shell on each player.
+  artillery_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers an artillery shell on each player.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
-  atomic_rocket_traps:
-    # Trap items that when received trigger an atomic rocket explosion on each player.
+  atomic_rocket_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers an atomic rocket explosion on each player.
     # Warning: there is no warning. The launch is instantaneous.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
-  atomic_cliff_remover_traps:
-    # Trap items that when received trigger an atomic rocket explosion on a random cliff.
+  atomic_cliff_remover_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers an atomic rocket explosion on a random cliff.
     # Warning: there is no warning. The launch is instantaneous.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
-  evolution_traps:
-    # Trap items that when received increase the enemy evolution.
+  evolution_trap_weight:
+    # Weighted chance that a filler item is a trap that when received increase the enemy evolution.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 10
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-10: 0 # random value between 0 and 10
+    random-range-0-1000: 0 # random value between 0 and 1000
 
   evolution_trap_increase:
     # How much an Evolution Trap increases the enemy evolution.
@@ -444,17 +830,17 @@ requires:
     random-high: 0 # random value weighted towards higher values
     random-range-1-100: 0 # random value between 1 and 100
 
-  inventory_spill_traps:
-    # Trap items that when received trigger dropping your main inventory and trash inventory onto the ground.
+  inventory_spill_trap_weight:
+    # Weighted chance that a filler item is a trap that when received triggers dropping your main inventory and trash inventory onto the ground.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 25
+    # Maximum value is 1000
     0: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-25: 0 # random value between 0 and 25
+    random-range-0-1000: 0 # random value between 0 and 1000
 
   ###########################
   # Item & Location Options #

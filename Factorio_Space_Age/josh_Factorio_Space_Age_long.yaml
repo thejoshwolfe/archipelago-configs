@@ -1,11 +1,11 @@
 name: factorio
-description: Launch a rocket. Technology costs reduced by 90%.
+description: Reach solar system edge. No enemies.
 game: 'Factorio: Space Age'
 requires:
   version: 0.6.4
 'Factorio: Space Age':
-  goal: space_platform
-  accessibility: minimal
+  goal: solar_system_edge
+  accessibility: full
   allow_imported_blueprints: 'true'
   world_gen: buffed_resources
   world_gen_enemies: 'false'
@@ -13,10 +13,11 @@ requires:
   ################
   # Technologies #
   ################
-  technology_prerequisites: removed
-  progressive_technologies: all
-  infinite_technologies: removed
-  tech_tree_information: full
+  shuffle_final_technology: 'false'
+  technology_prerequisites: vanilla
+  progressive_technologies: recipes
+  infinite_technologies: shuffled
+  tech_tree_information: none
 
   ####################
   # Speedups/Balance #
@@ -40,29 +41,18 @@ requires:
   start_inventory_from_pool:
     # The default robot speed is a joke.
     progressive-worker-robots-speed: 5
-  # All speedups max speed
-  tech_cost_divisor: 10
-  rocket_parts_per_rocket: 1
-  ingredients_per_space_platform_foundation: 1
-  # Generous free samples
-  free_samples: stack
+  # No recipe speedups.
+  tech_cost_divisor: 1
+  rocket_parts_per_rocket: 50
+  ingredients_per_space_platform_foundation: 20
+  # No free samples.
+  free_samples: none
   free_samples_quality: normal
-  free_sample_excludes:
-    - automation-science-pack
-    - logistic-science-pack
-    - military-science-pack
-    - chemical-science-pack
-    - production-science-pack
-    - utility-science-pack
-    - space-science-pack
-    - metallurgic-science-pack
-    - agricultural-science-pack
-    - electromagnetic-science-pack
-    - cryogenic-science-pack
-    - promethium-science-pack
+  free_sample_excludes: []
 
   # Easiest logic.
   require_electric_mining_drill: 'true'
+  require_logistics: 'true'
   require_electric_furnace: 'true'
   require_ice_melting: 'true'
   require_gun_turret: 'true'
@@ -74,20 +64,36 @@ requires:
   require_fluid_handling: 'true'
   require_construction_robots: 'true'
   require_logistic_robots: 'true'
+  require_asteroid_processing: 'true'
+  require_heating_tower: 'true'
 
-  #########
-  # Traps #
-  #########
-  attack_traps: '0'
-  evolution_traps: '0'
-  evolution_trap_increase: '10'
-  teleport_traps: '0'
-  grenade_traps: '0'
-  cluster_grenade_traps: '0'
-  artillery_traps: '0'
-  atomic_rocket_traps: '0'
-  atomic_cliff_remover_traps: '0'
-  inventory_spill_traps: '5'
+  ###############
+  # Energy Link #
+  ###############
+  energy_link: 'true'
+  energy_link_recipe: mid_game
+  energy_link_technology: 'true'
+  require_energy_link: 'true'
+  energy_link_satisfies_requirements: 'true'
+
+  ################
+  # Traps/Filler #
+  ################
+  filler_count: '50'
+  filler_physical_projectile_damage_weight: '5'
+  filler_stronger_explosives_weight: '5'
+  filler_asteroid_productivity_weight: '1'
+  filler_health_weight: '1'
+  filler_low_density_structure_productivity_weight: '1'
+  filler_mining_productivity_weight: '1'
+  filler_plastic_bar_productivity_weight: '1'
+  filler_processing_unit_productivity_weight: '1'
+  filler_research_productivity_weight: '1'
+  filler_rocket_fuel_productivity_weight: '1'
+  filler_rocket_part_productivity_weight: '1'
+  filler_steel_plate_productivity_weight: '1'
+  filler_worker_robots_speed_weight: '1'
+  inventory_spill_trap_weight: '1'
 
   ###########################
   # Item & Location Options #
@@ -103,4 +109,3 @@ requires:
   plando_items: []
   progression_balancing: '50'
   death_link: 'true'
-  energy_link: 'true'

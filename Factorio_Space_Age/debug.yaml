@@ -5,7 +5,7 @@ requires:
   version: 0.6.4
 'Factorio: Space Age':
   goal: solar_system_edge
-  accessibility: full
+  accessibility: minimal
   allow_imported_blueprints: 'true'
   world_gen: buffed_resources
   world_gen_enemies: 'false'
@@ -13,9 +13,9 @@ requires:
   ################
   # Technologies #
   ################
-  technology_prerequisites: removed
+  technology_prerequisites: vanilla
   progressive_technologies: bonuses
-  infinite_technologies: removed
+  infinite_technologies: shuffled
   tech_tree_information: full
 
   ####################
@@ -55,33 +55,6 @@ requires:
   tech_cost_divisor: 10
   rocket_parts_per_rocket: 1
   ingredients_per_space_platform_foundation: 1
-
-  # Logic
-  require_electric_mining_drill: 'true'
-  require_electric_furnace: 'true'
-  require_ice_melting: 'true'
-  require_gun_turret: 'true'
-  require_lightning_rod: 'true'
-  require_dark_power: 'true'
-  require_fast_inserter: 'true'
-  require_assembling_machine_2: 'true'
-  require_fluid_handling: 'true'
-  require_construction_robots: 'true'
-  require_logistic_robots: 'true'
-
-  #########
-  # Traps #
-  #########
-  attack_traps: '0'
-  evolution_traps: '0'
-  evolution_trap_increase: '10'
-  teleport_traps: '0'
-  grenade_traps: '0'
-  cluster_grenade_traps: '0'
-  artillery_traps: '0'
-  atomic_rocket_traps: '0'
-  atomic_cliff_remover_traps: '0'
-  inventory_spill_traps: '5'
 
   ###########################
   # Item & Location Options #
@@ -128,3 +101,42 @@ requires:
   progression_balancing: '50'
   death_link: 'true'
   energy_link: 'true'
+
+  ################
+  # Traps/Filler #
+  ################
+  filler_count: '200'
+  filler_nothing_weight: '1'
+  filler_artillery_shell_damage_weight: '1'
+  filler_artillery_shell_range_weight: '1'
+  filler_artillery_shell_speed_weight: '1'
+  filler_asteroid_productivity_weight: '1'
+  filler_electric_weapons_damage_weight: '1'
+  filler_follower_robot_count_weight: '1'
+  filler_health_weight: '1'
+  filler_laser_weapons_damage_weight: '1'
+  filler_low_density_structure_productivity_weight: '1'
+  filler_mining_productivity_weight: '1'
+  filler_physical_projectile_damage_weight: '1'
+  filler_plastic_bar_productivity_weight: '1'
+  filler_processing_unit_productivity_weight: '1'
+  filler_railgun_damage_weight: '1'
+  filler_railgun_shooting_speed_weight: '1'
+  filler_refined_flammables_weight: '1'
+  filler_research_productivity_weight: '1'
+  filler_rocket_fuel_productivity_weight: '1'
+  filler_rocket_part_productivity_weight: '1'
+  filler_scrap_recycling_productivity_weight: '1'
+  filler_steel_plate_productivity_weight: '1'
+  filler_stronger_explosives_weight: '1'
+  filler_worker_robots_speed_weight: '1'
+  attack_trap_weight: '1'
+  teleport_trap_weight: '1'
+  grenade_trap_weight: '1'
+  cluster_grenade_trap_weight: '1'
+  artillery_trap_weight: '1'
+  atomic_rocket_trap_weight: '1'
+  atomic_cliff_remover_trap_weight: '1'
+  inventory_spill_trap_weight: '1'
+  evolution_trap_weight: '1'
+  evolution_trap_increase: '10'

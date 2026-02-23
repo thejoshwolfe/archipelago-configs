@@ -1,0 +1,6 @@
+name: factorio
+description: for testing the space age apworld
+game: 'Factorio: Space Age'
+requires:
+  version: 0.6.4
+'Factorio: Space Age': {}
