@@ -33,6 +33,8 @@ description: 'Default Factorio: Space Age Template'
 game: 'Factorio: Space Age'
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    'Factorio: Space Age': 1.0.0 # Version of the world required for this yaml to work as expected.
 
 'Factorio: Space Age':
   ################
@@ -176,13 +178,13 @@ requires:
     removed: 0
 
   progressive_technologies:
-    # Which technologies that end with -1, -2, -3, etc. to group into a sequence of progressive items so that they are always received in sequential order.
+    # Technologies that conceptually form a progressive sequence will be received in sequential order.
+    # If the vanilla technology name ends with -1, -2, -3, etc. or a building or piece of equipment is crafted as an upgrade from another item,
+    # then this apworld probably puts it into a progressive sequence.
+    # See progressive_technology_stacks in data/generated2.py in this apworld's source code for the full definition.
     # 
     # bonuses: Only technologies that grant global bonuses will be grouped together and received in sequence, for example there will be 7 copies of progressive-inserter-capacity-bonus.
-    # recipes: In addition, technologies that unlock recipes will also be grouped, for example 3 copies of progressive-automation, 4 copies of progressive-military, 3 copies of progressive-speed-module, etc.
-    # 
-    # In addition to technology names that end with numbers, epic-quality and legendary-quality are two bonuses called progressive-quality-upgrade,
-    # and turbo-transport-belt is the fourth recipe unlock in the progressive-logistics chain.
+    # recipes: In addition, technologies that unlock recipes will also be grouped, for example 3 copies of progressive-automation, 4 copies of progressive-military, 3 copies of progressive-inserter, etc.
     bonuses: 0
     recipes: 50
 
@@ -236,7 +238,7 @@ requires:
   free_sample_excludes:
     # Recipes that when unlocked should never grant Free Samples of their products.
     # Fluids, barreling/unbarreling, and biter eggs are always excluded.
-    ['metallurgic-science-pack', 'logistic-science-pack', 'utility-science-pack', 'electromagnetic-science-pack', 'production-science-pack', 'military-science-pack', 'promethium-science-pack', 'chemical-science-pack', 'cryogenic-science-pack', 'automation-science-pack', 'space-science-pack', 'agricultural-science-pack']
+    ['promethium-science-pack', 'space-science-pack', 'logistic-science-pack', 'chemical-science-pack', 'automation-science-pack', 'metallurgic-science-pack', 'production-science-pack', 'military-science-pack', 'electromagnetic-science-pack', 'utility-science-pack', 'agricultural-science-pack', 'cryogenic-science-pack']
 
   tech_cost_divisor:
     # Reduce the cost of research technologies by dividing by this number.
