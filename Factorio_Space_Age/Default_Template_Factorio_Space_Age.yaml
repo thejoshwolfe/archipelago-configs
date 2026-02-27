@@ -238,7 +238,7 @@ requires:
   free_sample_excludes:
     # Recipes that when unlocked should never grant Free Samples of their products.
     # Fluids, barreling/unbarreling, and biter eggs are always excluded.
-    ['promethium-science-pack', 'space-science-pack', 'logistic-science-pack', 'chemical-science-pack', 'automation-science-pack', 'metallurgic-science-pack', 'production-science-pack', 'military-science-pack', 'electromagnetic-science-pack', 'utility-science-pack', 'agricultural-science-pack', 'cryogenic-science-pack']
+    ['military-science-pack', 'electromagnetic-science-pack', 'automation-science-pack', 'chemical-science-pack', 'metallurgic-science-pack', 'promethium-science-pack', 'production-science-pack', 'logistic-science-pack', 'cryogenic-science-pack', 'utility-science-pack', 'agricultural-science-pack', 'space-science-pack']
 
   tech_cost_divisor:
     # Reduce the cost of research technologies by dividing by this number.
@@ -307,6 +307,12 @@ requires:
     # Logically require gun turrets for destroying medium asteroids.
     # Otherwise, you may need to use walls and speed regulation to survive space travel.
     # (Large and huge asteroids always logically require rocket turrets and railgun turrets respectively.)
+    'false': 0
+    'true': 50
+
+  require_medium_electric_pole:
+    # Logically require medium electric poles for automating metallurgic and electromagnetic science packs.
+    # Otherwise, you may need to ship in wood to make electric poles.
     'false': 0
     'true': 50
 
