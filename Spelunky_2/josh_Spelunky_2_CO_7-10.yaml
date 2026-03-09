@@ -4,7 +4,7 @@ game: Spelunky 2
 requires:
   version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Spelunky 2: 0.3.8 # Version of the world required for this yaml to work as expected.
+    Spelunky 2: 0.4.0 # Version of the world required for this yaml to work as expected.
 Spelunky 2:
   # Goal is 7-10 in Cosmic Ocean.
   goal: co
@@ -13,7 +13,7 @@ Spelunky 2:
   # Locations that give checks.
   # Add 3 additional character unlocks to shops or vlad's castle.
   starting_characters: ['Margaret Tunnel']
-  include_hard_locations: 'true' # Journal entries for: Magmar, Lavamander, Mech Rider, Scorpion, True Crown
+  include_hard_locations: 'true' # then some are excluded below
   exclude_locations:
     # I think this is just bugged. It never unlocks. (And not clear why this is a location if I start with this character.)
     - Margaret Tunnel Journal Entry
@@ -24,7 +24,6 @@ Spelunky 2:
     - Scorpion Journal Entry
     - True Crown Journal Entry
     # Resetting jungle to find bees is not fun.
-    - Bee Journal Entry
     - Queen Bee Journal Entry
     # Too rare.
     - Caveman Shopkeeper Journal Entry
@@ -39,11 +38,6 @@ Spelunky 2:
     - Telepack Journal Entry
     - Teleporter Journal Entry
     - Webgun Journal Entry
-  start_location_hints:
-    # Exiting after the boss fight is sometimes a distraction from what I'm trying to do.
-    # Tell me if I should bother doing that.
-    - Guy Spelunky Journal Entry
-    - Classic Guy Journal Entry
 
   # Vanilla things that must be unlocked by items in the multiworld.
   progressive_worlds:
@@ -75,26 +69,26 @@ Spelunky 2:
     - Telepack
     - Teleporter
     - Webgun
-  start_hints:
-    # Tell me the critical path.
-    - Progressive World Unlock
-    - Volcana
-    - Jungle
-    - Olmec's Lair
-    - Tide Pool
-    - Temple
-    - Ice Caves
-    - Neo Babylon
-    - Sunken City
-    - Cosmic Ocean
-    - Hou Yi's Bow
-    - Arrow of Light
-    # These aren't strictly required, but are meaningful enough that I don't want to languish without them.
-    - Jetpack
-    - Kapala
-    - Paste
-    - Spike Shoes
-    - Ushabti
+  #start_hints:
+  #  # Tell me the critical path.
+  #  - Progressive World Unlock
+  #  - Volcana
+  #  - Jungle
+  #  - Olmec's Lair
+  #  - Tide Pool
+  #  - Temple
+  #  - Ice Caves
+  #  - Neo Babylon
+  #  - Sunken City
+  #  - Cosmic Ocean
+  #  - Hou Yi's Bow
+  #  - Arrow of Light
+  #  # These aren't strictly required, but are meaningful enough that I don't want to languish without them.
+  #  - Jetpack
+  #  - Kapala
+  #  - Paste
+  #  - Spike Shoes
+  #  - Ushabti
 
   # Permanent upgrades.
   starting_health: '4'
@@ -128,6 +122,7 @@ Spelunky 2:
     - Ushabti
     # Not allowed in item_upgrades for complicated reasons.
     - Hedjet
+  shortcut_mode: individual
   plando_items:
     # Get the "upgrade" at the journal entry.
     - {force: true, locations: [Ankh Journal Entry], items: {Ankh Upgrade: 1}}
@@ -149,6 +144,15 @@ Spelunky 2:
     - {force: true, locations: [Hedjet Journal Entry], items: {Hedjet Upgrade: 1}}
     # Touching just any Ushabti doesn't let you start with it. You gotta open the correct one.
     - {force: true, locations: [Qilin Journal Entry], items: {Ushabti Upgrade: 1}}
+    # Get the shortcut by entering the world, not by having someone unlock it for you.
+    - {force: true, locations: [Volcana Journal Entry], items: {Volcana Shortcut: 1}}
+    - {force: true, locations: [Jungle Journal Entry], items: {Jungle Shortcut: 1}}
+    - {force: true, locations: [Olmec's Lair Journal Entry], items: {Olmec's Lair Shortcut: 1}}
+    - {force: true, locations: [Tide Pool Journal Entry], items: {Tide Pool Shortcut: 1}}
+    - {force: true, locations: [Temple Journal Entry], items: {Temple Shortcut: 1}}
+    - {force: true, locations: [Ice Caves Journal Entry], items: {Ice Caves Shortcut: 1}}
+    - {force: true, locations: [Neo Babylon Journal Entry], items: {Neo Babylon Shortcut: 1}}
+    - {force: true, locations: [Sunken City Journal Entry], items: {Sunken City Shortcut: 1}}
   journal_entry_required: 'true' # I think I've made this not matter, but it's still conceptually true.
 
   # Filler items
@@ -186,18 +190,18 @@ Spelunky 2:
   bypass_ankh: 'false'
   death_link_amnesty_count: '2'
 
-  local_items:
-    # Contain some junk. (The ones that sound cool, but are actually not.)
-    - Gold Bar
-    #- Emerald Gem
-    #- Sapphire Gem
-    #- Ruby Gem
-    - Diamond Gem
-    #- Cooked Turkey
-    - Royal Jelly
-    #- Rope Pile
-    #- Bomb Bag
-    #- Bomb Box
+  #local_items:
+  #  # Contain some junk. (The ones that sound cool, but are actually not.)
+  #  - Gold Bar
+  #  #- Emerald Gem
+  #  #- Sapphire Gem
+  #  #- Ruby Gem
+  #  - Diamond Gem
+  #  #- Cooked Turkey
+  #  - Royal Jelly
+  #  #- Rope Pile
+  #  #- Bomb Bag
+  #  #- Bomb Box
   non_local_items: []
   item_links: []
   priority_locations: []

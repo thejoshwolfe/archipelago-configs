@@ -32,9 +32,9 @@ description: 'Default Factorio: Space Age Template'
 
 game: 'Factorio: Space Age'
 requires:
-  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
   game:
-    'Factorio: Space Age': 1.0.0 # Version of the world required for this yaml to work as expected.
+    'Factorio: Space Age': 1.1.0 # Version of the world required for this yaml to work as expected.
 
 'Factorio: Space Age':
   ################
@@ -238,7 +238,7 @@ requires:
   free_sample_excludes:
     # Recipes that when unlocked should never grant Free Samples of their products.
     # Fluids, barreling/unbarreling, and biter eggs are always excluded.
-    ['military-science-pack', 'electromagnetic-science-pack', 'automation-science-pack', 'chemical-science-pack', 'metallurgic-science-pack', 'promethium-science-pack', 'production-science-pack', 'logistic-science-pack', 'cryogenic-science-pack', 'utility-science-pack', 'agricultural-science-pack', 'space-science-pack']
+    ['military-science-pack', 'logistic-science-pack', 'promethium-science-pack', 'metallurgic-science-pack', 'space-science-pack', 'utility-science-pack', 'chemical-science-pack', 'cryogenic-science-pack', 'agricultural-science-pack', 'automation-science-pack', 'electromagnetic-science-pack', 'production-science-pack']
 
   tech_cost_divisor:
     # Reduce the cost of research technologies by dividing by this number.
@@ -319,6 +319,11 @@ requires:
   require_gleba_for_spoilage:
     # Logically require Gleba for access to spoilage.
     # Otherwise, you may need to wait >2 hours (configurable) for fish to spoil on Nauvis to get nutrient-triggered technology.
+    'false': 0
+    'true': 50
+
+  require_seed_disposal:
+    # Logically require either heating towers or recyclers to automate agricultural science pack.
     'false': 0
     'true': 50
 

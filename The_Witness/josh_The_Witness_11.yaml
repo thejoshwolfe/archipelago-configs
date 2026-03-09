@@ -1,6 +1,6 @@
 name: josh_witness
 game: The Witness
-description: All 11 Lasers plus challenge. Mountaintop opens at some point. Caves shortcut might be in the pool. Obelisk sides might be enabled.
+description: All 11 Lasers plus challenge. Mountaintop opens at some point. Caves shortcut might be in the pool. EPs enabled.
 The Witness:
   progression_balancing: '50'
   accessibility: full
@@ -15,9 +15,7 @@ The Witness:
   panel_hunt_plando: []
   shuffle_discarded_panels: 'true'
   shuffle_vault_boxes: 'true'
-  shuffle_EPs:
-    'off': 1
-    obelisk_sides: 1
+  shuffle_EPs: obelisk_sides
   EP_difficulty: normal
   shuffle_postgame: 'false'
   disable_non_randomized_puzzles: 'true'
@@ -35,29 +33,13 @@ The Witness:
   area_hint_percentage: '0'
   laser_hints: 'false'
   early_caves:
-    'off': 1
-    add_to_pool: 3
+    'off': 3
+    add_to_pool: 1
   elevators_come_to_you: Quarry Elevator
   death_link: 'false'
-  death_link_amnesty: '1'
   shuffle_dog: puzzle_skip
   local_items: []
   non_local_items: []
-  start_hints:
-  # Tell me the way
-  - Black/White Squares
-  - Colored Squares
-  - Progressive Dots
-  - Sound Dots
-  - Progressive Symmetry
-  - Eraser
-  - Shapers
-  - Rotated Shapers
-  - Negative Shapers
-  - Progressive Stars
-  - Triangles
-  - Boat
-  - Caves Shortcuts
   start_location_hints: []
   exclude_locations:
   - Desert Flood Room EP

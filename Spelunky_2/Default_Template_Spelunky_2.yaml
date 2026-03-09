@@ -32,9 +32,9 @@ description: Default Spelunky 2 Template
 
 game: Spelunky 2
 requires:
-  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Spelunky 2: 0.3.8 # Version of the world required for this yaml to work as expected.
+    Spelunky 2: 0.4.0 # Version of the world required for this yaml to work as expected.
 
 Spelunky 2:
   ################
@@ -87,6 +87,11 @@ Spelunky 2:
     random-high: 0 # random value weighted towards higher values
     random-range-10-99: 0 # random value between 10 and 99
 
+  goal_ironman:
+    # Cannot enter goal level unless you started your run from the world start (Not using a shortcut)
+    'false': 50
+    'true': 0
+
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
     'false': 50
@@ -109,9 +114,23 @@ Spelunky 2:
     random-high: 0 # random value weighted towards higher values
     random-range-0-10: 0 # random value between 0 and 10
 
+  death_link_grace_count:
+    # How many deaths you receive before you fall victim to a Deathlink from the multiworld.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-10: 0 # random value between 0 and 10
+
   include_hard_locations:
     # Include the following more problematic journal entries as locations in the AP world:
-    # Magmar, Lavamander, MechSuit, Scorpion + True Crown
+    # Caveman Shopkeeper Journal Entry | Lavamander Journal Entry | Magmar Journal Entry
+    # Mech Rider Journal Entry | Queen Bee Journal Entry | Scorpion Journal Entry
+    # True Crown Journal Entry
     'false': 50
     'true': 0
 
@@ -136,9 +155,18 @@ Spelunky 2:
     ['Margaret Tunnel', 'Roffy D. Sloth', 'Colin Northward', 'Ana Spelunky']
 
   progressive_worlds:
-    # Whether new worlds should be unlocked individually or progressively.
+    # Progressive worlds are unlocked in order:
+    # Volcana, Jungle, Olmec's Lair, Tide Pool, Temple, Ice Caves, Neo Babylon, Sunken City, Cosmic Ocean.
+    # Set this to 'false' to unlock worlds individually.
     'false': 0
     'true': 50
+
+  shortcut_mode:
+    # Should shortcuts unlock as you gain worlds, or instead receive them from the multiworld
+    # (You still the associated world for the shortcut to be open when you receive it from the multiworld)
+    'off': 50
+    progressive: 0
+    individual: 0
 
   starting_health:
     # How much Health should you initially start with.
@@ -213,13 +241,14 @@ Spelunky 2:
     random-range-0-20: 0 # random value between 0 and 20
 
   restricted_items:
-    # Items that are added to the multi-world as progressive and must be found in the multi-world before they can be obtained in the game
-    # Options: 
+    # Items that must be unlocked in the multi-world before they appear in the game.
+    # (Quest items like Hou Yi's Bow will be ignored if it's not suitable for your goal)
+    # Options ("ALL" can be used for everything): 
     # - Alien Compass | Ankh | Arrow of Light | Camera | Cape | Climbing Gloves | Clone Gun | Compass | Crown | Eggplant
     # - Eggplant Crown | Elixir | Excalibur | Four-Leaf Clover | Freeze Ray | Hedjet | Hou Yi's Bow | Hoverpack | Jetpack | Kapala
     # - Machete | Mattock | Paste | Pitcher's Mitt | Plasma Cannon | Powerpack | Scepter | Shield | Skeleton Key | Spectacles
     # - Spike Shoes | Spring Shoes | Tablet of Destiny | Telepack | Teleporter | True Crown | Udjat Eye | Ushabti | Vlad's Cape | Webgun
-    ['Arrow of Light', 'Udjat Eye', 'Scepter', 'Ushabti', 'Excalibur', 'Alien Compass', 'Crown', "Hou Yi's Bow", 'Hedjet', 'Tablet of Destiny']
+    ['Ushabti', 'Scepter', 'Udjat Eye', 'Tablet of Destiny', 'Arrow of Light', 'Excalibur', 'Crown', 'Alien Compass', 'Hedjet', "Hou Yi's Bow"]
 
   item_upgrades:
     # Add the following useful items in the multi-world item pool which are kept on death,
@@ -228,7 +257,7 @@ Spelunky 2:
     # - Ankh | Camera | Cape | Climbing Gloves | Clone Gun | Compass | Eggplant | Eggplant Crown | Elixir | Four-Leaf Clover
     # - Freeze Ray | Hoverpack | Jetpack | Kapala | Machete | Mattock | Paste | Pitcher's Mitt | Plasma Cannon | Powerpack
     # - Shield | Skeleton Key | Spectacles | Spike Shoes | Spring Shoes | Telepack | Teleporter | True Crown | Vlad's Cape | Webgun
-    ['Skeleton Key', 'Elixir', 'Climbing Gloves', 'Spectacles', 'Ankh', 'Spring Shoes', 'Kapala', 'Four-Leaf Clover', 'Paste', 'Compass', 'Spike Shoes']
+    ['Paste', 'Compass', 'Spectacles', 'Four-Leaf Clover', 'Elixir', 'Spike Shoes', 'Climbing Gloves', 'Kapala', 'Skeleton Key', 'Ankh', 'Spring Shoes']
 
   waddler_upgrades:
     # Add the following useful items in the multi-world item pool which are added to Waddler's storage between runs, 
@@ -238,7 +267,7 @@ Spelunky 2:
     # - Eggplant Crown | Elixir | Excalibur | Four-Leaf Clover | Freeze Ray | Hedjet | Hou Yi's Bow | Hoverpack | Jetpack | Kapala
     # - Machete | Mattock | Paste | Pitcher's Mitt | Plasma Cannon | Powerpack | Scepter | Shield | Skeleton Key | Spectacles
     # - Spike Shoes | Spring Shoes | Tablet of Destiny | Telepack | Teleporter | True Crown | Udjat Eye | Ushabti | Vlad's Cape | Webgun
-    ['Hoverpack', 'Freeze Ray', 'Mattock', 'Telepack', 'Webgun', 'Jetpack', 'Powerpack', 'Shield', "Vlad's Cape", 'Eggplant', 'Camera', 'Clone Gun', 'Teleporter', 'Cape', 'Plasma Cannon', 'Machete']
+    ['Hoverpack', 'Camera', 'Clone Gun', 'Powerpack', 'Webgun', 'Jetpack', 'Freeze Ray', 'Machete', 'Eggplant', 'Telepack', "Vlad's Cape", 'Cape', 'Plasma Cannon', 'Mattock', 'Teleporter']
 
   can_ankh_skip:
     # Sets if progression logic should assume you can perform Ankh skipping in Tidepool

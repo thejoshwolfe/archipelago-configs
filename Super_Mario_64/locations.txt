@@ -1,0 +1,42 @@
+BoB: Bob-omb Buddy
+WF: Bob-omb Buddy
+JRB: Bob-omb Buddy
+CCM: Bob-omb Buddy
+CCM: 1Up Block Near Snowman
+CCM: 1Up Block Ice Pillar
+CCM: 1Up Block Secret Slide
+BBH: 1Up Block Top of Mansion
+Bowser in the Dark World 1Up Block on Tower
+Bowser in the Dark World 1Up Block near Goombas
+
+HMC: 1Up Block Past Rolling Rocks
+HMC: 1Up Block above Pit
+SSL: Bob-omb Buddy
+SSL: 1Up Block Outside Pyramid
+SSL: 1Up Block Pyramid Left Path
+SSL: 1Up Block Pyramid Back
+Cavern of the Metal Cap 1Up Block
+Vanish Cap Under the Moat 1Up Block
+Bowser in the Fire Sea 1Up Block Swaying Stairs
+Bowser in the Fire Sea 1Up Block Near Poles
+
+SL: Bob-omb Buddy
+SL: 1Up Block Near Moneybags
+SL: 1Up Block inside Igloo
+WDW: 1Up Block in Downtown
+WDW: Bob-omb Buddy
+TTM: Bob-omb Buddy
+TTM: 1Up Block on Red Mushroom
+THI: Bob-omb Buddy
+THI: 1Up Block THI Small near Start
+THI: 1Up Block THI Large near Start
+THI: 1Up Block Windy Area
+TTC: 1Up Block Midway Up
+TTC: 1Up Block at the Top
+
+RR: Bob-omb Buddy
+RR: 1Up Block Top of Red Coin Maze
+RR: 1Up Block Under Fly Guy
+RR: 1Up Block On House in the Sky
+Wing Mario Over the Rainbow 1Up Block
+Bowser in the Sky 1Up Block
