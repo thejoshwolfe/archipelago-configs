@@ -84,7 +84,10 @@ Celeste (Open World):
   #####################
   music_shuffle: none
   require_cassettes: 'false'
-  madeline_hair_length: default
+  madeline_hair_length:
+    very_short: 1
+    short: 1
+    default: 1
   madeline_one_dash_hair_color: strawberry
   madeline_two_dash_hair_color: double
   madeline_no_dash_hair_color: empty

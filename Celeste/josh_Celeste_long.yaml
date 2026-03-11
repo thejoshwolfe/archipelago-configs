@@ -1,0 +1,109 @@
+name: josh_celeste
+game: Celeste (Open World)
+description: Summit A (requires 14 advancement items). All A sides except Farewell enabled. Roomsanity.
+# Excludes chapters: Prologue, Reflection, Core, Farewell. Excludes all B and C sides.
+# Required items for The Summit A:
+# - traffic_blocks
+# - springs
+# - coins
+# - dash_refills
+# - dash_switches
+# - dream_blocks
+# - swap_blocks
+# - red_boosters
+# - blue_boosters
+# - blue_clouds
+# - pink_clouds
+# - move_blocks
+# - feathers
+# - badeline_boosters
+requires:
+  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Celeste (Open World): 1.0.5 # Version of the world required for this yaml to work as expected.
+
+Celeste (Open World):
+  progression_balancing: '50'
+  accessibility: full
+
+  death_link: 'true'
+  death_link_amnesty: '30'
+  trap_link: 'true'
+
+  ################
+  # Goal Options #
+  ################
+  goal_area: the_summit_a
+
+  lock_goal_area: 'false'
+  total_strawberries: '0'
+  strawberries_required_percentage: '0'
+  junk_fill_percentage: '0'
+
+  ####################
+  # Location Options #
+  ####################
+  roomsanity:      'true'
+  include_core:    'true'
+  include_b_sides: 'false'
+  include_c_sides: 'false'
+
+  checkpointsanity: 'false'
+  goal_area_checkpointsanity: 'false'
+  binosanity: 'true'
+  keysanity: 'false'
+  gemsanity: 'true'
+  carsanity: 'true'
+  include_goldens: 'false'
+  include_farewell: none
+
+  ##################
+  # Junk and Traps #
+  ##################
+  # Disable traps.
+  trap_fill_percentage: '15'
+
+  trap_expiration_action: new_screens
+  trap_expiration_amount: '1'
+
+  bald_trap_weight:        medium
+  literature_trap_weight:  medium
+  stun_trap_weight:        medium
+  invisible_trap_weight:   medium
+  fast_trap_weight:        medium
+  slow_trap_weight:        medium
+  ice_trap_weight:         medium
+  reverse_trap_weight:     medium
+  screen_flip_trap_weight: medium
+  laughter_trap_weight:    medium
+  hiccup_trap_weight:      medium
+  zoom_trap_weight:        medium
+
+  #####################
+  # Aesthetic Options #
+  #####################
+  music_shuffle: none
+  require_cassettes: 'false'
+  madeline_hair_length:
+    default: 1
+    long: 1
+    very_long: 1
+    absurd: 1
+  madeline_one_dash_hair_color: strawberry
+  madeline_two_dash_hair_color: double
+  madeline_no_dash_hair_color: empty
+  madeline_feather_hair_color: golden
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items: []
+  non_local_items: []
+  start_inventory:
+    # It's fun that torches can be missing, but not fun for me.
+    Torches: 1
+  start_location_hints: []
+  priority_locations: []
+  exclude_locations: []
+  item_links: []
+  plando_items: []
