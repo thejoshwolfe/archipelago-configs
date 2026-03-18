@@ -42,7 +42,7 @@ requires:
     construction-robot: 50
   start_inventory_from_pool:
     # The default robot speed is a joke.
-    progressive-worker-robots-speed: 5
+    worker-robots-speed: 5
   # No recipe speedups.
   tech_cost_divisor: 1
   rocket_parts_per_rocket: 50

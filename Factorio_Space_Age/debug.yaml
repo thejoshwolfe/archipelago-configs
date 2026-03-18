@@ -65,17 +65,17 @@ requires:
   non_local_items: []
   start_inventory: {}
   start_inventory_from_pool:
-    progressive-worker-robots-speed: 5
-    progressive-worker-robots-storage: 3
+    worker-robots-speed: 5
+    worker-robots-storage: 3
     bulk-inserter: 1
     stack-inserter: 1
-    progressive-inserter-capacity-bonus: 7
-    progressive-transport-belt-capacity: 2
+    inserter-capacity-bonus: 7
+    transport-belt-capacity: 2
     rocket-silo: 1
     logistic-robotics: 1
-    progressive-weapon-shooting-speed: 6
-    progressive-physical-projectile-damage: 6
-    progressive-stronger-explosives: 6
+    weapon-shooting-speed: 6
+    physical-projectile-damage: 6
+    stronger-explosives: 6
     # recipes
     foundry: 1
     explosives: 1
