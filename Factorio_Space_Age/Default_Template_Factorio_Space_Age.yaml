@@ -174,6 +174,7 @@ requires:
     # 
     # Note that with prerequisites removed, the technology GUI lists all the trigger techs for planets you haven't visited yet
     # before the research techs that you're actually looking for, which can be a little annoying.
+    # However, with prerequisites included, triggers can block large swaths of other techs, such as pumping oil and mining uranium.
     vanilla: 50
     removed: 0
 
@@ -210,11 +211,15 @@ requires:
   ####################
   # Speedups/Balance #
   ####################
+  quick_start:
+    # Start with power armor, some personal bots, some bot speed upgrades,
+    # and a chunk of materials to help get through the early game.
+    'false': 0
+    'true': 50
+
   starting_items:
     # Mapping of Factorio internal item-name to amount granted on start.
-    burner-mining-drill: 4
-    stone-furnace: 4
-    wood: 4
+    {}
 
   free_samples:
     # Get free items with your recipe unlocks.

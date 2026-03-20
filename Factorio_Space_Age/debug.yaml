@@ -23,22 +23,8 @@ requires:
   ####################
   # Speedups/Balance #
   ####################
-  # Find item names here: https://factoriopedia.lukasbach.com (Raw Data | "item" | "name")
-  starting_items:
-    # The burner city phase is an iconic start to every factorio run,
-    # which means not randomized, which means not welcome in AP. Let's get it over with.
-    burner-mining-drill: 5
-    stone-furnace: 50
-    iron-plate: 1000
-    copper-plate: 200
-    automation-science-pack: 20
-    # Let's start ~~fast~~
-    power-armor: 1
-    fission-reactor-equipment: 1
-    battery-equipment: 2
-    personal-roboport-equipment: 1
-    exoskeleton-equipment: 3
-    construction-robot: 50
+  quick_start: 'true'
+  starting_items: {}
   free_samples: stack
   free_samples_quality: normal
   free_sample_excludes:
