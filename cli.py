@@ -277,16 +277,6 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
     except FileExistsError:
         pass
     # Audit which existing mods are allowed.
-    found_optional_mod = False
-    for mod_file_name in os.listdir(mods_dir):
-        if mod_file_name.startswith("respawn-to-any-planet_") and space_age_enabled:
-            # This one is ok.
-            found_optional_mod = True
-            continue
-        # Not this one.
-        os.remove(os.path.join(mods_dir, mod_file_name))
-
-    shutil.copy(mod_source_path, mods_dir + "/")
     mod_list = {"mods": [
         # These are the defaults that ship with space age
         {"name": "base", "enabled": True},
@@ -294,6 +284,19 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
         {"name": "quality", "enabled": True},
         {"name": "space-age", "enabled": True},
     ]}
+    for mod_file_name in os.listdir(mods_dir):
+        if space_age_enabled and mod_file_name.startswith("respawn-to-any-planet_"):
+            # This one is ok.
+            mod_list["mods"].append({"name": "respawn-to-any-planet", "enabled": True})
+            continue
+        if space_age_enabled and mod_file_name.startswith("any-planet-start_"):
+            # This one is ok.
+            mod_list["mods"].append({"name": "any-planet-start", "enabled": True})
+            continue
+        # Not this one.
+        os.remove(os.path.join(mods_dir, mod_file_name))
+
+    shutil.copy(mod_source_path, mods_dir + "/")
     # AP is incompatible with space-age
     for mod in mod_list["mods"]:
         if mod["name"] == "space-age":
@@ -304,10 +307,6 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
             mod["enabled"] = space_age_enabled
     # Enable the new mod.
     mod_list["mods"].append({"name": ap_mod_name, "enabled": True})
-
-    # Also enable optional mods.
-    if found_optional_mod:
-        mod_list["mods"].append({"name": "respawn-to-any-planet", "enabled": True})
 
     with open(os.path.join(mods_dir, "mod-list.json"), "w") as f:
         json.dump(mod_list, f, indent=2)

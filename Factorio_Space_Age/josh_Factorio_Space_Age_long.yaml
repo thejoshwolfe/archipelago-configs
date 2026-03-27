@@ -1,12 +1,12 @@
 name: factorio
-description: Reach solar system edge. No enemies.
+description: Automate all science and reach solar system edge. No enemies.
 game: 'Factorio: Space Age'
 requires:
   version: 0.6.6
   game:
-    'Factorio: Space Age': 1.0.0 # Version of the world required for this yaml to work as expected.
+    'Factorio: Space Age': 2.0.0 # Version of the world required for this yaml to work as expected.
 'Factorio: Space Age':
-  goal: solar_system_edge
+  goal: solar_system_edge_11_science
   accessibility: full
   allow_imported_blueprints: 'true'
   world_gen: buffed_resources
@@ -15,52 +15,19 @@ requires:
   ################
   # Technologies #
   ################
-  shuffle_final_technology: 'false'
   technology_prerequisites: vanilla
-  progressive_technologies: recipes
+  progressive_technologies: large_groups
   infinite_technologies: shuffled
   tech_tree_information: none
 
   ####################
   # Speedups/Balance #
   ####################
-  quick_start: 'true'
-  starting_items: {}
-  start_inventory_from_pool: {}
-  # No recipe speedups.
+  # Nearly full cost technology
   tech_cost_divisor: 1
-  rocket_parts_per_rocket: 50
-  ingredients_per_space_platform_foundation: 20
+  tech_cost_max_count: 1000
   # No free samples.
   free_samples: none
-  free_samples_quality: normal
-  free_sample_excludes: []
-
-  # Easiest logic.
-  require_electric_mining_drill: 'true'
-  require_logistics: 'true'
-  require_electric_furnace: 'true'
-  require_ice_melting: 'true'
-  require_gun_turret: 'true'
-  require_gleba_for_spoilage: 'true'
-  require_lightning_rod: 'true'
-  require_dark_power: 'true'
-  require_fast_inserter: 'true'
-  require_assembling_machine_2: 'true'
-  require_fluid_handling: 'true'
-  require_construction_robots: 'true'
-  require_logistic_robots: 'true'
-  require_asteroid_processing: 'true'
-  require_heating_tower: 'true'
-
-  ###############
-  # Energy Link #
-  ###############
-  energy_link: 'true'
-  energy_link_recipe: mid_game
-  energy_link_technology: 'true'
-  require_energy_link: 'true'
-  energy_link_satisfies_requirements: 'true'
 
   ################
   # Traps/Filler #

@@ -67,19 +67,46 @@ requires:
 
   goal:
     # Goal required to complete the game.
-    # space platform: Build a space platform. (Note: this makes for a very short game, often only requiring automating two science packs, and for reasons unknown to me also causes random generation failures sometimes.)
-    # any other planet science: Research anything with metallurgic, agricultural, or electromagnetic science.
-    # aquilo orbit: Reach Aquilo orbit with a space platform.
-    # solar system edge: (default) The victory condition in the normal game.
-    space_platform: 0
-    any_other_planet_science: 0
+    # 
+    # space science: Research victory with 4 science packs: automation, logistic, chemical, space (red, green, blue, white).
+    # any other planet science: (default) Research victory with 5 science packs: automation, logistic, chemical, space, and one of metallurgic, agricultural, or electromagnetic. If you start on another planet, then that science doesn't count.
+    # aquilo orbit: Reach Aquilo orbit with a space platform. planet-discovery-aquilo is shuffled into the multiworld.
+    # aquilo orbit 10 science: Reach Aquilo orbit after researching the unrandomized planet-discovery-aquilo, which requires 10 science packs (everything except cryogenic and promethium).
+    # solar system edge: Reach the solar system edge with a space platform. promethium-science-pack (which unlocks the solar system edge) is shuffled into the multiworld.
+    # solar system edge 11 science: Reach the solar system edge after researching the unrandomized promethium-science-pack, which requires all 11 non-promethium science packs.
+    # 
+    # Note that technology_prerequisites adds extra steps to unlocking unrandomized technology locations related to the goal.
+    space_science: 0
+    any_other_planet_science: 50
     aquilo_orbit: 0
-    solar_system_edge: 50
+    aquilo_orbit_10_science: 0
+    solar_system_edge: 0
+    solar_system_edge_11_science: 0
+
+  starting_planet:
+    # Start on one of the other 3 inner planets.
+    # To randomly select a planet, use advanced option randomization to specify weights.
+    # Requires _CodeGreen's Any Planet Start mod: https://mods.factorio.com/mod/any-planet-start
+    # 
+    # WARNING: starting on Gleba with enemies enabled is very difficult. See also pentapod_killers and gleba_coal.
+    nauvis: 50
+    vulcanus: 0
+    gleba: 0
+    fulgora: 0
 
   allow_imported_blueprints:
     # Allow blueprints imported from outside the current game.
     'false': 0
     'true': 50
+
+  skip_starting_trigger_techs:
+    # Instead of needing to craft iron plates, copper plates, and a lab at the start of the run,
+    # start with the recipes for steam power, labs, and logistic science pack already unlocked.
+    # The set of technologies changes with the starting_planet setting, and it's recommended particularly on Vulcanus and Gleba.
+    # The free_samples setting gives items from the early triggers, so on Vulcanus, you can start with foundries straight away without setting up a lubricant build,
+    # and on Gleba, you can start with biochambers without looting egg rafts.
+    'false': 50
+    'true': 0
 
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
@@ -153,19 +180,6 @@ requires:
   ################
   # Technologies #
   ################
-  shuffle_final_technology:
-    # Should the "last" technology (see below) be shuffled as a multiworld item?
-    # Otherwise, it will be unlocked at its vanilla research location and require all the usual science packs.
-    # Setting this option to 'true' can reduce the number of science packs needed to complete the goal.
-    # 
-    # The "last" technology depends on the goal:
-    # space platform: rocket-silo, which requires 3 science packs.
-    # any other planet science: this option has no effect.
-    # aquilo orbit: planet-discovery-aquilo, which requires 9 science packs.
-    # solar system edge: promethium-science-pack (unlocks solar-system-edge), which requires 10 science packs.
-    'false': 50
-    'true': 0
-
   technology_prerequisites:
     # Researching a technology location requires researching the prerequisite locations first,
     # the connections in the technology graph.
@@ -179,12 +193,18 @@ requires:
     removed: 0
 
   progressive_technologies:
-    # TODO: unimplemented.
+    # Group technologies together as progressive item chains.
+    # For example, there are 3 copies of 'progressive-speed-module' in the multiworld item pool,
+    # the first one you receive gives the recipe for speed module 1, the second gives speed module 2, and so on.
+    # See https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/data/ap_data.py for the full definitions of these.
     # 
-    # bonuses: Only technologies that grant global bonuses will be grouped together and received in sequence, for example there will be 7 copies of progressive-inserter-capacity-bonus.
-    # recipes: In addition, technologies that unlock recipes will also be grouped, for example 3 copies of progressive-automation, 4 copies of progressive-military, 3 copies of progressive-inserter, etc.
-    bonuses: 0
-    recipes: 50
+    # only_related: Technologies with similar names will be grouped together in a progress chain.
+    # This requires several specific items to progress, such as oil-gathering, oil-processing, plastics, and advanced-circuit all as individual items.
+    # large_groups: Loosely-related technologies will be grouped together with more critical recipes near the start and less critical bonuses near the end.
+    # This allows many more ways to get critical technologies, for example 2/9+ progressive-oil and 2/9+ progressive-circuit to get the same set of recipes listed in the previous example.
+    # Additional copies of progressive-circuit can be added to the pool with filler_processing_unit_productivity_weight, and similarly with other infinite technologies as filler items.
+    only_related: 0
+    large_groups: 50
 
   infinite_technologies:
     # How to handle infinitely researchable technologies, e.g. steel-plate-productivity.
@@ -249,35 +269,93 @@ requires:
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
     # Maximum value is 10
-    1: 50
+    4: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
     random-range-1-10: 0 # random value between 1 and 10
 
-  rocket_parts_per_rocket:
-    # Normally a rocket requires 50 of each ingredient.
+  tech_cost_max_count:
+    # Cap the number of units a research technology can require. Vanilla technologies max out at 5000 (e.g. mech-armor).
+    # This limit is applied after tech_cost_divisor, and does not apply to infinite technologies.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
-    # Maximum value is 200
-    50: 50
+    # Maximum value is 5000
+    200: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-1-200: 0 # random value between 1 and 200
+    random-range-1-5000: 0 # random value between 1 and 5000
 
-  ingredients_per_space_platform_foundation:
-    # Normally a space platform foundation requires 20 of each ingredient.
+  space_technology_level:
+    # Downgrade space-related crafting ingredients to make space travel accessible earlier in the game:
+    # vanilla               -> mid game         -> early game;
+    # processing unit       -> advanced circuit -> electronic circuit;
+    # low density structure -> plastic bar      -> copper plate;
+    # rocket fuel           -> sulfur           -> coal;
+    # electric engine unit  -> engine unit      -> iron gear wheel;
+    # steel plate           -> steel plate      -> iron plate;
+    # concrete              -> concrete         -> stone brick;
+    # 
+    # Changes apply to these recipes: rocket-silo, rocket-part, space-platform-foundation,
+    # space-platform-starter-pack, cargo-landing-pad, cargo-bay, asteroid-collector, crusher,
+    # thruster, chemical-plant, solar-panel.
+    # 
+    # If require_self_sufficient_space_platform is enabled and not starting on Vulcans, then electric-furnace will also be included in the list.
+    # The early_game setting unlocks chemical plants as part of space-platform-thruster so you can melt ice and make fuel.
+    # 
+    # This setting also reduces small and medium asteroid health,
+    # and reduces item counts for rocket-silo, space-platform-foundation, and rocket parts per rocket.
+    # 
+    # To get the most out of this option, you might be interested in these other changes:
+    #   technology_prerequisites: removed
+    #   progressive_technologies: only_related # TODO: make a better option for this mode.
+    #   energy_link_recipe: early_game
+    # And if you really want to go straight into space at the start of the multiworld:
+    #   start_inventory_from_pool:
+    #     rocket-silo: 1
+    #     space-platform: 1
+    #     advanced-material-processing-2: 1  # if you want furnaces in space
+    #     space-platform-thruster: 1
+    #     gun-turret: 1
+    #     # One of these:
+    #     solar-energy: 1
+    #     ap-energy-link-bridge: 1
+    # 
+    # When starting_planet is not set to nauvis, then this option's behavior changes accordingly.
+    early_game: 0
+    mid_game: 0
+    vanilla: 50
+
+  vulcanus_rocks:
+    # When starting on Vulcanus, multiply all drops from hand-mining rocks.
+    # This is your only source of iron, copper, and stone until you make foundries (which are not randomized).
+    # Hand-mined rocks are your only source of tungsten ore to make more foundries until big mining drills,
+    # and until you can kill demolishers, if enabled.
+    # Hand-mining rocks never satisfies the logical requirements for automating metallurgic science.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
-    # Maximum value is 400
-    20: 50
+    # Maximum value is 10
+    5: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-1-400: 0 # random value between 1 and 400
+    random-range-1-10: 0 # random value between 1 and 10
+
+  gleba_coal:
+    # When starting on Gleba, how should coal be acquired or obviated?
+    # Coal is normally required for military science and may be used for defense against Gleba enemies.
+    # 
+    # vanilla: 20 spoilage -> 1 coal through burnt spoilage and carbon synthesis.
+    # buffed_ratio: 1 spoilage -> 1 coal through burnt spoilage and carbon synthesis.
+    # buffed_speed: burnt spoilage recipe sped up from 12s to 1s.
+    # alternate_explosives: add alternate recipes for explosives and grenades to avoid the need for coal on Gleba.
+    vanilla: 0
+    buffed_ratio: 0
+    buffed_speed: 50
+    alternate_explosives: 0
 
   #########
   # Logic #
@@ -293,8 +371,8 @@ requires:
     'false': 0
     'true': 50
 
-  require_electric_furnace:
-    # Logically require electric furnaces for space science pack automation and for traveling space.
+  require_self_sufficient_space_platform:
+    # Logically require either electric furnaces or both foundries and advanced asteroid processing for space science pack automation and for traveling space.
     # Otherwise, you may need to supply space platforms with metal plates shipped up via rocket.
     'false': 0
     'true': 50
@@ -344,39 +422,69 @@ requires:
 
   require_fast_inserter:
     # Logically require fast inserters to automate advanced circuits.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_assembling_machine_2:
     # Logically require assembling machine 2 to automate advanced circuits.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_fluid_handling:
     # Logically require pumps and storage tanks for advanced oil processing.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_construction_robots:
     # Logically require construction robots before automating production or utility science (purple/yellow) or traveling to another planet.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_logistic_robots:
     # Logically require requester chests and logistic robots before traveling to another planet.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_asteroid_processing:
     # Logically require asteroid reprocessing and advanced asteroid processing to reach Aquilo.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_heating_tower:
     # Logically require heating towers to heat buildings on Aquilo.
     # Otherwise, you may need to ship in nuclear fuel cells.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
+
+  demolisher_killers:
+    # What should the logic consider viable methods for killing small demolishers?
+    # When enemies are enabled (according to `world_gen_enemies` or `world_gen_custom.no_enemies_mode`),
+    # killing small demolishers is logically required for automating tungsten ore.
+    # WARNING: military bonuses for damage, weapon speed, etc. are not considered by the logic.
+    atomic bomb: true
+    gun turret and firearm magazine: false
+    gun turret and piercing rounds magazine: false
+    gun turret and uranium rounds magazine: true
+    land mine: false
+    poison capsule: true
+    railgun: true
+    rocket turret and explosive rocket: false
+    rocket turret and rocket: false
+    tesla turret: true
+
+  pentapod_killers:
+    # What should the logic consider viable methods for killing Gleba enemies and defending your base against their attacks?
+    # When enemies are enabled (according to `world_gen_enemies` or `world_gen_custom.no_enemies_mode`),
+    # killing Gleba enemies is logically required for automating agricultural science,
+    # and if starting on Gelba, also required for automating chemical science.
+    # WARNING: military bonuses for damage, weapon speed, etc. are not considered by the logic.
+    gun turret and firearm magazine: false
+    gun turret and piercing rounds magazine: false
+    gun turret and uranium rounds magazine: true
+    land mine: true
+    railgun: true
+    rocket turret: true
+    tesla turret: true
 
   ###############
   # Energy Link #
@@ -391,8 +499,8 @@ requires:
     # Donkey Kong Country (Bananas), etc. is left to the apworld developers.
     # 
     # EnergyLink can also be used to transport energy between planets in Factorio: Space Age or to/from space platforms.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   energy_link_recipe:
     # The recipe to craft an Archipelago EnergyLink Bridge.
@@ -406,8 +514,8 @@ requires:
   energy_link_technology:
     # Should the Archipelago EnergyLink Bridge recipe be unlocked by a technology, which is an item in the multiworld?
     # Note that this interacts with the free samples option.
-    'false': 50
-    'true': 0
+    'false': 0
+    'true': 50
 
   require_energy_link:
     # Logically require Archipelago EnergyLink Bridges for the following, depending on the setting of energy_link_recipe:
