@@ -1,0 +1,109 @@
+name: josh_thps
+description: Collect 15/20 secret tapes, then complete the final level.
+game: Tony Hawk's Pro Skater 1 + 2
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Tony Hawk's Pro Skater 1 + 2: 1.0.0 # Version of the world required for this yaml to work as expected.
+Tony Hawk's Pro Skater 1 + 2:
+  # Goal Options
+  goal: secret_tapes_final_level
+  secret_tapes_total: '20'
+  secret_tapes_required: '15'
+
+  ##################
+  # Skater Options #
+  ##################
+  skater_count: '1'
+  skater_selection:
+    Andrew Reynolds: true
+    Aori Nishimura: true
+    Bob Burnquist: true
+    Bucky Lasek: true
+    Chad Muska: true
+    Elissa Steamer: true
+    Eric Koston: true
+    Geoff Rowley: true
+    Jamie Thomas: true
+    Kareem Campbell: true
+    Leo Baker: true
+    Leticia Bufoni: true
+    Lizzie Armanto: true
+    Nyjah Huston: true
+    Officer Dick: false
+    Riley Hawk: true
+    Rodney Mullen: true
+    Roswell Alien: false
+    Rune Glifberg: true
+    Shane O'Neill: true
+    Steve Caballero: true
+    Tony Hawk: true
+    Tyshawn Jones: true
+
+  level_count: '8' # 8-19
+  level_selection:
+    Burnside: true
+    Chopper Drop: false
+    Downhill Jam: true
+    Downtown: true
+    Mall: true
+    Marseille: true
+    NY City: true
+    Philadelphia: true
+    Roswell: true
+    School: true
+    School II: true
+    Skate Heaven: false
+    Skate Park: true
+    Skatestreet: true
+    Streets: true
+    The Bullring: true
+    The Hangar: true
+    Venice Beach: true
+    Warehouse: true
+
+  include_platinum_scores: 'false'
+  include_platinum_combo_scores: 'false'
+  include_signature_specials: 'true'
+  include_long_tricks: 'true' # TODO: disable this maybe.
+  include_gaps: 'true' # TODO: disable this maybe.
+  gap_count_per_level: '5'
+
+  # Score Requirement Options
+  # TODO: i don't understand this.
+  score_requirement_mode: same_for_all_levels
+  score_requirement_percentage: '100'
+  combo_score_requirement_mode: same_for_all_levels
+  combo_score_requirement_percentage: '100'
+
+  ####################
+  # Gameplay Options #
+  ####################
+  starting_trick_type_weights:
+    Flip Tricks: 1
+    Grab Tricks: 3
+    Grind Tricks: 3
+    Lip Tricks: 1
+    Manual Tricks: 2
+
+  include_overpowered_abilities: 'true'
+
+  ################
+  # Trap Options #
+  ################
+  trap_percentage: '5'
+  trap_weights:
+    Black and White Trap: 1
+    Bloom Trap: 1
+    Chromatic Trap: 1
+    Color Inversion Trap: 1
+    Giant Trap: 1
+    High Gravity Trap: 1
+    Low Gravity Trap: 1
+    Mobile Game Trap: 1
+    Retro Trap: 1
+    Reverse Directional Controls Trap: 1
+    Super Speed Trap: 1
+    Tiny Trap: 1
+    Tunnel Vision Trap: 1
+    Wide Trap: 1

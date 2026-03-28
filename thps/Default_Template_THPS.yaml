@@ -1,0 +1,387 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Tony Hawk's Pro Skater 1 + 2 Template
+
+game: Tony Hawk's Pro Skater 1 + 2
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Tony Hawk's Pro Skater 1 + 2: 1.0.0 # Version of the world required for this yaml to work as expected.
+
+Tony Hawk's Pro Skater 1 + 2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  ################
+  # Goal Options #
+  ################
+  goal:
+    # Determines the victory condition.
+    # 
+    # Secret Tapes + Final Level: Collect enough Secret Tapes to unlock a Final Level and score 1 Million Points on it.
+    # Secret Tape Hunt: Collect a set number of Secret Tapes spread across the multiworld.
+    secret_tapes_final_level: 50
+    secret_tape_hunt: 0
+
+  secret_tapes_total:
+    # Determines how many Secret Tapes are in the item pool.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 50
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-50: 0 # random value between 1 and 50
+
+  secret_tapes_required:
+    # Determines how many Secret Tapes are required to either win or unlock the final level.
+    # 
+    # If this number is higher than the total number of Secret Tapes, it will be set to that number instead.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 50
+    15: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-50: 0 # random value between 1 and 50
+
+  ##################
+  # Skater Options #
+  ##################
+  skater_selection:
+    # Determines which Skaters can be considered for inclusion in the multiworld.
+    # 
+    # Set any Skater you don't want to possibly play as to false.
+    # 
+    # At least one Skater needs to be selected to play this implementation.
+    Andrew Reynolds: true
+    Aori Nishimura: true
+    Bob Burnquist: true
+    Bucky Lasek: true
+    Chad Muska: true
+    Elissa Steamer: true
+    Eric Koston: true
+    Geoff Rowley: true
+    Jamie Thomas: true
+    Kareem Campbell: true
+    Leo Baker: true
+    Leticia Bufoni: true
+    Lizzie Armanto: true
+    Nyjah Huston: true
+    Officer Dick: false
+    Riley Hawk: true
+    Rodney Mullen: true
+    Roswell Alien: false
+    Rune Glifberg: true
+    Shane O'Neill: true
+    Steve Caballero: true
+    Tony Hawk: true
+    Tyshawn Jones: true
+
+  skater_count:
+    # Determines how many Skaters will be picked from your selection for inclusion in the multiworld.
+    # 
+    # Every Skater will have their own location checks on every level, as well as their own item progression.
+    # Make sure your selection is adequate for the desired game length.
+    # 
+    # If this number is higher than the size of your Skater selection, it will be set to that number instead.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 14
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-14: 0 # random value between 1 and 14
+
+  #################
+  # Level Options #
+  #################
+  level_selection:
+    # Determines which Levels can be considered for inclusion in the multiworld.
+    # 
+    # Set any Level you don't want to possibly play as to false.
+    # 
+    # A minimum of 8 Levels needs to be selected to play this implementation.
+    Burnside: true
+    Chopper Drop: false
+    Downhill Jam: true
+    Downtown: true
+    Mall: true
+    Marseille: true
+    NY City: true
+    Philadelphia: true
+    Roswell: true
+    School: true
+    School II: true
+    Skate Heaven: false
+    Skate Park: true
+    Skatestreet: true
+    Streets: true
+    The Bullring: true
+    The Hangar: true
+    Venice Beach: true
+    Warehouse: true
+
+  level_count:
+    # Determines how many Levels will be picked for inclusion in the multiworld.
+    # 
+    # If this number is higher than the size of your Level selection, it will be set to that number instead.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 8
+    # Maximum value is 19
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-8-19: 0 # random value between 8 and 19
+
+  ####################
+  # Location Options #
+  ####################
+  include_platinum_scores:
+    # If enabled, locations for Platinum Scores on each level will be created when generating the multiworld.
+    'false': 50
+    'true': 0
+
+  include_platinum_combo_scores:
+    # If enabled, locations for Platinum Combo Scores on each level will be created when generating the multiworld.
+    'false': 50
+    'true': 0
+
+  include_signature_specials:
+    # If enabled, locations for landing each of the 3 Signature Specials for each included Skater will be created when generating the multiworld.
+    'false': 50
+    'true': 0
+
+  include_long_tricks:
+    # If enabled, locations for landing a set of random long grinds, lips and manuals on each level will be created when generating the multiworld.
+    'false': 50
+    'true': 0
+
+  include_gaps:
+    # If enabled, locations for landing a set number of random Gaps on each level will be created when generating the multiworld.
+    'false': 50
+    'true': 0
+
+  gap_count_per_level:
+    # Determines how many random Gaps will be selected for each level to have locations for, if Gaps are included.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    3: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  #############################
+  # Score Requirement Options #
+  #############################
+  score_requirement_mode:
+    # Determines how Score requirements are set.
+    # 
+    # Same for All Levels: A single percentage will be applied to the Score requirements of all levels
+    # Random per Level: Each level will have a random percentage applied to its Score requirements
+    same_for_all_levels: 50
+    random_per_level: 0
+
+  score_requirement_percentage:
+    # Determines the percentage to apply Score requirements. You will not unlock location checks until
+    # you reach or exceed the Score requirements on a given level.
+    # 
+    # When the requirement mode is set to random per level, the specified percentage will act as the maximum possible.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 50
+    # Maximum value is 1000
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-50-1000: 0 # random value between 50 and 1000
+
+  combo_score_requirement_mode:
+    # Determines how Combo Score requirements are set.
+    # 
+    # Same for All Levels: A single percentage will be applied to the Combo Score requirements of all levels
+    # Random per Level: Each level will have a random percentage applied to its Combo Score requirements
+    same_for_all_levels: 50
+    random_per_level: 0
+
+  combo_score_requirement_percentage:
+    # Determines the percentage to apply Combo Score requirements. You will not unlock location checks until
+    # you reach or exceed the Combo Score requirements on a given level.
+    # 
+    # When the requirement mode is set to random per level, the specified percentage will act as the maximum possible.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 50
+    # Maximum value is 1000
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-50-1000: 0 # random value between 50 and 1000
+
+  ####################
+  # Gameplay Options #
+  ####################
+  starting_trick_type_weights:
+    # Determines the relative weights of each starting trick type for a given Skater.
+    # 
+    # At least one weight needs to be 1 or more.
+    Flip Tricks: 1
+    Grab Tricks: 3
+    Grind Tricks: 3
+    Lip Tricks: 1
+    Manual Tricks: 2
+
+  include_overpowered_abilities:
+    # If enabled, items for abilities that could be considered overpowered will be added to the pool.
+    # 
+    # Progressive Grind Tricks gets another tier that grants perfect balance.
+    # Progressive Lip Tricks gets another tier that grants perfect balance.
+    # Progressive Manual Tricks gets another tier that grants perfect balance.
+    # Progressive Stats gets another tier that prevents the skater from ever bailing.
+    'false': 0
+    'true': 50
+
+  ################
+  # Trap Options #
+  ################
+  trap_percentage:
+    # Determines what percentage of filler items will get converted to trap items.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  trap_weights:
+    # Determines the relative weights of each Trap Type, if Trap Percentage is greater than 0.
+    # 
+    # Each weight is required to be zero or more.
+    Black and White Trap: 1
+    Bloom Trap: 1
+    Chromatic Trap: 1
+    Color Inversion Trap: 1
+    Giant Trap: 1
+    High Gravity Trap: 1
+    Low Gravity Trap: 1
+    Mobile Game Trap: 1
+    Retro Trap: 1
+    Reverse Directional Controls Trap: 1
+    Super Speed Trap: 1
+    Tiny Trap: 1
+    Tunnel Vision Trap: 1
+    Wide Trap: 1
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

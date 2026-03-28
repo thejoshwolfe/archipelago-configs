@@ -1,0 +1,317 @@
+﻿Archipelago Version 0.6.7  -  Seed: 24474445211060226048
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Tony Hawk's Pro Skater 1 + 2
+Location Count:                  125
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Start Inventory from Pool:       
+Goal:                            Secret Tapes Final Level
+Secret Tapes Total:              20
+Secret Tapes Required:           15
+Skater Selection:                Andrew Reynolds: True, Aori Nishimura: True, Bob Burnquist: True, Bucky Lasek: True, Chad Muska: True, Elissa Steamer: True, Eric Koston: True, Geoff Rowley: True, Jamie Thomas: True, Kareem Campbell: True, Leo Baker: True, Leticia Bufoni: True, Lizzie Armanto: True, Nyjah Huston: True, Officer Dick: False, Riley Hawk: True, Rodney Mullen: True, Roswell Alien: False, Rune Glifberg: True, Shane O'Neill: True, Steve Caballero: True, Tony Hawk: True, Tyshawn Jones: True
+Skater Count:                    1
+Level Selection:                 Burnside: True, Chopper Drop: False, Downhill Jam: True, Downtown: True, Mall: True, Marseille: True, NY City: True, Philadelphia: True, Roswell: True, School: True, School II: True, Skate Heaven: False, Skate Park: True, Skatestreet: True, Streets: True, The Bullring: True, The Hangar: True, Venice Beach: True, Warehouse: True
+Level Count:                     8
+Include Platinum Scores:         No
+Include Platinum Combo Scores:   No
+Include Signature Specials:      Yes
+Include Long Tricks:             Yes
+Include Gaps:                    Yes
+Gap Count Per Level:             5
+Score Requirement Mode:          Same For All Levels
+Score Requirement Percentage:    100
+Combo Score Requirement Mode:    Same For All Levels
+Combo Score Requirement Percentage:100
+Starting Trick Type Weights:     Flip Tricks: 1, Grab Tricks: 3, Grind Tricks: 3, Lip Tricks: 1, Manual Tricks: 2
+Include Overpowered Abilities:   Yes
+Trap Percentage:                 5
+Trap Weights:                    Black and White Trap: 1, Bloom Trap: 1, Chromatic Trap: 1, Color Inversion Trap: 1, Giant Trap: 1, High Gravity Trap: 1, Low Gravity Trap: 1, Mobile Game Trap: 1, Retro Trap: 1, Reverse Directional Controls Trap: 1, Super Speed Trap: 1, Tiny Trap: 1, Tunnel Vision Trap: 1, Wide Trap: 1
+
+Selected Skater: Elissa Steamer
+
+Starting Levels:
+  School II
+  Skatestreet
+  Venice Beach
+
+Unlockable Levels:
+  Burnside
+  Downhill Jam
+  Mall
+  Roswell
+
+Goal Level: The Hangar
+
+Target Scores:
+  School II:
+    Elissa Steamer (1.0x): [15000, 70000, 125000]
+  Skatestreet:
+    Elissa Steamer (1.0x): [8000, 22000, 68000]
+  Venice Beach:
+    Elissa Steamer (1.0x): [40000, 100000, 200000]
+  Burnside:
+    Elissa Steamer (1.0x): [8000, 22000, 68000]
+  Downhill Jam:
+    Elissa Steamer (1.0x): [40000, 100000, 200000]
+  Mall:
+    Elissa Steamer (1.0x): [20000, 80000, 150000]
+  Roswell:
+    Elissa Steamer (1.0x): [8000, 22000, 68000]
+
+Target Combo Scores:
+  School II:
+    Elissa Steamer (1.0x): [8000, 35000, 62000]
+  Skatestreet:
+    Elissa Steamer (1.0x): [4000, 11000, 34000]
+  Venice Beach:
+    Elissa Steamer (1.0x): [20000, 50000, 100000]
+  Burnside:
+    Elissa Steamer (1.0x): [4000, 11000, 34000]
+  Downhill Jam:
+    Elissa Steamer (1.0x): [20000, 50000, 100000]
+  Mall:
+    Elissa Steamer (1.0x): [10000, 40000, 75000]
+  Roswell:
+    Elissa Steamer (1.0x): [4000, 11000, 34000]
+
+Target Gaps:
+  School II:
+    Elissa Steamer: Roll Call! Opunsezmee Rail! (SC2), Carlsbad 11 Set (SC2), Roll Call! Gonz Rail (SC2), Leap of Faith!!! (SC2), Pole Stomp! (SC2)
+  Skatestreet:
+    Elissa Steamer: Shoot The Gap (SKS), Sodee Pop Gap (SKS), Hexbox Gap (SKS), Bowl Envy (SKS), HP To Railbox (SKS)
+  Venice Beach:
+    Elissa Steamer: Ramp 2 Roof (VB), Big Vent Gap (VB), On The Fence (VB), VB! Ledge Transfer (VB), Bench Trippin! (VB)
+  Burnside:
+    Elissa Steamer: Over da Pool Landing (BS), Bottom Shelf Lip (BS), Transfer (BS), Bridge Gap (BS), Rollin' The Hill (BS)
+  Downhill Jam:
+    Elissa Steamer: 125 Feet (DHJ), 75 Feet (DHJ), The Downhill Halfpipe (DHJ), Pipe Flip (DHJ), 25 Feet (DHJ)
+  Mall:
+    Elissa Steamer: Over A Stair Set (ML), The Short Rail (ML), Huge Stair Set Off A Mezzanine (ML), Skater Escalator Gap (ML), For The Whole Atrium (ML)
+  Roswell:
+    Elissa Steamer: Pool Grind (RW), Cover Up (RW), Deck Grind (RW), Nasty In The Pasty (RW), Channel Gap (RW)
+
+Long Trick Durations (Grind, Lip, Manual):
+  School II:
+    Elissa Steamer: [5.9, 6.4, 10.2]
+  Skatestreet:
+    Elissa Steamer: [4.3, 3.8, 14.7]
+  Venice Beach:
+    Elissa Steamer: [6.0, 3.3, 15.7]
+  Burnside:
+    Elissa Steamer: [4.2, 5.9, 9.1]
+  Downhill Jam:
+    Elissa Steamer: [5.4, 4.3, 14.1]
+  Mall:
+    Elissa Steamer: [7.0, 5.9, 13.6]
+  Roswell:
+    Elissa Steamer: [4.6, 6.9, 11.7]
+
+Starting Trick Types:
+  Elissa Steamer: Lip Tricks
+
+Starting Items:
+
+Skater Unlock: Elissa Steamer
+Level Unlock: School II
+Level Unlock: Skatestreet
+Level Unlock: Venice Beach
+Progressive Lip Tricks: Elissa Steamer
+
+Locations:
+
+Victory: Victory
+School II - Elissa Steamer - High Score: Lizzie Armanto Bobblehead
+School II - Elissa Steamer - Pro Score: Nyjah Huston Bobblehead
+School II - Elissa Steamer - Sick Score: Nyjah Huston Bobblehead
+School II - Elissa Steamer - High Combo: Secret Tape
+School II - Elissa Steamer - Pro Combo: Rodney Mullen Bobblehead
+School II - Elissa Steamer - Sick Combo: Progressive Stats: Elissa Steamer
+School II - Elissa Steamer - Long Grind Trick: Kareem Campbell Bobblehead
+School II - Elissa Steamer - Long Lip Trick: Geoff Rowley Bobblehead
+School II - Elissa Steamer - Long Manual Trick: Kareem Campbell Bobblehead
+School II - Elissa Steamer - Gap #1: Progressive Grind Tricks: Elissa Steamer
+School II - Elissa Steamer - Gap #2: Rodney Mullen Bobblehead
+School II - Elissa Steamer - Gap #3: Shane O'Neill Bobblehead
+School II - Elissa Steamer - Gap #4: Elissa Steamer Bobblehead
+School II - Elissa Steamer - Gap #5: Chad Muska Bobblehead
+School II - Elissa Steamer - SKATE Letter S: Extra Tricks: Elissa Steamer
+School II - Elissa Steamer - SKATE Letter K: Chad Muska Bobblehead
+School II - Elissa Steamer - SKATE Letter A: Officer Dick Bobblehead
+School II - Elissa Steamer - SKATE Letter T: Geoff Rowley Bobblehead
+School II - Elissa Steamer - SKATE Letter E: Kareem Campbell Bobblehead
+School II - Elissa Steamer - Secret Tape: Secret Tape
+Skatestreet - Elissa Steamer - High Score: Secret Tape
+Skatestreet - Elissa Steamer - Pro Score: Progressive Stats: Elissa Steamer
+Skatestreet - Elissa Steamer - Sick Score: Eric Koston Bobblehead
+Skatestreet - Elissa Steamer - High Combo: Progressive Special Meter: Elissa Steamer
+Skatestreet - Elissa Steamer - Pro Combo: Secret Tape
+Skatestreet - Elissa Steamer - Sick Combo: Andrew Reynolds Bobblehead
+Skatestreet - Elissa Steamer - Long Grind Trick: Color Inversion Trap
+Skatestreet - Elissa Steamer - Long Lip Trick: Eric Koston Bobblehead
+Skatestreet - Elissa Steamer - Long Manual Trick: Secret Tape
+Skatestreet - Elissa Steamer - Gap #1: Steve Caballero Bobblehead
+Skatestreet - Elissa Steamer - Gap #2: Grab Tricks: Elissa Steamer
+Skatestreet - Elissa Steamer - Gap #3: Bob Burnquist Bobblehead
+Skatestreet - Elissa Steamer - Gap #4: Secret Tape
+Skatestreet - Elissa Steamer - Gap #5: Riley Hawk Bobblehead
+Venice Beach - Elissa Steamer - High Score: Rodney Mullen Bobblehead
+Venice Beach - Elissa Steamer - Pro Score: Progressive Manual Tricks: Elissa Steamer
+Venice Beach - Elissa Steamer - Sick Score: Secret Tape
+Venice Beach - Elissa Steamer - High Combo: Secret Tape
+Venice Beach - Elissa Steamer - Pro Combo: Aori Nishimura Bobblehead
+Venice Beach - Elissa Steamer - Sick Combo: Bucky Lasek Bobblehead
+Venice Beach - Elissa Steamer - Long Grind Trick: Secret Tape
+Venice Beach - Elissa Steamer - Long Lip Trick: Bloom Trap
+Venice Beach - Elissa Steamer - Long Manual Trick: Secret Tape
+Venice Beach - Elissa Steamer - Gap #1: Stance Switching: Elissa Steamer
+Venice Beach - Elissa Steamer - Gap #2: Riley Hawk Bobblehead
+Venice Beach - Elissa Steamer - Gap #3: Chad Muska Bobblehead
+Venice Beach - Elissa Steamer - Gap #4: Secret Tape
+Venice Beach - Elissa Steamer - Gap #5: Tony Hawk Bobblehead
+Venice Beach - Elissa Steamer - SKATE Letter S: Bob Burnquist Bobblehead
+Venice Beach - Elissa Steamer - SKATE Letter K: Riley Hawk Bobblehead
+Venice Beach - Elissa Steamer - SKATE Letter A: Leo Baker Bobblehead
+Venice Beach - Elissa Steamer - SKATE Letter T: Progressive Manual Tricks: Elissa Steamer
+Venice Beach - Elissa Steamer - SKATE Letter E: Progressive Stats: Elissa Steamer
+Venice Beach - Elissa Steamer - Secret Tape: Bucky Lasek Bobblehead
+Burnside - Elissa Steamer - High Score: Rune Glifberg Bobblehead
+Burnside - Elissa Steamer - Pro Score: Jamie Thomas Bobblehead
+Burnside - Elissa Steamer - Sick Score: Jamie Thomas Bobblehead
+Burnside - Elissa Steamer - High Combo: Level Unlock: Mall
+Burnside - Elissa Steamer - Pro Combo: Secret Tape
+Burnside - Elissa Steamer - Sick Combo: Nyjah Huston Bobblehead
+Burnside - Elissa Steamer - Long Grind Trick: Tyshawn Jones Bobblehead
+Burnside - Elissa Steamer - Long Lip Trick: Secret Tape
+Burnside - Elissa Steamer - Long Manual Trick: Officer Dick Bobblehead
+Burnside - Elissa Steamer - Gap #1: Bob Burnquist Bobblehead
+Burnside - Elissa Steamer - Gap #2: Secret Tape
+Burnside - Elissa Steamer - Gap #3: Eric Koston Bobblehead
+Burnside - Elissa Steamer - Gap #4: Kareem Campbell Bobblehead
+Burnside - Elissa Steamer - Gap #5: Secret Tape
+Downhill Jam - Elissa Steamer - High Score: Level Unlock: Roswell
+Downhill Jam - Elissa Steamer - Pro Score: Bob Burnquist Bobblehead
+Downhill Jam - Elissa Steamer - Sick Score: Lizzie Armanto Bobblehead
+Downhill Jam - Elissa Steamer - High Combo: Rodney Mullen Bobblehead
+Downhill Jam - Elissa Steamer - Pro Combo: Tyshawn Jones Bobblehead
+Downhill Jam - Elissa Steamer - Sick Combo: Eric Koston Bobblehead
+Downhill Jam - Elissa Steamer - Long Grind Trick: Secret Tape
+Downhill Jam - Elissa Steamer - Long Lip Trick: Lizzie Armanto Bobblehead
+Downhill Jam - Elissa Steamer - Long Manual Trick: Flip Tricks: Elissa Steamer
+Downhill Jam - Elissa Steamer - Gap #1: Steve Caballero Bobblehead
+Downhill Jam - Elissa Steamer - Gap #2: Andrew Reynolds Bobblehead
+Downhill Jam - Elissa Steamer - Gap #3: Level Unlock: The Hangar
+Downhill Jam - Elissa Steamer - Gap #4: Roswell Alien Bobblehead
+Downhill Jam - Elissa Steamer - Gap #5: Bob Burnquist Bobblehead
+Downhill Jam - Elissa Steamer - SKATE Letter S: Elissa Steamer Bobblehead
+Downhill Jam - Elissa Steamer - SKATE Letter K: Aori Nishimura Bobblehead
+Downhill Jam - Elissa Steamer - SKATE Letter A: Eric Koston Bobblehead
+Downhill Jam - Elissa Steamer - SKATE Letter T: Geoff Rowley Bobblehead
+Downhill Jam - Elissa Steamer - SKATE Letter E: Transfers: Elissa Steamer
+Downhill Jam - Elissa Steamer - Secret Tape: Aori Nishimura Bobblehead
+Mall - Elissa Steamer - High Score: Bob Burnquist Bobblehead
+Mall - Elissa Steamer - Pro Score: Secret Tape
+Mall - Elissa Steamer - Sick Score: Double Score: Elissa Steamer
+Mall - Elissa Steamer - High Combo: Andrew Reynolds Bobblehead
+Mall - Elissa Steamer - Pro Combo: Kareem Campbell Bobblehead
+Mall - Elissa Steamer - Sick Combo: Rune Glifberg Bobblehead
+Mall - Elissa Steamer - Long Grind Trick: Nyjah Huston Bobblehead
+Mall - Elissa Steamer - Long Lip Trick: Bucky Lasek Bobblehead
+Mall - Elissa Steamer - Long Manual Trick: Progressive Grind Tricks: Elissa Steamer
+Mall - Elissa Steamer - Gap #1: Elissa Steamer Bobblehead
+Mall - Elissa Steamer - Gap #2: Mobile Game Trap
+Mall - Elissa Steamer - Gap #3: Kareem Campbell Bobblehead
+Mall - Elissa Steamer - Gap #4: Progressive Special Meter: Elissa Steamer
+Mall - Elissa Steamer - Gap #5: Geoff Rowley Bobblehead
+Mall - Elissa Steamer - SKATE Letter S: Tony Hawk Bobblehead
+Mall - Elissa Steamer - SKATE Letter K: Spin Tricks: Elissa Steamer
+Mall - Elissa Steamer - SKATE Letter A: Eric Koston Bobblehead
+Mall - Elissa Steamer - SKATE Letter T: Chad Muska Bobblehead
+Mall - Elissa Steamer - SKATE Letter E: Geoff Rowley Bobblehead
+Mall - Elissa Steamer - Secret Tape: Level Unlock: Downhill Jam
+Roswell - Elissa Steamer - High Score: Nyjah Huston Bobblehead
+Roswell - Elissa Steamer - Pro Score: Eric Koston Bobblehead
+Roswell - Elissa Steamer - Sick Score: Riley Hawk Bobblehead
+Roswell - Elissa Steamer - High Combo: Nyjah Huston Bobblehead
+Roswell - Elissa Steamer - Pro Combo: Secret Tape
+Roswell - Elissa Steamer - Sick Combo: Aori Nishimura Bobblehead
+Roswell - Elissa Steamer - Long Grind Trick: Aori Nishimura Bobblehead
+Roswell - Elissa Steamer - Long Lip Trick: Riley Hawk Bobblehead
+Roswell - Elissa Steamer - Long Manual Trick: Secret Tape
+Roswell - Elissa Steamer - Gap #1: Wallplants: Elissa Steamer
+Roswell - Elissa Steamer - Gap #2: Leticia Bufoni Bobblehead
+Roswell - Elissa Steamer - Gap #3: Reverse Directional Controls Trap
+Roswell - Elissa Steamer - Gap #4: Progressive Lip Tricks: Elissa Steamer
+Roswell - Elissa Steamer - Gap #5: Tony Hawk Bobblehead
+Elissa Steamer - Special - Hospital Flip: Bob Burnquist Bobblehead
+Elissa Steamer - Special - Indy Backflip: Secret Tape
+Elissa Steamer - Special - Frigid Bluntslide: Level Unlock: Burnside
+
+Playthrough:
+
+0: {
+  Level Unlock: School II
+  Level Unlock: Skatestreet
+  Level Unlock: Venice Beach
+  Progressive Lip Tricks: Elissa Steamer
+  Skater Unlock: Elissa Steamer
+}
+1: {
+  School II - Elissa Steamer - SKATE Letter S: Extra Tricks: Elissa Steamer
+  Skatestreet - Elissa Steamer - High Score: Secret Tape
+  Venice Beach - Elissa Steamer - SKATE Letter E: Progressive Stats: Elissa Steamer
+}
+2: {
+  Skatestreet - Elissa Steamer - Pro Score: Progressive Stats: Elissa Steamer
+  Venice Beach - Elissa Steamer - Pro Score: Progressive Manual Tricks: Elissa Steamer
+}
+3: {
+  School II - Elissa Steamer - High Combo: Secret Tape
+  School II - Elissa Steamer - Secret Tape: Secret Tape
+  Skatestreet - Elissa Steamer - High Combo: Progressive Special Meter: Elissa Steamer
+  Skatestreet - Elissa Steamer - Long Manual Trick: Secret Tape
+}
+4: {
+  Elissa Steamer - Special - Frigid Bluntslide: Level Unlock: Burnside
+  Elissa Steamer - Special - Indy Backflip: Secret Tape
+}
+5: {
+  Burnside - Elissa Steamer - High Combo: Level Unlock: Mall
+  Burnside - Elissa Steamer - Long Lip Trick: Secret Tape
+}
+6: {
+  Mall - Elissa Steamer - Pro Score: Secret Tape
+  Mall - Elissa Steamer - Secret Tape: Level Unlock: Downhill Jam
+}
+7: {
+  Downhill Jam - Elissa Steamer - High Score: Level Unlock: Roswell
+  Downhill Jam - Elissa Steamer - SKATE Letter E: Transfers: Elissa Steamer
+}
+8: {
+  Burnside - Elissa Steamer - Gap #5: Secret Tape
+  Burnside - Elissa Steamer - Pro Combo: Secret Tape
+  Downhill Jam - Elissa Steamer - Gap #3: Level Unlock: The Hangar
+  Roswell - Elissa Steamer - Long Manual Trick: Secret Tape
+  Roswell - Elissa Steamer - Pro Combo: Secret Tape
+  School II - Elissa Steamer - Gap #1: Progressive Grind Tricks: Elissa Steamer
+  Skatestreet - Elissa Steamer - Gap #4: Secret Tape
+  Venice Beach - Elissa Steamer - Gap #4: Secret Tape
+}
+9: {
+  Downhill Jam - Elissa Steamer - Long Grind Trick: Secret Tape
+  Venice Beach - Elissa Steamer - Long Grind Trick: Secret Tape
+}
+10: {
+  Victory: Victory
+}
