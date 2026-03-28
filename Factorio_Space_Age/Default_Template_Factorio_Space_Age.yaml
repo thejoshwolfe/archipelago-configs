@@ -34,7 +34,7 @@ game: 'Factorio: Space Age'
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    'Factorio: Space Age': 1.1.2 # Version of the world required for this yaml to work as expected.
+    'Factorio: Space Age': 2.0.1 # Version of the world required for this yaml to work as expected.
 
 'Factorio: Space Age':
   ################
