@@ -1,0 +1,169 @@
+﻿Archipelago Version 0.6.7  -  Seed: 32994991907049463622
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Nonograhmm
+Location Count:                  100
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Width of Grid:                   10
+Height of Grid:                  10
+Clue types:                      all
+Enable Nonograhmm hints:         Yes
+Add extra items:                 Yes
+Extra clues:                     10
+Percentage extra items itempool: 100
+Show all clues:                  No
+Puzzle: {'C': ([['?', '?'], ['?', '?'], ['?', '?'], ['?', '?', '?'], ['?'], ['?', '?'], ['?', '?', '?'], ['?', '?'], ['?', '?'], ['?', '?']], [['?', '?'], ['?', '?', '?'], ['?', '?'], ['?', '?'], ['?', '?'], ['?', '?'], ['?'], ['?', '?'], ['?', '?', '?', '?'], ['?', '?', '?', '?']]), 'G': [(None, 0), ((0, 6, 0, '2+'), 0), ((0, 0, 0, 'E'), 0), ((1, 2, 0, 'Ω'), 0), ((1, 8, 3, '2-'), 0), ((1, 8, 1, 'Ω'), 0), ((0, 3, 1, '3-'), 0), ((1, 9, 2, 'E'), 0), ((0, 1, 0, '1/2'), 0), ((0, 6, 0, 3), 0), ((1, 6, 0, '10/11'), 11), ((0, 6, 2, 'E'), 11), ((1, 5, 1, 'E'), 11), ((1, 1, 1, '2/4'), 11), ((1, 1, 2, '1+'), 11), ((0, 1, 0, 2), 11), ((1, 3, 1, 'E'), 11), ((0, 8, 1, '6-'), 11), ((1, 0, 0, 'E'), 11), ((0, 0, 0, 2), 11), ((0, 7, 0, '1/3'), 11), ((1, 9, 2, 2), 11), ((1, 3, 0, 'E'), 11), ((0, 6, 1, '5-'), 11), ((1, 1, 1, 2), 11), ((1, 6, 0, 10), 11), ((1, 8, 0, '1/3'), 11), ((1, 5, 1, 6), 19), ((0, 1, 1, '3+'), 19), ((0, 9, 0, '5/7'), 22), ((0, 2, 0, '3+'), 22), ((1, 9, 1, 'E'), 23), ((1, 8, 2, '3-'), 23), ((0, 3, 0, '1+'), 23), ((0, 6, 2, 2), 23), ((1, 0, 1, '3+'), 23), ((0, 5, 1, '3+'), 23), ((1, 3, 0, 6), 30), ((0, 6, 1, 3), 34), ((1, 8, 1, 3), 50), ((1, 2, 1, '8-'), 50), ((0, 1, 1, 5), 55), ((0, 7, 1, '7-'), 55), ((0, 8, 0, '1+'), 55), ((0, 7, 0, 3), 55), ((0, 3, 0, 2), 55), ((0, 9, 1, '3-'), 57), ((1, 7, 1, 'Ω'), 57), ((1, 4, 1, '3+'), 59), ((0, 8, 0, 1), 59), ((1, 1, 0, '8-'), 59), ((0, 5, 0, 'Ω'), 59), ((0, 5, 1, 6), 73), ((1, 5, 0, 'Ω'), 74), ((0, 9, 1, 2), 77), ((1, 9, 3, '2-'), 77), ((1, 1, 2, 1), 93), ((1, 2, 1, 6), 94), ((0, 7, 1, 6), 94), ((1, 4, 1, 6), 95), ((0, 5, 0, 1), 95), ((0, 3, 2, '1+'), 95), ((1, 9, 0, '1+'), 95), ((0, 2, 1, '8-'), 95), ((1, 4, 0, '5-'), 95), ((0, 3, 1, 1), 95), ((1, 9, 0, 1), 95), ((0, 9, 0, 7), 95), ((1, 8, 3, 1), 95), ((1, 9, 1, 2), 95), ((1, 8, 2, 2), 95), ((1, 0, 1, 5), 97), ((0, 8, 1, 5), 97), ((1, 8, 0, 1), 97), ((1, 7, 0, '6/8'), 97), ((1, 4, 0, 2), 97), ((0, 4, 0, '5+'), 97), ((0, 2, 1, 5), 99), ((1, 7, 1, 1), 99), ((0, 0, 1, '7/9'), 99), ((0, 4, 0, 8), 100), ((1, 1, 0, 5), 100), ((1, 7, 0, 6), 100), ((1, 2, 0, 1), 100), ((0, 2, 0, 4), 100), ((0, 3, 2, 4), 100), ((1, 0, 0, 4), 100), ((1, 3, 1, 2), 100), ((1, 9, 3, 1), 100), ((1, 5, 0, 3), 100), ((0, 0, 1, 7), 100)], 'S': [[[1, 69, 1], [1, 51, 0], [1, 96, 1], [1, 66, 0], [-1, 97, 1], [1, 60, 0], [1, 31, 0], [1, 80, 1], [1, 79, 0], [1, 92, 0]], [[1, 70, 0], [1, 52, 0], [1, 85, 1], [1, 67, 0], [1, 100, 0], [-1, 61, 0], [1, 16, 0], [1, 81, 0], [-1, 78, 1], [1, 86, 1]], [[-1, 71, 0], [-1, 53, 0], [1, 90, 0], [-1, 68, 0], [1, 94, 1], [1, 62, 0], [1, 11, 0], [1, 82, 0], [1, 93, 1], [1, 75, 0]], [[1, 34, 1], [1, 24, 1], [1, 25, 1], [1, 26, 1], [1, 27, 1], [1, 28, 1], [-1, 32, 0], [-1, 29, 1], [1, 22, 1], [1, 20, 0]], [[1, 72, 0], [1, 54, 0], [-1, 91, 0], [-1, 95, 1], [1, 30, 0], [1, 63, 0], [1, 33, 0], [1, 58, 1], [1, 59, 1], [1, 21, 0]], [[1, 73, 0], [1, 42, 0], [1, 74, 1], [-1, 57, 1], [1, 12, 1], [1, 13, 1], [1, 14, 1], [1, 15, 1], [1, 46, 1], [1, 56, 0]], [[1, 1, 1], [1, 2, 1], [1, 3, 1], [1, 4, 1], [1, 5, 1], [1, 6, 1], [1, 7, 1], [1, 8, 1], [1, 9, 1], [1, 10, 1]], [[1, 41, 0], [1, 55, 0], [1, 87, 1], [1, 65, 1], [1, 44, 0], [1, 64, 0], [-1, 17, 0], [1, 83, 0], [-1, 88, 1], [-1, 76, 0]], [[1, 35, 1], [-1, 36, 1], [1, 37, 1], [1, 38, 1], [1, 39, 1], [-1, 40, 1], [1, 18, 0], [1, 84, 0], [-1, 89, 1], [1, 77, 0]], [[1, 47, 1], [-1, 43, 0], [1, 98, 0], [1, 23, 1], [-1, 99, 1], [-1, 45, 0], [1, 19, 0], [1, 48, 1], [-1, 49, 1], [1, 50, 1]]]}
+
+
+Starting Items:
+
+Nonograhmm clues
+
+Locations:
+
+1 correct: No
+2 correct: Nono
+3 correct: Nonono
+4 correct: No
+5 correct: No
+6 correct: No
+7 correct: Nono
+8 correct: No
+9 correct: Nono
+10 correct: No
+11 correct: Nonograhmm clues
+12 correct: Nono
+13 correct: Nononono
+14 correct: Nono
+15 correct: No
+16 correct: No
+17 correct: Nono
+18 correct: Nonograhmm clues
+19 correct: Nonograhmm clues
+20 correct: Nonograhmm clues
+21 correct: Nonograhmm clues
+22 correct: No
+23 correct: Nonograhmm clues
+24 correct: Nonograhmm clues
+25 correct: Nonono
+26 correct: Nonononono
+27 correct: No
+28 correct: No
+29 correct: Nononononononono
+30 correct: Nonograhmm clues
+31 correct: No
+32 correct: Nonograhmm clues
+33 correct: No
+34 correct: Nonograhmm clues
+35 correct: Nono
+36 correct: No
+37 correct: No
+38 correct: Nonono
+39 correct: Nonono
+40 correct: Nonono
+41 correct: Nonograhmm clues
+42 correct: Nonono
+43 correct: Nonograhmm clues
+44 correct: Nonono
+45 correct: Nono
+46 correct: Nono
+47 correct: No
+48 correct: No
+49 correct: No
+50 correct: No
+51 correct: No
+52 correct: Nonograhmm clues
+53 correct: Nonograhmm clues
+54 correct: No
+55 correct: Nonono
+56 correct: Nono
+57 correct: No
+58 correct: Nono
+59 correct: Nonograhmm clues
+60 correct: No
+61 correct: No
+62 correct: No
+63 correct: Nono
+64 correct: Nononono
+65 correct: No
+66 correct: Nonono
+67 correct: No
+68 correct: Nonono
+69 correct: Nonograhmm clues
+70 correct: No
+71 correct: Nononono
+72 correct: Nonograhmm clues
+73 correct: Nono
+74 correct: Nonograhmm clues
+75 correct: No
+76 correct: No
+77 correct: No
+78 correct: No
+79 correct: No
+80 correct: No
+81 correct: No
+82 correct: No
+83 correct: No
+84 correct: No
+85 correct: Nonograhmm clues
+86 correct: Nono
+87 correct: No
+88 correct: No
+89 correct: Nonograhmm clues
+90 correct: No
+91 correct: No
+92 correct: No
+93 correct: No
+94 correct: No
+95 correct: Nonograhmm clues
+96 correct: No
+97 correct: Nono
+98 correct: No
+99 correct: Nonono
+100 correct: Nono
+
+Playthrough:
+
+0: {
+  Nonograhmm clues
+}
+1: {
+  11 correct: Nonograhmm clues
+}
+2: {
+  18 correct: Nonograhmm clues
+  19 correct: Nonograhmm clues
+}
+3: {
+  20 correct: Nonograhmm clues
+  21 correct: Nonograhmm clues
+  23 correct: Nonograhmm clues
+}
+4: {
+  24 correct: Nonograhmm clues
+  30 correct: Nonograhmm clues
+  32 correct: Nonograhmm clues
+  34 correct: Nonograhmm clues
+  41 correct: Nonograhmm clues
+  43 correct: Nonograhmm clues
+}
+5: {
+  52 correct: Nonograhmm clues
+  53 correct: Nonograhmm clues
+  59 correct: Nonograhmm clues
+  69 correct: Nonograhmm clues
+  72 correct: Nonograhmm clues
+  74 correct: Nonograhmm clues
+}

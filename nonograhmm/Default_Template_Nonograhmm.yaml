@@ -1,0 +1,195 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Nonograhmm Template
+
+game: Nonograhmm
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Nonograhmm: 0.3.1 # Version of the world required for this yaml to work as expected.
+
+Nonograhmm:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  width_of_grid:
+    # Width of the Nonograhmm grid.
+    # Note: this game is harder than you think so start small!
+    # Also with big grids, please test if it fits on your screen :')
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 5
+    # Maximum value is 25
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-5-25: 0 # random value between 5 and 25
+
+  height_of_grid:
+    # Height of the Nonograhmm grid.
+    # Did I already say this game is harder than you think?
+    # And that you should probably test it solo first?
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 5
+    # Maximum value is 25
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-5-25: 0 # random value between 5 and 25
+
+  clue_types:
+    # Clues that a '?' may get replaced by before a number is shown.
+    # It is recommended to first play without these extra clue types.
+    # Put them in the yaml like this: ['O', 'E', '/', '-', '+']
+    # O: number is odd (will show as 'Ω' (Omega) in the game)
+    # E: number is even
+    # /: number is one of two possible values (e.g., "2/4" means the number is either 2 or 4)
+    # -: number is at most a certain value (e.g., "3-" means the number is 1, 2, or 3)
+    # +: number is at least a certain value (e.g., "3+" means the number is 3 or greater)
+    # random: every clue type is added with 50/50 chance
+    # all: all clue types are added
+    []
+
+  enables_nonograhmm_hints:
+    # Whether the website has a hint button that shows where the next steps in solving the puzzle are.
+    'false': 0
+    'true': 50
+
+  add_extra_items:
+    # Enabling this option makes every marking a check and adds more items.
+    # These items are either extra clues, of useless filler items.
+    # The next options allow you to:
+    # - choose what percentage of these extra items are clues,
+    # - choose what percentage of these extra filler items are shuffled in the multiworld.
+    'false': 0
+    'true': 50
+
+  percentage_extra_clues:
+    # This option determines how many extra clues are added. (There is already one extra clue by default.)
+    # Example: if there are 20 clues and this setting is 20%, there are 20 * 20% = 4 extra clues.
+    # This option only works if "Add extra items" is enabled.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  percentage_fillers_itempool:
+    # Percentage of extra filler items that are shuffled in the multiworld.
+    # Other filler items are forced into your own world, in order not to bother other players with useless items.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  show_all_clues:
+    # By default, the next clues are displayed only after you have marked all you can with your current clues.
+    # So even if you have already received several clues, they pop up one by one.
+    # This is the intended way to play, because the beautiful logic is gone when you show many clues at once.
+    # But if you want to see all clues once you receive them, and possibly miss some of the fun logic, you can enable this option.
+    'false': 50
+    'true': 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

@@ -1,0 +1,21 @@
+name: nonogram
+description: 10x10 nonogram with all types of partial clues enabled. https://nonograhmm.netlify.app/
+game: Nonograhmm
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Nonograhmm: 0.3.1 # Version of the world required for this yaml to work as expected.
+Nonograhmm:
+  width_of_grid: '10'
+  height_of_grid: '10'
+
+  # All gimmicks enabled
+  clue_types: ["all"]
+  enables_nonograhmm_hints: 'true'
+
+  # Maximum junk into the multiworld.
+  add_extra_items: 'true'
+  percentage_extra_clues: '10'
+  percentage_fillers_itempool: '100'
+  # Spoon feed viable moves.
+  show_all_clues: 'false'
