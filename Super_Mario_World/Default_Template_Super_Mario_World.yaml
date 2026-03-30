@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -28,15 +28,15 @@
 name: Player{number}
 
 # Used to describe your yaml. Useful if you have multiple files.
-description: Default Super Mario World Template
+description: 'Default SMW: Spicy Mycena Waffles Template'
 
-game: Super Mario World
+game: 'SMW: Spicy Mycena Waffles'
 requires:
-  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Super Mario World: 2.1.1 # Version of the world required for this yaml to work as expected.
+    'SMW: Spicy Mycena Waffles': 1.2.8 # Version of the world required for this yaml to work as expected.
 
-Super Mario World:
+'SMW: Spicy Mycena Waffles':
   ################
   # Game Options #
   ################
@@ -72,6 +72,8 @@ Super Mario World:
 
   ring_link:
     # Whether your in-level coin gain/loss is linked to other players
+    # 
+    # DISABLED FOR NOW. Please wait for future updates that reenables this feature.
     'false': 50
     'true': 0
 
@@ -79,6 +81,13 @@ Super Mario World:
     # Whether your received traps are linked to other players
     'false': 50
     'true': 0
+
+  energy_link:
+    # Allows players to contribute to the EnergyLink pool by collecting coins
+    # 
+    # Players can exchange EnergyLink coins for consumable items
+    'false': 0
+    'true': 50
 
   early_climb:
     # Force Climb to appear early in the seed as a local item.
@@ -93,55 +102,99 @@ Super Mario World:
   goal:
     # Determines the goal of the seed
     # 
-    # Bowser: Defeat Koopalings, reach Bowser's Castle and defeat Bowser
+    # Bowser: Find a certain number of Yoshi Eggs, reach Bowser's Castle and defeat Bowser
     # 
-    # Yoshi Egg Hunt: Find a certain number of Yoshi Eggs
+    # Yoshi's House: Find a certain number of Yoshi Eggs and bring them back to Yoshi's House
     bowser: 50
-    yoshi_egg_hunt: 0
+    yoshi_house: 0
 
-  bosses_required:
-    # How many Bosses (Koopalings or Reznor) must be defeated in order to defeat Bowser
+  yoshi_egg_count:
+    # Amount of Golden Yoshi Eggs that can be found anywhere in the multiworld/itempool.
+    # 
+    # The amount of eggs rolled by this option will be added to the amount of eggs created by the Local Golden Yoshi Eggs option
+    # and both of them will not exceed the 255 egg limit.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 11
-    7: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-0-11: 0 # random value between 0 and 11
-
-  max_yoshi_egg_cap:
-    # Maximum possible number of Yoshi Eggs that will be in the item pool
-    # 
-    # If fewer available locations exist in the pool than this number, the number of available locations will be used instead.
-    # 
-    # Required Percentage of Yoshi Eggs will be calculated based off of that number.
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 1
     # Maximum value is 255
     50: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-1-255: 0 # random value between 1 and 255
+    random-range-0-255: 0 # random value between 0 and 255
+
+  yoshi_egg_placement:
+    # Forces Golden Yoshi Eggs into specific level exits.
+    # This option will create a new location in each level that's valid, that way it doesn't disturb your potential Priority Locations
+    # in said regions. Similar to how Boss Tokens operated before.
+    # 
+    # The "Every Level" option has priority over the others, creating an at least 96 egg game.
+    # 
+    # The amount of eggs rolled by this option will be added to the amount of eggs created by the yoshi_egg_count option
+    # and both of them will not exceed the 255 egg limit.
+    ['Switch Palaces', 'Ghost Houses', 'Special Zone', 'Castles']
 
   percentage_of_yoshi_eggs:
-    # What Percentage of Yoshi Eggs are required to finish Yoshi Egg Hunt
+    # What Percentage of Yoshi Eggs are required to finish.
+    # 
+    # This option will sum yoshi_egg_placement and yoshi_egg_count, then it'll calculate the required amount from that egg count.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
     # Maximum value is 100
-    100: 50
+    85: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
     random-range-1-100: 0 # random value between 1 and 100
 
-  ##################
-  # Sanity Options #
-  ##################
+  #########
+  # Logic #
+  #########
+  ability_shuffle:
+    # Which abilities and items will be added as items in the item pool
+    # If an ability is not present in the list they will be treated as unlocked from the start
+    ['P-Balloon', 'Climb', 'Item Box', 'Yoshi', 'Midway Points', 'Super Star', 'Blue Switch Palace', 'Powerups', 'Green Switch Palace', 'Red Switch Palace', 'Run', 'Spin Jump', 'Special World', 'Swim', 'Carry', 'P-Switch', 'Yellow Switch Palace']
+
+  game_logic_difficulty:
+    # Makes difficult levels expect the player to have certain amount of powerups in order to beat them
+    # 
+    # Easy: Hard levels require Mushroom + (Item box or Midway Points);
+    #       Harder levels require Fire Flower + (Extra Defense or Item box or Midway Points)
+    # Medium: Hard levels require Mushroom;
+    #         Harder levels require Mushroom + (Item box or Midway Points)
+    # Hard: No powerups or other items are required in any level to be beaten
+    easy: 50
+    medium: 0
+    hard: 0
+
+  inventory_yoshi_logic:
+    # Whether being able to use Yoshi inventory items is considered in logic or not for Yoshi related logic
+    # If disabled, you need to reach a level with a Yoshi block on it in order to have Yoshi related checks in logic.
+    'false': 50
+    'true': 0
+
+  decoupled_yoshi_carry:
+    # Whether Yoshi's Tongue requires an additional Progressive Yoshi item to be unlocked or not.
+    # If disabled, Yoshi will be able to use his tongue immediately after unlocking him.
+    'false': 0
+    'true': 50
+
+  decoupled_wall_run_anywhere:
+    # Whether Wall Run Anywhere requires an additional Progressive Run item or not.
+    # If disabled, Mario will gain the ability right after getting a Run item.
+    'false': 0
+    'true': 50
+
+  decoupled_fast_swimming:
+    # Whether Fast Swimming requires an additional Progressive Swim item or not.
+    # If disabled, Mario will gain the ability right after getting a Swim item.
+    'false': 0
+    'true': 50
+
+  ####################
+  # Location Options #
+  ####################
   dragon_coin_checks:
     # Whether collecting 5 Dragon Coins in each level will grant a check
     'false': 50
@@ -161,34 +214,122 @@ Super Mario World:
     'false': 50
     'true': 0
 
-  bonus_block_checks:
-    # Whether collecting a 1-Up mushroom from a Bonus Block in a level will grant a check
+  star_block_checks:
+    # Whether collecting a prize from a Star Block in a level will grant a check
     'false': 50
     'true': 0
 
-  blocksanity:
+  midway_point_checks:
+    # Whether collecting a Midway Point in a level will grant a check
+    'false': 50
+    'true': 0
+
+  room_checks:
+    # Whether visiting a room in levels will grant a check
+    'false': 50
+    'true': 0
+
+  block_checks:
     # Whether hitting a block with an item or coin inside will grant a check
     # 
     # Note that some blocks are excluded due to how the option and the game works!
-    # 
     # Exclusion list:
     #   * Blocks in Top Secret Area & Front Door/Bowser Castle
     #   * Blocks that are unreachable unless you glitch your way in
-    'false': 50
-    'true': 0
+    ['Invisible Blocks', 'Flying Blocks', 'Item Blocks', 'Green Switch Palace Blocks', 'P-Switch Blocks', 'Yellow Switch Palace Blocks', 'Coin Blocks']
 
   ###################
   # Level Shuffling #
   ###################
+  starting_location:
+    # Which location is your starting one
+    # May interact incorrectly with forced Collects
+    # Will throw errors on certain option combinations, please test your YAML
+    yoshis_island: 50
+    donut_plains: 0
+    vanilla_dome: 0
+    forest_of_illusion: 0
+    special_zone: 0
+
   level_shuffle:
     # Whether levels are shuffled
     'false': 50
     'true': 0
 
-  exclude_special_zone:
-    # If active, this option will prevent any progression items from being placed in Special Zone levels.
+  level_effects:
+    # How many levels will receive a permanent random trap effect in them
+    # Which traps are going to be used is going to be determined by their trap weight
     # 
-    # Additionally, if Level Shuffle is active, Special Zone levels will not be shuffled away from their vanilla tiles.
+    # Valid traps: Ice, Reverse, Screen Flip, Pixelate, Spotlight, Invisibility
+    # 
+    # Setting Game Logic Difficulty option to easy or medium is recommended.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 50
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-50: 0 # random value between 0 and 50
+
+  carryless_exits:
+    # Swaps some Keyholes with a Red Goal Orb which triggers the Secret Exit upon touching it
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 18
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-18: 0 # random value between 0 and 18
+
+  swap_level_exits:
+    # Swaps the destination of level exits in the map
+    # 
+    # Star World 5 and Donut Secret House are excluded from this feature
+    'false': 50
+    'true': 0
+
+  swap_exit_count:
+    # How many swapped exits will exist in the game
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 22
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-22: 0 # random value between 0 and 22
+
+  swap_donut_gh_exits:
+    # If enabled, this option will swap which overworld direction the two exits of the level at the Donut Ghost House overworld tile go:
+    # 
+    # False: Normal Exit goes up, Secret Exit goes right.
+    # 
+    # True: Normal Exit goes right, Secret Exit goes up.
+    # 
+    # This option has priority over Swap Level Exits.
+    'false': 0
+    'true': 50
+
+  map_teleport_shuffle:
+    # Whether map teleports (stars and pipes) are shuffled
+    'off': 50
+    on_only_stars: 0
+    on_only_pipes: 0
+    on_both_same_type: 0
+    on_both_mix: 0
+
+  map_transition_shuffle:
+    # Wheter map transitions are shuffled
+    'false': 50
+    'true': 0
+
+  enemy_shuffle:
+    # Shuffles around enemies.
     'false': 50
     'true': 0
 
@@ -241,20 +382,11 @@ Super Mario World:
     full: 0
     singularity: 0
 
-  swap_donut_gh_exits:
-    # If enabled, this option will swap which overworld direction the two exits of the level at the Donut Ghost House overworld tile go:
-    # 
-    # False: Normal Exit goes up, Secret Exit goes right.
-    # 
-    # True: Normal Exit goes right, Secret Exit goes up.
-    'false': 50
-    'true': 0
-
   ##################
   # Junk and Traps #
   ##################
   junk_fill_percentage:
-    # Replace a percentage of non-required Yoshi Eggs in the item pool with random junk items (only applicable on Yoshi Egg Hunt goal)
+    # Replace a percentage of non-required Yoshi Eggs in the item pool with random junk items
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
@@ -319,6 +451,69 @@ Super Mario World:
     medium: 50
     high: 0
 
+  fishin_trap_weight:
+    # Likelihood of a receiving a trap which causes a Fishin' Boo to spawn above the player
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  screen_flip_trap_weight:
+    # Likelihood of a receiving a trap which causes the screen to flip vertically
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  sticky_floor_trap_weight:
+    # Likelihood of a receiving a trap which causes the floor become sticky
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  sticky_hands_trap_weight:
+    # Likelihood of a receiving a trap which causes the player's hands become sticky
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  pixelate_trap_weight:
+    # Likelihood of a receiving a trap which causes a the entire screen become pixelated
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  spotlight_trap_weight:
+    # Likelihood of a receiving a trap which causes a spotlight to appear on the player's position
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  bullet_time_trap_weight:
+    # Likelihood of a receiving a trap which slows down the game
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  invisibility_trap_weight:
+    # Likelihood of a receiving a trap which makes the player invisible
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
+  empty_item_box_trap_weight:
+    # Likelihood of a receiving a trap which removes the item in the item box
+    none: 0
+    low: 0
+    medium: 50
+    high: 0
+
   ##############
   # Aesthetics #
   ##############
@@ -328,17 +523,6 @@ Super Mario World:
     all: 0
     progression: 0
     progression_minus_yoshi_eggs: 50
-
-  autosave:
-    # Whether a save prompt will appear after every level
-    'false': 0
-    'true': 50
-
-  overworld_speed:
-    # How fast Mario moves on the overworld
-    slow: 0
-    vanilla: 50
-    fast: 0
 
   music_shuffle:
     # Music shuffle type
@@ -380,41 +564,10 @@ Super Mario World:
     dark: 0
     sponge: 0
 
-  level_palette_shuffle:
-    # Whether to shuffle level palettes
-    # 
-    # Off: Do not shuffle palettes
-    # 
-    # On Legacy: Uses only the palette sets from the original game
-    # 
-    # On Curated: Uses custom, hand-crafted palette sets
-    'off': 50
-    on_legacy: 0
-    on_curated: 0
-
-  overworld_palette_shuffle:
-    # Whether to shuffle overworld palettes
-    # 
-    # Off: Do not shuffle palettes
-    # 
-    # On Legacy: Uses only the palette sets from the original game
-    # 
-    # On Curated: Uses custom, hand-crafted palette sets
-    'off': 50
-    on_legacy: 0
-    on_curated: 0
-
-  starting_life_count:
-    # How many extra lives to start the game with
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 1
-    # Maximum value is 99
-    5: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-1-99: 0 # random value between 1 and 99
+  ungolden_eggs:
+    # Does exactly what you're thinking of.
+    'false': 0
+    'true': 50
 
   ###########################
   # Item & Location Options #
@@ -429,6 +582,12 @@ Super Mario World:
 
   start_inventory:
     # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
     {}
 
   start_hints:

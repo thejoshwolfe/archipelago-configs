@@ -1,0 +1,271 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Archipeladoku Template
+
+game: Archipeladoku
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+
+Archipeladoku:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  block_size:
+    # The size of a single block (and the width/height of each board).
+    '4': 0
+    '6': 0
+    '8': 0
+    '9': 50
+    '12': 0
+    '16': 0
+
+  boards_per_cluster:
+    # How many boards to put in each cluster of overlapping boards.
+    # 1 creates individual boards without clusters, 100 puts all boards into a
+    # single big cluster.
+    '1': 0
+    '5': 50
+    '8': 0
+    '13': 0
+    '100': 0
+
+  number_of_boards:
+    # How many boards to generate. Maximum depend on block size:
+    # - 4-9: 100 boards
+    # - 12: 64 boards
+    # - 16: 36 boards
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 3
+    # Maximum value is 100
+    5: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-3-100: 0 # random value between 3 and 100
+
+  difficulty:
+    # The overall difficulty level. Solving techniques required:
+    # - Beginner: Naked/hidden singles.
+    # - Easy: Pointing pairs, box line reduction.
+    # - Medium: Naked pairs/triples.
+    # - Hard: Hidden pairs/triples.
+    beginner: 0
+    easy: 50
+    medium: 0
+    hard: 0
+
+  progression:
+    # How blocks are unlocked during the game.
+    # - Fixed: Blocks are unlocked by progressive block items in a fixed order. Smoother progression.
+    # - Shuffled: Blocks are unlocked by specific block items. More chaotic progression.
+    fixed: 0
+    shuffled: 50
+
+  duplicate_progression:
+    # Percent of progression items that should be duplicated.
+    # - For Fixed progression higher values may lead to progression being too fast and as such a
+    #   lower value is recommended.
+    # - For Shuffled progression this can safely be set to 100% to make progression a bit faster.
+    #   The blocks to duplicate are chosen randomly if not 100%, though each block can only be duplicated once.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  location_scouting:
+    # How scouting of locations is handled.
+    # - Auto: Locations are scouted automatically when fully revealed.
+    # - Manual: Locations can be scouted manually.
+    # - Disabled: Locations cannot be scouted.
+    auto: 0
+    manual: 50
+    disabled: 0
+
+  solve_selected_cell_ratio:
+    # Ratio of Solve Selected Cell filler items to number of boards, in percent.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5000
+    100: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5000: 0 # random value between 0 and 5000
+
+  solve_random_cell_ratio:
+    # Ratio of Solve Random Cell filler items to number of boards, in percent.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5000
+    150: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5000: 0 # random value between 0 and 5000
+
+  remove_random_candidate_ratio:
+    # Ratio of Remove Random Candidate filler items to number of boards, in percent.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5000
+    300: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5000: 0 # random value between 0 and 5000
+
+  emoji_trap_ratio:
+    # Ratio of Emoji Trap filler items to number of boards, in percent.
+    # When received your numbers will be replaced with emojis for a time.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5000
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5000: 0 # random value between 0 and 5000
+
+  disco_trap_ratio:
+    # Ratio of Disco Trap filler items to number of boards, in percent.
+    # When received all cells will shift colors for a time.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5000
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5000: 0 # random value between 0 and 5000
+
+  tunnel_vision_trap_ratio:
+    # Ratio of Tunnel Vision Trap filler items to number of boards, in percent.
+    # When received you will only be able to see a small area of the board for a time.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 5000
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-5000: 0 # random value between 0 and 5000
+
+  pre_fill_nothings_percent:
+    # Percentage of Nothing items that should be pre-filled, forcing them to be placed in
+    # an Archipeladoku game and thus excluding them from other games.
+    # Caution: This reduces the number of filler items in the item pool. Having few fillers can lead
+    # to increased generation times or even generation failures. As long as you don't remove other
+    # filler items this shouldn't be an issue though, even at 100%.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    50: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

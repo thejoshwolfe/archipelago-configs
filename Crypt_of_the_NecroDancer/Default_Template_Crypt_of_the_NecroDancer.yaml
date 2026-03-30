@@ -1,0 +1,411 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Crypt of the NecroDancer Template
+
+game: Crypt of the NecroDancer
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+
+Crypt of the NecroDancer:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  goal:
+    # What goal to set for the Crypt of the NecroDancer multiworld.
+    # All_Zones: Clear ALl Zones mode with X amount of characters, where X is the value put for "All Zones Goal Clear". Recommended for experienced players, as this can be challenging.
+    # Zones: Clear X amount of zones, where X is the value put for "Zones Goal Clear". Will disable "All Zones" checks. Recommended for a quicker and less challenging experience.
+    all_zones: 0
+    zones: 50
+
+  all_zones_goal_clear:
+    # Determines how many character completions are required for the All Zones goal. Default is 6.
+    # Note: If this value exceeds the number of characters in the pool, then this value will equal that number.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 20
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-20: 0 # random value between 1 and 20
+
+  zones_goal_clear:
+    # Determines how many separate zone completions are required for the Zones goal. Default is 30.
+    # Note: If this value exceeds the number of zones in the pool, then this value will equal that number.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 95
+    40: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-95: 0 # random value between 1 and 95
+
+  floor_clear_checks:
+    # Determines whether zone clear checks are split per floor (e.g., 1-1, 1-2, 1-3, Boss) instead of just a single 'Zone X' check. Default is true.
+    'false': 0
+    'true': 50
+
+  dlc:
+    # Which DLCs to include content from in progression and checks.
+    # Options include: Amplified, Synchrony, Miku, Shovel Knight
+    # Note: Excluding the Synchrony DLC does not mean that you can play this APWorld without the Synchrony DLC. This is only to exclude content from the Synchrony DLC in the multiworld.
+    # Note: Excluding the Amplified DLC will remove Zone 5 from progression altogether.
+    ['Synchrony']
+
+  starting_inventory:
+    # Percentage of starting items granted at world start. Unique items are included if enabled.
+    # If Character Unlocks is not Item_Only, required items for the starting character are always included.
+    # Default is 50.
+    # 
+    # Presets:
+    # Vanilla (100): All starting items, like a fresh save.
+    # Reduced (50): Half of all starting items.
+    # Minimum (0): Only mandatory items (Dagger, Apple, Shovel).
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+    vanilla: 0 # equivalent to 100
+    reduced: 50 # equivalent to 50
+    minimum: 0 # equivalent to 0
+
+  starting_character:
+    # Which character to start the game with. Default is Cadence.
+    # Note: If a selected starting character is not in the item pool, this option will change to a random character available in the item pool.
+    #     The following characters will be removed from the item pool unless their respective DLCs are enabled
+    #     - Amplified: Nocturna, Diamond, Mary, Tempo
+    #     - Synchrony: Klarinetta, Chaunter, Suzu
+    #     - Miku: Hatsune Miku
+    #     - Shovel Knight: Shovel Knight
+    cadence: 50
+    melody: 0
+    aria: 0
+    dorian: 0
+    eli: 0
+    monk: 0
+    dove: 0
+    coda: 0
+    bolt: 0
+    bard: 0
+    nocturna: 0
+    diamond: 0
+    mary: 0
+    tempo: 0
+    reaper: 0
+    klarinetta: 0
+    chaunter: 0
+    suzu: 0
+    hatsune_miku: 0
+    shovel_knight: 0
+
+  character_blacklist:
+    # Which characters to exclude from checks and progression. Note that this will disable the character from the run entirely if included.
+    # Options include: Cadence, Melody, Aria, Nocturna, Eli, Bolt, Diamond, Chaunter, Dove, Bard, Mary, Suzu, Monk, Reaper, Tempo, Dorian, Coda, Klarinetta, Hatsune Miku, Shovel Knight
+    # Note: If this list consists of all available characters, then Cadence will be removed from the blacklist to prevent progression issues.
+    ['Coda', 'Bolt']
+
+  character_unlocks:
+    # How characters should be unlocked in the multiworld. All options will require a character item at the very minimum. Default is Item_Only.
+    # Item_Only: Only the character item is required to unlock a character.
+    # Required_Items_Soft: The character item (and unique items if enabled) unlocks in-game access to a character. Logic still requires the character's required items.
+    # Required_Items_Hard: The character item and all required items (and unique item if Include Unique Equipment is enabled) must be received before in-game access to a character is granted.
+    item_only: 50
+    required_items_soft: 0
+    required_items_hard: 0
+
+  include_unique_items:
+    # Whether to include character-specific equipment in the multiworld and in level generation. Default is false.
+    # If set to true and Character Unlocks is set to either Required_Items_Soft or Required_Items_Hard, the characters who have unique items will require them.
+    'false': 50
+    'true': 0
+
+  include_materials:
+    # Whether to include weapon materials/shapes in the multiworld and in level generation. Default is false.
+    # If set to true, weapons will only spawn with their base material until you unlock the associated material item.
+    'false': 50
+    'true': 0
+
+  included_extra_modes:
+    # Which game modes to include in checks. Note that this will disable the mode from the run entirely if excluded.
+    # Options include: No Return (Amplified), Hard (Amplified), Phasing (Amplified), Randomizer (Amplified), Mystery (Amplified), No Beat, Double Tempo, and Low Percent.
+    # Note: If you do not have the Amplified DLC enabled, the modes that require it will be disabled.
+    []
+
+  include_codex_checks:
+    # Determines whether Tutorial levels (Bomb Lore, How to Get Away with Murder, etc.) will be included in progression.Default is true.
+    'false': 0
+    'true': 50
+
+  lobby_npc_items:
+    # Determines whether lobby NPC unlocks will be randomized. Saving the lobby NPC will return a randomized item instead of unlocking their room.
+    'false': 50
+    'true': 0
+
+  zone_access_keys:
+    # Controls whether zones are locked behind Zone Access Key items.
+    # Disabled: Zones have no access requirements.
+    # Separate: Each zone has its own distinct access key shuffled into the pool. The Starting Zone is freely accessible from the start; all other zones require their unique key.
+    # Progressive: A single Progressive Zone Access item is used. Each copy found unlocks the next zone in sequence (Zone 1 requires 0, Zone 2 requires 1, etc.).
+    # Default is Disabled.
+    disabled: 50
+    separate: 0
+    progressive: 0
+
+  starting_zone:
+    # When Zone Access Keys are Separate or Progressive, sets the starting accessible zone.
+    # Separate: The starting zone requires no key; all other zones need their unique key.
+    # Progressive: Starting Zone minus one Progressive Zone Access items are precollected, granting immediate access to all zones up to and including the starting zone.
+    # Zone 5 is only valid with Amplified enabled, otherwise pre-generation validation forces Zone 4.
+    # Has no effect when Zone Access Keys is Disabled. Default is Zone 1.
+    zone_1: 50
+    zone_2: 0
+    zone_3: 0
+    zone_4: 0
+    zone_5: 0
+
+  lock_character_room:
+    # When enabled, a Character Room Key item must be received before you can switch away from your starting character.
+    # This creates an early-game chokepoint, restricting all runs to your starting character until the key is found.
+    # Default is false.
+    'false': 50
+    'true': 0
+
+  trap_percentage:
+    # Replaces filler items with traps, at the specified rate.
+    # Default is 20.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    20: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  trap_weights:
+    # Specify the weights determining how many copies of each trap item will be in your itempool.
+    # If you don't want a specific type of trap, you can set the weight for it to 0.
+    # If you set all trap weights to 0, you will get no traps, bypassing the "Trap Percentage" option.
+    Camera Trap: 2
+    Confusion Trap: 7
+    Dad Trap: 2
+    Dead Ringer Trap: 1
+    Gold Scatter Trap: 6
+    Haunted Shopkeeper Trap: 4
+    Monkey Trap: 10
+    No Return Trap: 3
+    Skeleton Trap: 5
+    Tempo Trap: 7
+
+  price_randomization:
+    # How to randomize diamond prices in the Archipelago lobby.
+    # Vanilla: CotND item prices remain at their vanilla price values. All AP and non-CotND item prices will be randomized according to their item classification (Filler, Useful, Progression).
+    # Vanilla_Rand: CotND item prices remain at their vanilla price values. All AP and non-CotND item prices will be randomized completely.
+    # Item_Class: All item prices will be randomized according to their item classification (Filler, Useful, Progression).
+    # Complete: All item prices will be randomized completely.
+    # Default is Vanilla.
+    vanilla: 50
+    vanilla_rand: 0
+    item_class: 0
+    complete: 0
+
+  randomized_price_min:
+    # Determines the minimum diamond price range for items in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla_Rand or Complete.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  randomized_price_max:
+    # Determines the maximum diamond price range for items in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla_Rand or Complete.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  filler_price_min:
+    # Determines the minimum diamond price range for a Filler item in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla or Item_Class.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  filler_price_max:
+    # Determines the maximum diamond price range for a Filler item in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla or Item_Class.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  useful_price_min:
+    # Determines the minimum diamond price range for a Useful item in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla or Item_Class.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  useful_price_max:
+    # Determines the maximum diamond price range for a Useful item in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla or Item_Class.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    8: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  progression_price_min:
+    # Determines the minimum diamond price range for a Progression item in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla or Item_Class.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  progression_price_max:
+    # Determines the maximum diamond price range for a Progression item in the AP Lobby. This option will only be applied if either Price Randomization is set to Vanilla or Item_Class.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    10: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

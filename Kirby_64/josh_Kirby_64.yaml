@@ -1,0 +1,25 @@
+name: josh_k64
+description: Defeat all 6 bosses and then the final area. ~1000 checks.
+game: Kirby 64 - The Crystal Shards
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Kirby 64 - The Crystal Shards: 0.3.2 # Version of the world required for this yaml to work as expected.
+Kirby 64 - The Crystal Shards:
+
+  goal_speed: normal
+  split_power_combos: 'false'
+  stage_shuffle: none
+  boss_requirement_random: 'false'
+  max_crystals: '30'
+  required_crystals: '50'
+
+  consumables:
+    - 1-Ups
+    - Food
+    - Stars
+
+  filler_percentage: '50'
+
+  death_link: 'false'
+  plando_connections: []

@@ -1,0 +1,373 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Outer Wilds Template
+
+game: Outer Wilds
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Outer Wilds: 1.2.0 # Version of the world required for this yaml to work as expected.
+
+Outer Wilds:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  death_link:
+    # When you die, everyone dies. Of course the reverse is true too.
+    # The "default" option will not include deaths to meditation, the supernova, the time loop ending,
+    # or 'deaths' that merely enter or exit the dreamworld.
+    # Be aware that the game mod provides a 'Death Link Override' setting, in case you change your mind later.
+    'off': 50
+    default: 0
+    all_deaths: 0
+
+  ########
+  # Goal #
+  ########
+  goal:
+    # The victory condition for your Archipelago run. Goals involving the Prisoner require enable_eote_dlc to be true.
+    # 
+    # Song of Five:         Reach the Eye
+    # Song of the Nomai:    Reach the Eye after meeting Solanum
+    # Song of the Stranger: Reach the Eye after meeting the Prisoner
+    # Song of Six:          Reach the Eye after meeting either Solanum or the Prisoner
+    # Song of Seven:        Reach the Eye after meeting both Solanum and the Prisoner
+    # Echoes of the Eye:    Meet the Prisoner and complete the DLC
+    # Song of the Universe: Reach the Eye after meeting the specified number of friends
+    song_of_five: 50
+    song_of_the_nomai: 0
+    song_of_the_stranger: 0
+    song_of_six: 0
+    song_of_seven: 0
+    echoes_of_the_eye: 0
+    song_of_the_universe: 0
+
+  required_friends:
+    # The number of "friends" you have to meet before reaching the Eye
+    # (not counting the five Hearthian travelers who always join you there).
+    # Only used with the `song_of_the_universe` goal option.
+    # Each enabled story mod adds a potential "friend," as does the DLC. Solanum is, of course, always enabled.
+    # 
+    # For example, setting this to `0` is the same as the `song_of_five` goal.
+    # Enabling the DLC, no story mods, and setting this to `1` is equivalent to the `song_of_six` goal.
+    # 
+    # Enabling the DLC & all 7 story mods allows a maximum of 9 "friends."
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 9
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-9: 0 # random value between 0 and 9
+
+  ###############################
+  # Spawn & General Progression #
+  ###############################
+  spawn:
+    # Where you wake up at the start of each loop.
+    # 
+    # 'vanilla' is the same as the base game: you wake up in TH Village, talk to Hornfels to get the Launch Codes, then walk by the Nomai statue to start the time loop.
+    # All other options (including timber_hearth) will spawn you in your spacesuit, with the time loop already started, and the Launch Codes item placed randomly like any other AP item.
+    # `stranger` of course requires `enable_eotc_dlc` to be true
+    # `deep_bramble` requires `enable_fc_mod` to be true
+    # 
+    # The idea is that non-vanilla spawns will require you to play "shipless" for a while, possibly using Nomai Warp Codes to visit other planets. The ship will still spawn nearby, so you can use the ship log/tracker right away.
+    # When playing with non-vanilla spawns, we recommend:
+    # - Consider enabling randomize_warp_platforms for greater variety if you get warp codes early
+    # - Consider using early_key_item, especially in non-solo games
+    # - Install a fast-forward mod such as Alter Time or Cheat And Debug Mod, since you may need to do a lot of waiting for e.g. Ash Twin sand or Giant's Deep islands
+    vanilla: 50
+    hourglass_twins: 0
+    timber_hearth: 0
+    brittle_hollow: 0
+    giants_deep: 0
+    stranger: 0
+    random_non_vanilla: 0
+    deep_bramble: 0
+
+  early_key_item:
+    # Ensure that one of Translator, Nomai Warp Codes, Launch Codes, or Stranger Light Modulator will be somewhere
+    # in sphere 1 and in your own world, guaranteeing you can find it without waiting on other players.
+    # 
+    # `any` will randomly select one of these items that's relevant to your spawn (especially useful with `spawn: random`).
+    # For base game spawns it will choose Translator, NWC or LC, and for stranger spawns it will choose LC or SLM.
+    # If split_translator is also on, then "Translator" means the one for your spawn planet.
+    # 
+    # Recommended for games with non-vanilla spawns, especially async games.
+    # In addition, without this AP seems to almost always put Launch Codes in sphere 1, so `any` also helps increase variety.
+    'off': 50
+    any: 0
+    translator: 0
+    nomai_warp_codes: 0
+    launch_codes: 0
+    stranger_light_modulator: 0
+
+  randomize_warp_platforms:
+    # Randomize which Nomai warp platforms are connected to each other.
+    # Warp connections are still 'coupled', i.e. if platform A warps to platform B, then B will take you back to A.
+    # Highly recommended when playing with non-vanilla spawns.
+    'false': 50
+    'true': 0
+
+  split_translator:
+    # Splits the "Translator" item into 6 items: 5 for the main planets and their satellites, plus a
+    # "Translator (Other)" for smaller parts of the vanilla system and systems added by story mods.
+    'false': 50
+    'true': 0
+
+  logsanity:
+    # Adds 176 locations for all the (non-rumor, non-missable) ship log facts in the game.
+    # Also affects how many locations are added by enable_eote_dlc.
+    'false': 50
+    'true': 0
+
+  shuffle_spacesuit:
+    # Puts the spacesuit into the Archipelago item pool, forcing you to play suitless until it's found.
+    # 
+    # This option is incompatible with non-vanilla spawns (i.e. generation will fail), since those imply playing "shipless" at first, and almost nothing can be done both shipless and suitless.
+    'false': 50
+    'true': 0
+
+  ###########
+  # Content #
+  ###########
+  enable_eote_dlc:
+    # Incorporates Echoes of the Eye content into the randomizer with an additional 10 items and 34 locations.
+    # If logsanity is enabled, that will add another 72 locations, for a total of 106 DLC locations.
+    # 
+    # When this is enabled, the randomizer mod will give you the "The Stranger" ship log automatically,
+    # so you can fly there without repeating the satellite puzzle (once you have Launch Codes).
+    'false': 50
+    'true': 0
+
+  dlc_only:
+    # Sets enable_eote_dlc to true, spawn to stranger, goal to echoes_of_the_eye (see descriptions of those options),
+    # and then prevents generation of all the base game locations and of many items not useful in the DLC.
+    # 
+    # Not compatible with story mods.
+    'false': 50
+    'true': 0
+
+  enable_ac_mod:
+    # Incorporates Astral Codec story mod content into the randomizer with an additional 1 item and 21 locations.
+    # If logsanity is enabled, that will add another 39 locations, for a total of 60 AC locations.
+    # 
+    # If randomize_warp_platforms is true, this option will ensure there's a warp from the Hourglass Twins to Timber Hearth.
+    'false': 50
+    'true': 0
+
+  enable_eh_mod:
+    # Incorporates Echo Hike story mod content into the randomizer with an additional 1 item and 3 locations.
+    # If logsanity is enabled, that will add another 8 locations, for a total of 11 EH locations.
+    # The main appeal of this mod is the unique "Threader" item, which is a grapple beam/hook that works on any
+    # surface in the game.
+    # When this is enabled, using the Threader will be in-logic for multiple base game, DLC and story mod
+    # locations outside of Echo Hike itself, and receiving the "Threader" AP item will spawn Threaders
+    # on all the base game, DLC and story mod planets/areas where you might need one.
+    'false': 50
+    'true': 0
+
+  enable_fc_mod:
+    # Incorporates Forgotten Castaways story mod content into the randomizer with an additional 13 items and 54 locations.
+    # If logsanity is enabled, that will add another 118 locations, for a total of 172 FC locations.
+    'false': 50
+    'true': 0
+
+  enable_fq_mod:
+    # Incorporates Fret's Quest story mod content into the randomizer with an additional 1 item and 18 locations.
+    # If logsanity is enabled, that will add another 38 locations, for a total of 56 FQ locations.
+    'false': 50
+    'true': 0
+
+  enable_hn1_mod:
+    # Incorporates Hearth's Neighbor story mod content into the randomizer with an additional 3 items and 20 locations.
+    # If logsanity is enabled, that will add another 41 locations, for a total of 61 HN1 locations.
+    'false': 50
+    'true': 0
+
+  enable_hn2_mod:
+    # Incorporates Hearth's Neighbor 2: Magistarium story mod content into the randomizer with an additional 4 items and 18 locations.
+    # If logsanity is enabled, that will add another 30 locations, for a total of 48 HN2 locations.
+    'false': 50
+    'true': 0
+
+  enable_outsider_mod:
+    # Incorporates The Outsider story mod content into the randomizer with an additional 21 locations.
+    # If logsanity is enabled, that will add another 44 locations, for a total of 65 TO (The Outsider) locations.
+    # 
+    # split_translator is highly recommended with this mod, since it adds a lot of Translator checks to Dark Bramble.
+    # 
+    # If randomize_orbits is true, this option forces GD and DB to be in their vanilla "lanes" and have the same orbit angle.
+    'false': 50
+    'true': 0
+
+  #########################################
+  # Additional Non-Logical Randomizations #
+  #########################################
+  randomize_coordinates:
+    # Randomize the Eye of the Universe coordinates needed to reach the end of the game.
+    'false': 0
+    'true': 50
+
+  randomize_orbits:
+    # Randomizes:
+    # - The order of the five planets (the Hourglass Twins as a whole, Timber Hearth, Brittle Hollow, Giant's Deep, Dark Bramble), i.e. which ones are closer or farther from the sun
+    # - The orbit angles of the five planets, as well as four satellites (Sun Station, Attlerock, Hollow's Lantern, and the Orbital Probe Cannon)
+    'false': 0
+    'true': 50
+
+  randomize_rotations:
+    # Randomizes the axes of rotation for Ember Twin, Ash Twin, Timber Hearth and Brittle Hollow.
+    # 
+    # This often causes the Hourglass Twins' sand pillar to pass through different areas,
+    # and structures inside the ATP to move differently (becoming a hazard for the player).
+    'false': 0
+    'true': 50
+
+  randomize_dark_bramble_layout:
+    # Randomizes which Dark Bramble 'rooms' link to which other rooms, so you can't rely on your memory of the vanilla layout.
+    # Be aware that randomized layouts are often significantly harder to navigate than vanilla Dark Bramble, since they allow several paths to the same room and more complex loops / recursion.
+    # 'hub_start' forces the first room to be Hub (same as the vanilla game), which tends to generate shorter and simpler paths than full randomization.
+    'false': 50
+    'true': 0
+    hub_start: 0
+
+  ##################################
+  # (Non-Progression) Item Options #
+  ##################################
+  trap_chance:
+    # The probability for each filler item (including unique filler) to be replaced with a trap item.
+    # The exact number of trap items will still be somewhat random, so you can't know
+    # if you've seen the 'last trap' in your world without checking the spoiler log.
+    # If you don't want any traps, set this to 0.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    15: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  trap_type_weights:
+    # When a filler item is replaced with a trap, these weights determine the
+    # odds for each trap type to be selected.
+    # If you don't want a specific trap type, omit it or set its weight to 0.
+    # Setting all weights to 0 is the same as setting trap_chance to 0.
+    Audio Trap: 1
+    HUD Corruption Trap: 1
+    Ice Physics Trap: 0
+    Map Disable Trap: 0
+    Nap Trap: 2
+    Ship Damage Trap: 2
+    Suit Puncture Trap: 1
+    Supernova Trap: 0
+
+  upgrade_counts:
+    # Choose the number of upgrades shuffled into the item pool.
+    # The default in-game settings start you with 50% of each, bringing you to 200% once all upgrades are acquired.
+    # You'll probably want to adjust them if you change these too drastically.
+    Boost Duration Upgrade: 3
+    Fuel Capacity Upgrade: 3
+    Oxygen Capacity Upgrade: 3
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []

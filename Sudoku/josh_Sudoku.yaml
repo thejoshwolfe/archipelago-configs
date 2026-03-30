@@ -1,0 +1,22 @@
+name: sudoku
+description: 5 boards of 9 blocks. Beginner difficulty.
+game: Archipeladoku
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+Archipeladoku:
+  block_size: '9'
+  number_of_boards: '5'
+  boards_per_cluster: '5'
+  difficulty: beginner
+  progression: shuffled
+  duplicate_progression: '0'
+  location_scouting: manual
+
+  # Filler/traps
+  solve_selected_cell_ratio: '100'
+  solve_random_cell_ratio: '150'
+  remove_random_candidate_ratio: '300'
+  emoji_trap_ratio: '20'
+  disco_trap_ratio: '20'
+  tunnel_vision_trap_ratio: '0' # This one kinda sucks.
+  pre_fill_nothings_percent: '50'

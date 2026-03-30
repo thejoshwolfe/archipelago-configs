@@ -1,0 +1,1032 @@
+﻿Archipelago Version 0.6.7  -  Seed: 38609466312224961932
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Kirby 64 - The Crystal Shards
+Location Count:                  958
+Death Link:                      No
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Start Inventory from Pool:       
+Plando Connections:              
+Goal Speed:                      Normal
+Split Power Combos:              No
+Stage Shuffle:                   None
+Randomize Boss Unlock Requirement:No
+Max Crystal Shards:              30
+Required Crystal Shards:         50
+Consumables:                     1-Ups, Food, Stars
+Filler Percentage:               50
+Kirby Flavor:                    Default
+
+
+Locations:
+
+Pop Star 1 - Complete: Crystal Shard
+Pop Star 1 - Shard 1: Small Star
+Pop Star 1 - Shard 2: Small Star
+Pop Star 1 - Shard 3: Small Star
+Pop Star 1 - Maxim Tomato 1: Small Star
+Pop Star 1 - Cake: Small Star
+Pop Star 1 - Meat: Small Star
+Pop Star 1 - Maxim Tomato 2: Small Star
+Pop Star 1 - Star 1: Small Star
+Pop Star 1 - Star 2: 1-Up
+Pop Star 1 - Star 3: Small Star
+Pop Star 1 - Star 4: Small Star
+Pop Star 1 - Star 5: Small Star
+Pop Star 1 - Star 6: Small Star
+Pop Star 1 - Star 7: Small Star
+Pop Star 2 - Complete: Sandwich
+Pop Star 2 - Shard 1: Small Star
+Pop Star 2 - Shard 2: Small Star
+Pop Star 2 - Shard 3: Small Star
+Pop Star 2 - 1-Up: Maxim Tomato
+Pop Star 2 - Maxim Tomato 1: 1-Up
+Pop Star 2 - Sandwich: Small Star
+Pop Star 2 - Cake: Small Star
+Pop Star 2 - Maxim Tomato 2: Small Star
+Pop Star 2 - Star 1: Small Star
+Pop Star 2 - Star 2: Small Star
+Pop Star 2 - Star 3: Cake
+Pop Star 2 - Star 4: Small Star
+Pop Star 2 - Star 5: Maxim Tomato
+Pop Star 2 - Star 6: Small Star
+Pop Star 2 - Star 7: Small Star
+Pop Star 2 - Star 8: Maxim Tomato
+Pop Star 2 - Star 9: Small Star
+Pop Star 2 - Star 10: Small Star
+Pop Star 2 - Star 11: Small Star
+Pop Star 2 - Star 12: Small Star
+Pop Star 2 - Star 13: Crystal Shard
+Pop Star 2 - Star 14: Small Star
+Pop Star 2 - Star 15: Small Star
+Pop Star 2 - Star 16: Sandwich
+Pop Star 2 - Star 17: Small Star
+Pop Star 2 - Star 18: Small Star
+Pop Star 2 - Star 19: Small Star
+Pop Star 2 - Star 20: 1-Up
+Pop Star 2 - Star 21: Small Star
+Pop Star 2 - Star 22: Small Star
+Pop Star 2 - Star 23: Invicibility Candy
+Pop Star 2 - Star 24: Cake
+Pop Star 2 - Star 25: Small Star
+Pop Star 2 - Star 26: Sandwich
+Pop Star 2 - Star 27: Small Star
+Pop Star 2 - Star 28: Small Star
+Pop Star 2 - Star 29: Small Star
+Pop Star 2 - Star 30: Maxim Tomato
+Pop Star 2 - Star 31: 1-Up
+Pop Star 2 - Star 32: Small Star
+Pop Star 2 - Star 33: Small Star
+Pop Star 2 - Star 34: Small Star
+Pop Star 3 - Complete: Small Star
+Pop Star 3 - Shard 1: Ice Cream
+Pop Star 3 - Shard 2: Small Star
+Pop Star 3 - Shard 3: 1-Up
+Pop Star 3 - Meat: Small Star
+Pop Star 3 - Maxim Tomato: Small Star
+Pop Star 3 - Cake: Crystal Shard
+Pop Star 3 - Adeleine Gift: Cake
+Pop Star 3 - Star 1: Invicibility Candy
+Pop Star 3 - Star 2: Small Star
+Pop Star 3 - Star 3: Small Star
+Pop Star 3 - Star 4: Small Star
+Pop Star 3 - Star 5: Small Star
+Pop Star 3 - Star 6: Small Star
+Pop Star 3 - Star 7: Crystal Shard
+Pop Star 3 - Star 8: Small Star
+Pop Star 3 - Star 9: Small Star
+Pop Star 3 - Star 10: Small Star
+Pop Star 3 - Star 11: Small Star
+Pop Star 3 - Star 12: Small Star
+Pop Star 3 - Star 13: Small Star
+Pop Star 3 - Star 14: Small Star
+Pop Star 3 - Star 15: Small Star
+Pop Star 3 - Star 16: Small Star
+Pop Star - Boss Defeated: Small Star
+Rock Star 1 - Complete: Small Star
+Rock Star 1 - Shard 1: Small Star
+Rock Star 1 - Shard 2: Small Star
+Rock Star 1 - Shard 3: Small Star
+Rock Star 1 - Sandwich: Small Star
+Rock Star 1 - Meat: Small Star
+Rock Star 1 - Cake: Small Star
+Rock Star 1 - Ice Cream 1: Ice Cream
+Rock Star 1 - Ice Cream 2: Small Star
+Rock Star 1 - Star 1: Small Star
+Rock Star 1 - Star 2: 1-Up
+Rock Star 1 - Star 3: Cake
+Rock Star 1 - Star 4: Cake
+Rock Star 1 - Star 5: Small Star
+Rock Star 1 - Star 6: Small Star
+Rock Star 1 - Star 7: Small Star
+Rock Star 1 - Star 8: Small Star
+Rock Star 1 - Star 9: Small Star
+Rock Star 1 - Star 10: Small Star
+Rock Star 1 - Star 11: Sandwich
+Rock Star 1 - Star 12: Small Star
+Rock Star 1 - Star 13: Small Star
+Rock Star 1 - Star 14: Small Star
+Rock Star 1 - Star 15: Small Star
+Rock Star 1 - Star 16: Small Star
+Rock Star 2 - Complete: Small Star
+Rock Star 2 - Shard 1: Small Star
+Rock Star 2 - Shard 2: 1-Up
+Rock Star 2 - Shard 3: 1-Up
+Rock Star 2 - 1-Up 1: Small Star
+Rock Star 2 - 1-Up 2: Invicibility Candy
+Rock Star 2 - Ice Cream 1: 1-Up
+Rock Star 2 - Sandwich 1: Small Star
+Rock Star 2 - Sandwich 2: Crystal Shard
+Rock Star 2 - Cake 1: Meat
+Rock Star 2 - Maxim Tomato 1: 1-Up
+Rock Star 2 - Cake 2: Small Star
+Rock Star 2 - Maxim Tomato 2: Invicibility Candy
+Rock Star 2 - Ice Cream 2: Maxim Tomato
+Rock Star 2 - Cake 3: Small Star
+Rock Star 2 - Star 1: Small Star
+Rock Star 2 - Star 2: Small Star
+Rock Star 2 - Star 3: Small Star
+Rock Star 2 - Star 4: Small Star
+Rock Star 2 - Star 5: Small Star
+Rock Star 2 - Star 6: Small Star
+Rock Star 2 - Star 7: Small Star
+Rock Star 2 - Star 8: Small Star
+Rock Star 2 - Star 9: 1-Up
+Rock Star 2 - Star 10: 1-Up
+Rock Star 2 - Star 11: Small Star
+Rock Star 2 - Star 12: Small Star
+Rock Star 2 - Star 13: Small Star
+Rock Star 2 - Star 14: Meat
+Rock Star 2 - Star 15: Small Star
+Rock Star 2 - Star 16: Small Star
+Rock Star 2 - Star 17: King Dedede
+Rock Star 2 - Star 18: Maxim Tomato
+Rock Star 2 - Star 19: Small Star
+Rock Star 2 - Star 20: Small Star
+Rock Star 2 - Star 21: Cake
+Rock Star 2 - Star 22: Small Star
+Rock Star 2 - Star 23: Small Star
+Rock Star 2 - Star 24: Small Star
+Rock Star 2 - Star 25: Small Star
+Rock Star 2 - Star 26: Sandwich
+Rock Star 2 - Star 27: Small Star
+Rock Star 2 - Star 28: Small Star
+Rock Star 2 - Star 29: Small Star
+Rock Star 2 - Star 30: Ice Cream
+Rock Star 2 - Star 31: Crystal Shard
+Rock Star 2 - Star 32: Ice Cream
+Rock Star 2 - Star 33: Small Star
+Rock Star 2 - Star 34: Small Star
+Rock Star 2 - Star 35: Small Star
+Rock Star 2 - Star 36: Small Star
+Rock Star 2 - Star 37: 1-Up
+Rock Star 2 - Star 38: 1-Up
+Rock Star 3 - Complete: Crystal Shard
+Rock Star 3 - Shard 1: Small Star
+Rock Star 3 - Shard 2: 1-Up
+Rock Star 3 - Shard 3: 1-Up
+Rock Star 3 - Cake: Maxim Tomato
+Rock Star 3 - Meat: Small Star
+Rock Star 3 - Ice Cream: Small Star
+Rock Star 3 - Star 1: Invicibility Candy
+Rock Star 3 - Star 2: Small Star
+Rock Star 3 - Star 3: Small Star
+Rock Star 3 - Star 4: Sandwich
+Rock Star 3 - Star 5: Small Star
+Rock Star 3 - Star 6: 1-Up
+Rock Star 3 - Star 7: Small Star
+Rock Star 3 - Star 8: Small Star
+Rock Star 3 - Star 9: Small Star
+Rock Star 3 - Star 10: Small Star
+Rock Star 3 - Star 11: Small Star
+Rock Star 3 - Star 12: Maxim Tomato
+Rock Star 3 - Star 13: Small Star
+Rock Star 3 - Star 14: Small Star
+Rock Star 3 - Star 15: 1-Up
+Rock Star 3 - Star 16: Invicibility Candy
+Rock Star 3 - Star 17: Small Star
+Rock Star 3 - Star 18: Small Star
+Rock Star 3 - Star 19: Small Star
+Rock Star 3 - Star 20: 1-Up
+Rock Star 3 - Star 21: Maxim Tomato
+Rock Star 3 - Star 22: 1-Up
+Rock Star 3 - Star 23: Ice Cream
+Rock Star 3 - Star 24: 1-Up
+Rock Star 3 - Star 25: Cake
+Rock Star 3 - Star 26: Invicibility Candy
+Rock Star 3 - Star 27: Invicibility Candy
+Rock Star 3 - Star 28: 1-Up
+Rock Star 3 - Star 29: Small Star
+Rock Star 3 - Star 30: Small Star
+Rock Star 3 - Star 31: Meat
+Rock Star 3 - Star 32: Cake
+Rock Star 3 - Star 33: Small Star
+Rock Star 3 - Star 34: Small Star
+Rock Star 3 - Star 35: Small Star
+Rock Star 3 - Star 36: Sandwich
+Rock Star 3 - Star 37: Small Star
+Rock Star 3 - Star 38: 1-Up
+Rock Star 3 - Star 39: Small Star
+Rock Star 3 - Star 40: Small Star
+Rock Star 3 - Star 41: Small Star
+Rock Star 3 - Star 42: Small Star
+Rock Star 3 - Star 43: Meat
+Rock Star 3 - Star 44: Small Star
+Rock Star 4 - Complete: Small Star
+Rock Star 4 - Shard 1: Ice Cream
+Rock Star 4 - Shard 2: Ice Cream
+Rock Star 4 - Shard 3: Small Star
+Rock Star 4 - 1-Up: Small Star
+Rock Star 4 - Sandwich: Ice Cream
+Rock Star 4 - Maxim Tomato: Maxim Tomato
+Rock Star 4 - Meat: Ice Cream
+Rock Star 4 - Ice Cream: Small Star
+Rock Star 4 - Star 1: Small Star
+Rock Star 4 - Star 2: Waddle Dee
+Rock Star 4 - Star 3: Small Star
+Rock Star 4 - Star 4: Sandwich
+Rock Star 4 - Star 5: 1-Up
+Rock Star 4 - Star 6: Small Star
+Rock Star 4 - Star 7: Small Star
+Rock Star 4 - Star 8: Small Star
+Rock Star 4 - Star 9: Ice Cream
+Rock Star 4 - Star 10: Small Star
+Rock Star 4 - Star 11: Ice Cream
+Rock Star 4 - Star 12: Small Star
+Rock Star 4 - Star 13: 1-Up
+Rock Star 4 - Star 14: 1-Up
+Rock Star 4 - Star 15: Small Star
+Rock Star - Boss Defeated: Small Star
+Aqua Star 1 - Complete: Small Star
+Aqua Star 1 - Shard 1: Small Star
+Aqua Star 1 - Shard 2: Small Star
+Aqua Star 1 - Shard 3: Maxim Tomato
+Aqua Star 1 - Meat 1: Maxim Tomato
+Aqua Star 1 - Maxim Tomato: Small Star
+Aqua Star 1 - Sandwich: Small Star
+Aqua Star 1 - Meat 2: Crystal Shard
+Aqua Star 1 - Ice Cream: Small Star
+Aqua Star 1 - Meat 3: 1-Up
+Aqua Star 1 - Cake: Invicibility Candy
+Aqua Star 1 - Adeleine Gift: Invicibility Candy
+Aqua Star 1 - Star 1: Ice Cream
+Aqua Star 1 - Star 2: Small Star
+Aqua Star 1 - Star 3: Small Star
+Aqua Star 1 - Star 4: Ice Cream
+Aqua Star 1 - Star 5: Small Star
+Aqua Star 1 - Star 6: Invicibility Candy
+Aqua Star 1 - Star 7: Small Star
+Aqua Star 1 - Star 8: Small Star
+Aqua Star 1 - Star 9: Small Star
+Aqua Star 1 - Star 10: Small Star
+Aqua Star 1 - Star 11: Small Star
+Aqua Star 1 - Star 12: Small Star
+Aqua Star 1 - Star 13: Small Star
+Aqua Star 1 - Star 14: Maxim Tomato
+Aqua Star 1 - Star 15: Small Star
+Aqua Star 1 - Star 16: Small Star
+Aqua Star 1 - Star 17: Small Star
+Aqua Star 1 - Star 18: Small Star
+Aqua Star 1 - Star 19: Small Star
+Aqua Star 1 - Star 20: Small Star
+Aqua Star 1 - Star 21: Small Star
+Aqua Star 1 - Star 22: Meat
+Aqua Star 1 - Star 23: Maxim Tomato
+Aqua Star 1 - Star 24: Cake
+Aqua Star 1 - Star 25: Sandwich
+Aqua Star 1 - Star 26: Meat
+Aqua Star 1 - Star 27: Small Star
+Aqua Star 1 - Star 28: Small Star
+Aqua Star 1 - Star 29: Small Star
+Aqua Star 1 - Star 30: Crystal Shard
+Aqua Star 1 - Star 31: Small Star
+Aqua Star 1 - Star 32: Small Star
+Aqua Star 1 - Star 33: Small Star
+Aqua Star 1 - Star 34: 1-Up
+Aqua Star 1 - Star 35: Sandwich
+Aqua Star 1 - Star 36: 1-Up
+Aqua Star 1 - Star 37: Small Star
+Aqua Star 1 - Star 38: Small Star
+Aqua Star 2 - Complete: Small Star
+Aqua Star 2 - Shard 1: Small Star
+Aqua Star 2 - Shard 2: Small Star
+Aqua Star 2 - Shard 3: Small Star
+Aqua Star 2 - Meat 1: Ice Cream
+Aqua Star 2 - Cake 1: Small Star
+Aqua Star 2 - Ice Cream 1: Small Star
+Aqua Star 2 - Cake 2: Small Star
+Aqua Star 2 - Meat 2: Sandwich
+Aqua Star 2 - Sandwich: Bomb
+Aqua Star 2 - Meat 3: Small Star
+Aqua Star 2 - Ice Cream 2: Small Star
+Aqua Star 2 - Meat 4: Meat
+Aqua Star 2 - Ice Cream 3: Small Star
+Aqua Star 2 - Meat 5: Small Star
+Aqua Star 2 - Star 1: Small Star
+Aqua Star 2 - Star 2: Small Star
+Aqua Star 2 - Star 3: Small Star
+Aqua Star 2 - Star 4: Small Star
+Aqua Star 2 - Star 5: Cake
+Aqua Star 2 - Star 6: Small Star
+Aqua Star 2 - Star 7: Small Star
+Aqua Star 2 - Star 8: Small Star
+Aqua Star 2 - Star 9: Small Star
+Aqua Star 2 - Star 10: Small Star
+Aqua Star 2 - Star 11: Small Star
+Aqua Star 2 - Star 12: Small Star
+Aqua Star 2 - Star 13: Small Star
+Aqua Star 2 - Star 14: Small Star
+Aqua Star 2 - Star 15: Small Star
+Aqua Star 2 - Star 16: Small Star
+Aqua Star 2 - Star 17: Small Star
+Aqua Star 2 - Star 18: Small Star
+Aqua Star 2 - Star 19: Meat
+Aqua Star 2 - Star 20: Small Star
+Aqua Star 2 - Star 21: Meat
+Aqua Star 2 - Star 22: Small Star
+Aqua Star 2 - Star 23: Maxim Tomato
+Aqua Star 2 - Star 24: Small Star
+Aqua Star 2 - Star 25: Small Star
+Aqua Star 2 - Star 26: Invicibility Candy
+Aqua Star 2 - Star 27: Small Star
+Aqua Star 2 - Star 28: Crystal Shard
+Aqua Star 2 - Star 29: Small Star
+Aqua Star 2 - Star 30: Cake
+Aqua Star 2 - Star 31: Small Star
+Aqua Star 2 - Star 32: Small Star
+Aqua Star 2 - Star 33: Ice Cream
+Aqua Star 2 - Star 34: Cake
+Aqua Star 2 - Star 35: Small Star
+Aqua Star 2 - Star 36: 1-Up
+Aqua Star 2 - Star 37: Crystal Shard
+Aqua Star 2 - Star 38: Ice Cream
+Aqua Star 2 - Star 39: Small Star
+Aqua Star 2 - Star 40: Small Star
+Aqua Star 2 - Star 41: Meat
+Aqua Star 2 - Star 42: Small Star
+Aqua Star 2 - Star 43: Small Star
+Aqua Star 2 - Star 44: Small Star
+Aqua Star 2 - Star 45: Small Star
+Aqua Star 2 - Star 46: Sandwich
+Aqua Star 2 - Star 47: Small Star
+Aqua Star 2 - Star 48: Maxim Tomato
+Aqua Star 2 - Star 49: Crystal Shard
+Aqua Star 3 - Complete: Small Star
+Aqua Star 3 - Shard 1: Ice
+Aqua Star 3 - Shard 2: Sandwich
+Aqua Star 3 - Shard 3: Ice Cream
+Aqua Star 3 - 1-Up: 1-Up
+Aqua Star 3 - Cake 1: Small Star
+Aqua Star 3 - Maxim Tomato: Small Star
+Aqua Star 3 - Cake 2: Ice Cream
+Aqua Star 3 - Star 1: Small Star
+Aqua Star 3 - Star 2: Maxim Tomato
+Aqua Star 3 - Star 3: Small Star
+Aqua Star 3 - Star 4: Small Star
+Aqua Star 3 - Star 5: 1-Up
+Aqua Star 3 - Star 6: Meat
+Aqua Star 3 - Star 7: Small Star
+Aqua Star 3 - Star 8: Ice Cream
+Aqua Star 3 - Star 9: Small Star
+Aqua Star 3 - Star 10: Small Star
+Aqua Star 3 - Star 11: Small Star
+Aqua Star 3 - Star 12: Small Star
+Aqua Star 3 - Star 13: Small Star
+Aqua Star 3 - Star 14: Small Star
+Aqua Star 3 - Star 15: Small Star
+Aqua Star 3 - Star 16: 1-Up
+Aqua Star 3 - Star 17: Crystal Shard
+Aqua Star 3 - Star 18: Cake
+Aqua Star 3 - Star 19: Small Star
+Aqua Star 3 - Star 20: Small Star
+Aqua Star 3 - Star 21: 1-Up
+Aqua Star 3 - Star 22: Small Star
+Aqua Star 3 - Star 23: Small Star
+Aqua Star 3 - Star 24: Small Star
+Aqua Star 3 - Star 25: Small Star
+Aqua Star 3 - Star 26: Invicibility Candy
+Aqua Star 4 - Complete: Small Star
+Aqua Star 4 - Shard 1: Stone
+Aqua Star 4 - Shard 2: Sandwich
+Aqua Star 4 - Shard 3: 1-Up
+Aqua Star 4 - Sandwich: Spark
+Aqua Star 4 - Cake 1: 1-Up
+Aqua Star 4 - Ice Cream 1: Small Star
+Aqua Star 4 - Meat: Small Star
+Aqua Star 4 - Ice Cream 2: Small Star
+Aqua Star 4 - Star 1: Adeleine
+Aqua Star 4 - Star 2: Ice Cream
+Aqua Star 4 - Star 3: Small Star
+Aqua Star 4 - Star 4: Small Star
+Aqua Star 4 - Star 5: Sandwich
+Aqua Star 4 - Star 6: 1-Up
+Aqua Star 4 - Star 7: Small Star
+Aqua Star 4 - Star 8: Small Star
+Aqua Star 4 - Star 9: Sandwich
+Aqua Star 4 - Star 10: Small Star
+Aqua Star 4 - Star 11: Small Star
+Aqua Star 4 - Star 12: Small Star
+Aqua Star 4 - Star 13: Small Star
+Aqua Star 4 - Star 14: Sandwich
+Aqua Star 4 - Star 15: Small Star
+Aqua Star 4 - Star 16: Invicibility Candy
+Aqua Star 4 - Star 17: Small Star
+Aqua Star 4 - Star 18: Burning
+Aqua Star 4 - Star 19: Meat
+Aqua Star 4 - Star 20: Ice Cream
+Aqua Star 4 - Star 21: Small Star
+Aqua Star 4 - Star 22: Small Star
+Aqua Star 4 - Star 23: Small Star
+Aqua Star 4 - Star 24: Meat
+Aqua Star 4 - Star 25: Meat
+Aqua Star 4 - Star 26: Small Star
+Aqua Star 4 - Star 27: Maxim Tomato
+Aqua Star 4 - Star 28: Small Star
+Aqua Star 4 - Star 29: Small Star
+Aqua Star 4 - Star 30: Small Star
+Aqua Star 4 - Star 31: Small Star
+Aqua Star 4 - Star 32: Sandwich
+Aqua Star 4 - Star 33: 1-Up
+Aqua Star 4 - Star 34: 1-Up
+Aqua Star 4 - Star 35: Small Star
+Aqua Star 4 - Star 36: Small Star
+Aqua Star 4 - Star 37: Ice Cream
+Aqua Star 4 - Star 38: Small Star
+Aqua Star 4 - Star 39: Ice Cream
+Aqua Star 4 - Star 40: Small Star
+Aqua Star 4 - Star 41: Small Star
+Aqua Star 4 - Star 42: Small Star
+Aqua Star 4 - Star 43: Small Star
+Aqua Star - Boss Defeated: Small Star
+Neo Star 1 - Complete: Small Star
+Neo Star 1 - Shard 1: Sandwich
+Neo Star 1 - Shard 2: 1-Up
+Neo Star 1 - Shard 3: Small Star
+Neo Star 1 - Cake 1: Small Star
+Neo Star 1 - Sandwich 1: Small Star
+Neo Star 1 - Ice Cream 1: Small Star
+Neo Star 1 - Cake 2: Maxim Tomato
+Neo Star 1 - Meat 1: Small Star
+Neo Star 1 - Ice Cream 2: Small Star
+Neo Star 1 - Sandwich 2: Small Star
+Neo Star 1 - Cake 3: Small Star
+Neo Star 1 - Sandwich 3: 1-Up
+Neo Star 1 - Ice Cream 3: 1-Up
+Neo Star 1 - Star 1: Small Star
+Neo Star 1 - Star 2: Small Star
+Neo Star 1 - Star 3: Invicibility Candy
+Neo Star 1 - Star 4: Small Star
+Neo Star 1 - Star 5: Small Star
+Neo Star 1 - Star 6: Small Star
+Neo Star 1 - Star 7: Invicibility Candy
+Neo Star 1 - Star 8: Small Star
+Neo Star 1 - Star 9: Small Star
+Neo Star 1 - Star 10: Maxim Tomato
+Neo Star 1 - Star 11: Small Star
+Neo Star 1 - Star 12: 1-Up
+Neo Star 1 - Star 13: 1-Up
+Neo Star 1 - Star 14: Small Star
+Neo Star 1 - Star 15: Invicibility Candy
+Neo Star 1 - Star 16: Small Star
+Neo Star 1 - Star 17: Small Star
+Neo Star 1 - Star 18: Small Star
+Neo Star 1 - Star 19: Small Star
+Neo Star 1 - Star 20: Small Star
+Neo Star 1 - Star 21: Sandwich
+Neo Star 1 - Star 22: Small Star
+Neo Star 1 - Star 23: Small Star
+Neo Star 1 - Star 24: Ice Cream
+Neo Star 1 - Star 25: Small Star
+Neo Star 1 - Star 26: Small Star
+Neo Star 1 - Star 27: Small Star
+Neo Star 1 - Star 28: Small Star
+Neo Star 1 - Star 29: 1-Up
+Neo Star 1 - Star 30: Cutter
+Neo Star 1 - Star 31: Small Star
+Neo Star 1 - Star 32: 1-Up
+Neo Star 1 - Star 33: Small Star
+Neo Star 1 - Star 34: Meat
+Neo Star 1 - Star 35: Cake
+Neo Star 2 - Complete: Small Star
+Neo Star 2 - Shard 1: Small Star
+Neo Star 2 - Shard 2: Crystal Shard
+Neo Star 2 - Shard 3: Small Star
+Neo Star 2 - 1-Up 1: Invicibility Candy
+Neo Star 2 - 1-Up 2: Sandwich
+Neo Star 2 - Meat 1: Small Star
+Neo Star 2 - Meat 2: Small Star
+Neo Star 2 - Cake 1: Small Star
+Neo Star 2 - Ice Cream 1: Ice Cream
+Neo Star 2 - Meat 3: Small Star
+Neo Star 2 - Maxim Tomato: Small Star
+Neo Star 2 - Sandwich: Small Star
+Neo Star 2 - Ice Cream 2: Small Star
+Neo Star 2 - Cake 2: Small Star
+Neo Star 2 - Meat 4: Ice Cream
+Neo Star 2 - Star 1: Small Star
+Neo Star 2 - Star 2: Meat
+Neo Star 2 - Star 3: Sandwich
+Neo Star 2 - Star 4: Small Star
+Neo Star 2 - Star 5: Small Star
+Neo Star 2 - Star 6: Small Star
+Neo Star 2 - Star 7: Cake
+Neo Star 2 - Star 8: Small Star
+Neo Star 2 - Star 9: 1-Up
+Neo Star 2 - Star 10: 1-Up
+Neo Star 2 - Star 11: Small Star
+Neo Star 2 - Star 12: Invicibility Candy
+Neo Star 2 - Star 13: Small Star
+Neo Star 2 - Star 14: Small Star
+Neo Star 2 - Star 15: Crystal Shard
+Neo Star 2 - Star 16: Small Star
+Neo Star 2 - Star 17: Small Star
+Neo Star 2 - Star 18: Small Star
+Neo Star 2 - Star 19: Small Star
+Neo Star 2 - Star 20: Small Star
+Neo Star 2 - Star 21: Small Star
+Neo Star 2 - Star 22: Maxim Tomato
+Neo Star 2 - Star 23: 1-Up
+Neo Star 2 - Star 24: 1-Up
+Neo Star 2 - Star 25: Small Star
+Neo Star 2 - Star 26: Small Star
+Neo Star 2 - Star 27: Invicibility Candy
+Neo Star 2 - Star 28: Small Star
+Neo Star 2 - Star 29: Small Star
+Neo Star 2 - Star 30: Needle
+Neo Star 2 - Star 31: 1-Up
+Neo Star 2 - Star 32: Small Star
+Neo Star 2 - Star 33: Small Star
+Neo Star 2 - Star 34: Invicibility Candy
+Neo Star 2 - Star 35: Maxim Tomato
+Neo Star 2 - Star 36: 1-Up
+Neo Star 2 - Star 37: Small Star
+Neo Star 2 - Star 38: Cake
+Neo Star 2 - Star 39: 1-Up
+Neo Star 2 - Star 40: Small Star
+Neo Star 2 - Star 41: Small Star
+Neo Star 2 - Star 42: Meat
+Neo Star 2 - Star 43: Small Star
+Neo Star 2 - Star 44: 1-Up
+Neo Star 2 - Star 45: Small Star
+Neo Star 2 - Star 46: Small Star
+Neo Star 2 - Star 47: Small Star
+Neo Star 2 - Star 48: Maxim Tomato
+Neo Star 2 - Star 49: Small Star
+Neo Star 2 - Star 50: Small Star
+Neo Star 2 - Star 51: Small Star
+Neo Star 2 - Star 52: Small Star
+Neo Star 2 - Star 53: 1-Up
+Neo Star 2 - Star 54: 1-Up
+Neo Star 2 - Star 55: Small Star
+Neo Star 2 - Star 56: Maxim Tomato
+Neo Star 2 - Star 57: Small Star
+Neo Star 2 - Star 58: Small Star
+Neo Star 2 - Star 59: Small Star
+Neo Star 2 - Star 60: Small Star
+Neo Star 3 - Complete: Small Star
+Neo Star 3 - Shard 1: Small Star
+Neo Star 3 - Shard 2: Small Star
+Neo Star 3 - Shard 3: Small Star
+Neo Star 3 - Sandwich 1: Sandwich
+Neo Star 3 - Cake 1: 1-Up
+Neo Star 3 - Sandwich 2: Small Star
+Neo Star 3 - Sandwich 3: Sandwich
+Neo Star 3 - Meat 1: Small Star
+Neo Star 3 - Sandwich 4: Small Star
+Neo Star 3 - Meat 2: Small Star
+Neo Star 3 - Cake 2: Crystal Shard
+Neo Star 3 - Star 1: Maxim Tomato
+Neo Star 3 - Star 2: Small Star
+Neo Star 3 - Star 3: 1-Up
+Neo Star 3 - Star 4: Small Star
+Neo Star 3 - Star 5: Small Star
+Neo Star 3 - Star 6: Small Star
+Neo Star 3 - Star 7: Small Star
+Neo Star 3 - Star 8: 1-Up
+Neo Star 3 - Star 9: Small Star
+Neo Star 3 - Star 10: Small Star
+Neo Star 3 - Star 11: Small Star
+Neo Star 3 - Star 12: Small Star
+Neo Star 3 - Star 13: Small Star
+Neo Star 3 - Star 14: Small Star
+Neo Star 3 - Star 15: Small Star
+Neo Star 3 - Star 16: Small Star
+Neo Star 3 - Star 17: Small Star
+Neo Star 4 - Complete: Small Star
+Neo Star 4 - Shard 1: Meat
+Neo Star 4 - Shard 2: Small Star
+Neo Star 4 - Shard 3: Small Star
+Neo Star 4 - 1-Up: Small Star
+Neo Star 4 - Sandwich 1: Ice Cream
+Neo Star 4 - Cake 1: Cake
+Neo Star 4 - Cake 2: Small Star
+Neo Star 4 - Sandwich 2: Small Star
+Neo Star 4 - Sandwich 3: Small Star
+Neo Star 4 - Meat 1: Invicibility Candy
+Neo Star 4 - Meat 2: Small Star
+Neo Star 4 - Cake 3: Sandwich
+Neo Star 4 - Ice Cream 1: Small Star
+Neo Star 4 - Cake 4: Small Star
+Neo Star 4 - Ice Cream 2: Small Star
+Neo Star 4 - Ice Cream 3: Small Star
+Neo Star 4 - Cake 5: Small Star
+Neo Star 4 - Sandwich 4: Small Star
+Neo Star 4 - Star 1: Small Star
+Neo Star 4 - Star 2: 1-Up
+Neo Star 4 - Star 3: Maxim Tomato
+Neo Star 4 - Star 4: Small Star
+Neo Star 4 - Star 5: Sandwich
+Neo Star 4 - Star 6: Small Star
+Neo Star 4 - Star 7: Small Star
+Neo Star 4 - Star 8: Small Star
+Neo Star 4 - Star 9: Small Star
+Neo Star 4 - Star 10: Meat
+Neo Star 4 - Star 11: Small Star
+Neo Star 4 - Star 12: Small Star
+Neo Star 4 - Star 13: Small Star
+Neo Star 4 - Star 14: Small Star
+Neo Star 4 - Star 15: Small Star
+Neo Star 4 - Star 16: Small Star
+Neo Star 4 - Star 17: Cake
+Neo Star 4 - Star 18: Small Star
+Neo Star 4 - Star 19: Invicibility Candy
+Neo Star 4 - Star 20: Maxim Tomato
+Neo Star 4 - Star 21: Small Star
+Neo Star 4 - Star 22: Invicibility Candy
+Neo Star 4 - Star 23: Small Star
+Neo Star 4 - Star 24: Small Star
+Neo Star 4 - Star 25: Small Star
+Neo Star - Boss Defeated: Small Star
+Shiver Star 1 - Complete: Small Star
+Shiver Star 1 - Shard 1: Small Star
+Shiver Star 1 - Shard 2: Small Star
+Shiver Star 1 - Shard 3: Ice Cream
+Shiver Star 1 - Meat 1: Small Star
+Shiver Star 1 - Cake 1: Meat
+Shiver Star 1 - Cake 2: Small Star
+Shiver Star 1 - Ice Cream 1: Small Star
+Shiver Star 1 - Meat 2: Small Star
+Shiver Star 1 - Cake 3: Small Star
+Shiver Star 1 - Ice Cream 2: Crystal Shard
+Shiver Star 1 - Ice Cream 3: Small Star
+Shiver Star 1 - Meat 3: Small Star
+Shiver Star 1 - Ice Cream 4: Maxim Tomato
+Shiver Star 1 - Ice Cream 5: Small Star
+Shiver Star 1 - Cake 4: 1-Up
+Shiver Star 1 - Star 1: Small Star
+Shiver Star 1 - Star 2: Small Star
+Shiver Star 1 - Star 3: Crystal Shard
+Shiver Star 1 - Star 4: Small Star
+Shiver Star 1 - Star 5: Crystal Shard
+Shiver Star 1 - Star 6: Small Star
+Shiver Star 1 - Star 7: Invicibility Candy
+Shiver Star 1 - Star 8: Meat
+Shiver Star 1 - Star 9: Small Star
+Shiver Star 1 - Star 10: Small Star
+Shiver Star 1 - Star 11: Sandwich
+Shiver Star 1 - Star 12: Small Star
+Shiver Star 1 - Star 13: Small Star
+Shiver Star 1 - Star 14: Small Star
+Shiver Star 1 - Star 15: Small Star
+Shiver Star 1 - Star 16: Small Star
+Shiver Star 1 - Star 17: Sandwich
+Shiver Star 1 - Star 18: Small Star
+Shiver Star 1 - Star 19: 1-Up
+Shiver Star 1 - Star 20: 1-Up
+Shiver Star 1 - Star 21: Small Star
+Shiver Star 1 - Star 22: Crystal Shard
+Shiver Star 1 - Star 23: Small Star
+Shiver Star 1 - Star 24: Small Star
+Shiver Star 1 - Star 25: Small Star
+Shiver Star 1 - Star 26: Small Star
+Shiver Star 1 - Star 27: Small Star
+Shiver Star 1 - Star 28: Cake
+Shiver Star 1 - Star 29: Small Star
+Shiver Star 1 - Star 30: Small Star
+Shiver Star 1 - Star 31: Ice Cream
+Shiver Star 1 - Star 32: Maxim Tomato
+Shiver Star 1 - Star 33: Small Star
+Shiver Star 1 - Star 34: Small Star
+Shiver Star 1 - Star 35: Sandwich
+Shiver Star 1 - Star 36: Small Star
+Shiver Star 1 - Star 37: Small Star
+Shiver Star 1 - Star 38: Small Star
+Shiver Star 1 - Star 39: Ice Cream
+Shiver Star 1 - Star 40: Small Star
+Shiver Star 1 - Star 41: Maxim Tomato
+Shiver Star 1 - Star 42: Small Star
+Shiver Star 1 - Star 43: 1-Up
+Shiver Star 1 - Star 44: Small Star
+Shiver Star 1 - Star 45: Small Star
+Shiver Star 1 - Star 46: 1-Up
+Shiver Star 1 - Star 47: Small Star
+Shiver Star 1 - Star 48: Sandwich
+Shiver Star 1 - Star 49: Small Star
+Shiver Star 1 - Star 50: 1-Up
+Shiver Star 1 - Star 51: Sandwich
+Shiver Star 1 - Star 52: 1-Up
+Shiver Star 1 - Star 53: 1-Up
+Shiver Star 1 - Star 54: Small Star
+Shiver Star 1 - Star 55: Small Star
+Shiver Star 1 - Star 56: Small Star
+Shiver Star 1 - Star 57: Small Star
+Shiver Star 1 - Star 58: 1-Up
+Shiver Star 1 - Star 59: Small Star
+Shiver Star 1 - Star 60: Small Star
+Shiver Star 1 - Star 61: Small Star
+Shiver Star 1 - Star 62: Meat
+Shiver Star 1 - Star 63: Small Star
+Shiver Star 1 - Star 64: Small Star
+Shiver Star 2 - Complete: Meat
+Shiver Star 2 - Shard 1: Small Star
+Shiver Star 2 - Shard 2: Small Star
+Shiver Star 2 - Shard 3: Small Star
+Shiver Star 2 - Meat 1: Small Star
+Shiver Star 2 - Cake 1: 1-Up
+Shiver Star 2 - Sandwich 1: Small Star
+Shiver Star 2 - Ice Cream 1: Cake
+Shiver Star 2 - Sandwich 2: Ice Cream
+Shiver Star 2 - Sandwich 3: Small Star
+Shiver Star 2 - Sandwich 4: Meat
+Shiver Star 2 - Meat 2: Meat
+Shiver Star 2 - Ice Cream 2: Small Star
+Shiver Star 2 - Star 1: Small Star
+Shiver Star 2 - Star 2: Small Star
+Shiver Star 2 - Star 3: Small Star
+Shiver Star 2 - Star 4: Small Star
+Shiver Star 2 - Star 5: Small Star
+Shiver Star 2 - Star 6: Small Star
+Shiver Star 2 - Star 7: Small Star
+Shiver Star 2 - Star 8: 1-Up
+Shiver Star 2 - Star 9: Small Star
+Shiver Star 2 - Star 10: Small Star
+Shiver Star 2 - Star 11: Small Star
+Shiver Star 2 - Star 12: Small Star
+Shiver Star 2 - Star 13: Sandwich
+Shiver Star 2 - Star 14: Small Star
+Shiver Star 2 - Star 15: Small Star
+Shiver Star 2 - Star 16: Small Star
+Shiver Star 2 - Star 17: Small Star
+Shiver Star 2 - Star 18: Small Star
+Shiver Star 2 - Star 19: Small Star
+Shiver Star 2 - Star 20: Small Star
+Shiver Star 2 - Star 21: Cake
+Shiver Star 2 - Star 22: Maxim Tomato
+Shiver Star 2 - Star 23: Cake
+Shiver Star 2 - Star 24: Small Star
+Shiver Star 2 - Star 25: Small Star
+Shiver Star 2 - Star 26: Small Star
+Shiver Star 2 - Star 27: Small Star
+Shiver Star 2 - Star 28: Small Star
+Shiver Star 2 - Star 29: Small Star
+Shiver Star 2 - Star 30: Small Star
+Shiver Star 2 - Star 31: 1-Up
+Shiver Star 3 - Complete: Small Star
+Shiver Star 3 - Shard 1: Small Star
+Shiver Star 3 - Shard 2: Invicibility Candy
+Shiver Star 3 - Shard 3: Small Star
+Shiver Star 3 - Cake 1: Invicibility Candy
+Shiver Star 3 - Cake 2: Small Star
+Shiver Star 3 - Meat 1: Small Star
+Shiver Star 3 - Ice Cream 1: Small Star
+Shiver Star 3 - Meat 2: Small Star
+Shiver Star 3 - Cake 3: Small Star
+Shiver Star 3 - Cake 4: Small Star
+Shiver Star 3 - Ice Cream 2: Cake
+Shiver Star 3 - Cake 5: Sandwich
+Shiver Star 3 - Meat 3: Small Star
+Shiver Star 3 - Ice Cream 3: 1-Up
+Shiver Star 3 - Ice Cream 4: Sandwich
+Shiver Star 3 - Sandwich: Small Star
+Shiver Star 3 - Cake 6: Small Star
+Shiver Star 3 - Star 1: 1-Up
+Shiver Star 3 - Star 2: Small Star
+Shiver Star 3 - Star 3: Small Star
+Shiver Star 3 - Star 4: 1-Up
+Shiver Star 3 - Star 5: Small Star
+Shiver Star 3 - Star 6: 1-Up
+Shiver Star 3 - Star 7: Small Star
+Shiver Star 3 - Star 8: Small Star
+Shiver Star 3 - Star 9: Small Star
+Shiver Star 3 - Star 10: Maxim Tomato
+Shiver Star 3 - Star 11: Small Star
+Shiver Star 3 - Star 12: Small Star
+Shiver Star 3 - Star 13: Ice Cream
+Shiver Star 3 - Star 14: Invicibility Candy
+Shiver Star 3 - Star 15: Small Star
+Shiver Star 3 - Star 16: Small Star
+Shiver Star 3 - Star 17: Ice Cream
+Shiver Star 3 - Star 18: Maxim Tomato
+Shiver Star 3 - Star 19: 1-Up
+Shiver Star 3 - Star 20: 1-Up
+Shiver Star 3 - Star 21: Small Star
+Shiver Star 3 - Star 22: 1-Up
+Shiver Star 3 - Star 23: Small Star
+Shiver Star 3 - Star 24: Small Star
+Shiver Star 4 - Complete: Invicibility Candy
+Shiver Star 4 - Shard 1: Small Star
+Shiver Star 4 - Shard 2: Cake
+Shiver Star 4 - Shard 3: Maxim Tomato
+Shiver Star 4 - Meat 1: Small Star
+Shiver Star 4 - Sandwich 1: Small Star
+Shiver Star 4 - Meat 2: Small Star
+Shiver Star 4 - Ice Cream 1: Small Star
+Shiver Star 4 - Meat 3: Small Star
+Shiver Star 4 - Sandwich 2: Small Star
+Shiver Star 4 - Meat 4: Small Star
+Shiver Star 4 - Cake 1: Small Star
+Shiver Star 4 - Sandwich 3: 1-Up
+Shiver Star 4 - Cake 2: 1-Up
+Shiver Star 4 - Sandwich 4: Small Star
+Shiver Star 4 - Cake 3: 1-Up
+Shiver Star 4 - Meat 5: Small Star
+Shiver Star 4 - Sandwich 5: Small Star
+Shiver Star 4 - Star 1: Invicibility Candy
+Shiver Star 4 - Star 2: 1-Up
+Shiver Star 4 - Star 3: Small Star
+Shiver Star 4 - Star 4: Maxim Tomato
+Shiver Star 4 - Star 5: Small Star
+Shiver Star 4 - Star 6: Small Star
+Shiver Star 4 - Star 7: Small Star
+Shiver Star 4 - Star 8: Cake
+Shiver Star 4 - Star 9: Maxim Tomato
+Shiver Star 4 - Star 10: Small Star
+Shiver Star 4 - Star 11: Invicibility Candy
+Shiver Star 4 - Star 12: 1-Up
+Shiver Star 4 - Star 13: Small Star
+Shiver Star 4 - Star 14: Small Star
+Shiver Star 4 - Star 15: 1-Up
+Shiver Star 4 - Star 16: Small Star
+Shiver Star 4 - Star 17: Meat
+Shiver Star 4 - Star 18: Small Star
+Shiver Star 4 - Star 19: Maxim Tomato
+Shiver Star 4 - Star 20: Sandwich
+Shiver Star 4 - Star 21: Small Star
+Shiver Star 4 - Star 22: Small Star
+Shiver Star 4 - Star 23: Small Star
+Shiver Star 4 - Star 24: Crystal Shard
+Shiver Star 4 - Star 25: Small Star
+Shiver Star 4 - Star 26: Small Star
+Shiver Star 4 - Star 27: Meat
+Shiver Star 4 - Star 28: Small Star
+Shiver Star 4 - Star 29: Small Star
+Shiver Star 4 - Star 30: Small Star
+Shiver Star 4 - Star 31: Small Star
+Shiver Star 4 - Star 32: Crystal Shard
+Shiver Star 4 - Star 33: Meat
+Shiver Star 4 - Star 34: Small Star
+Shiver Star 4 - Star 35: Small Star
+Shiver Star 4 - Star 36: Invicibility Candy
+Shiver Star 4 - Star 37: Sandwich
+Shiver Star 4 - Star 38: Crystal Shard
+Shiver Star 4 - Star 39: Small Star
+Shiver Star 4 - Star 40: Small Star
+Shiver Star 4 - Star 41: Small Star
+Shiver Star 4 - Star 42: Small Star
+Shiver Star 4 - Star 43: Small Star
+Shiver Star 4 - Star 44: Sandwich
+Shiver Star 4 - Star 45: Small Star
+Shiver Star 4 - Star 46: Small Star
+Shiver Star 4 - Star 47: Small Star
+Shiver Star 4 - Star 48: Invicibility Candy
+Shiver Star 4 - Star 49: Small Star
+Shiver Star 4 - Star 50: Small Star
+Shiver Star 4 - Star 51: Maxim Tomato
+Shiver Star - Boss Defeated: Cake
+Ripple Star 1 - Complete: Small Star
+Ripple Star 1 - Shard 1: Small Star
+Ripple Star 1 - Shard 2: Small Star
+Ripple Star 1 - Shard 3: 1-Up
+Ripple Star 1 - Cake 1: Small Star
+Ripple Star 1 - Maxim Tomato 1: Meat
+Ripple Star 1 - Cake 2: Small Star
+Ripple Star 1 - Meat 1: Small Star
+Ripple Star 1 - Maxim Tomato 2: Small Star
+Ripple Star 1 - Star 1: Small Star
+Ripple Star 1 - Star 2: Small Star
+Ripple Star 1 - Star 3: Sandwich
+Ripple Star 1 - Star 4: Small Star
+Ripple Star 1 - Star 5: Small Star
+Ripple Star 1 - Star 6: Small Star
+Ripple Star 2 - Complete: Sandwich
+Ripple Star 2 - Shard 1: Small Star
+Ripple Star 2 - Shard 2: Small Star
+Ripple Star 2 - Shard 3: Small Star
+Ripple Star 2 - 1-Up 1: Small Star
+Ripple Star 2 - 1-Up 2: Invicibility Candy
+Ripple Star 2 - Meat 1: Small Star
+Ripple Star 2 - Sandwich 1: Small Star
+Ripple Star 2 - Sandwich 2: Small Star
+Ripple Star 2 - Ice Cream 1: Meat
+Ripple Star 2 - Maxim Tomato: Sandwich
+Ripple Star 2 - Cake 1: Small Star
+Ripple Star 2 - Meat 2: Small Star
+Ripple Star 2 - Ice Cream 2: Small Star
+Ripple Star 2 - Sandwich 3: Ice Cream
+Ripple Star 2 - Sandwich 4: Small Star
+Ripple Star 2 - Cake 2: Small Star
+Ripple Star 2 - Star 1: Cake
+Ripple Star 2 - Star 2: Invicibility Candy
+Ripple Star 2 - Star 3: Small Star
+Ripple Star 2 - Star 4: Small Star
+Ripple Star 2 - Star 5: Small Star
+Ripple Star 2 - Star 6: Sandwich
+Ripple Star 2 - Star 7: 1-Up
+Ripple Star 2 - Star 8: Small Star
+Ripple Star 2 - Star 9: Small Star
+Ripple Star 2 - Star 10: Cake
+Ripple Star 2 - Star 11: Small Star
+Ripple Star 2 - Star 12: Small Star
+Ripple Star 2 - Star 13: Maxim Tomato
+Ripple Star 2 - Star 14: Cake
+Ripple Star 2 - Star 15: Meat
+Ripple Star 2 - Star 16: Small Star
+Ripple Star 3 - Complete: Maxim Tomato
+Ripple Star 3 - Shard 1: Small Star
+Ripple Star 3 - Shard 2: Small Star
+Ripple Star 3 - Shard 3: Small Star
+Ripple Star 3 - 1-Up: 1-Up
+Ripple Star 3 - Sandwich: Small Star
+Ripple Star 3 - Cake: Meat
+Ripple Star 3 - Meat: Small Star
+Ripple Star 3 - Ice Cream: Maxim Tomato
+Ripple Star 3 - Star 1: Ice Cream
+Ripple Star 3 - Star 2: Sandwich
+Ripple Star 3 - Star 3: Small Star
+Ripple Star 3 - Star 4: Small Star
+Ripple Star 3 - Star 5: Small Star
+Ripple Star 3 - Star 6: Small Star
+Ripple Star 3 - Star 7: Sandwich
+Ripple Star 3 - Star 8: Small Star
+Ripple Star 3 - Star 9: Meat
+Ripple Star 3 - Star 10: Small Star
+Ripple Star 3 - Star 11: Invicibility Candy
+Ripple Star 3 - Star 12: Sandwich
+Ripple Star 3 - Star 13: Small Star
+Ripple Star 3 - Star 14: Small Star
+Ripple Star 3 - Star 15: Small Star
+Ripple Star 3 - Star 16: Small Star
+Ripple Star 3 - Star 17: Small Star
+Ripple Star 3 - Star 18: Small Star
+Ripple Star 3 - Star 19: 1-Up
+Ripple Star 3 - Star 20: Small Star
+Ripple Star 3 - Star 21: Small Star
+Ripple Star 3 - Star 22: Small Star
+Ripple Star 3 - Star 23: Small Star
+Ripple Star 3 - Star 24: 1-Up
+Ripple Star 3 - Star 25: Small Star
+Ripple Star 3 - Star 26: Small Star
+Ripple Star - Boss Defeated: Small Star
+Dark Star - Zero-Two: Ribbon's Crystal
+Dark Star - Adeleine Gift: Small Star
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Pop Star 1 - Complete: Crystal Shard
+  Pop Star 2 - Star 13: Crystal Shard
+}
+2: {
+  Rock Star 2 - Star 17: King Dedede
+  Rock Star 3 - Complete: Crystal Shard
+  Rock Star 4 - Star 2: Waddle Dee
+}
+3: {
+  Rock Star 2 - Star 31: Crystal Shard
+}
+4: {
+  Aqua Star 1 - Meat 2: Crystal Shard
+  Aqua Star 1 - Star 30: Crystal Shard
+  Aqua Star 2 - Star 49: Crystal Shard
+  Aqua Star 4 - Star 1: Adeleine
+}
+5: {
+  Neo Star 2 - Shard 2: Crystal Shard
+  Neo Star 2 - Star 15: Crystal Shard
+  Neo Star 3 - Cake 2: Crystal Shard
+  Pop Star 3 - Cake: Crystal Shard
+}
+6: {
+  Shiver Star 1 - Star 22: Crystal Shard
+  Shiver Star 1 - Star 3: Crystal Shard
+  Shiver Star 4 - Star 24: Crystal Shard
+  Shiver Star 4 - Star 38: Crystal Shard
+}
+7: {
+  Dark Star - Zero-Two: Ribbon's Crystal
+}

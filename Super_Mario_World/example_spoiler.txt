@@ -1,39 +1,56 @@
-﻿Archipelago Version 0.6.6  -  Seed: 93838654622662456574
+﻿Archipelago Version 0.6.7  -  Seed: 25530693611978175305
 
 Filling Algorithm:               balanced
 Players:                         1
 Plando Options:                  items, connections, texts, bosses
-Game:                            Super Mario World
-Location Count:                  164
+Game:                            SMW: Spicy Mycena Waffles
+Location Count:                  809
 Progression Balancing:           50
 Accessibility:                   Full
 Local Items:                     
 Non-local Items:                 
-Start Inventory:                 Carry: 1, Climb: 1, Run: 1
+Start Inventory:                 
 Start Hints:                     
 Start Location Hints:            
 Excluded Locations:              
 Priority Locations:              
 Item Links:                      
 Plando Items:                    
+Start Inventory from Pool:       
 Death Link:                      No
 Ring Link:                       No
 Trap Link:                       Yes
+Energy Link:                     Yes
+Ability Shuffle:                 Blue Switch Palace, Carry, Green Switch Palace, Item Box, P-Balloon, P-Switch, Powerups, Red Switch Palace, Special World, Spin Jump, Super Star, Swim, Yellow Switch Palace, Yoshi
+Game Logic Difficulty:           Easy
+Inventory Yoshi Logic:           No
+Decoupled Yoshi Carry:           Yes
+Decoupled Wall Run Anywhere:     Yes
+Decoupled Fast Swimming:         No
 Goal:                            Bowser
-Bosses Required:                 7
-Max Number of Yoshi Eggs:        50
-Required Percentage of Yoshi Eggs:100
-Dragon Coin Checks:              Yes
+Yoshi Egg Count:                 50
+Required Percentage of Golden Yoshi Eggs:85
+Local Yoshi Egg Placement:       Castles, Ghost Houses, Special Zone, Switch Palaces
+Dragon Coin Checks:              No
 3up Moon Checks:                 Yes
 Hidden 1-Up Checks:              No
-Bonus Block Checks:              No
-Blocksanity:                     No
+Star Block Checks:               No
+Midway Point Checks:             Yes
+Room Checks:                     No
+Block Checks:                    Coin Blocks, Flying Blocks, Green Switch Palace Blocks, Item Blocks, P-Switch Blocks, Yellow Switch Palace Blocks
 Bowser Castle Doors:             Slow
-Bowser Castle Rooms:             Random Five Room
+Bowser Castle Rooms:             Gauntlet
+Random Level Effects:            0
 Level Shuffle:                   No
-Exclude Special Zone:            No
+Starting Location:               Yoshis Island
+Map Teleport Shuffle:            Off
+Map Transition Shuffle:          No
+Carryless Exit Count:            0
+Swap Level Exits:                No
+Swap Exit Count:                 0
+Swap Donut GH Exits:             Yes
 Boss Shuffle:                    None
-Swap Donut GH Exits:             No
+Enemy Shuffle:                   Yes
 Display Received Item Popups:    Progression Minus Yoshi Eggs
 Junk Fill Percentage:            0
 Trap Fill Percentage:            10
@@ -43,219 +60,949 @@ Literature Trap Weight:          Medium
 Timer Trap Weight:               Medium
 Reverse Trap Weight:             Medium
 Thwimp Trap Weight:              Medium
-Autosave:                        Yes
+Fishin' Boo Trap Weight:         Medium
+Screen Flip Trap Weight:         Medium
+Sticky Floor Trap Weight:        Medium
+Sticky Hands Trap Weight:        Medium
+Pixelate Trap Weight:            Medium
+Spotlight Trap Weight:           Medium
+Bullet Time Trap Weight:         Medium
+Invisibility Trap Weight:        Medium
+Empty Item Box Trap Weight:      Medium
 Early Climb:                     No
-Overworld Speed:                 Fast
 Music Shuffle:                   None
 Sound Effect Shuffle:            None
 Mario Palette:                   Mario
-Level Palette Shuffle:           Off
-Overworld Palette Shuffle:       Off
-Starting Life Count:             5
+
+Starting Location: Yoshi's House - Tile
 
 
 Starting Items:
 
-Carry
+Progressive Run
 Climb
-Run
+Midway Points
 
 Locations:
 
 Yoshi's Island 1 - Normal Exit: 50 coins
-Yoshi's Island 2 - Normal Exit: 1-Up Mushroom
-Yoshi's Island 3 - Normal Exit: 1-Up Mushroom
+Yoshi's Island 2 - Normal Exit: Inventory Heart
+Yoshi's Island 3 - Normal Exit: Inventory Mushroom
 Yoshi's Island 4 - Normal Exit: 10 coins
-#1 Iggy's Castle - Normal Exit: Swim
-#1 Iggy's Castle - Boss: Boss Token
-Yellow Switch Palace: 1-Up Mushroom
-Donut Plains 1 - Normal Exit: Thwimp Trap
-Donut Plains 1 - Secret Exit: 1 coin
-Donut Plains 2 - Normal Exit: 50 coins
-Donut Plains 2 - Secret Exit: 5 coins
-Donut Plains 3 - Normal Exit: Literature Trap
-Donut Plains 4 - Normal Exit: 5 coins
-Donut Secret 1 - Normal Exit: 5 coins
-Donut Secret 1 - Secret Exit: 1-Up Mushroom
-Donut Secret 2 - Normal Exit: 1 coin
-Donut Ghost House - Normal Exit: 10 coins
-Donut Ghost House - Secret Exit: 1-Up Mushroom
-Donut Secret House - Normal Exit: Ice Trap
-Donut Secret House - Secret Exit: 5 coins
-#2 Morton's Castle - Normal Exit: 5 coins
-#2 Morton's Castle - Boss: Boss Token
-Green Switch Palace: 10 coins
-Vanilla Dome 1 - Normal Exit: Special Zone Clear
-Vanilla Dome 1 - Secret Exit: 1 coin
-Vanilla Dome 2 - Normal Exit: 10 coins
-Vanilla Dome 2 - Secret Exit: 1 coin
-Vanilla Dome 3 - Normal Exit: Carry
-Vanilla Dome 4 - Normal Exit: Literature Trap
-Vanilla Secret 1 - Normal Exit: P-Switch
-Vanilla Secret 1 - Secret Exit: 1 coin
-Vanilla Secret 2 - Normal Exit: Thwimp Trap
-Vanilla Secret 3 - Normal Exit: 1-Up Mushroom
-Vanilla Ghost House - Normal Exit: 5 coins
+#1 Iggy's Castle - Normal Exit: Inventory Super Star
+Yellow Switch Palace: Inventory Green Yoshi
+Donut Plains 1 - Normal Exit: Yellow Switch Palace
+Donut Plains 1 - Secret Exit: Inventory Super Star
+Donut Plains 2 - Normal Exit: Inventory Red Yoshi
+Donut Plains 2 - Secret Exit: Inventory Heart
+Donut Plains 3 - Normal Exit: Inventory Super Star
+Donut Plains 4 - Normal Exit: Inventory Heart
+Donut Secret 1 - Normal Exit: Inventory Super Star
+Donut Secret 1 - Secret Exit: Sticky Floor Trap
+Donut Secret 2 - Normal Exit: 5 coins
+Donut Ghost House - Normal Exit: Inventory Heart
+Donut Ghost House - Secret Exit: Inventory Blue Yoshi
+Donut Secret House - Normal Exit: 50 coins
+Donut Secret House - Secret Exit: Inventory Yellow Yoshi
+#2 Morton's Castle - Normal Exit: Inventory Yellow Yoshi
+Green Switch Palace: 50 coins
+Vanilla Dome 1 - Normal Exit: Timer Trap
+Vanilla Dome 1 - Secret Exit: Trap Repellent
+Vanilla Dome 2 - Normal Exit: Inventory Feather
+Vanilla Dome 2 - Secret Exit: Inventory Green Yoshi
+Vanilla Dome 3 - Normal Exit: Inventory Red Yoshi
+Vanilla Dome 4 - Normal Exit: Inventory Feather
+Vanilla Secret 1 - Normal Exit: Inventory Fire Flower
+Vanilla Secret 1 - Secret Exit: Trap Repellent
+Vanilla Secret 2 - Normal Exit: Inventory Heart
+Vanilla Secret 3 - Normal Exit: Inventory Super Star
+Vanilla Ghost House - Normal Exit: Inventory Super Star
 Vanilla Fortress - Normal Exit: 10 coins
-Vanilla Fortress - Boss: Boss Token
-#3 Lemmy's Castle - Normal Exit: 10 coins
-#3 Lemmy's Castle - Boss: Boss Token
-Red Switch Palace: 5 coins
-Butter Bridge 1 - Normal Exit: 1 coin
-Butter Bridge 2 - Normal Exit: 1-Up Mushroom
-Cheese Bridge - Normal Exit: 5 coins
-Cheese Bridge - Secret Exit: Reverse Trap
-Cookie Mountain - Normal Exit: 10 coins
+#3 Lemmy's Castle - Normal Exit: Inventory Feather
+Red Switch Palace: Inventory Yellow Yoshi
+Butter Bridge 1 - Normal Exit: Inventory Feather
+Butter Bridge 2 - Normal Exit: Inventory Mushroom
+Cheese Bridge Area - Normal Exit: Inventory Heart
+Cheese Bridge Area - Secret Exit: 50 coins
+Cookie Mountain - Normal Exit: Inventory Fire Flower
 Soda Lake - Normal Exit: 50 coins
 #4 Ludwig's Castle - Normal Exit: 5 coins
-#4 Ludwig's Castle - Boss: Boss Token
-Forest of Illusion 1 - Normal Exit: 10 coins
-Forest of Illusion 1 - Secret Exit: 1 coin
-Forest of Illusion 2 - Normal Exit: Ice Trap
-Forest of Illusion 2 - Secret Exit: Super Star Activate
-Forest of Illusion 3 - Normal Exit: 10 coins
-Forest of Illusion 3 - Secret Exit: P-Balloon
-Forest of Illusion 4 - Normal Exit: Thwimp Trap
-Forest of Illusion 4 - Secret Exit: 1-Up Mushroom
-Forest Ghost House - Normal Exit: Spin Jump
-Forest Ghost House - Secret Exit: 50 coins
-Forest Secret - Normal Exit: 10 coins
-Forest Fortress - Normal Exit: 10 coins
-Forest Fortress - Boss: Boss Token
+Forest of Illusion 1 - Normal Exit: Invisibility Trap
+Forest of Illusion 1 - Secret Exit: Trap Repellent
+Forest of Illusion 2 - Normal Exit: Golden Yoshi Egg
+Forest of Illusion 2 - Secret Exit: Inventory Mushroom
+Forest of Illusion 3 - Normal Exit: Inventory Blue Yoshi
+Forest of Illusion 3 - Secret Exit: 10 coins
+Forest of Illusion 4 - Normal Exit: Inventory Heart
+Forest of Illusion 4 - Secret Exit: Inventory Fire Flower
+Forest Ghost House - Normal Exit: 50 coins
+Forest Ghost House - Secret Exit: Inventory Fire Flower
+Forest Secret Area - Normal Exit: Inventory Mushroom
+Forest Fortress - Normal Exit: Inventory Green Yoshi
 #5 Roy's Castle - Normal Exit: 50 coins
-#5 Roy's Castle - Boss: Boss Token
-Blue Switch Palace: 5 coins
-Chocolate Island 1 - Normal Exit: 1 coin
-Chocolate Island 2 - Normal Exit: 5 coins
-Chocolate Island 2 - Secret Exit: 50 coins
-Chocolate Island 3 - Normal Exit: 50 coins
-Chocolate Island 3 - Secret Exit: 1-Up Mushroom
-Chocolate Island 4 - Normal Exit: 10 coins
-Chocolate Island 5 - Normal Exit: 1 coin
-Choco-Ghost House - Normal Exit: 10 coins
-Chocolate Secret - Normal Exit: 1 coin
-Chocolate Fortress - Normal Exit: 5 coins
-Chocolate Fortress - Boss: Boss Token
-#6 Wendy's Castle - Normal Exit: 1-Up Mushroom
-#6 Wendy's Castle - Boss: Boss Token
-Sunken Ghost Ship - Normal Exit: 50 coins
-Valley of Bowser 1 - Normal Exit: 1-Up Mushroom
-Valley of Bowser 2 - Normal Exit: Red Switch Palace
-Valley of Bowser 2 - Secret Exit: 5 coins
-Valley of Bowser 3 - Normal Exit: 10 coins
-Valley of Bowser 4 - Normal Exit: Yellow Switch Palace
-Valley of Bowser 4 - Secret Exit: 1-Up Mushroom
-Valley Ghost House - Normal Exit: Run
-Valley Ghost House - Secret Exit: Progressive Powerup
-Valley Fortress - Normal Exit: 1 coin
-Valley Fortress - Boss: Boss Token
-#7 Larry's Castle - Normal Exit: 10 coins
-#7 Larry's Castle - Boss: Boss Token
+Blue Switch Palace: Inventory Mushroom
+Chocolate Island 1 - Normal Exit: Inventory Red Yoshi
+Chocolate Island 2 - Normal Exit: Inventory Feather
+Chocolate Island 2 - Secret Exit: Inventory Heart
+Chocolate Island 3 - Normal Exit: 10 coins
+Chocolate Island 3 - Secret Exit: Inventory Feather
+Chocolate Island 4 - Normal Exit: Inventory Feather
+Chocolate Island 5 - Normal Exit: Inventory Feather
+Choco-Ghost House - Normal Exit: Inventory Fire Flower
+Chocolate Secret - Normal Exit: Trap Repellent
+Chocolate Fortress - Normal Exit: Inventory Feather
+#6 Wendy's Castle - Normal Exit: Inventory Red Yoshi
+Sunken Ghost Ship - Normal Exit: Blue Switch Palace
+Valley of Bowser 1 - Normal Exit: Inventory Fire Flower
+Valley of Bowser 2 - Normal Exit: Inventory Feather
+Valley of Bowser 2 - Secret Exit: Inventory Super Star
+Valley of Bowser 3 - Normal Exit: Progressive Super Star
+Valley of Bowser 4 - Normal Exit: Inventory Blue Yoshi
+Valley of Bowser 4 - Secret Exit: Trap Repellent
+Valley Ghost House - Normal Exit: Inventory Blue Yoshi
+Valley Ghost House - Secret Exit: Inventory Yellow Yoshi
+Valley Fortress - Normal Exit: Golden Yoshi Egg
+#7 Larry's Castle - Normal Exit: Inventory Mushroom
 Bowser: The Princess
-Star Road 1 - Normal Exit: 5 coins
-Star Road 1 - Secret Exit: 10 coins
-Star Road 2 - Normal Exit: 10 coins
-Star Road 2 - Secret Exit: 10 coins
-Star Road 3 - Normal Exit: 50 coins
-Star Road 3 - Secret Exit: 5 coins
-Star Road 4 - Normal Exit: 10 coins
-Star Road 4 - Secret Exit: 1-Up Mushroom
-Star Road 5 - Normal Exit: 50 coins
-Star Road 5 - Secret Exit: 5 coins
-Gnarly - Normal Exit: 10 coins
-Tubular - Normal Exit: Reverse Trap
-Way Cool - Normal Exit: 1-Up Mushroom
-Awesome - Normal Exit: 50 coins
-Groovy - Normal Exit: 5 coins
-Mondo - Normal Exit: 50 coins
-Outrageous - Normal Exit: 50 coins
-Funky - Normal Exit: 1-Up Mushroom
-Yoshi's Island 1 - Dragon Coins: Progressive Powerup
-Yoshi's Island 2 - Dragon Coins: 10 coins
-Yoshi's Island 3 - Dragon Coins: 5 coins
-Yoshi's Island 4 - Dragon Coins: 5 coins
-Donut Plains 1 - Dragon Coins: 1 coin
-Donut Plains 2 - Dragon Coins: Yoshi
-Donut Plains 3 - Dragon Coins: 1 coin
-Donut Plains 4 - Dragon Coins: Progressive Powerup
-Donut Secret 1 - Dragon Coins: Ice Trap
-Donut Secret 2 - Dragon Coins: 5 coins
-Vanilla Dome 1 - Dragon Coins: Timer Trap
-Vanilla Dome 2 - Dragon Coins: 10 coins
-Vanilla Dome 3 - Dragon Coins: 50 coins
-Vanilla Dome 4 - Dragon Coins: 1-Up Mushroom
-Vanilla Secret 1 - Dragon Coins: 1 coin
-Vanilla Secret 2 - Dragon Coins: 10 coins
-Vanilla Secret 3 - Dragon Coins: 50 coins
-Vanilla Ghost House - Dragon Coins: 10 coins
-Butter Bridge 1 - Dragon Coins: 50 coins
-Butter Bridge 2 - Dragon Coins: Blue Switch Palace
-Cheese Bridge - Dragon Coins: Timer Trap
-Cookie Mountain - Dragon Coins: 10 coins
-Soda Lake - Dragon Coins: 10 coins
-Forest of Illusion 2 - Dragon Coins: 1-Up Mushroom
-Forest of Illusion 3 - Dragon Coins: 10 coins
-Forest of Illusion 4 - Dragon Coins: 1 coin
-Forest Ghost House - Dragon Coins: 5 coins
-Forest Secret - Dragon Coins: 5 coins
-#5 Roy's Castle - Dragon Coins: 1-Up Mushroom
-Chocolate Island 1 - Dragon Coins: 1-Up Mushroom
-Chocolate Island 2 - Dragon Coins: 1-Up Mushroom
-Chocolate Island 3 - Dragon Coins: 10 coins
-Chocolate Island 4 - Dragon Coins: 10 coins
-Chocolate Island 5 - Dragon Coins: 1-Up Mushroom
-Sunken Ghost Ship - Dragon Coins: 10 coins
-Valley of Bowser 1 - Dragon Coins: 10 coins
-Valley of Bowser 2 - Dragon Coins: Green Switch Palace
-Valley of Bowser 3 - Dragon Coins: 50 coins
-Valley Ghost House - Dragon Coins: 50 coins
-#7 Larry's Castle - Dragon Coins: 1-Up Mushroom
-Star Road 1 - Dragon Coins: 10 coins
-Gnarly - Dragon Coins: 5 coins
-Tubular - Dragon Coins: Thwimp Trap
-Way Cool - Dragon Coins: 50 coins
-Awesome - Dragon Coins: 10 coins
-Groovy - Dragon Coins: 1 coin
-Mondo - Dragon Coins: 1-Up Mushroom
-Outrageous - Dragon Coins: 5 coins
-Funky - Dragon Coins: 5 coins
-Yoshi's Island 1 - 3-Up Moon: 10 coins
-Donut Plains 4 - 3-Up Moon: 1 coin
-Vanilla Dome 3 - 3-Up Moon: 50 coins
-Cheese Bridge - 3-Up Moon: 50 coins
-Forest Ghost House - 3-Up Moon: Climb
-Chocolate Island 1 - 3-Up Moon: Reverse Trap
-Valley of Bowser 1 - 3-Up Moon: 1-Up Mushroom
+Star World 1 - Normal Exit: Inventory Blue Yoshi
+Star World 1 - Secret Exit: Inventory Green Yoshi
+Star World 2 - Normal Exit: Inventory Green Yoshi
+Star World 2 - Secret Exit: Reverse Trap
+Star World 3 - Normal Exit: Inventory Feather
+Star World 3 - Secret Exit: 50 coins
+Star World 4 - Normal Exit: Inventory Green Yoshi
+Star World 4 - Secret Exit: 50 coins
+Star World 5 - Normal Exit: Inventory Super Star
+Star World 5 - Secret Exit: Inventory Super Star
+Gnarly - Normal Exit: Inventory Mushroom
+Tubular - Normal Exit: Inventory Yellow Yoshi
+Way Cool - Normal Exit: Inventory Mushroom
+Awesome - Normal Exit: Inventory Red Yoshi
+Groovy - Normal Exit: Inventory Mushroom
+Mondo - Normal Exit: Inventory Fire Flower
+Outrageous - Normal Exit: Golden Yoshi Egg
+Funky - Normal Exit: Inventory Heart
+Yoshi's Island 1 - 3-Up Moon: Inventory Green Yoshi
+Donut Plains 4 - 3-Up Moon: Inventory Mushroom
+Vanilla Dome 3 - 3-Up Moon: Inventory Feather
+Cheese Bridge Area - 3-Up Moon: Inventory Heart
+Forest Ghost House - 3-Up Moon: Inventory Blue Yoshi
+Chocolate Island 1 - 3-Up Moon: Inventory Heart
+Valley of Bowser 1 - 3-Up Moon: Thwimp Trap
+Yoshi's Island 1 - Midway Point: Inventory Blue Yoshi
+Yoshi's Island 2 - Midway Point: Golden Yoshi Egg
+Yoshi's Island 3 - Midway Point: Inventory Yellow Yoshi
+#1 Iggy's Castle - Midway Point: Inventory Super Star
+Donut Plains 1 - Midway Point: Inventory Fire Flower
+Donut Plains 3 - Midway Point: Literature Trap
+Donut Plains 4 - Midway Point: Progressive Super Star
+Vanilla Dome 1 - Midway Point: Inventory Super Star
+Vanilla Dome 2 - Midway Point: Trap Repellent
+Vanilla Dome 3 - Midway Point: Inventory Super Star
+Vanilla Dome 4 - Midway Point: 50 coins
+Vanilla Secret 2 - Midway Point: Trap Repellent
+Vanilla Secret 3 - Midway Point: Stun Trap
+#3 Lemmy's Castle - Midway Point: Inventory Fire Flower
+Butter Bridge 2 - Midway Point: Inventory Mushroom
+Cheese Bridge Area - Midway Point: Inventory Heart
+Cookie Mountain - Midway Point: Inventory Red Yoshi
+Forest of Illusion 1 - Midway Point: Inventory Mushroom
+Forest of Illusion 3 - Midway Point: Inventory Feather
+Forest of Illusion 4 - Midway Point: Inventory Mushroom
+Chocolate Island 1 - Midway Point: Inventory Mushroom
+Chocolate Island 3 - Midway Point: Inventory Feather
+Chocolate Island 5 - Midway Point: Trap Repellent
+Chocolate Secret - Midway Point: Inventory Heart
+Chocolate Fortress - Midway Point: Empty Item Box Trap
+#6 Wendy's Castle - Midway Point: 50 coins
+Valley of Bowser 1 - Midway Point: Inventory Red Yoshi
+Valley of Bowser 2 - Midway Point: Inventory Mushroom
+Valley of Bowser 3 - Midway Point: Inventory Red Yoshi
+Valley of Bowser 4 - Midway Point: Inventory Heart
+#7 Larry's Castle - Midway Point: Inventory Heart
+#2 Morton's Castle - Yellow Switch Palace Block #1: Golden Yoshi Egg
+Donut Plains 2 - Yellow Switch Palace Block #1: Inventory Yellow Yoshi
+Donut Plains 2 - Yellow Switch Palace Block #2: Trap Repellent
+Vanilla Fortress - Yellow Switch Palace Block #1: Inventory Mushroom
+Donut Plains 1 - Yellow Switch Palace Block #1: Trap Repellent
+Donut Plains 1 - Yellow Switch Palace Block #2: Inventory Mushroom
+Donut Plains 1 - Yellow Switch Palace Block #3: Inventory Heart
+#6 Wendy's Castle - Yellow Switch Palace Block #1: Inventory Green Yoshi
+#6 Wendy's Castle - Yellow Switch Palace Block #2: Empty Item Box Trap
+Chocolate Island 5 - Yellow Switch Palace Block #1: Inventory Mushroom
+Chocolate Island 4 - Yellow Switch Palace Block #1: Inventory Fire Flower
+Forest Fortress - Yellow Switch Palace Block #1: Inventory Yellow Yoshi
+Chocolate Island 2 - Yellow Switch Palace Block #1: Inventory Heart
+Chocolate Island 2 - Yellow Switch Palace Block #2: 50 coins
+Yoshi's Island 4 - Yellow Switch Palace Block #1: 1 coin
+Yoshi's Island 3 - Yellow Switch Palace Block #1: Inventory Yellow Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #2: 5 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #3: Inventory Blue Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #4: Inventory Blue Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #5: Trap Repellent
+Yoshi's Island 3 - Yellow Switch Palace Block #6: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #7: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #8: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #9: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #10: Inventory Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #11: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #12: Golden Yoshi Egg
+Yoshi's Island 3 - Yellow Switch Palace Block #13: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #14: Progressive Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #15: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #16: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #17: Swim
+Yoshi's Island 3 - Yellow Switch Palace Block #18: 50 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #19: Bullet Time Trap
+Yoshi's Island 3 - Yellow Switch Palace Block #20: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #21: P-Balloon
+Yoshi's Island 3 - Yellow Switch Palace Block #22: Progressive Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #23: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #24: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #25: Inventory Feather
+Yoshi's Island 3 - Yellow Switch Palace Block #26: Inventory Feather
+Yoshi's Island 3 - Yellow Switch Palace Block #27: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #28: Trap Repellent
+Yoshi's Island 3 - Yellow Switch Palace Block #29: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #30: Literature Trap
+Yoshi's Island 3 - Yellow Switch Palace Block #31: 10 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #32: Golden Yoshi Egg
+Yoshi's Island 3 - Yellow Switch Palace Block #33: Inventory Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #34: 50 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #35: Invisibility Trap
+Yoshi's Island 3 - Yellow Switch Palace Block #36: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #37: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #38: Green Switch Palace
+Yoshi's Island 3 - Yellow Switch Palace Block #39: 5 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #40: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #41: Inventory Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #42: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #43: Progressive Timer
+Yoshi's Island 3 - Yellow Switch Palace Block #44: 10 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #45: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #46: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #47: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #48: Inventory Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #49: 50 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #50: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #51: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #52: Inventory Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #53: Trap Repellent
+Yoshi's Island 3 - Yellow Switch Palace Block #54: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #55: Inventory Blue Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #56: Inventory Red Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #57: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #58: 10 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #59: Golden Yoshi Egg
+Yoshi's Island 3 - Yellow Switch Palace Block #60: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #61: Red Switch Palace
+Yoshi's Island 3 - Yellow Switch Palace Block #62: Inventory Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #63: Golden Yoshi Egg
+Yoshi's Island 3 - Yellow Switch Palace Block #64: 5 coins
+Yoshi's Island 3 - Yellow Switch Palace Block #65: Inventory Yellow Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #66: Inventory Feather
+Yoshi's Island 3 - Yellow Switch Palace Block #67: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #68: Inventory Fire Flower
+Yoshi's Island 3 - Yellow Switch Palace Block #69: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #70: Progressive Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #71: Inventory Blue Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #72: Inventory Feather
+Yoshi's Island 3 - Yellow Switch Palace Block #73: Inventory Super Star
+Yoshi's Island 3 - Yellow Switch Palace Block #74: Inventory Green Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #75: Inventory Mushroom
+Yoshi's Island 3 - Yellow Switch Palace Block #76: Progressive Powerup
+Yoshi's Island 3 - Yellow Switch Palace Block #77: Special Zone Clear
+Yoshi's Island 3 - Yellow Switch Palace Block #78: Spotlight Trap
+Yoshi's Island 3 - Yellow Switch Palace Block #79: 1 coin
+Yoshi's Island 3 - Yellow Switch Palace Block #80: Stun Trap
+Yoshi's Island 3 - Yellow Switch Palace Block #81: Inventory Yellow Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #82: Inventory Heart
+Yoshi's Island 3 - Yellow Switch Palace Block #83: Inventory Red Yoshi
+Yoshi's Island 3 - Yellow Switch Palace Block #84: Trap Repellent
+Yoshi's Island 3 - Yellow Switch Palace Block #85: Sticky Hands Trap
+Yoshi's Island 3 - Yellow Switch Palace Block #86: Inventory Green Yoshi
+Yoshi's Island 1 - Yellow Switch Palace Block #1: Inventory Mushroom
+Yoshi's Island 2 - Yellow Switch Palace Block #1: Fishin' Boo Trap
+Yoshi's Island 2 - Yellow Switch Palace Block #2: Inventory Feather
+Valley of Bowser 4 - Yellow Switch Palace Block #1: Inventory Feather
+#7 Larry's Castle - Yellow Switch Palace Block #1: Inventory Fire Flower
+#7 Larry's Castle - Yellow Switch Palace Block #2: Inventory Mushroom
+Valley Fortress - Yellow Switch Palace Block #1: Item Box
+Valley of Bowser 2 - Yellow Switch Palace Block #1: Inventory Super Star
+Valley of Bowser 1 - Yellow Switch Palace Block #1: Golden Yoshi Egg
+Valley of Bowser 1 - Yellow Switch Palace Block #2: Inventory Red Yoshi
+Valley of Bowser 1 - Yellow Switch Palace Block #3: Inventory Mushroom
+Valley of Bowser 1 - Yellow Switch Palace Block #4: Inventory Fire Flower
+Forest of Illusion 2 - Yellow Switch Palace Block #1: Trap Repellent
+Star World 5 - Yellow Switch Palace Block #1: Inventory Yellow Yoshi
+Star World 5 - Yellow Switch Palace Block #2: Golden Yoshi Egg
+Star World 5 - Yellow Switch Palace Block #3: 1 coin
+Star World 5 - Yellow Switch Palace Block #4: 10 coins
+Star World 5 - Yellow Switch Palace Block #5: Inventory Mushroom
+Star World 5 - Yellow Switch Palace Block #6: Inventory Fire Flower
+Star World 5 - Yellow Switch Palace Block #7: Inventory Super Star
+Star World 5 - Yellow Switch Palace Block #8: Inventory Blue Yoshi
+Star World 5 - Yellow Switch Palace Block #9: Inventory Super Star
+Star World 5 - Yellow Switch Palace Block #10: Inventory Super Star
+Star World 5 - Yellow Switch Palace Block #11: 50 coins
+Star World 5 - Yellow Switch Palace Block #12: Inventory Feather
+Star World 5 - Yellow Switch Palace Block #13: Inventory Blue Yoshi
+Star World 5 - Yellow Switch Palace Block #14: Progressive Powerup
+Star World 5 - Yellow Switch Palace Block #15: Inventory Green Yoshi
+Star World 5 - Yellow Switch Palace Block #16: Golden Yoshi Egg
+Star World 5 - Yellow Switch Palace Block #17: Inventory Fire Flower
+Star World 5 - Yellow Switch Palace Block #18: Reverse Trap
+Star World 5 - Yellow Switch Palace Block #19: 50 coins
+Star World 5 - Yellow Switch Palace Block #20: Progressive Run
+Vanilla Secret 2 - Green Switch Palace Block #1: Trap Repellent
+Donut Plains 3 - Green Switch Palace Block #1: Inventory Heart
+#2 Morton's Castle - Green Switch Palace Block #1: Golden Yoshi Egg
+Donut Plains 2 - Green Switch Palace Block #1: Inventory Super Star
+Butter Bridge 2 - Green Switch Palace Block #1: Stun Trap
+Donut Plains 1 - Green Switch Palace Block #1: Inventory Mushroom
+Donut Plains 1 - Green Switch Palace Block #2: Reverse Trap
+Donut Plains 1 - Green Switch Palace Block #3: 5 coins
+Donut Plains 1 - Green Switch Palace Block #4: Golden Yoshi Egg
+Donut Plains 1 - Green Switch Palace Block #5: Inventory Mushroom
+Donut Plains 1 - Green Switch Palace Block #6: Inventory Red Yoshi
+Donut Plains 1 - Green Switch Palace Block #7: Screen Flip Trap
+Donut Plains 1 - Green Switch Palace Block #8: Sticky Hands Trap
+Donut Plains 1 - Green Switch Palace Block #9: Inventory Feather
+Donut Plains 1 - Green Switch Palace Block #10: Inventory Fire Flower
+Donut Plains 1 - Green Switch Palace Block #11: Reverse Trap
+Donut Plains 1 - Green Switch Palace Block #12: Inventory Heart
+Donut Plains 1 - Green Switch Palace Block #13: Timer Trap
+Donut Plains 1 - Green Switch Palace Block #14: Inventory Mushroom
+Donut Plains 1 - Green Switch Palace Block #15: Inventory Feather
+Donut Plains 1 - Green Switch Palace Block #16: Empty Item Box Trap
+#6 Wendy's Castle - Green Switch Palace Block #1: Inventory Yellow Yoshi
+Chocolate Fortress - Green Switch Palace Block #1: Inventory Blue Yoshi
+#5 Roy's Castle - Green Switch Palace Block #1: Trap Repellent
+Chocolate Island 1 - Green Switch Palace Block #1: Inventory Green Yoshi
+Chocolate Island 3 - Green Switch Palace Block #1: Inventory Super Star
+Chocolate Island 2 - Green Switch Palace Block #1: 5 coins
+Chocolate Island 2 - Green Switch Palace Block #2: Inventory Heart
+Chocolate Island 2 - Green Switch Palace Block #3: Golden Yoshi Egg
+Chocolate Island 2 - Green Switch Palace Block #4: 50 coins
+Chocolate Island 2 - Green Switch Palace Block #5: Inventory Super Star
+Chocolate Island 2 - Green Switch Palace Block #6: Inventory Fire Flower
+#7 Larry's Castle - Green Switch Palace Block #1: Empty Item Box Trap
+Valley Fortress - Green Switch Palace Block #1: Inventory Heart
+Valley of Bowser 1 - Green Switch Palace Block #1: Inventory Heart
+#3 Lemmy's Castle - Green Switch Palace Block #1: Inventory Fire Flower
+Forest of Illusion 2 - Green Switch Palace Block #1: Invisibility Trap
+Star World 4 - Green Switch Palace Block #1: Inventory Feather
+Star World 4 - Green Switch Palace Block #2: Inventory Red Yoshi
+Star World 4 - Green Switch Palace Block #3: Golden Yoshi Egg
+Star World 4 - Green Switch Palace Block #4: Golden Yoshi Egg
+Star World 4 - Green Switch Palace Block #5: Inventory Red Yoshi
+Star World 4 - Green Switch Palace Block #6: Trap Repellent
+Star World 4 - Green Switch Palace Block #7: Sticky Floor Trap
+Star World 5 - Green Switch Palace Block #1: Inventory Heart
+Star World 5 - Green Switch Palace Block #2: Inventory Mushroom
+Star World 5 - Green Switch Palace Block #3: Inventory Yellow Yoshi
+Star World 5 - Green Switch Palace Block #4: Trap Repellent
+Star World 5 - Green Switch Palace Block #5: Inventory Fire Flower
+Star World 5 - Green Switch Palace Block #6: Inventory Mushroom
+Star World 5 - Green Switch Palace Block #7: Thwimp Trap
+Star World 5 - Green Switch Palace Block #8: Inventory Feather
+Star World 5 - Green Switch Palace Block #9: Inventory Super Star
+Star World 5 - Green Switch Palace Block #10: Thwimp Trap
+Star World 5 - Green Switch Palace Block #11: Inventory Super Star
+Star World 5 - Green Switch Palace Block #12: Golden Yoshi Egg
+Star World 5 - Green Switch Palace Block #13: Inventory Mushroom
+Star World 5 - Green Switch Palace Block #14: Inventory Blue Yoshi
+Star World 5 - Green Switch Palace Block #15: Inventory Fire Flower
+Star World 5 - Green Switch Palace Block #16: Inventory Yellow Yoshi
+Star World 5 - Green Switch Palace Block #17: Inventory Heart
+Star World 5 - Green Switch Palace Block #18: Inventory Heart
+Star World 5 - Green Switch Palace Block #19: Inventory Heart
+Star World 5 - Green Switch Palace Block #20: Inventory Heart
+Vanilla Dome 3 - P-Switch Coin Block #1: Inventory Super Star
+Vanilla Dome 3 - P-Switch Coin Block #2: Spotlight Trap
+Vanilla Dome 3 - P-Switch Coin Block #3: Inventory Heart
+Vanilla Dome 3 - P-Switch Coin Block #4: Inventory Yellow Yoshi
+Vanilla Dome 3 - P-Switch Coin Block #5: Inventory Green Yoshi
+Vanilla Dome 3 - P-Switch Coin Block #6: Golden Yoshi Egg
+Valley Ghost House - P-Switch Coin Block #1: Inventory Mushroom
+Gnarly - P-Switch Coin Block #1: Inventory Heart
+Gnarly - P-Switch Coin Block #2: Inventory Mushroom
+Gnarly - P-Switch Coin Block #3: Inventory Super Star
+Gnarly - P-Switch Coin Block #4: Inventory Red Yoshi
+Gnarly - P-Switch Coin Block #5: Inventory Mushroom
+Gnarly - P-Switch Coin Block #6: Inventory Green Yoshi
+Gnarly - P-Switch Coin Block #7: Golden Yoshi Egg
+Gnarly - P-Switch Coin Block #8: Inventory Mushroom
+Gnarly - P-Switch Coin Block #9: 10 coins
+Gnarly - P-Switch Coin Block #10: Inventory Mushroom
+Gnarly - P-Switch Coin Block #11: Bullet Time Trap
+Gnarly - P-Switch Coin Block #12: Inventory Heart
+Gnarly - P-Switch Coin Block #13: Timer Trap
+Donut Plains 2 - Flying Question Block #1: Inventory Mushroom
+Chocolate Island 1 - Flying Question Block #1: Trap Repellent
+Chocolate Island 1 - Flying Question Block #2: Progressive Powerup
+#1 Iggy's Castle - Flying Question Block #1: Inventory Blue Yoshi
+Yoshi's Island 1 - Flying Question Block #1: Inventory Fire Flower
+Yoshi's Island 2 - Flying Question Block #1: Sticky Hands Trap
+Yoshi's Island 2 - Flying Question Block #2: Inventory Mushroom
+Yoshi's Island 2 - Flying Question Block #3: Inventory Heart
+Yoshi's Island 2 - Flying Question Block #4: Inventory Mushroom
+Yoshi's Island 2 - Flying Question Block #5: Sticky Floor Trap
+Yoshi's Island 2 - Flying Question Block #6: Inventory Super Star
+Vanilla Dome 3 - Flying Question Block #1: Inventory Yellow Yoshi
+Vanilla Dome 3 - Flying Question Block #2: Inventory Heart
+Vanilla Dome 3 - Flying Question Block #3: Inventory Mushroom
+Vanilla Dome 1 - Flying Question Block #1: Inventory Feather
+Forest Ghost House - Flying Question Block #1: Inventory Super Star
+Funky - Flying Question Block #1: Inventory Feather
+Vanilla Secret 2 - Multi Coin Block #1: Trap Repellent
+Vanilla Secret 2 - Coin Block #1: Inventory Red Yoshi
+Vanilla Secret 2 - Coin Block #2: Inventory Fire Flower
+Vanilla Secret 2 - Coin Block #3: 50 coins
+Vanilla Secret 2 - Coin Block #4: Inventory Yellow Yoshi
+Vanilla Secret 2 - Coin Block #5: Inventory Mushroom
+Vanilla Secret 2 - Coin Block #6: Inventory Mushroom
+Donut Plains 3 - Coin Block #1: Inventory Green Yoshi
+Donut Plains 3 - Coin Block #2: Inventory Feather
+Donut Plains 4 - Coin Block #1: Inventory Heart
+Donut Plains 4 - Coin Block #2: Inventory Heart
+#2 Morton's Castle - Coin Block #1: Inventory Mushroom
+#2 Morton's Castle - Coin Block #2: Inventory Feather
+#2 Morton's Castle - Coin Block #3: Inventory Heart
+#2 Morton's Castle - Coin Block #4: Inventory Heart
+#2 Morton's Castle - Coin Block #5: 10 coins
+Donut Plains 2 - Coin Block #1: 1 coin
+Donut Plains 2 - Coin Block #2: Inventory Heart
+Donut Plains 2 - Coin Block #3: Inventory Mushroom
+Donut Plains 2 - Multi Coin Block #1: 5 coins
+Donut Secret 1 - Coin Block #1: Inventory Feather
+Donut Secret 1 - Coin Block #2: Inventory Blue Yoshi
+Donut Secret 1 - Coin Block #3: 10 coins
+Butter Bridge 1 - Multi Coin Block #1: Inventory Red Yoshi
+Butter Bridge 1 - Multi Coin Block #2: Inventory Feather
+Butter Bridge 1 - Multi Coin Block #3: Golden Yoshi Egg
+Cookie Mountain - Coin Block #1: Inventory Red Yoshi
+Cookie Mountain - Coin Block #2: Inventory Feather
+Cookie Mountain - Coin Block #3: Inventory Super Star
+Cookie Mountain - Coin Block #4: Golden Yoshi Egg
+Cookie Mountain - Coin Block #5: Inventory Yellow Yoshi
+Cookie Mountain - Coin Block #6: Inventory Fire Flower
+Cookie Mountain - Coin Block #7: Inventory Super Star
+Cookie Mountain - Coin Block #8: 5 coins
+Cookie Mountain - Coin Block #9: Inventory Super Star
+Cookie Mountain - Coin Block #10: Inventory Mushroom
+Cookie Mountain - Coin Block #11: Inventory Yellow Yoshi
+Cookie Mountain - Coin Block #12: Inventory Mushroom
+Cookie Mountain - Coin Block #13: Inventory Mushroom
+Cookie Mountain - Coin Block #14: 50 coins
+Cookie Mountain - Coin Block #15: Inventory Fire Flower
+Cookie Mountain - Coin Block #16: Inventory Green Yoshi
+Cookie Mountain - Coin Block #17: Golden Yoshi Egg
+Cookie Mountain - Coin Block #18: Inventory Feather
+Cookie Mountain - Coin Block #19: Inventory Green Yoshi
+Cookie Mountain - Coin Block #20: Inventory Green Yoshi
+Cookie Mountain - Coin Block #21: 5 coins
+Cookie Mountain - Coin Block #22: Trap Repellent
+Cookie Mountain - Coin Block #23: Inventory Feather
+Cookie Mountain - Coin Block #24: Inventory Heart
+Cookie Mountain - Coin Block #25: 5 coins
+Cookie Mountain - Coin Block #26: Trap Repellent
+Cookie Mountain - Coin Block #27: Inventory Super Star
+Cookie Mountain - Coin Block #28: Sticky Floor Trap
+Cookie Mountain - Coin Block #29: Inventory Green Yoshi
+Cookie Mountain - Coin Block #30: Inventory Heart
+Donut Secret House - Multi Coin Block #1: Inventory Super Star
+Donut Plains 1 - Coin Block #1: Thwimp Trap
+Donut Plains 1 - Coin Block #2: Progressive Timer
+Chocolate Fortress - Coin Block #1: Golden Yoshi Egg
+Chocolate Fortress - Coin Block #2: Sticky Hands Trap
+Chocolate Island 2 - Multi Coin Block #1: Inventory Yellow Yoshi
+Chocolate Island 2 - Coin Block #1: Inventory Blue Yoshi
+Chocolate Island 2 - Coin Block #2: Inventory Blue Yoshi
+Chocolate Island 2 - Multi Coin Block #2: 1 coin
+#1 Iggy's Castle - Coin Block #1: Inventory Fire Flower
+#1 Iggy's Castle - Coin Block #2: Inventory Mushroom
+#1 Iggy's Castle - Coin Block #3: 50 coins
+#1 Iggy's Castle - Coin Block #4: Sticky Hands Trap
+Yoshi's Island 4 - Multi Coin Block #1: Inventory Feather
+Yoshi's Island 3 - Coin Block #1: Inventory Heart
+Yoshi's Island 3 - Coin Block #2: Inventory Red Yoshi
+Yoshi's Island 2 - Coin Block #1: Inventory Mushroom
+Yoshi's Island 2 - Coin Block #2: Trap Repellent
+Yoshi's Island 2 - Coin Block #3: Pixelate Trap
+Yoshi's Island 2 - Coin Block #4: Empty Item Box Trap
+Yoshi's Island 2 - Coin Block #5: Inventory Mushroom
+Vanilla Ghost House - Multi Coin Block #1: Inventory Red Yoshi
+Vanilla Secret 1 - Coin Block #1: Sticky Floor Trap
+Vanilla Secret 1 - Multi Coin Block #1: Inventory Feather
+Vanilla Secret 1 - Coin Block #2: Inventory Yellow Yoshi
+Vanilla Secret 1 - Coin Block #3: Inventory Fire Flower
+Vanilla Dome 3 - Coin Block #1: Inventory Green Yoshi
+Vanilla Dome 3 - Multi Coin Block #1: Inventory Heart
+Valley Ghost House - Multi Coin Block #1: Inventory Yellow Yoshi
+Vanilla Dome 2 - Coin Block #1: Inventory Mushroom
+Vanilla Dome 2 - Coin Block #2: Inventory Green Yoshi
+Vanilla Dome 2 - Coin Block #3: Inventory Mushroom
+Vanilla Dome 2 - Coin Block #4: Inventory Heart
+Vanilla Dome 2 - Coin Block #5: Inventory Blue Yoshi
+Vanilla Dome 2 - Multi Coin Block #1: Inventory Fire Flower
+Vanilla Dome 2 - Multi Coin Block #2: Golden Yoshi Egg
+Vanilla Dome 4 - Coin Block #1: Inventory Heart
+Vanilla Dome 4 - Coin Block #2: Inventory Mushroom
+Vanilla Dome 4 - Coin Block #3: Inventory Green Yoshi
+Vanilla Dome 4 - Coin Block #4: Inventory Feather
+Vanilla Dome 4 - Coin Block #5: Progressive Super Star
+Vanilla Dome 4 - Coin Block #6: Trap Repellent
+Vanilla Dome 4 - Coin Block #7: Inventory Super Star
+Vanilla Dome 4 - Coin Block #8: Trap Repellent
+Vanilla Dome 1 - Coin Block #1: Inventory Mushroom
+Vanilla Dome 1 - Coin Block #2: Inventory Feather
+Forest Ghost House - Coin Block #1: Inventory Fire Flower
+Forest of Illusion 4 - Multi Coin Block #1: Inventory Super Star
+Forest of Illusion 4 - Coin Block #1: Trap Repellent
+Forest of Illusion 4 - Coin Block #2: Inventory Heart
+Forest of Illusion 4 - Coin Block #3: Trap Repellent
+Forest of Illusion 4 - Coin Block #4: Inventory Heart
+Forest of Illusion 4 - Coin Block #5: Inventory Heart
+Forest of Illusion 4 - Coin Block #6: Golden Yoshi Egg
+Forest of Illusion 4 - Coin Block #7: 50 coins
+Forest of Illusion 4 - Coin Block #8: Inventory Heart
+Forest of Illusion 4 - Coin Block #9: 50 coins
+Forest of Illusion 4 - Coin Block #10: Inventory Super Star
+Forest of Illusion 3 - Coin Block #1: Inventory Red Yoshi
+Forest of Illusion 3 - Multi Coin Block #1: Inventory Red Yoshi
+Forest of Illusion 3 - Coin Block #2: Inventory Fire Flower
+Forest of Illusion 3 - Multi Coin Block #2: Golden Yoshi Egg
+Forest of Illusion 3 - Coin Block #3: Inventory Fire Flower
+Forest of Illusion 3 - Coin Block #4: Inventory Feather
+Forest of Illusion 3 - Coin Block #5: Inventory Heart
+Forest of Illusion 3 - Coin Block #6: 5 coins
+Forest of Illusion 3 - Coin Block #7: Inventory Heart
+Forest of Illusion 3 - Coin Block #8: Fishin' Boo Trap
+Forest of Illusion 3 - Coin Block #9: Inventory Feather
+Forest of Illusion 3 - Coin Block #10: Inventory Green Yoshi
+Forest of Illusion 3 - Coin Block #11: Inventory Mushroom
+Forest of Illusion 3 - Coin Block #12: Trap Repellent
+Forest of Illusion 3 - Coin Block #13: Golden Yoshi Egg
+Forest of Illusion 3 - Coin Block #14: 10 coins
+Forest of Illusion 3 - Coin Block #15: Inventory Super Star
+Forest of Illusion 3 - Coin Block #16: Inventory Heart
+Forest of Illusion 3 - Coin Block #17: 5 coins
+Forest of Illusion 3 - Coin Block #18: Inventory Super Star
+Forest of Illusion 3 - Coin Block #19: Inventory Red Yoshi
+Forest of Illusion 3 - Coin Block #20: 10 coins
+Forest of Illusion 3 - Coin Block #21: Inventory Fire Flower
+Forest of Illusion 3 - Coin Block #22: 10 coins
+Forest of Illusion 3 - Coin Block #23: Inventory Yellow Yoshi
+Forest of Illusion 3 - Coin Block #24: Golden Yoshi Egg
+Funky - Coin Block #1: Inventory Heart
+Funky - Coin Block #2: Timer Trap
+Funky - Coin Block #3: Reverse Trap
+Funky - Coin Block #4: Progressive Super Star
+Funky - Coin Block #5: Inventory Mushroom
+Funky - Coin Block #6: Inventory Mushroom
+Funky - Coin Block #7: Golden Yoshi Egg
+Funky - Coin Block #8: Inventory Mushroom
+Funky - Coin Block #9: Inventory Feather
+Funky - Coin Block #10: Inventory Green Yoshi
+Funky - Coin Block #11: Inventory Mushroom
+Funky - Coin Block #12: Inventory Mushroom
+Funky - Coin Block #13: 10 coins
+Funky - Coin Block #14: Inventory Heart
+Funky - Coin Block #15: Inventory Heart
+Funky - Coin Block #16: Timer Trap
+Funky - Coin Block #17: Inventory Mushroom
+Funky - Coin Block #18: Inventory Super Star
+Funky - Multi Coin Block #1: Inventory Super Star
+Funky - Coin Block #19: Inventory Feather
+Funky - Coin Block #20: Inventory Green Yoshi
+Funky - Coin Block #21: Inventory Yellow Yoshi
+Funky - Coin Block #22: Inventory Mushroom
+Funky - Coin Block #23: Inventory Feather
+Outrageous - Coin Block #1: Inventory Mushroom
+Outrageous - Coin Block #2: Golden Yoshi Egg
+Mondo - Coin Block #1: Inventory Mushroom
+Mondo - Coin Block #2: Inventory Super Star
+Mondo - Multi Coin Block #1: Inventory Super Star
+Mondo - Coin Block #3: Inventory Heart
+Mondo - Coin Block #4: Inventory Heart
+Mondo - Coin Block #5: Inventory Super Star
+Mondo - Coin Block #6: Golden Yoshi Egg
+Mondo - Coin Block #7: Inventory Green Yoshi
+Mondo - Coin Block #8: Inventory Heart
+Mondo - Coin Block #9: Golden Yoshi Egg
+Mondo - Coin Block #10: Carry
+Mondo - Coin Block #11: Pixelate Trap
+Mondo - Coin Block #12: Inventory Yellow Yoshi
+Mondo - Coin Block #13: 50 coins
+Mondo - Coin Block #14: Inventory Heart
+Mondo - Coin Block #15: Inventory Blue Yoshi
+Mondo - Coin Block #16: Inventory Mushroom
+Mondo - Coin Block #17: Inventory Yellow Yoshi
+Mondo - Coin Block #18: Inventory Heart
+Mondo - Coin Block #19: Golden Yoshi Egg
+Mondo - Coin Block #20: Inventory Fire Flower
+Mondo - Coin Block #21: Inventory Super Star
+Mondo - Coin Block #22: Inventory Super Star
+Mondo - Coin Block #23: Inventory Green Yoshi
+Mondo - Coin Block #24: 1 coin
+Mondo - Coin Block #25: Inventory Super Star
+Mondo - Coin Block #26: Inventory Heart
+Mondo - Coin Block #27: Golden Yoshi Egg
+Mondo - Coin Block #28: Inventory Mushroom
+Mondo - Coin Block #29: Inventory Fire Flower
+Mondo - Coin Block #30: Inventory Feather
+Mondo - Coin Block #31: Inventory Super Star
+Mondo - Coin Block #32: Inventory Mushroom
+Mondo - Coin Block #33: Inventory Heart
+Tubular - Coin Block #1: Inventory Fire Flower
+Tubular - Coin Block #2: Inventory Fire Flower
+Tubular - Coin Block #3: Inventory Blue Yoshi
+Tubular - Coin Block #4: Inventory Mushroom
+Tubular - Multi Coin Block #1: Inventory Feather
+Tubular - Coin Block #5: Inventory Red Yoshi
+Tubular - Coin Block #6: Inventory Heart
+Vanilla Secret 2 - Yoshi Block #1: Inventory Green Yoshi
+Vanilla Secret 2 - Powerup Block #1: Progressive Super Star
+Vanilla Secret 2 - Powerup Block #2: 1 coin
+Vanilla Secret 2 - Gray P-Switch Block #1: Inventory Feather
+Vanilla Secret 3 - Powerup Block #1: Golden Yoshi Egg
+Vanilla Secret 3 - Powerup Block #2: Inventory Mushroom
+Donut Ghost House - Vine Block #1: P-Switch
+Donut Ghost House - Directional Coin Block #1: Inventory Fire Flower
+Donut Ghost House - 1up Mushroom Block #1: Inventory Red Yoshi
+Donut Ghost House - 1up Mushroom Block #2: 5 coins
+Donut Ghost House - 1up Mushroom Block #3: 1 coin
+Donut Ghost House - 1up Mushroom Block #4: Inventory Mushroom
+Donut Plains 3 - Vine Block #1: Golden Yoshi Egg
+Donut Plains 3 - Powerup Block #1: Inventory Heart
+Donut Plains 4 - Powerup Block #1: Empty Item Box Trap
+Donut Plains 4 - Yoshi Block #1: Progressive Timer
+#2 Morton's Castle - Powerup Block #1: Trap Repellent
+#2 Morton's Castle - Vine Block #1: Inventory Super Star
+Donut Plains 2 - Powerup Block #1: Inventory Super Star
+Donut Plains 2 - Vine Block #1: Inventory Heart
+Donut Secret 1 - Powerup Block #1: Inventory Super Star
+Donut Secret 1 - Powerup Block #2: Golden Yoshi Egg
+Donut Secret 1 - Powerup Block #3: Empty Item Box Trap
+Donut Secret 1 - 1up Mushroom Block #1: Inventory Mushroom
+Donut Secret 1 - Powerup Block #4: Golden Yoshi Egg
+Donut Secret 1 - Powerup Block #5: Inventory Heart
+Donut Secret 1 - Key Block #1: Inventory Super Star
+Vanilla Fortress - Powerup Block #1: Inventory Red Yoshi
+Vanilla Fortress - Powerup Block #2: Inventory Heart
+Butter Bridge 1 - Powerup Block #1: Trap Repellent
+Butter Bridge 1 - 1up Mushroom Block #1: Inventory Heart
+Butter Bridge 2 - Powerup Block #1: Inventory Super Star
+Butter Bridge 2 - Yoshi Block #1: 5 coins
+#4 Ludwig Castle - Powerup Block #1: Golden Yoshi Egg
+Cheese Bridge Area - Powerup Block #1: Inventory Mushroom
+Cheese Bridge Area - Powerup Block #2: Ice Trap
+Cheese Bridge Area - Wings Block #1: Inventory Mushroom
+Cheese Bridge Area - Powerup Block #3: Inventory Feather
+Cookie Mountain - Powerup Block #1: 50 coins
+Cookie Mountain - 1up Mushroom Block #1: Timer Trap
+Cookie Mountain - Vine Block #1: Inventory Mushroom
+Cookie Mountain - Yoshi Block #1: Inventory Red Yoshi
+Cookie Mountain - Powerup Block #2: Ice Trap
+Soda Lake - Powerup Block #1: Sticky Hands Trap
+Donut Secret House - Powerup Block #1: Golden Yoshi Egg
+Donut Secret House - 1up Mushroom Block #1: Inventory Yellow Yoshi
+Donut Secret House - Vine Block #1: Inventory Green Yoshi
+Donut Secret House - Directional Coin Block #1: Inventory Heart
+Donut Plains 1 - Yoshi Block #1: Progressive Super Star
+Donut Plains 1 - Vine Block #1: Inventory Mushroom
+Sunken Ghost Ship - Powerup Block #1: Inventory Yellow Yoshi
+Sunken Ghost Ship - Star Block #1: Inventory Mushroom
+Chocolate Fortress - Powerup Block #1: Inventory Feather
+Chocolate Fortress - Powerup Block #2: Inventory Mushroom
+Chocolate Island 5 - Yoshi Block #1: Inventory Super Star
+Chocolate Island 5 - Powerup Block #1: Reverse Trap
+Chocolate Island 5 - 1up Mushroom Block #1: 50 coins
+Chocolate Island 4 - Blue P-Switch Block #1: 5 coins
+Chocolate Island 4 - Powerup Block #1: Literature Trap
+Forest Fortress - Powerup Block #1: Inventory Feather
+Forest Fortress - 1up Mushroom Block #1: Inventory Mushroom
+Forest Fortress - 1up Mushroom Block #2: Progressive Super Star
+Forest Fortress - 1up Mushroom Block #3: Inventory Heart
+Forest Fortress - 1up Mushroom Block #4: Inventory Heart
+Forest Fortress - 1up Mushroom Block #5: Inventory Mushroom
+Forest Fortress - 1up Mushroom Block #6: Inventory Heart
+Forest Fortress - 1up Mushroom Block #7: 50 coins
+Forest Fortress - 1up Mushroom Block #8: Inventory Blue Yoshi
+Forest Fortress - 1up Mushroom Block #9: Inventory Blue Yoshi
+Choco Ghost House - Powerup Block #1: Inventory Fire Flower
+Choco Ghost House - Powerup Block #2: Inventory Fire Flower
+Choco Ghost House - 1up Mushroom Block #1: Inventory Super Star
+Chocolate Island 1 - Yoshi Block #1: Inventory Yellow Yoshi
+Chocolate Island 1 - 1up Mushroom Block #1: Inventory Heart
+Chocolate Island 3 - Powerup Block #1: Trap Repellent
+Chocolate Island 3 - Powerup Block #2: Inventory Red Yoshi
+Chocolate Island 3 - Powerup Block #3: Inventory Yellow Yoshi
+Chocolate Island 3 - Vine Block #1: Extra Defense
+Chocolate Island 3 - 1up Mushroom Block #1: Inventory Feather
+Chocolate Island 3 - 1up Mushroom Block #2: Inventory Mushroom
+Chocolate Island 3 - 1up Mushroom Block #3: Golden Yoshi Egg
+Chocolate Island 2 - Yoshi Block #1: Inventory Blue Yoshi
+Chocolate Island 2 - Powerup Block #1: Inventory Heart
+Chocolate Island 2 - Blue P-Switch Block #1: Golden Yoshi Egg
+#1 Iggy's Castle - Powerup Block #1: Inventory Fire Flower
+Yoshi's Island 4 - Powerup Block #1: Inventory Heart
+Yoshi's Island 4 - Star Block #1: Inventory Heart
+Yoshi's Island 3 - Yoshi Block #1: Sticky Hands Trap
+Yoshi's Island 3 - Powerup Block #1: Inventory Super Star
+Yoshi's Island 1 - 1up Mushroom Block #1: Inventory Red Yoshi
+Yoshi's Island 1 - Powerup Block #1: Inventory Red Yoshi
+Yoshi's Island 2 - Yoshi Block #1: Inventory Yellow Yoshi
+Yoshi's Island 2 - Yoshi Block #2: Inventory Mushroom
+Yoshi's Island 2 - Vine Block #1: Inventory Yellow Yoshi
+Vanilla Ghost House - Powerup Block #1: Inventory Super Star
+Vanilla Ghost House - Vine Block #1: Inventory Fire Flower
+Vanilla Ghost House - Powerup Block #2: Golden Yoshi Egg
+Vanilla Ghost House - Blue P-Switch Block #1: Inventory Red Yoshi
+Vanilla Secret 1 - Powerup Block #1: Inventory Mushroom
+Vanilla Secret 1 - Vine Block #1: Inventory Super Star
+Vanilla Secret 1 - Vine Block #2: Inventory Feather
+Vanilla Secret 1 - Powerup Block #2: Inventory Feather
+Vanilla Dome 3 - Powerup Block #1: Inventory Heart
+Vanilla Dome 3 - Powerup Block #2: Pixelate Trap
+Vanilla Dome 3 - Powerup Block #3: Inventory Mushroom
+Vanilla Dome 3 - Yoshi Block #1: Inventory Green Yoshi
+Vanilla Dome 3 - Powerup Block #4: Golden Yoshi Egg
+Donut Secret 2 - Directional Coin Block #1: Inventory Red Yoshi
+Donut Secret 2 - Vine Block #1: Screen Flip Trap
+Donut Secret 2 - Star Block #1: Inventory Mushroom
+Donut Secret 2 - Powerup Block #1: Inventory Mushroom
+Donut Secret 2 - Star Block #2: Inventory Feather
+Valley of Bowser 4 - Powerup Block #1: Bullet Time Trap
+Valley of Bowser 4 - Vine Block #1: Inventory Heart
+Valley of Bowser 4 - Yoshi Block #1: Golden Yoshi Egg
+Valley of Bowser 4 - 1up Mushroom Block #1: Inventory Red Yoshi
+Valley of Bowser 4 - Powerup Block #2: Inventory Fire Flower
+Valley of Bowser 3 - Powerup Block #1: Inventory Heart
+Valley of Bowser 3 - Powerup Block #2: Trap Repellent
+Valley Ghost House - Powerup Block #1: 10 coins
+Valley Ghost House - Directional Coin Block #1: Inventory Fire Flower
+Valley of Bowser 2 - Powerup Block #1: Inventory Yellow Yoshi
+Valley of Bowser 2 - Powerup Block #2: Golden Yoshi Egg
+Valley of Bowser 2 - Wings Block #1: Inventory Red Yoshi
+Valley of Bowser 1 - Vine Block #1: Ice Trap
+Chocolate Secret - Powerup Block #1: Inventory Yellow Yoshi
+Chocolate Secret - Powerup Block #2: Inventory Yellow Yoshi
+Vanilla Dome 2 - Powerup Block #1: Inventory Blue Yoshi
+Vanilla Dome 2 - Vine Block #1: Inventory Mushroom
+Vanilla Dome 2 - Powerup Block #2: Inventory Heart
+Vanilla Dome 2 - Powerup Block #3: Inventory Heart
+Vanilla Dome 2 - Powerup Block #4: Inventory Mushroom
+Vanilla Dome 2 - Powerup Block #5: 1 coin
+Vanilla Dome 4 - Powerup Block #1: Inventory Mushroom
+Vanilla Dome 4 - Powerup Block #2: 50 coins
+Vanilla Dome 4 - 1up Mushroom Block #1: Inventory Mushroom
+Vanilla Dome 1 - Powerup Block #1: 50 coins
+Vanilla Dome 1 - Powerup Block #2: Inventory Mushroom
+Vanilla Dome 1 - 1up Mushroom Block #1: 5 coins
+Vanilla Dome 1 - Powerup Block #3: Invisibility Trap
+Vanilla Dome 1 - Vine Block #1: 5 coins
+Vanilla Dome 1 - Star Block #1: Inventory Mushroom
+Vanilla Dome 1 - Powerup Block #4: 5 coins
+#3 Lemmy's Castle - 1up Mushroom Block #1: Inventory Heart
+#3 Lemmy's Castle - 1up Mushroom Block #2: Spotlight Trap
+#3 Lemmy's Castle - Powerup Block #1: Inventory Yellow Yoshi
+#3 Lemmy's Castle - 1up Mushroom Block #3: Inventory Heart
+Forest Ghost House - Powerup Block #1: Inventory Feather
+Forest Ghost House - Powerup Block #2: Literature Trap
+Forest Ghost House - 1up Mushroom Block #1: Bullet Time Trap
+Forest of Illusion 1 - Powerup Block #1: Inventory Red Yoshi
+Forest of Illusion 1 - Yoshi Block #1: Inventory Fire Flower
+Forest of Illusion 1 - Powerup Block #2: Inventory Mushroom
+Forest of Illusion 1 - Key Block #1: 10 coins
+Forest of Illusion 1 - 1up Mushroom Block #1: Inventory Fire Flower
+Forest of Illusion 4 - Powerup Block #1: Inventory Super Star
+Forest of Illusion 4 - Powerup Block #2: Literature Trap
+Forest of Illusion 2 - Powerup Block #1: Reverse Trap
+Forest Secret Area - Powerup Block #1: Literature Trap
+Forest Secret Area - Powerup Block #2: Thwimp Trap
+Forest Secret Area - 1up Mushroom Block #1: Progressive Super Star
+Forest of Illusion 3 - Yoshi Block #1: Inventory Blue Yoshi
+Star World 2 - Star Block #1: 50 coins
+Star World 3 - Key Block #1: Golden Yoshi Egg
+Star World 4 - Powerup Block #1: Inventory Super Star
+Star World 4 - Key Block #1: Inventory Blue Yoshi
+Star World 5 - Directional Coin Block #1: Inventory Mushroom
+Star World 5 - 1up Mushroom Block #1: 50 coins
+Star World 5 - Vine Block #1: Inventory Heart
+Funky - Yoshi Block #1: 10 coins
+Funky - Blue P-Switch Block #1: Trap Repellent
+Funky - Powerup Block #1: Inventory Mushroom
+Funky - Star Block #1: 5 coins
+Funky - Powerup Block #2: Inventory Green Yoshi
+Outrageous - Powerup Block #1: 50 coins
+Outrageous - Yoshi Block #1: 5 coins
+Outrageous - Powerup Block #2: Inventory Super Star
+Mondo - Powerup Block #1: Inventory Mushroom
+Mondo - Yoshi Block #1: Inventory Fire Flower
+Mondo - 1up Mushroom Block #1: Spin Jump
+Mondo - Powerup Block #2: Inventory Mushroom
+Groovy - Yoshi Block #1: Stun Trap
+Gnarly - Vine Block #1: Inventory Green Yoshi
+Gnarly - Vine Block #2: Inventory Blue Yoshi
+Gnarly - Vine Block #3: Inventory Heart
+Gnarly - Vine Block #4: Sticky Floor Trap
+Gnarly - 1up Mushroom Block #1: Inventory Fire Flower
+Gnarly - Vine Block #5: Inventory Super Star
+Gnarly - Blue P-Switch Block #1: Inventory Super Star
+Gnarly - Vine Block #6: Invisibility Trap
+Gnarly - Powerup Block #1: 10 coins
+Tubular - Powerup Block #1: Inventory Feather
+Tubular - Powerup Block #2: Inventory Feather
+Tubular - Powerup Block #3: Golden Yoshi Egg
+Way Cool - Powerup Block #1: Golden Yoshi Egg
+Way Cool - Yoshi Block #1: Inventory Green Yoshi
+Way Cool - Wings Block #1: 5 coins
+Awesome - Powerup Block #1: 50 coins
+Awesome - Star Block #1: Inventory Super Star
+#1 Iggy's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+#2 Morton's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Vanilla Fortress - Normal Exit (Hidden Egg): Golden Yoshi Egg
+#3 Lemmy's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+#4 Ludwig's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Forest Fortress - Normal Exit (Hidden Egg): Golden Yoshi Egg
+#5 Roy's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Chocolate Fortress - Normal Exit (Hidden Egg): Golden Yoshi Egg
+#6 Wendy's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Valley Fortress - Normal Exit (Hidden Egg): Golden Yoshi Egg
+#7 Larry's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Yellow Switch Palace (Hidden Egg): Golden Yoshi Egg
+Green Switch Palace (Hidden Egg): Golden Yoshi Egg
+Red Switch Palace (Hidden Egg): Golden Yoshi Egg
+Blue Switch Palace (Hidden Egg): Golden Yoshi Egg
+Donut Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Donut Ghost House - Secret Exit (Hidden Egg): Golden Yoshi Egg
+Donut Secret House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Donut Secret House - Secret Exit (Hidden Egg): Golden Yoshi Egg
+Vanilla Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Forest Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Forest Ghost House - Secret Exit (Hidden Egg): Golden Yoshi Egg
+Choco-Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Valley Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Valley Ghost House - Secret Exit (Hidden Egg): Golden Yoshi Egg
+Gnarly - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Tubular - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Way Cool - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Awesome - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Groovy - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Mondo - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Outrageous - Normal Exit (Hidden Egg): Golden Yoshi Egg
+Funky - Normal Exit (Hidden Egg): Golden Yoshi Egg
 
 Playthrough:
 
 0: {
-  Carry
   Climb
-  Run
+  Midway Points
+  Progressive Run
 }
 1: {
-  #1 Iggy's Castle - Boss: Boss Token
-  #1 Iggy's Castle - Normal Exit: Swim
+  #1 Iggy's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Donut Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Donut Ghost House - Vine Block #1: P-Switch
+  Donut Plains 1 - Normal Exit: Yellow Switch Palace
+  Donut Plains 1 - Yoshi Block #1: Progressive Super Star
+  Yellow Switch Palace (Hidden Egg): Golden Yoshi Egg
+  Yoshi's Island 2 - Midway Point: Golden Yoshi Egg
 }
 2: {
-  #2 Morton's Castle - Boss: Boss Token
-  Donut Plains 2 - Dragon Coins: Yoshi
-  Donut Plains 4 - Dragon Coins: Progressive Powerup
+  Yoshi's Island 3 - Yellow Switch Palace Block #12: Golden Yoshi Egg
+  Yoshi's Island 3 - Yellow Switch Palace Block #70: Progressive Yoshi
 }
 3: {
-  #4 Ludwig's Castle - Boss: Boss Token
-  Vanilla Fortress - Boss: Boss Token
-  Vanilla Secret 1 - Normal Exit: P-Switch
+  Yoshi's Island 3 - Yellow Switch Palace Block #14: Progressive Yoshi
+  Yoshi's Island 3 - Yellow Switch Palace Block #17: Swim
 }
 4: {
-  #3 Lemmy's Castle - Boss: Boss Token
-  Forest Fortress - Boss: Boss Token
-  Forest Ghost House - Normal Exit: Spin Jump
+  #2 Morton's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  #2 Morton's Castle - Yellow Switch Palace Block #1: Golden Yoshi Egg
+  Donut Plains 4 - Midway Point: Progressive Super Star
+  Donut Secret 1 - Powerup Block #2: Golden Yoshi Egg
+  Donut Secret House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Donut Secret House - Powerup Block #1: Golden Yoshi Egg
+  Green Switch Palace (Hidden Egg): Golden Yoshi Egg
 }
 5: {
-  #7 Larry's Castle - Boss: Boss Token
+  #3 Lemmy's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  #4 Ludwig Castle - Powerup Block #1: Golden Yoshi Egg
+  #4 Ludwig's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Cookie Mountain - Coin Block #17: Golden Yoshi Egg
+  Cookie Mountain - Coin Block #4: Golden Yoshi Egg
+  Vanilla Dome 2 - Multi Coin Block #2: Golden Yoshi Egg
+  Vanilla Dome 3 - Powerup Block #4: Golden Yoshi Egg
+  Vanilla Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Vanilla Ghost House - Powerup Block #2: Golden Yoshi Egg
+  Yoshi's Island 3 - Yellow Switch Palace Block #21: P-Balloon
+  Yoshi's Island 3 - Yellow Switch Palace Block #22: Progressive Super Star
+  Yoshi's Island 3 - Yellow Switch Palace Block #32: Golden Yoshi Egg
+  Yoshi's Island 3 - Yellow Switch Palace Block #38: Green Switch Palace
+  Yoshi's Island 3 - Yellow Switch Palace Block #59: Golden Yoshi Egg
+  Yoshi's Island 3 - Yellow Switch Palace Block #61: Red Switch Palace
+  Yoshi's Island 3 - Yellow Switch Palace Block #63: Golden Yoshi Egg
+  Yoshi's Island 3 - Yellow Switch Palace Block #76: Progressive Powerup
 }
 6: {
+  #2 Morton's Castle - Green Switch Palace Block #1: Golden Yoshi Egg
+  Blue Switch Palace (Hidden Egg): Golden Yoshi Egg
+  Donut Secret 1 - Powerup Block #4: Golden Yoshi Egg
+  Forest Fortress - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Forest Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Forest Ghost House - Secret Exit (Hidden Egg): Golden Yoshi Egg
+  Forest of Illusion 2 - Normal Exit: Golden Yoshi Egg
+  Forest of Illusion 3 - Coin Block #13: Golden Yoshi Egg
+  Forest of Illusion 3 - Coin Block #24: Golden Yoshi Egg
+  Forest of Illusion 3 - Multi Coin Block #2: Golden Yoshi Egg
+  Forest of Illusion 4 - Coin Block #6: Golden Yoshi Egg
+  Gnarly - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Star World 4 - Green Switch Palace Block #3: Golden Yoshi Egg
+  Star World 4 - Green Switch Palace Block #4: Golden Yoshi Egg
+  Star World 5 - Green Switch Palace Block #12: Golden Yoshi Egg
+  Star World 5 - Yellow Switch Palace Block #14: Progressive Powerup
+  Star World 5 - Yellow Switch Palace Block #16: Golden Yoshi Egg
+  Star World 5 - Yellow Switch Palace Block #2: Golden Yoshi Egg
+  Tubular - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Tubular - Powerup Block #3: Golden Yoshi Egg
+  Way Cool - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Way Cool - Powerup Block #1: Golden Yoshi Egg
+}
+7: {
+  Awesome - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Funky - Coin Block #7: Golden Yoshi Egg
+  Funky - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Groovy - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Mondo - 1up Mushroom Block #1: Spin Jump
+  Mondo - Coin Block #10: Carry
+  Mondo - Coin Block #19: Golden Yoshi Egg
+  Mondo - Coin Block #27: Golden Yoshi Egg
+  Mondo - Coin Block #6: Golden Yoshi Egg
+  Mondo - Coin Block #9: Golden Yoshi Egg
+  Mondo - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Outrageous - Coin Block #2: Golden Yoshi Egg
+  Outrageous - Normal Exit: Golden Yoshi Egg
+  Outrageous - Normal Exit (Hidden Egg): Golden Yoshi Egg
+}
+8: {
+  #7 Larry's Castle - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Butter Bridge 1 - Multi Coin Block #3: Golden Yoshi Egg
+  Choco-Ghost House - Normal Exit (Hidden Egg): Golden Yoshi Egg
+  Chocolate Fortress - Coin Block #1: Golden Yoshi Egg
+  Chocolate Island 2 - Blue P-Switch Block #1: Golden Yoshi Egg
+  Chocolate Island 2 - Green Switch Palace Block #3: Golden Yoshi Egg
+  Chocolate Island 3 - 1up Mushroom Block #3: Golden Yoshi Egg
+  Donut Secret House - Secret Exit (Hidden Egg): Golden Yoshi Egg
+  Red Switch Palace (Hidden Egg): Golden Yoshi Egg
+  Star World 3 - Key Block #1: Golden Yoshi Egg
+  Valley Fortress - Normal Exit: Golden Yoshi Egg
+  Valley Ghost House - Secret Exit (Hidden Egg): Golden Yoshi Egg
+  Valley of Bowser 4 - Yoshi Block #1: Golden Yoshi Egg
+  Vanilla Secret 3 - Powerup Block #1: Golden Yoshi Egg
+}
+9: {
   Bowser: The Princess
 }

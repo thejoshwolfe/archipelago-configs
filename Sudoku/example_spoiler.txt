@@ -1,0 +1,222 @@
+﻿Archipelago Version 0.6.7  -  Seed: 61540370333298404278
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Archipeladoku
+Location Count:                  136
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Block Size:                      9
+Boards per Cluster:              5
+Number of Boards:                5
+Difficulty:                      Beginner
+Block Unlocks:                   Shuffled
+Duplicate Progression Items:     0
+Location Scouting:               Manual
+Filler Ratio: Solve Selected Cell:100
+Filler Ratio: Solve Random Cell: 150
+Filler Ratio: Remove Random Candidate:300
+Filler Ratio: Emoji Trap:        20
+Filler Ratio: Disco Trap:        20
+Filler Ratio: Tunnel Vision Trap:20
+Pre-fill Nothings Percentage:    50
+
+
+Locations:
+
+Solve Board A1: Block K10
+Solve Row A1: Remove Random Candidate
+Solve Column A1: Nothing
+Solve Row B1: Block V4
+Solve Column A2: Nothing
+Solve Row C1: Block N4
+Solve Column A3: Block N1
+Solve Row D1: Nothing
+Solve Column A4: Block V7
+Solve Row E1: Block S1
+Solve Column A5: Solve Random Cell
+Solve Row F1: Nothing
+Solve Column A6: Nothing
+Solve Row G1: Nothing
+Solve Column A7: Block S7
+Solve Row H1: Block S4
+Solve Column A8: Block S19
+Solve Row J1: Block V19
+Solve Column A9: Nothing
+Solve Block D4: Nothing
+Solve Block G4: Block V1
+Solve Block G1: Block N7
+Solve Block G7: Remove Random Candidate
+Solve Block A1: Block N13
+Solve Block A4: Block D16
+Solve Block A7: Block D13
+Solve Block D1: Remove Random Candidate
+Solve Block D7: Block N16
+Solve Board A13: Solve Selected Cell
+Solve Row A13: Nothing
+Solve Column A13: Nothing
+Solve Row B13: Tunnel Vision Trap
+Solve Column A14: Solve Selected Cell
+Solve Row C13: Disco Trap
+Solve Column A15: Nothing
+Solve Row D13: Solve Random Cell
+Solve Column A16: Nothing
+Solve Row E13: Remove Random Candidate
+Solve Column A17: Nothing
+Solve Row F13: Emoji Trap
+Solve Column A18: Solve Selected Cell
+Solve Row G13: Remove Random Candidate
+Solve Column A19: Nothing
+Solve Row H13: Nothing
+Solve Column A20: Nothing
+Solve Row J13: Remove Random Candidate
+Solve Column A21: Solve Selected Cell
+Solve Block D16: Solve Selected Cell
+Solve Block D13: Nothing
+Solve Block D19: Nothing
+Solve Block G16: Nothing
+Solve Block G13: Block G16
+Solve Block G19: Nothing
+Solve Block A13: Nothing
+Solve Block A16: Nothing
+Solve Block A19: Remove Random Candidate
+Solve Board G7: Nothing
+Solve Row G7: Nothing
+Solve Column G7: Solve Random Cell
+Solve Row H7: Nothing
+Solve Column G8: Nothing
+Solve Row J7: Nothing
+Solve Column G9: Remove Random Candidate
+Solve Row K7: Remove Random Candidate
+Solve Column G10: Block A19
+Solve Row L7: Nothing
+Solve Column G11: Nothing
+Solve Row M7: Nothing
+Solve Column G12: Nothing
+Solve Row N7: Remove Random Candidate
+Solve Column G13: Nothing
+Solve Row P7: Nothing
+Solve Column G14: Nothing
+Solve Row R7: Nothing
+Solve Column G15: Block G19
+Solve Block N7: Nothing
+Solve Block G10: Nothing
+Solve Block N10: Nothing
+Solve Block K7: Nothing
+Solve Block K13: Nothing
+Solve Block N13: Nothing
+Solve Block K10: Nothing
+Solve Board N1: Nothing
+Solve Row N1: Block V13
+Solve Column N1: Nothing
+Solve Row P1: Nothing
+Solve Column N2: Remove Random Candidate
+Solve Row R1: Block S13
+Solve Column N3: Block S16
+Solve Row S1: Solve Random Cell
+Solve Column N4: Block N19
+Solve Row T1: Solve Random Cell
+Solve Column N5: Nothing
+Solve Row U1: Solve Random Cell
+Solve Column N6: Nothing
+Solve Row V1: Nothing
+Solve Column N7: Nothing
+Solve Row W1: Block V16
+Solve Column N8: Block A13
+Solve Row X1: Remove Random Candidate
+Solve Column N9: Nothing
+Solve Block S7: Remove Random Candidate
+Solve Block N4: Nothing
+Solve Block V4: Nothing
+Solve Block N1: Nothing
+Solve Block V1: Nothing
+Solve Block V7: Solve Random Cell
+Solve Block S4: Nothing
+Solve Block S1: Nothing
+Solve Board N13: Block D19
+Solve Row N13: Nothing
+Solve Column N13: Nothing
+Solve Row P13: Nothing
+Solve Column N14: Nothing
+Solve Row R13: Nothing
+Solve Column N15: Nothing
+Solve Row S13: Nothing
+Solve Column N16: Nothing
+Solve Row T13: Remove Random Candidate
+Solve Column N17: Nothing
+Solve Row U13: Nothing
+Solve Column N18: Nothing
+Solve Row V13: Nothing
+Solve Column N19: Nothing
+Solve Row W13: Nothing
+Solve Column N20: Block G13
+Solve Row X13: Block A16
+Solve Column N21: Solve Random Cell
+Solve Block S16: Block K13
+Solve Block S13: Nothing
+Solve Block S19: Block K7
+Solve Block N16: Remove Random Candidate
+Solve Block V16: Block G10
+Solve Block N19: Nothing
+Solve Block V13: Nothing
+Solve Block V19: Block N10
+Solve Everything: Victory
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Solve Block A1: Block N13
+  Solve Block A4: Block D16
+  Solve Block A7: Block D13
+  Solve Block D7: Block N16
+  Solve Block G1: Block N7
+  Solve Block G4: Block V1
+  Solve Board A1: Block K10
+  Solve Column A3: Block N1
+  Solve Column A4: Block V7
+  Solve Column A7: Block S7
+  Solve Column A8: Block S19
+  Solve Row B1: Block V4
+  Solve Row C1: Block N4
+  Solve Row E1: Block S1
+  Solve Row H1: Block S4
+  Solve Row J1: Block V19
+}
+2: {
+  Solve Column N3: Block S16
+  Solve Column N4: Block N19
+  Solve Column N8: Block A13
+  Solve Row N1: Block V13
+  Solve Row R1: Block S13
+  Solve Row W1: Block V16
+}
+3: {
+  Solve Block S16: Block K13
+  Solve Block S19: Block K7
+  Solve Block V16: Block G10
+  Solve Block V19: Block N10
+  Solve Board N13: Block D19
+  Solve Column N20: Block G13
+  Solve Row X13: Block A16
+}
+4: {
+  Solve Block G13: Block G16
+  Solve Column G10: Block A19
+  Solve Column G15: Block G19
+}
+5: {
+  Solve Everything: Victory
+}

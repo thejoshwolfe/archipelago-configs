@@ -1,0 +1,504 @@
+﻿Archipelago Version 0.6.7  -  Seed: 88715975511544216494
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Crypt of the NecroDancer
+Location Count:                  283
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Death Link:                      No
+Goal:                            Zones
+Characters Required for All Zones Goal:8
+Amount required for Zones Goal:  20
+Floor Clear Checks:              Yes
+DLCs:                            Amplified
+starting_inventory:              0
+Starting Character:              Melody
+Character Blacklist:             Aria, Chaunter, Coda, Diamond, Hatsune Miku, Klarinetta, Mary, Reaper, Shovel Knight, Suzu, Tempo
+Character Unlocks:               Item Only
+Include Unique Equipment:        Yes
+Include Materials:               Yes
+Included Extra Modes:            
+Include Codex Checks:            No
+Lobby NPC Items:                 Yes
+Zone Access Keys:                Disabled
+Starting Zone:                   Zone 1
+Lock Character Room:             No
+Trap Percentage:                 10
+Trap Weights:                    Camera Trap: 2, Confusion Trap: 7, Dad Trap: 2, Dead Ringer Trap: 1, Gold Scatter Trap: 6, Haunted Shopkeeper Trap: 4, Monkey Trap: 10, No Return Trap: 3, Skeleton Trap: 5, Tempo Trap: 7
+Price Randomization:             Item Class
+Randomized Price Minimum:        1
+Randomized Price Maximum:        10
+Filler Item Price Minimum:       1
+Filler Item Price Maximum:       1
+Useful Item Price Minimum:       2
+Useful Item Price Maximum:       2
+Progression Item Price Minimum:  4
+Progression Item Price Maximum:  4
+
+
+Locked NPC Locations:
+josh_cotnd
+
+Codex:          Zone 5-3, Unlocked by: Glass
+Merlin:         Zone 4-2, Unlocked by: Shop
+Hintmaster:     Zone 1-1, Unlocked by: Dig
+Janitor:        Zone 2-1, Unlocked by: Dig
+Diamond Dealer: Zone 3-1, Unlocked by: Shop
+
+Starting Items:
+
+Shovel
+Dagger
+Apple
+Melody
+
+Locations:
+
+Hephaestus - Center Shop Item 1: 3 Diamonds
+Merlin - Center Shop Item 1: Heal Spell
+Dungeon Master - Center Shop Item 1: Ring of Frost
+Hephaestus - Left Shop Item 1: Confusion Trap
+Merlin - Left Shop Item 1: Chainmail
+Dungeon Master - Left Shop Item 1: Holster
+Hephaestus - Right Shop Item 1: 4 Diamonds
+Merlin - Right Shop Item 1: Grenade Charm
+Dungeon Master - Right Shop Item 1: Cutlass
+Hephaestus - Center Shop Item 2: 1 Diamond
+Merlin - Center Shop Item 2: 1 Diamond
+Dungeon Master - Center Shop Item 2: Permanent Health Upgrade
+Hephaestus - Left Shop Item 2: Shop Stock Unlock
+Merlin - Left Shop Item 2: Shovel of Courage
+Dungeon Master - Left Shop Item 2: Shield Spell
+Hephaestus - Right Shop Item 2: Full Heal
+Merlin - Right Shop Item 2: Janitor
+Dungeon Master - Right Shop Item 2: Gold Material
+Hephaestus - Center Shop Item 3: Instant Gold (200)
+Merlin - Center Shop Item 3: Ring of Piercing
+Dungeon Master - Center Shop Item 3: Instant Gold (50)
+Hephaestus - Left Shop Item 3: Ring of Luck
+Merlin - Left Shop Item 3: Crystal Shovel
+Dungeon Master - Left Shop Item 3: Ring of Regeneration
+Hephaestus - Right Shop Item 3: Glass Shovel
+Merlin - Right Shop Item 3: Ring of Might
+Dungeon Master - Right Shop Item 3: Instant Gold (50)
+Hephaestus - Center Shop Item 4: Torch of Foresight
+Merlin - Center Shop Item 4: Backpack
+Dungeon Master - Center Shop Item 4: Confusion Trap
+Hephaestus - Left Shop Item 4: Winged Boots
+Merlin - Left Shop Item 4: Blunderbuss
+Dungeon Master - Left Shop Item 4: Explorers Boots
+Hephaestus - Right Shop Item 4: Obsidian Armor
+Merlin - Right Shop Item 4: Boots of Lunging
+Dungeon Master - Right Shop Item 4: Gluttony Charm
+Hephaestus - Center Shop Item 5: Warhammer
+Merlin - Center Shop Item 5: 4 Diamonds
+Dungeon Master - Center Shop Item 5: Cursed Potion
+Hephaestus - Left Shop Item 5: Pack of Holding
+Merlin - Left Shop Item 5: 3 Diamonds
+Dungeon Master - Left Shop Item 5: Diamond Dealer
+Hephaestus - Right Shop Item 5: Whip
+Merlin - Right Shop Item 5: Shop Stock Unlock
+Dungeon Master - Right Shop Item 5: Instant Gold (200)
+Hephaestus - Center Shop Item 6: 3 Diamonds
+Merlin - Center Shop Item 6: Instant Gold (50)
+Dungeon Master - Center Shop Item 6: Ring of Pain
+Hephaestus - Left Shop Item 6: Fireball Tome
+Merlin - Left Shop Item 6: Cookies
+Dungeon Master - Left Shop Item 6: Helm
+Hephaestus - Right Shop Item 6: Ice Spirit Familiar
+Merlin - Right Shop Item 6: 2 Diamonds
+Dungeon Master - Right Shop Item 6: Blood Drum
+Hephaestus - Center Shop Item 7: Heavy Plate
+Merlin - Center Shop Item 7: Hintmaster
+Dungeon Master - Center Shop Item 7: 4 Diamonds
+Hephaestus - Left Shop Item 7: Shopkeeper Familiar
+Merlin - Left Shop Item 7: Transmute Scroll
+Dungeon Master - Left Shop Item 7: Cadence
+Hephaestus - Right Shop Item 7: Freeze Spell
+Merlin - Right Shop Item 7: Luminous Torch
+Dungeon Master - Right Shop Item 7: Shovel of Strength
+Hephaestus - Center Shop Item 8: 4 Diamonds
+Merlin - Center Shop Item 8: Coupon
+Dungeon Master - Center Shop Item 8: Instant Gold (50)
+Hephaestus - Left Shop Item 8: 4 Diamonds
+Merlin - Left Shop Item 8: Monkey Trap
+Dungeon Master - Left Shop Item 8: Skeleton Trap
+Hephaestus - Right Shop Item 8: 4 Diamonds
+Merlin - Right Shop Item 8: Lead Boots
+Dungeon Master - Right Shop Item 8: War Drum
+Hephaestus - Center Shop Item 9: Instant Gold (50)
+Merlin - Center Shop Item 9: Instant Gold (200)
+Dungeon Master - Center Shop Item 9: Potion
+Hephaestus - Left Shop Item 9: Dorian
+Merlin - Left Shop Item 9: Risk Charm
+Dungeon Master - Left Shop Item 9: 3 Diamonds
+Hephaestus - Right Shop Item 9: Shop Stock Unlock
+Merlin - Right Shop Item 9: Earth Spell
+Dungeon Master - Right Shop Item 9: Full Heal
+Hephaestus - Center Shop Item 10: Full Heal
+Merlin - Center Shop Item 10: Instant Gold (200)
+Dungeon Master - Center Shop Item 10: Full Heal
+Hephaestus - Left Shop Item 10: 2 Diamonds
+Merlin - Left Shop Item 10: 1 Diamond
+Dungeon Master - Left Shop Item 10: Map
+Hephaestus - Right Shop Item 10: Bright Torch
+Merlin - Right Shop Item 10: Crossbow
+Dungeon Master - Right Shop Item 10: Holy Water
+Hephaestus - Center Shop Item 11: Titanium Shovel
+Merlin - Center Shop Item 11: 3 Diamonds
+Dungeon Master - Center Shop Item 11: Longsword
+Hephaestus - Left Shop Item 11: Boots of Strength
+Merlin - Left Shop Item 11: Frost Charm
+Dungeon Master - Left Shop Item 11: Instant Gold (50)
+Hephaestus - Right Shop Item 11: Ring of Becoming
+Merlin - Right Shop Item 11: Pulse Scroll
+Caged Codex: Boots of Leaping
+Caged Merlin: Broadsword
+Caged Hintmaster: 4 Diamonds
+Caged Janitor: 2 Diamonds
+Caged Diamond Dealer: Leather Armor
+Cadence - Zone 1 - Floor 1: Crown of Thorns
+Cadence - Zone 1 - Floor 2: Miner's Cap
+Cadence - Zone 1 - Floor 3: Earthquake Scroll
+Cadence - Zone 1 - Boss: Crown of Teleportation
+Cadence - Zone 2 - Floor 1: Spear
+Cadence - Zone 2 - Floor 2: 3 Diamonds
+Cadence - Zone 2 - Floor 3: 1 Diamond
+Cadence - Zone 2 - Boss: Instant Gold (50)
+Cadence - Zone 3 - Floor 1: Dove
+Cadence - Zone 3 - Floor 2: Titanium Material
+Cadence - Zone 3 - Floor 3: Obsidian Torch
+Cadence - Zone 3 - Boss: Rifle
+Cadence - Zone 4 - Floor 1: Rapier
+Cadence - Zone 4 - Floor 2: Permanent Health Upgrade
+Cadence - Zone 4 - Floor 3: 3 Diamonds
+Cadence - Zone 4 - Boss: Frost Dagger
+Cadence - Dead Ringer: Heart Transplant
+Cadence - NecroDancer: Glass Material
+Cadence - Zone 5 - Floor 1: Circlet of Telepathy
+Cadence - Zone 5 - Floor 2: 4 Diamonds
+Cadence - Zone 5 - Floor 3: Obsidian Shovel
+Cadence - Zone 5 - Boss: Instant Gold (200)
+Melody - Zone 1 - Floor 1: 3 Diamonds
+Melody - Zone 1 - Floor 2: Fireball Spell
+Melody - Zone 1 - Floor 3: Pulse Spell
+Melody - Zone 1 - Boss: Transmute Spell
+Melody - Zone 2 - Floor 1: 2 Diamonds
+Melody - Zone 2 - Floor 2: Dove Familiar
+Melody - Zone 2 - Floor 3: Spiked Ears
+Melody - Zone 2 - Boss: Bard
+Melody - Zone 3 - Floor 1: Nazar Charm
+Melody - Zone 3 - Floor 2: Instant Gold (200)
+Melody - Zone 3 - Floor 3: Torch of Strength
+Melody - Zone 3 - Boss: Flower
+Melody - Zone 4 - Floor 1: Instant Gold (50)
+Melody - Zone 4 - Floor 2: Instant Gold (50)
+Melody - Zone 4 - Floor 3: Glass Jaw
+Melody - Zone 4 - Boss: 2 Diamonds
+Melody - NecroDancer: 2 Diamonds
+Melody - Zone 5 - Floor 1: Monkey's Paw
+Melody - Zone 5 - Floor 2: Full Heal
+Melody - Zone 5 - Floor 3: 4 Diamonds
+Melody - Zone 5 - Boss: Shop Stock Unlock
+Dorian - Zone 1 - Floor 1: 4 Diamonds
+Dorian - Zone 1 - Floor 2: Electric Dagger
+Dorian - Zone 1 - Floor 3: Throwing Stars
+Dorian - Zone 1 - Boss: Freeze Scroll
+Dorian - Zone 2 - Floor 1: Strength Charm
+Dorian - Zone 2 - Floor 2: Jeweled Dagger
+Dorian - Zone 2 - Floor 3: Confusion Trap
+Dorian - Zone 2 - Boss: Shop Stock Unlock
+Dorian - Zone 3 - Floor 1: Instant Gold (200)
+Dorian - Zone 3 - Floor 2: Ring of Courage
+Dorian - Zone 3 - Floor 3: Axe
+Dorian - Zone 3 - Boss: Battle Shovel
+Dorian - Zone 4 - Floor 1: 4 Diamonds
+Dorian - Zone 4 - Floor 2: Quartz Armor
+Dorian - Zone 4 - Floor 3: 4 Diamonds
+Dorian - Zone 4 - Boss: 2 Diamonds
+Dorian - Zone 5 - Floor 1: 3 Diamonds
+Dorian - Zone 5 - Floor 2: Torch
+Dorian - Zone 5 - Floor 3: Pulse Tome
+Dorian - Zone 5 - Boss: Blood Material
+Eli - Zone 1 - Floor 1: Shield Scroll
+Eli - Zone 1 - Floor 2: Infernal Torch
+Eli - Zone 1 - Floor 3: Codex
+Eli - Zone 1 - Boss: Instant Gold (200)
+Eli - Zone 2 - Floor 1: Instant Gold (50)
+Eli - Zone 2 - Floor 2: Drumstick
+Eli - Zone 2 - Floor 3: Staff
+Eli - Zone 2 - Boss: 3 Diamonds
+Eli - Zone 3 - Floor 1: Shop Stock Unlock
+Eli - Zone 3 - Floor 2: Ham
+Eli - Zone 3 - Floor 3: Eli's Hand
+Eli - Zone 3 - Boss: Rat Familiar
+Eli - Zone 4 - Floor 1: Golden Lute
+Eli - Zone 4 - Floor 2: Instant Gold (200)
+Eli - Zone 4 - Floor 3: Harp
+Eli - Zone 4 - Boss: Ring of Gold
+Eli - Zone 5 - Floor 1: Shop Stock Unlock
+Eli - Zone 5 - Floor 2: 2 Diamonds
+Eli - Zone 5 - Floor 3: Ring of Peace
+Eli - Zone 5 - Boss: 1 Diamond
+Monk - Zone 1 - Floor 1: Instant Gold (200)
+Monk - Zone 1 - Floor 2: Riches Scroll
+Monk - Zone 1 - Floor 3: Earth Tome
+Monk - Zone 1 - Boss: Transmute Tome
+Monk - Zone 2 - Floor 1: 4 Diamonds
+Monk - Zone 2 - Floor 2: Instant Gold (50)
+Monk - Zone 2 - Floor 3: Monocle
+Monk - Zone 2 - Boss: Tempo Trap
+Monk - Zone 3 - Floor 1: 1 Diamond
+Monk - Zone 3 - Floor 2: Glass Slippers
+Monk - Zone 3 - Floor 3: 1 Diamond
+Monk - Zone 3 - Boss: Ring of War
+Monk - Zone 4 - Floor 1: Ring of Shielding
+Monk - Zone 4 - Floor 2: 4 Diamonds
+Monk - Zone 4 - Floor 3: Obsidian Material
+Monk - Zone 4 - Boss: 4 Diamonds
+Monk - Zone 5 - Floor 1: Pickaxe
+Monk - Zone 5 - Floor 2: Sunglasses
+Monk - Zone 5 - Floor 3: Bomb Spell
+Monk - Zone 5 - Boss: Instant Gold (200)
+Dove - Zone 1 - Floor 1: Blood Shovel
+Dove - Zone 1 - Floor 2: Nocturna
+Dove - Zone 1 - Floor 3: Instant Gold (200)
+Dove - Zone 2 - Floor 1: Shop Stock Unlock
+Dove - Zone 2 - Floor 2: 4 Diamonds
+Dove - Zone 2 - Floor 3: Carrot
+Dove - Zone 3 - Floor 1: Ring of Mana
+Dove - Zone 3 - Floor 2: Enchant Weapon Scroll
+Dove - Zone 3 - Floor 3: Compass
+Dove - Zone 4 - Floor 1: Dead Ringer Trap
+Dove - Zone 4 - Floor 2: 2 Diamonds
+Dove - Zone 4 - Floor 3: Protection Charm
+Dove - Zone 5 - Floor 1: Ring of Shadows
+Dove - Zone 5 - Floor 2: 1 Diamond
+Dove - Zone 5 - Floor 3: 1 Diamond
+Bolt - Zone 1 - Floor 1: 2 Diamonds
+Bolt - Zone 1 - Floor 2: 3 Diamonds
+Bolt - Zone 1 - Floor 3: Instant Gold (200)
+Bolt - Zone 1 - Boss: 1 Diamond
+Bolt - Zone 2 - Floor 1: Instant Gold (50)
+Bolt - Zone 2 - Floor 2: Dorian's Plate Armor
+Bolt - Zone 2 - Floor 3: Fireball Scroll
+Bolt - Zone 2 - Boss: Merlin
+Bolt - Zone 3 - Floor 1: 1 Diamond
+Bolt - Zone 3 - Floor 2: Ballet Shoes
+Bolt - Zone 3 - Floor 3: Phasing Dagger
+Bolt - Zone 3 - Boss: Transform Spell
+Bolt - Zone 4 - Floor 1: 4 Diamonds
+Bolt - Zone 4 - Floor 2: 3 Diamonds
+Bolt - Zone 4 - Floor 3: 1 Diamond
+Bolt - Zone 4 - Boss: Eli
+Bolt - Zone 5 - Floor 1: Torch of Walls
+Bolt - Zone 5 - Floor 2: 2 Diamonds
+Bolt - Zone 5 - Floor 3: Permanent Health Upgrade
+Bolt - Zone 5 - Boss: Boots of Pain
+Bard - Zone 1 - Floor 1: 1 Diamond
+Bard - Zone 1 - Floor 2: Shop Stock Unlock
+Bard - Zone 1 - Floor 3: 3 Diamonds
+Bard - Zone 1 - Boss: Instant Gold (200)
+Bard - Zone 2 - Floor 1: Ring of Protection
+Bard - Zone 2 - Floor 2: Bolt
+Bard - Zone 2 - Floor 3: Hargreaves
+Bard - Zone 2 - Boss: Bow
+Bard - Zone 3 - Floor 1: 1 Diamond
+Bard - Zone 3 - Floor 2: 1 Diamond
+Bard - Zone 3 - Floor 3: Instant Gold (200)
+Bard - Zone 3 - Boss: Cat o' Nine Tails
+Bard - Zone 4 - Floor 1: 3 Diamonds
+Bard - Zone 4 - Floor 2: 4 Diamonds
+Bard - Zone 4 - Floor 3: 2 Diamonds
+Bard - Zone 4 - Boss: 1 Diamond
+Bard - Zone 5 - Floor 1: 1 Diamond
+Bard - Zone 5 - Floor 2: Karate Gi
+Bard - Zone 5 - Floor 3: Instant Gold (50)
+Bard - Zone 5 - Boss: Shop Stock Unlock
+Nocturna - Zone 1 - Floor 1: 2 Diamonds
+Nocturna - Zone 1 - Floor 2: Ring of Charisma
+Nocturna - Zone 1 - Floor 3: Shield Tome
+Nocturna - Zone 1 - Boss: Cheese
+Nocturna - Zone 2 - Floor 1: Plate Armor
+Nocturna - Zone 2 - Floor 2: Fear Scroll
+Nocturna - Zone 2 - Floor 3: Instant Gold (50)
+Nocturna - Zone 2 - Boss: 1 Diamond
+Nocturna - Zone 3 - Floor 1: Blast Helm
+Nocturna - Zone 3 - Floor 2: Instant Gold (50)
+Nocturna - Zone 3 - Floor 3: Glass Armor
+Nocturna - Zone 3 - Boss: 2 Diamonds
+Nocturna - Zone 4 - Floor 1: Monk
+Nocturna - Zone 4 - Floor 2: 2 Diamonds
+Nocturna - Zone 4 - Floor 3: Instant Gold (50)
+Nocturna - Zone 4 - Boss: Heavy Glass Armor
+Nocturna - Zone 5 - Floor 1: 4 Diamonds
+Nocturna - Zone 5 - Floor 2: Freeze Tome
+Nocturna - Zone 5 - Floor 3: Glass Torch
+Nocturna - Zone 5 - Boss: Bomb Charm
+Nocturna - Frankensteinway: Scroll of Need
+Nocturna - The Conductor: Instant Gold (200)
+Cadence - Beat Zone 1: Complete
+Cadence - Beat Zone 2: Complete
+Cadence - Beat Zone 3: Complete
+Cadence - Beat Zone 4: Complete
+Cadence - Beat Zone 5: Complete
+Melody - Beat Zone 1: Complete
+Melody - Beat Zone 2: Complete
+Melody - Beat Zone 3: Complete
+Melody - Beat Zone 4: Complete
+Melody - Beat Zone 5: Complete
+Dorian - Beat Zone 1: Complete
+Dorian - Beat Zone 2: Complete
+Dorian - Beat Zone 3: Complete
+Dorian - Beat Zone 4: Complete
+Dorian - Beat Zone 5: Complete
+Eli - Beat Zone 1: Complete
+Eli - Beat Zone 2: Complete
+Eli - Beat Zone 3: Complete
+Eli - Beat Zone 4: Complete
+Eli - Beat Zone 5: Complete
+Monk - Beat Zone 1: Complete
+Monk - Beat Zone 2: Complete
+Monk - Beat Zone 3: Complete
+Monk - Beat Zone 4: Complete
+Monk - Beat Zone 5: Complete
+Dove - Beat Zone 1: Complete
+Dove - Beat Zone 2: Complete
+Dove - Beat Zone 3: Complete
+Dove - Beat Zone 4: Complete
+Dove - Beat Zone 5: Complete
+Bolt - Beat Zone 1: Complete
+Bolt - Beat Zone 2: Complete
+Bolt - Beat Zone 3: Complete
+Bolt - Beat Zone 4: Complete
+Bolt - Beat Zone 5: Complete
+Bard - Beat Zone 1: Complete
+Bard - Beat Zone 2: Complete
+Bard - Beat Zone 3: Complete
+Bard - Beat Zone 4: Complete
+Bard - Beat Zone 5: Complete
+Nocturna - Beat Zone 1: Complete
+Nocturna - Beat Zone 2: Complete
+Nocturna - Beat Zone 3: Complete
+Nocturna - Beat Zone 4: Complete
+Nocturna - Beat Zone 5: Complete
+
+Playthrough:
+
+0: {
+  Melody
+}
+1: {
+  Melody - Beat Zone 1: Complete
+  Melody - Beat Zone 2: Complete
+  Melody - Beat Zone 3: Complete
+  Melody - Beat Zone 4: Complete
+  Melody - Beat Zone 5: Complete
+  Melody - Zone 2 - Boss: Bard
+}
+2: {
+  Bard - Beat Zone 1: Complete
+  Bard - Beat Zone 2: Complete
+  Bard - Beat Zone 3: Complete
+  Bard - Beat Zone 4: Complete
+  Bard - Beat Zone 5: Complete
+  Bard - Zone 2 - Floor 2: Bolt
+}
+3: {
+  Bolt - Beat Zone 1: Complete
+  Bolt - Beat Zone 2: Complete
+  Bolt - Beat Zone 3: Complete
+  Bolt - Beat Zone 4: Complete
+  Bolt - Beat Zone 5: Complete
+  Bolt - Zone 4 - Boss: Eli
+}
+4: {
+  Eli - Beat Zone 1: Complete
+  Eli - Beat Zone 2: Complete
+  Eli - Beat Zone 3: Complete
+  Eli - Beat Zone 4: Complete
+  Eli - Beat Zone 5: Complete
+}
+
+Paths:
+
+Bard - Beat Zone 1
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bard - Beat Zone 2
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bard - Beat Zone 3
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bard - Beat Zone 4
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bard - Beat Zone 5
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bard - Zone 2 - Floor 2
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bolt - Beat Zone 1
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bolt - Beat Zone 2
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bolt - Beat Zone 3
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bolt - Beat Zone 4
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bolt - Beat Zone 5
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Bolt - Zone 4 - Boss
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Eli - Beat Zone 1
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Eli - Beat Zone 2
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Eli - Beat Zone 3
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Eli - Beat Zone 4
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Eli - Beat Zone 5
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Melody - Beat Zone 1
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Melody - Beat Zone 2
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Melody - Beat Zone 3
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Melody - Beat Zone 4
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Melody - Beat Zone 5
+        Menu -> Menu -> Crypt
+   =>   Crypt
+Melody - Zone 2 - Boss
+        Menu -> Menu -> Crypt
+   =>   Crypt

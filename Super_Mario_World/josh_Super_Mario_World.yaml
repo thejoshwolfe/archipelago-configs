@@ -1,96 +1,104 @@
 name: josh_smw
-description: 7/11 Bosses + Bowser. Dragon coins, moons, and levels are shuffled. Several abilities start locked such as Spin Jump.
-game: Super Mario World
+description: Collect 50 golden yoshi eggs and defeat Bowser.
+game: 'SMW: Spicy Mycena Waffles'
 requires:
-  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Super Mario World: 2.1.1 # Version of the world required for this yaml to work as expected.
-Super Mario World:
-
-  # Goal
+    'SMW: Spicy Mycena Waffles': 1.2.8 # Version of the world required for this yaml to work as expected.
+'SMW: Spicy Mycena Waffles':
   goal: bowser
-  bosses_required: '7'
-  # Egg hunt disabled
-  max_yoshi_egg_cap: '50'
-  percentage_of_yoshi_eggs: '100'
+  yoshi_egg_count: '50'
+  percentage_of_yoshi_eggs: '85'
+  yoshi_egg_placement:
+    - Castles
+    - Ghost Houses
+    - Switch Palaces
+    - Special Zone
 
-  # Sanities
-  dragon_coin_checks: 'true'
+  ability_shuffle:
+    - Carry
+    #- Climb
+    #- Run
+    - Spin Jump
+    - Swim
+    - Powerups
+    - Super Star
+    - Yoshi
+    - Item Box
+    - P-Balloon
+    - P-Switch
+    #- Midway Points
+    - Yellow Switch Palace
+    - Green Switch Palace
+    - Red Switch Palace
+    - Blue Switch Palace
+    - Special World
+
+  game_logic_difficulty: easy
+  inventory_yoshi_logic: 'false'
+  decoupled_yoshi_carry: 'true'
+  decoupled_wall_run_anywhere: 'true'
+  decoupled_fast_swimming: 'false'
+
+  ####################
+  # Location Options #
+  ####################
+  dragon_coin_checks: 'false'
   moon_checks: 'true'
   hidden_1up_checks: 'false'
-  bonus_block_checks: 'false'
-  blocksanity: 'false'
+  star_block_checks: 'false'
+  midway_point_checks: 'true'
+  room_checks: 'false'
+  block_checks:
+    - Coin Blocks
+    - Flying Blocks
+    - Green Switch Palace Blocks
+    #- Invisible Blocks
+    - Item Blocks
+    - P-Switch Blocks
+    - Yellow Switch Palace Blocks
 
-  # Moveset
-  start_inventory:
-    Carry: 1
-    Climb: 1
-    #P-Balloon: 1
-    #Progressive Powerup: 3
-    #P-Switch: 1
-    Run: 1
-    #Spin Jump: 1
-    #Super Star Activate: 1
-    #Swim: 1
-    #Yoshi: 1
-  start_hints:
-    # Let's see where a few critical ones are.
-    - Progressive Powerup
-    - Swim
-    # Probably more abilities and/or switch palaces are critical, but which ones is up to the randomizer.
-  early_climb: 'false'
-  local_items:
-    # missing start_inventory_from_pool support. At least contain this trash.
-    - Carry
-    - Climb
-    - Run
-    # Contain some of the junk
-    #- 1 coin
-    - 5 coins
-    - 10 coins
-    #- 50 coins
-    #- 1-Up Mushroom
-
-  # Shuffle levels.
-  level_shuffle: 'true'
-  exclude_special_zone: 'false'
-  boss_shuffle: none
-  # The "Top Secret" area seems more like a secret exit, don't you think?
+  ###################
+  # Level Shuffling #
+  ###################
+  starting_location: yoshis_island
+  level_shuffle: 'false'
+  level_effects: '0'
+  carryless_exits: '0'
+  swap_level_exits: 'false'
+  swap_exit_count: '0'
   swap_donut_gh_exits: 'true'
-  # Bowser's Back Door is the same as the front door.
-  bowser_castle_doors: slow
-  # Complete all 8 Bowser's Castle rooms.
-  bowser_castle_rooms: gauntlet
+  map_teleport_shuffle: 'off'
+  map_transition_shuffle: 'false'
 
-  # Traps
+  enemy_shuffle: 'true'
+
+  bowser_castle_doors: slow
+  bowser_castle_rooms: gauntlet
+  boss_shuffle: none
+
+  ##################
+  # Junk and Traps #
+  ##################
   junk_fill_percentage: '0'
   trap_fill_percentage: '10'
+
   ice_trap_weight: medium
   stun_trap_weight: medium
   literature_trap_weight: medium
   timer_trap_weight: medium
   reverse_trap_weight: medium
   thwimp_trap_weight: medium
+  fishin_trap_weight: medium
+  screen_flip_trap_weight: medium
+  sticky_floor_trap_weight: medium
+  sticky_hands_trap_weight: medium
+  pixelate_trap_weight: medium
+  spotlight_trap_weight: medium
+  bullet_time_trap_weight: medium
+  invisibility_trap_weight: medium
+  empty_item_box_trap_weight: medium
 
-  # Aesthetics, QoL, Balance
-  display_received_item_popups: progression_minus_yoshi_eggs
-  autosave: 'true'
-  starting_life_count: '5'
-  overworld_speed: fast
-  music_shuffle: none
-  sfx_shuffle: none
-  mario_palette: mario
-  level_palette_shuffle: 'off'
-  overworld_palette_shuffle: 'off'
-
-  non_local_items: []
-  start_location_hints: []
-  exclude_locations: []
-  priority_locations: []
-  item_links: []
-  plando_items: []
-  progression_balancing: '50'
-  accessibility: full
   death_link: 'false'
-  ring_link: 'false'
   trap_link: 'true'
+  energy_link: 'true'

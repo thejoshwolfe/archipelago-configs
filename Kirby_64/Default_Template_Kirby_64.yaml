@@ -1,0 +1,276 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Kirby 64 - The Crystal Shards Template
+
+game: Kirby 64 - The Crystal Shards
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Kirby 64 - The Crystal Shards: 0.3.2 # Version of the world required for this yaml to work as expected.
+
+Kirby 64 - The Crystal Shards:
+  ################
+  # Game Options #
+  ################
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  plando_connections:
+    # Generic connections plando. Format is:
+    # - entrance: "Entrance Name"
+    #   exit: "Exit Name"
+    #   direction: "Direction"
+    #   percentage: 100
+    # Direction must be one of 'entrance', 'exit', or 'both', and defaults to 'both' if omitted.
+    # Percentage is an integer from 1 to 100, and defaults to 100 when omitted.
+    []
+
+  goal_speed:
+    # Normal: the goal is unlocked after defeating the 6 bosses
+    # Fast: the goal is unlocked after acquiring the target number of Crystal Shards
+    normal: 50
+    fast: 0
+
+  split_power_combos:
+    # If enabled, Power Combos are added to the pool as separate items, and must be unlocked separate from
+    # its base abilities.
+    'false': 50
+    'true': 0
+
+  stage_shuffle:
+    # None: No stage shuffling.
+    # Same World: shuffles stages around their world.
+    # Shuffled: shuffles stages across all worlds.
+    none: 50
+    same_world: 0
+    shuffled: 0
+
+  boss_requirement_random:
+    # If enabled, unlocking a boss will require a random amount of Crystal Shards, up to a certain amount per level.
+    'false': 50
+    'true': 0
+
+  max_crystals:
+    # Maximum number of crystal shards to include in the pool of items.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 5
+    # Maximum value is 72
+    30: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-5-72: 0 # random value between 5 and 72
+
+  required_crystals:
+    # Percentage of crystal shards required to unlock the boss of Ripple Star, and grant access to Zero-Two.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    50: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  consumables:
+    # Which type of pickups should become checks.
+    # Options are 1-Ups, Food, and Stars.
+    # 
+    # All of Adeleine's gifts are considered food.
+    # The large stars that replace Crystals are not considered checks.
+    []
+
+  filler_percentage:
+    # Percentage of non-required Crystal Shards to be converted to filler items (1-Ups, Maxim Tomatoes, Invincibility Candy).
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    50: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  kirby_flavor_preset:
+    # The color of Kirby, from a list of presets.
+    default: 50
+    bubblegum: 0
+    cherry: 0
+    blueberry: 0
+    lemon: 0
+    kiwi: 0
+    grape: 0
+    chocolate: 0
+    marshmallow: 0
+    licorice: 0
+    watermelon: 0
+    orange: 0
+    lime: 0
+    kusamochi: 0
+    citrus: 0
+    wafer: 0
+    ice: 0
+    cream: 0
+    snowcone: 0
+    cotton_candy: 0
+    chocomint: 0
+    cheeseburger: 0
+    rose: 0
+    daisy: 0
+    lavender: 0
+    lilac: 0
+    blue_poppy: 0
+    fuschia: 0
+    canary: 0
+    carbon: 0
+    snow: 0
+    ivory: 0
+    chalk: 0
+    sapphire: 0
+    emerald: 0
+    gameboy: 0
+    nostalgic: 0
+    halloween: 0
+    bright: 0
+    ocean: 0
+    miku: 0
+    rin: 0
+    len: 0
+    luka: 0
+    meiko: 0
+    kaito: 0
+    mirror: 0
+    dedede: 0
+    waddle_dee: 0
+    susie: 0
+    mogeko: 0
+    link: 0
+    callie: 0
+    marie: 0
+    pearl: 0
+    marina: 0
+    custom: 0
+
+  kirby_flavor:
+    # A custom color for Kirby. To use a custom color, set the preset to Custom and then define a dict of keys from "1" to
+    # "17", with their values being an HTML hex color.
+    '1': '#080000'
+    '10': '#D5D5D5'
+    '11': '#312029'
+    '12': '#8B949C'
+    '13': '#0000D5'
+    '14': '#8B626A'
+    '15': '#BD838B'
+    '16': '#FF6946'
+    '17': '#FF2600'
+    '2': '#F64A5A'
+    '3': '#6A4152'
+    '4': '#F6F6F6'
+    '5': '#F7A5B5'
+    '6': '#E66A62'
+    '7': '#00085A'
+    '8': '#EE8BA4'
+    '9': '#733141'
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
