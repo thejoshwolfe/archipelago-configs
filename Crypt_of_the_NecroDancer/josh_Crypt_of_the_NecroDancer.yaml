@@ -30,7 +30,7 @@ Crypt of the NecroDancer:
     bolt: 0
     bard: 1
     # Amplified: Nocturna, Diamond, Mary, Tempo
-    nocturna: 1
+    nocturna: 0
     diamond: 0
     mary: 0
     tempo: 0
@@ -49,14 +49,14 @@ Crypt of the NecroDancer:
     #- Cadence
     #- Melody
     - Aria
-    #- Dorian
+    - Dorian
     #- Eli
     #- Monk
     #- Dove
     - Coda
-    #- Bolt
+    - Bolt
     #- Bard
-    #- Nocturna
+    - Nocturna # Going down stairs as bat doesn't send checks. Don't want to deal with that broken.
     - Diamond
     - Mary
     - Tempo
@@ -68,7 +68,7 @@ Crypt of the NecroDancer:
     - Shovel Knight
 
   character_unlocks: item_only
-  include_unique_items: 'true'
+  include_unique_items: 'false' # Do not ask me to start as Melody with no weapon.
   include_materials: 'true'
 
   included_extra_modes: []
