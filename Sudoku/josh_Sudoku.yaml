@@ -1,5 +1,5 @@
-name: sudoku
-description: 5 boards of 9 blocks. Beginner difficulty.
+name: josh_sudoku
+description: 5 boards of 9 blocks. Beginner difficulty. https://galdiuz.github.io/archipeladoku/
 game: Archipeladoku
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
