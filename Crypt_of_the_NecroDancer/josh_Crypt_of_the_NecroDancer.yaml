@@ -8,13 +8,13 @@ Crypt of the NecroDancer:
     all_zones: 0 # TODO: try this
     zones: 1
   #all_zones_goal_clear: '8'
-  zones_goal_clear: '20'
+  zones_goal_clear: '30'
 
   floor_clear_checks: 'true'
   dlc:
     - Amplified
     #- Synchrony
-    #- Miku
+    - Miku
     #- Shovel Knight
 
   starting_inventory: '0'
@@ -30,8 +30,8 @@ Crypt of the NecroDancer:
     bolt: 0
     bard: 1
     # Amplified: Nocturna, Diamond, Mary, Tempo
-    nocturna: 0
-    diamond: 0
+    nocturna: 1
+    diamond: 1
     mary: 0
     tempo: 0
     # Synchrony: Klarinetta, Chaunter, Suzu
@@ -40,12 +40,11 @@ Crypt of the NecroDancer:
     chaunter: 0
     suzu: 0
     # Miku: Hatsune Miku
-    hatsune_miku: 0
+    hatsune_miku: 1
     # Shovel Knight: Shovel Knight
     shovel_knight: 0
 
   character_blacklist:
-    # Which characters to exclude from checks and progression. Note that this will disable the character from the run entirely if included.
     #- Cadence
     #- Melody
     - Aria
@@ -56,19 +55,19 @@ Crypt of the NecroDancer:
     - Coda
     - Bolt
     #- Bard
-    - Nocturna # Going down stairs as bat doesn't send checks. Don't want to deal with that broken.
-    - Diamond
+    #- Nocturna
+    #- Diamond
     - Mary
     - Tempo
     - Reaper
     - Klarinetta
     - Chaunter
     - Suzu
-    - Hatsune Miku
+    #- Hatsune Miku
     - Shovel Knight
 
-  character_unlocks: item_only
-  include_unique_items: 'false' # Do not ask me to start as Melody with no weapon.
+  character_unlocks: required_items_hard
+  include_unique_items: 'true'
   include_materials: 'true'
 
   included_extra_modes: []
@@ -98,7 +97,7 @@ Crypt of the NecroDancer:
   filler_price_max: '1'
   useful_price_min: '2'
   useful_price_max: '2'
-  progression_price_min: '4'
-  progression_price_max: '4'
+  progression_price_min: '2'
+  progression_price_max: '8'
 
   death_link: 'false'

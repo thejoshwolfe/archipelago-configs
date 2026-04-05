@@ -33,6 +33,8 @@ description: Default Crypt of the NecroDancer Template
 game: Crypt of the NecroDancer
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Crypt of the NecroDancer: 0.5.3 # Version of the world required for this yaml to work as expected.
 
 Crypt of the NecroDancer:
   ################
@@ -69,7 +71,7 @@ Crypt of the NecroDancer:
     'true': 0
 
   goal:
-    # What goal to set for the Crypt of the NecroDancer multiworld.
+    # What goal to set for the Crypt of the NecroDancer multiworld. Default is Zones.
     # All_Zones: Clear ALl Zones mode with X amount of characters, where X is the value put for "All Zones Goal Clear". Recommended for experienced players, as this can be challenging.
     # Zones: Clear X amount of zones, where X is the value put for "Zones Goal Clear". Will disable "All Zones" checks. Recommended for a quicker and less challenging experience.
     all_zones: 0
@@ -113,14 +115,25 @@ Crypt of the NecroDancer:
     # Note: Excluding the Amplified DLC will remove Zone 5 from progression altogether.
     ['Synchrony']
 
+  death_link_type:
+    # How receiving a DeathLink should impact gameplay. Default is Tempo.
+    # Absolute: When receiving a DeathLink mid-run, you immediately die.
+    # Tempo: When receiving a DeathLink mid-run, a death timer will tick down the next 24 turns. If you can complete the level, the timer is removed and you avoid death. Having an active death timer will always treat a new DeathLink as an immediate death.
+    # Marv: Amplified Required: When receiving a DeathLink, receive a Marv follower. Multiple DeathLinks will add more Marvs. If any Marv is killed, you lose 20% of your max health every turn. If you can complete the level, all Marvs are removed and you avoid death.
+    # Note: The Marv setting requires Amplified, and will be swapped out for Tempo if chosen without Amplified. Any effects that trigger on-death will occur, including health potions.
+    absolute: 0
+    tempo: 50
+    marv: 0
+
   starting_inventory:
-    # Percentage of starting items granted at world start. Unique items are included if enabled.
+    # Percentage of starting items granted at world start.
     # If Character Unlocks is not Item_Only, required items for the starting character are always included.
-    # Default is 50.
+    # Default is 33.
     # 
     # Presets:
     # Vanilla (100): All starting items, like a fresh save.
-    # Reduced (50): Half of all starting items.
+    # Half (50): Half of all starting items.
+    # Reduced (33): A third of all starting items.
     # Minimum (0): Only mandatory items (Dagger, Apple, Shovel).
     #
     # You can define additional values between the minimum and maximum values.
@@ -131,7 +144,8 @@ Crypt of the NecroDancer:
     random-high: 0 # random value weighted towards higher values
     random-range-0-100: 0 # random value between 0 and 100
     vanilla: 0 # equivalent to 100
-    reduced: 50 # equivalent to 50
+    half: 0 # equivalent to 50
+    reduced: 50 # equivalent to 33
     minimum: 0 # equivalent to 0
 
   starting_character:
