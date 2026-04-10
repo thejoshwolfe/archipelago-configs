@@ -1,13 +1,10 @@
 name: josh_cotnd
-description: 20 zones cleared across at least 4 characters.
+description: 20 zones cleared across at least 6 characters.
 game: Crypt of the NecroDancer
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
 Crypt of the NecroDancer:
-  goal:
-    all_zones: 0 # TODO: try this
-    zones: 1
-  #all_zones_goal_clear: '8'
+  goal: zones
   zones_goal_clear: '30'
 
   floor_clear_checks: 'true'
@@ -19,7 +16,7 @@ Crypt of the NecroDancer:
 
   starting_inventory: '0'
   starting_character:
-    cadence: 1
+    cadence: 0
     melody: 1
     aria: 0
     dorian: 0
