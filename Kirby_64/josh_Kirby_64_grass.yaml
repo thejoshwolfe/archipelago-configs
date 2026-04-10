@@ -1,5 +1,5 @@
 name: josh_k64
-description: 15/23 crystal shards, defeat all 6 bosses, rescue all 3 friends, and then defeat Zero Two. Stars not randomized.
+description: 15/23 crystal shards, defeat all 6 bosses, rescue all 3 friends, and then defeat Zero Two. ~1000 checks.
 game: Kirby 64 - The Crystal Shards
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
@@ -17,7 +17,7 @@ Kirby 64 - The Crystal Shards:
   consumables:
     - 1-Ups
     - Food
-    #- Stars
+    - Stars
 
   filler_percentage: '50'
 
