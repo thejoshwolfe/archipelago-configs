@@ -11,6 +11,7 @@ requires:
   allow_imported_blueprints: 'true'
   world_gen: buffed_resources
   world_gen_enemies: 'false'
+  death_link: 'true'
 
   ################
   # Technologies #
@@ -25,9 +26,10 @@ requires:
   ####################
   # Nearly full cost technology
   tech_cost_divisor: 1
-  tech_cost_max_count: 1000
+  tech_cost_max_count: 500
   # No free samples.
   free_samples: none
+  skip_starting_trigger_techs: 'false'
 
   ################
   # Traps/Filler #
@@ -47,18 +49,3 @@ requires:
   filler_steel_plate_productivity_weight: '1'
   filler_worker_robots_speed_weight: '1'
   inventory_spill_trap_weight: '1'
-
-  ###########################
-  # Item & Location Options #
-  ###########################
-  local_items: []
-  non_local_items: []
-  start_inventory: {}
-  start_hints: []
-  start_location_hints: []
-  exclude_locations: []
-  priority_locations: []
-  item_links: []
-  plando_items: []
-  progression_balancing: '50'
-  death_link: 'true'
