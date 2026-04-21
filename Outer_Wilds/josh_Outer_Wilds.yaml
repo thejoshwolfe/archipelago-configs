@@ -31,6 +31,9 @@ Outer Wilds:
     #Landing Camera: 1
     #Velocity Matcher: 1
 
+    # Making the platforming harder is only a little interesting.
+    Boost Duration Upgrade: 1
+
     # Try to reduce some backtracking while still keeping the world rich with stuff to do.
     #Launch Codes: 1
     #Signalscope: 1
