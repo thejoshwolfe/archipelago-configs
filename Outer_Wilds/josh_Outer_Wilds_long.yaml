@@ -1,0 +1,102 @@
+name: josh_ow
+description: Meet both friends and reach the Eye of the Universe.
+game: Outer Wilds
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Outer Wilds: 1.2.0 # Version of the world required for this yaml to work as expected.
+Outer Wilds:
+  enable_eote_dlc: 'true'
+  goal: song_of_seven
+
+  ###############################
+  # Spawn & General Progression #
+  ###############################
+  spawn:
+    vanilla: 0
+    hourglass_twins: 1
+    timber_hearth: 1
+    brittle_hollow: 1
+    giants_deep: 0 # Kind of a painful walk to the ship.
+    stranger: 0
+    deep_bramble: 0
+  early_key_item:
+    'off': 0
+    any: 1
+    translator: 0
+    nomai_warp_codes: 0
+    launch_codes: 0
+  start_inventory_from_pool:
+    # Mental kinematic equations is not what i'm here for.
+    Autopilot: 1
+    #Landing Camera: 1
+    #Velocity Matcher: 1
+
+    # Making the platforming harder is only a little interesting.
+    Boost Duration Upgrade: 1
+
+    # Try to reduce some backtracking while still keeping the world rich with stuff to do.
+    #Launch Codes: 1
+    #Signalscope: 1
+    'Hide & Seek Frequency': 1
+    Deep Space Radio Frequency: 1
+    Quantum Fluctuations Frequency: 1
+    Distress Beacon Frequency: 1
+    #Scout: 1
+    #Ghost Matter Wavelength: 1
+    #Translator (Brittle Hollow): 1
+    #Translator (Dark Bramble): 1
+    #Translator (Giant's Deep): 1
+    #Translator (Hourglass Twins): 1
+    #Translator (Other): 1
+    #Translator (Timber Hearth): 1
+    #Tornado Aerodynamic Adjustments: 1
+    #Electrical Insulation: 1
+    #Imaging Rule: 1
+    Entanglement Rule: 1
+    #Shrine Door Codes: 1
+    #Silent Running Mode: 1
+    Escape Pod 1 Signal: 1
+    #Nomai Warp Codes: 1
+    #Warp Core Installation Manual: 1
+    #Coordinates: 1
+
+  exclude_locations:
+    # These require being there at a specific time:
+    - "ET Ship Log: Chert's Camp 3 - All The Stars"
+    - "ET Ship Log: Chert's Camp 4 - Old Age"
+    - "ET Ship Log: Chert's Camp 5 - Resignation"
+
+  randomize_warp_platforms: 'false'
+  split_translator: 'true'
+  logsanity: 'true'
+  shuffle_spacesuit: 'false'
+
+  #########################################
+  # Additional Non-Logical Randomizations #
+  #########################################
+  randomize_coordinates: 'true'
+  randomize_orbits: 'false'
+  randomize_rotations: 'false'
+  randomize_dark_bramble_layout: 'false'
+
+  ##################################
+  # (Non-Progression) Item Options #
+  ##################################
+  trap_chance: '15'
+  trap_type_weights:
+    Audio Trap: 1
+    HUD Corruption Trap: 1
+    Ice Physics Trap: 1
+    Map Disable Trap: 0
+    Nap Trap: 2
+    Ship Damage Trap: 2
+    Suit Puncture Trap: 2
+    Supernova Trap: 0
+  upgrade_counts:
+    # 50%, 100%, 150%, 200%
+    Boost Duration Upgrade: 3
+    Fuel Capacity Upgrade: 3
+    Oxygen Capacity Upgrade: 3
+
+  death_link: default

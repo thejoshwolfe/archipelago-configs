@@ -34,7 +34,7 @@ game: 'Factorio: Space Age'
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    'Factorio: Space Age': 2.1.0 # Version of the world required for this yaml to work as expected.
+    'Factorio: Space Age': 2.2.0 # Version of the world required for this yaml to work as expected.
 
 'Factorio: Space Age':
   ################
@@ -495,10 +495,12 @@ requires:
     # killing Gleba enemies is logically required for automating agricultural science,
     # and if starting on Gelba, also required for automating chemical science.
     # WARNING: military bonuses for damage, weapon speed, etc. are not considered by the logic.
+    # 
+    # For backward compatibility with apworld versions prior to 2.2.0, "land mine" is accepted as an alias for "land mine and construction robot".
     gun turret and firearm magazine: false
     gun turret and piercing rounds magazine: false
     gun turret and uranium rounds magazine: true
-    land mine: true
+    land mine and construction robot: true
     railgun: true
     rocket turret: true
     tesla turret: true
@@ -870,8 +872,8 @@ requires:
     random-range-0-1000: 0 # random value between 0 and 1000
 
   teleport_trap_weight:
-    # Weighted chance that a filler item is a trap that when received triggers a random teleport.
-    # It is ensured the player can walk back to where they got teleported from.
+    # DEPRECATED: this option has been removed due to bugs.
+    # See https://github.com/thejoshwolfe/Archipelago/issues/18 if you'd like to contribute a fix so that it can be re-enabled.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
