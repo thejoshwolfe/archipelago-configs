@@ -21,10 +21,10 @@ Outer Wilds:
     deep_bramble: 0
   early_key_item:
     'off': 0
-    any: 1
+    any: 0
     translator: 0
     nomai_warp_codes: 0
-    launch_codes: 0
+    launch_codes: 1
   start_inventory_from_pool:
     # Mental kinematic equations is not what i'm here for.
     Autopilot: 1
@@ -33,6 +33,7 @@ Outer Wilds:
 
     # Making the platforming harder is only a little interesting.
     Boost Duration Upgrade: 1
+    Fuel Capacity Upgrade: 1
 
     # Try to reduce some backtracking while still keeping the world rich with stuff to do.
     #Launch Codes: 1

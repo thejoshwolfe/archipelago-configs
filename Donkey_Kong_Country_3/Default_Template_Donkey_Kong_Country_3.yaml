@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -28,15 +28,15 @@
 name: Player{number}
 
 # Used to describe your yaml. Useful if you have multiple files.
-description: Default Donkey Kong Country 3 Template
+description: Default Donkey Kong Toluca Template
 
-game: Donkey Kong Country 3
+game: Donkey Kong Toluca
 requires:
-  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Donkey Kong Country 3: 1.1.0 # Version of the world required for this yaml to work as expected.
+    Donkey Kong Toluca: 0.2.3 # Version of the world required for this yaml to work as expected.
 
-Donkey Kong Country 3:
+Donkey Kong Toluca:
   ################
   # Game Options #
   ################
@@ -65,143 +65,231 @@ Donkey Kong Country 3:
     full: 50
     minimal: 0
 
-  dk_coins_for_gyrocopter:
-    # How many DK Coins are needed to unlock the Gyrocopter
+  energy_link:
+    # EnergyLink allows players to deposit energy extracted from collected bananas into a shared pool across games in the session.
     # 
-    # Note: Achieving this number before unlocking the Turbo Ski will cause the game to grant you a
-    # one-time upgrade to the next non-unlocked boat, until you return to Funky. Logic does not assume
-    # that you will use this.
+    # You can exchange energy for Backup DK Barrels. Great for players that find the base game hard.
+    # There's an additional item in the item pool that allows for better energy extraction from bananas.
+    'false': 50
+    'true': 0
+
+  starting_life_count:
+    # How many lives to start the game with.
     #
     # You can define additional values between the minimum and maximum values.
-    # Minimum value is 10
-    # Maximum value is 41
+    # Minimum value is 0
+    # Maximum value is 99
     30: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-10-41: 0 # random value between 10 and 41
+    random-range-0-99: 0 # random value between 0 and 99
 
-  kongsanity:
-    # Whether collecting all four KONG letters in each level grants a check
-    'false': 50
-    'true': 0
+  default_save_name:
+    # Which name will be given to the save file when pressing start at the name entry menu.
+    # Limited to 5 letters.
+    DIXIE: 50
 
-  level_shuffle:
-    # Whether levels are shuffled
-    'false': 50
-    'true': 0
-
-  difficulty:
-    # Which Difficulty Level to use
-    # 
-    # NORML: The Normal Difficulty
-    # HARDR: Many DK Barrels are removed
-    # TUFST: Most DK Barrels and all Midway Barrels are removed
-    norml: 50
-    hardr: 0
-    tufst: 0
-
-  ################
-  # Goal Options #
-  ################
+  ########
+  # Goal #
+  ########
   goal:
-    # Determines the goal of the seed
-    # 
-    # Knautilus: Scuttle the Knautilus in Krematoa and defeat Baron K. Roolenstein
-    # 
-    # Banana Bird Hunt: Find a certain number of Banana Birds and rescue their mother
-    knautilus: 50
-    banana_bird_hunt: 0
+    # Which K.Rool fights will count towards the goal.
+    # - **Kore**: Defeat Baron K. Roolenstein at Kastle Kaos.
+    # - **Knautilus**: Defeat Baron K. Roolenstein at Knautilus.
+    # - **Kompletionist**: Defeat Baron K. Roolenstein at both locations.
+    kore: 50
+    krematoa: 0
+    kompletionist: 0
 
-  krematoa_bonus_coin_cost:
-    # How many Bonus Coins are needed to unlock each level in Krematoa
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 1
-    # Maximum value is 17
-    15: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-1-17: 0 # random value between 1 and 17
-
-  percentage_of_extra_bonus_coins:
-    # What Percentage of unneeded Bonus Coins are included in the item pool
+  required_birds:
+    # How many birds are required to reveal Kastle Kaos in the main map.
+    # Selecting 0 will create an Access item instead.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 100
-    100: 50
+    # Maximum value is 6
+    4: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-100: 0 # random value between 0 and 100
+    random-range-0-6: 0 # random value between 0 and 6
 
-  number_of_banana_birds:
-    # How many Banana Birds are put into the item pool
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 5
-    # Maximum value is 15
-    15: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-5-15: 0 # random value between 5 and 15
+  cog_placement:
+    # Where are the five required Cogs placed in the session which are used to open up Knautilus at Krematoa.
+    # Having all 5 cogs also unlocks every single Krematoa level immediately.
+    # 
+    # ONLY "ANYWHERE" IS SUPPORTED AT THE MOMENT
+    anywhere: 0
+    krematoa_level_clear: 50
+    krematoa_anywhere: 0
 
-  percentage_of_banana_birds:
-    # What Percentage of Banana Birds in the item pool are required for Banana Bird Hunt
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 20
-    # Maximum value is 100
-    100: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-20-100: 0 # random value between 20 and 100
-
-  ##############
-  # Aesthetics #
-  ##############
-  autosave:
-    # Whether the game should autosave after each level
-    'false': 0
-    'true': 50
-
-  merry:
-    # Whether the Bonus Barrels will be Christmas-themed
-    'false': 50
-    'true': 0
-
-  music_shuffle:
-    # Whether music is shuffled
-    'false': 50
-    'true': 0
-
-  kong_palette_swap:
-    # Which Palette to use for the Kongs
-    default: 50
-    purple: 0
-    spooky: 0
-    dark: 0
-    chocolate: 0
-    shadow: 0
-    red_gold: 0
-    gbc: 0
-    halloween: 0
-
-  starting_life_count:
-    # How many extra lives to start the game with
+  required_lake_levels:
+    # How many levels in Lake Orangatanga need to be cleared to fight the world's boss
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
-    # Maximum value is 99
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  required_forest_levels:
+    # How many levels in Kremwood Forest need to be cleared to fight the world's boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  required_cove_levels:
+    # How many levels in Cotton Top Cove need to be cleared to fight the world's boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  required_mekanos_levels:
+    # How many levels in Mekanos need to be cleared to fight the world's boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  required_k3_levels:
+    # How many levels in K3 need to be cleared to fight the world's boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  required_ridge_levels:
+    # How many levels in Razor Ridge need to be cleared to fight the world's boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  required_kore_levels:
+    # How many levels in Kaos Kore need to be cleared to fight the world's boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
+    4: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-5: 0 # random value between 1 and 5
+
+  required_krematoa_levels:
+    # How many levels in Krematoa need to be cleared to fight the world's boss
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 5
     5: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-1-99: 0 # random value between 1 and 99
+    random-range-1-5: 0 # random value between 1 and 5
+
+  #############
+  # Locations #
+  #############
+  logic:
+    # Logic difficulty. May become irrelevant if not a lot of items are added to the item pool.
+    # - **Strict**: Ensures everything is reachable as the original devs intended. For beginners or people who want to go out of logic with some tricks.
+    # - **Loose**: Reaching locations may require some level of mastery about the game's mechanics.
+    # - **Expert**: Locations expects players to be extremely good at the game with minimal amount of abilities. Hard to go out of logic.
+    strict: 50
+    loose: 0
+    expert: 0
+
+  kong_checks:
+    # Whether collecting all KONG letters in each level will grant a check
+    'false': 50
+    'true': 0
+
+  dk_coin_checks:
+    # Whether collecting a DK Coin in levels will grant a check
+    'false': 50
+    'true': 0
+
+  balloon_checks:
+    # Whether collecting balloons in levels will grant a check
+    'false': 50
+    'true': 0
+
+  banana_checks:
+    # Whether collecting banana bunches in levels will grant a check
+    'false': 50
+    'true': 0
+
+  coin_checks:
+    # Whether collecting bear coins in levels will grant a check
+    'false': 50
+    'true': 0
+
+  bird_checks:
+    # Whether collecting a banana bird will grant a check
+    'false': 50
+    'true': 0
+
+  ###########
+  # Shuffle #
+  ###########
+  starting_kong:
+    # Which Kongs will be available at the start
+    dixie: 50
+    kiddy: 0
+    both: 0
+
+  shuffle_levels:
+    # Shuffles levels around. Does nothing to bosses.
+    'false': 50
+    'true': 0
+
+  shuffle_abilities:
+    # Which abilities will be added as items in the item pool
+    # If an ability is not present in the list they will be treated as unlocked from the start
+    ['Spin', 'Helicopter Spin', 'Climb', 'Team Attack', 'Swim', 'Carry', 'Water Bounce']
+
+  shuffle_animals:
+    # Which animal buddies will be added as items in the item pool
+    # If an animal buddy is not present in the list they will be treated as unlocked from the start
+    ['Squitter', 'Enguarde', 'Parry', 'Squawks', 'Ellie']
+
+  shuffle_objects:
+    # Which kind of barrels will be added as items in the item pool
+    # If a barrel is not present in the list they will be treated as unlocked from the start
+    ['Barrel Switch', 'Barrel Cannon', 'Ghost Barrel', 'Barrel Shield', 'Rocket Barrel', 'Waterfall Barrel', 'Invincibility Barrel', 'Tracker Barrel', 'Warp Barrel']
 
   ###########################
   # Item & Location Options #
@@ -216,6 +304,12 @@ Donkey Kong Country 3:
 
   start_inventory:
     # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
     {}
 
   start_hints:

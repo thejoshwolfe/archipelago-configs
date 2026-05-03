@@ -1,0 +1,61 @@
+name: josh_dkc3
+description: Defeat 5/6 world bosses, find 5/5 cogs (hinted), and defeat K. Rool in both locations.
+game: Donkey Kong Toluca
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Donkey Kong Toluca: 0.2.3 # Version of the world required for this yaml to work as expected.
+Donkey Kong Toluca:
+  starting_life_count: '30'
+
+  goal: kompletionist
+  required_birds: '5' # /6 world bosses
+  cog_placement: anywhere
+  start_hints:
+    - Cog
+
+  required_lake_levels: '4' # /5
+  required_forest_levels: '4' # /5
+  required_cove_levels: '4' # /5
+  required_mekanos_levels: '4' # /5
+  required_k3_levels: '4' # /5
+  required_ridge_levels: '4' # /5
+  required_kore_levels: '4' # /5
+  required_krematoa_levels: '5' # /5
+
+  logic: strict
+  kong_checks: 'false'
+  dk_coin_checks: 'true'
+  balloon_checks: 'true'
+  banana_checks: 'true'
+  coin_checks: 'true'
+  bird_checks: 'true'
+
+  starting_kong: both
+  shuffle_levels: 'false'
+  shuffle_abilities:
+    #- Spin
+    - Helicopter Spin
+    #- Climb
+    - Team Attack
+    - Swim
+    #- Carry
+    #- Water Bounce # This does like 1 thing. Don't make me backtrack for it.
+  shuffle_animals:
+    - Squitter
+    - Enguarde
+    - Parry
+    - Squawks
+    - Ellie
+  shuffle_objects:
+    - Barrel Switch
+    - Barrel Cannon
+    - Ghost Barrel
+    - Barrel Shield
+    - Rocket Barrel
+    - Waterfall Barrel
+    - Invincibility Barrel
+    - Tracker Barrel
+    - Warp Barrel
+
+  energy_link: 'true'
