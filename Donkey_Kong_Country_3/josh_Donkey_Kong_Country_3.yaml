@@ -1,5 +1,5 @@
 name: josh_dkc3
-description: Defeat 5/6 world bosses, find 5/5 cogs (hinted), and defeat K. Rool in both locations.
+description: Defeat 5/6 world bosses, find 5/5 Cogs and 5/5 Bonus Coins (hinted), and defeat K. Rool in both locations.
 game: Donkey Kong Toluca
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
@@ -13,6 +13,7 @@ Donkey Kong Toluca:
   cog_placement: anywhere
   start_hints:
     - Cog
+    - Bonus Coin
 
   required_lake_levels: '4' # /5
   required_forest_levels: '4' # /5
@@ -34,28 +35,28 @@ Donkey Kong Toluca:
   starting_kong: both
   shuffle_levels: 'false'
   shuffle_abilities:
-    #- Spin
+    - Carry
+    - Climb
     - Helicopter Spin
-    #- Climb
-    - Team Attack
+    #- Spin # Let me go fast please
     - Swim
-    #- Carry
-    #- Water Bounce # This does like 1 thing. Don't make me backtrack for it.
+    - Team Attack
+    - Water Bounce
   shuffle_animals:
-    - Squitter
+    - Ellie
     - Enguarde
     - Parry
     - Squawks
-    - Ellie
+    - Squitter
   shuffle_objects:
-    - Barrel Switch
-    - Barrel Cannon
-    - Ghost Barrel
+    # - Barrel Cannon # When this is missing, it causes pretty annoying backtracking later.
     - Barrel Shield
-    - Rocket Barrel
-    - Waterfall Barrel
+    - Barrel Switch
+    - Ghost Barrel
     - Invincibility Barrel
+    - Rocket Barrel
     - Tracker Barrel
     - Warp Barrel
+    - Waterfall Barrel
 
   energy_link: 'true'

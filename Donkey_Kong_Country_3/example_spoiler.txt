@@ -1,4 +1,4 @@
-﻿Archipelago Version 0.6.7  -  Seed: 9275118785736734846
+﻿Archipelago Version 0.6.7  -  Seed: 57768834805562113675
 
 Filling Algorithm:               balanced
 Players:                         1
@@ -10,7 +10,7 @@ Accessibility:                   Full
 Local Items:                     
 Non-local Items:                 
 Start Inventory:                 
-Start Hints:                     Cog
+Start Hints:                     Bonus Coin, Cog
 Start Location Hints:            
 Excluded Locations:              
 Priority Locations:              
@@ -18,16 +18,16 @@ Item Links:
 Plando Items:                    
 Start Inventory from Pool:       
 Energy Link:                     Yes
-Shuffle Levels:                  Yes
+Shuffle Levels:                  No
 Starting Life Count:             30
 Starting Kong:                   Both
 Logic Difficulty:                Strict
 Goal:                            Kompletionist
 Required Birds:                  5
 Cog Placement:                   Anywhere
-Ability Shuffle:                 Helicopter Spin, Swim, Team Attack
+Ability Shuffle:                 Carry, Climb, Helicopter Spin, Swim, Team Attack, Water Bounce
 Animal Buddies Shuffle:          Ellie, Enguarde, Parry, Squawks, Squitter
-Barrel Shuffle:                  Barrel Cannon, Barrel Shield, Barrel Switch, Ghost Barrel, Invincibility Barrel, Rocket Barrel, Tracker Barrel, Warp Barrel, Waterfall Barrel
+Barrel Shuffle:                  Barrel Shield, Barrel Switch, Ghost Barrel, Invincibility Barrel, Rocket Barrel, Tracker Barrel, Warp Barrel, Waterfall Barrel
 KONG Letters Checks:             No
 Balloon Checks:                  Yes
 Banana Bunches Checks:           Yes
@@ -50,578 +50,576 @@ Starting Items:
 Dixie
 Kiddy
 Lake Orangatanga Access
-Carry
-Climb
+Barrel Cannon
 Spin
-Water Bounce
 
 Locations:
 
 Lakeside Limbo - Clear: Backup DK Barrel
 Lakeside Limbo - Bonus #1: Backup DK Barrel
 Lakeside Limbo - Bonus #2: Backup DK Barrel
-Lakeside Limbo - DK Coin: Bear Coin
-Lakeside Limbo - Balloon #1 (On roof at the start): Bear Coin
-Lakeside Limbo - Balloon #2 (On roof at the start): Backup DK Barrel
-Lakeside Limbo - Balloon #3 (On roof near checkpoint): Bear Coin
+Lakeside Limbo - DK Coin: Backup DK Barrel
+Lakeside Limbo - Balloon #1 (On roof at the start): Backup DK Barrel
+Lakeside Limbo - Balloon #2 (On roof at the start): Red Balloon
+Lakeside Limbo - Balloon #3 (On roof near checkpoint): Backup DK Barrel
 Lakeside Limbo - Balloon #4 (Near bonus #2): Red Balloon
-Lakeside Limbo - Balloon #5 (Near no animal sign): Bear Coin
-Lakeside Limbo - Banana Bunch #1 (At start): Red Balloon
+Lakeside Limbo - Balloon #5 (Near no animal sign): Red Balloon
+Lakeside Limbo - Banana Bunch #1 (At start): Backup DK Barrel
 Lakeside Limbo - Banana Bunch #2 (Underwater after checkpoint): Backup DK Barrel
-Lakeside Limbo - Banana Bunch #3 (On roof at the end): Banana Extractinator
-Lakeside Limbo - Banana Bunch #4 (At the end): Backup DK Barrel
-Lakeside Limbo - Bear Coin #1 (On roof near checkpoint): Backup DK Barrel
+Lakeside Limbo - Banana Bunch #3 (On roof at the end): Backup DK Barrel
+Lakeside Limbo - Banana Bunch #4 (At the end): Banana Extractinator
+Lakeside Limbo - Bear Coin #1 (On roof near checkpoint): Red Balloon
 Lakeside Limbo - Bear Coin #2 (On roof near checkpoint): Red Balloon
-Lakeside Limbo - Bear Coin #3 (No animal sign reward): Bear Coin
-Lakeside Limbo - Bear Coin #4 (On roof at the end): Backup DK Barrel
+Lakeside Limbo - Bear Coin #3 (No animal sign reward): Cog
+Lakeside Limbo - Bear Coin #4 (On roof at the end): Red Balloon
 Doorstop Dash - Clear: Backup DK Barrel
-Doorstop Dash - Bonus #1: Bear Coin
+Doorstop Dash - Bonus #1: Red Balloon
 Doorstop Dash - Bonus #2: Red Balloon
-Doorstop Dash - DK Coin: Bear Coin
-Doorstop Dash - Balloon #1 (Near bonus #1): Red Balloon
+Doorstop Dash - DK Coin: Backup DK Barrel
+Doorstop Dash - Balloon #1 (Near bonus #1): Backup DK Barrel
 Doorstop Dash - Balloon #2 (Invisible near rope): Red Balloon
-Doorstop Dash - Balloon #3 (At the top the big fall): Backup DK Barrel
+Doorstop Dash - Balloon #3 (At the top the big fall): Red Balloon
 Doorstop Dash - Balloon #4 (Near the end of big fall): Backup DK Barrel
 Doorstop Dash - Banana Bunch #1 (Near start): Red Balloon
 Doorstop Dash - Banana Bunch #1 (Near open trap door): Backup DK Barrel
-Doorstop Dash - Bear Coin #1 (Above second door): Backup DK Barrel
+Doorstop Dash - Bear Coin #1 (Above second door): Red Balloon
 Doorstop Dash - Bear Coin #2 (Above pile of bags): Backup DK Barrel
 Tidal Trouble - Clear: Red Balloon
-Tidal Trouble - Bonus #1: Backup DK Barrel
-Tidal Trouble - Bonus #2: Backup DK Barrel
-Tidal Trouble - DK Coin: Red Balloon
-Tidal Trouble - Balloon #1 (Below cracked floor at the end): Red Balloon
+Tidal Trouble - Bonus #1: Red Balloon
+Tidal Trouble - Bonus #2: Red Balloon
+Tidal Trouble - DK Coin: Backup DK Barrel
+Tidal Trouble - Balloon #1 (Below cracked floor at the end): Krematoa Access
 Tidal Trouble - Banana Bunch #1 (Above green Koco): Bear Coin
-Tidal Trouble - Banana Bunch #2 (No animal sign reward): Red Balloon
-Tidal Trouble - Bear Coin #1 (Above green Buzz): Backup DK Barrel
-Tidal Trouble - Bear Coin #2 (Above green Buzz between two wooden pillars): Backup DK Barrel
-Skidda's Row - Clear: Backup DK Barrel
+Tidal Trouble - Banana Bunch #2 (No animal sign reward): Backup DK Barrel
+Tidal Trouble - Bear Coin #1 (Above green Buzz): Red Balloon
+Tidal Trouble - Bear Coin #2 (Above green Buzz between two wooden pillars): Bear Coin
+Skidda's Row - Clear: Mekanos Access
 Skidda's Row - Bonus #1: Backup DK Barrel
-Skidda's Row - Bonus #2: Backup DK Barrel
+Skidda's Row - Bonus #2: Red Balloon
 Skidda's Row - DK Coin: Backup DK Barrel
-Skidda's Row - Balloon #1 (Above Knik-Knak): Backup DK Barrel
+Skidda's Row - Balloon #1 (Above Knik-Knak): Red Balloon
 Skidda's Row - Banana Bunch #1 (After a background Snowman): Backup DK Barrel
 Skidda's Row - Bear Coin #1 (Inside second house): Red Balloon
-Skidda's Row - Bear Coin #2 (Invisible between two holes): Progressive Vehicle
+Skidda's Row - Bear Coin #2 (Invisible between two holes): Bear Coin
 Skidda's Row - Bear Coin #3 (Above O): Backup DK Barrel
-Murky Mill - Clear: Backup DK Barrel
+Murky Mill - Clear: Progressive Vehicle
 Murky Mill - Bonus #1: Backup DK Barrel
-Murky Mill - Bonus #2: Red Balloon
-Murky Mill - DK Coin: Red Balloon
-Murky Mill - Balloon #1 (Above Sneek): Red Balloon
+Murky Mill - Bonus #2: Ghost Barrel
+Murky Mill - DK Coin: Backup DK Barrel
+Murky Mill - Balloon #1 (Above Sneek): Bear Coin
 Murky Mill - Banana Bunch #1 (After getting Ellie): Red Balloon
 Murky Mill - Banana Bunch #2 (Above second lift): Red Balloon
-Murky Mill - Bear Coin #1 (Above Re-Koil): Backup DK Barrel
-Murky Mill - Bear Coin #2 (In corner after falling section with red Buzzes): Tracker Barrel
-Murky Mill - Bear Coin #3 (No animal sign): Backup DK Barrel
+Murky Mill - Bear Coin #1 (Above Re-Koil): Bear Coin
+Murky Mill - Bear Coin #2 (In corner after falling section with red Buzzes): Red Balloon
+Murky Mill - Bear Coin #3 (No animal sign): Bear Coin
 Barrel Shield Bust-Up - Clear: Backup DK Barrel
-Barrel Shield Bust-Up - Bonus #1: Backup DK Barrel
+Barrel Shield Bust-Up - Bonus #1: Red Balloon
 Barrel Shield Bust-Up - Bonus #2: Backup DK Barrel
 Barrel Shield Bust-Up - DK Coin: Backup DK Barrel
-Barrel Shield Bust-Up - Banana Bunch #1 (At start behind Buzz): Backup DK Barrel
-Barrel Shield Bust-Up - Banana Bunch #2 (Between trees): Bear Coin
+Barrel Shield Bust-Up - Banana Bunch #1 (At start behind Buzz): Banana Extractinator
+Barrel Shield Bust-Up - Banana Bunch #2 (Between trees): Backup DK Barrel
 Barrel Shield Bust-Up - Bear Coin #1 (In hole above Barrel Kannon): Red Balloon
-Barrel Shield Bust-Up - Bear Coin #2 (In ledge): Backup DK Barrel
-Riverside Race - Clear: Red Balloon
+Barrel Shield Bust-Up - Bear Coin #2 (In ledge): Red Balloon
+Riverside Race - Clear: Backup DK Barrel
 Riverside Race - Bonus #1: Backup DK Barrel
-Riverside Race - Bonus #2: Backup DK Barrel
+Riverside Race - Bonus #2: Cog
 Riverside Race - DK Coin: Backup DK Barrel
-Riverside Race - Balloon #1 (On detour): Red Balloon
-Riverside Race - Banana Bunch #1 (At start): Backup DK Barrel
+Riverside Race - Balloon #1 (On detour): Backup DK Barrel
+Riverside Race - Banana Bunch #1 (At start): Red Balloon
 Riverside Race - Banana Bunch #2 (In water below bonus #1): Backup DK Barrel
-Riverside Race - Banana Bunch #3 (In pond with single Red Koco): Backup DK Barrel
+Riverside Race - Banana Bunch #3 (In pond with single Red Koco): Bonus Coin
 Riverside Race - Banana Bunch #4 (In pond with single Red Koco): Red Balloon
-Riverside Race - Banana Bunch #5 (In pond with single Red Koco): Red Balloon
-Riverside Race - Banana Bunch #6 (Between two Re-Koils): Backup DK Barrel
+Riverside Race - Banana Bunch #5 (In pond with single Red Koco): Backup DK Barrel
+Riverside Race - Banana Bunch #6 (Between two Re-Koils): Bonus Coin
 Riverside Race - Bear Coin #1 (Before second pond): Backup DK Barrel
-Riverside Race - Bear Coin #2 (In second pond): Backup DK Barrel
+Riverside Race - Bear Coin #2 (In second pond): Waterfall Barrel
 Riverside Race - Bear Coin #3 (In pond after bonus #2): Backup DK Barrel
-Riverside Race - Bear Coin #4 (In last pond): Red Balloon
+Riverside Race - Bear Coin #4 (In last pond): Backup DK Barrel
 Squeals on Wheels - Clear: Backup DK Barrel
-Squeals on Wheels - Bonus #1: Red Balloon
-Squeals on Wheels - Bonus #2: Red Balloon
-Squeals on Wheels - DK Coin: Red Balloon
+Squeals on Wheels - Bonus #1: Backup DK Barrel
+Squeals on Wheels - Bonus #2: Backup DK Barrel
+Squeals on Wheels - DK Coin: Backup DK Barrel
 Squeals on Wheels - Balloon #1 (No animal sign): Backup DK Barrel
-Squeals on Wheels - Banana Bunch #1 (At start): Red Balloon
+Squeals on Wheels - Banana Bunch #1 (At start): Backup DK Barrel
 Squeals on Wheels - Banana Bunch #2 (At end of first rope): Backup DK Barrel
 Squeals on Wheels - Banana Bunch #3 (At end of first rope): Bear Coin
 Squeals on Wheels - Banana Bunch #4 (Above steel keg after N): Backup DK Barrel
 Squeals on Wheels - Banana Bunch #5 (Above steel keg after N): Backup DK Barrel
-Squeals on Wheels - Banana Bunch #6 (In corner near Barrel Kannon): Red Balloon
+Squeals on Wheels - Banana Bunch #6 (In corner near Barrel Kannon): Backup DK Barrel
 Squeals on Wheels - Banana Bunch #7 (Near top of the level): Backup DK Barrel
 Squeals on Wheels - Bear Coin #1 (Above Booty Bird): Red Balloon
-Springin' Spiders - Clear: Red Balloon
+Springin' Spiders - Clear: Bear Coin
 Springin' Spiders - Bonus #1: Red Balloon
 Springin' Spiders - Bonus #2: Backup DK Barrel
 Springin' Spiders - DK Coin: Backup DK Barrel
 Springin' Spiders - Balloon #1 (Above a red Buzz at the start): Backup DK Barrel
-Springin' Spiders - Balloon #2 (In hole between Buzzes): Backup DK Barrel
-Springin' Spiders - Balloon #3 (Below N): Backup DK Barrel
-Springin' Spiders - Banana Bunch #1 (Hidden in top corner): Red Balloon
-Springin' Spiders - Banana Bunch #1 (Behind Green Buzz before no animal sign): Red Balloon
-Springin' Spiders - Banana Bunch #4 (Above Red Buzz): Bear Coin
-Springin' Spiders - Banana Bunch #5 (Below a wooden barrel): Backup DK Barrel
-Springin' Spiders - Banana Bunch #6 (Above a red Buzz): Backup DK Barrel
-Springin' Spiders - Banana Bunch #7 (Next to a hole with a single banana below): Backup DK Barrel
+Springin' Spiders - Balloon #2 (In hole between Buzzes): Red Balloon
+Springin' Spiders - Balloon #3 (Below N): Red Balloon
+Springin' Spiders - Banana Bunch #1 (Hidden in top corner): Backup DK Barrel
+Springin' Spiders - Banana Bunch #1 (Behind Green Buzz before no animal sign): Backup DK Barrel
+Springin' Spiders - Banana Bunch #4 (Above Red Buzz): Red Balloon
+Springin' Spiders - Banana Bunch #5 (Below a wooden barrel): Red Balloon
+Springin' Spiders - Banana Bunch #6 (Above a red Buzz): Bear Coin
+Springin' Spiders - Banana Bunch #7 (Next to a hole with a single banana below): Red Balloon
 Springin' Spiders - Bear Coin #1 (Above Warp Barrel): Backup DK Barrel
 Springin' Spiders - Bear Coin #2 (Behind a green Buzz): Backup DK Barrel
 Springin' Spiders - Bear Coin #3 (In a ledge below a Buzz): Backup DK Barrel
-Springin' Spiders - Bear Coin #4 (In a ledge below a Buzz): Red Balloon
-Springin' Spiders - Bear Coin #5 (No animal sign): Backup DK Barrel
+Springin' Spiders - Bear Coin #4 (In a ledge below a Buzz): Backup DK Barrel
+Springin' Spiders - Bear Coin #5 (No animal sign): Red Balloon
 Springin' Spiders - Bear Coin #6 (Above Red Buzz): Backup DK Barrel
-Springin' Spiders - Bear Coin #7 (Next to Bonus #2): Red Balloon
+Springin' Spiders - Bear Coin #7 (Next to Bonus #2): Bear Coin
 Bobbing Barrel Brawl - Clear: Backup DK Barrel
-Bobbing Barrel Brawl - Bonus #1: Razor Ridge Access
+Bobbing Barrel Brawl - Bonus #1: Backup DK Barrel
 Bobbing Barrel Brawl - Bonus #2: Backup DK Barrel
-Bobbing Barrel Brawl - DK Coin: Red Balloon
+Bobbing Barrel Brawl - DK Coin: Backup DK Barrel
 Bobbing Barrel Brawl - Balloon #1 (Cache below Koin): Backup DK Barrel
-Bobbing Barrel Brawl - Banana Bunch #1 (No animal sign): Backup DK Barrel
+Bobbing Barrel Brawl - Banana Bunch #1 (No animal sign): Red Balloon
 Bobbing Barrel Brawl - Bear Coin #1 (Above Knik-Knak): Backup DK Barrel
 Bobbing Barrel Brawl - Bear Coin #2 (Before Green-Red Buzz combo): Red Balloon
 Bobbing Barrel Brawl - Bear Coin #3 (Cache below no animal sign): Red Balloon
-Bazza's Blockade - Clear: Bear Coin
-Bazza's Blockade - Bonus #1: Red Balloon
-Bazza's Blockade - Bonus #2: Backup DK Barrel
-Bazza's Blockade - DK Coin: Backup DK Barrel
+Bazza's Blockade - Clear: Backup DK Barrel
+Bazza's Blockade - Bonus #1: Backup DK Barrel
+Bazza's Blockade - Bonus #2: Red Balloon
+Bazza's Blockade - DK Coin: Bear Coin
 Bazza's Blockade - Banana Bunch #1 (Near start): Backup DK Barrel
-Bazza's Blockade - Banana Bunch #2 (Near start): Bear Coin
+Bazza's Blockade - Banana Bunch #2 (Near start): Backup DK Barrel
 Bazza's Blockade - Bear Coin #1 (In small passage): Backup DK Barrel
 Bazza's Blockade - Bear Coin #2 (In small passage): Red Balloon
-Bazza's Blockade - Bear Coin #3 (Below Bazza's exit): Backup DK Barrel
+Bazza's Blockade - Bear Coin #3 (Below Bazza's exit): Red Balloon
 Bazza's Blockade - Bear Coin #4 (In Bounty Bass near end): Backup DK Barrel
-Rocket Barrel Ride - Clear: Progressive Vehicle
+Rocket Barrel Ride - Clear: Bear Coin
 Rocket Barrel Ride - Bonus #1: Backup DK Barrel
 Rocket Barrel Ride - Bonus #2: Backup DK Barrel
-Rocket Barrel Ride - DK Coin: Backup DK Barrel
-Rocket Barrel Ride - Balloon #1 (After Krumple pair): Backup DK Barrel
+Rocket Barrel Ride - DK Coin: Red Balloon
+Rocket Barrel Ride - Balloon #1 (After Krumple pair): Red Balloon
 Rocket Barrel Ride - Balloon #1 (No animal sign): Backup DK Barrel
-Rocket Barrel Ride - Banana Bunch #1 (After first rocket): Backup DK Barrel
-Rocket Barrel Ride - Banana Bunch #2 (Behind waterfall near start): Red Balloon
+Rocket Barrel Ride - Banana Bunch #1 (After first rocket): Red Balloon
+Rocket Barrel Ride - Banana Bunch #2 (Behind waterfall near start): Bear Coin
 Rocket Barrel Ride - Banana Bunch #3 (Near Barrel Kannons): Backup DK Barrel
 Rocket Barrel Ride - Banana Bunch #4 (After Barrel Kannons): Backup DK Barrel
-Rocket Barrel Ride - Banana Bunch #5 (Near checkpoint): Backup DK Barrel
-Rocket Barrel Ride - Banana Bunch #6 (After Krumple pair): Bear Coin
-Rocket Barrel Ride - Banana Bunch #7 (After Krumple pair): K3 Access
+Rocket Barrel Ride - Banana Bunch #5 (Near checkpoint): Barrel Shield
+Rocket Barrel Ride - Banana Bunch #6 (After Krumple pair): Backup DK Barrel
+Rocket Barrel Ride - Banana Bunch #7 (After Krumple pair): Red Balloon
 Rocket Barrel Ride - Bear Coin #1 (Behind waterfall near start): Red Balloon
-Rocket Barrel Ride - Bear Coin #2 (Before third rocket): Red Balloon
-Rocket Barrel Ride - Bear Coin #3 (Near Barrel Kannons): Backup DK Barrel
-Rocket Barrel Ride - Bear Coin #4 (Behind waterfall above K): Backup DK Barrel
-Rocket Barrel Ride - Bear Coin #5 (Next to a rotating barrel): Red Balloon
-Rocket Barrel Ride - Bear Coin #6 (Above Krimp behind waterfall): Bear Coin
-Kreeping Klasps - Clear: Backup DK Barrel
-Kreeping Klasps - Bonus #1: Backup DK Barrel
-Kreeping Klasps - Bonus #2: Red Balloon
-Kreeping Klasps - DK Coin: Red Balloon
-Kreeping Klasps - Balloon #1 (Near start): Backup DK Barrel
-Kreeping Klasps - Balloon #2 (After bonus #1): Bear Coin
+Rocket Barrel Ride - Bear Coin #2 (Before third rocket): Backup DK Barrel
+Rocket Barrel Ride - Bear Coin #3 (Near Barrel Kannons): Red Balloon
+Rocket Barrel Ride - Bear Coin #4 (Behind waterfall above K): Parry
+Rocket Barrel Ride - Bear Coin #5 (Next to a rotating barrel): Backup DK Barrel
+Rocket Barrel Ride - Bear Coin #6 (Above Krimp behind waterfall): Backup DK Barrel
+Kreeping Klasps - Clear: Red Balloon
+Kreeping Klasps - Bonus #1: Red Balloon
+Kreeping Klasps - Bonus #2: Backup DK Barrel
+Kreeping Klasps - DK Coin: Bear Coin
+Kreeping Klasps - Balloon #1 (Near start): Cog
+Kreeping Klasps - Balloon #2 (After bonus #1): Backup DK Barrel
 Kreeping Klasps - Banana Bunch #1 (After bonus #1): Red Balloon
-Kreeping Klasps - Banana Bunch #2 (Before checkpoint): Bear Coin
-Kreeping Klasps - Bear Coin #1 (Near start below cracked ground): Backup DK Barrel
-Kreeping Klasps - Bear Coin #2 (After checkpoint): Backup DK Barrel
+Kreeping Klasps - Banana Bunch #2 (Before checkpoint): Backup DK Barrel
+Kreeping Klasps - Bear Coin #1 (Near start below cracked ground): Bear Coin
+Kreeping Klasps - Bear Coin #2 (After checkpoint): Red Balloon
 Tracker Barrel Trek - Clear: Red Balloon
 Tracker Barrel Trek - Bonus #1: Backup DK Barrel
-Tracker Barrel Trek - Bonus #2: Backup DK Barrel
+Tracker Barrel Trek - Bonus #2: Cog
 Tracker Barrel Trek - DK Coin: Backup DK Barrel
-Tracker Barrel Trek - Balloon #1 (Near checkpoint): Red Balloon
+Tracker Barrel Trek - Balloon #1 (Near checkpoint): Rocket Barrel
 Tracker Barrel Trek - Banana Bunch #1 (Above Tracker Barrel): Backup DK Barrel
 Tracker Barrel Trek - Bear Coin #1 (Near start above DK Barrel): Backup DK Barrel
-Tracker Barrel Trek - Bear Coin #2 (Between Krumples): Backup DK Barrel
-Tracker Barrel Trek - Bear Coin #3 (Behind waterffal above two Re-Koils): Backup DK Barrel
-Tracker Barrel Trek - Bear Coin #4 (Before Koin): Red Balloon
-Fish Food Frenzy - Clear: Backup DK Barrel
-Fish Food Frenzy - Bonus #1: Backup DK Barrel
+Tracker Barrel Trek - Bear Coin #2 (Between Krumples): Red Balloon
+Tracker Barrel Trek - Bear Coin #3 (Behind waterffal above two Re-Koils): Red Balloon
+Tracker Barrel Trek - Bear Coin #4 (Before Koin): Backup DK Barrel
+Fish Food Frenzy - Clear: Red Balloon
+Fish Food Frenzy - Bonus #1: Invincibility Barrel
 Fish Food Frenzy - Bonus #2: Red Balloon
-Fish Food Frenzy - DK Coin: Bear Coin
-Fish Food Frenzy - Banana Bunch #1 (Above Lurchin before O): Bear Coin
-Fish Food Frenzy - Bear Coin #1 (Near start): Progressive Vehicle
-Fish Food Frenzy - Bear Coin #2 (Below Lurchin): Backup DK Barrel
-Fire-Ball Frenzy - Clear: Backup DK Barrel
-Fire-Ball Frenzy - Bonus #1: Backup DK Barrel
+Fish Food Frenzy - DK Coin: Backup DK Barrel
+Fish Food Frenzy - Banana Bunch #1 (Above Lurchin before O): Red Balloon
+Fish Food Frenzy - Bear Coin #1 (Near start): Red Balloon
+Fish Food Frenzy - Bear Coin #2 (Below Lurchin): Red Balloon
+Fire-Ball Frenzy - Clear: Bear Coin
+Fire-Ball Frenzy - Bonus #1: Red Balloon
 Fire-Ball Frenzy - Bonus #2: Red Balloon
-Fire-Ball Frenzy - DK Coin: Backup DK Barrel
+Fire-Ball Frenzy - DK Coin: Red Balloon
 Fire-Ball Frenzy - Banana Bunch #1 (Before checkpoint): Backup DK Barrel
-Fire-Ball Frenzy - Banana Bunch #2 (After checkpoint): Red Balloon
-Fire-Ball Frenzy - Banana Bunch #3 (In corner below wooden platform): Bear Coin
+Fire-Ball Frenzy - Banana Bunch #2 (After checkpoint): Backup DK Barrel
+Fire-Ball Frenzy - Banana Bunch #3 (In corner below wooden platform): Red Balloon
 Fire-Ball Frenzy - Bear Coin #1 (Near start): Red Balloon
 Fire-Ball Frenzy - Bear Coin #2 (In a corner above rope): Backup DK Barrel
 Fire-Ball Frenzy - Bear Coin #3 (After checkpoint): Red Balloon
-Fire-Ball Frenzy - Bear Coin #4 (No animal sign): Squawks
+Fire-Ball Frenzy - Bear Coin #4 (No animal sign): Backup DK Barrel
 Fire-Ball Frenzy - Bear Coin #5 (After no animal sign): Backup DK Barrel
-Demolition Drain-Pipe - Clear: Krematoa Access
-Demolition Drain-Pipe - Bonus #1: Red Balloon
+Demolition Drain-Pipe - Clear: Red Balloon
+Demolition Drain-Pipe - Bonus #1: Bonus Coin
 Demolition Drain-Pipe - Bonus #2: Backup DK Barrel
-Demolition Drain-Pipe - DK Coin: Red Balloon
-Demolition Drain-Pipe - Banana Bunch #1: Backup DK Barrel
-Demolition Drain-Pipe - Banana Bunch #2: Bonus Coin
+Demolition Drain-Pipe - DK Coin: Backup DK Barrel
+Demolition Drain-Pipe - Banana Bunch #1: Red Balloon
+Demolition Drain-Pipe - Banana Bunch #2: Backup DK Barrel
 Demolition Drain-Pipe - Banana Bunch #3: Backup DK Barrel
 Demolition Drain-Pipe - Banana Bunch #4: Backup DK Barrel
-Demolition Drain-Pipe - Banana Bunch #5: Bonus Coin
-Demolition Drain-Pipe - Banana Bunch #6: Rocket Barrel
-Demolition Drain-Pipe - Banana Bunch #7: Red Balloon
+Demolition Drain-Pipe - Banana Bunch #5: Bear Coin
+Demolition Drain-Pipe - Banana Bunch #6: Backup DK Barrel
+Demolition Drain-Pipe - Banana Bunch #7: Backup DK Barrel
 Demolition Drain-Pipe - Bear Coin #1: Backup DK Barrel
-Demolition Drain-Pipe - Bear Coin #2: Bear Coin
-Demolition Drain-Pipe - Bear Coin #3: Red Balloon
-Demolition Drain-Pipe - Bear Coin #4: Cog
+Demolition Drain-Pipe - Bear Coin #2: Backup DK Barrel
+Demolition Drain-Pipe - Bear Coin #3: Backup DK Barrel
+Demolition Drain-Pipe - Bear Coin #4: Backup DK Barrel
 Demolition Drain-Pipe - Bear Coin #5: Backup DK Barrel
 Demolition Drain-Pipe - Bear Coin #6: Backup DK Barrel
 Demolition Drain-Pipe - Bear Coin #7: Backup DK Barrel
-Ripsaw Rage - Clear: Bear Coin
-Ripsaw Rage - Bonus #1: Backup DK Barrel
-Ripsaw Rage - Bonus #2: Red Balloon
-Ripsaw Rage - DK Coin: Backup DK Barrel
+Ripsaw Rage - Clear: Backup DK Barrel
+Ripsaw Rage - Bonus #1: Red Balloon
+Ripsaw Rage - Bonus #2: Backup DK Barrel
+Ripsaw Rage - DK Coin: Red Balloon
 Ripsaw Rage - Banana Bunch #1 (Below branch): Backup DK Barrel
 Ripsaw Rage - Banana Bunch #2 (Below Sneek): Backup DK Barrel
 Ripsaw Rage - Banana Bunch #3 (Between branches before steel keg): Backup DK Barrel
-Ripsaw Rage - Banana Bunch #4 (Below branch near Koin): Backup DK Barrel
-Ripsaw Rage - Bear Coin #1 (After exiting second tree at start): Backup DK Barrel
+Ripsaw Rage - Banana Bunch #4 (Below branch near Koin): Progressive Vehicle
+Ripsaw Rage - Bear Coin #1 (After exiting second tree at start): Red Balloon
 Ripsaw Rage - Bear Coin #2 (Below wooden barrel for bonus 1): Backup DK Barrel
-Ripsaw Rage - Bear Coin #3 (Between branches): Backup DK Barrel
+Ripsaw Rage - Bear Coin #3 (Between branches): Red Balloon
 Blazing Bazukas - Clear: Backup DK Barrel
 Blazing Bazukas - Bonus #1: Backup DK Barrel
 Blazing Bazukas - Bonus #2: Backup DK Barrel
-Blazing Bazukas - DK Coin: Backup DK Barrel
-Blazing Bazukas - Balloon #1 (Near end): Bear Coin
-Blazing Bazukas - Banana Bunch #1 (No animal sign): Red Balloon
-Blazing Bazukas - Banana Bunch #2 (Before pair of Krimps): Bear Coin
+Blazing Bazukas - DK Coin: Red Balloon
+Blazing Bazukas - Balloon #1 (Near end): Backup DK Barrel
+Blazing Bazukas - Banana Bunch #1 (No animal sign): Backup DK Barrel
+Blazing Bazukas - Banana Bunch #2 (Before pair of Krimps): Backup DK Barrel
 Blazing Bazukas - Banana Bunch #3 (Above Bazuka): Backup DK Barrel
 Blazing Bazukas - Bear Coin #1 (In rope near start): Backup DK Barrel
 Blazing Bazukas - Bear Coin #2 (Next to Barrel Cannon before No animal sign): Backup DK Barrel
 Blazing Bazukas - Bear Coin #3 (No animal sign): Backup DK Barrel
 Blazing Bazukas - Bear Coin #4 (Above Bazuka): Backup DK Barrel
-Low-G Labyrinth - Clear: Backup DK Barrel
-Low-G Labyrinth - Bonus #1: Red Balloon
-Low-G Labyrinth - Bonus #2: Backup DK Barrel
-Low-G Labyrinth - DK Coin: Bear Coin
+Low-G Labyrinth - Clear: Team Attack
+Low-G Labyrinth - Bonus #1: Barrel Switch
+Low-G Labyrinth - Bonus #2: Red Balloon
+Low-G Labyrinth - DK Coin: Swim
 Low-G Labyrinth - Balloon #1 (In a long fall): Backup DK Barrel
-Low-G Labyrinth - Banana Bunch #1 (Near start): Bear Coin
-Low-G Labyrinth - Banana Bunch #2 (Below O): Red Balloon
-Low-G Labyrinth - Banana Bunch #3 (Between two circling Buzzes): Red Balloon
+Low-G Labyrinth - Banana Bunch #1 (Near start): Backup DK Barrel
+Low-G Labyrinth - Banana Bunch #2 (Below O): K3 Access
+Low-G Labyrinth - Banana Bunch #3 (Between two circling Buzzes): Razor Ridge Access
 Low-G Labyrinth - Banana Bunch #4 (Behind green Buzz): Bear Coin
-Low-G Labyrinth - Bear Coin #1 (In a corner next to a banana arc): Backup DK Barrel
-Low-G Labyrinth - Bear Coin #2 (Above a Buzzes column): Backup DK Barrel
-Low-G Labyrinth - Bear Coin #3 (In a long fall): Cog
-Low-G Labyrinth - Bear Coin #4 (Near invincibility barrel): Ghost Barrel
-Low-G Labyrinth - Bear Coin #5 (Near invincibility barrel): Backup DK Barrel
+Low-G Labyrinth - Bear Coin #1 (In a corner next to a banana arc): Red Balloon
+Low-G Labyrinth - Bear Coin #2 (Above a Buzzes column): Red Balloon
+Low-G Labyrinth - Bear Coin #3 (In a long fall): Kremwood Forest Access
+Low-G Labyrinth - Bear Coin #4 (Near invincibility barrel): Red Balloon
+Low-G Labyrinth - Bear Coin #5 (Near invincibility barrel): Red Balloon
 Low-G Labyrinth - Bear Coin #6 (Near invincibility barrel): Backup DK Barrel
 Low-G Labyrinth - Bear Coin #7 (No animal sign): Backup DK Barrel
-Krevice Kreepers - Clear: Backup DK Barrel
-Krevice Kreepers - Bonus #1: Bear Coin
-Krevice Kreepers - Bonus #2: Backup DK Barrel
+Krevice Kreepers - Clear: Red Balloon
+Krevice Kreepers - Bonus #1: Backup DK Barrel
+Krevice Kreepers - Bonus #2: Red Balloon
 Krevice Kreepers - DK Coin: Backup DK Barrel
-Krevice Kreepers - Balloon #1 (Floating between two rocks): Parry
-Krevice Kreepers - Banana Bunch #1 (Above start): Waterfall Barrel
+Krevice Kreepers - Balloon #1 (Floating between two rocks): Backup DK Barrel
+Krevice Kreepers - Banana Bunch #1 (Above start): Backup DK Barrel
 Krevice Kreepers - Banana Bunch #2 (Above start): Backup DK Barrel
-Krevice Kreepers - Banana Bunch #3 (Above start): Bear Coin
-Krevice Kreepers - Banana Bunch #4 (Near start): Backup DK Barrel
+Krevice Kreepers - Banana Bunch #3 (Above start): Backup DK Barrel
+Krevice Kreepers - Banana Bunch #4 (Near start): Red Balloon
 Krevice Kreepers - Bear Coin #1 (Near start): Backup DK Barrel
-Krevice Kreepers - Bear Coin #2 (Cache near start): Red Balloon
-Krevice Kreepers - Bear Coin #3 (Near Koin): Backup DK Barrel
-Krevice Kreepers - Bear Coin #4 (Next to rope with 4 bananas): Red Balloon
+Krevice Kreepers - Bear Coin #2 (Cache near start): Backup DK Barrel
+Krevice Kreepers - Bear Coin #3 (Near Koin): Red Balloon
+Krevice Kreepers - Bear Coin #4 (Next to rope with 4 bananas): Backup DK Barrel
 Krevice Kreepers - Bear Coin #5 (Cache below last wooden ledge): Red Balloon
-Krevice Kreepers - Bear Coin #6 (Cache below goal): Backup DK Barrel
+Krevice Kreepers - Bear Coin #6 (Cache below goal): Red Balloon
 Tearaway Toboggan - Clear: Red Balloon
-Tearaway Toboggan - Bonus #1: Backup DK Barrel
+Tearaway Toboggan - Bonus #1: Red Balloon
 Tearaway Toboggan - Bonus #2: Backup DK Barrel
-Tearaway Toboggan - DK Coin: Backup DK Barrel
+Tearaway Toboggan - DK Coin: Red Balloon
 Tearaway Toboggan - Balloon #1 (Below a Knik-Knak): Red Balloon
 Tearaway Toboggan - Balloon #2 (At the end): Backup DK Barrel
-Tearaway Toboggan - Banana Bunch #1 (After banana arc): Bear Coin
+Tearaway Toboggan - Banana Bunch #1 (After banana arc): Red Balloon
 Tearaway Toboggan - Banana Bunch #2 (In a hill): Red Balloon
 Tearaway Toboggan - Banana Bunch #3 (Above a Knik-Knak): Backup DK Barrel
 Tearaway Toboggan - Banana Bunch #4 (Next to a Knik-Knak): Red Balloon
-Tearaway Toboggan - Banana Bunch #5 (At the end of a big hill): Backup DK Barrel
-Tearaway Toboggan - Banana Bunch #6 (After a big hill): Red Balloon
-Tearaway Toboggan - Banana Bunch #7 (Inside Booty Bird): Backup DK Barrel
-Tearaway Toboggan - Bear Coin #1 (Above green Buzz in house): Red Balloon
-Tearaway Toboggan - Bear Coin #2 (After a Skidda): Banana Radar
-Tearaway Toboggan - Bear Coin #3 (Inside house): Backup DK Barrel
+Tearaway Toboggan - Banana Bunch #5 (At the end of a big hill): Red Balloon
+Tearaway Toboggan - Banana Bunch #6 (After a big hill): Backup DK Barrel
+Tearaway Toboggan - Banana Bunch #7 (Inside Booty Bird): Bear Coin
+Tearaway Toboggan - Bear Coin #1 (Above green Buzz in house): Backup DK Barrel
+Tearaway Toboggan - Bear Coin #2 (After a Skidda): Backup DK Barrel
+Tearaway Toboggan - Bear Coin #3 (Inside house): Red Balloon
 Tearaway Toboggan - Bear Coin #4 (Above house): Backup DK Barrel
-Tearaway Toboggan - Bear Coin #5 (Below a Knik-Knak): Bear Coin
-Tearaway Toboggan - Bear Coin #6 (Above house): Backup DK Barrel
-Barrel Drop Bounce - Clear: Cog
-Barrel Drop Bounce - Bonus #1: Red Balloon
+Tearaway Toboggan - Bear Coin #5 (Below a Knik-Knak): Red Balloon
+Tearaway Toboggan - Bear Coin #6 (Above house): Red Balloon
+Barrel Drop Bounce - Clear: Red Balloon
+Barrel Drop Bounce - Bonus #1: Backup DK Barrel
 Barrel Drop Bounce - Bonus #2: Backup DK Barrel
-Barrel Drop Bounce - DK Coin: Red Balloon
-Barrel Drop Bounce - Balloon #1 (No animal sign): Banana Extractinator
+Barrel Drop Bounce - DK Coin: Backup DK Barrel
+Barrel Drop Bounce - Balloon #1 (No animal sign): Bear Coin
 Barrel Drop Bounce - Bear Coin #1 (At start): Backup DK Barrel
 Barrel Drop Bounce - Bear Coin #2 (In Hidden Booty Bird above 10 banana set): Backup DK Barrel
 Krackshot Krock - Clear: Backup DK Barrel
 Krackshot Krock - Bonus #1: Red Balloon
 Krackshot Krock - Bonus #2: Red Balloon
-Krackshot Krock - DK Coin: Backup DK Barrel
+Krackshot Krock - DK Coin: Red Balloon
 Krackshot Krock - Balloon #1 (In corner): Backup DK Barrel
-Krackshot Krock - Banana Bunch #1 (Near bonus #1): Bonus Coin
+Krackshot Krock - Banana Bunch #1 (Near bonus #1): Backup DK Barrel
 Krackshot Krock - Banana Bunch #2 (Above cauldron): Backup DK Barrel
-Krackshot Krock - Banana Bunch #3 (Near bonus #2): Red Balloon
-Krackshot Krock - Banana Bunch #4 (Above triple cauldron): Backup DK Barrel
-Krackshot Krock - Banana Bunch #5 (Near circling red Buzz): Red Balloon
+Krackshot Krock - Banana Bunch #3 (Near bonus #2): Backup DK Barrel
+Krackshot Krock - Banana Bunch #4 (Above triple cauldron): Red Balloon
+Krackshot Krock - Banana Bunch #5 (Near circling red Buzz): Backup DK Barrel
 Krackshot Krock - Bear Coin #1 (At start): Red Balloon
 Krackshot Krock - Bear Coin #2 (At start): Backup DK Barrel
-Krackshot Krock - Bear Coin #3 (Above O): Red Balloon
-Krackshot Krock - Bear Coin #4 (Below red Buzz): Bear Coin
+Krackshot Krock - Bear Coin #3 (Above O): Climb
+Krackshot Krock - Bear Coin #4 (Below red Buzz): Backup DK Barrel
 Krackshot Krock - Bear Coin #5 (Below red Buzz): Red Balloon
-Lemguin Lunge - Clear: Red Balloon
+Lemguin Lunge - Clear: Backup DK Barrel
 Lemguin Lunge - Bonus #1: Red Balloon
 Lemguin Lunge - Bonus #2: Backup DK Barrel
-Lemguin Lunge - DK Coin: Barrel Cannon
-Lemguin Lunge - Banana Bunch #1 (Near a Lemguin exit): Squitter
-Lemguin Lunge - Bear Coin #1 (Below O): Backup DK Barrel
-Lemguin Lunge - Bear Coin #2 (Near N): Bonus Coin
+Lemguin Lunge - DK Coin: Red Balloon
+Lemguin Lunge - Banana Bunch #1 (Near a Lemguin exit): Backup DK Barrel
+Lemguin Lunge - Bear Coin #1 (Below O): Red Balloon
+Lemguin Lunge - Bear Coin #2 (Near N): Bear Coin
 Buzzer Barrage - Clear: Backup DK Barrel
-Buzzer Barrage - Bonus #1: Bear Coin
-Buzzer Barrage - Bonus #2: Backup DK Barrel
-Buzzer Barrage - DK Coin: Red Balloon
-Buzzer Barrage - Balloon #1 (Cache at start): Backup DK Barrel
-Buzzer Barrage - Balloon #2 (Above exit): Backup DK Barrel
+Buzzer Barrage - Bonus #1: Red Balloon
+Buzzer Barrage - Bonus #2: Red Balloon
+Buzzer Barrage - DK Coin: Backup DK Barrel
+Buzzer Barrage - Balloon #1 (Cache at start): Red Balloon
+Buzzer Barrage - Balloon #2 (Above exit): Red Balloon
 Buzzer Barrage - Balloon #3 (Cache below no animal sign): Red Balloon
-Buzzer Barrage - Banana Bunch #1 (Near bonus #1 exit): Backup DK Barrel
+Buzzer Barrage - Banana Bunch #1 (Near bonus #1 exit): Banana Extractinator
 Buzzer Barrage - Banana Bunch #2 (Below Kopter): Red Balloon
-Buzzer Barrage - Banana Bunch #3 (In a dead end after triple Buzzes): Backup DK Barrel
+Buzzer Barrage - Banana Bunch #3 (In a dead end after triple Buzzes): Red Balloon
 Buzzer Barrage - Banana Bunch #4 (In a dead end after triple Buzzes): Backup DK Barrel
 Buzzer Barrage - Banana Bunch #5 (In a dead end after circling Buzzes): Red Balloon
-Buzzer Barrage - Banana Bunch #6 (In a dead end after circling Buzzes): Red Balloon
-Buzzer Barrage - Banana Bunch #7 (Before red buzz trio before G): Red Balloon
-Buzzer Barrage - Bear Coin #1 (In a Booty Bird at the start): Backup DK Barrel
+Buzzer Barrage - Banana Bunch #6 (In a dead end after circling Buzzes): Backup DK Barrel
+Buzzer Barrage - Banana Bunch #7 (Before red buzz trio before G): Backup DK Barrel
+Buzzer Barrage - Bear Coin #1 (In a Booty Bird at the start): Squitter
 Buzzer Barrage - Bear Coin #2 (In a corner near circling Buzzes): Backup DK Barrel
-Buzzer Barrage - Bear Coin #3 (Between two Buzzes): Bear Coin
-Buzzer Barrage - Bear Coin #4 (Below Kopter): Swim
-Buzzer Barrage - Bear Coin #5 (No animal sign): Red Balloon
+Buzzer Barrage - Bear Coin #3 (Between two Buzzes): Backup DK Barrel
+Buzzer Barrage - Bear Coin #4 (Below Kopter): Red Balloon
+Buzzer Barrage - Bear Coin #5 (No animal sign): Bear Coin
 Buzzer Barrage - Bear Coin #6 (Above exit): Backup DK Barrel
-Buzzer Barrage - Bear Coin #6 (Cache near exit): Red Balloon
-Kong-Fused Cliffs - Clear: Backup DK Barrel
+Buzzer Barrage - Bear Coin #6 (Cache near exit): Backup DK Barrel
+Kong-Fused Cliffs - Clear: Red Balloon
 Kong-Fused Cliffs - Bonus #1: Backup DK Barrel
-Kong-Fused Cliffs - Bonus #2: Bear Coin
+Kong-Fused Cliffs - Bonus #2: Red Balloon
 Kong-Fused Cliffs - DK Coin: Red Balloon
-Kong-Fused Cliffs - Banana Bunch #2 (Near G): Backup DK Barrel
-Kong-Fused Cliffs - Banana Bunch #3 (Near G): Backup DK Barrel
+Kong-Fused Cliffs - Banana Bunch #2 (Near G): Bear Coin
+Kong-Fused Cliffs - Banana Bunch #3 (Near G): Red Balloon
 Kong-Fused Cliffs - Bear Coin #1 (Next to K): Backup DK Barrel
 Kong-Fused Cliffs - Bear Coin #2 (Above Barrel Kannon): Backup DK Barrel
-Kong-Fused Cliffs - Bear Coin #3 (In hidden passage): Red Balloon
-Kong-Fused Cliffs - Bear Coin #4 (In a detour before N): Backup DK Barrel
-Kong-Fused Cliffs - Bear Coin #5 (In a detour before N): Backup DK Barrel
-Floodlit Fish - Clear: Red Balloon
-Floodlit Fish - Bonus #1: Backup DK Barrel
-Floodlit Fish - Bonus #2: Backup DK Barrel
-Floodlit Fish - DK Coin: Backup DK Barrel
+Kong-Fused Cliffs - Bear Coin #3 (In hidden passage): Backup DK Barrel
+Kong-Fused Cliffs - Bear Coin #4 (In a detour before N): Bear Coin
+Kong-Fused Cliffs - Bear Coin #5 (In a detour before N): Red Balloon
+Floodlit Fish - Clear: Backup DK Barrel
+Floodlit Fish - Bonus #1: Red Balloon
+Floodlit Fish - Bonus #2: Red Balloon
+Floodlit Fish - DK Coin: Bear Coin
 Floodlit Fish - Banana Bunch #1 (At start): Helicopter Spin
-Floodlit Fish - Banana Bunch #2 (In Lurchin cluster): Red Balloon
-Floodlit Fish - Banana Bunch #3 (Behind two Red Kocos): Backup DK Barrel
-Floodlit Fish - Banana Bunch #4 (Below Gleaming Bream): Red Balloon
+Floodlit Fish - Banana Bunch #2 (In Lurchin cluster): Backup DK Barrel
+Floodlit Fish - Banana Bunch #3 (Behind two Red Kocos): Red Balloon
+Floodlit Fish - Banana Bunch #4 (Below Gleaming Bream): Progressive Vehicle
 Floodlit Fish - Banana Bunch #5 (In second branching path, left): Backup DK Barrel
-Floodlit Fish - Banana Bunch #6 (In third branching path, right): Red Balloon
+Floodlit Fish - Banana Bunch #6 (In third branching path, right): Backup DK Barrel
 Floodlit Fish - Banana Bunch #7 (Near exit): Backup DK Barrel
 Floodlit Fish - Banana Bunch #8 (No animal sign): Backup DK Barrel
 Floodlit Fish - Bear Coin #1 (Near checkpoint): Red Balloon
 Floodlit Fish - Bear Coin #2 (Inside Bounty Bass): Backup DK Barrel
-Floodlit Fish - Bear Coin #3 (Near exit): Red Balloon
+Floodlit Fish - Bear Coin #3 (Near exit): Backup DK Barrel
 Pot Hole Panic - Clear: Red Balloon
 Pot Hole Panic - Bonus #1: Backup DK Barrel
 Pot Hole Panic - Bonus #2: Backup DK Barrel
-Pot Hole Panic - DK Coin: Bear Coin
-Pot Hole Panic - Banana Bunch #1 (In dead end near start): Team Attack
-Pot Hole Panic - Banana Bunch #2 (In dead end near start): Bonus Coin
-Pot Hole Panic - Banana Bunch #3 (Near Enguarde box): Red Balloon
+Pot Hole Panic - DK Coin: Red Balloon
+Pot Hole Panic - Banana Bunch #1 (In dead end near start): Backup DK Barrel
+Pot Hole Panic - Banana Bunch #2 (In dead end near start): Backup DK Barrel
+Pot Hole Panic - Banana Bunch #3 (Near Enguarde box): Backup DK Barrel
 Pot Hole Panic - Banana Bunch #4 (In Bounty Bass near Enguarde box): Backup DK Barrel
-Pot Hole Panic - Banana Bunch #5 (Above Bounty Bass): Red Balloon
+Pot Hole Panic - Banana Bunch #5 (Above Bounty Bass): Bear Coin
 Pot Hole Panic - Banana Bunch #6 (Near Lurchin cluster): Backup DK Barrel
-Pot Hole Panic - Banana Bunch #7 (Behind Ellie Box): Bear Coin
+Pot Hole Panic - Banana Bunch #7 (Behind Ellie Box): Backup DK Barrel
 Pot Hole Panic - Banana Bunch #8 (Behind Ellie Box): Backup DK Barrel
-Pot Hole Panic - Banana Bunch #9 (Below N): Red Balloon
-Pot Hole Panic - Banana Bunch #10 (In Booty Bird after Squitter box): Kremwood Forest Access
-Pot Hole Panic - Banana Bunch #11 (No animal sign): Backup DK Barrel
-Pot Hole Panic - Bear Coin #1 (Near circling Kopters): Bear Coin
-Pot Hole Panic - Bear Coin #2 (Above Kopter): Red Balloon
-Pot Hole Panic - Bear Coin #3 (Below N): Bear Coin
-Pot Hole Panic - Bear Coin #4 (Below N): Barrel Switch
+Pot Hole Panic - Banana Bunch #9 (Below N): Backup DK Barrel
+Pot Hole Panic - Banana Bunch #10 (In Booty Bird after Squitter box): Backup DK Barrel
+Pot Hole Panic - Banana Bunch #11 (No animal sign): Cog
+Pot Hole Panic - Bear Coin #1 (Near circling Kopters): Red Balloon
+Pot Hole Panic - Bear Coin #2 (Above Kopter): Backup DK Barrel
+Pot Hole Panic - Bear Coin #3 (Below N): Backup DK Barrel
+Pot Hole Panic - Bear Coin #4 (Below N): Backup DK Barrel
 Ropey Rumpus - Clear: Backup DK Barrel
-Ropey Rumpus - Bonus #1: Red Balloon
-Ropey Rumpus - Bonus #2: Backup DK Barrel
-Ropey Rumpus - DK Coin: Backup DK Barrel
+Ropey Rumpus - Bonus #1: Backup DK Barrel
+Ropey Rumpus - Bonus #2: Red Balloon
+Ropey Rumpus - DK Coin: Red Balloon
 Ropey Rumpus - Balloon #1 (In branching path): Red Balloon
-Ropey Rumpus - Balloon #2 (In hidden upper path): Bear Coin
+Ropey Rumpus - Balloon #2 (In hidden upper path): Red Balloon
 Ropey Rumpus - Banana Bunch #1 (At start): Backup DK Barrel
-Ropey Rumpus - Banana Bunch #2 (Above green Buzz near K): Backup DK Barrel
+Ropey Rumpus - Banana Bunch #2 (Above green Buzz near K): Warp Barrel
 Ropey Rumpus - Banana Bunch #3 (Next to red & green Buzz pair): Red Balloon
-Ropey Rumpus - Banana Bunch #4 (Next to a pair of circling green Buzzes): Backup DK Barrel
-Ropey Rumpus - Banana Bunch #5 (Above branching path): Backup DK Barrel
+Ropey Rumpus - Banana Bunch #4 (Next to a pair of circling green Buzzes): Red Balloon
+Ropey Rumpus - Banana Bunch #5 (Above branching path): Bear Coin
 Ropey Rumpus - Banana Bunch #6 (Above branching path): Backup DK Barrel
-Ropey Rumpus - Banana Bunch #7 (Next to circling green Buzzes after N): Backup DK Barrel
-Ropey Rumpus - Banana Bunch #8 (Next to circling green Buzzes after N): Backup DK Barrel
-Ropey Rumpus - Banana Bunch #9 (In hidden upper path): Backup DK Barrel
+Ropey Rumpus - Banana Bunch #7 (Next to circling green Buzzes after N): Ellie
+Ropey Rumpus - Banana Bunch #8 (Next to circling green Buzzes after N): Red Balloon
+Ropey Rumpus - Banana Bunch #9 (In hidden upper path): Bear Coin
 Ropey Rumpus - Banana Bunch #10 (Below hidden upper path): Red Balloon
-Ropey Rumpus - Bear Coin #1 (Cache at start): Backup DK Barrel
-Ropey Rumpus - Bear Coin #2 (At start): Backup DK Barrel
-Ropey Rumpus - Bear Coin #3 (Next to K): Backup DK Barrel
+Ropey Rumpus - Bear Coin #1 (Cache at start): Red Balloon
+Ropey Rumpus - Bear Coin #2 (At start): Red Balloon
+Ropey Rumpus - Bear Coin #3 (Next to K): Red Balloon
 Ropey Rumpus - Bear Coin #4 (Next to O): Backup DK Barrel
 Ropey Rumpus - Bear Coin #5 (Next to O): Bear Coin
 Ropey Rumpus - Bear Coin #6 (Next to red & green Buzz pair): Backup DK Barrel
-Ropey Rumpus - Bear Coin #7 (Next to red Buzz with a circling green Buzz): Bear Coin
-Ropey Rumpus - Bear Coin #8 (In hidden upper path): Bear Coin
-Konveyor Rope Klash - Clear: Red Balloon
-Konveyor Rope Klash - Bonus #1: Red Balloon
+Ropey Rumpus - Bear Coin #7 (Next to red Buzz with a circling green Buzz): Red Balloon
+Ropey Rumpus - Bear Coin #8 (In hidden upper path): Backup DK Barrel
+Konveyor Rope Klash - Clear: Backup DK Barrel
+Konveyor Rope Klash - Bonus #1: Backup DK Barrel
 Konveyor Rope Klash - Bonus #2: Backup DK Barrel
-Konveyor Rope Klash - DK Coin: Bear Coin
-Konveyor Rope Klash - Balloon #1 (In small conveyor): Red Balloon
-Konveyor Rope Klash - Balloon #2 (Cache near Koin): Backup DK Barrel
+Konveyor Rope Klash - DK Coin: Red Balloon
+Konveyor Rope Klash - Balloon #1 (In small conveyor): Bear Coin
+Konveyor Rope Klash - Balloon #2 (Cache near Koin): Red Balloon
 Konveyor Rope Klash - Bear Coin #1 (At start): Backup DK Barrel
 Konveyor Rope Klash - Bear Coin #2 (Before checkpoint): Backup DK Barrel
-Konveyor Rope Klash - Bear Coin #3 (Cache near rolling Bristles): Bear Coin
+Konveyor Rope Klash - Bear Coin #3 (Cache near rolling Bristles): Backup DK Barrel
 Creepy Caverns - Clear: Red Balloon
-Creepy Caverns - Bonus #1: Invincibility Barrel
+Creepy Caverns - Bonus #1: Backup DK Barrel
 Creepy Caverns - Bonus #2: Backup DK Barrel
 Creepy Caverns - DK Coin: Backup DK Barrel
-Creepy Caverns - Balloon #1 (Cache next to Krumples pair): Backup DK Barrel
+Creepy Caverns - Balloon #1 (Cache next to Krumples pair): Bear Coin
 Creepy Caverns - Banana Bunch #1 (In Booty Bird at the start): Red Balloon
 Creepy Caverns - Banana Bunch #2 (Near bonus #1 exit): Red Balloon
-Creepy Caverns - Bear Coin #1 (Cache near first ascent): Backup DK Barrel
-Creepy Caverns - Bear Coin #2 (In secret ghost barrel trap before O): Backup DK Barrel
+Creepy Caverns - Bear Coin #1 (Cache near first ascent): Red Balloon
+Creepy Caverns - Bear Coin #2 (In secret ghost barrel trap before O): Red Balloon
 Creepy Caverns - Bear Coin #3 (In secret ghost barrel trap before O): Red Balloon
-Creepy Caverns - Bear Coin #4 (No animal sign): Backup DK Barrel
-Creepy Caverns - Bear Coin #5 (Next to Krumples pair): Red Balloon
+Creepy Caverns - Bear Coin #4 (No animal sign): Banana Radar
+Creepy Caverns - Bear Coin #5 (Next to Krumples pair): Bear Coin
 Creepy Caverns - Bear Coin #6 (Above G): Backup DK Barrel
-Lightning Look-Out - Clear: Backup DK Barrel
-Lightning Look-Out - Bonus #1: Bear Coin
+Lightning Look-Out - Clear: Bear Coin
+Lightning Look-Out - Bonus #1: Backup DK Barrel
 Lightning Look-Out - Bonus #2: Backup DK Barrel
-Lightning Look-Out - DK Coin: Barrel Shield
-Lightning Look-Out - Balloon #1 (Near start above Buzz trio): Warp Barrel
-Lightning Look-Out - Balloon #2 (Cache near end): Red Balloon
+Lightning Look-Out - DK Coin: Backup DK Barrel
+Lightning Look-Out - Balloon #1 (Near start above Buzz trio): Red Balloon
+Lightning Look-Out - Balloon #2 (Cache near end): Backup DK Barrel
 Lightning Look-Out - Banana Bunch #1 (Behind Buzz pair): Backup DK Barrel
-Lightning Look-Out - Bear Coin #1 (Cache near trapped Knik-Knaks): Backup DK Barrel
-Lightning Look-Out - Bear Coin #2 (Above Buzz duo): Red Balloon
+Lightning Look-Out - Bear Coin #1 (Cache near trapped Knik-Knaks): Red Balloon
+Lightning Look-Out - Bear Coin #2 (Above Buzz duo): Bonus Coin
 Lightning Look-Out - Bear Coin #3 (Above right buzz next to N): Bear Coin
-Koindozer Klamber - Clear: Bear Coin
+Koindozer Klamber - Clear: Red Balloon
 Koindozer Klamber - Bonus #1: Backup DK Barrel
-Koindozer Klamber - Bonus #2: Red Balloon
+Koindozer Klamber - Bonus #2: Backup DK Barrel
 Koindozer Klamber - DK Coin: Backup DK Barrel
-Koindozer Klamber - Balloon #1 (Cache below DK Barrel): Backup DK Barrel
+Koindozer Klamber - Balloon #1 (Cache below DK Barrel): Red Balloon
 Koindozer Klamber - Banana Bunch #1 (Above Koindozer): Red Balloon
-Koindozer Klamber - Bear Coin #1 (Below O): Backup DK Barrel
-Koindozer Klamber - Bear Coin #2 (Cache before Bazuka): Bear Coin
-Koindozer Klamber - Bear Coin #3 (Below checkpoint): Backup DK Barrel
-Poisonous Pipeline - Clear: Red Balloon
+Koindozer Klamber - Bear Coin #1 (Below O): Bear Coin
+Koindozer Klamber - Bear Coin #2 (Cache before Bazuka): Red Balloon
+Koindozer Klamber - Bear Coin #3 (Below checkpoint): Bonus Coin
+Poisonous Pipeline - Clear: Backup DK Barrel
 Poisonous Pipeline - Bonus #1: Backup DK Barrel
 Poisonous Pipeline - Bonus #2: Backup DK Barrel
-Poisonous Pipeline - DK Coin: Red Balloon
+Poisonous Pipeline - DK Coin: Backup DK Barrel
 Poisonous Pipeline - Balloon #1 (No animal sign): Red Balloon
-Poisonous Pipeline - Banana Bunch #1 (Above Lurchin pair): Cog
+Poisonous Pipeline - Banana Bunch #1 (Above Lurchin pair): Red Balloon
 Poisonous Pipeline - Banana Bunch #2 (Above Lurchin pair): Backup DK Barrel
-Poisonous Pipeline - Bear Coin #1 (Above water near start): Red Balloon
-Poisonous Pipeline - Bear Coin #2 (Near O): Red Balloon
-Stampede Sprint - Clear: Enguarde
+Poisonous Pipeline - Bear Coin #1 (Above water near start): Backup DK Barrel
+Poisonous Pipeline - Bear Coin #2 (Near O): Backup DK Barrel
+Stampede Sprint - Clear: Backup DK Barrel
 Stampede Sprint - Bonus #1: Backup DK Barrel
-Stampede Sprint - Bonus #2: Bear Coin
+Stampede Sprint - Bonus #2: Red Balloon
 Stampede Sprint - Bonus #3: Backup DK Barrel
-Stampede Sprint - DK Coin: Backup DK Barrel
-Stampede Sprint - Bear Coin #1 (During sprint): Bear Coin
-Stampede Sprint - Bear Coin #2 (Before no Ellie sign): Red Balloon
+Stampede Sprint - DK Coin: Tracker Barrel
+Stampede Sprint - Bear Coin #1 (During sprint): Backup DK Barrel
+Stampede Sprint - Bear Coin #2 (Before no Ellie sign): Backup DK Barrel
 Criss Kross Cliffs - Clear: Backup DK Barrel
 Criss Kross Cliffs - Bonus #1: Backup DK Barrel
-Criss Kross Cliffs - Bonus #2: Backup DK Barrel
+Criss Kross Cliffs - Bonus #2: Red Balloon
 Criss Kross Cliffs - DK Coin: Backup DK Barrel
 Criss Kross Cliffs - Balloon #1 (Near end): Backup DK Barrel
 Criss Kross Cliffs - Balloon #2 (Cache below goal): Backup DK Barrel
-Criss Kross Cliffs - Banana Bunch #1 (At start): Backup DK Barrel
-Criss Kross Cliffs - Banana Bunch #2 (In open area after O): Backup DK Barrel
-Criss Kross Cliffs - Banana Bunch #3 (Upper left after Bonus #2 exit): Bear Coin
+Criss Kross Cliffs - Banana Bunch #1 (At start): Bear Coin
+Criss Kross Cliffs - Banana Bunch #2 (In open area after O): Bear Coin
+Criss Kross Cliffs - Banana Bunch #3 (Upper left after Bonus #2 exit): Red Balloon
 Criss Kross Cliffs - Bear Coin #1 (In open area after O): Red Balloon
 Criss Kross Cliffs - Bear Coin #2 (Below N): Backup DK Barrel
 Criss Kross Cliffs - Bear Coin #3 (Cache near bonus #2): Red Balloon
 Criss Kross Cliffs - Bear Coin #4 (Cache near bonus #2): Red Balloon
-Tyrant Twin Tussle - Clear: Red Balloon
-Tyrant Twin Tussle - Bonus #1: Cog
+Tyrant Twin Tussle - Clear: Backup DK Barrel
+Tyrant Twin Tussle - Bonus #1: Enguarde
 Tyrant Twin Tussle - Bonus #2: Red Balloon
-Tyrant Twin Tussle - Bonus #3: Red Balloon
+Tyrant Twin Tussle - Bonus #3: Backup DK Barrel
 Tyrant Twin Tussle - DK Coin: Backup DK Barrel
-Tyrant Twin Tussle - Balloon #1 (Near K): Backup DK Barrel
+Tyrant Twin Tussle - Balloon #1 (Near K): Red Balloon
 Tyrant Twin Tussle - Balloon #2 (Cache in bottom path): Backup DK Barrel
-Tyrant Twin Tussle - Banana Bunch #1 (In top path): Red Balloon
+Tyrant Twin Tussle - Banana Bunch #1 (In top path): Backup DK Barrel
 Tyrant Twin Tussle - Banana Bunch #2 (Left to DK Barrel after checkpoint): Backup DK Barrel
-Tyrant Twin Tussle - Banana Bunch #3 (In top path near end): Red Balloon
+Tyrant Twin Tussle - Banana Bunch #3 (In top path near end): Backup DK Barrel
 Tyrant Twin Tussle - Bear Coin #1 (In Booty Bird near Squitter barrel): Backup DK Barrel
-Tyrant Twin Tussle - Bear Coin #2 (In top path): Backup DK Barrel
+Tyrant Twin Tussle - Bear Coin #2 (In top path): Red Balloon
 Tyrant Twin Tussle - Bear Coin #3 (In top path): Red Balloon
-Tyrant Twin Tussle - Bear Coin #4 (No animal sign): Backup DK Barrel
-Tyrant Twin Tussle - Bear Coin #5 (In top path near end): Red Balloon
-Tyrant Twin Tussle - Bear Coin #6 (In top path near end): Backup DK Barrel
+Tyrant Twin Tussle - Bear Coin #4 (No animal sign): Bear Coin
+Tyrant Twin Tussle - Bear Coin #5 (In top path near end): Backup DK Barrel
+Tyrant Twin Tussle - Bear Coin #6 (In top path near end): Bear Coin
 Swoopy Salvo - Clear: Backup DK Barrel
-Swoopy Salvo - Bonus #1: Red Balloon
+Swoopy Salvo - Bonus #1: Backup DK Barrel
 Swoopy Salvo - Bonus #2: Bear Coin
-Swoopy Salvo - Bonus #3: Cotton-Top Cove Access
+Swoopy Salvo - Bonus #3: Backup DK Barrel
 Swoopy Salvo - DK Coin: Red Balloon
 Swoopy Salvo - Banana Bunch #1 (In Booty Bird): Red Balloon
 Swoopy Salvo - Banana Bunch #2 (Before an entrance blocking Buzz): Red Balloon
-Swoopy Salvo - Bear Coin #1 (Inside circling red Buzzes): Red Balloon
-Rocket Rush - Clear: Backup DK Barrel
+Swoopy Salvo - Bear Coin #1 (Inside circling red Buzzes): Backup DK Barrel
+Rocket Rush - Clear: Water Bounce
 Rocket Rush - DK Coin: Backup DK Barrel
-Rocket Rush - Banana Bunch #1 (Falling section): Mekanos Access
-Rocket Rush - Banana Bunch #2 (Rising section in a narrow corridor, left): Red Balloon
+Rocket Rush - Banana Bunch #1 (Falling section): Red Balloon
+Rocket Rush - Banana Bunch #2 (Rising section in a narrow corridor, left): Cotton-Top Cove Access
 Rocket Rush - Banana Bunch #3 (Rising section in a narrow corridor, right): Backup DK Barrel
-Rocket Rush - Bear Coin #1 (Rising section after N, left side): Backup DK Barrel
-Rocket Rush - Bear Coin #2 (Rising section in branching path, right side): Red Balloon
-Rocket Rush - Bear Coin #3 (Rising section in branching path, right side): Backup DK Barrel
+Rocket Rush - Bear Coin #1 (Rising section after N, left side): Red Balloon
+Rocket Rush - Bear Coin #2 (Rising section in branching path, right side): Backup DK Barrel
+Rocket Rush - Bear Coin #3 (Rising section in branching path, right side): Red Balloon
 Rocket Rush - Bear Coin #4 (Rising section in semi-open area): Red Balloon
 Belcha's Barn - Clear: Backup DK Barrel
-Arich's Ambush - Clear: Bear Coin
+Arich's Ambush - Clear: Backup DK Barrel
 Squirt's Showdown - Clear: Backup DK Barrel
 KAOS Karnage - Clear: Backup DK Barrel
 Bleak's House - Clear: Backup DK Barrel
-Barbos's Barrier - Clear: Backup DK Barrel
+Barbos's Barrier - Clear: Red Balloon
 Defeated Belcha: Banana Bird
 Defeated Arich: Banana Bird
 Defeated Squirt: Banana Bird
 Defeated KAOS: Banana Bird
 Defeated Bleak: Banana Bird
 Defeated Barbos: Banana Bird
-Banana Bird - Bounty Beach: Backup DK Barrel
-Banana Bird - Kong Cave: Backup DK Barrel
+Banana Bird - Bounty Beach: Carry
+Banana Bird - Kong Cave: Red Balloon
 Banana Bird - Undercover Cove: Red Balloon
-Banana Bird - Belcha's Burrow: Ellie
-Banana Bird - K's Kache: Backup DK Barrel
-Banana Bird - Hill-Top Hoard: Backup DK Barrel
+Banana Bird - Belcha's Burrow: Backup DK Barrel
+Banana Bird - K's Kache: Red Balloon
+Banana Bird - Hill-Top Hoard: Red Balloon
 Banana Bird - Smuggler's Cove: Backup DK Barrel
 Banana Bird - Arich's Hoard: Backup DK Barrel
-Banana Bird - Bounty Bay: Banana Extractinator
-Banana Bird - Glacial Grotto: Red Balloon
+Banana Bird - Bounty Bay: Backup DK Barrel
+Banana Bird - Glacial Grotto: Squawks
 Banana Bird - Sewer Stockpile: Backup DK Barrel
-Swoopy Salvo - Clear (Map Event): Cleared Lake Orangatanga Level
-Rocket Rush - Clear (Map Event): Cleared Lake Orangatanga Level
-Criss Kross Cliffs - Clear (Map Event): Cleared Lake Orangatanga Level
-Buzzer Barrage - Clear (Map Event): Cleared Lake Orangatanga Level
-Barrel Drop Bounce - Clear (Map Event): Cleared Kremwood Forest Level
-Doorstop Dash - Clear (Map Event): Cleared Kremwood Forest Level
-Kong-Fused Cliffs - Clear (Map Event): Cleared Kremwood Forest Level
-Low-G Labyrinth - Clear (Map Event): Cleared Kremwood Forest Level
-Tidal Trouble - Clear (Map Event): Cleared Kremwood Forest Level
-Springin' Spiders - Clear (Map Event): Cleared Cotton-Top Cove Level
+Lakeside Limbo - Clear (Map Event): Cleared Lake Orangatanga Level
+Doorstop Dash - Clear (Map Event): Cleared Lake Orangatanga Level
+Tidal Trouble - Clear (Map Event): Cleared Lake Orangatanga Level
+Murky Mill - Clear (Map Event): Cleared Lake Orangatanga Level
+Barrel Shield Bust-Up - Clear (Map Event): Cleared Kremwood Forest Level
+Riverside Race - Clear (Map Event): Cleared Kremwood Forest Level
+Squeals on Wheels - Clear (Map Event): Cleared Kremwood Forest Level
+Springin' Spiders - Clear (Map Event): Cleared Kremwood Forest Level
+Bobbing Barrel Brawl - Clear (Map Event): Cleared Kremwood Forest Level
+Bazza's Blockade - Clear (Map Event): Cleared Cotton-Top Cove Level
+Rocket Barrel Ride - Clear (Map Event): Cleared Cotton-Top Cove Level
 Kreeping Klasps - Clear (Map Event): Cleared Cotton-Top Cove Level
+Tracker Barrel Trek - Clear (Map Event): Cleared Cotton-Top Cove Level
 Fish Food Frenzy - Clear (Map Event): Cleared Cotton-Top Cove Level
-Barrel Shield Bust-Up - Clear (Map Event): Cleared Cotton-Top Cove Level
-Tearaway Toboggan - Clear (Map Event): Cleared Cotton-Top Cove Level
-Bobbing Barrel Brawl - Clear (Map Event): Cleared Mekanos Level
-Konveyor Rope Klash - Clear (Map Event): Cleared Mekanos Level
-Lemguin Lunge - Clear (Map Event): Cleared Mekanos Level
+Fire-Ball Frenzy - Clear (Map Event): Cleared Mekanos Level
 Demolition Drain-Pipe - Clear (Map Event): Cleared Mekanos Level
-Pot Hole Panic - Clear (Map Event): Cleared Mekanos Level
-Creepy Caverns - Clear (Map Event): Cleared K3 Level
-Blazing Bazukas - Clear (Map Event): Cleared K3 Level
-Squeals on Wheels - Clear (Map Event): Cleared K3 Level
-Tyrant Twin Tussle - Clear (Map Event): Cleared K3 Level
-Fire-Ball Frenzy - Clear (Map Event): Cleared K3 Level
-Bazza's Blockade - Clear (Map Event): Cleared Razor Ridge Level
-Murky Mill - Clear (Map Event): Cleared Razor Ridge Level
-Poisonous Pipeline - Clear (Map Event): Cleared Razor Ridge Level
-Lightning Look-Out - Clear (Map Event): Cleared Razor Ridge Level
-Tracker Barrel Trek - Clear (Map Event): Cleared Razor Ridge Level
-Floodlit Fish - Clear (Map Event): Cleared Kaos Kore Level
-Ropey Rumpus - Clear (Map Event): Cleared Kaos Kore Level
-Krevice Kreepers - Clear (Map Event): Cleared Kaos Kore Level
+Ripsaw Rage - Clear (Map Event): Cleared Mekanos Level
+Blazing Bazukas - Clear (Map Event): Cleared Mekanos Level
+Low-G Labyrinth - Clear (Map Event): Cleared Mekanos Level
+Krevice Kreepers - Clear (Map Event): Cleared K3 Level
+Tearaway Toboggan - Clear (Map Event): Cleared K3 Level
+Barrel Drop Bounce - Clear (Map Event): Cleared K3 Level
+Krackshot Krock - Clear (Map Event): Cleared K3 Level
+Lemguin Lunge - Clear (Map Event): Cleared K3 Level
+Buzzer Barrage - Clear (Map Event): Cleared Razor Ridge Level
+Kong-Fused Cliffs - Clear (Map Event): Cleared Razor Ridge Level
+Floodlit Fish - Clear (Map Event): Cleared Razor Ridge Level
+Pot Hole Panic - Clear (Map Event): Cleared Razor Ridge Level
+Ropey Rumpus - Clear (Map Event): Cleared Razor Ridge Level
+Konveyor Rope Klash - Clear (Map Event): Cleared Kaos Kore Level
+Creepy Caverns - Clear (Map Event): Cleared Kaos Kore Level
+Lightning Look-Out - Clear (Map Event): Cleared Kaos Kore Level
 Koindozer Klamber - Clear (Map Event): Cleared Kaos Kore Level
-Riverside Race - Clear (Map Event): Cleared Kaos Kore Level
+Poisonous Pipeline - Clear (Map Event): Cleared Kaos Kore Level
 Stampede Sprint - Clear (Map Event): Cleared Krematoa Level
-Krackshot Krock - Clear (Map Event): Cleared Krematoa Level
-Ripsaw Rage - Clear (Map Event): Cleared Krematoa Level
-Rocket Barrel Ride - Clear (Map Event): Cleared Krematoa Level
-Lakeside Limbo - Clear (Map Event): Cleared Krematoa Level
+Criss Kross Cliffs - Clear (Map Event): Cleared Krematoa Level
+Tyrant Twin Tussle - Clear (Map Event): Cleared Krematoa Level
+Swoopy Salvo - Clear (Map Event): Cleared Krematoa Level
+Rocket Rush - Clear (Map Event): Cleared Krematoa Level
 Skidda's Row - Clear (Map Event): Cleared Lake Orangatanga Level
 Kastle KAOS - Clear: Defeated K. Rool at Kore
 Knautilus - Clear: Defeated K. Rool at Knautilus
@@ -629,112 +627,104 @@ Knautilus - Clear: Defeated K. Rool at Knautilus
 Playthrough:
 
 0: {
-  Carry
-  Climb
+  Barrel Cannon
   Dixie
   Kiddy
   Lake Orangatanga Access
 }
 1: {
-  Rocket Rush - Banana Bunch #1 (Falling section): Mekanos Access
-  Rocket Rush - Clear (Map Event): Cleared Lake Orangatanga Level
-  Skidda's Row - Bear Coin #2 (Invisible between two holes): Progressive Vehicle
+  Banana Bird - Bounty Beach: Carry
+  Murky Mill - Clear: Progressive Vehicle
+  Murky Mill - Clear (Map Event): Cleared Lake Orangatanga Level
+  Skidda's Row - Clear: Mekanos Access
   Skidda's Row - Clear (Map Event): Cleared Lake Orangatanga Level
 }
 2: {
-  Demolition Drain-Pipe - Banana Bunch #2: Bonus Coin
-  Demolition Drain-Pipe - Banana Bunch #5: Bonus Coin
-  Demolition Drain-Pipe - Banana Bunch #6: Rocket Barrel
-  Demolition Drain-Pipe - Bear Coin #4: Cog
-  Konveyor Rope Klash - Clear (Map Event): Cleared Mekanos Level
-  Lemguin Lunge - Banana Bunch #1 (Near a Lemguin exit): Squitter
-  Lemguin Lunge - Bear Coin #2 (Near N): Bonus Coin
-  Lemguin Lunge - Clear (Map Event): Cleared Mekanos Level
-  Lemguin Lunge - DK Coin: Barrel Cannon
+  Demolition Drain-Pipe - Bonus #1: Bonus Coin
+  Demolition Drain-Pipe - Clear (Map Event): Cleared Mekanos Level
+  Low-G Labyrinth - Banana Bunch #2 (Below O): K3 Access
+  Ripsaw Rage - Banana Bunch #4 (Below branch near Koin): Progressive Vehicle
+  Ripsaw Rage - Clear (Map Event): Cleared Mekanos Level
 }
 3: {
-  Demolition Drain-Pipe - Clear: Krematoa Access
-  Demolition Drain-Pipe - Clear (Map Event): Cleared Mekanos Level
+  Banana Bird - Glacial Grotto: Squawks
+  Lemguin Lunge - Clear (Map Event): Cleared K3 Level
+  Tearaway Toboggan - Clear (Map Event): Cleared K3 Level
 }
 4: {
-  Krackshot Krock - Banana Bunch #1 (Near bonus #1): Bonus Coin
-  Krackshot Krock - Clear (Map Event): Cleared Krematoa Level
-  Ripsaw Rage - Clear (Map Event): Cleared Krematoa Level
+  Low-G Labyrinth - Banana Bunch #3 (Between two circling Buzzes): Razor Ridge Access
+  Low-G Labyrinth - Bear Coin #3 (In a long fall): Kremwood Forest Access
+  Low-G Labyrinth - Bonus #1: Barrel Switch
+  Low-G Labyrinth - Clear: Team Attack
+  Low-G Labyrinth - Clear (Map Event): Cleared Mekanos Level
+  Low-G Labyrinth - DK Coin: Swim
 }
 5: {
-  Rocket Barrel Ride - Banana Bunch #7 (After Krumple pair): K3 Access
-  Rocket Barrel Ride - Clear: Progressive Vehicle
-  Rocket Barrel Ride - Clear (Map Event): Cleared Krematoa Level
+  Buzzer Barrage - Bear Coin #1 (In a Booty Bird at the start): Squitter
+  Buzzer Barrage - Clear (Map Event): Cleared Razor Ridge Level
+  Floodlit Fish - Banana Bunch #1 (At start): Helicopter Spin
+  Lakeside Limbo - Clear (Map Event): Cleared Lake Orangatanga Level
+  Pot Hole Panic - Clear (Map Event): Cleared Razor Ridge Level
+  Riverside Race - Banana Bunch #3 (In pond with single Red Koco): Bonus Coin
+  Riverside Race - Banana Bunch #6 (Between two Re-Koils): Bonus Coin
+  Riverside Race - Bear Coin #2 (In second pond): Waterfall Barrel
+  Riverside Race - Clear (Map Event): Cleared Kremwood Forest Level
+  Springin' Spiders - Clear (Map Event): Cleared Kremwood Forest Level
+  Tidal Trouble - Balloon #1 (Below cracked floor at the end): Krematoa Access
+  Tidal Trouble - Clear (Map Event): Cleared Lake Orangatanga Level
 }
 6: {
-  Blazing Bazukas - Clear (Map Event): Cleared K3 Level
-  Fire-Ball Frenzy - Bear Coin #4 (No animal sign): Squawks
-  Fire-Ball Frenzy - Clear (Map Event): Cleared K3 Level
-  Squeals on Wheels - Clear (Map Event): Cleared K3 Level
-  Tyrant Twin Tussle - Clear (Map Event): Cleared K3 Level
+  Barrel Drop Bounce - Clear (Map Event): Cleared K3 Level
+  Defeated Belcha: Banana Bird
+  Krackshot Krock - Bear Coin #3 (Above O): Climb
+  Krackshot Krock - Clear (Map Event): Cleared K3 Level
+  Pot Hole Panic - Banana Bunch #11 (No animal sign): Cog
+  Tyrant Twin Tussle - Bonus #1: Enguarde
+  Tyrant Twin Tussle - Clear (Map Event): Cleared Krematoa Level
 }
 7: {
+  Criss Kross Cliffs - Clear (Map Event): Cleared Krematoa Level
   Defeated Bleak: Banana Bird
-  Pot Hole Panic - Banana Bunch #1 (In dead end near start): Team Attack
-  Swoopy Salvo - Clear (Map Event): Cleared Lake Orangatanga Level
+  Fire-Ball Frenzy - Clear (Map Event): Cleared Mekanos Level
+  Floodlit Fish - Clear (Map Event): Cleared Razor Ridge Level
+  Kong-Fused Cliffs - Clear (Map Event): Cleared Razor Ridge Level
+  Ropey Rumpus - Banana Bunch #7 (Next to circling green Buzzes after N): Ellie
+  Squeals on Wheels - Clear (Map Event): Cleared Kremwood Forest Level
 }
 8: {
-  Buzzer Barrage - Bear Coin #4 (Below Kopter): Swim
-  Buzzer Barrage - Clear (Map Event): Cleared Lake Orangatanga Level
-  Swoopy Salvo - Bonus #3: Cotton-Top Cove Access
-  Tyrant Twin Tussle - Bonus #1: Cog
+  Bobbing Barrel Brawl - Clear (Map Event): Cleared Kremwood Forest Level
+  Defeated Barbos: Banana Bird
+  Defeated KAOS: Banana Bird
+  Lakeside Limbo - Bear Coin #3 (No animal sign reward): Cog
+  Murky Mill - Bonus #2: Ghost Barrel
+  Stampede Sprint - Clear (Map Event): Cleared Krematoa Level
+  Stampede Sprint - DK Coin: Tracker Barrel
 }
 9: {
-  Defeated Belcha: Banana Bird
-  Fish Food Frenzy - Bear Coin #1 (Near start): Progressive Vehicle
-  Fish Food Frenzy - Clear (Map Event): Cleared Cotton-Top Cove Level
-  Pot Hole Panic - Banana Bunch #10 (In Booty Bird after Squitter box): Kremwood Forest Access
-  Pot Hole Panic - Clear (Map Event): Cleared Mekanos Level
-  Springin' Spiders - Clear (Map Event): Cleared Cotton-Top Cove Level
-  Tearaway Toboggan - Clear (Map Event): Cleared Cotton-Top Cove Level
-}
-10: {
-  Banana Bird - Belcha's Burrow: Ellie
-  Defeated KAOS: Banana Bird
-  Doorstop Dash - Clear (Map Event): Cleared Kremwood Forest Level
-  Kong-Fused Cliffs - Clear (Map Event): Cleared Kremwood Forest Level
-  Low-G Labyrinth - Bear Coin #3 (In a long fall): Cog
-  Low-G Labyrinth - Clear (Map Event): Cleared Kremwood Forest Level
-  Tidal Trouble - Clear (Map Event): Cleared Kremwood Forest Level
-}
-11: {
-  Bobbing Barrel Brawl - Bonus #1: Razor Ridge Access
   Defeated Arich: Banana Bird
 }
+10: {
+  Creepy Caverns - Clear (Map Event): Cleared Kaos Kore Level
+  Koindozer Klamber - Bear Coin #3 (Below checkpoint): Bonus Coin
+  Koindozer Klamber - Clear (Map Event): Cleared Kaos Kore Level
+  Konveyor Rope Klash - Clear (Map Event): Cleared Kaos Kore Level
+  Lightning Look-Out - Bear Coin #2 (Above Buzz duo): Bonus Coin
+  Poisonous Pipeline - Clear (Map Event): Cleared Kaos Kore Level
+}
+11: {
+  Kastle KAOS - Clear: Defeated K. Rool at Kore
+  Rocket Rush - Banana Bunch #2 (Rising section in a narrow corridor, left): Cotton-Top Cove Access
+  Rocket Rush - Clear (Map Event): Cleared Krematoa Level
+  Swoopy Salvo - Clear (Map Event): Cleared Krematoa Level
+}
 12: {
-  Lightning Look-Out - DK Coin: Barrel Shield
+  Fish Food Frenzy - Bonus #1: Invincibility Barrel
+  Kreeping Klasps - Balloon #1 (Near start): Cog
+  Tracker Barrel Trek - Bonus #2: Cog
 }
 13: {
-  Barrel Shield Bust-Up - Clear (Map Event): Cleared Cotton-Top Cove Level
+  Riverside Race - Bonus #2: Cog
 }
 14: {
-  Defeated Squirt: Banana Bird
-}
-15: {
-  Floodlit Fish - Banana Bunch #1 (At start): Helicopter Spin
-  Krevice Kreepers - Banana Bunch #1 (Above start): Waterfall Barrel
-  Krevice Kreepers - Clear (Map Event): Cleared Kaos Kore Level
-  Riverside Race - Clear (Map Event): Cleared Kaos Kore Level
-  Ropey Rumpus - Clear (Map Event): Cleared Kaos Kore Level
-}
-16: {
-  Barrel Drop Bounce - Clear: Cog
-  Koindozer Klamber - Clear (Map Event): Cleared Kaos Kore Level
-  Stampede Sprint - Clear: Enguarde
-  Stampede Sprint - Clear (Map Event): Cleared Krematoa Level
-}
-17: {
-  Kastle KAOS - Clear: Defeated K. Rool at Kore
-  Poisonous Pipeline - Banana Bunch #1 (Above Lurchin pair): Cog
-}
-18: {
-  Lakeside Limbo - Clear (Map Event): Cleared Krematoa Level
-}
-19: {
   Knautilus - Clear: Defeated K. Rool at Knautilus
 }
