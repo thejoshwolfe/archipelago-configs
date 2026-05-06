@@ -1,12 +1,12 @@
-﻿Archipelago Version 0.6.5  -  Seed: 98829563239621518016
+﻿Archipelago Version 0.6.7  -  Seed: 91652968232065279560
 
 Filling Algorithm:               balanced
 Players:                         1
-Plando Options:                  connections, texts, bosses
+Plando Options:                  items, connections, texts, bosses
 
-Celeste (Open World) APWorld v1.0.5
+Celeste (Open World) APWorld v1.0.7
 Game:                            Celeste (Open World)
-Location Count:                  233
+Location Count:                  938
 Progression Balancing:           50
 Accessibility:                   Full
 Local Items:                     
@@ -14,18 +14,18 @@ Non-local Items:
 Start Inventory:                 Torches: 1
 Start Hints:                     
 Start Location Hints:            
-Excluded Locations:              Forsaken City A - Crystal Heart, Prologue - Level Clear, Reflection A - Cassette, Reflection A - Crystal Heart, Reflection A - Level Clear, The Summit A - Crystal Heart
+Excluded Locations:              
 Priority Locations:              
 Item Links:                      
-Plando Items:                    
-Death Link:                      No
+Plando Items:                    ({'Strawberry': 20}: ['Forsaken City A - Level Clear', 'Forsaken City B - Level Clear', 'Forsaken City C - Level Clear', 'Old Site A - Level Clear', 'Old Site B - Level Clear', 'Old Site C - Level Clear', 'Celestial Resort A - Level Clear', 'Celestial Resort B - Level Clear', 'Celestial Resort C - Level Clear', 'Golden Ridge A - Level Clear', 'Golden Ridge B - Level Clear', 'Golden Ridge C - Level Clear', 'Mirror Temple A - Level Clear', 'Mirror Temple B - Level Clear', 'Mirror Temple C - Level Clear', 'Reflection A - Level Clear', 'Reflection B - Level Clear', 'Reflection C - Level Clear', 'The Summit B - Level Clear', 'The Summit C - Level Clear'])
+Death Link:                      Yes
 Death Link Amnesty:              30
 Trap Link:                       Yes
 Goal Area:                       The Summit A
 Lock Goal Area:                  No
 Goal Area Checkpointsanity:      No
-Total Strawberries:              0
-Strawberries Required Percentage:0
+Total Strawberries:              20
+Strawberries Required Percentage:100
 Junk Fill Percentage:            0
 Trap Fill Percentage:            10
 Trap Expiration Action:          New Screens
@@ -34,28 +34,28 @@ Bald Trap Weight:                Medium
 Literature Trap Weight:          Medium
 Stun Trap Weight:                Medium
 Invisible Trap Weight:           Medium
-Fast Trap Weight:                Medium
+Fast Trap Weight:                None
 Slow Trap Weight:                Medium
 Ice Trap Weight:                 Medium
 Reverse Trap Weight:             Medium
 Screen Flip Trap Weight:         Medium
 Laughter Trap Weight:            Medium
 Hiccup Trap Weight:              Medium
-Zoom Trap Weight:                Medium
+Zoom Trap Weight:                None
 Checkpointsanity:                No
-Binosanity:                      No
+Binosanity:                      Yes
 Keysanity:                       No
-Gemsanity:                       No
-Carsanity:                       No
-Roomsanity:                      No
+Gemsanity:                       Yes
+Carsanity:                       Yes
+Roomsanity:                      Yes
 Include Goldens:                 No
 Include Core:                    No
 Include Farewell:                None
-Include B-Sides:                 No
-Include C-Sides:                 No
+Include B-Sides:                 Yes
+Include C-Sides:                 Yes
 Music Shuffle:                   None
 Require Cassettes:               No
-Madeline Hair Length:            Default
+Madeline Hair Length:            Absurd
 Madeline One Dash Hair Color:    Strawberry
 Madeline Two Dash Hair Color:    Double
 Madeline No Dash Hair Color:     Empty
@@ -68,242 +68,947 @@ Torches
 
 Locations:
 
+Prologue - Car: Raspberry
+Prologue - Room -1: Raspberry
+Prologue - Room 0: Screen Flip Trap
+Prologue - Room 0b: Raspberry
+Prologue - Room 1: Raspberry
+Prologue - Room 2: Raspberry
 Prologue - Level Clear: Raspberry
-Forsaken City A - Room 2 Strawberry: Raspberry
+Prologue - Room 3: Raspberry
+Forsaken City A - Room 1: Raspberry
+Forsaken City A - Room 2 Strawberry: Seekers
+Forsaken City A - Room 2: Raspberry
 Forsaken City A - Room 3 Strawberry: Raspberry
-Forsaken City A - Room 3b Strawberry: Raspberry
+Forsaken City A - Room 3: Stun Trap
+Forsaken City A - Room 4: Raspberry
+Forsaken City A - Room 3b Strawberry: Hiccup Trap
+Forsaken City A - Room 3b: Raspberry
 Forsaken City A - Room 5 Strawberry: Raspberry
+Forsaken City A - Room 5: Raspberry
 Forsaken City A - Room 5z Strawberry: Raspberry
-Forsaken City A - Room 5a Strawberry: Crystal Heart 14
-Forsaken City A - Room 6 Strawberry: Moving Platforms
+Forsaken City A - Room 5z: Screen Flip Trap
+Forsaken City A - Room 5a Strawberry: Raspberry
+Forsaken City A - Room 5a: Raspberry
+Forsaken City A - Room 6 Strawberry: Raspberry
 Forsaken City A - Crossing: Forsaken City A - Crossing
+Forsaken City A - Room 6: Raspberry
+Forsaken City A - Room 6z: Raspberry
+Forsaken City A - Room 6zb: Raspberry
 Forsaken City A - Room 7zb Strawberry: Raspberry
-Forsaken City A - Room s1 Strawberry: Raspberry
-Forsaken City A - Crystal Heart: Raspberry
-Forsaken City A - Room 7z Strawberry: Ice Trap
-Forsaken City A - Room 8zb Strawberry: Crystal Heart 7
-Forsaken City A - Room 7a Strawberry: Blue Boosters
+Forsaken City A - Room 7zb: Raspberry
+Forsaken City A - Room 6a: Raspberry
+Forsaken City A - Room 6b: Raspberry
+Forsaken City A - Room s0: Raspberry
+Forsaken City A - Room s1 Strawberry: Bald Trap
+Forsaken City A - Crystal Heart: Kevins
+Forsaken City A - Room s1: Raspberry
+Forsaken City A - Room 6c: Raspberry
+Forsaken City A - Room 7: Raspberry
+Forsaken City A - Room 7z Strawberry: Raspberry
+Forsaken City A - Room 7z: Raspberry
+Forsaken City A - Room 8z: Raspberry
+Forsaken City A - Room 8zb Strawberry: Raspberry
+Forsaken City A - Room 8zb: Raspberry
+Forsaken City A - Room 8: Raspberry
+Forsaken City A - Room 7a Strawberry: Red Boosters
+Forsaken City A - Room 7a: Raspberry
 Forsaken City A - Room 9z Strawberry: Raspberry
+Forsaken City A - Room 9z: Raspberry
 Forsaken City A - Room 8b Strawberry: Raspberry
+Forsaken City A - Room 8b: Raspberry
 Forsaken City A - Room 9 Strawberry: Raspberry
-Forsaken City A - Room 9b Strawberry: Zoom Trap
+Forsaken City A - Room 9: Raspberry
+Forsaken City A - Room 9b Strawberry: Feathers
 Forsaken City A - Chasm: Forsaken City A - Chasm
+Forsaken City A - Room 9b: Raspberry
 Forsaken City A - Room 9c Strawberry: Raspberry
+Forsaken City A - Room 9c: Raspberry
+Forsaken City A - Room 10: Raspberry
+Forsaken City A - Room 10z: Raspberry
 Forsaken City A - Room 10zb Strawberry: Raspberry
+Forsaken City A - Room 10zb: Raspberry
 Forsaken City A - Room 11 Strawberry: Raspberry
+Forsaken City A - Room 11: Raspberry
 Forsaken City A - Cassette: Raspberry
-Forsaken City A - Room 12z Strawberry: Seekers
-Forsaken City A - Level Clear: Raspberry
-Old Site A - Crystal Heart: Crystal Heart 10
-Old Site A - Room 1 Strawberry: Traffic Blocks
-Old Site A - Room d0 Strawberry: Crystal Heart 11
+Forsaken City A - Room 11z: Raspberry
+Forsaken City A - Room 10a: Raspberry
+Forsaken City A - Room 12: Theo Crystal
+Forsaken City A - Room 12z Strawberry: Raspberry
+Forsaken City A - Room 12z: Raspberry
+Forsaken City A - Room 12a: Raspberry
+Forsaken City A - Level Clear: Strawberry
+Forsaken City A - Room end: Raspberry
+Forsaken City B - Room 00: Raspberry
+Forsaken City B - Room 01: Raspberry
+Forsaken City B - Room 02: Raspberry
+Forsaken City B - Room 02b: Raspberry
+Forsaken City B - Room 03 Binoculars: Raspberry
+Forsaken City B - Room 03: Screen Flip Trap
+Forsaken City B - Contraption: Forsaken City B - Contraption
+Forsaken City B - Room 04: Raspberry
+Forsaken City B - Room 05: Raspberry
+Forsaken City B - Room 05b: Hiccup Trap
+Forsaken City B - Room 06: Raspberry
+Forsaken City B - Room 07: Raspberry
+Forsaken City B - Scrap Pit: Forsaken City B - Scrap Pit
+Forsaken City B - Room 08: Literature Trap
+Forsaken City B - Room 08b: Raspberry
+Forsaken City B - Room 09 Binoculars: Raspberry
+Forsaken City B - Room 09: Raspberry
+Forsaken City B - Room 10: Raspberry
+Forsaken City B - Room 11: Raspberry
+Forsaken City B - Level Clear: Strawberry
+Forsaken City B - Room end: Raspberry
+Forsaken City C - Room 00: Raspberry
+Forsaken City C - Room 01 Binoculars: Raspberry
+Forsaken City C - Room 01: Raspberry
+Forsaken City C - Room 02 Binoculars: Raspberry
+Forsaken City C - Level Clear: Strawberry
+Forsaken City C - Room 02: Raspberry
+Old Site A - Room start: Raspberry
+Old Site A - Room s0: Raspberry
+Old Site A - Room s1: Raspberry
+Old Site A - Crystal Heart: Raspberry
+Old Site A - Room s2: Raspberry
+Old Site A - Room 0: Raspberry
+Old Site A - Room 1 Strawberry: Raspberry
+Old Site A - Room 1: Raspberry
+Old Site A - Room d0 Strawberry: Swap Blocks
+Old Site A - Room d0: Raspberry
+Old Site A - Room d7: Dash Switches
+Old Site A - Room d8: Raspberry
+Old Site A - Room d3 Binoculars: Raspberry
 Old Site A - Room d3 Strawberry: Raspberry
+Old Site A - Room d3: Slow Trap
 Old Site A - Room d2 Strawberry 1: Raspberry
-Old Site A - Room d2 Strawberry 2: Dash Refills
+Old Site A - Room d2 Strawberry 2: Raspberry
+Old Site A - Room d2: Raspberry
 Old Site A - Cassette: Raspberry
+Old Site A - Room d9: Raspberry
 Old Site A - Room d1 Strawberry: Raspberry
+Old Site A - Room d1: Dash Refills
 Old Site A - Room d6 Strawberry: Raspberry
+Old Site A - Room d6: Hiccup Trap
 Old Site A - Room d4 Strawberry: Raspberry
+Old Site A - Room d4: Raspberry
 Old Site A - Room d5 Strawberry: Raspberry
+Old Site A - Room d5: Moving Platforms
+Old Site A - Room 3x: Raspberry
 Old Site A - Intervention: Old Site A - Intervention
+Old Site A - Room 3: Raspberry
 Old Site A - Room 4 Strawberry: Raspberry
-Old Site A - Room 5 Strawberry: Screen Flip Trap
-Old Site A - Room 8 Strawberry: Sinking Platforms
+Old Site A - Room 4: Raspberry
+Old Site A - Room 5 Strawberry: Raspberry
+Old Site A - Room 5: Raspberry
+Old Site A - Room 6: Raspberry
+Old Site A - Room 7: Crystal Heart 15
+Old Site A - Room 8 Strawberry: Raspberry
+Old Site A - Room 8: Raspberry
 Old Site A - Room 9 Strawberry: Raspberry
+Old Site A - Room 9: Raspberry
 Old Site A - Room 9b Strawberry: Raspberry
-Old Site A - Room 10 Strawberry: Raspberry
-Old Site A - Room 12c Strawberry: Springs
-Old Site A - Room 12d Strawberry: Crystal Heart 13
+Old Site A - Room 9b: Raspberry
+Old Site A - Room 10 Strawberry: Pink Clouds
+Old Site A - Room 10: Raspberry
+Old Site A - Room 2: Bald Trap
+Old Site A - Room 11: Raspberry
+Old Site A - Room 12b: Raspberry
+Old Site A - Room 12c Strawberry: Raspberry
+Old Site A - Room 12c: Raspberry
+Old Site A - Room 12d Strawberry: Raspberry
+Old Site A - Room 12d: Raspberry
+Old Site A - Room 12: Raspberry
+Old Site A - Room 13: Raspberry
+Old Site A - Room end_0: Raspberry
+Old Site A - Room end_s0: Literature Trap
+Old Site A - Room end_s1: Raspberry
+Old Site A - Room end_1: Raspberry
+Old Site A - Room end_2: Blue Boosters
 Old Site A - Awake: Old Site A - Awake
+Old Site A - Room end_3: Raspberry
+Old Site A - Room end_4: Raspberry
+Old Site A - Room end_3b: Raspberry
+Old Site A - Room end_3cb: Raspberry
 Old Site A - Room end_3c Strawberry: Raspberry
-Old Site A - Level Clear: Raspberry
+Old Site A - Room end_3c: Raspberry
+Old Site A - Room end_5: Raspberry
+Old Site A - Level Clear: Strawberry
+Old Site A - Room end_6: Raspberry
+Old Site B - Room start: Raspberry
+Old Site B - Room 00: Bald Trap
+Old Site B - Room 01: Raspberry
+Old Site B - Room 01b: Raspberry
+Old Site B - Room 02b: Raspberry
+Old Site B - Room 02: Raspberry
+Old Site B - Combination Lock: Old Site B - Combination Lock
+Old Site B - Room 03: Raspberry
+Old Site B - Room 04: Raspberry
+Old Site B - Room 05: Raspberry
+Old Site B - Room 06: Raspberry
+Old Site B - Room 07: Invisible Trap
+Old Site B - Dream Altar: Old Site B - Dream Altar
+Old Site B - Room 08b: Raspberry
+Old Site B - Room 08: Raspberry
+Old Site B - Room 09: Raspberry
+Old Site B - Room 10 Binoculars: Raspberry
+Old Site B - Room 10: Hiccup Trap
+Old Site B - Room 11 Binoculars: Raspberry
+Old Site B - Room 11: Raspberry
+Old Site B - Level Clear: Strawberry
+Old Site B - Room end: Raspberry
+Old Site C - Room 00: Stun Trap
+Old Site C - Room 01: Raspberry
+Old Site C - Room 02 Binoculars: Raspberry
+Old Site C - Level Clear: Strawberry
+Old Site C - Room 02: Raspberry
+Celestial Resort A - Room s0: Raspberry
+Celestial Resort A - Room s1: Raspberry
 Celestial Resort A - Room s2 Strawberry 1: Raspberry
-Celestial Resort A - Room s2 Strawberry 2: Dream Blocks
+Celestial Resort A - Room s2 Strawberry 2: Raspberry
+Celestial Resort A - Room s2: Springs
 Celestial Resort A - Front Door Key: Celestial Resort A - Front Door Key
-Celestial Resort A - Room s3 Strawberry: Fast Trap
-Celestial Resort A - Room 00-a Strawberry: Coins
+Celestial Resort A - Room s3 Strawberry: Raspberry
+Celestial Resort A - Room s3: Raspberry
+Celestial Resort A - Room 0x-a: Raspberry
+Celestial Resort A - Room 00-a Strawberry: Invisible Trap
+Celestial Resort A - Room 00-a: Laughter Trap
+Celestial Resort A - Room 02-a: Raspberry
 Celestial Resort A - Hallway Key 1: Celestial Resort A - Hallway Key 1
-Celestial Resort A - Room 00-b Strawberry: Raspberry
+Celestial Resort A - Room 02-b: Raspberry
+Celestial Resort A - Room 01-b: Crystal Heart 8
+Celestial Resort A - Room 00-b Strawberry: Bumpers
+Celestial Resort A - Room 00-b: Badeline Boosters
+Celestial Resort A - Room 00-c: Raspberry
+Celestial Resort A - Room 0x-b: Raspberry
+Celestial Resort A - Room 03-a: Raspberry
 Celestial Resort A - Room 04-b Strawberry: Raspberry
-Celestial Resort A - Room 06-a Strawberry: Crystal Heart 6
+Celestial Resort A - Room 04-b: Raspberry
+Celestial Resort A - Room 05-a: Raspberry
+Celestial Resort A - Room 06-a Strawberry: Laughter Trap
+Celestial Resort A - Room 06-a: Raspberry
+Celestial Resort A - Room 07-a: Raspberry
 Celestial Resort A - Room 07-b Strawberry: Raspberry
 Celestial Resort A - Hallway Key 2: Celestial Resort A - Hallway Key 2
+Celestial Resort A - Room 07-b: Raspberry
 Celestial Resort A - Room 06-b Strawberry: Raspberry
-Celestial Resort A - Room 06-c Strawberry: Red Boosters
+Celestial Resort A - Room 06-b: Raspberry
+Celestial Resort A - Room 06-c Strawberry: Raspberry
+Celestial Resort A - Room 06-c: Raspberry
 Celestial Resort A - Room 05-c Strawberry: Raspberry
+Celestial Resort A - Room 05-c: Raspberry
+Celestial Resort A - Room 08-c: Raspberry
+Celestial Resort A - Room 08-b: Raspberry
 Celestial Resort A - Huge Mess: Celestial Resort A - Huge Mess
+Celestial Resort A - Room 08-a: Raspberry
 Celestial Resort A - Huge Mess Key: Celestial Resort A - Huge Mess Key
+Celestial Resort A - Room 09-b: Raspberry
 Celestial Resort A - Brown Clutter: Celestial Resort A - Brown Clutter
+Celestial Resort A - Room 10-x: Raspberry
+Celestial Resort A - Room 11-x: Laughter Trap
+Celestial Resort A - Room 11-y: Crystal Heart 2
 Celestial Resort A - Room 12-y Strawberry: Raspberry
+Celestial Resort A - Room 12-y: Raspberry
+Celestial Resort A - Room 11-z: Raspberry
+Celestial Resort A - Room 10-z: Raspberry
 Celestial Resort A - Room 10-y Strawberry: Raspberry
-Celestial Resort A - Crystal Heart: Fast Trap
+Celestial Resort A - Room 10-y: Blue Cassette Blocks
+Celestial Resort A - Room 10-c: Raspberry
+Celestial Resort A - Crystal Heart: Raspberry
+Celestial Resort A - Room 11-c: Literature Trap
 Celestial Resort A - Room 12-c Strawberry: Raspberry
-Celestial Resort A - Room 11-d Strawberry: Pink Clouds
+Celestial Resort A - Room 12-c: Raspberry
+Celestial Resort A - Room 12-d: Raspberry
+Celestial Resort A - Room 11-d Strawberry: Raspberry
+Celestial Resort A - Room 11-d: Raspberry
 Celestial Resort A - Green Clutter: Celestial Resort A - Green Clutter
+Celestial Resort A - Room 10-d: Crystal Heart 16
+Celestial Resort A - Room 11-b: Raspberry
+Celestial Resort A - Room 12-b: Raspberry
 Celestial Resort A - Room 13-b Strawberry: Raspberry
+Celestial Resort A - Room 13-b: Raspberry
+Celestial Resort A - Room 13-a: Raspberry
 Celestial Resort A - Room 13-x Strawberry: Raspberry
+Celestial Resort A - Room 13-x: Raspberry
 Celestial Resort A - Pink Clutter: Celestial Resort A - Pink Clutter
+Celestial Resort A - Room 12-x: Raspberry
+Celestial Resort A - Room 11-a: Raspberry
 Celestial Resort A - Room 08-x Strawberry: Raspberry
+Celestial Resort A - Room 08-x: Invisible Trap
 Celestial Resort A - Elevator Shaft: Celestial Resort A - Elevator Shaft
+Celestial Resort A - Room 09-d: Raspberry
+Celestial Resort A - Room 08-d: Raspberry
 Celestial Resort A - Room 06-d Strawberry: Raspberry
+Celestial Resort A - Room 06-d: Raspberry
+Celestial Resort A - Room 04-d: Ice Trap
 Celestial Resort A - Room 04-c Strawberry: Raspberry
+Celestial Resort A - Room 04-c: Raspberry
 Celestial Resort A - Presidential Suite Key: Celestial Resort A - Presidential Suite Key
-Celestial Resort A - Room 03-b Strawberry 1: White Block
-Celestial Resort A - Room 03-b Strawberry 2: Dash Switches
+Celestial Resort A - Room 02-c: Raspberry
+Celestial Resort A - Room 03-b Strawberry 1: Raspberry
+Celestial Resort A - Room 03-b Strawberry 2: Raspberry
+Celestial Resort A - Room 03-b: Raspberry
 Celestial Resort A - Cassette: Raspberry
+Celestial Resort A - Room 01-c: Raspberry
+Celestial Resort A - Room 02-d: Raspberry
 Celestial Resort A - Presidential Suite: Celestial Resort A - Presidential Suite
+Celestial Resort A - Room 00-d: Raspberry
+Celestial Resort A - Room roof00: Raspberry
+Celestial Resort A - Room roof01: Raspberry
+Celestial Resort A - Room roof02: Raspberry
 Celestial Resort A - Room roof03 Strawberry: Raspberry
+Celestial Resort A - Room roof03: Raspberry
+Celestial Resort A - Room roof04: Raspberry
+Celestial Resort A - Room roof05: Raspberry
+Celestial Resort A - Room roof06b: Raspberry
 Celestial Resort A - Room roof06 Strawberry 1: Raspberry
 Celestial Resort A - Room roof06 Strawberry 2: Raspberry
-Celestial Resort A - Level Clear: Raspberry
+Celestial Resort A - Room roof06: Raspberry
+Celestial Resort A - Level Clear: Strawberry
+Celestial Resort A - Room roof07: The Summit A - Gem 1
+Celestial Resort B - Room 00: Raspberry
+Celestial Resort B - Room back Binoculars: Raspberry
+Celestial Resort B - Room back: Raspberry
+Celestial Resort B - Room 01: Raspberry
+Celestial Resort B - Room 02: Slow Trap
+Celestial Resort B - Room 03: Raspberry
+Celestial Resort B - Room 04: Raspberry
+Celestial Resort B - Room 05: Screen Flip Trap
+Celestial Resort B - Staff Quarters: Celestial Resort B - Staff Quarters
+Celestial Resort B - Room 06: Raspberry
+Celestial Resort B - Room 07: Raspberry
+Celestial Resort B - Room 08: Literature Trap
+Celestial Resort B - Room 09: Raspberry
+Celestial Resort B - Room 10: Raspberry
+Celestial Resort B - Library: Celestial Resort B - Library
+Celestial Resort B - Room 11: Raspberry
+Celestial Resort B - Room 13: Raspberry
+Celestial Resort B - Room 14: Raspberry
+Celestial Resort B - Room 15: Raspberry
+Celestial Resort B - Room 12 Binoculars: Raspberry
+Celestial Resort B - Room 12: Raspberry
+Celestial Resort B - Rooftop: Celestial Resort B - Rooftop
+Celestial Resort B - Room 16: Raspberry
+Celestial Resort B - Room 17: Raspberry
+Celestial Resort B - Room 18: Raspberry
+Celestial Resort B - Room 19: Raspberry
+Celestial Resort B - Room 21: Raspberry
+Celestial Resort B - Room 20: Raspberry
+Celestial Resort B - Level Clear: Strawberry
+Celestial Resort B - Room end: Raspberry
+Celestial Resort C - Room 00: Traffic Blocks
+Celestial Resort C - Room 01: Raspberry
+Celestial Resort C - Room 02 Binoculars: Raspberry
+Celestial Resort C - Level Clear: Strawberry
+Celestial Resort C - Room 02: Raspberry
+Golden Ridge A - Room a-00: Ice Trap
+Golden Ridge A - Room a-01: Raspberry
 Golden Ridge A - Room a-01x Strawberry: Raspberry
+Golden Ridge A - Room a-01x: Raspberry
 Golden Ridge A - Room a-02 Strawberry: Raspberry
-Golden Ridge A - Room a-03 Strawberry: Raspberry
-Golden Ridge A - Room a-04 Strawberry: Literature Trap
-Golden Ridge A - Room a-06 Strawberry: Crystal Heart 15
+Golden Ridge A - Room a-02: Raspberry
+Golden Ridge A - Room a-03 Strawberry: The Summit A - Gem 6
+Golden Ridge A - Room a-03: Raspberry
+Golden Ridge A - Room a-04 Strawberry: Raspberry
+Golden Ridge A - Room a-04: Raspberry
+Golden Ridge A - Room a-05: Raspberry
+Golden Ridge A - Room a-06 Strawberry: Raspberry
+Golden Ridge A - Room a-06: Ice Trap
 Golden Ridge A - Room a-07 Strawberry: Raspberry
+Golden Ridge A - Room a-07: Raspberry
+Golden Ridge A - Room a-08: Raspberry
 Golden Ridge A - Room a-10 Strawberry: Raspberry
+Golden Ridge A - Room a-10: Raspberry
+Golden Ridge A - Room a-11 Binoculars: Raspberry
 Golden Ridge A - Cassette: Raspberry
+Golden Ridge A - Room a-11: Bald Trap
 Golden Ridge A - Room a-09 Strawberry: Raspberry
+Golden Ridge A - Room a-09: Raspberry
 Golden Ridge A - Shrine: Golden Ridge A - Shrine
+Golden Ridge A - Room b-00: Raspberry
 Golden Ridge A - Room b-01 Strawberry 1: Raspberry
 Golden Ridge A - Room b-01 Strawberry 2: Raspberry
+Golden Ridge A - Room b-01: Raspberry
 Golden Ridge A - Room b-04 Strawberry: Raspberry
+Golden Ridge A - Room b-04: Raspberry
+Golden Ridge A - Room b-06: Raspberry
 Golden Ridge A - Room b-07 Strawberry: Raspberry
+Golden Ridge A - Room b-07: Raspberry
 Golden Ridge A - Room b-03 Strawberry: Raspberry
+Golden Ridge A - Room b-03: Raspberry
 Golden Ridge A - Room b-02 Strawberry 1: Raspberry
+Golden Ridge A - Room b-02 Binoculars: Raspberry
 Golden Ridge A - Room b-02 Strawberry 2: Raspberry
-Golden Ridge A - Crystal Heart: Blue Cassette Blocks
+Golden Ridge A - Room b-02: Crystal Heart 10
+Golden Ridge A - Crystal Heart: Raspberry
+Golden Ridge A - Room b-sec: Raspberry
 Golden Ridge A - Room b-secb Strawberry: Raspberry
-Golden Ridge A - Room b-08 Strawberry: Ice Trap
+Golden Ridge A - Room b-secb: Raspberry
+Golden Ridge A - Room b-05: Raspberry
+Golden Ridge A - Room b-08b: Raspberry
+Golden Ridge A - Room b-08 Strawberry: Raspberry
+Golden Ridge A - Room b-08: Raspberry
 Golden Ridge A - Room c-00 Strawberry: Raspberry
 Golden Ridge A - Old Trail: Golden Ridge A - Old Trail
+Golden Ridge A - Room c-00: Raspberry
 Golden Ridge A - Room c-01 Strawberry: Raspberry
+Golden Ridge A - Room c-01: Raspberry
+Golden Ridge A - Room c-02: Raspberry
+Golden Ridge A - Room c-04: Laughter Trap
 Golden Ridge A - Room c-05 Strawberry: Raspberry
+Golden Ridge A - Room c-05: Raspberry
 Golden Ridge A - Room c-06 Strawberry: Raspberry
+Golden Ridge A - Room c-06: Raspberry
 Golden Ridge A - Room c-06b Strawberry: Raspberry
-Golden Ridge A - Room c-08 Strawberry: Strawberry Seeds
+Golden Ridge A - Room c-06b: Raspberry
+Golden Ridge A - Room c-09: Raspberry
+Golden Ridge A - Room c-07: Raspberry
+Golden Ridge A - Room c-08 Strawberry: Raspberry
+Golden Ridge A - Room c-08: Raspberry
 Golden Ridge A - Room c-10 Strawberry: Raspberry
+Golden Ridge A - Room c-10: Crystal Heart 12
 Golden Ridge A - Cliff Face: Golden Ridge A - Cliff Face
+Golden Ridge A - Room d-00: Stun Trap
 Golden Ridge A - Room d-00b Strawberry: Raspberry
+Golden Ridge A - Room d-00b Binoculars: Raspberry
+Golden Ridge A - Room d-00b: Raspberry
 Golden Ridge A - Room d-01 Strawberry: Raspberry
+Golden Ridge A - Room d-01: Ice Trap
+Golden Ridge A - Room d-02: Raspberry
+Golden Ridge A - Room d-03: Raspberry
 Golden Ridge A - Room d-04 Strawberry: Raspberry
+Golden Ridge A - Room d-04: Raspberry
+Golden Ridge A - Room d-05: Raspberry
+Golden Ridge A - Room d-06: Raspberry
 Golden Ridge A - Room d-07 Strawberry: Raspberry
-Golden Ridge A - Room d-09 Strawberry: Invisible Trap
-Golden Ridge A - Level Clear: Raspberry
+Golden Ridge A - Room d-07: Raspberry
+Golden Ridge A - Room d-08: Raspberry
+Golden Ridge A - Room d-09 Strawberry: Raspberry
+Golden Ridge A - Room d-09: Screen Flip Trap
+Golden Ridge A - Level Clear: Strawberry
+Golden Ridge A - Room d-10: Raspberry
+Golden Ridge B - Room a-00: Slow Trap
+Golden Ridge B - Room a-01: Raspberry
+Golden Ridge B - Room a-02: Raspberry
+Golden Ridge B - Room a-03: Raspberry
+Golden Ridge B - Room a-04: Raspberry
+Golden Ridge B - Stepping Stones: Golden Ridge B - Stepping Stones
+Golden Ridge B - Room b-00: Raspberry
+Golden Ridge B - Room b-01: Raspberry
+Golden Ridge B - Room b-02 Binoculars: Raspberry
+Golden Ridge B - Room b-02: Raspberry
+Golden Ridge B - Room b-03: Raspberry
+Golden Ridge B - Room b-04: Raspberry
+Golden Ridge B - Gusty Canyon: Golden Ridge B - Gusty Canyon
+Golden Ridge B - Room c-00: Raspberry
+Golden Ridge B - Room c-01: Raspberry
+Golden Ridge B - Room c-02: Raspberry
+Golden Ridge B - Room c-03 Binoculars: Raspberry
+Golden Ridge B - Room c-03: Reverse Trap
+Golden Ridge B - Room c-04: Raspberry
+Golden Ridge B - Eye of the Storm: Golden Ridge B - Eye of the Storm
+Golden Ridge B - Room d-00: Raspberry
+Golden Ridge B - Room d-01 Binoculars: Literature Trap
+Golden Ridge B - Room d-01: Raspberry
+Golden Ridge B - Room d-02: Raspberry
+Golden Ridge B - Room d-03: Raspberry
+Golden Ridge B - Room end Binoculars: Raspberry
+Golden Ridge B - Level Clear: Strawberry
+Golden Ridge B - Room end: Raspberry
+Golden Ridge C - Room 00: Raspberry
+Golden Ridge C - Room 01 Binoculars: Slow Trap
+Golden Ridge C - Room 01: Raspberry
+Golden Ridge C - Room 02 Binoculars: Raspberry
+Golden Ridge C - Level Clear: Strawberry
+Golden Ridge C - Room 02: Crystal Heart 11
+Mirror Temple A - Room a-00b: Raspberry
 Mirror Temple A - Room a-00x Strawberry: Raspberry
-Mirror Temple A - Room a-01 Strawberry 1: Fast Trap
-Mirror Temple A - Room a-01 Strawberry 2: Badeline Boosters
+Mirror Temple A - Room a-00x: Raspberry
+Mirror Temple A - Room a-00d: Raspberry
+Mirror Temple A - Room a-00c: Raspberry
+Mirror Temple A - Room a-00: Raspberry
+Mirror Temple A - Room a-01 Strawberry 1: Raspberry
+Mirror Temple A - Room a-01 Strawberry 2: Raspberry
+Mirror Temple A - Room a-01: Invisible Trap
 Mirror Temple A - Room a-02 Strawberry: Raspberry
-Mirror Temple A - Room a-03 Strawberry: Invisible Trap
+Mirror Temple A - Room a-02: Raspberry
+Mirror Temple A - Room a-03 Strawberry: Raspberry
+Mirror Temple A - Room a-03: Raspberry
 Mirror Temple A - Room a-04 Strawberry: Raspberry
+Mirror Temple A - Room a-04: Raspberry
 Mirror Temple A - Room a-05 Strawberry: Raspberry
+Mirror Temple A - Room a-05: Raspberry
 Mirror Temple A - Room a-06 Strawberry: Raspberry
+Mirror Temple A - Room a-06: Raspberry
 Mirror Temple A - Room a-07 Strawberry: Raspberry
+Mirror Temple A - Room a-07: Raspberry
 Mirror Temple A - Entrance Key: Mirror Temple A - Entrance Key
-Mirror Temple A - Room a-11 Strawberry: Crystal Heart 1
+Mirror Temple A - Room a-08: Raspberry
+Mirror Temple A - Room a-10: Raspberry
+Mirror Temple A - Room a-09: Raspberry
+Mirror Temple A - Room a-11 Strawberry: Raspberry
+Mirror Temple A - Room a-11: Raspberry
+Mirror Temple A - Room a-12: Raspberry
 Mirror Temple A - Room a-15 Strawberry: Raspberry
-Mirror Temple A - Room a-14 Strawberry: Raspberry
+Mirror Temple A - Room a-15: Raspberry
+Mirror Temple A - Room a-14 Strawberry: Pink Cassette Blocks
+Mirror Temple A - Room a-14: Crystal Heart 5
+Mirror Temple A - Room a-13: Raspberry
 Mirror Temple A - Depths: Mirror Temple A - Depths
-Mirror Temple A - Room b-18 Strawberry: Crystal Heart 8
-Mirror Temple A - Room b-01c Strawberry: Raspberry
-Mirror Temple A - Room b-20 Strawberry 1: Raspberry
+Mirror Temple A - Room b-00: Hiccup Trap
+Mirror Temple A - Room b-18 Strawberry: Raspberry
+Mirror Temple A - Room b-18: Raspberry
+Mirror Temple A - Room b-01: Raspberry
+Mirror Temple A - Room b-01c Strawberry: Coins
+Mirror Temple A - Room b-01c: Raspberry
+Mirror Temple A - Room b-20 Strawberry 1: The Summit A - Gem 5
 Mirror Temple A - Room b-20 Strawberry 2: Raspberry
+Mirror Temple A - Room b-20: Raspberry
 Mirror Temple A - Room b-21 Strawberry: Raspberry
-Mirror Temple A - Room b-03 Strawberry: Crystal Heart 9
+Mirror Temple A - Room b-21: Raspberry
+Mirror Temple A - Room b-01b: Raspberry
+Mirror Temple A - Room b-02: Raspberry
+Mirror Temple A - Room b-03 Strawberry: Raspberry
+Mirror Temple A - Room b-03: Raspberry
 Mirror Temple A - Room b-05 Strawberry: Raspberry
+Mirror Temple A - Room b-05: Slow Trap
 Mirror Temple A - Depths Key: Mirror Temple A - Depths Key
-Mirror Temple A - Room b-10 Strawberry: Zoom Trap
+Mirror Temple A - Room b-04: Raspberry
+Mirror Temple A - Room b-07: Raspberry
+Mirror Temple A - Room b-08: Raspberry
+Mirror Temple A - Room b-09: Reverse Trap
+Mirror Temple A - Room b-10 Strawberry: Raspberry
+Mirror Temple A - Room b-10: Raspberry
+Mirror Temple A - Room b-11: Raspberry
 Mirror Temple A - Room b-12 Strawberry: Raspberry
+Mirror Temple A - Room b-12: Raspberry
+Mirror Temple A - Room b-13: Raspberry
 Mirror Temple A - Room b-17 Strawberry 2: Raspberry
-Mirror Temple A - Room b-17 Strawberry 1: Feathers
+Mirror Temple A - Room b-17 Strawberry 1: Stun Trap
+Mirror Temple A - Room b-17: Raspberry
+Mirror Temple A - Room b-22 Binoculars: Raspberry
 Mirror Temple A - Cassette: Raspberry
-Mirror Temple A - Crystal Heart: Crystal Heart 16
+Mirror Temple A - Room b-22: Raspberry
+Mirror Temple A - Room b-06: Raspberry
+Mirror Temple A - Room b-19: Raspberry
+Mirror Temple A - Room b-14: Raspberry
+Mirror Temple A - Crystal Heart: Raspberry
+Mirror Temple A - Room b-15: Raspberry
+Mirror Temple A - Room b-16: Raspberry
+Mirror Temple A - Room void: Crystal Heart 7
 Mirror Temple A - Unravelling: Mirror Temple A - Unravelling
+Mirror Temple A - Room c-00: Raspberry
+Mirror Temple A - Room c-01: Literature Trap
+Mirror Temple A - Room c-01b: Raspberry
+Mirror Temple A - Room c-01c: Crystal Heart 14
+Mirror Temple A - Room c-08b: Raspberry
 Mirror Temple A - Room c-08 Strawberry: Raspberry
+Mirror Temple A - Room c-08: Slow Trap
+Mirror Temple A - Room c-10: Raspberry
+Mirror Temple A - Room c-12: Raspberry
+Mirror Temple A - Room c-07: Raspberry
+Mirror Temple A - Room c-11: Raspberry
+Mirror Temple A - Room c-09: Raspberry
+Mirror Temple A - Room c-13: Raspberry
 Mirror Temple A - Search: Mirror Temple A - Search
+Mirror Temple A - Room d-00: Raspberry
+Mirror Temple A - Room d-01: Raspberry
+Mirror Temple A - Room d-09: Raspberry
 Mirror Temple A - Search Key 1: Mirror Temple A - Search Key 1
 Mirror Temple A - Search Key 2: Mirror Temple A - Search Key 2
 Mirror Temple A - Room d-04 Strawberry 2: Raspberry
 Mirror Temple A - Room d-04 Strawberry 1: Raspberry
-Mirror Temple A - Room d-15 Strawberry 2: Fast Trap
+Mirror Temple A - Room d-04: Raspberry
+Mirror Temple A - Room d-05: Raspberry
+Mirror Temple A - Room d-06: Raspberry
+Mirror Temple A - Room d-07: Raspberry
+Mirror Temple A - Room d-02: Raspberry
+Mirror Temple A - Room d-03: Raspberry
+Mirror Temple A - Room d-15 Strawberry 2: Raspberry
 Mirror Temple A - Search Key 3: Mirror Temple A - Search Key 3
 Mirror Temple A - Room d-15 Strawberry 1: Raspberry
-Mirror Temple A - Room d-13 Strawberry: Raspberry
-Mirror Temple A - Room d-19 Strawberry: Move Blocks
+Mirror Temple A - Room d-15: Raspberry
+Mirror Temple A - Room d-13 Strawberry: Ice Trap
+Mirror Temple A - Room d-13: Raspberry
+Mirror Temple A - Room d-19b: Raspberry
+Mirror Temple A - Room d-19 Strawberry: Raspberry
+Mirror Temple A - Room d-19: The Summit A - Gem 3
+Mirror Temple A - Room d-10: Raspberry
+Mirror Temple A - Room d-20: Raspberry
 Mirror Temple A - Rescue: Mirror Temple A - Rescue
+Mirror Temple A - Room e-00: Raspberry
+Mirror Temple A - Room e-01: Raspberry
+Mirror Temple A - Room e-02: Crystal Heart 4
+Mirror Temple A - Room e-03: Raspberry
+Mirror Temple A - Room e-04: Raspberry
 Mirror Temple A - Room e-06 Strawberry: Raspberry
-Mirror Temple A - Level Clear: Raspberry
+Mirror Temple A - Room e-06: Raspberry
+Mirror Temple A - Room e-05: Raspberry
+Mirror Temple A - Room e-07: Raspberry
+Mirror Temple A - Room e-08: Raspberry
+Mirror Temple A - Room e-09: Slow Trap
+Mirror Temple A - Room e-10: Raspberry
+Mirror Temple A - Level Clear: Strawberry
+Mirror Temple A - Room e-11: Raspberry
+Mirror Temple B - Room start: Raspberry
+Mirror Temple B - Room a-00: Raspberry
+Mirror Temple B - Room a-01: Raspberry
+Mirror Temple B - Room a-02: Raspberry
+Mirror Temple B - Central Chamber: Mirror Temple B - Central Chamber
+Mirror Temple B - Room b-00: Raspberry
+Mirror Temple B - Room b-01: Raspberry
+Mirror Temple B - Room b-04: Crystal Heart 6
+Mirror Temple B - Central Chamber Key 1: Mirror Temple B - Central Chamber Key 1
+Mirror Temple B - Central Chamber Key 2: Mirror Temple B - Central Chamber Key 2
+Mirror Temple B - Room b-02: Slow Trap
+Mirror Temple B - Room b-05: Raspberry
+Mirror Temple B - Room b-06: Raspberry
+Mirror Temple B - Room b-07: Laughter Trap
+Mirror Temple B - Room b-03: Raspberry
+Mirror Temple B - Room b-08: Ice Trap
+Mirror Temple B - Room b-09 Binoculars: Raspberry
+Mirror Temple B - Room b-09: Raspberry
+Mirror Temple B - Through the Mirror: Mirror Temple B - Through the Mirror
+Mirror Temple B - Room c-00: Raspberry
+Mirror Temple B - Room c-01: Invisible Trap
+Mirror Temple B - Room c-02: Crystal Heart 9
+Mirror Temple B - Room c-03: Raspberry
+Mirror Temple B - Room c-04: Raspberry
+Mirror Temple B - Mix Master: Mirror Temple B - Mix Master
+Mirror Temple B - Room d-00: Invisible Trap
+Mirror Temple B - Room d-01: Raspberry
+Mirror Temple B - Room d-02: Raspberry
+Mirror Temple B - Room d-03: Raspberry
+Mirror Temple B - Room d-04: Raspberry
+Mirror Temple B - Level Clear: Strawberry
+Mirror Temple B - Room d-05: Raspberry
+Mirror Temple C - Room 00: Raspberry
+Mirror Temple C - Room 01: Raspberry
+Mirror Temple C - Room 02 Binoculars: Raspberry
+Mirror Temple C - Level Clear: Strawberry
+Mirror Temple C - Room 02: Torches
+Reflection A - Room 00: Raspberry
+Reflection A - Room 01: Raspberry
+Reflection A - Room 02: Raspberry
+Reflection A - Room 03: Raspberry
+Reflection A - Room 02b: Raspberry
 Reflection A - Hollows: Reflection A - Hollows
+Reflection A - Room 04: Raspberry
+Reflection A - Room 04b: Raspberry
 Reflection A - Crystal Heart: Raspberry
-Reflection A - Cassette: Crystal Heart 3
+Reflection A - Room 04c: Raspberry
+Reflection A - Room 04d: Raspberry
+Reflection A - Room 04e Binoculars: Raspberry
+Reflection A - Cassette: Raspberry
+Reflection A - Room 04e: Reverse Trap
+Reflection A - Room 05: Raspberry
+Reflection A - Room 06: Laughter Trap
+Reflection A - Room 07: Raspberry
+Reflection A - Room 08a: Raspberry
+Reflection A - Room 08b: Raspberry
+Reflection A - Room 09: Raspberry
+Reflection A - Room 10a: Raspberry
+Reflection A - Room 10b: Raspberry
+Reflection A - Room 11: Raspberry
+Reflection A - Room 12a: Raspberry
+Reflection A - Room 12b: Blue Clouds
+Reflection A - Room 13: Dream Blocks
+Reflection A - Room 14a: Raspberry
+Reflection A - Room 14b: Raspberry
+Reflection A - Room 15: Raspberry
+Reflection A - Room 16a: Raspberry
+Reflection A - Room 16b: Raspberry
+Reflection A - Room 17: Raspberry
+Reflection A - Room 18a: Raspberry
+Reflection A - Room 18b: Raspberry
+Reflection A - Room 19: Raspberry
+Reflection A - Room 20: Raspberry
 Reflection A - Reflection: Reflection A - Reflection
+Reflection A - Room b-00: Raspberry
+Reflection A - Room b-00b: Raspberry
+Reflection A - Room b-00c: Raspberry
+Reflection A - Room b-01: Raspberry
+Reflection A - Room b-02: Invisible Trap
+Reflection A - Room b-02b: Raspberry
+Reflection A - Room b-03: Raspberry
 Reflection A - Rock Bottom: Reflection A - Rock Bottom
+Reflection A - Room boss-00: Raspberry
+Reflection A - Room boss-01: Raspberry
+Reflection A - Room boss-02: Crystal Heart 13
+Reflection A - Room boss-03: Raspberry
+Reflection A - Room boss-04: Raspberry
+Reflection A - Room boss-05: Raspberry
+Reflection A - Room boss-06: Raspberry
+Reflection A - Room boss-07: Raspberry
+Reflection A - Room boss-08: Raspberry
+Reflection A - Room boss-09: Raspberry
+Reflection A - Room boss-10: Raspberry
+Reflection A - Room boss-11: Raspberry
+Reflection A - Room boss-12: Raspberry
+Reflection A - Room boss-13: Literature Trap
+Reflection A - Room boss-14: Laughter Trap
+Reflection A - Room boss-15: Reverse Trap
+Reflection A - Room boss-16: Screen Flip Trap
+Reflection A - Room boss-17: Raspberry
+Reflection A - Room boss-18: Raspberry
+Reflection A - Room boss-19: Raspberry
+Reflection A - Room boss-20: Raspberry
 Reflection A - Resolution: Reflection A - Resolution
-Reflection A - Level Clear: Raspberry
-The Summit A - Room a-02b Strawberry: Zoom Trap
+Reflection A - Room after-00: Raspberry
+Reflection A - Level Clear: Strawberry
+Reflection A - Room after-01: Raspberry
+Reflection B - Room a-00: Raspberry
+Reflection B - Room a-01: Raspberry
+Reflection B - Room a-02 Binoculars: Raspberry
+Reflection B - Room a-02: Raspberry
+Reflection B - Room a-03: Raspberry
+Reflection B - Room a-04: Laughter Trap
+Reflection B - Room a-05: Raspberry
+Reflection B - Room a-06 Binoculars: Raspberry
+Reflection B - Room a-06: Raspberry
+Reflection B - Reflection: Reflection B - Reflection
+Reflection B - Room b-00: Raspberry
+Reflection B - Room b-01: Raspberry
+Reflection B - Room b-02: Raspberry
+Reflection B - Room b-03: Bald Trap
+Reflection B - Room b-04: Raspberry
+Reflection B - Room b-05: Laughter Trap
+Reflection B - Room b-06: Strawberry Seeds
+Reflection B - Room b-07: Invisible Trap
+Reflection B - Room b-08: Raspberry
+Reflection B - Room b-10: Raspberry
+Reflection B - Rock Bottom: Reflection B - Rock Bottom
+Reflection B - Room c-00: Raspberry
+Reflection B - Room c-01: Raspberry
+Reflection B - Room c-02: Raspberry
+Reflection B - Room c-03: Raspberry
+Reflection B - Room c-04: Raspberry
+Reflection B - Reprieve: Reflection B - Reprieve
+Reflection B - Room d-00: Raspberry
+Reflection B - Room d-01: Raspberry
+Reflection B - Room d-02: Raspberry
+Reflection B - Room d-03: Raspberry
+Reflection B - Room d-04: Raspberry
+Reflection B - Level Clear: Strawberry
+Reflection B - Room d-05: Raspberry
+Reflection C - Room 00: Raspberry
+Reflection C - Room 01: Raspberry
+Reflection C - Room 02 Binoculars 1: Raspberry
+Reflection C - Room 02 Binoculars 2: Raspberry
+Reflection C - Level Clear: Strawberry
+Reflection C - Room 02: Raspberry
+The Summit A - Room a-00: Raspberry
+The Summit A - Room a-01: Raspberry
+The Summit A - Room a-02: Raspberry
+The Summit A - Room a-02b Strawberry: Raspberry
+The Summit A - Room a-02b: Raspberry
+The Summit A - Room a-03: Raspberry
+The Summit A - Room a-04: Stun Trap
 The Summit A - Room a-04b Strawberry 1: Raspberry
 The Summit A - Room a-04b Strawberry 2: Raspberry
-The Summit A - Room a-05 Strawberry: Laughter Trap
-The Summit A - Gem 1: The Summit A - Gem 1
+The Summit A - Room a-04b: Raspberry
+The Summit A - Room a-05 Strawberry: Raspberry
+The Summit A - Room a-05: Raspberry
+The Summit A - Gem 1: Raspberry
+The Summit A - Room a-06: Raspberry
 The Summit A - 500 M: The Summit A - 500 M
+The Summit A - Room b-00: Raspberry
+The Summit A - Room b-01 Binoculars: Raspberry
+The Summit A - Room b-01: Screen Flip Trap
+The Summit A - Room b-02 Binoculars: Raspberry
 The Summit A - Room b-02 Strawberry: Raspberry
+The Summit A - Room b-02: Slow Trap
+The Summit A - Room b-02b Binoculars: Raspberry
 The Summit A - Room b-02b Strawberry: Raspberry
+The Summit A - Room b-02b: Raspberry
 The Summit A - Room b-02e Strawberry: Raspberry
-The Summit A - Gem 2: The Summit A - Gem 2
+The Summit A - Room b-02e: Raspberry
+The Summit A - Room b-02c: Raspberry
+The Summit A - Gem 2: Raspberry
+The Summit A - Room b-02d: Raspberry
+The Summit A - Room b-03: Raspberry
 The Summit A - Room b-04 Strawberry: Raspberry
-The Summit A - Room b-08 Strawberry: Blue Clouds
-The Summit A - Room b-09 Strawberry: Theo Crystal
+The Summit A - Room b-04: Raspberry
+The Summit A - Room b-05: Raspberry
+The Summit A - Room b-06: The Summit A - Gem 2
+The Summit A - Room b-07: Raspberry
+The Summit A - Room b-08 Strawberry: Raspberry
+The Summit A - Room b-08: Raspberry
+The Summit A - Room b-09 Strawberry: Raspberry
+The Summit A - Room b-09: Raspberry
 The Summit A - 1000 M: The Summit A - 1000 M
+The Summit A - Room c-00: Raspberry
+The Summit A - Room c-01: Raspberry
+The Summit A - Room c-02: Raspberry
+The Summit A - Room c-03: Raspberry
+The Summit A - Room c-03b Binoculars: Raspberry
 The Summit A - Room c-03b Strawberry: Raspberry
+The Summit A - Room c-03b: Raspberry
+The Summit A - Room c-04: Crystal Heart 1
+The Summit A - Room c-05 Binoculars: Stun Trap
 The Summit A - Room c-05 Strawberry: Raspberry
-The Summit A - Room c-06b Strawberry: Raspberry
-The Summit A - Gem 3: The Summit A - Gem 3
+The Summit A - Room c-05: Raspberry
+The Summit A - Room c-06: Raspberry
+The Summit A - Room c-06b Strawberry: Sinking Platforms
+The Summit A - Room c-06b: Invisible Trap
+The Summit A - Room c-06c Binoculars: Raspberry
+The Summit A - Gem 3: Raspberry
+The Summit A - Room c-06c: Raspberry
+The Summit A - Room c-07: Raspberry
+The Summit A - Room c-07b Binoculars: Raspberry
 The Summit A - Room c-07b Strawberry: Raspberry
+The Summit A - Room c-07b: Literature Trap
 The Summit A - Room c-08 Strawberry: Raspberry
+The Summit A - Room c-08: Raspberry
 The Summit A - Room c-09 Strawberry: Raspberry
-The Summit A - Room d-00 Strawberry: Pink Cassette Blocks
+The Summit A - Room c-09: Raspberry
+The Summit A - Room d-00 Strawberry: Raspberry
 The Summit A - 1500 M: The Summit A - 1500 M
+The Summit A - Room d-00: Raspberry
+The Summit A - Room d-01: Raspberry
+The Summit A - Room d-01b: Raspberry
 The Summit A - Room d-01c Strawberry: Raspberry
+The Summit A - Room d-01c: Raspberry
 The Summit A - Room d-01d Strawberry: Raspberry
-The Summit A - Room d-03 Strawberry: Hiccup Trap
+The Summit A - Room d-01d: Bald Trap
+The Summit A - Room d-02: The Summit A - Gem 4
+The Summit A - Room d-03 Strawberry: Raspberry
+The Summit A - Room d-03: Raspberry
 The Summit A - Cassette: Raspberry
-The Summit A - Room d-04 Strawberry: Crystal Heart 12
-The Summit A - Gem 4: The Summit A - Gem 4
-The Summit A - Room d-07 Strawberry: Swap Blocks
+The Summit A - Room d-03b: Raspberry
+The Summit A - Room d-04 Strawberry: Raspberry
+The Summit A - Room d-04: Literature Trap
+The Summit A - Room d-05: Bald Trap
+The Summit A - Gem 4: Raspberry
+The Summit A - Room d-05b: Raspberry
+The Summit A - Room d-06: Ice Trap
+The Summit A - Room d-07 Strawberry: Raspberry
+The Summit A - Room d-07: Stun Trap
 The Summit A - Room d-08 Strawberry: Raspberry
+The Summit A - Room d-08: Raspberry
+The Summit A - Room d-09: Raspberry
+The Summit A - Room d-10: Raspberry
 The Summit A - Room d-10b Strawberry: Raspberry
+The Summit A - Room d-10b: Raspberry
+The Summit A - Room d-11: Raspberry
 The Summit A - 2000 M: The Summit A - 2000 M
-The Summit A - Gem 5: The Summit A - Gem 5
-The Summit A - Room e-02 Strawberry: Raspberry
+The Summit A - Room e-00b: Raspberry
+The Summit A - Room e-00: Raspberry
+The Summit A - Room e-01: Raspberry
+The Summit A - Room e-01b: Raspberry
+The Summit A - Gem 5: Raspberry
+The Summit A - Room e-01c: Raspberry
+The Summit A - Room e-02 Strawberry: Ice Trap
+The Summit A - Room e-02: Raspberry
+The Summit A - Room e-03: Raspberry
+The Summit A - Room e-04: Raspberry
 The Summit A - Room e-05 Strawberry: Raspberry
+The Summit A - Room e-05: Raspberry
+The Summit A - Room e-06: Move Blocks
 The Summit A - Room e-07 Strawberry: Raspberry
+The Summit A - Room e-07: Raspberry
+The Summit A - Room e-08: Raspberry
 The Summit A - Room e-09 Strawberry: Raspberry
-The Summit A - Room e-11 Strawberry: Crystal Heart 2
+The Summit A - Room e-09: Raspberry
+The Summit A - Room e-11 Strawberry: Raspberry
+The Summit A - Room e-11: Raspberry
 The Summit A - Room e-12 Strawberry: Raspberry
+The Summit A - Room e-12: Raspberry
 The Summit A - Room e-10 Strawberry: Raspberry
+The Summit A - Room e-10: Raspberry
+The Summit A - Room e-10b: Raspberry
 The Summit A - Room e-13 Strawberry: Raspberry
+The Summit A - Room e-13: Raspberry
 The Summit A - Room f-00 Strawberry: Raspberry
 The Summit A - 2500 M: The Summit A - 2500 M
+The Summit A - Room f-00: Raspberry
 The Summit A - Room f-01 Strawberry: Raspberry
-The Summit A - Gem 6: The Summit A - Gem 6
-The Summit A - Room f-07 Strawberry: Torches
+The Summit A - Room f-01: Raspberry
+The Summit A - Room f-02: Raspberry
+The Summit A - Gem 6: Raspberry
+The Summit A - Room f-02b: Invisible Trap
+The Summit A - Room f-04: Raspberry
+The Summit A - Room f-03: Raspberry
+The Summit A - Room f-05: Raspberry
+The Summit A - Room f-06: Raspberry
+The Summit A - Room f-07 Strawberry: Raspberry
 The Summit A - 2500 M Key: The Summit A - 2500 M Key
+The Summit A - Room f-07: Screen Flip Trap
+The Summit A - Room f-08: Raspberry
 The Summit A - Room f-08b Strawberry: Raspberry
+The Summit A - Room f-08b: Raspberry
+The Summit A - Room f-08d: Raspberry
 The Summit A - Room f-08c Strawberry: Raspberry
-The Summit A - Room f-11 Strawberry 1: Raspberry
-The Summit A - Room f-11 Strawberry 2: Crystal Heart 5
-The Summit A - Room f-11 Strawberry 3: Kevins
+The Summit A - Room f-08c: Raspberry
+The Summit A - Room f-09: Raspberry
+The Summit A - Room f-10: Raspberry
+The Summit A - Room f-10b: Raspberry
+The Summit A - Room f-11 Strawberry 1: Slow Trap
+The Summit A - Room f-11 Strawberry 2: Raspberry
+The Summit A - Room f-11 Strawberry 3: Raspberry
+The Summit A - Room f-11: Raspberry
 The Summit A - 3000 M: The Summit A - 3000 M
+The Summit A - Room g-00: Raspberry
 The Summit A - Crystal Heart: Raspberry
-The Summit A - Room g-00b Strawberry 1: Crystal Heart 4
-The Summit A - Room g-00b Strawberry 2: Bumpers
+The Summit A - Room g-00b Strawberry 1: Raspberry
+The Summit A - Room g-00b Strawberry 2: Raspberry
 The Summit A - Room g-00b Strawberry 3: Raspberry
+The Summit A - Room g-00b: Raspberry
 The Summit A - Room g-01 Strawberry 1: Raspberry
 The Summit A - Room g-01 Strawberry 2: Raspberry
-The Summit A - Room g-01 Strawberry 3: Raspberry
+The Summit A - Room g-01 Strawberry 3: Crystal Heart 3
+The Summit A - Room g-01: Raspberry
+The Summit A - Room g-02: Raspberry
+The Summit A - Room g-03 Binoculars: Raspberry
 The Summit A - Room g-03 Strawberry: Raspberry
 The Summit A - Level Clear: Granny's House Keys
+The Summit A - Room g-03: Raspberry
+The Summit B - Room a-00: Raspberry
+The Summit B - Room a-01: Raspberry
+The Summit B - Room a-02: Raspberry
+The Summit B - Room a-03: Raspberry
+The Summit B - 500 M: The Summit B - 500 M
+The Summit B - Room b-00: Invisible Trap
+The Summit B - Room b-01 Binoculars: Raspberry
+The Summit B - Room b-01: Raspberry
+The Summit B - Room b-02 Binoculars: Screen Flip Trap
+The Summit B - Room b-02: Raspberry
+The Summit B - Room b-03: Stun Trap
+The Summit B - 1000 M: The Summit B - 1000 M
+The Summit B - Room c-01: Raspberry
+The Summit B - Room c-00: Raspberry
+The Summit B - Room c-02: Raspberry
+The Summit B - Room c-03: Raspberry
+The Summit B - 1500 M: The Summit B - 1500 M
+The Summit B - Room d-00: Raspberry
+The Summit B - Room d-01: Raspberry
+The Summit B - Room d-02: Raspberry
+The Summit B - Room d-03: Raspberry
+The Summit B - 2000 M: The Summit B - 2000 M
+The Summit B - Room e-00: White Block
+The Summit B - Room e-01: Raspberry
+The Summit B - Room e-02: Raspberry
+The Summit B - Room e-03: Raspberry
+The Summit B - 2500 M: The Summit B - 2500 M
+The Summit B - Room f-00: Raspberry
+The Summit B - Room f-01: Invisible Trap
+The Summit B - Room f-02: Raspberry
+The Summit B - Room f-03: Raspberry
+The Summit B - 3000 M: The Summit B - 3000 M
+The Summit B - Room g-00: Raspberry
+The Summit B - Room g-01: Raspberry
+The Summit B - Room g-02: Raspberry
+The Summit B - Level Clear: Strawberry
+The Summit B - Room g-03: Raspberry
+The Summit C - Room 01 Binoculars: Bald Trap
+The Summit C - Room 01: Raspberry
+The Summit C - Room 02: Raspberry
+The Summit C - Room 03 Binoculars: Raspberry
+The Summit C - Level Clear: Strawberry
+The Summit C - Room 03: Raspberry
+Epilogue - Room outside: Raspberry
+Epilogue - Room bridge: Raspberry
+Epilogue - Room secret: Raspberry
 Victory: Victory
 
 Playthrough:
@@ -313,64 +1018,85 @@ Playthrough:
 }
 1: {
   Celestial Resort A - Front Door Key: Celestial Resort A - Front Door Key
-  Celestial Resort A - Room s2 Strawberry 2: Dream Blocks
+  Celestial Resort A - Room s2: Springs
+  Celestial Resort C - Room 00: Traffic Blocks
+  Old Site A - Room d1: Dash Refills
+  Old Site A - Room d7: Dash Switches
 }
 2: {
-  Celestial Resort A - Room 00-a Strawberry: Coins
-  Old Site A - Room 1 Strawberry: Traffic Blocks
-  Old Site A - Room d2 Strawberry 2: Dash Refills
+  Celestial Resort A - Hallway Key 1: Celestial Resort A - Hallway Key 1
+  Celestial Resort A - Room 00-b: Badeline Boosters
+  Celestial Resort A - Room 00-b Strawberry: Bumpers
+  Forsaken City A - Crystal Heart: Kevins
+  Forsaken City A - Level Clear: Strawberry
+  Forsaken City A - Room 12: Theo Crystal
+  Forsaken City A - Room 2 Strawberry: Seekers
+  Forsaken City A - Room 7a Strawberry: Red Boosters
+  Forsaken City A - Room 9b Strawberry: Feathers
 }
 3: {
-  Celestial Resort A - Hallway Key 1: Celestial Resort A - Hallway Key 1
-  Old Site A - Room 12c Strawberry: Springs
-  Old Site A - Room 8 Strawberry: Sinking Platforms
+  Reflection A - Level Clear: Strawberry
+  Reflection A - Room 12b: Blue Clouds
+  Reflection A - Room 13: Dream Blocks
+  Reflection C - Level Clear: Strawberry
 }
 4: {
-  Forsaken City A - Room 12z Strawberry: Seekers
-  Forsaken City A - Room 6 Strawberry: Moving Platforms
-  Forsaken City A - Room 7a Strawberry: Blue Boosters
+  Old Site A - Room d0 Strawberry: Swap Blocks
+  Old Site A - Room d5: Moving Platforms
 }
 5: {
-  Celestial Resort A - Hallway Key 2: Celestial Resort A - Hallway Key 2
-  Celestial Resort A - Room 06-c Strawberry: Red Boosters
+  Mirror Temple A - Entrance Key: Mirror Temple A - Entrance Key
+  Mirror Temple A - Room a-14 Strawberry: Pink Cassette Blocks
+  Mirror Temple B - Central Chamber Key 2: Mirror Temple B - Central Chamber Key 2
+  Mirror Temple C - Level Clear: Strawberry
 }
 6: {
+  Mirror Temple A - Room b-01c Strawberry: Coins
+}
+7: {
+  Forsaken City C - Level Clear: Strawberry
+  Mirror Temple A - Search Key 1: Mirror Temple A - Search Key 1
+  Mirror Temple A - Search Key 2: Mirror Temple A - Search Key 2
+  Mirror Temple B - Central Chamber Key 1: Mirror Temple B - Central Chamber Key 1
+  Old Site A - Level Clear: Strawberry
+  Old Site A - Room 10 Strawberry: Pink Clouds
+  Old Site A - Room end_2: Blue Boosters
+  Old Site C - Level Clear: Strawberry
+  The Summit A - Room c-06b Strawberry: Sinking Platforms
+}
+8: {
+  Celestial Resort A - Hallway Key 2: Celestial Resort A - Hallway Key 2
+  Celestial Resort C - Level Clear: Strawberry
+  Mirror Temple A - Level Clear: Strawberry
+  The Summit A - Room e-06: Move Blocks
+  The Summit C - Level Clear: Strawberry
+}
+9: {
   Celestial Resort A - Brown Clutter: Celestial Resort A - Brown Clutter
   Celestial Resort A - Green Clutter: Celestial Resort A - Green Clutter
   Celestial Resort A - Pink Clutter: Celestial Resort A - Pink Clutter
-  Celestial Resort A - Room 11-d Strawberry: Pink Clouds
-}
-7: {
-  Celestial Resort A - Huge Mess Key: Celestial Resort A - Huge Mess Key
-}
-8: {
-  Celestial Resort A - Room 03-b Strawberry 2: Dash Switches
-}
-9: {
-  Mirror Temple A - Room a-01 Strawberry 2: Badeline Boosters
-}
-10: {
-  The Summit A - Room b-08 Strawberry: Blue Clouds
-  The Summit A - Room d-07 Strawberry: Swap Blocks
-}
-11: {
-  Mirror Temple A - Entrance Key: Mirror Temple A - Entrance Key
-}
-12: {
-  Mirror Temple A - Room b-17 Strawberry 1: Feathers
-  Mirror Temple A - Search Key 1: Mirror Temple A - Search Key 1
-  Mirror Temple A - Search Key 2: Mirror Temple A - Search Key 2
-  Mirror Temple A - Search Key 3: Mirror Temple A - Search Key 3
-}
-13: {
-  Mirror Temple A - Room d-19 Strawberry: Move Blocks
-}
-14: {
+  Celestial Resort A - Room 10-y: Blue Cassette Blocks
+  Golden Ridge A - Level Clear: Strawberry
+  Golden Ridge C - Level Clear: Strawberry
   The Summit A - 2500 M Key: The Summit A - 2500 M Key
 }
-15: {
+10: {
+  Celestial Resort A - Huge Mess Key: Celestial Resort A - Huge Mess Key
+  Celestial Resort B - Level Clear: Strawberry
+  Forsaken City B - Level Clear: Strawberry
+  Golden Ridge B - Level Clear: Strawberry
+  Mirror Temple B - Level Clear: Strawberry
+  Old Site B - Level Clear: Strawberry
+  Reflection B - Level Clear: Strawberry
   The Summit A - Level Clear: Granny's House Keys
+  The Summit B - Level Clear: Strawberry
 }
-16: {
+11: {
+  Celestial Resort A - Presidential Suite Key: Celestial Resort A - Presidential Suite Key
+}
+12: {
+  Celestial Resort A - Level Clear: Strawberry
+}
+13: {
   Victory: Victory
 }

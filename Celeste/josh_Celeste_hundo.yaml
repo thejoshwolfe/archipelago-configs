@@ -1,22 +1,6 @@
-name: josh_celeste
+name: celeste
 game: Celeste (Open World)
-description: Summit A (requires 14 advancement items). All A sides except Farewell enabled. Roomsanity.
-# Excludes chapters: Prologue, Reflection, Core, Farewell. Excludes all B and C sides.
-# Required items for The Summit A:
-# - traffic_blocks
-# - springs
-# - coins
-# - dash_refills
-# - dash_switches
-# - dream_blocks
-# - swap_blocks
-# - red_boosters
-# - blue_boosters
-# - blue_clouds
-# - pink_clouds
-# - move_blocks
-# - feathers
-# - badeline_boosters
+description: Clear all A/B/C sides, except Farewell and Core. All sanities except keys/checkpoints.
 requires:
   version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
   game:
@@ -36,17 +20,17 @@ Celeste (Open World):
   goal_area: the_summit_a
 
   lock_goal_area: 'false'
-  total_strawberries: '0'
-  strawberries_required_percentage: '0'
+  total_strawberries: '20'
+  strawberries_required_percentage: '100'
   junk_fill_percentage: '0'
 
   ####################
   # Location Options #
   ####################
   roomsanity:      'true'
-  include_core:    'true'
-  include_b_sides: 'false'
-  include_c_sides: 'false'
+  include_core:    'false'
+  include_b_sides: 'true'
+  include_c_sides: 'true'
 
   checkpointsanity: 'false'
   goal_area_checkpointsanity: 'false'
@@ -69,7 +53,7 @@ Celeste (Open World):
   literature_trap_weight:  medium
   stun_trap_weight:        medium
   invisible_trap_weight:   medium
-  fast_trap_weight:        medium
+  fast_trap_weight:        none
   slow_trap_weight:        medium
   ice_trap_weight:         medium
   reverse_trap_weight:     medium
@@ -84,8 +68,8 @@ Celeste (Open World):
   music_shuffle: none
   require_cassettes: 'false'
   madeline_hair_length:
-    default: 1
-    long: 1
+    very_long: 1
+    absurd: 1
   madeline_one_dash_hair_color: strawberry
   madeline_two_dash_hair_color: double
   madeline_no_dash_hair_color: empty
@@ -101,6 +85,30 @@ Celeste (Open World):
     Torches: 1
   start_location_hints: []
   priority_locations: []
-  exclude_locations: []
   item_links: []
-  plando_items: []
+  plando_items:
+    - items: {Strawberry: 20}
+      count: 20
+      force: True
+      locations:
+      - Forsaken City A - Level Clear
+      - Forsaken City B - Level Clear
+      - Forsaken City C - Level Clear
+      - Old Site A - Level Clear
+      - Old Site B - Level Clear
+      - Old Site C - Level Clear
+      - Celestial Resort A - Level Clear
+      - Celestial Resort B - Level Clear
+      - Celestial Resort C - Level Clear
+      - Golden Ridge A - Level Clear
+      - Golden Ridge B - Level Clear
+      - Golden Ridge C - Level Clear
+      - Mirror Temple A - Level Clear
+      - Mirror Temple B - Level Clear
+      - Mirror Temple C - Level Clear
+      - Reflection A - Level Clear
+      - Reflection B - Level Clear
+      - Reflection C - Level Clear
+      #- The Summit A - Level Clear # Always contains Granny's House Keys
+      - The Summit B - Level Clear
+      - The Summit C - Level Clear

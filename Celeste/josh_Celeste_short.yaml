@@ -60,8 +60,7 @@ Celeste (Open World):
   ##################
   # Junk and Traps #
   ##################
-  # Disable traps.
-  trap_fill_percentage: '15'
+  trap_fill_percentage: '10'
 
   trap_expiration_action: new_screens
   trap_expiration_amount: '1'
@@ -77,7 +76,7 @@ Celeste (Open World):
   screen_flip_trap_weight: medium
   laughter_trap_weight:    medium
   hiccup_trap_weight:      medium
-  zoom_trap_weight:        medium
+  zoom_trap_weight:        none    # Causes bugs with angry Oshiro and Boss Badaline
 
   #####################
   # Aesthetic Options #
