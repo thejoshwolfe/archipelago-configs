@@ -1,5 +1,15 @@
 name: josh_ow
 description: Meet both friends and reach the Eye of the Universe.
+
+# The sequence to get all of Solanum's QM checks: ex, eye, id, moon, you.
+#   Explain  + Eye
+#               |
+#   Identify + Eye
+#      |
+#   Identify + Moon
+#               |
+#     You    + Moon
+
 game: Outer Wilds
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
