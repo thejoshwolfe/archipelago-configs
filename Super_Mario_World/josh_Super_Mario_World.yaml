@@ -27,7 +27,6 @@ requires:
     - Item Box
     - P-Balloon
     - P-Switch
-    #- Midway Points
     - Yellow Switch Palace
     - Green Switch Palace
     - Red Switch Palace
@@ -65,7 +64,6 @@ requires:
   level_shuffle: 'false'
   level_effects: '0'
   carryless_exits: '0'
-  swap_level_exits: 'false'
   swap_exit_count: '0'
   swap_donut_gh_exits: 'true'
   map_teleport_shuffle: 'off'

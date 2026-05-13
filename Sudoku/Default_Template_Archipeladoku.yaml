@@ -103,10 +103,12 @@ Archipeladoku:
     # - Easy: Pointing pairs, box line reduction.
     # - Medium: Naked pairs/triples.
     # - Hard: Hidden pairs/triples.
+    # - Very Hard: X-Wing, Swordfish, Y-Wing.
     beginner: 0
     easy: 50
     medium: 0
     hard: 0
+    very_hard: 0
 
   progression:
     # How blocks are unlocked during the game.
@@ -230,6 +232,14 @@ Archipeladoku:
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
     random-range-0-100: 0 # random value between 0 and 100
+
+  death_link:
+    # Enable Death Link. When a player with death link enabled dies all other players that also
+    # enabled it die as well. Archipeladoku can only receive death links, not send them. When a death
+    # link is received all non-given numbers will be cleared. This can also be toggled in the client
+    # from the Debug menu.
+    'false': 50
+    'true': 0
 
   ###########################
   # Item & Location Options #

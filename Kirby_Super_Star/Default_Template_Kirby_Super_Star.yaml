@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -34,7 +34,7 @@ game: Kirby Super Star
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Kirby Super Star: 0.1.7 # Version of the world required for this yaml to work as expected.
+    Kirby Super Star: 0.1.9 # Version of the world required for this yaml to work as expected.
 
 Kirby Super Star:
   ################

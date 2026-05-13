@@ -44,11 +44,22 @@ Anodyne:
   ################
   traps_percentage: '25'
   trap_weights:
-    Gas Trap: 1
-    Person Trap: 4
-    Phone Trap: 1
-    Grayscale Trap: 1
-    Chaos Trap: 1
+    Chaos Trap: 10
+    Damage Trap: 5
+    Disarm Trap: 0
+    Extreme Chaos Trap: 0
+    Flip Horizontal Trap: 5
+    Flip Vertical Trap: 5
+    Gas Trap: 10
+    Grayscale Trap: 10
+    Home Trap: 2
+    Invisible Trap: 5
+    One Hit KO Trap: 1
+    Person Trap: 40
+    Phone Trap: 10
+    Pixelate Trap: 10
+    Stun Trap: 5
+    Tool Swap Trap: 0
 
   # Big Gates are vanilla.
   overworld_gauntlet_gate: cards
@@ -124,3 +135,4 @@ Anodyne:
   progression_balancing: '50'
   accessibility: full
   death_link: 'false'
+  trap_link: 'true'

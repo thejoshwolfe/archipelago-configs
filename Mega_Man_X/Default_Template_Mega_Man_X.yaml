@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -33,6 +33,8 @@ description: Default Mega Man X Template
 game: Mega Man X
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Mega Man X: 1.6.2 # Version of the world required for this yaml to work as expected.
 
 Mega Man X:
   ################
@@ -65,6 +67,11 @@ Mega Man X:
 
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  damage_link:
+    # Damage is shared across slots
     'false': 50
     'true': 0
 

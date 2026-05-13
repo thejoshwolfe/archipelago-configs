@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -32,9 +32,9 @@ description: Default Donkey Kong Country 2 Template
 
 game: Donkey Kong Country 2
 requires:
-  version: 0.6.5 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Donkey Kong Country 2: 3.0.4 # Version of the world required for this yaml to work as expected.
+    Donkey Kong Country 2: 3.1.1 # Version of the world required for this yaml to work as expected.
 
 Donkey Kong Country 2:
   ################
@@ -67,6 +67,11 @@ Donkey Kong Country 2:
 
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  damage_link:
+    # Damage is shared across slots
     'false': 50
     'true': 0
 
@@ -330,49 +335,17 @@ Donkey Kong Country 2:
   shuffle_abilities:
     # Which abilities will be added as items in the item pool
     # If an ability is not present in the list they will be treated as unlocked from the start
-    ['Carry', 'Helicopter Spin', 'Cling', 'Swim', 'Cartwheel', 'Climb', 'Team Attack']
+    ['Swim', 'Helicopter Spin', 'Carry', 'Cartwheel', 'Climb', 'Cling', 'Team Attack']
 
   shuffle_animals:
     # Which animal buddies will be added as items in the item pool
     # If an animal buddy is not present in the list they will be treated as unlocked from the start
-    ['Enguarde', 'Squawks', 'Squitter', 'Skull Kart', 'Glimmer', 'Clapper', 'Rattly', 'Rambi']
+    ['Rambi', 'Glimmer', 'Rattly', 'Squawks', 'Enguarde', 'Skull Kart', 'Clapper', 'Squitter']
 
   shuffle_barrels:
     # Which kind of barrels will be added as items in the item pool
     # If a barrel is not present in the list they will be treated as unlocked from the start
-    ['Exclamation Barrels', 'Controllable Barrels', 'Barrel Kannons', 'Warp Barrels', 'Kong Barrels']
-
-  ##########
-  # Trivia #
-  ##########
-  swanky_questions_per_quiz:
-    # Whether completing a quiz will grant a check
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 1
-    # Maximum value is 6
-    1: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-1-6: 0 # random value between 1 and 6
-
-  swanky_forced_topics:
-    # Which additional topics will be added to Swanky's Bonus Bonanza pool of questions.
-    # 
-    # Swanky already enforces questions from games in the multiworld if they're on the database.
-    # 
-    # This option has priority over the Excluded Topics option.
-    ['A Link to the Past', 'Actraiser', 'Adventure', 'Astalon', 'Banjo-Tooie', 'Castlevania - Circle of the Moon', 'Cave Story', 'Diddy Kong Racing', 'Donkey Kong 64', 'Donkey Kong Country', 'Donkey Kong Country 2', 'Donkey Kong Country 3', 'EarthBound', 'Final Fantasy Mystic Quest', 'Genshin Impact', 'Hollow Knight', 'Kingdom Hearts', 'Kingdom Hearts 2', 'Kirby 64 - The Crystal Shards', 'Kirby Super Star', "Kirby's Dream Land 3", "Luigi's Mansion", "Majora's Mask Recompiled", 'Mario & Luigi Superstar Saga', 'Mario Kart Double Dash', 'Math', 'Mega Man 2', 'Mega Man 3', 'Mega Man X', 'Mega Man X2', 'Mega Man X3', 'Ocarina of Time', 'Overcooked! 2', 'Paper Mario', 'Paper Mario The Thousand Year Door', 'Plok', 'Pokemon Crystal', 'Pokemon Emerald', 'Pokemon Red and Blue', 'Rabi-Ribi', 'Risk of Rain 2', 'Skyward Sword', 'Sonic Adventure 2 Battle', 'Subnautica', 'Super Mario 64', 'Super Mario World', 'Super Metroid', 'Symphony of the Night', 'Terraria', 'The Legend of Zelda', 'VVVVVV', 'Xenoblade X', "Yoshi's Island", 'Zelda II: The Adventure of Link', 'Zillion']
-
-  swanky_excluded_topics:
-    # Which topics will be excluded from Swanky's Bonus Bonanza pool of questions.
-    # 
-    # Swanky enforces questions from the multiworld. This will help you to remove topics from games you don't know/care about in the session.
-    # Donkey Kong Country 2 can't be excluded (can be put here, but it'll be forced anyway)
-    # 
-    # Do note that if you remove way too many topics and set a very high question per quiz count an error may arise from the lack of questions available
-    ['A Link to the Past', 'Actraiser', 'Adventure', 'Astalon', 'Banjo-Tooie', 'Castlevania - Circle of the Moon', 'Cave Story', 'Diddy Kong Racing', 'Donkey Kong 64', 'Donkey Kong Country', 'Donkey Kong Country 2', 'Donkey Kong Country 3', 'EarthBound', 'Final Fantasy Mystic Quest', 'Genshin Impact', 'Hollow Knight', 'Kingdom Hearts', 'Kingdom Hearts 2', 'Kirby 64 - The Crystal Shards', 'Kirby Super Star', "Kirby's Dream Land 3", "Luigi's Mansion", "Majora's Mask Recompiled", 'Mario & Luigi Superstar Saga', 'Mario Kart Double Dash', 'Math', 'Mega Man 2', 'Mega Man 3', 'Mega Man X', 'Mega Man X2', 'Mega Man X3', 'Ocarina of Time', 'Overcooked! 2', 'Paper Mario', 'Paper Mario The Thousand Year Door', 'Plok', 'Pokemon Crystal', 'Pokemon Emerald', 'Pokemon Red and Blue', 'Rabi-Ribi', 'Risk of Rain 2', 'Skyward Sword', 'Sonic Adventure 2 Battle', 'Subnautica', 'Super Mario 64', 'Super Mario World', 'Super Metroid', 'Symphony of the Night', 'Terraria', 'The Legend of Zelda', 'VVVVVV', 'Xenoblade X', "Yoshi's Island", 'Zelda II: The Adventure of Link', 'Zillion']
+    ['Kong Barrels', 'Warp Barrels', 'Exclamation Barrels', 'Controllable Barrels', 'Barrel Kannons']
 
   #########
   # Traps #

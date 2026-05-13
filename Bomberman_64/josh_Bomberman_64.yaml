@@ -15,6 +15,7 @@ Bomberman 64:
   open_stages: 'true'
   difficulty: normal
   palace_on: 'true'
+  boss_card_five: kill_count_reduction
 
   # Aesthetics
   random_music: 'false'

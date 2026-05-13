@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -34,7 +34,7 @@ game: Anodyne
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Anodyne: 0.5.1 # Version of the world required for this yaml to work as expected.
+    Anodyne: 0.6.2 # Version of the world required for this yaml to work as expected.
 
 Anodyne:
   ################
@@ -102,11 +102,6 @@ Anodyne:
     vague: 50
     precise: 0
     precise_hint: 0
-
-  death_link:
-    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
-    'false': 50
-    'true': 0
 
   #############
   # Key Logic #
@@ -314,11 +309,36 @@ Anodyne:
     # 
     # If you don't want a specific type of trap, set the weight to zero.
     Chaos Trap: 1
+    Damage Trap: 0.5
+    Disarm Trap: 0.8
     Extreme Chaos Trap: 0
+    Flip Horizontal Trap: 0.5
+    Flip Vertical Trap: 0.5
     Gas Trap: 1
     Grayscale Trap: 1
+    Home Trap: 0.2
+    Invisible Trap: 0.5
+    One Hit KO Trap: 0.1
     Person Trap: 1
     Phone Trap: 1
+    Pixelate Trap: 1
+    Stun Trap: 0.5
+    Tool Swap Trap: 0.8
+
+  #########
+  # Links #
+  #########
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  trap_link:
+    # If enabled, when you receive a trap, it will send a similar trap out to other players. In a similar vain, other players receiving a trap will send one to you as well.
+    # 
+    # You will only receive traps with a weight higher than 0.
+    'false': 0
+    'true': 50
 
   ##################
   # Big Gate Logic #

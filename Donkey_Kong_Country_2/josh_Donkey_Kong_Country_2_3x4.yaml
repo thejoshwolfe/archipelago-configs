@@ -39,9 +39,6 @@ Donkey Kong Country 2:
   shuffle_animals: []
   shuffle_barrels: []
   swanky_checks: 'false'
-  swanky_questions_per_quiz: '1'
-  swanky_forced_topics: []
-  swanky_excluded_topics: []
 
   # Traps
   trap_fill_percentage: '10'

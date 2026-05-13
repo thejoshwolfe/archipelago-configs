@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -32,7 +32,9 @@ description: Default Symphony of the Night Template
 
 game: Symphony of the Night
 requires:
-  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Symphony of the Night: 0.8.16 # Version of the world required for this yaml to work as expected.
 
 Symphony of the Night:
   ################
@@ -163,9 +165,37 @@ Symphony of the Night:
     # Randomize enemy drops
     # simple: Only randomize between each enemy drop
     # simple_global: Only randomize between each enemy drop including global drops
+    # type: Randomize within the same item type
+    # type_global: Randomize within the same item type including global drops
+    # type_progression: Randomize within the same item type and have a chance on progression items
+    # type_progression_global: Randomize within the same item type and include global drops having a chance on progression items
+    # full: Every drop is random
+    # full_global: Every drop is random including global drops
+    # full_progression: Every drop is random and have a chance on progression items
+    # full_progression_global: Every drop is random and include global drops having a chance on progression items
     'off': 50
     simple: 0
     simple_global: 0
+    type: 0
+    type_global: 0
+    type_progression: 0
+    type_progression_global: 0
+    full: 0
+    full_global: 0
+    full_progression: 0
+    full_progression_global: 0
+
+  randomize_candles:
+    # Randomize candles. Vanilla candles with Stopwatch are not randomized
+    # simple: Only randomize between each candle
+    # type: Randomize keeping the same item type
+    # random: Full randomized items
+    # random_progression: Full randomized include chance of progression items
+    'off': 50
+    simple: 0
+    type: 0
+    full: 0
+    full_progression: 0
 
   rng_start_gear:
     # Randomize starting equipment

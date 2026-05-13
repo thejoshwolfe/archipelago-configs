@@ -34,7 +34,7 @@ game: Crypt of the NecroDancer
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Crypt of the NecroDancer: 0.5.3 # Version of the world required for this yaml to work as expected.
+    Crypt of the NecroDancer: 0.6.0 # Version of the world required for this yaml to work as expected.
 
 Crypt of the NecroDancer:
   ################
@@ -96,12 +96,12 @@ Crypt of the NecroDancer:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
-    # Maximum value is 95
+    # Maximum value is 100
     40: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-1-95: 0 # random value between 1 and 95
+    random-range-1-100: 0 # random value between 1 and 100
 
   floor_clear_checks:
     # Determines whether zone clear checks are split per floor (e.g., 1-1, 1-2, 1-3, Boss) instead of just a single 'Zone X' check. Default is true.
@@ -266,16 +266,85 @@ Crypt of the NecroDancer:
     # Specify the weights determining how many copies of each trap item will be in your itempool.
     # If you don't want a specific type of trap, you can set the weight for it to 0.
     # If you set all trap weights to 0, you will get no traps, bypassing the "Trap Percentage" option.
-    Camera Trap: 2
-    Confusion Trap: 7
-    Dad Trap: 2
-    Dead Ringer Trap: 1
-    Gold Scatter Trap: 6
-    Haunted Shopkeeper Trap: 4
-    Monkey Trap: 10
-    No Return Trap: 3
-    Skeleton Trap: 5
-    Tempo Trap: 7
+    # For a full description of each trap's effects and severity, see:
+    # https://github.com/lastingParadox/Archipelago-CotND/blob/crypt-of-the-necrodancer/worlds/cotnd/docs/traps.md
+    144p Trap: 70
+    AAA Trap: 70
+    Animal Trap: 40
+    Armadillo Trap: 60
+    Bald Trap: 90
+    Beetle Trap: 60
+    Bomb Trap: 20
+    Bonk Trap: 40
+    Burn Trap: 50
+    Camera Trap: 70
+    Chaos Trap: 40
+    Commando Trap: 20
+    Confusion Trap: 30
+    Cursed Trap: 30
+    Cutscene Trap: 70
+    Dad Trap: 40
+    Damage Trap: 70
+    Dead Ringer Trap: 10
+    Disable Trap: 50
+    Disarm Trap: 40
+    Double Damage Trap: 20
+    Earth Trap: 70
+    Exposition Trap: 60
+    Fake Transition Trap: 60
+    Fast Trap: 20
+    Flip Horizontal Trap: 60
+    Flip Vertical Trap: 60
+    Frame Slime Trap: 90
+    Freeze Trap: 50
+    Gold Scatter Trap: 80
+    Haunted Shopkeeper Trap: 70
+    Help Trap: 40
+    Hiccup Trap: 60
+    Home Trap: 60
+    Ice Floor Trap: 30
+    Instant Death Trap: 0
+    Invisible Trap: 80
+    Isometric Trap: 40
+    Jump Trap: 50
+    Laughter Trap: 70
+    Leaping Trap: 40
+    Market Crash Trap: 30
+    Meteor Trap: 20
+    Monkey Trap: 60
+    My Turn Trap: 20
+    No Return Trap: 40
+    No Revivals Trap: 30
+    One Hit Trap: 10
+    Paper Trap: 80
+    Person Trap: 80
+    Satiated Trap: 30
+    Shake Trap: 70
+    Shrink Trap: 30
+    Skeleton Trap: 70
+    Slime Player Trap: 80
+    Slip Trap: 50
+    Slow Trap: 20
+    Spotlight Trap: 40
+    Sticky Hands Trap: 40
+    Stone Trap: 50
+    Swap Trap: 40
+    Tar Trap: 50
+    Teleport Trap: 40
+    Tempo Trap: 70
+    Timer Trap: 30
+    Transmute Trap: 40
+    Tutorial Trap: 0
+    Undo Trap: 40
+    W I D E Trap: 90
+    Zoom In Trap: 60
+    Zoom Out Trap: 60
+
+  trap_link:
+    # When you receive a trap, everyone who enabled trap link also receives a trap. Of course, the reverse is true too.
+    # You will not receive traps that you have set to 0 in the trap_weights option. Default is false.
+    'false': 50
+    'true': 0
 
   price_randomization:
     # How to randomize diamond prices in the Archipelago lobby.

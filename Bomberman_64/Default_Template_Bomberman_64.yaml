@@ -1,4 +1,4 @@
-﻿# Q. What is this file?
+# Q. What is this file?
 # A. This file contains options which allow you to configure your multiworld experience while allowing
 #    others to play how they want as well.
 #
@@ -32,9 +32,9 @@ description: Default Bomberman 64 Template
 
 game: Bomberman 64
 requires:
-  version: 0.6.6 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Bomberman 64: 0.1.3 # Version of the world required for this yaml to work as expected.
+    Bomberman 64: 0.1.4 # Version of the world required for this yaml to work as expected.
 
 Bomberman 64:
   ################
@@ -127,6 +127,16 @@ Bomberman 64:
     'false': 50
     'true': 0
 
+  boss_card_five:
+    # Determines what item should be placed on the fifth gold card for bosses
+    # Anything - this location will be treated like any other location
+    # Kill_count_reduction - this location will always contain a kill count reduction item, 
+    # when this option is not selected they will be moved into the item pool instead
+    # Filler - will place an unimportant filler item on these locations effectively excluding them
+    anything: 0
+    kill_count_reduction: 50
+    filler: 0
+
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
     'false': 50
@@ -208,6 +218,7 @@ Bomberman 64:
     samurai: 0
     clown: 0
     gold: 0
+    match_left: 0
 
   leg_left_part:
     # Changes Bomberman's left leg model when collecting the bomb kick item
@@ -236,6 +247,7 @@ Bomberman 64:
     samurai: 0
     clown: 0
     gold: 0
+    match_left: 0
 
   ###########################
   # Lua Script Only Options #

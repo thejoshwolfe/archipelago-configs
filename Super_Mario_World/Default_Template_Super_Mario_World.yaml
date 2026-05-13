@@ -34,7 +34,7 @@ game: 'SMW: Spicy Mycena Waffles'
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    'SMW: Spicy Mycena Waffles': 1.2.8 # Version of the world required for this yaml to work as expected.
+    'SMW: Spicy Mycena Waffles': 1.3.6 # Version of the world required for this yaml to work as expected.
 
 'SMW: Spicy Mycena Waffles':
   ################
@@ -70,10 +70,13 @@ requires:
     'false': 50
     'true': 0
 
-  ring_link:
-    # Whether your in-level coin gain/loss is linked to other players
-    # 
-    # DISABLED FOR NOW. Please wait for future updates that reenables this feature.
+  death_link_heart:
+    # Whenever DeathLinks are received they will be nullified at the cost of a heart
+    'false': 50
+    'true': 0
+
+  damage_link:
+    # Damage is shared across slots
     'false': 50
     'true': 0
 
@@ -132,7 +135,7 @@ requires:
     # 
     # The amount of eggs rolled by this option will be added to the amount of eggs created by the yoshi_egg_count option
     # and both of them will not exceed the 255 egg limit.
-    ['Switch Palaces', 'Ghost Houses', 'Special Zone', 'Castles']
+    ['Castles', 'Switch Palaces', 'Ghost Houses', 'Special Zone']
 
   percentage_of_yoshi_eggs:
     # What Percentage of Yoshi Eggs are required to finish.
@@ -154,7 +157,7 @@ requires:
   ability_shuffle:
     # Which abilities and items will be added as items in the item pool
     # If an ability is not present in the list they will be treated as unlocked from the start
-    ['P-Balloon', 'Climb', 'Item Box', 'Yoshi', 'Midway Points', 'Super Star', 'Blue Switch Palace', 'Powerups', 'Green Switch Palace', 'Red Switch Palace', 'Run', 'Spin Jump', 'Special World', 'Swim', 'Carry', 'P-Switch', 'Yellow Switch Palace']
+    ['Run', 'Carry', 'Swim', 'Spin Jump', 'Climb', 'P-Balloon', 'Yoshi', 'Powerups', 'Super Star', 'P-Switch', 'Item Box', 'Yellow Switch Palace', 'Green Switch Palace', 'Red Switch Palace', 'Blue Switch Palace', 'Special World']
 
   game_logic_difficulty:
     # Makes difficult levels expect the player to have certain amount of powerups in order to beat them
@@ -164,9 +167,13 @@ requires:
     # Medium: Hard levels require Mushroom;
     #         Harder levels require Mushroom + (Item box or Midway Points)
     # Hard: No powerups or other items are required in any level to be beaten
-    easy: 50
-    medium: 0
+    easy: 0
+    medium: 50
     hard: 0
+
+  alternate_logic:
+    # Alternate logic for certain locations.
+    []
 
   inventory_yoshi_logic:
     # Whether being able to use Yoshi inventory items is considered in logic or not for Yoshi related logic
@@ -236,7 +243,7 @@ requires:
     # Exclusion list:
     #   * Blocks in Top Secret Area & Front Door/Bowser Castle
     #   * Blocks that are unreachable unless you glitch your way in
-    ['Invisible Blocks', 'Flying Blocks', 'Item Blocks', 'Green Switch Palace Blocks', 'P-Switch Blocks', 'Yellow Switch Palace Blocks', 'Coin Blocks']
+    ['Coin Blocks', 'Item Blocks', 'Yellow Switch Palace Blocks', 'Green Switch Palace Blocks', 'Invisible Blocks', 'P-Switch Blocks', 'Flying Blocks']
 
   ###################
   # Level Shuffling #
@@ -285,15 +292,10 @@ requires:
     random-high: 0 # random value weighted towards higher values
     random-range-0-18: 0 # random value between 0 and 18
 
-  swap_level_exits:
-    # Swaps the destination of level exits in the map
+  swap_exit_count:
+    # How many levels will have their exits swapped
     # 
     # Star World 5 and Donut Secret House are excluded from this feature
-    'false': 50
-    'true': 0
-
-  swap_exit_count:
-    # How many swapped exits will exist in the game
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
@@ -563,11 +565,6 @@ requires:
     princess: 0
     dark: 0
     sponge: 0
-
-  ungolden_eggs:
-    # Does exactly what you're thinking of.
-    'false': 0
-    'true': 50
 
   ###########################
   # Item & Location Options #

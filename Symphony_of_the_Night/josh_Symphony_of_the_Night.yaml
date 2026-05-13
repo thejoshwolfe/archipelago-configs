@@ -13,6 +13,7 @@ Symphony of the Night:
   boss_locations: 'true'
   drop_mod: abundant
   randomize_drop: 'off'
+  randomize_candles: 'off'
   random_shop: 'on_lib'
   # Start with (and keep) random gear.
   rng_start_gear: 'true'
