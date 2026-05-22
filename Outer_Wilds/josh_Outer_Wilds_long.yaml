@@ -94,7 +94,7 @@ Outer Wilds:
   ##################################
   # (Non-Progression) Item Options #
   ##################################
-  trap_chance: '15'
+  trap_chance: '10'
   trap_type_weights:
     Audio Trap: 1
     HUD Corruption Trap: 1

@@ -95,30 +95,11 @@ Celeste (Open World):
   ###########################
   # Item & Location Options #
   ###########################
-  local_items: []
-    # There's like 130 of these.
-    #- Raspberry
-    # Raspberries too powerful. Can't remove them without causing unplaceable item errors.
-  non_local_items: []
   start_inventory:
     # It's fun that torches can be missing, but not fun for me.
     Torches: 1
-  start_hints:
-    - Traffic Blocks
-    - Springs
-    - Coins
-    - Dash Refills
-    - Dash Switches
-    - Dream Blocks
-    - Swap Blocks
-    - Red Boosters
-    - Blue Boosters
-    - Blue Clouds
-    - Pink Clouds
-    - Move Blocks
-    - Feathers
-    - Badeline Boosters
-  start_location_hints: []
+  local_items:
+    - Torches
   exclude_locations:
     - Prologue - Level Clear
     # Let's make the run shorter by cutting out Reflection entirely.
@@ -129,6 +110,3 @@ Celeste (Open World):
     - Forsaken City A - Crystal Heart
     # This takes too long:
     - The Summit A - Crystal Heart
-  priority_locations: []
-  item_links: []
-  plando_items: []
