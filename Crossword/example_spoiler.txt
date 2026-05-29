@@ -1,0 +1,139 @@
+﻿Archipelago Version 0.6.7  -  Seed: 75703382283252091720
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Crossword
+Location Count:                  74
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+puz_file_path:                   some/path/to/a.puz
+puz_file_contents:               
+cross_letter_alloc_percent:      100
+starting_percent:                10
+clue_alloc_percent:              120
+clue_item_fraction:              20
+
+
+Locations:
+
+Solved Clue 5 Down: Cross Letter
+Solved Clue 13 Across: Cross Letter
+Solved Clue 39 Across: Cross Letter
+Solved Clue 49 Down: Clue Unlock
+Solved Clue 14 Down: Cross Letter
+Solved Clue 54 Down: Cross Letter
+Solved Clue 21 Down: Clue Unlock
+Solved Clue 11 Down: Cross Letter
+Solved Clue 7 Down: Cross Letter
+Solved Clue 24 Down: Clue Unlock
+Solved Clue 34 Across: Cross Letter
+Solved Clue 6 Down: Clue Unlock
+Solved Clue 40 Across: Cross Letter
+Solved Clue 50 Across: Cross Letter
+Solved Clue 32 Down: Clue Unlock
+Solved Clue 63 Across: Cross Letter
+Solved Clue 54 Across: Cross Letter
+Solved Clue 16 Across: Cross Letter
+Solved Clue 1 Across: Cross Letter
+Solved Clue 56 Down: Cross Letter
+Solved Clue 4 Down: Clue Unlock
+Solved Clue 58 Across: Cross Letter
+Solved Clue 38 Down: Clue Unlock
+Solved Clue 20 Down: Cross Letter
+Solved Clue 28 Down: Clue Unlock
+Solved Clue 47 Down: Cross Letter
+Solved Clue 53 Down: Clue Unlock
+Solved Clue 25 Down: Cross Letter
+Solved Clue 51 Down: Cross Letter
+Solved Clue 22 Across: Cross Letter
+Solved Clue 35 Across: Clue Unlock
+Solved Clue 45 Across: Cross Letter
+Solved Clue 33 Down: Clue Unlock
+Solved Clue 30 Down: Cross Letter
+Solved Clue 41 Across: Cross Letter
+Solved Clue 52 Down: Cross Letter
+Solved Clue 64 Across: Cross Letter
+Solved Clue 40 Down: Cross Letter
+Solved Clue 10 Down: Cross Letter
+Solved Clue 1 Down: Clue Unlock
+Solved Clue 19 Across: Cross Letter
+Solved Clue 62 Across: Cross Letter
+Solved Clue 26 Down: Cross Letter
+Solved Clue 9 Down: Cross Letter
+Solved Clue 23 Across: Cross Letter
+Solved Clue 37 Down: Cross Letter
+Solved Clue 12 Down: Cross Letter
+Solved Clue 60 Across: Clue Unlock
+Solved Clue 3 Down: Cross Letter
+Solved Clue 43 Down: Cross Letter
+Solved Clue 46 Across: Cross Letter
+Solved Clue 29 Down: Cross Letter
+Solved Clue 59 Across: Cross Letter
+Solved Clue 42 Across: Cross Letter
+Solved Clue 27 Across: Cross Letter
+Solved Clue 38 Across: Cross Letter
+Solved Clue 41 Down: Cross Letter
+Solved Clue 44 Down: Clue Unlock
+Solved Clue 17 Across: Cross Letter
+Solved Clue 36 Across: Cross Letter
+Solved Clue 4 Across: Cross Letter
+Solved Clue 18 Across: Cross Letter
+Solved Clue 57 Across: Cross Letter
+Solved Clue 2 Down: Clue Unlock
+Solved Clue 31 Down: Cross Letter
+Solved Clue 15 Across: Cross Letter
+Solved Clue 8 Down: Cross Letter
+Solved Clue 48 Down: Cross Letter
+Solved Clue 37 Across: Cross Letter
+Solved Clue 14 Across: Cross Letter
+Solved Clue 31 Across: Cross Letter
+Solved Clue 55 Down: Cross Letter
+Solved Clue 8 Across: Cross Letter
+Solved Clue 61 Across: Cross Letter
+VictoryLocation: Victory
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Solved Clue 21 Down: Clue Unlock
+  Solved Clue 49 Down: Clue Unlock
+}
+2: {
+  Solved Clue 24 Down: Clue Unlock
+  Solved Clue 32 Down: Clue Unlock
+  Solved Clue 6 Down: Clue Unlock
+}
+3: {
+  Solved Clue 28 Down: Clue Unlock
+  Solved Clue 38 Down: Clue Unlock
+  Solved Clue 4 Down: Clue Unlock
+  Solved Clue 53 Down: Clue Unlock
+}
+4: {
+  Solved Clue 1 Down: Clue Unlock
+  Solved Clue 33 Down: Clue Unlock
+  Solved Clue 35 Across: Clue Unlock
+}
+5: {
+  Solved Clue 44 Down: Clue Unlock
+  Solved Clue 60 Across: Clue Unlock
+}
+6: {
+  Solved Clue 2 Down: Clue Unlock
+}
+7: {
+  VictoryLocation: Victory
+}

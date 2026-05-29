@@ -66,6 +66,8 @@ Outer Wilds:
     - "ET Ship Log: Chert's Camp 3 - All The Stars"
     - "ET Ship Log: Chert's Camp 4 - Old Age"
     - "ET Ship Log: Chert's Camp 5 - Resignation"
+    # Going into HEL kinda sucks. Let's just do it once, after we have the translator.
+    - "ET Ship Log: AT Tower Designs 1 - Identify."
 
   randomize_warp_platforms: 'false'
   split_translator: 'true'

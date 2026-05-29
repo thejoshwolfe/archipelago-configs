@@ -1,0 +1,12 @@
+name: crossword
+description: Default Crossword Template
+game: Crossword
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+
+Crossword:
+  puz_file_path: 'some/path/to/a.puz'
+  cross_letter_alloc_percent: 100
+  starting_percent: 10
+  clue_alloc_percent: 120
+  clue_item_fraction: 20
