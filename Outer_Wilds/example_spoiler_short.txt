@@ -1,0 +1,187 @@
+﻿Archipelago Version 0.6.7  -  Seed: 19304640553671692441
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Outer Wilds
+Location Count:                  87
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              ET Ship Log: AT Tower Designs 1 - Identify, ET Ship Log: Chert's Camp 3 - All The Stars, ET Ship Log: Chert's Camp 4 - Old Age, ET Ship Log: Chert's Camp 5 - Resignation
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Start Inventory from Pool:       Autopilot: 1, Boost Duration Upgrade: 1, Fuel Capacity Upgrade: 1, Hide & Seek Frequency: 1, Deep Space Radio Frequency: 1, Quantum Fluctuations Frequency: 1, Distress Beacon Frequency: 1, Entanglement Rule: 1, Escape Pod 1 Signal: 1
+Goal:                            Song Of Five
+Required Friends:                1
+Spawn:                           Hourglass Twins
+Early Key Item:                  Launch Codes
+Enable Echoes of the Eye DLC:    No
+DLC Only:                        No
+Randomize Coordinates:           Yes
+Randomize Orbits:                No
+Randomize Rotations:             No
+Randomize Warp Platforms:        No
+Randomize Dark Bramble Layout:   False
+Trap Chance:                     10
+Trap Type Weights:               Audio Trap: 10, HUD Corruption Trap: 10, Ice Physics Trap: 10, Map Disable Trap: 0, Nap Trap: 20, Ship Damage Trap: 20, Suit Puncture Trap: 20, Supernova Trap: 1
+Upgrade Counts:                  Boost Duration Upgrade: 3, Fuel Capacity Upgrade: 3, Oxygen Capacity Upgrade: 3
+Death Link:                      Default
+Logsanity:                       No
+Shuffle Spacesuit:               No
+Split Translator:                No
+Enable Hearth's Neighbor Story Mod:No
+Enable The Outsider Story Mod:   No
+Enable Astral Codec Story Mod:   No
+Enable Hearth's Neighbor 2: Magistarium Story Mod:No
+Enable Fret's Quest Story Mod:   No
+Enable Forgotten Castaways Story Mod:No
+Enable Echo Hike Story Mod:      No
+
+Randomized Coordinates for josh_ow:
+
+Upper Right, Lower Left, Right, Lower Right, Left
+Upper Right, Lower Right, Upper Left, Lower Left, Left
+Upper Right, Upper Left, Lower Right
+
+
+Starting Items:
+
+Autopilot
+Boost Duration Upgrade
+Fuel Capacity Upgrade
+Escape Pod 1 Signal
+Quantum Fluctuations Frequency
+Distress Beacon Frequency
+Spacesuit
+Hide & Seek Frequency
+Deep Space Radio Frequency
+Entanglement Rule
+
+Locations:
+
+Sun Station (Projection Stone Text): Marshmallow
+ET: High Energy Lab (Upper Text Wall): Perfect Marshmallow
+ET: Sunless City Shrine (Entrance Text Wall): Oxygen Refill
+ET: QM Locator (2nd Scroll): Jetpack Fuel Refill
+ET: Fossil (Children's Text): Surface Integrity Scanner
+ET: Lakebed Cave (Floor Text): Museum Shard Signal
+ET: Coleus' Cave (Text Wall): Oxygen Capacity Upgrade
+ET: Enter Sunless City: Scout
+ET: Chert's QM Locator Recorder: Marshmallow
+ET: QM Locator Fuel Tank: Launch Codes
+ET: Chert's Camp Fuel Tank: Marshmallow
+AT: HGT Towers (Text Wall): Fuel Capacity Upgrade
+AT: BH Tower (Text Wall): Eject Button
+ET: Scan Drum Signal: Tower Shard Signal
+ET: Scan Cave Shard Signal: Translator
+ET: Scan Escape Pod 2 Signal: Oxygen Refill
+AT: Enter the ATP: Jetpack Fuel Refill
+TH: Ghost Matter Plaque: Marshmallow
+TH: Zero-G Repairs: Marshmallow
+TH: Get the Translator from Hal: Oxygen Refill
+TH: Talk to Hornfels: Island Shard Signal
+TH: Receive Hide & Seek Frequency: Marshmallow
+TH: Scan Museum Shard Signal: Feldspar's Signal
+TH: Scan Galena's Radio Signal: Jetpack Fuel Refill
+TH: Scan Tephra's Radio Signal: Marshmallow
+TH: Talk to Tektite about Bramble Seed: Coordinates
+TH: Mines (Text Wall): Jetpack Fuel Refill
+TH: Hornfels' Radio Tower Campfire Note: Marshmallow
+TH: Chert's Grove Shard Plaque: Jetpack Fuel Refill
+TH: Scan Grove Shard Signal: Marshmallow
+TH: Scan Radio Tower Signal: Tornado Aerodynamic Adjustments
+AR: Signal Locator (Text Wall): Perfect Marshmallow
+AR: Riebeck's Signal Locator Recorder: Ghost Matter Wavelength
+AR: Chert's Ice Crater Recorder: Ship Damage Trap
+AR: Esker's Lunar Lookout Plaque: Silent Running Mode
+AR: Ice Crater Fuel Tank: Deep Space Satellite Signal
+AR: Esker's House Fuel Tank: Marshmallow
+HL: Volcanic Testing Site (Text Wall): Jetpack Fuel Refill
+GD: Enter the Orbital Probe Cannon: Jetpack Fuel Refill
+GD: Control Module Logs (Text Wheels): Warp Core Installation Manual
+GD: Tower Rule (Pedestal Text): Quantum Moon Signal
+AR: Scan Whistling Signal: Nomai Warp Codes
+GD: Scan Island Shard Signal: Escape Pod 3 Signal
+Scan Deep Space Satellite Signal: Marshmallow
+BH: Southern Observatory (Tornado Text Wall): Boost Duration Upgrade
+BH: Old Settlement Murals: Jetpack Fuel Refill
+BH: Tower (Top Floor Text Wall): Oxygen Refill
+BH: Feldspar's Spare Fuel Note: Oxygen Refill
+BH: Riebeck's Southern Observatory Recorder: Oxygen Refill
+BH: Riebeck's Surface Campsite Note: Escape Pod 2 Signal
+BH: Solanum's Class Report (2nd Scroll): Marshmallow
+BH: Hanging City Shrine (Text Wall): Jetpack Fuel Refill
+BH: Visit Hanging City: Marshmallow
+BH: Northern Glacier Fuel Tank: Marshmallow
+BH: Riebeck's Camp Fuel Tank: Suit Puncture Trap
+BH: Scan Banjo Signal: Fuel Capacity Upgrade
+BH: Scan Tower Shard Signal: Chert's Signal
+BH: Scan Escape Pod 1 Signal: Esker's Signal
+BH: Forge (2nd Scroll): Cave Shard Signal
+WHS (Text Wall): Marshmallow
+GD: Bramble Island Recorder: Jetpack Fuel Refill
+GD: Construction Yard (Text Wall): Marshmallow
+GD: Statue Island Workshop (Text Wheel): Boost Duration Upgrade
+GD: Find Gabbro's Ship: Oxygen Capacity Upgrade
+GD: Find Gabbro's Statue: Marshmallow
+GD: Bramble Island Fuel Tank: Galena's Radio Signal
+GD: Gabbro's Camp Fuel Tank: Marshmallow
+GD: Scan Flute Signal: Imaging Rule
+GD: Complete the Tower (Text Wall): Oxygen Capacity Upgrade
+GD: Enter the Ocean Depths: Electrical Insulation
+GD: Enter the Core: Riebeck's Signal
+GD: See the Coordinates: Grove Shard Signal
+Frozen Shuttle Log (Text Wheel): Oxygen Refill
+Ruptured Core (Text Wheel): Tephra's Radio Signal
+QM: Land: Velocity Matcher
+Solanum's Shuttle Log (Text Wheel): Oxygen Refill
+QM: Explore the Sixth Location: Landing Camera
+DB: Feldspar's Note: Shrine Door Codes
+DB: Feldspar's Recorder: Oxygen Refill
+DB: Feldspar's Camp Fuel Tank: Signalscope
+DB: Scan Harmonica Signal: Jetpack Fuel Refill
+DB: Nomai Grave (Text Wheel): Gabbro's Signal
+DB: Scan Escape Pod 3 Signal: Oxygen Refill
+DB: Find The Vessel: Marshmallow
+Victory - Song of Five: Victory - Song of Five
+Victory - Song of the Nomai: Victory - Song of the Nomai
+Victory - Song of the Universe: Victory - Song of the Universe
+Scan Any Distress Beacon: Jetpack Fuel Refill
+Scan Any Quantum Fluctuation: Oxygen Refill
+Scan QM Signal: Oxygen Refill
+
+Playthrough:
+
+0: {
+  Distress Beacon Frequency
+  Quantum Fluctuations Frequency
+  Spacesuit
+}
+1: {
+  ET: Enter Sunless City: Scout
+  ET: QM Locator Fuel Tank: Launch Codes
+}
+2: {
+  AR: Esker's Lunar Lookout Plaque: Silent Running Mode
+  TH: Talk to Tektite about Bramble Seed: Coordinates
+}
+3: {
+  DB: Feldspar's Camp Fuel Tank: Signalscope
+}
+4: {
+  AR: Scan Whistling Signal: Nomai Warp Codes
+  ET: Scan Cave Shard Signal: Translator
+  GD: Scan Island Shard Signal: Escape Pod 3 Signal
+}
+5: {
+  GD: Control Module Logs (Text Wheels): Warp Core Installation Manual
+}
+6: {
+  Victory - Song of Five: Victory - Song of Five
+}

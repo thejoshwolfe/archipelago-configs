@@ -14,8 +14,8 @@ Outer Wilds:
   ###############################
   spawn:
     vanilla: 0
-    hourglass_twins: 0
-    timber_hearth: 0
+    hourglass_twins: 1
+    timber_hearth: 1
     brittle_hollow: 1
     giants_deep: 0
     deep_bramble: 0
@@ -70,8 +70,8 @@ Outer Wilds:
     - "ET Ship Log: AT Tower Designs 1 - Identify"
 
   randomize_warp_platforms: 'false'
-  split_translator: 'true'
-  logsanity: 'true'
+  split_translator: 'false'
+  logsanity: 'false'
   shuffle_spacesuit: 'false'
 
   #########################################
@@ -87,14 +87,14 @@ Outer Wilds:
   ##################################
   trap_chance: '10'
   trap_type_weights:
-    Audio Trap: 1
-    HUD Corruption Trap: 1
-    Ice Physics Trap: 1
+    Audio Trap: 10
+    HUD Corruption Trap: 10
+    Ice Physics Trap: 10
     Map Disable Trap: 0
-    Nap Trap: 2
-    Ship Damage Trap: 2
-    Suit Puncture Trap: 2
-    Supernova Trap: 0
+    Nap Trap: 20
+    Ship Damage Trap: 20
+    Suit Puncture Trap: 20
+    Supernova Trap: 1
   upgrade_counts:
     # 50%, 100%, 150%, 200%
     Boost Duration Upgrade: 3
