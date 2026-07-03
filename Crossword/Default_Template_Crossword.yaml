@@ -63,13 +63,9 @@ Crossword:
     full: 50
     minimal: 0
 
-  puz_file_path:
-    '': 50
-
-  puz_file_contents:
-    # Text option that allows users to enter strings.
-    # Needs to be validated by the world or option definition.
-    '': 50
+  cross_letter_generation:
+    in_puzzle: 50
+    all: 0
 
   cross_letter_alloc_percent:
     # You can define additional values between the minimum and maximum values.
@@ -83,13 +79,13 @@ Crossword:
 
   starting_percent:
     # You can define additional values between the minimum and maximum values.
-    # Minimum value is 0
-    # Maximum value is 9999999
+    # Minimum value is 1
+    # Maximum value is 100
     10: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-9999999: 0 # random value between 0 and 9999999
+    random-range-1-100: 0 # random value between 1 and 100
 
   clue_alloc_percent:
     # You can define additional values between the minimum and maximum values.
@@ -103,13 +99,19 @@ Crossword:
 
   clue_item_fraction:
     # You can define additional values between the minimum and maximum values.
-    # Minimum value is 0
+    # Minimum value is 1
     # Maximum value is 100
     20: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
-    random-range-0-100: 0 # random value between 0 and 100
+    random-range-1-100: 0 # random value between 1 and 100
+
+  puz_file_path:
+    '': 50
+
+  puz_file_contents:
+    '': 50
 
   ###########################
   # Item & Location Options #

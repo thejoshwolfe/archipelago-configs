@@ -10,3 +10,4 @@ Crossword:
   starting_percent: 10
   clue_alloc_percent: 120
   clue_item_fraction: 20
+  cross_letter_generation: in_puzzle
