@@ -1,0 +1,211 @@
+﻿Archipelago Version 0.6.7  -  Seed: 85776132388613155620
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            ANIMAL WELL
+Location Count:                  100
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Goal:                            Fireworks
+Eggs Required:                   64
+Key Ring:                        Yes
+Matchbox:                        Yes
+Candle Checks:                   No
+Bunnies as Checks:               Off
+Bunny Warps in Logic:            No
+Fruitsanity:                     No
+Exclude Song Chests:             Yes
+Randomize Final Egg:             No
+Tanking Damage:                  No
+Bubble Jumping:                  Short Chains
+Midair Disc Jumping:             Off
+Wheel Tricks:                    Off
+Ball Throwing:                   Off
+Flute Jumps:                     No
+Obscure Tricks:                  No
+Precise Tricks:                  No
+Death Link:                      No
+Start Inventory from Pool:       
+
+
+Starting Items:
+
+Firecrackers
+
+Locations:
+
+Stamp Chest - R7C8: Orange Egg
+Pencil Chest - R7C7: Chocolate Egg
+Top Chest - R7C7: Crystal Egg
+65th Egg Chest - R7C7: 65th Egg
+Office Key Chest - R6C9: Big Blue Fruit
+Virtual Egg Chest - R8C8: Forbidden Egg
+Holiday Egg Chest - R7C9a: Obsidian Egg
+Rain Egg Chest - R7C9b: Universal Basic Egg
+Activate Bird Fast Travel: Activated Bird Fast Travel
+Animal Flute Chest - R7C6: Lantern
+Sweet Egg Chest - R4C9: Moon Egg
+Match under Mouse Statue - R9C13: Big Blue Fruit
+Planet Egg Chest - R9C13: Evil Egg
+Match Above Egg Room - R6C9: Mock Disc
+Clover Egg Chest - R12C5: Friendship Egg
+Match in Tutorial Chest - R10C6: Wheel
+Squirrel First Candle - R10C9 Event: Lit the First Candle
+Gorgeous Egg Chest - R9C9: Top
+Map Chest - R9C10: Jade Egg
+Remote Chest - R13C7: Swan Egg
+Iridescent Egg Chest - R13C8: Golden Egg
+Ice Egg Chest - R11C8: B. Wand
+Neon Egg Chest - R13C6: Magic Egg
+E. Medal Chest - R14C5: Gorgeous Egg
+Match in Fish Mural Room Chest - R8C7: Raw Egg
+Mystic Egg Chest - R7C5: K. Shard
+Great Egg Chest - R9C7: Great Egg
+Normal Egg Chest - R9C4: Ruby Egg
+Dazzle Egg Chest - R8C3: Virtual Egg
+Sunset Egg Chest - R10C2: Firecracker Refill
+B. Wand Chest - R10C2: Holiday Egg
+Ancient Egg Chest - R7C1: Sapphire Egg
+Activate Fish Fast Travel: Activated Fish Fast Travel
+Galaxy Egg Chest - R10C1: Dazzle Egg
+Friendship Egg Chest - R6C2: E. Medal
+Magic Egg Chest - R7C2: Bubble Egg
+Fish Candle in Penguin Room - R10C4 Event: Lit the Candle by the Penguins
+Goodnight Egg Chest - R10C4: Sour Egg
+Brick Egg Chest - R13C5: Clover Egg
+Scarlet Egg Chest - R13C16: Laissez-faire Egg
+B. Flame - R14C2: B. Flame
+Activate Bone Fish Fast Travel: Activated Bone Fish Fast Travel
+Key Chest in Lower Bear - R7C16: Goodnight Egg
+Key Chest in Upper Bear - R5C14: Vanity Egg
+Zen Egg Chest - R5C14: Razzle Egg
+Universal Basic Egg Chest - R5C13a: Zen Egg
+Value Egg Chest - R4C16: Brick Egg
+Future Egg Chest - R6C1: Sunset Egg
+Bear Candle in Dark Maze - R6C14 Event: Lit the Bear Area Candle
+Laissez-faire Egg Chest - R5C13b: Normal Egg
+S. Medal Chest - R6C12: S. Medal
+Slink Chest - R5C12: K. Shard
+Transcendental Egg Chest - R6C12: Brown Egg
+Post Modern Egg Chest - R5C10: Truth Egg
+Truth Egg Chest - R6C11: Fire Egg
+Activate Bear Fast Travel: Activated Bear Fast Travel
+Chaos Egg Chest - R3C16: Key Ring
+Shadow Egg Chest - R2C16: Future Egg
+Match in Bear Area - R3C12: B. Wand
+Swan Egg Chest - R1C13: Plant Egg
+Defeated Chameleon: Defeated Chameleon
+V. Flame - R2C11: V. Flame
+Razzle Egg Chest - R7C14: Dream Egg
+Wolf Disc Shrine - R6C7: Disc
+Dog Dark Room Candle - R6C5 Event: Lit the Dog Area's Dark Room Candle
+Orange Egg Chest - R5C6: Slink
+Upside Down Egg Chest - R4C3: Promise Egg
+Mock Disc Chest - R5C7: Sweet Egg
+Sour Egg Chest - R5C9: Big Blue Fruit
+Red Egg Chest - R5C2: Ancient Egg
+Evil Egg Chest - R4C6: Big Blue Fruit
+Dog Boxed Candle - R4C5 Event: Lit the Dog Area's Candle in the Switch Box
+Activate Dog Fast Travel: Activated Dog Fast Travel
+Raw Egg Chest - R1C6: F. Pack
+P. Flame - R2C9: P. Flame
+Brown Egg Chest - R1C3: Egg As A Service
+Reference Egg Chest - R1C2: Reference Egg
+Crystal Egg Chest - R16C4: Scarlet Egg
+Forbidden Egg Chest - R2C1: Travel Egg
+Plant Egg Chest - R5C1: Neon Egg
+Dog Candle in Many Switches Room - R4C3 Event: Lit the Dog Area's Candle by Many Switches
+Dog Candle in Bat Room - R3C3 Event: Lit the Dog Area's Candle in the Bat Room
+Key Chest in Dog with Chinchilla Crank - R4C2: Animal Flute
+Switch next to Bat Room: Activated Switch next to Bat Room
+Egg As A Service Chest - R3C2: Chaos Egg
+B. Ball Chest - R4C1: Mystic Egg
+Vanity Egg Chest - R3C1: Desert Egg
+Match in Switch-Bounce Room Chest - R3C7: K. Shard
+Dog Candle in Disc Switch Maze - R3C7 Event: Lit the Dog Area's Candle in Disc Switch Maze
+Depraved Egg Chest - R3C7: Red Egg
+Match by Dog Fish Pipe Chest - R4C9: Firecracker Refill
+Switch for Post Modern Egg: Activated Switch for Post Modern Egg
+Can Flip Dog Wheel: Flipped Dog Wheel
+Big Egg Chest - R1C10b: Pickled Egg
+Frog Candle Switch Carousel - R10C15 Event: Lit the Frog Area Candle
+Moon Egg Chest - R9C16: Firecracker Refill
+Promise Egg Chest - R10C16: Value Egg
+Travel Egg Chest - R10C13: UV Lantern
+Bubble Egg Chest - R11C14: Galaxy Egg
+Key Chest by Mouse Head Hitting Lever - R9C12: Big Blue Fruit
+Dream Egg Chest - R10C12: Depraved Egg
+Fire Egg Chest - R11C11: Firecracker Refill
+Yoyo Chest - R15C13: Shadow Egg
+Sapphire Egg Chest - R14C12: Transcendental Egg
+Activate Frog Fast Travel: Activated Frog Fast Travel
+Key Chest in West Frog Guard Room - R12C12: Firecracker Refill
+Match in Guard Room Chest - R12C11: Iridescent Egg
+Key Chest in East Frog Guard Room - R12C14: Matchbox
+Rust Egg Chest - R13C13: Yoyo
+Jade Egg Chest - R14C14: Planet Egg
+Desert Egg Chest - R11C16: Big Egg
+Ruby Egg Chest - R14C13: Post Modern Egg
+Obsidian Egg Chest - R14C15: Big Blue Fruit
+Golden Egg Chest - R16C11: Remote
+G. Flame - R16C16: G. Flame
+Wheel Chest - R12C1: Firecracker Refill
+Activate Hippo Fast Travel: Activated Hippo Fast Travel
+Lantern Chest - R11C10: B. Ball
+B.B. Wand Chest - R15C5: Rain Egg
+Fireworks Launched: Victory
+House Key Drop - R16C6: House Key
+Fanny Pack Chest - R16C7: Ice Egg
+Pickled Egg Chest - R1C10a: Big Blue Fruit
+Chocolate Egg Chest - R4C10: Upside Down Egg
+Match in Center Well Chest - R4C10: Office Key
+UV Lantern Chest - R16C1: Rust Egg
+Upgraded to B.B. Wand: B.B. Wand
+
+Playthrough:
+
+0: {
+  Firecrackers
+}
+1: {
+  Gorgeous Egg Chest - R9C9: Top
+  Key Chest in Lower Bear - R7C16: Goodnight Egg
+  Map Chest - R9C10: Jade Egg
+  Match in Fish Mural Room Chest - R8C7: Raw Egg
+  Mock Disc Chest - R5C7: Sweet Egg
+  Normal Egg Chest - R9C4: Ruby Egg
+  Stamp Chest - R7C8: Orange Egg
+  Virtual Egg Chest - R8C8: Forbidden Egg
+  Yoyo Chest - R15C13: Shadow Egg
+}
+2: {
+  Animal Flute Chest - R7C6: Lantern
+  Orange Egg Chest - R5C6: Slink
+}
+3: {
+  Match Above Egg Room - R6C9: Mock Disc
+  Match in Bear Area - R3C12: B. Wand
+}
+4: {
+  P. Flame - R2C9: P. Flame
+  Rust Egg Chest - R13C13: Yoyo
+  Wolf Disc Shrine - R6C7: Disc
+}
+5: {
+  B. Flame - R14C2: B. Flame
+  G. Flame - R16C16: G. Flame
+  V. Flame - R2C11: V. Flame
+}
+6: {
+  Fireworks Launched: Victory
+}

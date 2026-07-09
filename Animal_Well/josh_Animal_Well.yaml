@@ -1,0 +1,30 @@
+name: josh_aw
+description: Get fireworks. All logic default (easy).
+game: ANIMAL WELL
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    ANIMAL WELL: 0.5.4 # Version of the world required for this yaml to work as expected.
+ANIMAL WELL:
+  goal: fireworks
+
+  key_ring: 'true'
+  matchbox: 'true'
+  exclude_song_chests: 'true'
+  candle_checks: 'false'
+  bunnies_as_checks: 'off'
+  bunny_warps_in_logic: 'false'
+  fruitsanity: 'false'
+  random_final_egg_location: 'false'
+
+  # Logic
+  tanking_damage: 'false'
+  bubble_jumping: short_chains
+  disc_hopping: 'off'
+  wheel_tricks: 'off'
+  ball_throwing: 'off'
+  flute_jumps: 'false'
+  obscure_tricks: 'false'
+  precise_tricks: 'false'
+
+  death_link: 'false'

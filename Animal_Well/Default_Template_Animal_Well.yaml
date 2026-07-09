@@ -1,0 +1,250 @@
+# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default ANIMAL WELL Template
+
+game: ANIMAL WELL
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    ANIMAL WELL: 0.5.4 # Version of the world required for this yaml to work as expected.
+
+ANIMAL WELL:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  goal:
+    # What you need to do to beat the game.
+    # Fireworks requires you to get the 4 flames and defeat the Manticore. The House Key is placed in its vanilla location.
+    # Egg Hunt requires you to collect the amount of eggs you need to open the 4th Egg Door, then open the chest inside.
+    fireworks: 50
+    egg_hunt: 0
+
+  eggs_needed:
+    # How many Eggs you need to open the 4th Egg Door.
+    # The amount of Eggs you need for the other 3 doors will scale accordingly.
+    # This is intentionally locked at 64 until we can figure it out client-side.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 64
+    # Maximum value is 64
+    64: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-64-64: 0 # random value between 64 and 64
+
+  key_ring:
+    # Have one keyring which unlocks all normal key doors instead of individual key items.
+    # Note: Due to how consumable key logic works, if this option is not enabled, you logically require all 6 keys to open any of the key doors.
+    'false': 0
+    'true': 50
+
+  matchbox:
+    # Have one matchbox which can light all candles instead of individual match items.
+    # Note: Due to how consumable item logic works, if this option is not enabled, you logically require all 9 matches to light any of the candles.
+    'false': 0
+    'true': 50
+
+  candle_checks:
+    # Lighting each of the candles sends a check.
+    'false': 50
+    'true': 0
+
+  bunnies_as_checks:
+    # Include the secret bunnies as checks.
+    # Exclude Tedious removes the Mural, Dream, UV, and Floor is Lava bunnies.
+    # The Disc Spike bunny will not be a check unless you have multiple disc hops or you have both precise tricks and wheel tricks enabled.
+    'off': 50
+    exclude_tedious: 0
+    all_bunnies: 0
+
+  bunny_warps_in_logic:
+    # Include the songs that warp you to Bunny spots in logic.
+    # If you have Bunnies as Checks enabled, this option is automatically enabled.
+    'false': 50
+    'true': 0
+
+  fruitsanity:
+    # All 115 fruits send a check after being eaten.
+    # Tip: Attempting to eat a fruit 3 times will eat it even if you have full health.
+    'false': 50
+    'true': 0
+
+  exclude_song_chests:
+    # Exclude the Wheel chest and Office Key chests, so that you don't have to play their songs.
+    # They will contain either filler or traps.
+    'false': 0
+    'true': 50
+
+  random_final_egg_location:
+    # Choose whether the 65th Egg is shuffled into the multiworld item pool or placed in its vanilla location, requiring opening the 4th Egg Door to access it.
+    # This option is forced on if you have the egg hunt goal selected.
+    'false': 50
+    'true': 0
+
+  death_link:
+    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+    # 
+    # You can toggle this in the Client by using /deathlink, or in your host.yaml.
+    'false': 50
+    'true': 0
+
+  #################
+  # Logic Options #
+  #################
+  tanking_damage:
+    # Include tricks which require you to voluntarily take damage in order to perform them in logic.
+    # You may be expected to take up to three points of damage to perform tricks enabled by this option.
+    'false': 50
+    'true': 0
+
+  bubble_jumping:
+    # Include using the standard Bubble Wand and chaining bubble jumps together in logic.
+    # Short Chains means you may be expected to chain a few bubble jumps in a row.
+    # Long Chains means you may be expected to chain an unlimited number of bubble jumps in a row.
+    'off': 0
+    short_chains: 50
+    long_chains: 0
+
+  disc_hopping:
+    # Include jumping onto the disc without letting it bounce off of a wall first in logic.
+    # Single means doing it once from the ground.
+    # Multiple means having to chain them in midair.
+    'off': 50
+    single: 0
+    multiple: 0
+
+  wheel_tricks:
+    # Include some tricks that involve using the wheel in unconventional ways.
+    # Simple means toggling wheel midair to "double jump", or mashing against walls to climb them.
+    # Advanced also adds more complicated tech, such as braking on walls or climbing walls out of jumps.
+    # Note: Tricks using wheel desyncs or wrong warps are not ever considered logical.
+    'off': 50
+    simple: 0
+    advanced: 0
+
+  ball_throwing:
+    # Include using the ball to hit switches or buttons not "designed" for it in logic.
+    # Off means the ball will rarely be used for anything other than breaking blocks, spikes, or guard shields.
+    # Simple means the ball can be used to hit easy targets without any real rebound, setup, or movement. Most "yoyo chute" buttons are included here.
+    # Advanced means hitting your target may require bouncing off a wall or moving while throwing to adjust momentum/angle.
+    # Expert includes more complicated tricks including those that require specific setups or getting lucky.
+    'off': 0
+    simple: 50
+    advanced: 0
+    expert: 0
+
+  flute_jumps:
+    # Include sliding off of the edge of a platform while pulling out the flute so that you can jump mid-air while playing the flute.
+    'false': 50
+    'true': 0
+
+  obscure_tricks:
+    # Include solutions to puzzles that are obscure or hard to understand in logic.
+    # These tricks won't be harder to perform than other tricks in logic once you know them.
+    'false': 50
+    'true': 0
+
+  precise_tricks:
+    # Include solutions to puzzles that are mechanically difficult to execute in logic.
+    # These tricks may require large amounts of attempts to get right, and there may be a higher than usual cost for failure.
+    'false': 50
+    'true': 0
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_inventory_from_pool:
+    # Start with the specified amount of these items and don't place them in the world. Example: "Bomb: 1"
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
