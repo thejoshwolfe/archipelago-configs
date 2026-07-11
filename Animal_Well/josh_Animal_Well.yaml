@@ -1,5 +1,5 @@
-name: josh_aw
-description: Get fireworks. All logic default (easy).
+name: aw
+description: Get fireworks. Easiest logic. Start with keys, matches, and F. Pack.
 game: ANIMAL WELL
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
@@ -8,18 +8,26 @@ requires:
 ANIMAL WELL:
   goal: fireworks
 
-  key_ring: 'true'
-  matchbox: 'true'
-  exclude_song_chests: 'true'
-  candle_checks: 'false'
+  candle_checks: 'true'
   bunnies_as_checks: 'off'
   bunny_warps_in_logic: 'false'
   fruitsanity: 'false'
   random_final_egg_location: 'false'
 
+  key_ring: 'true'
+  matchbox: 'true'
+  start_inventory_from_pool:
+    Matchbox: 1
+    Key Ring: 1
+    F. Pack: 1
+
+  exclude_song_chests: 'true'
+  exclude_locations:
+    Future Egg Chest - R6C1 # Boring
+
   # Logic
   tanking_damage: 'false'
-  bubble_jumping: short_chains
+  bubble_jumping: 'off'
   disc_hopping: 'off'
   wheel_tricks: 'off'
   ball_throwing: 'off'
