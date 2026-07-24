@@ -11,9 +11,9 @@ requires:
   world_gen_enemies: 'false'
   starting_planet:
     nauvis: 1
-    vulcanus: 1
-    gleba: 1
-    fulgora: 1
+    vulcanus: 0
+    gleba: 0
+    fulgora: 0
   death_link: 'true'
 
   ####################
@@ -21,7 +21,7 @@ requires:
   ####################
   tech_cost_divisor: 10
   tech_cost_max_count: 50
-  space_technology_level: early_game
+  space_technology_level: vanilla
   skip_starting_trigger_techs: 'true'
   gleba_coal: alternate_explosives
 
