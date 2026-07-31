@@ -72,6 +72,9 @@ def main():
         "The save file called Archipelago.zip goes there, and this script throws stuff in there as well.")
     sub_parser.add_argument("--space-age", action="store_true", help=
         "Experimental")
+    sub_parser.add_argument("--docker", action="store_true", help=
+        "On NixOS, without nix-ld.enabled = true or similar, wrap the factorio server process in a docker container. "
+        "Requires this user have permission to run docker commands.")
 
     sub_parser = subparsers.add_parser("factorio-client", help=
         "Installs the given mod into your client's mods folder ~/.factorio/mods/ and deletes all other AP-* mods.")
@@ -93,7 +96,7 @@ def main():
     elif args.cmd == "generate-template-options":
         do_generate_template_options(args.repo)
     elif args.cmd == "factorio-server":
-        do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir, args.space_age)
+        do_factorio_server(args.repo, args.mod, args.factorio, args.server_dir, args.space_age, args.docker)
     elif args.cmd == "factorio-client":
         do_factorio_client(args.mod)
     else: assert False
@@ -261,7 +264,7 @@ def do_text_client(repo, connect_to, slot_name):
 def do_generate_template_options(repo):
     ap_cmd("Launcher.py", "Generate Template Options", "--", "--skip_open_folder", repo=repo)
 
-def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_age_enabled):
+def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_age_enabled, use_docker):
     if not os.access(os.path.join(factorio_root, "bin/x64/factorio"), os.X_OK):
         sys.exit("ERROR: does not appear to be a factorio root: " + repr(factorio_root))
     # example name: AP-77091154303292394091-P1-josh_0.6.5.zip
@@ -311,40 +314,54 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
     with open(os.path.join(mods_dir, "mod-list.json"), "w") as f:
         json.dump(mod_list, f, indent=2)
 
-    # Create a "factorio" executable that wraps invoking it through docker.
-    this_repo = os.path.dirname(os.path.abspath(__file__))
-    shutil.copy(os.path.join(this_repo, "deps/util/docker-apt-run"), os.path.join(server_dir, "docker-apt-run"))
-    factorio_in_docker_path = os.path.join(server_dir, "factorio-in-docker.sh")
-    with open(factorio_in_docker_path, "w") as f:
-        f.write("".join(line + "\n" for line in [
-            "#!/usr/bin/env bash",
-            'exec {0}/docker-apt-run -i ca-certificates --mount {1}:{1} -- {1}/bin/x64/factorio --mod-directory {2} "$@"'.format(
-                shlex.quote(os.path.abspath(server_dir)),
-                shlex.quote(os.path.abspath(factorio_root)),
-                shlex.quote(os.path.abspath(mods_dir)),
-            ),
-        ]))
-    chmod_x(factorio_in_docker_path)
+    if use_docker:
+        # Create a "factorio" executable that wraps invoking it through docker.
+        this_repo = os.path.dirname(os.path.abspath(__file__))
+        shutil.copy(os.path.join(this_repo, "deps/util/docker-apt-run"), os.path.join(server_dir, "docker-apt-run"))
+        factorio_in_docker_path = os.path.join(server_dir, "factorio-in-docker.sh")
+        with open(factorio_in_docker_path, "w") as f:
+            f.write("".join(line + "\n" for line in [
+                "#!/usr/bin/env bash",
+                'exec {0}/docker-apt-run -i ca-certificates --mount {1}:{1} -- {1}/bin/x64/factorio --mod-directory {2} "$@"'.format(
+                    shlex.quote(os.path.abspath(server_dir)),
+                    shlex.quote(os.path.abspath(factorio_root)),
+                    shlex.quote(os.path.abspath(mods_dir)),
+                ),
+            ]))
+        chmod_x(factorio_in_docker_path)
+        factorio_launch_script = factorio_in_docker_path
+    else:
+        factorio_sh_path = os.path.join(server_dir, "factorio.sh")
+        with open(factorio_sh_path, "w") as f:
+            f.write("".join(line + "\n" for line in [
+                "#!/usr/bin/env bash",
+                'exec {}/bin/x64/factorio --mod-directory {} "$@"'.format(
+                    shlex.quote(os.path.abspath(factorio_root)),
+                    shlex.quote(os.path.abspath(mods_dir)),
+                ),
+            ]))
+        chmod_x(factorio_sh_path)
+        factorio_launch_script = factorio_sh_path
 
     # I believe host.yaml is the only way to configure this executable automatedly.
     host_yaml_path = os.path.join(server_dir, "host.yaml")
-    factorio_in_docker_abs_path = os.path.abspath(factorio_in_docker_path)
+    factorio_launch_script = os.path.abspath(factorio_launch_script)
     try:
         with open(host_yaml_path) as f:
             existing_contents = f.read()
-        if "\n  executable: {}\n".format(json.dumps(factorio_in_docker_abs_path)) in existing_contents:
+        if "\n  executable: {}\n".format(json.dumps(factorio_launch_script)) in existing_contents:
             # Despite the quotes being optional in yaml (sometimes), settings.py formats strings with quotes unconditionally.
             pass
         else:
             # Don't clobber the other settings.
             sys.exit(
-                "ERROR: host.yaml already exists but isn't configured correctly. Please add this configuration to factorio_options:\n"
-                "  executable: " + json.dumps(factorio_in_docker_abs_path)
+                "ERROR: " + host_yaml_path + " already exists but isn't configured correctly. Please add this configuration to factorio_options:\n"
+                "  executable: " + json.dumps(factorio_launch_script)
             )
     except FileNotFoundError:
         # The yaml file gets formatted and filled out with default values when Launcher.py shuts down.
         host_j = {"factorio_options": {
-            "executable": factorio_in_docker_abs_path,
+            "executable": factorio_launch_script,
             # Don't show checks that don't involve us.
             "filter_item_sends": True,
         }}
