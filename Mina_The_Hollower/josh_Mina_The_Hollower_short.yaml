@@ -1,0 +1,47 @@
+name: josh_mina
+description: Start in Ossex with Burrow and Climb. Repair a randomly chosen 2/6 generators to win (check ossex fountain). Fishing excluded.
+game: Mina The Hollower
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Mina The Hollower: 0.11.0 # Version of the world required for this yaml to work as expected.
+Mina The Hollower:
+  goal: fixgenerators
+  goal_generators: 2
+
+  # Logic
+  ossex_start: 'true'
+  kear_rando: apitems
+  ability_rando:
+    - Bounce
+    #- Burrow
+    - Carry
+    #- Climb
+    - Spring
+    - Swim
+  exclude_locations:
+    # No fishing.
+    - AO Mirror's End Fish Trunkstar Core
+    - BB Fish Goremaw Fang
+    - BW Fish Fleeper Head
+    #- BW Fishing Hole Thalassian Pearl
+    - CTP Fish Fishcicle Core
+    - EH Fish Dork Eyes
+    - KW Fish Gazeworm Eye
+    - LL Fish Trigger Antennae
+    - NB Fish Shrimpter Tail
+    - OS Fish Triple Flagellum
+    - QC Fish Tombstone
+    - SB Fish Spincer Pincers
+    - SF Fish Puffer Beak
+    - SO Fish Crumblefin Head
+    - WW Fish Cuddlepus Shell
+    - WW Fish Glomper Stalk
+    - BW Fishing Hole Gilded Rod
+
+  # Balance
+  bone_up_cap: allupgrade
+  max_stat_level: 15
+  random_starting_items: 'false'
+
+  death_link: 'false'

@@ -1,0 +1,422 @@
+﻿Archipelago Version 0.6.7  -  Seed: 15102352549871418351
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  items, connections, texts, bosses
+Game:                            Mina The Hollower
+Location Count:                  301
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              AO Mirror's End Fish Trunkstar Core, BB Fish Goremaw Fang, BW Fish Fleeper Head, BW Fishing Hole Gilded Rod, BW Fishing Hole Thalassian Pearl, CTP Fish Fishcicle Core, EH Fish Dork Eyes, KW Fish Gazeworm Eye, LL Fish Trigger Antennae, NB Fish Shrimpter Tail, OS Fish Triple Flagellum, QC Fish Tombstone, SB Fish Spincer Pincers, SF Fish Puffer Beak, SO Fish Crumblefin Head, WW Fish Cuddlepus Shell, WW Fish Glomper Stalk
+Priority Locations:              
+Item Links:                      
+Plando Items:                    
+Goal:                            Fixgenerators
+Generators Required:             3
+Ossex Start:                     Yes
+Kear Rando:                      Apitems
+Bone Up Cap Type:                Allupgrade
+Maximum Stat Caps:               15
+Randomize Starting Items:        No
+Abilty Rando:                    Bounce, Carry, Spring, Swim
+Death Link:                      No
+
+
+Starting Items:
+
+Progressive World Map
+Progressive World Map
+All-Seeing Skull
+Training Dummy
+Memory Goggles
+Health Rose
+Health Rose
+Health Rose
+Health Rose
+Health Rose
+Health Rose
+Health Rose
+Health Rose
+Trinket Bag
+Joule Box
+Healing Vial
+Healing Vial
+Healing Vial
+Burrow
+Joule Box
+Spark Container
+Climb
+Frozen Pass Lock
+Nox's Bayou Swamp Shack Lock
+Septemburg Crow Town Tunnel Lock
+Coltrane Rail Yard Lock
+
+Locations:
+
+OS Legovich's Arms Whip: Oozing Organ
+OS Legovich's Arms Hammer: Loner's Landing Boardwalk Lock
+OS Legovich's Arms Daggers: 1000 Bonestone
+OS Legovich's Arms Guardian Casket: Choppe Shoppe Lock
+OS Legovich's Arms Battery Buster: Plasma Funnel
+EH Grassland Waterfall Chest: Uranium Bracelet
+EH Grassland Waterfall Kite Trinket: Progressive Bone Up Cap
+KW Farm Crossing Shack Chest: Queensbury Crypt Bonnet Tomb Lock
+MM Statue Room Bonestone: Spark Container
+EH Grassland Riverbed Chest: Kindlewood Tomato Patch Lock
+SF Guiding Grains Trinket: Southern Outskirts Rooftop Lock
+SF Guiding Grains Bonestone Left: Loner's Landing Below Decks Right Weapon Lock
+SF Guiding Grains Bonestone Right: Backwaters Pinky's Parlor Back Lock
+BW Upper Shanty Swamp Plasma Jug: Plasma Jug
+BW Upper Shanty Swamp Frog Gift: Twill Weave
+BW Lower Shanty Swamp Locked Chest: Fly Bait
+BW Lower Shanty Swamp Band Gift: Phonograph
+SF Ring Dive Parlor Trinket: Spark Container
+SO Mining Passage Chest: Eastern Heath Grassland Bushroom Lock
+SO Thorne Residence Basement Trinket: Pit Preserver
+SO Western Pit Room Chest: Bayou Ticket
+OS Station Underside Bell of Grace: 800 Bonestone
+LL Boardwalk Sandfalls Ledge Chest: 800 Bonestone
+LL Blighted Docks Residence Chest: Joule Box
+OS Hollower's Guild Back Room Kear Chest: Health Rose
+OS Hollower's Guild Back Room Joule Alembic: Joule Box
+OS Hollower's Guild Back Room Isle Map: Joule Box
+OS Hollower's Guild Back Room Sidearm Recoverer: Dead Leaf
+OS Hollower's Guild Back Room Training Dummy: 4000 Bonestone
+OS Hollower's Guild Back Room Sidearm Duplicator: Healing Vial
+OS Hollower's Guild Back Room Memory Goggles: Healing Vial
+OS Hollower's Guild Back Room Phonograph: Joule Box
+OS Hollower's Guild Back Room Enhanced Map: Deboning Wand
+OS Hollower's Guild Back Room All-Seeing Skull: 800 Bonestone
+OS Hollower's Guild Back Room Smack Muriel: Sandfalls Payload Passage Bottom Lock
+OS Ossex Telescope Kear: Blinking Glass
+MM Tower Tunnel Chest #1: Tumbling Tutu
+MM Tower Tunnel Chest #2: Progressive Bone Up Cap
+LL Blighted Docks Tall Room Chest: Blaststrike Maul
+OS Couple's Quarter Chest: Spike Spurs
+MM Spike Vault Hidden Room Kear: Vascular Syrup
+EH Grassland Ossex Patio Chest: Proto Spark
+SF Payload Passage Chest: 200 Bonestone
+BW Upper Shanty Swamp Side Room Chest: Seismic Belt
+OS Fish Triple Flagellum: 2000 Bonestone
+OS City Center 2nd Race Kear: 500 Bonestone
+OS City Center Final Race Bellows Bustle: Healing Vial
+OS Music Hall Chest: Healing Vial
+OS Music Hall Pneumatic Armlet: Dummy Cache
+WW Occupied Bridge Brute Chest: Counter Vial
+WW Occupied Bridge Leaf Trinket: Spark Container
+KW Wallower's Room Trinket: Astral Orrery Mirror Room Left Side Lock
+KW Wallower's Room Chest: 500 Bonestone
+EH Grassland Maxi Trinket Bag: Mourner's Mile After Generator Lock
+KW Behind Madd House Bonestone: Primed Vial Pouch
+MM Mina's Grave Chest: 800 Bonestone
+MM Mina's Grave Trinket: Progressive Bone Up Cap
+SF Bone Junction Chest: Progressive Bone Up Cap
+EH Fish Dork Eyes: 500 Bonestone
+SF Fish Puffer Beak: 500 Bonestone
+MM Knight's Rest Chest: Health Rose
+LL Blighted Docks Bridge Chest: Progressive Bone Up Cap
+SO Commons Chest: Sandfalls Cave Lock
+SO Fish Crumblefin Head: 2000 Bonestone
+OS Bowery Residence Kear: Guardian Casket
+OS Bowery New House Bonestone: Health Rose
+SF Shifty Seclusion Chest: Trinket Bag
+EH Grassland Poppit Cave Willow: Blaststrike Maul
+EH Grassland Poppit Cave Kear: Health Rose
+WW Balcony Chest: Intravenous Vial
+WW Fish Cuddlepus Shell: 1000 Bonestone
+WW Fish Glomper Stalk: 800 Bonestone
+SF Sifted Sands Snake Bomb Chest: Nightstar
+KW Madd House Draining Beastium: 2000 Bonestone
+KW Madd House Oozing Organ: Progressive Bone Up Cap
+KW Madd House Voltaic Guard: Battery Buster
+KW Madd House Kear: 2000 Bonestone
+OS Courtyard East Deboning Wand: Burning Beastium
+OS Emporium Health Rose #1: Willow The Wisp
+OS Emporium Health Rose #2: Southern Outskirts Cave Network Lock
+OS Emporium Health Rose #3: Empty Plasma Jug
+OS Emporium Joule Box #1: Swim
+OS Emporium Joule Box #2: Bone Beach Mining Camp Cave Lock
+OS Emporium Joule Box #3: Healing Vial
+OS Emporium Trinket Bag #1: Reckless Beastium
+OS Emporium Trinket Bag #2: Progressive Fishing Rod
+OS Emporium Trinket Bag #3: Spark Catcher
+OS Emporium Vial Pouch #1: Health Rose
+OS Emporium Vial Pouch #2: Bellows Bustle
+OS Emporium Vial Pouch #3: Flame Guard
+OS Emporium Spark Container: Health Rose
+BW Pinky's Parlor Joule Box: 500 Bonestone
+MM Spike Hell Chest: Shock Flint
+OS Courtyard West Weapon Upgrade: Brisk Brew
+MM Shallow Tomb Kear: Ossex Train Lock 2
+WW Occupied Bridge Far Chest: Pneumatic Armlet
+WW Secret Passage Chest: Joule Box
+WW Secret Passage Joule Box: 2000 Bonestone
+SO Commons Ossex Entry Right Chest: Trinket Bag
+EH Grassland Bush Room Bonestone: Western Wilds Foundry Lock
+LL Boardwalk Fire Bounce Chest: 500 Bonestone
+LL Blighted Docks Side Cave Chest: Lace Glove
+BB Sandwater Junction Angler's Raft: 1000 Bonestone
+SO Poppit Keri: Lightning Grip
+SO Poppit Kear: Progressive Bone Up Cap
+SO Four Flowers Chest: Radiant Manor Meowstro Room Lock
+AO Mirror's End Beach Room Chest: Joule Box
+AO Mirror's End Reckless Beastium: Nightstar
+AO Mirror's End West Ledge Trinket Bag: Windfall Charm
+AO Mirror's End Fish Trunkstar Core: 200 Bonestone
+KW Overgrowth Bonfire Chest: Iron Lung
+BW Lantern Cave Bonestone: Sandfalls Hidden Cave Lock
+BW Lantern Cave Vial Pouch: 200 Bonestone
+OS Atelier Chest: Train Pass
+OS Atelier Vitality Vest: Trinket Bag
+OS Atelier Custom Fit: 1000 Bonestone
+OS Bowery Upper Chest: 100 Bonestone
+BW Fishing Hole Fishing Rod: Western Wilds Balcony Lock
+BW Fish Fleeper Head: 3000 Bonestone
+BW Fishing Hole Thalassian Pearl: 500 Bonestone
+BW Fishing Hole Gilded Rod: 200 Bonestone
+Dugin Fight 2 Trinket: Smelling Salts
+LL Belowdecks Unchosen Weapon #1: Ossex Train Lock 1
+LL Belowdecks Unchosen Weapon #2: 3000 Bonestone
+LL Belowdecks Chest: Spark Container
+BW Pinky's Parlor Trinket: Progressive Fishing Rod
+BW Pinky's Parlor Kear: Progressive Bone Up Cap
+SO Commons Ossex Entry Left Chest: Helio The Wisp
+BW Lower Shanty Swamp Trinket: Dodging Pendulum
+BW Lower Shanty Swamp Bonestone: 3000 Bonestone
+OS Train Private Cabin Chest: 2000 Bonestone
+OS Train Private Cabin Safety Shroud: Healing Vial
+SF Hidden Cave Vial Pouch: 800 Bonestone
+OS Courtyard Garden Trinket: Bell Of Grace
+EH Buckler's Bluff Joule Box: Progressive Fishing Rod
+MM Ring Tomb Trinket: Spring
+WW Molten Foundry Dark Chest: Vial Salvo
+WW Occupied Bridge Underneath Chest: Carry
+LL Blighted Docks Burrow Residence Bubble: Progressive Bone Up Cap
+OS Evra's Rest Health Rose: 500 Bonestone
+SO Cave Network Side Room Chest: Whisper and Vesper
+RM Foyer Library Chest: Eastern Heath Bucklers Bluff Lock
+SO Southern Pit Room Bonestone: 500 Bonestone
+KW Train Station Gourdan: 800 Bonestone
+KW Fish Gazeworm Eye: 500 Bonestone
+KW Train Station Ledge Chest: Eastern Heath Waterfall Lock
+OS High Street Sewer Chest: Bubble Ring
+BW Lucky's Lair Kear: Blaststrike Maul
+MM Spike Vault Vial Pouch: Steady Soles
+OS Bowery Double Sidearm Permit: 2000 Bonestone
+EH Grassland Poppit Cave Chest: 200 Bonestone
+KW Rail Tunnel Vial Pouch: 4000 Bonestone
+OS Gutterways Bonestone: Loner's Landing Below Decks Left Weapon Lock
+WW Molten Foundry Trinket: Battery Buster
+EH Under the Bridge Chest: 100 Bonestone
+OS Trinket Bazaar Kear: Safety Shroud
+OS Trinket Bazaar Plasma Funnel: Valor Medallion
+OS Trinket Bazaar Seismic Belt: Septemburg Ticket
+OS Trinket Bazaar Brisk Brew: Joule Box
+OS Trinket Bazaar Intrevenous Vial: 100 Bonestone
+OS Trinket Bazaar Shock Flint: Healing Vial
+OS Trinket Bazaar Uranium Bracelet: 1000 Bonestone
+OS Trinket Bazaar Bubble Ring: Guardian Casket
+OS Trinket Bazaar Counter Vial: Astral Orrery Stellarium Lock
+EH Hidden Grotto Chest: Progressive Bone Up Cap
+OS City Center Steady Soles: Joule Syringe
+SO Cave Network Chest: Trinket Bag
+OS Attic Chest: Watchful Eye
+OS High Street Nose Trinket: Spring Heels
+OS Strategy Center Chest: Mourner's Mile Bike Lock
+OS Strategy Center Ophidio Bonestone: Ossex High Street SE Garden Lock
+AO Mirror's End Moving Platform Room Chest: 2000 Bonestone
+OS Kear Institute Kear #1: Evasion Powder
+OS Kear Institute Kear #2: Joule Alembic
+OS Kear Institute Kear #3: Progressive Bone Up Cap
+OS Kear Institute Kear #4: 2000 Bonestone
+OS Kear Institute Kear #5: Healing Vial
+OS Kear Institute Kear #6: Health Rose
+OS Kear Institute Kear #7: Keri The Wisp
+OS Kear Institute Kear #8: Niter Belt
+OS Kear Institute Kear #9: Coltrane Peak Ticket
+OS Kear Institute Kear Completion: Tunneling Codex
+KW Residence Basement Chest: Trinket Bag
+SF Train Vita's Shop: Sidearm Recoverer
+WW Molten Foundry Poppit Trinket: Whisper and Vesper
+WW Molten Foundry Poppit Kear: Sidearm Duplicator
+EH Choppe Shoppe Trinket: Kindlewood Train Tunnel Lock
+LL Fish Trigger Antennae: 800 Bonestone
+QC Old Graveyard Bonestone: Progressive Bone Up Cap
+QC Old Graveyard Kear: 800 Bonestone
+QC Bonnet Tomb Trinket: Kindlewood Wallower's Path Trinket Lock
+QC Broken Bridge Bonestone: Health Rose
+QC Pipe Room Bonestone: Voltaic Guard
+QC Castle Entry Weapon Chest: Vitality Vest
+QC Smelly Secret Kear: Custom Fitting
+QC Hidden Tunnel Bonestone: Repulsing Root
+QC Statue Head Hall Chest: Desperation Bonnet
+QC Mirror Room Chest: Astral Orrery Mirror Room Right Side Lock
+QC Mirror Room Stolenoid: Bridge Weaver
+QC Mirror Room Kear: Progressive Bone Up Cap
+QC Putrid Place Bonestone: Warding Beastium
+QC Fish Tombstone: 200 Bonestone
+QC Rancid Room Trinket: Backwaters Pinky's Parlor Lock
+QC Ancestral Chamber Health Rose: 500 Bonestone
+QC Royal Tomb Trinket: 4000 Bonestone
+EH Carry Head QB Chest: Ossex High Street Balcony Lock
+MM Knight's Stand Bonestone: Whisper and Vesper
+NB Fish Shrimpter Tail: TreasureSmallest (1)
+NB Guard Room Trinket: TreasureSmallest (1)
+NB First Flooder Chest: TreasureSmallest (1)
+NB Shallow Pool Chest: TreasureSmallest (1)
+NB Lagoon Dark Chest: TreasureSmallest (1)
+NB Submerged Side Room Trinket: TreasureSmallest (1)
+NB Swamp Shack Pit Preserver: TreasureSmallest (1)
+NB Swamp Shack Kear: TreasureSmallest (1)
+NB Swamp Shack Blastrike Maul: TreasureSmallest (1)
+NB Moonlit Path Chest: TreasureSmallest (1)
+NB Moonlit Hideaway Trinket: TreasureSmallest (1)
+NB Plant Pond Chest: TreasureSmallest (1)
+NB Thick Thicket Chest: TreasureSmallest (1)
+NB Hidden Cave Chest: TreasureSmallest (1)
+NB Grate Lake Chest: TreasureSmallest (1)
+NB Tainted Depths Health Rose: TreasureSmallest (1)
+NB Gutter Tunnel Chest: TreasureSmallest (1)
+SB Launch Pad Secret Room #1 Chest: TreasureSmallest (1)
+SB Launch Pad Secret Room #2 Kear: TreasureSmallest (1)
+SB Kid Room Chest: TreasureSmallest (1)
+SB Hidden Mandrake Room Chest: TreasureSmallest (1)
+SB Hidden Crop Thresher Room Chest: TreasureSmallest (1)
+SB Rotten Barn Chest: TreasureSmallest (1)
+SB Below Crow Town Bridge Chest: TreasureSmallest (1)
+SB Crow Town Shop Trinket: TreasureSmallest (1)
+SB Crow Town Shop Kear: TreasureSmallest (1)
+SB Crow Town Farmhouse Roof Chest: TreasureSmallest (1)
+SB Tangled Woods Hidden Grove Chest: TreasureSmallest (1)
+SB Galloway Room Chest: TreasureSmallest (1)
+SB Stormwatch Way Chest: TreasureSmallest (1)
+SB Carving Shack Health Rose: TreasureSmallest (1)
+SB Dark Deluxy Spark Container: TreasureSmallest (1)
+SB Fish Spincer Pincers: TreasureSmallest (1)
+SB Wastewater Canal Slime Room Chest: TreasureSmallest (1)
+SB Wastewater Canal Box Room Chest: TreasureSmallest (1)
+SB Wastewater Canal Well Entrance Chest: TreasureSmallest (1)
+SB Save Students Trinket: TreasureSmallest (1)
+BB Fish Goremaw Fang: 1000 Bonestone
+BB Bone Rush Trail Furgus Tunnel Chest: Starving Beastium
+BB Gold Grasp Bonestone: Draining Beastium
+BB Large Conveyor Bonestone: Nightstar
+BB Split Room Chest: Progressive Bone Up Cap
+BB Aquatic Conveyor Chest: Double Sidearm Permit
+BB Brac's Tent Trinket: Wallowers Gauntlets
+BB Brac's Tent Kear: Health Rose
+BB Secret Shoals Trinket: Battery Buster
+BB Calcified Caves Kear: 4000 Bonestone
+BB Calcified Caves Jail Bonestone: Health Rose
+BB Submerged Handles Chest: Stolenoid
+BB Pulsing Tract Bonestone: 1000 Bonestone
+BB Worm's Back Battery Buster: Joule Box
+BB Worm's Back Bonestone: Loner's Landing Shipwreck Back Lock
+BB Stomach Mine Kear: 2000 Bonestone
+BB Moving Stairs Bonestone: Bone Beach Ticket
+BB Gut Passage Chest: 500 Bonestone
+BB Brain Alcove Health Rose: Volatile Beastium
+OS Couple's Quarter Thermal Pack: Ossex East Garden Lock
+SF Sifted Sands Kear: Western Wilds Secret Passage Lock
+CTP Frigid Station Missed Train Chest: TreasureSmallest (1)
+CTP Frozen Pass Rope Chest: TreasureSmallest (1)
+CTP Dead Man's Gorge Passage Trinket: TreasureSmallest (1)
+CTP Dead Man's Gorge Rail Kear: TreasureSmallest (1)
+CTP Frostbite Woods Blinking Glass: TreasureSmallest (1)
+CTP Rail Yard Purple Structure Chest: TreasureSmallest (1)
+CTP Rail Yard Cliff Chest: TreasureSmallest (1)
+CTP Rail Yard Casket Chest: TreasureSmallest (1)
+CTP Fish Fishcicle Core: TreasureSmallest (1)
+CTP Rail Yard Kear Room Rupert Shop Trinket: TreasureSmallest (1)
+CTP Rail Yard Kear Room Rupert Shop Kear: TreasureSmallest (1)
+CTP Spiral Summit Kear: TreasureSmallest (1)
+CTP Agnes Express Bone Mimic: TreasureSmallest (1)
+CTP Maelstrom Locomotress Health Rose: TreasureSmallest (1)
+CTP Frozen Pass Chest: TreasureSmallest (1)
+CTP Frozen Pass IceBlock Trinket: TreasureSmallest (1)
+WW Balcony Snowball Fight Trinket: TreasureSmallest (1)
+AO Stellarium East Chest: Backwaters Fishing Lock
+AO Tubert Trinket: Guardian Casket
+AO Tubert Kear: Thermal Pack
+AO Gravity Zone Long Hallway Chest: Trinket Bag
+AO Gravity Zone Secret Room #1 Kear: Joule Box
+AO Gravity Zone Secret Room #2 Chest: 1000 Bonestone
+AO Cog Chamber Secret Room #1 Chest: Health Rose
+AO Cog Chamber Secret Room #1 Kear: Polyp Lamp
+AO Mutant Lab Secret Room #1 Chest: Bounce
+AO Mutant Lab Secret Room #2 Trinket: 1000 Bonestone
+AO Hall of Scholars Below Boss Chamber Bonestone: Chain Capacitor
+AO Hall of Scholars Exit Chest: 500 Bonestone
+AO Sealed Archive Health Rose: Progressive Bone Up Cap
+RM Mimic Chamber Dodging Pendulum: TreasureSmallest (1)
+RM Rafters Chest: TreasureSmallest (1)
+RM Servant's Quarters Trinket: TreasureSmallest (1)
+RM Ballroom Chest: TreasureSmallest (1)
+RM Tile Chamber Chest: TreasureSmallest (1)
+RM Meowstro's Chamber Bonestone: TreasureSmallest (1)
+Event Hollowers Rocks: Hollowers Rocks
+Event Gyro Dagger: Gyro Dagger
+Event Volt Hatchet: Volt Hatchet
+Event Iron Steed: Iron Steed
+Event Fog Thrower: Fog Thrower
+Event Deflector Parasol: Deflector Parasol
+Event Mist Jar: Mist Jar
+Event Driver Drill: Driver Drill
+Event Recall Disc: Recall Disc
+Event Bounding Bombs: Bounding Bombs
+Event Beckoning Collar: Beckoning Collar
+Event Gnawing Ghosts: Gnawing Ghosts
+Repair Queensbury Crypt Generator: Repair Solemn Generator
+Repair Nox's Bayou Generator: Repair Swampy Generator
+Repair Septemburg Generator: Repair Windy Generator
+Repair Bone Beach Generator: Repair Shoreline Generator
+Repair Coltrane Peak Generator: Repair Frozen Generator
+Repair Astral Orrery Generator: Repair Starry Generator
+Blue Switch: Blue Astral Platforms
+Green Switch: Green Astral Platforms
+Red Switch: Red Astral Platforms
+Yellow Switch: Yellow Astral Platforms
+Purple Switch: Purple Astral Platforms
+
+Playthrough:
+
+0: {
+  Burrow
+  Healing Vial
+  Healing Vial
+  Healing Vial
+  Health Rose
+  Health Rose
+  Health Rose
+  Health Rose
+  Health Rose
+  Health Rose
+  Health Rose
+  Health Rose
+  Joule Box
+  Trinket Bag
+}
+1: {
+  MM Ring Tomb Trinket: Spring
+  OS Emporium Joule Box #1: Swim
+  OS Hollower's Guild Back Room Kear Chest: Health Rose
+  WW Occupied Bridge Underneath Chest: Carry
+}
+2: {
+  Blue Switch: Blue Astral Platforms
+  Green Switch: Green Astral Platforms
+  Repair Queensbury Crypt Generator: Repair Solemn Generator
+  Yellow Switch: Yellow Astral Platforms
+}
+3: {
+  AO Mutant Lab Secret Room #1 Chest: Bounce
+  Repair Astral Orrery Generator: Repair Starry Generator
+}
+4: {
+  Repair Bone Beach Generator: Repair Shoreline Generator
+}
