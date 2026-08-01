@@ -1,5 +1,5 @@
 name: factorio
-description: Travel to another planet and do some research. Random starting planet, cheap space technology, cheap research costs.
+description: Travel to another planet and do some research. Cheap research costs.
 game: 'Factorio: Space Age'
 requires:
   version: 0.6.6
