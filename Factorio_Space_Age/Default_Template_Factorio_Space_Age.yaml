@@ -34,7 +34,7 @@ game: 'Factorio: Space Age'
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    'Factorio: Space Age': 2.2.1 # Version of the world required for this yaml to work as expected.
+    'Factorio: Space Age': 2.3.0 # Version of the world required for this yaml to work as expected.
 
 'Factorio: Space Age':
   ################
@@ -72,8 +72,8 @@ requires:
     # any other planet science: (default) Research victory with 5 science packs: automation, logistic, chemical, space, and one of metallurgic, agricultural, or electromagnetic. If you start on another planet, then that science doesn't count.
     # aquilo orbit: Reach Aquilo orbit with a space platform. planet-discovery-aquilo is shuffled into the multiworld.
     # aquilo orbit 10 science: Reach Aquilo orbit after researching the unrandomized planet-discovery-aquilo, which requires 10 science packs (everything except cryogenic and promethium).
-    # solar system edge: Reach the solar system edge with a space platform. promethium-science-pack (which unlocks the solar system edge) is shuffled into the multiworld.
-    # solar system edge 11 science: Reach the solar system edge after researching the unrandomized promethium-science-pack, which requires all 11 non-promethium science packs.
+    # solar system edge: Reach the solar system edge with a space platform. stellar-discovery-solar-system-edge is shuffled into the multiworld.
+    # solar system edge 11 science: Reach the solar system edge after researching the unrandomized stellar-discovery-solar-system-edge, which requires all 11 non-promethium science packs.
     # 
     # Note that technology_prerequisites adds extra steps to unlocking unrandomized technology locations related to the goal.
     space_science: 0
@@ -101,7 +101,7 @@ requires:
 
   skip_starting_trigger_techs:
     # Instead of needing to craft iron plates, copper plates, and a lab at the start of the run,
-    # start with the recipes for steam power, labs, and logistic science pack already unlocked.
+    # start with the recipes for steam power, labs, and automation science pack already unlocked.
     # The set of technologies changes with the starting_planet setting, and it's recommended particularly on Vulcanus and Gleba.
     # The free_samples setting gives items from the early triggers, so on Vulcanus, you can start with foundries straight away without setting up a lubricant build,
     # and on Gleba, you can start with biochambers without looting egg rafts.
@@ -203,17 +203,32 @@ requires:
     # large_groups: Loosely-related technologies will be grouped together with more critical recipes near the start and less critical bonuses near the end.
     # This allows many more ways to get critical technologies, for example 2/9+ progressive-oil and 2/9+ progressive-circuit to get the same set of recipes listed in the previous example.
     # Additional copies of progressive-circuit can be added to the pool with filler_processing_unit_productivity_weight, and similarly with other infinite technologies as filler items.
+    # 
+    # See also this community-maintained info sheet: https://docs.google.com/spreadsheets/d/e/2PACX-1vQEF0W46I7aHX6mgmaiVfVMI_SWJIhQyNpzkelunmdCHO8VloBntOKRI1Hg7j0y-LwcOmiVbS-dLqba/pubhtml#gid=1921791348
     only_related: 0
     large_groups: 50
 
   infinite_technologies:
     # How to handle infinitely researchable technologies, e.g. steel-plate-productivity.
     # vanilla: They are not randomized, e.g. research productivity always requires promethium science packs.
-    # shuffled: The cost and prerequisites of the infinite techs are shuffled, e.g. research productivity might require only military, utility, and agricultural science packs (the location of the health technology).
+    # shuffled: The cost and prerequisites of the infinite techs are shuffled, e.g. research productivity might require only red, greend, blue, and purple science (the location of the steel-plate-productivity technology).
     # removed: Infinite technologies are removed.
     vanilla: 0
     shuffled: 50
     removed: 0
+
+  intermediate_technologies:
+    # How to handle technologies that only unlock recipes for items that are not directly useful, e.g. advanced-circuit.
+    # 
+    # shuffled: the technologies are shuffled into the multiworld as items just like other technologies.
+    # unlocked: (default) intermediate recipes are unlocked from the start and their technologies are removed. This makes multiworld items received more impactful and function less like fragments of something useable. For the full list of technologies unlocked by this option, see https://github.com/thejoshwolfe/Archipelago/blob/space-age/worlds/factorio_space_age/data/ap_data.py . You do not get free samples for the unlocked recipes.
+    # 
+    # Unlocking intermediates is recommended to enable Factorio: Space Age advancement keep pace with other games in the multiworld.
+    # Particularly these milestones need fewer advancement items: chemical-science-pack (5 fewer), utility-science-pack (11 fewer), launching rockets (9 fewer).
+    # 
+    # Shuffling intermediates is recommended for a more authentic Factorio experience, but makes the early game much longer.
+    shuffled: 0
+    unlocked: 50
 
   tech_tree_information:
     # How much information should be displayed in the tech tree.
@@ -305,8 +320,7 @@ requires:
     # If require_self_sufficient_space_platform is enabled and not starting on Vulcans, then electric-furnace will also be included in the list.
     # The early_game setting unlocks chemical plants as part of space-platform-thruster so you can melt ice and make fuel.
     # 
-    # This setting also reduces small and medium asteroid health,
-    # and reduces item counts for rocket-silo, space-platform-foundation, and rocket parts per rocket.
+    # This setting also reduces small and medium asteroid health.
     # 
     # To get the most out of this option, you might be interested in these other changes:
     #   technology_prerequisites: removed
@@ -564,7 +578,7 @@ requires:
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
     # Maximum value is 700
-    4: 50
+    3: 50
     random: 0
     random-low: 0 # random value weighted towards lower values
     random-high: 0 # random value weighted towards higher values
@@ -572,7 +586,7 @@ requires:
 
   filler_nothing_weight:
     # Weighted chance that a filler item does literally nothing.
-    # The name of a nothing item is chosen randomly from: laser, flammables, modules, biter-egg-handling.
+    # The name of a nothing item is chosen randomly from: laser, flammables, modules.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0

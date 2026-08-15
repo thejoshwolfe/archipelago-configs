@@ -51,6 +51,7 @@ requires:
     asteroid-reprocessing: 1
     fluid-handling: 1
     cryogenic-plant: 1
+    bioflux-processing: 1
     rocket-turret: 1
     rocketry: 1
     railgun: 1
@@ -59,7 +60,7 @@ requires:
     planet-discovery-gleba: 1
     planet-discovery-fulgora: 1
     planet-discovery-aquilo: 1
-    promethium-science-pack: 1
+    stellar-discovery-solar-system-edge: 1
   start_hints: []
   start_location_hints: []
   exclude_locations: []
