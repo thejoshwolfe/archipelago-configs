@@ -34,7 +34,7 @@ game: Mina The Hollower
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Mina The Hollower: 0.11.0 # Version of the world required for this yaml to work as expected.
+    Mina The Hollower: 1.0.0 # Version of the world required for this yaml to work as expected.
 
 Mina The Hollower:
   ################
@@ -90,6 +90,15 @@ Mina The Hollower:
     random-high: 0 # random value weighted towards higher values
     random-range-1-6: 0 # random value between 1 and 6
 
+  starting_weapon:
+    # Select your starting weapon.
+    nightstar: 0
+    blaststrike_maul: 0
+    whisper_and_vesper: 0
+    battery_buster: 0
+    guardian_casket: 0
+    random: 50
+
   max_stat_level:
     # The maximum cap of each stat. Vanilla non-NG+ is 10, maximum at the end of the NG+es is 99.
     # Will be soft capped if location count is too small
@@ -114,6 +123,7 @@ Mina The Hollower:
     # Area AP Items: All Kear Locks in an area are removed by a single AP Item
     vanilla: 0
     apitems: 50
+    areaapitems: 0
 
   random_starting_items:
     # Take all starting health, spark, vials, Magic and randomize them. This increases the difficulty tenfold and can cause some cursed starts. You have been warned.

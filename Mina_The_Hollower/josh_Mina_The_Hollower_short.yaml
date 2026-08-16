@@ -8,10 +8,18 @@ requires:
 Mina The Hollower:
   goal: fixgenerators
   goal_generators: 2
+  accessibility: minimal
+
+  starting_weapon:
+    nightstar: 1
+    blaststrike_maul: 1
+    whisper_and_vesper: 1
+    battery_buster: 0
+    guardian_casket: 1
 
   # Logic
   ossex_start: 'true'
-  kear_rando: apitems
+  kear_rando: areaapitems
   ability_rando:
     - Bounce
     #- Burrow
