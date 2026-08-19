@@ -18,18 +18,19 @@ requires:
   ################
   technology_prerequisites: vanilla
   progressive_technologies: large_groups
+  intermediate_technologies: shuffled
   infinite_technologies: shuffled
   tech_tree_information: none
 
   ####################
   # Speedups/Balance #
   ####################
+  skip_starting_trigger_techs: 'false'
   # Nearly full cost technology
   tech_cost_divisor: 1
   tech_cost_max_count: 500
   # No free samples.
   free_samples: none
-  skip_starting_trigger_techs: 'false'
 
   ################
   # Traps/Filler #

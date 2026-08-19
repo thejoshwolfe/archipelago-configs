@@ -1,12 +1,12 @@
 name: factorio
-description: Travel to another planet and do some research. Cheap research costs.
+description: Win with space science. Cheap research costs. No technology prerequisites.
 game: 'Factorio: Space Age'
 requires:
   version: 0.6.6
   game:
     'Factorio: Space Age': 2.1.0 # Version of the world required for this yaml to work as expected.
 'Factorio: Space Age':
-  goal: any_other_planet_science
+  goal: space_science
   accessibility: minimal
   world_gen_enemies: 'false'
   starting_planet: nauvis
@@ -18,7 +18,9 @@ requires:
   skip_starting_trigger_techs: 'true'
   tech_cost_divisor: 10
   tech_cost_max_count: 50
+  technology_prerequisites: removed
   production_and_utility_science: removed
+  tech_tree_information: full
 
   ###############
   # Energy Link #
@@ -32,7 +34,7 @@ requires:
   ################
   # Traps/Filler #
   ################
-  filler_count: '4'
+  filler_count: '50'
   filler_physical_projectile_damage_weight: '5'
   filler_stronger_explosives_weight: '5'
   filler_asteroid_productivity_weight: '1'
