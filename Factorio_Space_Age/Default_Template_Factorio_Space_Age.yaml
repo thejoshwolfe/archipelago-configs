@@ -34,7 +34,7 @@ game: 'Factorio: Space Age'
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    'Factorio: Space Age': 2.3.0 # Version of the world required for this yaml to work as expected.
+    'Factorio: Space Age': 3.0.0 # Version of the world required for this yaml to work as expected.
 
 'Factorio: Space Age':
   ################
@@ -101,15 +101,6 @@ requires:
     'false': 0
     'true': 50
 
-  skip_starting_trigger_techs:
-    # Instead of needing to craft iron plates, copper plates, and a lab at the start of the run,
-    # start with the recipes for steam power, labs, and automation science pack already unlocked.
-    # The set of technologies changes with the starting_planet setting, and it's recommended particularly on Vulcanus and Gleba.
-    # The free_samples setting gives items from the early triggers, so on Vulcanus, you can start with foundries straight away without setting up a lubricant build,
-    # and on Gleba, you can start with biochambers without looting egg rafts.
-    'false': 50
-    'true': 0
-
   death_link:
     # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
     'false': 50
@@ -119,65 +110,39 @@ requires:
   # World Gen #
   #############
   world_gen:
-    # vanilla: The vanilla Default settings.
-    # buffed resources: All resource patches cranked to the max, cliffs disabled, oceans reduced, Fulgoran islands max size.
-    # custom: use the world_gen_custom property.
-    vanilla: 0
+    # buffed_resources: (the default value for this YAML option) All resource patches cranked to the max, cliffs disabled, oceans reduced, Fulgoran islands max size.
+    # custom: use the map_exchange_string for most settings, but the seed is randomized. If world_gen_enemies is set to false, then that setting is applied as well.
+    # custom_verbatim: use the map_exchange_string exactly as is.
+    # default (or vanilla): The vanilla Default settings. (Not the default selection for this YAML option.)
+    # rich_resources, marathon, death_world, etc.: The builtin presets of the same name.
     buffed_resources: 50
     custom: 0
+    custom_verbatim: 0
+    default: 0
+    rich_resources: 0
+    marathon: 0
+    death_world: 0
+    death_world_marathon: 0
+    rail_world: 0
+    ribbon_world: 0
+    lakes: 0
+    island: 0
+
+  map_exchange_string:
+    # Customize the world gen settings.
+    # Open Factorio normally, click into the menu to create a new Freeplay game, mess with the settings all you want,
+    # then find the "Map exchange string" export button near the bottom.
+    # Paste the string into this option including >>>these<<< things.
+    # 
+    # Ignored unless world_gen is set to 'custom' or 'custom_verbatim'.
+    # If you want to play the exact seed you previewed, use 'custom_verbatim'.
+    '': 50
 
   world_gen_enemies:
     # Enable enemies. Turning this off checks the 'No enemies' mode during world gen and disables pollution.
-    # Ignored when world_gen is set to 'custom'.
+    # Ignored when world_gen is set to custom_verbatim.
     'false': 0
     'true': 50
-
-  world_gen_asteroid_spawn_rate:
-    # Percentage modifier for spawning asteroids.
-    # Ignored when world_gen is set to 'custom'.
-    # TODO: unimplemented.
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 10
-    # Maximum value is 400
-    100: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-10-400: 0 # random value between 10 and 400
-
-  world_gen_spoil_rate:
-    # Percentage modifier for spoiling rate. Higher rate is faster spoiling.
-    # Ignored when world_gen is set to 'custom'.
-    # TODO: unimplemented.
-    #
-    # You can define additional values between the minimum and maximum values.
-    # Minimum value is 10
-    # Maximum value is 1000
-    100: 50
-    random: 0
-    random-low: 0 # random value weighted towards lower values
-    random-high: 0 # random value weighted towards higher values
-    random-range-10-1000: 0 # random value between 10 and 1000
-
-  world_gen_custom:
-    # Only used when world_gen is set to 'custom'.
-    # Overview of options at https://wiki.factorio.com/Map_generator,
-    # with in-depth documentation at https://lua-api.factorio.com/latest/concepts/MapGenSettings.html .
-    # 
-    # Other resources that may help:
-    # * https://lua-api.factorio.com/latest/types/MapGenPreset.html
-    # * https://github.com/wube/factorio-data/blob/master/map-gen-settings.example.json
-    # * https://github.com/wube/factorio-data/blob/master/map-settings.example.json
-    # * https://fesc.pages.dev/ ( https://github.com/rfvgyhn/factorio-exchange-string-parser )
-    # 
-    # Specify a combination of the 'basic' and 'advanced' settings in this object; they will be pulled apart appropriately.
-    # TODO: currently only preset settings can be used, not regular settings. If you don't know what that means, neither do I,
-    # but it means you can't fiddle with the spoil rate for example.
-    # 
-    # If you wish you could just use a map exchange string, please contribute to this forum discussion:
-    # https://forums.factorio.com/viewtopic.php?p=689150
-    {}
 
   ################
   # Technologies #
@@ -262,6 +227,15 @@ requires:
     'false': 0
     'true': 50
 
+  skip_starting_trigger_techs:
+    # Instead of needing to craft iron plates, copper plates, and a lab at the start of the run,
+    # start with the recipes for steam power, labs, and automation science pack already unlocked.
+    # The set of technologies changes with the starting_planet setting, and it's recommended particularly on Vulcanus and Gleba.
+    # The free_samples setting gives items from the early triggers, so on Vulcanus, you can start with foundries straight away without setting up a lubricant build,
+    # and on Gleba, you can start with biochambers without looting egg rafts.
+    'false': 50
+    'true': 0
+
   starting_items:
     # Mapping of Factorio internal item-name to amount granted on start.
     {}
@@ -290,6 +264,7 @@ requires:
   tech_cost_divisor:
     # Reduce the cost of research technologies by dividing by this number.
     # 1 = Vanilla. 10 = All technologies require 1/10th as much science.
+    # This is applied before tech_cost_max_count, and does not apply to infinite technologies.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
@@ -303,6 +278,8 @@ requires:
   tech_cost_max_count:
     # Cap the number of units a research technology can require. Vanilla technologies max out at 5000 (e.g. mech-armor).
     # This limit is applied after tech_cost_divisor, and does not apply to infinite technologies.
+    # If a technology price multiplier is included in a map_exchange_string, that is applied last.
+    # The order is: tech_cost_divisor -> tech_cost_max_count -> map_exchange_string.technology_price_multiplier
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 1
@@ -499,7 +476,7 @@ requires:
 
   demolisher_killers:
     # What should the logic consider viable methods for killing small demolishers?
-    # When enemies are enabled (according to `world_gen_enemies` or `world_gen_custom.no_enemies_mode`),
+    # When enemies are enabled (according to `world_gen_enemies` and/or `map_exchange_string`),
     # killing small demolishers is logically required for automating tungsten ore.
     # WARNING: military bonuses for damage, weapon speed, etc. are not considered by the logic.
     atomic bomb: true
@@ -515,7 +492,7 @@ requires:
 
   pentapod_killers:
     # What should the logic consider viable methods for killing Gleba enemies and defending your base against their attacks?
-    # When enemies are enabled (according to `world_gen_enemies` or `world_gen_custom.no_enemies_mode`),
+    # When enemies are enabled (according to `world_gen_enemies` and/or `map_exchange_string`),
     # killing Gleba enemies is logically required for automating agricultural science,
     # and if starting on Gelba, also required for automating chemical science.
     # WARNING: military bonuses for damage, weapon speed, etc. are not considered by the logic.
