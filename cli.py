@@ -121,7 +121,9 @@ def do_init(repo):
     venv_dir = os.path.join(repo, ".venv")
     python_exe = os.path.join(venv_dir, "bin", "python")
     if not os.path.isfile(python_exe):
-        subprocess.run(["uv", "venv", venv_dir], cwd=repo, check=True)
+        subprocess.run(["uv", "venv", "--python", "3.13", venv_dir], cwd=repo, check=True)
+    if not os.path.isdir(os.path.join(repo, "custom_worlds")):
+        os.mkdir(os.path.join(repo, "custom_worlds"))
 
     # Install everything from world/*/requirements.txt
     # and custom_worlds/{name}.apworld(a zip file)/{name}/requirements.txt
@@ -155,6 +157,11 @@ def do_init(repo):
             for file in file_list:
                 cmd.extend(["-r", os.path.abspath(file)])
             subprocess.run(cmd, cwd=repo, check=True)
+
+    if subprocess.run([python_exe, "-c", "import pkg_resources"], cwd=repo, stderr=subprocess.DEVNULL).returncode != 0:
+        # This package's dperecation is so painful for everyone.
+        cmd = ["uv", "pip", "install", "setuptools<81.0.0"]
+        subprocess.run(cmd, cwd=repo, check=True)
 
     # We could try to create the default host.yaml now, but I think it's better for the user to see that happen.
 
