@@ -34,7 +34,7 @@ game: Mina The Hollower
 requires:
   version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
   game:
-    Mina The Hollower: 1.0.0 # Version of the world required for this yaml to work as expected.
+    Mina The Hollower: 1.1.0 # Version of the world required for this yaml to work as expected.
 
 Mina The Hollower:
   ################
@@ -73,11 +73,6 @@ Mina The Hollower:
     radiantmanorgenerator: 0
     fixgenerators: 50
 
-  bone_up_cap:
-    # How do you want your Bone Up Cap Items. A progressive each for attack, defense and Sidearms OR One progressive item for all
-    perupgrade: 0
-    allupgrade: 50
-
   goal_generators:
     # The number of generators required to goal.
     #
@@ -90,6 +85,20 @@ Mina The Hollower:
     random-high: 0 # random value weighted towards higher values
     random-range-1-6: 0 # random value between 1 and 6
 
+  generator_pool:
+    # This is the pool of generators that the randomizer will select X generators from, where X is your "Generators Required" Option
+    # **WARNING** If this pool is smaller than the number of generators to goal, this will raise an option error
+    # **WARNING** This cannot be empty
+    # 
+    # Valid Options:
+    # - **Queensbury Crypt**
+    # - **Nox's Bayou**
+    # - **Septemburg**
+    # - **Bone Beach**
+    # - **Coltrane Peak**
+    # - **Astral Orrery**
+    ['Queensbury Crypt', "Nox's Bayou", 'Septemburg', 'Bone Beach', 'Coltrane Peak', 'Astral Orrery']
+
   starting_weapon:
     # Select your starting weapon.
     nightstar: 0
@@ -99,9 +108,14 @@ Mina The Hollower:
     guardian_casket: 0
     random: 50
 
+  bone_up_cap:
+    # How do you want your Bone Up Cap Items. A progressive each for attack, defense and Sidearms OR One progressive item for all
+    perupgrade: 0
+    allupgrade: 50
+
   max_stat_level:
-    # The maximum cap of each stat. Vanilla non-NG+ is 10, maximum at the end of the NG+es is 99.
-    # Will be soft capped if location count is too small
+    # The maximum cap of each stat. Vanilla non-NG+ is 10, maximum at the end of the NG+ is 99.
+    # Will be soft capped if location count is too small, as this replaces filler items in the pool
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 10
@@ -112,26 +126,11 @@ Mina The Hollower:
     random-high: 0 # random value weighted towards higher values
     random-range-10-99: 0 # random value between 10 and 99
 
-  ossex_start:
-    # Start In Ossex
-    'false': 0
-    'true': 50
-
-  kear_rando:
-    # Vanilla: Universal Kears are in the multiworld. Every Kear Lock you open before receiving every single Kear will be OUT OF LOGIC
-    # AP Items: Each Kear Lock is removed by a unique AP item
-    # Area AP Items: All Kear Locks in an area are removed by a single AP Item
-    vanilla: 0
-    apitems: 50
-    areaapitems: 0
-
-  random_starting_items:
-    # Take all starting health, spark, vials, Magic and randomize them. This increases the difficulty tenfold and can cause some cursed starts. You have been warned.
-    'false': 50
-    'true': 0
-
   ability_rando:
-    # Randomize abilities (You will not be able to perform the listed actions until sent them as items). You will always start in Ossex.
+    # Randomize abilities (You will not be able to perform the listed actions until sent them as items).
+    # If there are no abilities randomized, you will start in Loner's Landing. Otherwise you will start in Ossex
+    # 
+    # If you are ever stuck, there is a **Teleport Home** Button in the pause menu
     # 
     # Valid Options:
     # - **Burrow** - The ability to burrow. You will still be able to enter Underlabs.
@@ -142,10 +141,58 @@ Mina The Hollower:
     # - **Carry** - The ability to carry objects.
     ['Swim', 'Climb', 'Bounce', 'Carry', 'Spring']
 
-  death_link:
-    # When you die, everyone who enabled death link dies. Of course, the reverse is true too.
+  random_starting_items:
+    # Take all starting health, spark, vials, Magic and randomize them. This increases the difficulty tenfold and can cause some cursed starts. You have been warned.
     'false': 50
     'true': 0
+
+  kear_rando:
+    # Vanilla: Universal Kears are in the multiworld. Every Kear Lock you open before receiving every single Kear will be OUT OF LOGIC
+    # AP Items: Each Kear Lock is removed by a unique AP item
+    # Area AP Items: All Kear Locks in an area are removed by a single AP Item
+    vanilla: 0
+    apitems: 50
+    areaapitems: 0
+
+  astral_switches:
+    # Instead of hitting the switches in Mirror's End yourself, make them items in the multiworld
+    'false': 0
+    'true': 50
+
+  death_link:
+    # When you die a sparkless death, everyone who enabled death link dies. Of course, the reverse is true too.
+    'false': 50
+    'true': 0
+
+  trap_percent:
+    # What percentage of filler do you want replaced with traps?
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100
+
+  disabled_traps:
+    # Select what traps you would NOT like to play with.
+    # 
+    # Valid Options:
+    #     - **Flip Controls Trap** - Invert your controls
+    #     - **Floor Is Lava Trap** - Leave a trail of lava
+    #     - **Giant Trap** - Mina gets larger
+    #     - **2x Giant Trap** - Mina gets VERY large
+    #     - **Giant Enemies Trap** - All enemies get larger
+    #     - **2x Giant Enemies Trap** - All enemies get VERY large
+    #     - **Invisible Trap** - Mina becomes invisible
+    #     - **No HUD Trap** - Remove your HUD
+    #     - **Rotate Camera Trap** - Slowly rotate your camera for a short time
+    #     - **Rotate Camera Input Trap** - Moving now rotates your camera slowly
+    #     - **Mirror Screen Trap** - Mirror your screen
+    #     - **Upsidedown Screen Trap** - Mirror your screen vertically
+    []
 
   ###########################
   # Item & Location Options #

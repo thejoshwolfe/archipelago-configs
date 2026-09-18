@@ -17,7 +17,6 @@ Mina The Hollower:
     guardian_casket: 1
 
   # Logic
-  ossex_start: 'true'
   kear_rando: areaapitems
   ability_rando:
     - Bounce
@@ -26,10 +25,27 @@ Mina The Hollower:
     #- Climb
     - Spring
     - Swim
+  astral_switches: true
 
   # Balance
   bone_up_cap: allupgrade
   max_stat_level: 15
   random_starting_items: 'false'
+
+  # Traps
+  trap_percent: 10
+  disabled_traps:
+    - Flip Controls Trap # Invert your controls
+    - Floor Is Lava Trap # Leave a trail of lava
+    - Giant Trap # Mina gets larger
+    - 2x Giant Trap # Mina gets VERY large
+    - Giant Enemies Trap # All enemies get larger
+    - 2x Giant Enemies Trap # All enemies get VERY large
+    - Invisible Trap # Mina becomes invisible
+    - No HUD Trap # Remove your HUD
+    - Rotate Camera Trap # Slowly rotate your camera for a short time
+    - Rotate Camera Input Trap # Moving now rotates your camera slowly
+    - Mirror Screen Trap # Mirror your screen
+    - Upsidedown Screen Trap # Mirror your screen vertically
 
   death_link: 'false'
