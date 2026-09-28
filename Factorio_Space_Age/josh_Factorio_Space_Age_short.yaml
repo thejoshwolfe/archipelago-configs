@@ -15,10 +15,12 @@ requires:
   ####################
   # Speedups/Balance #
   ####################
+  quick_start: 'true'
   skip_starting_trigger_techs: 'true'
   tech_cost_divisor: 10
   tech_cost_max_count: 50
   production_and_utility_science: removed
+  intermediate_technologies: unlocked
 
   ###############
   # Energy Link #

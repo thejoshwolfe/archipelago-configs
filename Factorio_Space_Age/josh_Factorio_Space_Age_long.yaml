@@ -25,6 +25,7 @@ requires:
   ####################
   # Speedups/Balance #
   ####################
+  quick_start: 'true'
   skip_starting_trigger_techs: 'false'
   # Nearly full cost technology
   tech_cost_divisor: 1

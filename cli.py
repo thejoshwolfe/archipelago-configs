@@ -281,41 +281,108 @@ def do_factorio_server(repo, mod_source_path, factorio_root, server_dir, space_a
     except FileExistsError: pass
 
     # Mods
+    dependency_to_prefix_operator_version = {
+        # "some-name": ("?", ">=", "1.0.0"),
+        # "or-perhaps": (None, None, None),
+    }
+    import zipfile
+    with zipfile.ZipFile(mod_source_path) as z:
+        # https://lua-api.factorio.com/latest/auxiliary/mod-structure.html
+        for inner_item in z.infolist():
+            if not inner_item.filename.endswith("/info.json"): continue
+            with z.open(inner_item) as f:
+                for decl in json.load(f)["dependencies"]:
+                    prefix, name, operator, version = re.match(r'^\s*(!|\?|\+|\(\?\)|~)?\s*([A-Za-z0-9_-]+)\s*(?:(<|<=|=|>=|>)\s*(\d+\.\d+\.\d+))?$', decl).groups()
+                    dependency_to_prefix_operator_version[name] = (prefix, operator, version)
+            break
+    operator_fns = {
+        "<": lambda a, b: a < b,
+        "<=": lambda a, b: a <= b,
+        "=": lambda a, b: a == b,
+        ">": lambda a, b: a > b,
+        ">=": lambda a, b: a >= b,
+    }
+    def compare_version(present_version, operator, decl_version):
+        if operator == None: return True
+        return operator_fns[operator](
+            tuple(int(s) for s in present_version.split(".")),
+            tuple(int(s) for s in decl_version.split(".")),
+        )
+
+    def scan_mods_dir(mods_dir):
+        mod_name_to_version_and_path = {}
+        for mod_file_name in os.listdir(mods_dir):
+            match = re.match(r'^(.*)_(\d+\.\d+\.\d+)\.zip$', mod_file_name)
+            if match == None: continue
+            mod_name, mod_version = match.groups()
+            mod_name_to_version_and_path[mod_name] = (mod_version, os.path.join(mods_dir, mod_file_name))
+        return mod_name_to_version_and_path
+
     mods_dir = os.path.join(server_dir, "mods")
     try:
         os.mkdir(mods_dir)
     except FileExistsError:
         pass
     # Audit which existing mods are allowed.
-    mod_list = {"mods": [
+    assert space_age_enabled, "TODO: non-space-age has regressed"
+    builtin_mods = [
         # These are the defaults that ship with space age
-        {"name": "base", "enabled": True},
-        {"name": "elevated-rails", "enabled": True},
-        {"name": "quality", "enabled": True},
-        {"name": "space-age", "enabled": True},
-    ]}
-    for mod_file_name in os.listdir(mods_dir):
-        if space_age_enabled and mod_file_name.startswith("respawn-to-any-planet_"):
-            # This one is ok.
-            mod_list["mods"].append({"name": "respawn-to-any-planet", "enabled": True})
-            continue
-        if space_age_enabled and mod_file_name.startswith("any-planet-start_"):
-            # This one is ok.
-            mod_list["mods"].append({"name": "any-planet-start", "enabled": True})
-            continue
-        # Not this one.
-        os.remove(os.path.join(mods_dir, mod_file_name))
+        "base",
+        "elevated-rails",
+        "quality",
+        "recycler",
+        "space-age",
+    ]
+    mod_list = {"mods": [{"name": name, "enabled": True}]}
+    home_mod_name_to_version_and_path = scan_mods_dir(os.path.expanduser("~/.factorio/mods"))
+    server_mod_name_to_version_and_path = scan_mods_dir(mods_dir)
+    try:
+        _, path = server_mod_name_to_version_and_path[ap_mod_name]
+    except KeyError: pass
+    else:
+        # Delete any old copy of the primary mod we're trying to run.
+        os.remove(path)
+        del server_mod_name_to_version_and_path[ap_mod_name]
 
-    shutil.copy(mod_source_path, mods_dir + "/")
-    # AP is incompatible with space-age
-    for mod in mod_list["mods"]:
-        if mod["name"] == "space-age":
-            mod["enabled"] = space_age_enabled
-        elif mod["name"] in ("elevated-rails", "quality"):
-            # These mods do work, sorta, but they're excluded from the randomization experience.
-            # Not necessary. Turn them off.
-            mod["enabled"] = space_age_enabled
+    for decl_name, (prefix, operator, decl_version) in dependency_to_prefix_operator_version.items():
+        if decl_name in builtin_mods: continue # It's probably fine.
+        try:
+            home_version, home_path = home_mod_name_to_version_and_path[decl_name]
+        except KeyError:
+            home_path = None
+        else:
+            if not compare_version(home_version, operator, decl_version):
+                home_path = None # Never mind this.
+        try:
+            server_version, server_path = server_mod_name_to_version_and_path[decl_name]
+        except KeyError:
+            server_path = None
+        else:
+            if not compare_version(server_version, operator, decl_version):
+                server_path = None # Never mind this.
+        if home_path != None:
+            # Available to copy in.
+            should_copy = server_path == None
+            # Could put some optional --force-upgrade option to enable should_copy.
+            if should_copy:
+                if server_path != None:
+                    os.remove(server_path)
+                shutil.copy(home_path, mods_dir + "/")
+        elif server_path == None:
+            if prefix in (None, "~"):
+                sys.exit("ERROR: Missing required mod dependency: " + decl_name)
+            # I guess it's just missing.
+            continue
+        mod_list["mods"].append({"name": decl_name, "enabled": prefix != "!"})
+
+    for mod_name, (_, path) in server_mod_name_to_version_and_path.items():
+        if mod_name in dependency_to_prefix_operator_version:
+            continue # Handled above.
+        # Mod not recognized. Disable it.
+        mod_list["mods"].append({"name": mod_name, "enabled": False})
+
     # Enable the new mod.
+    shutil.copy(mod_source_path, mods_dir + "/")
     mod_list["mods"].append({"name": ap_mod_name, "enabled": True})
 
     with open(os.path.join(mods_dir, "mod-list.json"), "w") as f:

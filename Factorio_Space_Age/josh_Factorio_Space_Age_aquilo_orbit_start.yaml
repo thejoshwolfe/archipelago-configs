@@ -1,5 +1,5 @@
 name: factorio
-description: Win with space science. Cheap research costs. No technology prerequisites.
+description: Travel to another planet and do some research. Cheap research costs.
 game: 'Factorio: Space Age'
 requires:
   version: 0.6.6
@@ -9,7 +9,7 @@ requires:
   goal: space_science
   accessibility: minimal
   world_gen_enemies: 'false'
-  starting_planet: nauvis
+  starting_planet: aquilo_orbit
   death_link: 'true'
 
   ####################
@@ -19,10 +19,13 @@ requires:
   skip_starting_trigger_techs: 'true'
   tech_cost_divisor: 10
   tech_cost_max_count: 50
-  technology_prerequisites: removed
   production_and_utility_science: removed
   intermediate_technologies: unlocked
-  tech_tree_information: full
+  aquilo_orbit_start_settings:
+    heat pipe amount per craft: 10
+    ice platform amount per craft: 10
+    refined concrete amount per craft: 50
+    space platform foundation amount per craft: 50
 
   ###############
   # Energy Link #
@@ -36,7 +39,7 @@ requires:
   ################
   # Traps/Filler #
   ################
-  filler_count: '50'
+  filler_count: '4'
   filler_physical_projectile_damage_weight: '5'
   filler_stronger_explosives_weight: '5'
   filler_asteroid_productivity_weight: '1'
